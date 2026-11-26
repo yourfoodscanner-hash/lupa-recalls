@@ -1,0 +1,11 @@
+{
+  "feedUrl": "https://yourfoodscanner-hash.github.io/lupa-recalls/v1/recalls.json",
+  "userAgent": "lupa-recalls/1.0 (+https://github.com/yourfoodscanner-hash/lupa-recalls; yourfoodscanner@gmail.com)",
+  "curatedWindowDays": 180,
+  "sources": {
+    "rappelconso": {
+      "enabled": true,
+      "windowDays": 45
+    }
+  }
+}

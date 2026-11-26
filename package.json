@@ -1,0 +1,14 @@
+{
+  "name": "lupa-recalls",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official product recall notices for the LUPA app — collected, checked and published as one file.",
+  "license": "UNLICENSED",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "node lib/build.js --offline --check",
+    "build": "node lib/build.js",
+    "probe": "node tools/probe.js"
+  }
+}

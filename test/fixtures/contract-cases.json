@@ -1,0 +1,2968 @@
+{
+ "about": "Cases both sides of the \"v1\" file are tested against: the job that makes it (lupa-recalls, lib/contract.js) and the app that reads it (LUPA, lib/recalls.ts). ok: whether the notice is accepted; expect: fields of the accepted notice as the app holds them.",
+ "cases": [
+  {
+   "what": "a complete notice",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "only what is required",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "reason": "komadići stakla",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123"
+   },
+   "expect": {
+    "brand": null,
+    "details": null,
+    "lots": null,
+    "bestBefore": null,
+    "action": null,
+    "gtins": []
+   }
+  },
+  {
+   "what": "an empty list of barcodes",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": []
+   },
+   "expect": {
+    "gtins": []
+   }
+  },
+  {
+   "what": "every kind of barcode",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782",
+     "96385074",
+     "012345678905",
+     "10012345678902"
+    ]
+   },
+   "expect": {
+    "gtins": [
+     "3850123456782",
+     "96385074",
+     "012345678905",
+     "10012345678902"
+    ]
+   }
+  },
+  {
+   "what": "the same barcode twice is one",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782",
+     "3850123456782"
+    ]
+   },
+   "expect": {
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "Bosnia and Herzegovina",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "BA",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "Serbia",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "RS",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "a member state far away",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "FI",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "category baby",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "category food",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "food",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "category supplement",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "supplement",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "category cosmetic",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "cosmetic",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "category other",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "other",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard microbe",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "microbe",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard allergen",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "allergen",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard foreign",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard chemical",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "chemical",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard toxin",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "toxin",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard label",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "label",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard other",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "other",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "a leap day",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2024-02-29",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "the shortest id",
+   "ok": true,
+   "notice": {
+    "id": "a1b",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "the longest id",
+   "ok": true,
+   "notice": {
+    "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "a link with a query and a fragment",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://www.fsa.gov.ba/bs/obavijest/?id=7&x=y#top",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "a link with a port",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://example.co.uk:8443/a/b.pdf",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "texts are cleaned",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "  Dječja\n\tkašica ‮gnp.exe‬  190 g ",
+    "brand": "Primjer",
+    "reason": "komadići\u0000 stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   },
+   "expect": {
+    "name": "Dječja kašica gnp.exe 190 g",
+    "reason": "komadići stakla"
+   }
+  },
+  {
+   "what": "a long text is cut",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   },
+   "expect": {
+    "details": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…"
+   }
+  },
+  {
+   "what": "a field the format does not know is ignored",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ],
+    "severity": "high"
+   }
+  },
+  {
+   "what": "optional texts of the wrong kind are simply not shown",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": 7,
+    "reason": "komadići stakla",
+    "details": [
+     "x"
+    ],
+    "lots": {},
+    "bestBefore": "",
+    "action": "   ",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   },
+   "expect": {
+    "brand": null,
+    "details": null,
+    "lots": null,
+    "bestBefore": null,
+    "action": null
+   }
+  },
+  {
+   "what": "id undefined",
+   "ok": false,
+   "notice": {
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id \"\"",
+   "ok": false,
+   "notice": {
+    "id": "",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id \"ab\"",
+   "ok": false,
+   "notice": {
+    "id": "ab",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id \"Has-Capitals\"",
+   "ok": false,
+   "notice": {
+    "id": "Has-Capitals",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id \"with space\"",
+   "ok": false,
+   "notice": {
+    "id": "with space",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id \"-starts-with-dash\"",
+   "ok": false,
+   "notice": {
+    "id": "-starts-with-dash",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id \"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"",
+   "ok": false,
+   "notice": {
+    "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id 12345",
+   "ok": false,
+   "notice": {
+    "id": 12345,
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id \"../../etc\"",
+   "ok": false,
+   "notice": {
+    "id": "../../etc",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id \"a?b=c\"",
+   "ok": false,
+   "notice": {
+    "id": "a?b=c",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id \"a/b\"",
+   "ok": false,
+   "notice": {
+    "id": "a/b",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id \"a_b\"",
+   "ok": false,
+   "notice": {
+    "id": "a_b",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "id \"čćž\"",
+   "ok": false,
+   "notice": {
+    "id": "čćž",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country undefined",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country \"hr\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "hr",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country \"HRV\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HRV",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country \"US\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "US",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country \"GB\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "GB",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country \"XK\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "XK",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country \"EU\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "EU",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country 191",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": 191,
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country \"CH\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "CH",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country \"ME\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "ME",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country \"MK\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "MK",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "country \"AL\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "AL",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "published undefined",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "published \"24.11.2026\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "24.11.2026",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "published \"2026-11-31\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-31",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "published \"2026-02-30\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-02-30",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "published \"2026-13-01\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-13-01",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "published \"2026-00-10\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-00-10",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "published \"2026-11-24T00:00:00Z\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24T00:00:00Z",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "published \"1999-11-24\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "1999-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "published 20261124",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": 20261124,
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "published \"2026-1-5\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-1-5",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "published \"\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "category undefined",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "category \"toys\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "toys",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "category \"Baby\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "Baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "category 1",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": 1,
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "category \"\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard undefined",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard \"bacteria\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "bacteria",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard \"danger\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "danger",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard null",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": null,
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "hazard \"Microbe\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "Microbe",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "name undefined",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "name \"\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "name \"   \"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "   ",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "name \"x\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "x",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "name 42",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": 42,
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "name [\"a\",\"b\"]",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": [
+     "a",
+     "b"
+    ],
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "name \"\\n\\t\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "\n\t",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "reason undefined",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "reason \"\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "reason \"\\n\\t\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "\n\t",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "reason {}",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": {},
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "reason 0",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": 0,
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "source undefined",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "source \"\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "source 7",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": 7,
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "source \" \"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": " ",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url undefined",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"http://dirh.gov.hr/obavijesti/123\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "http://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"dirh.gov.hr/obavijesti\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "dirh.gov.hr/obavijesti",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"//dirh.gov.hr\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "//dirh.gov.hr",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"javascript:alert(1)\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "javascript:alert(1)",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"intent://scan/#Intent;scheme=zxing;end\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "intent://scan/#Intent;scheme=zxing;end",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"market://details?id=x\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "market://details?id=x",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"file:///sdcard/a.html\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "file:///sdcard/a.html",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"https://\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"https://localhost/a\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://localhost/a",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"https://user:pass@dirh.gov.hr/\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://user:pass@dirh.gov.hr/",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"https://dirh.gov.hr/a b\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/a b",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"https://dirh.gov.hr/\\\"onload\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/\"onload",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"https://dirh.gov.hr\\\\@evil.example/\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr\\@evil.example/",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"https://-bad-.example/\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://-bad-.example/",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \" https://dirh.gov.hr/\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": " https://dirh.gov.hr/",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"https://dirh.gov.hr/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"HTTPS://DIRH.GOV.HR/\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "HTTPS://DIRH.GOV.HR/",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"https://dirh.gov.hr/\\nhttps://evil.example\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/\nhttps://evil.example",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"https://dirh.gov.hr/<script>\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/<script>",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"tel:+38761000000\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "tel:+38761000000",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"data:text/html,hi\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "data:text/html,hi",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "url \"https://dirh..hr/\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh..hr/",
+    "gtins": [
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "gtins \"3850123456782\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": "3850123456782"
+   }
+  },
+  {
+   "what": "gtins [3850123456782]",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     3850123456782
+    ]
+   }
+  },
+  {
+   "what": "gtins [\"3850123456784\"]",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456784"
+    ]
+   }
+  },
+  {
+   "what": "gtins [\"3850123456782\",\"abc\"]",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782",
+     "abc"
+    ]
+   }
+  },
+  {
+   "what": "gtins [\"12345\"]",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "12345"
+    ]
+   }
+  },
+  {
+   "what": "gtins [\"3850123456782\",\"3850123456782\",\"3850123456782\",\"",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782",
+     "3850123456782"
+    ]
+   }
+  },
+  {
+   "what": "gtins [null]",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     null
+    ]
+   }
+  },
+  {
+   "what": "gtins {}",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": {}
+   }
+  },
+  {
+   "what": "gtins [\"385012345678 2\"]",
+   "ok": false,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "385012345678 2"
+    ]
+   }
+  },
+  {
+   "what": "not an object: null",
+   "ok": false,
+   "notice": null
+  },
+  {
+   "what": "not an object: a text",
+   "ok": false,
+   "notice": "notice"
+  },
+  {
+   "what": "not an object: a list",
+   "ok": false,
+   "notice": [
+    {
+     "id": "hr-2026-11-24-kasica",
+     "country": "HR",
+     "published": "2026-11-24",
+     "category": "baby",
+     "hazard": "foreign",
+     "name": "Dječja kašica jabuka i kruška, 190 g",
+     "brand": "Primjer",
+     "reason": "komadići stakla",
+     "details": "U pojedinim teglicama mogući su komadići stakla.",
+     "lots": "L24318, L24319",
+     "bestBefore": "30. 6. 2027.",
+     "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+     "source": "Državni inspektorat Republike Hrvatske",
+     "url": "https://dirh.gov.hr/obavijesti/123",
+     "gtins": [
+      "3850123456782"
+     ]
+    }
+   ]
+  }
+ ]
+}

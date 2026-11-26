@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1001, "numero_fiche": "2026-11-0101", "libelle": "Rillettes de poulet rôti 220 g", "marque_produit": "Exemple",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Viandes", "date_publication": "2026-11-24T09:15:00+01:00",
+    "motif_rappel": "Présence de Listeria monocytogenes", "risques_encourus": "Listeria monocytogenes (agent responsable de la listériose)",
+    "conduites_a_tenir_par_le_consommateur": "Ne plus consommer|Rapporter le produit au point de vente|Contacter le service consommateur",
+    "identification_produits": "non lu par l'adaptateur", "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90001/Interne",
+    "gtin": "3017620422003 3017620425035"
+  },
+  {
+    "id": 1002, "numero_fiche": "2026-11-0102", "libelle": "Lait infantile 1er âge 800 g", "marque_produit": "Exemple Bébé",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Aliments pour bébés", "date_publication": "2026-11-23",
+    "motif_rappel": "Présence possible de céréulide (toxine produite par Bacillus cereus)", "risques_encourus": "Toxines",
+    "conduites_a_tenir_par_le_consommateur": "Ne plus utiliser le produit", "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90002/Interne",
+    "gtin": 4006381333931
+  },
+  {
+    "id": 1003, "numero_fiche": "2026-11-0103", "libelle": "Gélules minceur 60 gélules", "marque_produit": "Exemple",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Compléments alimentaires", "date_publication": "22/11/2026 10:00:00",
+    "motif_rappel": "Présence d'une substance interdite (sibutramine)", "risques_encourus": "Autres contaminants chimiques",
+    "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90003/Interne", "gtin": ""
+  },
+  {
+    "id": 1004, "numero_fiche": "2026-11-0104", "libelle": "Crème mains au calendula 75 ml", "marque_produit": "Exemple",
+    "categorie_produit": "Hygiène-Beauté", "sous_categorie_produit": "Cosmétiques", "date_publication": "2026-11-21T08:00:00+01:00",
+    "motif_rappel": "Présence d'une substance non autorisée", "risques_encourus": "Allergies",
+    "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90004/Interne", "gtin": "5449000000996"
+  },
+  {
+    "id": 1005, "numero_fiche": "2026-11-0105", "libelle": "Biscuits aux noisettes 150 g", "marque_produit": "Exemple",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Céréales et produits de boulangerie", "date_publication": "2026-11-20T08:00:00+01:00",
+    "motif_rappel": "Présence d'arachide non mentionnée sur l'étiquetage", "risques_encourus": "Allergènes non déclarés",
+    "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90005/Interne", "gtin": "96385074 1234567890123"
+  },
+  {
+    "id": 1006, "numero_fiche": "2026-11-0106", "libelle": "Compote pomme poire 4 x 100 g", "marque_produit": "Exemple",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Fruits et légumes", "date_publication": "2026-11-19T08:00:00+01:00",
+    "motif_rappel": "Présence de corps étrangers (morceaux de verre)", "risques_encourus": "Blessures / lésions",
+    "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90006/Interne"
+  },
+  {
+    "id": 1007, "numero_fiche": "2026-11-0107", "libelle": "Trottinette électrique X200", "marque_produit": "Exemple",
+    "categorie_produit": "Automobiles et moyens de déplacement", "sous_categorie_produit": "Engins de déplacement", "date_publication": "2026-11-19T08:00:00+01:00",
+    "motif_rappel": "Risque de rupture du guidon", "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90007/Interne"
+  },
+  {
+    "id": 1008, "numero_fiche": "2026-11-0108", "libelle": "Croquettes pour chat 2 kg", "marque_produit": "Exemple",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Aliments pour animaux", "date_publication": "2026-11-18T08:00:00+01:00",
+    "motif_rappel": "Présence de salmonelles", "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90008/Interne"
+  },
+  {
+    "id": 1009, "numero_fiche": "2026-11-0109", "libelle": "Fromage au lait cru 250 g", "marque_produit": "Exemple",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Lait et produits laitiers", "date_publication": "2026-11-17T08:00:00+01:00",
+    "motif_rappel": "Présence d'Escherichia coli STEC", "lien_vers_la_fiche_rappel": "https://exemple-pas-officiel.example/fiche/90009"
+  },
+  {
+    "id": 1010, "numero_fiche": "2026-09-0001", "libelle": "Jus de pomme 1 L", "marque_produit": "Exemple",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Boissons non alcoolisées", "date_publication": "2026-09-01T08:00:00+02:00",
+    "motif_rappel": "Dépassement de la limite autorisée en patuline", "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/80001/Interne"
+  },
+  {
+    "id": 1011, "numero_fiche": "2026-11-0101", "libelle": "Rillettes de poulet rôti 220 g", "marque_produit": "Exemple",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Viandes", "date_publication": "2026-11-24T09:15:00+01:00",
+    "motif_rappel": "Présence de Listeria monocytogenes", "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90001/Interne",
+    "gtin": "8000000000019"
+  },
+  {
+    "id": 1012, "numero_fiche": "2026-11-0112", "libelle": "Pâte à tartiner 400 g", "marque_produit": "Exemple",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Produits sucrés", "date_publication": "date inconnue",
+    "motif_rappel": "Erreur d'étiquetage", "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90012/Interne"
+  },
+  {
+    "id": 1013, "numero_fiche": "2026-11-0113", "libelle": "Yaourt nature 4 x 125 g", "marque_produit": "Exemple",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Lait et produits laitiers", "date_publication": "2026-11-16T08:00:00+01:00",
+    "motif_rappel": "Date limite de consommation erronée", "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90013/Interne"
+  },
+  {
+    "id": 1014, "numero_fiche": "2026-11-0114", "libelle": "Thé vert bio 20 sachets", "marque_produit": "Exemple",
+    "categorie_produit": "Alimentation", "sous_categorie_produit": "Cacao, café et thé", "date_publication": "2026-11-15T08:00:00+01:00",
+    "motif_rappel": "Non-conformité", "lien_vers_la_fiche_rappel": "https://rappel.conso.gouv.fr/fiche-rappel/90014/Interne"
+  }
+]

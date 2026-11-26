@@ -1,0 +1,101 @@
+# Builds the file the LUPA app reads (public/v1/recalls.json) and publishes it on GitHub Pages.
+#
+#   every day 03:10 UTC   read the sources, build, publish
+#   on every push to main  the same — so a hand-written notice is live a minute after it is saved
+#   by hand                Actions → "Feed" → Run workflow
+#
+# Nothing is published unless every test passes and the build says the file is sound. When a step
+# fails, the file that is already published stays as it is, and GitHub e-mails the owner.
+name: Feed
+
+on:
+  schedule:
+    - cron: '10 3 * * *'
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'public/v1/recalls.json'
+      - 'state/**'
+      - '**.md'
+  workflow_dispatch:
+
+# one run at a time; a second one waits (it never cancels a run that is publishing)
+concurrency:
+  group: feed
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # to keep the published file and the run's state in the repository (history of what was published)
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          package-manager-cache: false   # the job has no dependencies to install
+
+      - name: Tests
+        run: npm test
+
+      - name: Build the file
+        run: node lib/build.js
+
+      - name: Tests on the built file
+        run: node --test test/build.test.js
+
+      # The published file is kept in the repository: every version that users ever got can be looked
+      # up, the next run can keep a source's notices when the source cannot be read — and the daily
+      # commit keeps this scheduled workflow alive (GitHub switches schedules off in quiet repositories).
+      - name: Keep the file in the repository
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "lupa-recalls"
+          git config user.email "lupa-recalls@users.noreply.github.com"
+          git add public/v1/recalls.json state/last-run.json
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "feed: $(date -u +%Y-%m-%d) ($(node -e "console.log(require('./public/v1/recalls.json').recalls.length)") obavijesti)"
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
+
+  # After publishing: a source that has been silent for three days fails the run, so a person hears of it.
+  health:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          package-manager-cache: false   # the job has no dependencies to install
+      - run: node lib/health.js
