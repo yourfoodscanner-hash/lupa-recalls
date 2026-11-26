@@ -96,6 +96,18 @@ Ručno unesena obavijest ostaje u aplikaciji 180 dana od objave (`config.json`,
 
 Fajl čije ime počinje s `_` (npr. `curated/_nacrt.json`) se ne čita — zgodno za nacrte.
 
+**Ako mijenjaš iz Terminala, a ne na GitHubu:** posao poslije svakog pokretanja sam upiše
+objavljeni fajl u repozitorij (`public/v1/recalls.json`, `state/last-run.json`), pa je tvoja kopija
+iza. Prije slanja povuci te izmjene:
+
+```
+cd ~/lupa-recalls
+git add .
+git commit -m "šta je promijenjeno"
+git pull --rebase origin main
+git push
+```
+
 ### Gdje gledati (službene objave)
 
 - BiH — Agencija za sigurnost hrane BiH: https://www.fsa.gov.ba/
@@ -112,15 +124,16 @@ Fajl čije ime počinje s `_` (npr. `curated/_nacrt.json`) se ne čita — zgodn
 
 | Izvor | Zemlja | Stanje |
 |---|---|---|
-| RappelConso (`sources/rappelconso.js`) | Francuska | **Napisan bez pristupa živim podacima** — vidi napomenu ispod. |
+| RappelConso (`sources/rappelconso.js`) | Francuska | Radi (26. 11. 2026: 19 336 redova → 281 obavijest, 45 dana). Barkodovi iz registra još nisu pročitani — vidi napomenu ispod. |
 
 **Napomena o RappelConso.** Adapter je pisan na mjestu s kojeg se `data.economie.gouv.fr` nije
-mogao otvoriti, pa nazivi kolona nisu provjereni na živim podacima; prihvata više poznatih
-naziva za svaku kolonu. Ako stvarni nazivi nisu među njima, adapter **ne pogađa**: stane s
-porukom u kojoj su nazivi kolona koje je vidio, fajl se objavi bez tog izvora, i ništa pogrešno
-ne stigne u aplikaciju. Prvo pokretanje na GitHubu pokazuje radi li (Summary:
-„Izvor rappelconso: pročitano … → objavljeno …” ili „NIJE pročitan — …”). Za pregled živih
-podataka: `node tools/probe.js rappelconso`.
+mogao otvoriti; prihvata više poznatih naziva za svaku kolonu, a kad stvarni nazivi nisu među
+njima, **ne pogađa**: stane s porukom u kojoj su nazivi kolona koje je vidio, fajl se objavi bez
+tog izvora, i ništa pogrešno ne stigne u aplikaciju. Prvo pokretanje na GitHubu (26. 11. 2026)
+je registar pročitalo: obavezne kolone su prepoznate. Kolona s barkodom **nije** prepoznata
+(objavljeno 0 obavijesti s barkodom), pa se za francuske obavijesti upozorenje pri skeniranju
+još ne pojavljuje; lista radi. Svako pokretanje piše u Summary: „Izvor rappelconso: pročitano …
+→ objavljeno …” ili „NIJE pročitan — …”. Za pregled živih podataka: `node tools/probe.js rappelconso`.
 
 Iz registra se uzimaju samo hrana, hrana za bebe, dodaci prehrani i kozmetika, zadnjih 45 dana.
 Serije i rokovi se **ne** čitaju iz registra (polje u kojem su nije provjereno, a pogrešno

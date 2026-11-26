@@ -34,7 +34,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      # Always the latest main — never the commit that started the run. A re-run of an old run would
+      # otherwise build an old tree and then fail to put its file on top of the newer one on main.
       - uses: actions/checkout@v7
+        with:
+          ref: main
 
       - uses: actions/setup-node@v7
         with:
@@ -63,7 +67,10 @@ jobs:
             echo "Nothing changed."
           else
             git commit -m "feed: $(date -u +%Y-%m-%d) ($(node -e "console.log(require('./public/v1/recalls.json').recalls.length)") obavijesti)"
-            git pull --rebase --autostash origin main
+            # main may have moved while this ran (a hand-written notice saved just now): this commit goes on top of it.
+            # The two files above are always this run's — they are the newest — so a clash in them is settled in their favour.
+            git fetch origin main
+            git rebase -X theirs origin/main
             git push origin HEAD:main
           fi
 
