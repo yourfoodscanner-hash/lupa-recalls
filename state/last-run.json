@@ -1,0 +1,24 @@
+{
+ "generated": "2026-11-26T20:01:49Z",
+ "total": 281,
+ "curated": 0,
+ "byCountry": {
+  "FR": 281
+ },
+ "sources": {
+  "rappelconso": {
+   "enabled": true,
+   "ok": true,
+   "seen": 19336,
+   "published": 281,
+   "dropped": {
+    "kategorija koju LUPA ne prikazuje": 4932,
+    "starije od prozora": 14123
+   },
+   "carried": 0,
+   "error": null
+  }
+ },
+ "failing": {},
+ "warnings": []
+}
