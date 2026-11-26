@@ -4,7 +4,7 @@ const { verify } = require('./no-network');   // first: no test may touch the ne
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const C = require('../lib/contract');
-const { isValidGtin, gtinsIn } = require('../lib/gtin');
+const { isValidGtin, isShopNumber, gtinsIn } = require('../lib/gtin');
 const { cases } = require('./fixtures/contract-cases.json');
 
 test('the shared cases: accepted or refused exactly as the app does', () => {
@@ -66,6 +66,14 @@ test('barcodes: the check digit decides; every valid one in a text is found once
   assert.deepEqual(gtinsIn('lot 123456789 GTIN 1234567890123 tel 0612345678'), []);      // wrong check digits are not barcodes
   assert.deepEqual(gtinsIn('130176204220031'), []);                                       // a longer number is not cut into one
   for (const none of [null, undefined, '', [], {}]) assert.deepEqual(gtinsIn(none), []);
+});
+
+test('numbers that shops give out themselves: told apart exactly as the app does (the same lists as its test)', () => {
+  const SHOP = ['2609898025201', '0202558000000', '293134000002', '02609898025201', '2000000000008', '0400000000008', '0500000000005', '9900000000004', '9800000000007', '20123451', '00000017'];
+  const OWN = ['3505870000343', '3850123456782', '4337182082293', '5099821001919', '8715342048819', '03456772024237', '366528701912', '012345678905', '96385074', '10012345678902', '1999999999992', '3000000000007', '0300000000001', '0600000000002', '9790000000001'];
+  for (const code of SHOP) { assert.equal(isValidGtin(code), true, code); assert.equal(isShopNumber(code), true, code); }
+  for (const code of OWN) { assert.equal(isValidGtin(code), true, code); assert.equal(isShopNumber(code), false, code); }
+  for (const none of ['2609898025202', '', '26', 'abc', null, undefined, 2609898025201]) assert.equal(isShopNumber(none), false, String(none));
 });
 
 verify();

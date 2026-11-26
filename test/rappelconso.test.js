@@ -80,6 +80,7 @@ test('the live register (as seen on 26 Nov 2026): lower-case texts get their cap
   for (const none of ['sans marque', 'SANS MARQUE', 'Sans-marque', 'aucune', 'n/a', '-', '', '  ', 'diverses marques', '/', '–', 'en attente des résultats d\'analyses, blocage des coquillages', null]) assert.equal(RC.brandOf(none), undefined, String(none));
   assert.deepEqual(['montauzer', 'ferme de la motte', 'saint-marc', "l'atelier du pain", 'E.Leclerc', 'u', 'carrefour bio', 'e.leclerc ibos'].map(RC.brandOf), ['Montauzer', 'Ferme de la Motte', 'Saint-Marc', "L'atelier du Pain", 'E.Leclerc', 'U', 'Carrefour Bio', 'E.Leclerc Ibos']);
   assert.deepEqual(RC.gtinsOf({ gtin: '96385074 3017620425035', identification_produits: '$4006381333931$1$dlc$2026-01-01$' }), ['96385074', '3017620425035', '4006381333931']);   // a barcode column is read whole
+  assert.deepEqual(RC.gtinsOf({ gtin: '2609898025201 3017620425035', identification_produits: ['$0202558000000$1$dlc$2026-01-01$', '$293134000002$x$y$', '$3505870000343$x$y$'] }), ['3017620425035', '3505870000343']);   // sold by weight: a shop's own numbers are left out
   assert.deepEqual(RC.gtinsOf({ identification_produits: ['$3 017 620 422 003$1$dlc$2026-01-01$', '$30176204220031$x$y$'] }), []);   // never assembled from pieces; a wrong check digit is not a barcode
 });
 

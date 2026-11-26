@@ -24,7 +24,7 @@
  * entry in COLUMNS below; there is no barcode column; every text is in lower case ("tarte 3
  * fromages", "montauzer"); a product without a brand says "sans marque".
  */
-const { gtinsIn, isValidGtin } = require('../lib/gtin');
+const { gtinsIn, isValidGtin, isShopNumber } = require('../lib/gtin');
 const { fold, hazardOf } = require('../lib/classify');
 const { hostOf } = require('../lib/contract');
 
@@ -131,15 +131,19 @@ function listText(value, close = false) {
  * the fields where the product has one) gives a barcode only as a WHOLE field that is a valid
  * GTIN of 12, 13 or 14 digits — never assembled from pieces, and never an 8-digit field, which a
  * batch number written like a date ("20261122") can look like.
+ *
+ * Never a number a shop gives out itself (goods sold by weight — lib/gtin, isShopNumber): on the
+ * live data of 26 Nov 2026 these were 30 of 233 barcodes ("2609898025201", "0202558000000"). The
+ * same number is another product in another shop; a scan must not be warned by it.
  */
 function gtinsOf(row) {
-  const out = gtinsIn(pick(row, 'gtin'));
+  const out = gtinsIn(pick(row, 'gtin')).filter((g) => !isShopNumber(g));
   const ident = pick(row, 'ident');
   const entries = Array.isArray(ident) ? ident : ident === null ? [] : [ident];
   for (const entry of entries) {
     for (const field of String(entry).split(/[$|]/)) {
       const f = field.trim();
-      if (f.length >= 12 && isValidGtin(f) && !out.includes(f)) out.push(f);
+      if (f.length >= 12 && isValidGtin(f) && !isShopNumber(f) && !out.includes(f)) out.push(f);
     }
   }
   return out.slice(0, 50);

@@ -138,6 +138,23 @@ test('a list that suddenly shrinks to less than half is not published', async ()
   assert.equal((await run({ curated: [], previous: small.text, offline: true })).recalls.length, 0);
 });
 
+test('a number a shop gives out itself is never published as a barcode — whatever way it came', async () => {
+  // from a source: left out of the notice, the notice stays
+  const weighed = [{ ...rows[0], numero_fiche: '2026-11-0901', gtin: '2609898025201 3017620422003 0202558000000' }, { ...rows[0], numero_fiche: '2026-11-0902', gtin: '293134000002' }];
+  const out = await run({ fetchImpl: live(weighed) });
+  assert.deepEqual(out.recalls.map((n) => [n.id, n.gtins ?? []]), [['fr-rc-2026-11-0901', ['3017620422003']], ['fr-rc-2026-11-0902', []]]);
+  // carried over from a file made before this rule: cleaned on the way
+  const old = JSON.stringify({ version: 1, generated: '2026-11-25T04:10:00Z', recalls: [
+    { ...out.recalls[0], gtins: ['2609898025201', '3017620422003'] }, { ...out.recalls[1], gtins: ['0202558000000'] },
+  ] });
+  const carried = await run({ previous: old, fetchImpl: down });
+  assert.deepEqual(carried.recalls.map((n) => n.gtins ?? []), [['3017620422003'], []]);
+  assert.equal(carried.report.sources.rappelconso.carried, 2);
+  for (const n of carried.recalls) assert.equal(C.checkNotice(n).ok, true);
+  // by hand (should loadCurated ever be bypassed): the build refuses to publish
+  await assert.rejects(run({ curated: checked([notice('hr-weighed', { gtins: ['2609898025201'] })]), fetchImpl: down }), /brojevi koje prodavnice dodjeljuju same \(hr-weighed: 2609898025201\)/);
+});
+
 test('a previous file that is not the format is simply not used', async () => {
   for (const previous of ['', '{', 'null', '<!doctype html>', JSON.stringify({ version: 2, generated: '2026-11-25T04:10:00Z', recalls: [notice('fr-rc-x1')] })]) {
     const out = await run({ previous, fetchImpl: down });
@@ -155,6 +172,7 @@ test('hand-written files: every mistake stops the build and is named with its fi
     [{ 'hr.json': { recalls: [] } }, /curated\/hr\.json: treba lista/],
     [{ 'hr.json': [notice('hr-1', { url: 'http://dirh.gov.hr/x' })] }, /curated\/hr\.json, obavijest 1 \(„hr-1”\): url .* treba https/],
     [{ 'hr.json': [notice('hr-1', { gtins: ['3850123456785'] })] }, /nije ispravan barkod/],
+    [{ 'hr.json': [notice('hr-1', { gtins: ['3850123456782', '2609898025201'] })] }, /barkod „2609898025201” je broj koji prodavnica dodjeljuje sama/],
     [{ 'hr.json': [notice('hr-1', { published: '24.11.2026' })] }, /published „24\.11\.2026” — treba dan u obliku GGGG-MM-DD/],
     [{ 'hr.json': [notice('hr-1', { hazard: 'bacteria' })] }, /hazard „bacteria” — jedno od: microbe, allergen/],
     [{ 'hr.json': [notice('hr-1', { category: 'hrana' })] }, /category „hrana” — jedno od: baby, food/],

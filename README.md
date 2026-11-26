@@ -83,7 +83,7 @@ u aplikaciji.
 | `source` | da | Ko je objavio (do 120). |
 | `url` | da | Adresa službene obavijesti. **Samo `https://`.** |
 | `brand`, `details`, `lots`, `bestBefore`, `action` | ne | Marka; objašnjenje (do 800); serije; rok; šta uraditi (do 500). Prepiši kako piše u obavijesti. |
-| `gtins` | ne | Barkodovi proizvoda (8, 12, 13 ili 14 cifara). Sa barkodom aplikacija upozori i pri skeniranju. **Upiši ga samo ako je u obavijesti** — ne pogađaj. |
+| `gtins` | ne | Barkodovi proizvoda (8, 12, 13 ili 14 cifara). Sa barkodom aplikacija upozori i pri skeniranju. **Upiši ga samo ako je u obavijesti** — ne pogađaj. Ne upisuj broj koji počinje s 2, 02 ili 04 (roba na vagu): nije jedinstven. |
 
 Pravila koja posao sam provjerava (i **ne objavljuje ništa** dok greška nije ispravljena):
 pogrešan datum, nepoznata vrijednost, adresa koja nije https, barkod s pogrešnom kontrolnom
@@ -138,6 +138,11 @@ onim što je registar stvarno dao 26. 11. 2026 (19 336 redova):
   (unosi oblika `$…$…$…$`), i samo kad je **cijeli dio** između dva `$` ispravan barkod od 12, 13
   ili 14 cifara. Ništa se ne sastavlja iz dijelova, a dio od 8 cifara se ne uzima (tako izgleda i
   serija pisana kao datum). Koliko obavijesti ima barkod piše u Summary („s barkodom: N”).
+
+- **brojevi koje prodavnice dodjeljuju same** (počinju s 2, 02 ili 04 — roba na vagu: sir, meso,
+  pekara) se ne objavljuju kao barkod: isti broj je u drugoj prodavnici drugi proizvod, pa bi
+  aplikacija pri skeniranju upozorila na pogrešan. U registru ih je 26. 11. 2026. bilo 30 od 233.
+  Isto važi za ručni unos: takav barkod zaustavlja objavu s porukom — izostavi ga.
 
 Za pregled živih podataka: `node tools/probe.js rappelconso` (ispiše kolone, primjere polja s
 identifikacijom i koliko redova ima barkod).
