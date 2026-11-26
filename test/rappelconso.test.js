@@ -3,6 +3,7 @@
  * The French register's adapter. The rows are invented, in the two spellings of the columns the
  * adapter accepts. NOT tested here: the live register — see the note at the top of sources/rappelconso.js.
  */
+const { verify } = require('./no-network');   // first: no test may touch the network
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const RC = require('../sources/rappelconso');
@@ -100,3 +101,5 @@ test('small parts: days, categories, ids', () => {
   assert.equal(odd.notice.id, 'fr-rc-sr-00123-24-v2');
   assert.equal(C.checkNotice(odd.notice).ok, true);
 });
+
+verify();

@@ -1,5 +1,6 @@
 'use strict';
 /** From a source's words to the app's kinds of hazard: only when the words clearly say it — otherwise "other". */
+const { verify } = require('./no-network');   // first: no test may touch the network
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const { hazardOf, fold } = require('../lib/classify');
@@ -24,3 +25,5 @@ test('several texts are read together; an undeclared allergen wins over the labe
   assert.equal(hazardOf(null, undefined, ''), 'other');
   assert.equal(fold('Présence d\'ALLERGÈNES'), 'presence d\'allergenes');
 });
+
+verify();

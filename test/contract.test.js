@@ -1,5 +1,6 @@
 'use strict';
 /** The format "v1": what is published is exactly what the app accepts — the same cases as the app's own test. */
+const { verify } = require('./no-network');   // first: no test may touch the network
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const C = require('../lib/contract');
@@ -66,3 +67,5 @@ test('barcodes: the check digit decides; every valid one in a text is found once
   assert.deepEqual(gtinsIn('130176204220031'), []);                                       // a longer number is not cut into one
   for (const none of [null, undefined, '', [], {}]) assert.deepEqual(gtinsIn(none), []);
 });
+
+verify();

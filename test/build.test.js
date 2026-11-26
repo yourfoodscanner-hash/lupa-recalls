@@ -3,6 +3,7 @@
  * The build: hand-written notices that must be right, sources that may fail, and a file that is
  * published only when it is sound. Nothing here touches the network or the repository's own files.
  */
+const { verify } = require('./no-network');   // first: no test may touch the network
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
@@ -133,7 +134,7 @@ test('a list that suddenly shrinks to less than half is not published', async ()
   assert.equal(forced.recalls.length, 5);
   // more than half left: fine; a small list may shrink freely
   assert.equal((await run({ curated: curated.slice(0, 20), previous: first.text, fetchImpl: live() })).recalls.length, 28);
-  const small = await run({ curated: curated.slice(0, 4) });
+  const small = await run({ curated: curated.slice(0, 4), fetchImpl: down });
   assert.equal((await run({ curated: [], previous: small.text, offline: true })).recalls.length, 0);
 });
 
@@ -201,3 +202,5 @@ test('the adapter is the one the build uses, with a prefix nothing else may use'
   assert.equal(RC.country, 'FR');
   assert.equal(require('../lib/build').SOURCES.rappelconso, RC);
 });
+
+verify();
