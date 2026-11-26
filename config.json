@@ -3,9 +3,11 @@
   "userAgent": "lupa-recalls/1.0 (+https://github.com/yourfoodscanner-hash/lupa-recalls; yourfoodscanner@gmail.com)",
   "curatedWindowDays": 180,
   "sources": {
-    "rappelconso": {
-      "enabled": true,
-      "windowDays": 45
-    }
+    "rappelconso": { "enabled": true, "windowDays": 45 },
+    "lebensmittelwarnung": { "enabled": true, "windowDays": 45 },
+    "ages": { "enabled": true, "windowDays": 60 },
+    "govsi": { "enabled": true, "windowDays": 180 },
+    "hapih": { "enabled": true, "windowDays": 180 },
+    "fsaba": { "enabled": true, "windowDays": 180 }
   }
 }

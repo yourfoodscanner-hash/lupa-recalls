@@ -221,4 +221,42 @@ test('the adapter is the one the build uses, with a prefix nothing else may use'
   assert.equal(require('../lib/build').SOURCES.rappelconso, RC);
 });
 
+test('only the sources config.json names are read — and each is given what it published last time', async () => {
+  const calls = [];
+  const fake = (name, prefix, country) => ({
+    name, prefix, country,
+    fetchNotices: async ({ since, known }) => {
+      calls.push({ name, since, known: [...known.keys()] });
+      return { notices: [{ id: `${prefix}1`, country, published: '2026-11-25', category: 'food', hazard: 'other', name: 'Proizvod', reason: 'razlog', source: name, url: 'https://example.org/1' }], seen: 1, skipped: {} };
+    },
+  });
+  const sources = { one: fake('one', 'xa-one-', 'AT'), two: fake('two', 'xb-two-', 'SI') };
+  const config = { ...CONFIG, sources: { one: { windowDays: 10 } } };
+  const first = await build({ now: NOW, config, curated: [], sources });
+  assert.deepEqual(calls, [{ name: 'one', since: '2026-11-16', known: [] }]);
+  assert.deepEqual(first.recalls.map((n) => n.id), ['xa-one-1']);
+  assert.deepEqual([first.report.sources.one.enabled, first.report.sources.two.enabled], [true, false]);
+  await build({ now: NOW, config, curated: [], sources, previous: first.text });
+  assert.deepEqual(calls[1].known, ['xa-one-1']);
+});
+
+test('every source the job can read: its own prefix and country; config.json names only these, each with a window', () => {
+  const { SOURCES } = require('../lib/build');
+  const config = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'config.json'), 'utf8'));
+  const prefixes = Object.values(SOURCES).map((s) => s.prefix);
+  for (const [name, adapter] of Object.entries(SOURCES)) {
+    assert.equal(adapter.name, name);
+    assert.match(adapter.prefix, /^[a-z]{2}-[a-z]+-$/);
+    assert.ok(C.COUNTRIES.includes(adapter.country), name);
+    assert.ok(adapter.prefix.startsWith(adapter.country.toLowerCase()), name);
+    assert.equal(typeof adapter.fetchNotices, 'function');
+    assert.match(adapter.defaultUrl, /^https:\/\//);
+    assert.equal(prefixes.filter((p) => p.startsWith(adapter.prefix) || adapter.prefix.startsWith(p)).length, 1, `${name}: a prefix that overlaps another`);
+  }
+  for (const [name, settings] of Object.entries(config.sources)) {
+    assert.ok(SOURCES[name], `config.json names „${name}”, which the job does not know`);
+    assert.ok(Number.isInteger(settings.windowDays) && settings.windowDays >= 14 && settings.windowDays <= 365, name);
+  }
+});
+
 verify();
