@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-26T20:32:32Z",
+ "generated": "2026-11-26T20:46:35Z",
  "recalls": [
   {
    "id": "fr-rc-2026-11-0187",
@@ -85,10 +85,7 @@
    "details": "Listeria monocytogenes (agent responsable de la listériose)",
    "action": "Ne plus consommer. Rapporter le produit au point de vente. Détruire le produit.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24191/interne",
-   "gtins": [
-    "2609898025201"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24191/interne"
   },
   {
    "id": "fr-rc-2026-11-0201",
@@ -286,10 +283,7 @@
    "details": "Blessures",
    "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le point de vente.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24174/interne",
-   "gtins": [
-    "0202558000000"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24174/interne"
   },
   {
    "id": "fr-rc-2026-11-0181",
@@ -303,15 +297,7 @@
    "details": "Listeria monocytogenes (agent responsable de la listériose)",
    "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le point de vente. Détruire le produit.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24175/interne",
-   "gtins": [
-    "2000001131916",
-    "2000001132333",
-    "2000001133163",
-    "2000001134641",
-    "2000001140338",
-    "2000001141731"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24175/interne"
   },
   {
    "id": "fr-rc-2026-11-0182",
@@ -411,10 +397,7 @@
    "details": "Listeria monocytogenes (agent responsable de la listériose)",
    "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24157/interne",
-   "gtins": [
-    "2030000020942"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24157/interne"
   },
   {
    "id": "fr-rc-2026-11-0165",
@@ -490,10 +473,7 @@
    "details": "Salmonella spp (agent responsable de la salmonellose)",
    "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24140/interne",
-   "gtins": [
-    "0204053011871"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24140/interne"
   },
   {
    "id": "fr-rc-2026-11-0151",
@@ -551,15 +531,7 @@
    "details": "Listeria monocytogenes (agent responsable de la listériose)",
    "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Détruire le produit.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24150/interne",
-   "gtins": [
-    "0206969000000",
-    "0209144000000",
-    "2000000277301",
-    "2000000277714",
-    "2000000277899",
-    "2000024904566"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24150/interne"
   },
   {
    "id": "fr-rc-2026-11-0161",
@@ -814,10 +786,7 @@
    "details": "Listeria monocytogenes (agent responsable de la listériose)",
    "action": "Ne plus consommer.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23916/interne",
-   "gtins": [
-    "2307629029046"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23916/interne"
   },
   {
    "id": "fr-rc-2026-11-0114",
@@ -1031,11 +1000,7 @@
    "details": "Inertes (verre, métal, plastique, papier, textile…)",
    "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le point de vente.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24089/interne",
-   "gtins": [
-    "2000000278902",
-    "2000000324418"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24089/interne"
   },
   {
    "id": "fr-rc-2026-11-0103",
@@ -1239,10 +1204,7 @@
    "details": "Substances allergisantes non déclarées",
    "action": "Rapporter le produit au point de vente. Contacter le point de vente.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24058/interne",
-   "gtins": [
-    "2000000847641"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24058/interne"
   },
   {
    "id": "fr-rc-2026-11-0072",
@@ -1256,10 +1218,7 @@
    "details": "Substances allergisantes non déclarées",
    "action": "Rapporter le produit au point de vente. Contacter le point de vente.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24059/interne",
-   "gtins": [
-    "2000000847641"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24059/interne"
   },
   {
    "id": "fr-rc-2026-11-0075",
@@ -1784,10 +1743,7 @@
    "details": "Listeria monocytogenes (agent responsable de la listériose)",
    "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le point de vente.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24027/interne",
-   "gtins": [
-    "0206150000000"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24027/interne"
   },
   {
    "id": "fr-rc-2026-11-0045",
@@ -1933,10 +1889,7 @@
    "details": "Salmonella spp (agent responsable de la salmonellose)",
    "action": "Ne plus consommer. Rapporter le produit au point de vente.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23981/interne",
-   "gtins": [
-    "293134000002"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23981/interne"
   },
   {
    "id": "fr-rc-2026-11-0016",
@@ -2212,10 +2165,7 @@
    "details": "Salmonella spp (agent responsable de la salmonellose)",
    "action": "Ne plus consommer. Rapporter le produit au point de vente.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23978/interne",
-   "gtins": [
-    "293134000002"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23978/interne"
   },
   {
    "id": "fr-rc-2026-10-0264",
@@ -2702,10 +2652,7 @@
    "details": "Salmonella spp (agent responsable de la salmonellose)",
    "action": "Ne plus consommer.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23897/interne",
-   "gtins": [
-    "2606401018439"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23897/interne"
   },
   {
    "id": "fr-rc-2026-10-0253",
@@ -2751,10 +2698,7 @@
    "details": "Listeria monocytogenes (agent responsable de la listériose)",
    "action": "Ne plus consommer. Rapporter le produit au point de vente.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23933/interne",
-   "gtins": [
-    "2948010014885"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23933/interne"
   },
   {
    "id": "fr-rc-2026-10-0261",
@@ -3174,11 +3118,7 @@
    "details": "Autres contaminants chimiques",
    "action": "Ne plus consommer. Rapporter le produit au point de vente.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23904/interne",
-   "gtins": [
-    "0208239000000",
-    "0208345000000"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23904/interne"
   },
   {
    "id": "fr-rc-2026-10-0235",
@@ -3263,10 +3203,7 @@
    "details": "Listeria monocytogenes (agent responsable de la listériose)",
    "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur. Détruire le produit.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23900/interne",
-   "gtins": [
-    "2484144029529"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23900/interne"
   },
   {
    "id": "fr-rc-2026-10-0229",
@@ -3360,10 +3297,7 @@
    "details": "Autres contaminants chimiques",
    "action": "Ne plus consommer. Détruire le produit.",
    "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23873/interne",
-   "gtins": [
-    "2274371000008"
-   ]
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23873/interne"
   },
   {
    "id": "fr-rc-2026-10-0202",
