@@ -124,16 +124,23 @@ git push
 
 | Izvor | Zemlja | Stanje |
 |---|---|---|
-| RappelConso (`sources/rappelconso.js`) | Francuska | Radi (26. 11. 2026: 19 336 redova → 281 obavijest, 45 dana). Barkodovi iz registra još nisu pročitani — vidi napomenu ispod. |
+| RappelConso (`sources/rappelconso.js`) | Francuska | Radi (26. 11. 2026: 19 336 redova → 281 obavijest, 45 dana). Vidi napomenu ispod. |
 
-**Napomena o RappelConso.** Adapter je pisan na mjestu s kojeg se `data.economie.gouv.fr` nije
-mogao otvoriti; prihvata više poznatih naziva za svaku kolonu, a kad stvarni nazivi nisu među
-njima, **ne pogađa**: stane s porukom u kojoj su nazivi kolona koje je vidio, fajl se objavi bez
-tog izvora, i ništa pogrešno ne stigne u aplikaciju. Prvo pokretanje na GitHubu (26. 11. 2026)
-je registar pročitalo: obavezne kolone su prepoznate. Kolona s barkodom **nije** prepoznata
-(objavljeno 0 obavijesti s barkodom), pa se za francuske obavijesti upozorenje pri skeniranju
-još ne pojavljuje; lista radi. Svako pokretanje piše u Summary: „Izvor rappelconso: pročitano …
-→ objavljeno …” ili „NIJE pročitan — …”. Za pregled živih podataka: `node tools/probe.js rappelconso`.
+**Napomena o RappelConso.** Adapter je pisan bez pristupa živim podacima, a zatim usklađen s
+onim što je registar stvarno dao 26. 11. 2026 (19 336 redova):
+- obavezne kolone su prepoznate; kad jednom ne budu, adapter **ne pogađa** — stane s porukom u
+  kojoj su kolone koje je vidio, fajl se objavi bez tog izvora;
+- registar sav tekst daje malim slovima → adapter stavlja veliko početno slovo (naziv, razlog,
+  objašnjenje, svaka rečenica u „šta uraditi”) i piše marku s velikim početnim slovima;
+  tekst koji već ima velika slova ne dira;
+- „sans marque” (bez marke) → obavijest nema marku;
+- **barkod**: registar nema kolonu s barkodom. Uzima se samo iz polja `identification_produits`
+  (unosi oblika `$…$…$…$`), i samo kad je **cijeli dio** između dva `$` ispravan barkod od 12, 13
+  ili 14 cifara. Ništa se ne sastavlja iz dijelova, a dio od 8 cifara se ne uzima (tako izgleda i
+  serija pisana kao datum). Koliko obavijesti ima barkod piše u Summary („s barkodom: N”).
+
+Za pregled živih podataka: `node tools/probe.js rappelconso` (ispiše kolone, primjere polja s
+identifikacijom i koliko redova ima barkod).
 
 Iz registra se uzimaju samo hrana, hrana za bebe, dodaci prehrani i kozmetika, zadnjih 45 dana.
 Serije i rokovi se **ne** čitaju iz registra (polje u kojem su nije provjereno, a pogrešno

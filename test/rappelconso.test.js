@@ -27,7 +27,7 @@ test('rows of the register become notices of the format — only food, baby food
     { country: 'FR', published: '2026-11-24', category: 'food', hazard: 'microbe', name: 'Rillettes de poulet rôti 220 g', brand: 'Exemple', reason: 'Présence de Listeria monocytogenes', source: 'RappelConso', url: 'https://rappel.conso.gouv.fr/fiche-rappel/90001/Interne' },
   );
   assert.equal(first.details, 'Listeria monocytogenes (agent responsable de la listériose)');
-  assert.equal(first.action, 'Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur');
+  assert.equal(first.action, 'Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur.');
   // the same notice listed once per product: one notice, all its barcodes
   assert.deepEqual(first.gtins, ['3017620422003', '3017620425035', '8000000000019']);
   // categories and kinds
@@ -46,6 +46,41 @@ test('rows of the register become notices of the format — only food, baby food
   assert.deepEqual(by['fr-rc-2026-11-0103'].gtins, []);
   // batches and dates are never guessed
   for (const n of got.notices) { assert.equal('lots' in n, false); assert.equal('bestBefore' in n, false); }
+});
+
+test('the live register (as seen on 26 Nov 2026): lower-case texts get their capitals, "sans marque" is no brand, barcodes come from whole fields only', async () => {
+  const live = require('./fixtures/rappelconso-live-2026-11-26.json');
+  const got = await read(live, '2026-11-01');
+  assert.equal(got.notices.length, 3);
+  for (const n of got.notices) assert.equal(C.checkNotice(n).ok, true, `${n.id}: ${C.checkNotice(n).why}`);
+  const by = Object.fromEntries(got.notices.map((n) => [n.id, n]));
+  const tarte = by['fr-rc-2026-11-0201'];
+  assert.equal(tarte.name, 'Tarte 3 fromages');
+  assert.equal(tarte.brand, undefined);                                                   // "sans marque"
+  assert.equal(tarte.reason, 'Détection de présence de listeria monocytogenes');
+  assert.equal(tarte.details, 'Listeria monocytogenes (agent responsable de la listériose)');
+  assert.equal(tarte.action, 'Ne plus consommer. Contacter le point de vente. Détruire le produit.');
+  assert.deepEqual(tarte.gtins, []);                                                      // "$26317$…" is a batch, not a barcode
+  assert.equal(tarte.hazard, 'microbe');
+  assert.deepEqual([tarte.category, tarte.published], ['food', '2026-11-26']);
+  const buche = by['fr-rc-2026-11-0190'];
+  assert.equal(buche.name, 'Buche fraiche nature');
+  assert.equal(buche.brand, 'Le Cabrichou');
+  assert.deepEqual(buche.gtins, ['3017620422003', '3017620425035']);                    // whole fields; the 8-digit "96385074" is not taken
+  // a text that already has capitals is left exactly as it is; a lot written like a date never becomes a barcode
+  const creme = by['fr-rc-2026-11-0150'];
+  assert.deepEqual([creme.name, creme.brand, creme.reason, creme.details, creme.action], ['Crème visage 50 ml', 'Maison BLANCHE', 'Présence de Pseudomonas aeruginosa', 'Infection', 'Ne plus utiliser le produit. Rapporter le produit au point de vente.']);
+  assert.deepEqual(creme.gtins, []);                                                      // "GTIN: 4006381333931 - Lot: …" is not a whole field: not taken from this text
+  assert.equal(creme.category, 'cosmetic');
+  // the small parts
+  assert.equal(RC.sentence('  présence de listéria '), 'Présence de listéria');
+  assert.equal(RC.sentence('E.coli STEC'), 'E.coli STEC');
+  assert.equal(RC.sentence(''), '');
+  assert.equal(RC.sentence(null), null);
+  for (const none of ['sans marque', 'SANS MARQUE', 'Sans-marque', 'aucune', 'n/a', '-', '', '  ', 'diverses marques', '/', '–', 'en attente des résultats d\'analyses, blocage des coquillages', null]) assert.equal(RC.brandOf(none), undefined, String(none));
+  assert.deepEqual(['montauzer', 'ferme de la motte', 'saint-marc', "l'atelier du pain", 'E.Leclerc', 'u', 'carrefour bio', 'e.leclerc ibos'].map(RC.brandOf), ['Montauzer', 'Ferme de la Motte', 'Saint-Marc', "L'atelier du Pain", 'E.Leclerc', 'U', 'Carrefour Bio', 'E.Leclerc Ibos']);
+  assert.deepEqual(RC.gtinsOf({ gtin: '96385074 3017620425035', identification_produits: '$4006381333931$1$dlc$2026-01-01$' }), ['96385074', '3017620425035', '4006381333931']);   // a barcode column is read whole
+  assert.deepEqual(RC.gtinsOf({ identification_produits: ['$3 017 620 422 003$1$dlc$2026-01-01$', '$30176204220031$x$y$'] }), []);   // never assembled from pieces; a wrong check digit is not a barcode
 });
 
 test('the older spelling of the columns is read the same', async () => {

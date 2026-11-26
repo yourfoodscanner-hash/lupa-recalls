@@ -15,11 +15,16 @@
  *
  * What is taken: food, baby food, food supplements and cosmetics. Everything else in the
  * register (cars, toys, electrical goods …) is outside what LUPA shows.
- * What is NOT taken: batch numbers and dates — the register packs them into one field whose
- * format could not be checked, and a wrongly read batch would be worse than none. The notice
- * itself (one tap away in the app) has them.
+ * What is NOT taken: batch numbers and dates — the register packs them into one field
+ * ("identification_produits", entries like "$26317$date limite de consommation$2026-11-22$")
+ * whose layout has been seen on one day's data only, and a wrongly read batch would be worse
+ * than none. The notice itself (one tap away in the app) has them.
+ *
+ * Seen on the live data (26 Nov 2026, 19 336 rows): the columns are the first spelling of each
+ * entry in COLUMNS below; there is no barcode column; every text is in lower case ("tarte 3
+ * fromages", "montauzer"); a product without a brand says "sans marque".
  */
-const { gtinsIn } = require('../lib/gtin');
+const { gtinsIn, isValidGtin } = require('../lib/gtin');
 const { fold, hazardOf } = require('../lib/classify');
 const { hostOf } = require('../lib/contract');
 
@@ -45,6 +50,7 @@ const COLUMNS = {
   action: ['conduites_a_tenir_par_le_consommateur', 'conduites_a_tenir'],
   link: ['lien_vers_la_fiche_rappel'],
   gtin: ['gtin', 'code_barre', 'codes_barres'],
+  ident: ['identification_produits'],
 };
 /** Without these a notice cannot be published at all. */
 const REQUIRED = ['ref', 'date', 'category', 'motive', 'link'];
@@ -81,8 +87,63 @@ function categoryOf(category, subcategory) {
   return null;
 }
 
-/** "Ne plus consommer|Rapporter le produit au point de vente" → one readable line. */
-const listText = (value) => (value === null ? null : String(value).split('|').map((x) => x.trim()).filter(Boolean).join('. ').replace(/\.\.+/g, '.'));
+// ── Text as the register gives it, made readable ──────────────────────────────────────────────
+// The register gives every text in lower case. A text with no capital letter at all gets one where
+// a reader expects it; a text that has any capital letter is left exactly as it is.
+const LOCALE = 'fr-FR';
+const hasNoCapital = (s) => s === s.toLocaleLowerCase(LOCALE);
+const upFirst = (s) => s.replace(/^\p{L}/u, (c) => c.toLocaleUpperCase(LOCALE));
+/** "détection de présence de listeria" → "Détection de présence de listeria". */
+function sentence(value) {
+  if (value === null) return null;
+  const s = String(value).trim();
+  return s !== '' && hasNoCapital(s) ? upFirst(s) : s;
+}
+/** Words that stay small inside a brand name ("Ferme de la Motte"). */
+const SMALL_WORDS = new Set(['de', 'du', 'des', 'la', 'le', 'les', 'et', 'en', 'à', 'au', 'aux', 'sur', 'par', 'pour', 'd', 'l']);
+/** "le cabrichou" → "Le Cabrichou"; "saint-marc" → "Saint-Marc"; a brand written with capitals is left as it is. */
+function brandCase(s) {
+  if (!hasNoCapital(s)) return s;
+  return s.split(/\s+/).map((word, i) => (i > 0 && SMALL_WORDS.has(word.replace(/['’].*$/, '')) ? word : word.replace(/(^|[-.])(\p{L})/gu, (m, p, c) => p + c.toLocaleUpperCase(LOCALE)))).join(' ');
+}
+const MAX_BRAND = 40;
+/** The register's ways of saying "no brand" — the app then shows no brand row at all. */
+const NO_BRAND = new Set(['sans marque', 'sans-marque', 'aucune', 'aucune marque', 'pas de marque', 'non applicable', 'n/a', 'na', '-', 'inconnue', 'inconnu', 'marque inconnue', 'multiple', 'multiples', 'diverses', 'diverses marques', 'plusieurs marques', 'plusieurs', 'toutes marques']);
+function brandOf(value) {
+  if (value === null) return undefined;
+  const s = String(value).trim();
+  if (s === '' || NO_BRAND.has(fold(s).replace(/\s+/g, ' '))) return undefined;
+  if (!/[\p{L}\p{N}]/u.test(s)) return undefined;   // "/", "–": a filler, not a brand
+  if (s.length > MAX_BRAND) return undefined;        // a sentence typed into the brand field (seen live) is not a brand
+  return brandCase(s);
+}
+/** "ne plus consommer|rapporter le produit au point de vente" → "Ne plus consommer. Rapporter le produit au point de vente." (with `close`: a full stop at the end) */
+function listText(value, close = false) {
+  if (value === null) return null;
+  const parts = String(value).split('|').map((x) => sentence(x)).filter(Boolean);
+  if (parts.length === 0) return null;
+  const text = parts.join('. ').replace(/\.\.+/g, '.');
+  return close && !/[.!?…]$/.test(text) ? `${text}.` : text;
+}
+/**
+ * The product's barcodes. A barcode column, when the register has one, is read whole. The
+ * "identification_produits" field (entries "$lot$kind of date$date$", with the barcode as one of
+ * the fields where the product has one) gives a barcode only as a WHOLE field that is a valid
+ * GTIN of 12, 13 or 14 digits — never assembled from pieces, and never an 8-digit field, which a
+ * batch number written like a date ("20261122") can look like.
+ */
+function gtinsOf(row) {
+  const out = gtinsIn(pick(row, 'gtin'));
+  const ident = pick(row, 'ident');
+  const entries = Array.isArray(ident) ? ident : ident === null ? [] : [ident];
+  for (const entry of entries) {
+    for (const field of String(entry).split(/[$|]/)) {
+      const f = field.trim();
+      if (f.length >= 12 && isValidGtin(f) && !out.includes(f)) out.push(f);
+    }
+  }
+  return out.slice(0, 50);
+}
 
 /** One row of the register → a notice in the feed's format (unchecked: lib/contract checks it), or null with the reason. */
 function toNotice(row) {
@@ -93,11 +154,11 @@ function toNotice(row) {
   if (hostOf(String(link)) !== HOST) return { skip: 'link ne vodi na rappel.conso.gouv.fr' };
   const category = categoryOf(pick(row, 'category'), pick(row, 'subcategory'));
   if (category === null) return { skip: 'kategorija koju LUPA ne prikazuje' };
-  const brand = pick(row, 'brand');
-  const title = pick(row, 'title') ?? pick(row, 'model');
-  if (title === null) return { skip: 'bez naziva' };
-  const motive = pick(row, 'motive');
-  if (motive === null) return { skip: 'bez razloga' };
+  const brand = brandOf(pick(row, 'brand'));
+  const title = sentence(pick(row, 'title') ?? pick(row, 'model'));
+  if (title === null || title === '') return { skip: 'bez naziva' };
+  const motive = sentence(pick(row, 'motive'));
+  if (motive === null || motive === '') return { skip: 'bez razloga' };
   const risks = listText(pick(row, 'risks'));
   const id = `${PREFIX}${String(ref).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}`.slice(0, 80);
   return {
@@ -107,14 +168,14 @@ function toNotice(row) {
       published: day,
       category,
       hazard: hazardOf(motive, risks),
-      name: String(title),
-      brand: brand === null ? undefined : String(brand),
-      reason: String(motive),
+      name: title,
+      brand,
+      reason: motive,
       details: risks ?? undefined,
-      action: listText(pick(row, 'action')) ?? undefined,
+      action: listText(pick(row, 'action'), true) ?? undefined,
       source: SOURCE,
       url: String(link),
-      gtins: gtinsIn(pick(row, 'gtin')),
+      gtins: gtinsOf(row),
     },
   };
 }
@@ -167,4 +228,4 @@ async function fetchNotices({ fetchImpl = fetch, url = DEFAULT_URL, since = '200
   return { notices, seen: rows.length, skipped };
 }
 
-module.exports = { name: NAME, prefix: PREFIX, country: COUNTRY, source: SOURCE, defaultUrl: DEFAULT_URL, fetchNotices, toNotice, dayOf, categoryOf, COLUMNS };
+module.exports = { name: NAME, prefix: PREFIX, country: COUNTRY, source: SOURCE, defaultUrl: DEFAULT_URL, fetchNotices, toNotice, dayOf, categoryOf, sentence, brandOf, gtinsOf, COLUMNS };
