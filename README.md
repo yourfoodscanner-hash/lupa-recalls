@@ -125,7 +125,7 @@ git push
 
 | Izvor (`config.json`) | Zemlja | Šta čita | Prozor | 26. 11. 2026. |
 |---|---|---|---|---|
-| RappelConso (`rappelconso`) | Francuska | otvoreni podaci DGCCRF (JSON) | 45 dana | 281 |
+| RappelConso (`rappelconso`) | Francuska | otvoreni podaci DGCCRF (JSON) | 30 dana | 281 (45 dana) |
 | lebensmittelwarnung.de (`lebensmittelwarnung`) | Njemačka | RSS za hranu i za kozmetiku + stranica svake nove obavijesti | 45 dana | 41 |
 | AGES (`ages`) | Austrija | lista „Produktwarnungen & Produktrückrufe”, kategorije hrana, dječja hrana, suplementi, kozmetika | 60 dana | 10 |
 | GOV.SI „Nevarni in neskladni izdelki” (`govsi`) | Slovenija | službeni JSON izvoz liste | 180 dana | 103 |
@@ -134,23 +134,31 @@ git push
 | Fødevarestyrelsen „Tilbagekaldte produkter” (`fvst`) | Danska | RSS liste + stranica svake nove obavijesti | 60 dana | 19 (27. 11.) |
 | Potraviny na pranýři (`pranyr`) | Češka | lista „Nebezpečné potraviny” (SZPI, SVS) + stranica svake nove | 45 dana | 53 (27. 11.) |
 | EFET „Ανακλήσεις” (`efet`) | Grčka | RSS i lista kategorije + stranica svakog novog saopćenja | 90 dana | 6 (27. 11.) |
-| EU RASFF Consumers' Portal (`rasff`) | 19 zemalja EU (vidi niže) | lista po zemlji (RSS) + javni JSON svake notifikacije | 30 dana | 167 (27. 11.) |
+| FAVV/AFSCA „Terugroepingen” (`favv`) | Belgija | lista (10 po stranici) + stranica svakog novog opoziva | 30 dana | 19 (27. 11.) |
+| FSAI „All Alerts” (`fsai`) | Irska | lista food i allergen alerts + stranica svakog novog upozorenja | 45 dana | 15 (27. 11.) |
+| GIS „Ostrzeżenia” (`gis`) | Poljska | lista (10 po stranici) + stranica svakog novog upozorenja o hrani | 60 dana | 12 (27. 11.) |
+| Nébih „Termékvisszahívás” (`nebih`) | Mađarska | lista (50) + stranica svakog novog opoziva | 45 dana | 11 (27. 11.) |
+| Ruokavirasto „Takaisinvedot” (`ruokavirasto`) | Finska | lista + stranica svakog novog opoziva | 60 dana | 8 (27. 11.) |
+| NVWA „Veiligheidswaarschuwingen” (`nvwa`) | Holandija | pretraga sajta („veiligheidswaarschuwing”, najnovije prvo) + news sitemap i 3 najnovija upozorenja + stranica svakog novog | 45 dana | 22 (27. 11.) |
+| EU RASFF Consumers' Portal (`rasff`) | 13 zemalja EU (vidi niže) | lista po zemlji (RSS) + javni JSON svake notifikacije | 30 dana | 87 (27. 11.) |
 
 Prozor od 180 dana za Sloveniju, Hrvatsku i BiH je isti kao za ručno unesene obavijesti: ti izvori
-objavljuju malo, pa bi kraći prozor ostavio zemlju praznom. Izvor se isključuje u `config.json`
+objavljuju malo, pa bi kraći prozor ostavio zemlju praznom. Francuska ima 30 dana (od 27. 11. 2026;
+ranije 45): objavljuje najviše, a fajl ima granicu od 500 000 znakova — kad bi je prešao, prvo bi
+otpale najstarije automatske obavijesti, tj. baš one zemalja s prozorom od 180 dana. Izvor se isključuje u `config.json`
 (`"enabled": false`); izvor koji `config.json` ne navodi se ne čita.
 
 Svaki adapter je napisan **prema stvarnim odgovorima** tih servisa (26. i 27. 11. 2026, snimljeni na
 GitHub Actions) i testiran na njima (`test/fixtures/live/`, `test/sources.test.js`,
-`test/sources-europe.test.js`). Kad izvor
+`test/sources-europe.test.js`, `test/sources-europe-2.test.js`). Kad izvor
 promijeni oblik, adapter **ne pogađa**: stane s porukom šta je vidio, fajl se objavi s obavijestima tog
 izvora od prošlog puta, a nakon 3 dana šutnje pokretanje „padne” i stigne e-mail (poglavlje 4).
 
 **Šta se uzima, a šta ne — isto pravilo za sve izvore:**
 - naziv, datum, razlog, link — iz polja izvora; gdje izvor ima polja za seriju, rok, preporuku,
   objašnjenje (Njemačka, Austrija), objavljuju se kako pišu;
-- iz slobodnog teksta (Hrvatska, Slovenija, BiH, Danska, Grčka) **serija, rok i barkod uzimaju se samo kad ih tekst
-  označi** („lot L233249A2”, „rok uporabe: 27.11.2026”, „EAN 3831115348162”, „bar koda …”,
+- iz slobodnog teksta (Hrvatska, Slovenija, BiH, Danska, Grčka, Belgija, Irska, Poljska, Mađarska,
+  Finska, Holandija) **serija, rok i barkod uzimaju se samo kad ih tekst označi** („lot L233249A2”, „rok uporabe: 27.11.2026”, „EAN 3831115348162”, „bar koda …”,
   „GTIN broja …”), i to cijeli: ništa se ne sastavlja iz dijelova, broj u sredini rečenice nije
   barkod, barkod mora imati ispravnu kontrolnu cifru, a broj koji dodjeljuje prodavnica (počinje s 2,
   02, 04) se nikad ne objavljuje (`lib/text.js`, testovi u `test/text.test.js`). Kad nije sigurno,
@@ -173,11 +181,29 @@ restorani, menze, brza hrana i gotova jela se izostavljaju (ne mogu se kupiti ni
 je polje „Šarže”. Grčka: saopćenje je tekst, pa se serija („παρτίδα”, „Lot”) i rok („ημερομηνία
 ανάλωσης”) uzimaju samo označeni; datum zamrzavanja nije rok; posuđe se izostavlja.
 
+**Belgija, Irska, Poljska, Mađarska, Finska, Holandija.** Belgija: opis proizvoda je niz „Oznaka:
+vrijednost” („Naam van het product”, „Merk”, „THT”, „Lotnummer”, „EAN”), a spisak prodavnica se ne
+prenosi; raspon roka („vanaf 07-12-26 tot 13-12-26”) ostaje raspon („07-12-26 – 13-12-26”).
+Irska: food i allergen alerts s iste liste; tabela proizvoda se čita kao „Kolona: vrijednost”, pa se i
+iz nje uzimaju samo označene serije i rokovi; „Batch Code: Use by date …” nije serija. Poljska: samo
+upozorenja „dotyczące żywności” (posuđe „wyrób do kontaktu z żywnością” se izostavlja), ažuriranja
+ostaju kao zasebne obavijesti. Mađarska: lista ne daje ni datum ni naziv, pa se čita stranica svakog
+novog opoziva, od najnovijeg dok dva kruga zaredom nisu starija od prozora; hrana za kućne ljubimce
+(„ne adják kedvencüknek”) i posuđe se izostavljaju; opoziv s „RASFF referencia szám” dobije `group`
+te notifikacije. Finska: proizvod je ono što stranica navede kao proizvod (spisak proizvoda,
+„… -tuotetta”, „nimellä …”), inače naslov; posuđe se izostavlja. Holandija: listu upozorenja
+NVWA sajt crta u pregledniku iz svoje pretrage (RSS odgovara „feeds offline”), pa posao pita pretragu
+isto što pita preglednik („veiligheidswaarschuwing”, najnovije prvo, 50 po stranici, uz SHA-256
+zahtjeva kao „hash”, kao i sam sajt); uz to čita news sitemap (sve vijesti zadnja 2 dana) i 3
+najnovija upozorenja. Ako pretraga ne odgovori, kratke liste i dalje vide svako novo upozorenje
+(posao radi svaki dan), a jednom pročitano ostaje dok je u prozoru. Samo upozorenja „over
+levensmiddelen en diervoeders” (ne „consumentenartikelen”); hrana za životinje se izostavlja.
+
 **EU RASFF — za zemlje koje posao (još) ne čita kod njihove agencije.** Portal Evropske komisije za
 potrošače vodi, za svaku zemlju, listu RASFF notifikacija o hrani na njenom tržištu. Posao je čita
-za zemlje navedene u `config.json` → `rasff.countries`: BE, BG, CY, EE, ES, FI, HU, IE, IT, LT, LU,
-LV, MT, NL, PL, PT, RO, SE, SK — tj. sve članice EU osim onih koje se čitaju kod vlastite agencije
-(FR, DE, AT, SI, HR, DK, CZ, GR). Italija, Portugal, Rumunija, Bugarska, Litvanija, Kipar i Malta
+za zemlje navedene u `config.json` → `rasff.countries`: BG, CY, EE, ES, IT, LT, LU, LV, MT, PT, RO,
+SE, SK — tj. sve članice EU osim onih koje se čitaju kod vlastite agencije (FR, DE, AT, SI, HR, DK,
+CZ, GR, BE, IE, PL, HU, FI, NL). Italija, Portugal, Rumunija, Bugarska, Litvanija, Kipar i Malta
 inače nisu dostupni (servis ne odgovara izvan zemlje ili blokira); za ostale je ovo privremeno, dok
 se ne napiše adapter njihove agencije — tada se zemlja briše s ove liste (test ne dozvoljava da se
 ista zemlja čita dvaput). Obavijest iz RASFF-a ima naziv proizvoda kako ga notifikacija navodi,
@@ -277,7 +303,8 @@ Kad ih ima više, izostavljaju se najstarije iz automatskih izvora; ručno unese
 **Isti proizvod u više zemalja — polje `group` (neobavezno).** Svaka zemlja zadržava svoju obavijest
 (svoju zemlju, link i tekst), a obavijesti koje su **sigurno** isti proizvod dobiju isto `group`, da
 ih aplikacija može prikazati kao jednu karticu sa spiskom zemalja i linkom za svaku:
-- ista RASFF notifikacija na listama više zemalja → `"rasff-2026-10406"`;
+- ista RASFF notifikacija na listama više zemalja, ili opoziv agencije koji navodi tu notifikaciju
+  (Mađarska: „RASFF referencia szám: 2026.10359”) → `"rasff-2026-10406"`;
 - isti barkod proizvođača u dvije ili više obavijesti (iz bilo kojih izvora, i ručno unesenih) →
   `"gtin-3850123456782"`.
 
