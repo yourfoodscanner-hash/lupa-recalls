@@ -1,0 +1,19 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T14:58:44Z",
+ "country": "EE",
+ "recalls": [
+  {
+   "id": "eu-rasff-ee-2026-9991",
+   "country": "EE",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Mussels",
+   "reason": "Too high count of E.coli in mussels from The Netherlands",
+   "details": "Escherichia coli - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799"
+  }
+ ]
+}

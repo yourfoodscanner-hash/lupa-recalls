@@ -1,0 +1,14 @@
+{
+ "fda": {
+  "since": "2026-10-13",
+  "seen": 144,
+  "notices": 62,
+  "bad": [],
+  "skipped": {
+   "nije hrana za ljude (FDA broj nije H-…)": 1
+  },
+  "withBarcode": 31,
+  "withLots": 28,
+  "ms": 244
+ }
+}

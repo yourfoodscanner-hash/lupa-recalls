@@ -1,0 +1,84 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T14:58:44Z",
+ "country": "SK",
+ "recalls": [
+  {
+   "id": "eu-rasff-sk-2026-10469",
+   "country": "SK",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Potatoes",
+   "reason": "Glycoalkaloids in potatoes from France",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185",
+   "group": "rasff-2026-10469"
+  },
+  {
+   "id": "eu-rasff-sk-2026-10406",
+   "country": "SK",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-sk-2026-9973",
+   "country": "SK",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Marshmallow",
+   "reason": "Salmonella in marshmallow from Belgium",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+   "group": "rasff-2026-9973"
+  },
+  {
+   "id": "eu-rasff-sk-2026-9942",
+   "country": "SK",
+   "published": "2026-11-09",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Brown rice",
+   "reason": "Exceeded pesticide levels in Brown Rice",
+   "details": "tricyclazole - unauthorised substance - pesticide residues; propiconazole - unauthorised substance - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664",
+   "group": "rasff-2026-9942"
+  },
+  {
+   "id": "eu-rasff-sk-2026-9716",
+   "country": "SK",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Cookies",
+   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
+   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+   "group": "rasff-2026-9716"
+  },
+  {
+   "id": "eu-rasff-sk-2026-9682",
+   "country": "SK",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  }
+ ]
+}

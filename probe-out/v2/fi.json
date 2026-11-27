@@ -1,0 +1,125 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T14:58:44Z",
+ "country": "FI",
+ "recalls": [
+  {
+   "id": "fi-ruokavirasto-k-supermarket-tapiolan-kalapihveissa-nitriittisuolaa",
+   "country": "FI",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "other",
+   "name": "K-Supermarket Tapiolan kalapihveissä nitriittisuolaa",
+   "reason": "K-Supermarket Tapiolan kalapihveissä nitriittisuolaa",
+   "details": "K-Supermarket Tapiolan myymälä Espoossa on ilmoittanut vetäneensä myynnistä kaupan oman keittiön valmistamia kalapihvejä, joiden valmistukseen on käytetty tavanomaisen suolan sijaan vahingossa nitriittisuolaa.",
+   "action": "Ruokavirasto neuvoo kyseisiä kalapihvejä ostaneita kuluttajia olemaan syömättä tuotteita ja hävittämään ne sekajätteenä.",
+   "source": "Ruokavirasto",
+   "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/k-supermarket-tapiolan-kalapihveissa-nitriittisuolaa/"
+  },
+  {
+   "id": "fi-ruokavirasto-kahden-maapahkinavoituotteen-takaisinveto",
+   "country": "FI",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Urtekram Peanut Butter Crunchy 230 g, Urtekram Peanut Butter Smooth 230 g",
+   "reason": "Kahden maapähkinävoituotteen takaisinveto",
+   "details": "Midsona Finland Oy on ilmoittanut vetävänsä myynnistä yhden erän Urtekram Peanut Butter Crunchy 230 g -tuotetta siinä todetun torjunta-ainejäämän vuoksi. Lisäksi yksi erä Urtekram Peanut Butter Smooth 230 g -tuotetta vedetään myynnistä varotoimenpiteenä.",
+   "bestBefore": "15.4.2027, 14.4.2027",
+   "action": "Midsona Finland neuvoo kyseisiä tuote-eriä ostaneita kuluttajia olemaan käyttämättä tuotteita ja hävittämään ne sekajätteenä.",
+   "source": "Ruokavirasto",
+   "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/kahden-maapahkinavoituotteen-takaisinveto/"
+  },
+  {
+   "id": "fi-ruokavirasto-valipalapatukoissa-metalliriski",
+   "country": "FI",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Corny 0% added sugar Chocolate välipalapatukka monipakkaus, 120 g, (6 x 20 g)",
+   "reason": "Välipalapatukoissa metalliriski",
+   "details": "Hero Finland Oy on ilmoittanut vetävänsä myynnistä yhden erän tuotetta Corny 0% added sugar Chocolate välipalapatukka monipakkaus, 120 g, (6 x 20 g). Tuotteen EAN-koodi/ GTIN on 4011800429218 ja takaisinvedettävän erän parasta ennen -merkintä 10.09.2027. Yrityksen mukaan pienestä määrästä tämän erän patukoita on löytynyt metallisia vierasesineitä.",
+   "bestBefore": "10.09.2027",
+   "action": "Kuluttajia, jotka ovat ostaneet kyseisen erän tuotteita hävittämään tuotteet tai vaihtoehtoisesti ottamaan yhteyttä yrityksen kuluttajapalveluun hero@akvamariini.fi.",
+   "source": "Ruokavirasto",
+   "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/valipalapatukoissa-metalliriski/",
+   "gtins": [
+    "4011800429218"
+   ]
+  },
+  {
+   "id": "fi-ruokavirasto-pakastetussa-chilissa-kadmiumylitys",
+   "country": "FI",
+   "published": "2026-10-27",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Coop Chopped Chili",
+   "reason": "Pakastetussa chilissä kadmiumylitys",
+   "details": "SOK vetää pois markkinoilta erän Coop-tuotemerkin hienonnettua chiliä. Tuote on ollut myynnissä pakasteena nimellä Coop Chopped Chili. Tuotteen EAN-koodi on 7340191134195 ja tuotteen pakkauskoko 50 g. Tuote-erästä on omavalvonnassa löytynyt EU:n raja-arvon ylittävä määrä raskasmetallia (kadmium). Takaisinveto koskee vain tuote-erää parasta ennen -päiväyksellä 31.7.2027.",
+   "bestBefore": "31.7.2027",
+   "action": "SOK pyytää kuluttajia lopettamaan takaisinvedetyn tuotteen käytön ja hävittämään pakkauksen sisällön.",
+   "source": "Ruokavirasto",
+   "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/pakastetussa-chilissa-kadmiumylitys/",
+   "gtins": [
+    "7340191134195"
+   ],
+   "group": "gtin-7340191134195"
+  },
+  {
+   "id": "fi-ruokavirasto-proteiinivanukkaissa-mahdollisesti-lasinsiruja",
+   "country": "FI",
+   "published": "2026-10-26",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Arla Protein Suklaa vanukas 200g laktoositon, Arla Protein Suolainen kinuski vanukas 200g laktoositon, Arla Protein Vanilja vanukas 200g laktoositon",
+   "reason": "Proteiinivanukkaissa mahdollisesti lasinsiruja",
+   "details": "Arla Oy tiedotti perjantaina 23.10.2026 tekevänsä takaisinvedon kolmelle proteiinivanukkaalle. Tuotteet ovat:",
+   "action": "Kuluttajia, jotka ovat ostaneet kyseisiä tuotteita, pyydetään olemaan käyttämättä niitä ja hävittämään ne.",
+   "source": "Ruokavirasto",
+   "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/proteiinivanukkaissa-mahdollisesti-lasinsiruja/"
+  },
+  {
+   "id": "fi-ruokavirasto-kananmunien-takaisinveto2",
+   "country": "FI",
+   "published": "2026-10-09",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Kotimaista Ulko M10 580 g, Laitilan Kanatarha Ulko L6 408 g, Laitilan Kanatarha Ulko L10 680 g, Pirkka Ulko M8 464g",
+   "reason": "Kananmunien takaisinveto",
+   "details": "Munax Oy ilmoittaa, että viranomaisen näytteenoton yhteydessä yhdessä sen sopimustuottajan kanalassa on todettu salmonellaa. Munia on ollut myynnissä ainakin K- ja S-ketjujen myymälöissä tuotemerkeillä, jotka näkyvät alla olevassa listassa.",
+   "source": "Ruokavirasto",
+   "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/kananmunien-takaisinveto2/",
+   "gtins": [
+    "6415715101210",
+    "6430017904017",
+    "6430017900576",
+    "6410405224316"
+   ]
+  },
+  {
+   "id": "fi-ruokavirasto-taytetyn-patongin-ainesosaluettelo-virheellinen-allergeenivaara",
+   "country": "FI",
+   "published": "2026-10-06",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Chef Lundén Kana-caesar patonki 200 g",
+   "reason": "Täytetyn patongin ainesosaluettelo virheellinen, allergeenivaara",
+   "details": "Lunden Food OÜ ilmoitti tekevänsä takaisinvedon tuotteelle Chef Lundén Kana-caesar patonki 200 g. Osassa yhden tuote-erän pakkauksia on toisen tuotteen takaetiketti, jossa on mm. ainesosaluettelo. Virheen vuoksi etiketti ei kerro kaikkia tuotteen sisältämiä ainesosia, mm. anjovisuute on mainitsematta. Erityisesti kalalle allergisten on syytä huomioida asia.",
+   "source": "Ruokavirasto",
+   "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/taytetyn-patongin-ainesosaluettelo-virheellinen-allergeenivaara/"
+  },
+  {
+   "id": "fi-ruokavirasto-proteiiniriisipuurossa-mahdollisesti-gluteenijaamia",
+   "country": "FI",
+   "published": "2026-10-01",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Juustoportti Proteiiniriisipuuro 300 g",
+   "reason": "Proteiiniriisipuurossa mahdollisesti gluteenijäämiä",
+   "details": "Juustoportti Oy ilmoitti tiistaina 29.9.2026 tekevänsä takaisinvedon tuotteelle Juustoportti Proteiiniriisipuuro 300 g. Takaisinveto koskee tuotteen erää, jonka viimeinen käyttöpäivä -merkintä on 16.10.2026. Kyseisen päiväyksen erä saattaa sisältää pinaattia sekä gluteenijäämiä, joten tuote saattaa aiheuttaa oireita gluteenille herkille kuluttajille. Markkinoijan mukaan virhe ei koske muita Juustoportin myynnissä olevia eriä tai tuotteita.",
+   "action": "Markkinoija neuvoo kuluttajia palauttamaan tuotteen siihen myymälään, josta tuote on ostettu.",
+   "source": "Ruokavirasto",
+   "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/proteiiniriisipuurossa-mahdollisesti-gluteenijaamia/"
+  }
+ ]
+}

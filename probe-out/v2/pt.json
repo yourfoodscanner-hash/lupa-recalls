@@ -1,0 +1,98 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T14:58:44Z",
+ "country": "PT",
+ "recalls": [
+  {
+   "id": "eu-rasff-pt-2026-10406",
+   "country": "PT",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-pt-2026-10360",
+   "country": "PT",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Cassave flour",
+   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
+   "details": "cyanide - too high content - biological contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+   "group": "rasff-2026-10360"
+  },
+  {
+   "id": "eu-rasff-pt-2026-10164",
+   "country": "PT",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Chocolate cream",
+   "reason": "Undeclared allergen hazelnut in chocolate cream from Italy",
+   "details": "hazelnut - presence - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091",
+   "group": "rasff-2026-10164"
+  },
+  {
+   "id": "eu-rasff-pt-2026-9985",
+   "country": "PT",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Chicken pops",
+   "reason": "Salmonella in chicken pops",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
+   "group": "rasff-2026-9985"
+  },
+  {
+   "id": "eu-rasff-pt-2026-9872",
+   "country": "PT",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Pistachio kernels",
+   "reason": "Exceedance of aflatoxin in pistachio kernels from USA via Italy",
+   "details": "Aflatoxin B1 - mycotoxins",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+   "group": "rasff-2026-9872"
+  },
+  {
+   "id": "eu-rasff-pt-2026-9682",
+   "country": "PT",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-pt-2026-9651",
+   "country": "PT",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Savoy cabbages (Brassica oleracea var. sabauda)",
+   "reason": "MRL exceedance for prothioconazole in Savoy cabbage from Belgium",
+   "details": "prothioconazole - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
+   "group": "rasff-2026-9651"
+  }
+ ]
+}

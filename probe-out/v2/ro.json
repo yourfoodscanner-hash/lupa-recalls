@@ -1,0 +1,97 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T14:58:44Z",
+ "country": "RO",
+ "recalls": [
+  {
+   "id": "eu-rasff-ro-2026-10406",
+   "country": "RO",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-ro-2026-10360",
+   "country": "RO",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Cassave flour",
+   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
+   "details": "cyanide - too high content - biological contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+   "group": "rasff-2026-10360"
+  },
+  {
+   "id": "eu-rasff-ro-2026-10303",
+   "country": "RO",
+   "published": "2026-11-19",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Salsiccia",
+   "reason": "Presenza di Salmonella Spp. in Salsiccia/Presence of Salmonella Spp. in Sausage",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "action": "Destruction",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888019",
+   "group": "rasff-2026-10303"
+  },
+  {
+   "id": "eu-rasff-ro-2026-9864",
+   "country": "RO",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Bio-Pinienkerne - organic pine nuts",
+   "reason": "Salmonella Cubana in organic pine nuts from Italy",
+   "details": "Salmonella cubana - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
+   "group": "rasff-2026-9864"
+  },
+  {
+   "id": "eu-rasff-ro-2026-9912",
+   "country": "RO",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "other",
+   "name": "Various meat products including poultry products and non poultry products",
+   "reason": "Insufficient sterilisation levels in tinned food produced in France",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885004",
+   "group": "rasff-2026-9912"
+  },
+  {
+   "id": "eu-rasff-ro-2026-9808",
+   "country": "RO",
+   "published": "2026-11-04",
+   "category": "baby",
+   "hazard": "microbe",
+   "name": "Chicken breast",
+   "reason": "Salmonella Infantis in chilled corn fed chicken breast filets from Romania",
+   "details": "Salmonella infantis - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884751"
+  },
+  {
+   "id": "eu-rasff-ro-2026-9682",
+   "country": "RO",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  }
+ ]
+}

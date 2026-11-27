@@ -1,0 +1,9 @@
+[
+ {
+  "url": "https://api.fda.gov/food/enforcement.json?search=report_date:[20261013+TO+20261127]&limit=1000&sort=report_date:desc",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "bytes": 188016,
+  "file": "cac78fb78ed5.txt"
+ }
+]

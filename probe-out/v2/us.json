@@ -1,0 +1,913 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T14:58:44Z",
+ "country": "US",
+ "recalls": [
+  {
+   "id": "us-fda-100177",
+   "country": "US",
+   "published": "2026-11-18",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Brad's Crunchy Kale Original, 2 oz (57g) bags, Brad's Crunchy Kale, Cheeze It Up, 2 oz (57g) bags, Brad's Crunchy Kale Radical Ranch, 2 oz (57g) bags, Brad's…",
+   "reason": "Products may contain elevated levels of thallium",
+   "details": "Snack Right Super Foods, Inc. (Quakertown, PA). FDA Class II. The product was distributed to the following States: IL and RI",
+   "lots": "33525-1, 33525-2, 33525-3, 34525-1, 35125-2, 35025-3, 29425-1, 33225-3, 33325-2, 33425-1",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100177&limit=100",
+   "gtins": [
+    "813104021679",
+    "813104021877",
+    "813104020726",
+    "854615002054"
+   ]
+  },
+  {
+   "id": "us-fda-100206",
+   "country": "US",
+   "published": "2026-11-18",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Country Creek Acres Alfalfa Sprout Seeds packed in a clear and silver poly bag, 16 oz, with a white adhesive label and green, yellow and blue lettering…",
+   "reason": "Products contain seed recalled from the supplier and may be contaminated with E. coli and/or Salmonella",
+   "details": "Country Creek LLC (Weldon Spring, MO). FDA Class I. E-commerce customers located nationwide",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100206&limit=100"
+  },
+  {
+   "id": "us-fda-100220",
+   "country": "US",
+   "published": "2026-11-18",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Cold Smoked Sprats, 5 lbs",
+   "reason": "May be contaminated with Clostridium botulinum",
+   "details": "D & M Smoked Fish, Inc. (Jamaica, NY). FDA Class I. NY, NJ, PA",
+   "lots": "9/2 Lot 244, 244, 250, 9/9 Lot 251, 9/14 Lot 254, 9/15 Lot 257, 251, 254, 257",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100220&limit=100"
+  },
+  {
+   "id": "us-fda-100225",
+   "country": "US",
+   "published": "2026-11-18",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "NAGAI SOYEAT GREEN branded soy paper wrap",
+   "reason": "Undeclared Yellow#5",
+   "details": "J F C International Inc (Commerce, CA). FDA Class II. Product was distributed to 267 different customers nationwide. Product was primarily distributed to food service and restaurants with limited sales to deli type customers.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100225&limit=100",
+   "gtins": [
+    "011152642468"
+   ]
+  },
+  {
+   "id": "us-fda-100236",
+   "country": "US",
+   "published": "2026-11-18",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Alfalfa Sprouts hydroponically grown. 4oz Alfalfa Sprouts were packaged in zip lock style bag and 1lb Alfalfa Sprouts were packaged in gusseted plastic bag",
+   "reason": "Potential E. coli and Salmonella contamination",
+   "details": "Francisco Family Foods (Kalispell, MT). FDA Class I. Distributed in MT only.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100236&limit=100"
+  },
+  {
+   "id": "us-fda-100258",
+   "country": "US",
+   "published": "2026-11-18",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Ground Up Nut Butter Cups filled with Almond & Cashew Butter Dark Chocolate Two Pack",
+   "reason": "Foreign material: plastic fiber",
+   "details": "Breath of Fresh Air PDX LLC (Portland, OR). FDA Class II. Product was distributed in Oregon and sold nationwide through online orders.",
+   "lots": "10/2027",
+   "bestBefore": "10/2027",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100258&limit=100",
+   "gtins": [
+    "850017637221"
+   ]
+  },
+  {
+   "id": "us-fda-100316",
+   "country": "US",
+   "published": "2026-11-18",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Fresh To You Sausage, Egg & Cheese Biscuit Sandwich, net weight. 4.6 oz (131g)",
+   "reason": "Possible Listeria monocytogenes contamination.",
+   "details": "Fresh & Ready Foods LLC (Renton, WA). FDA Class I. Distributed in OR and WA",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100316&limit=100",
+   "gtins": [
+    "840549301684"
+   ]
+  },
+  {
+   "id": "us-fda-99997",
+   "country": "US",
+   "published": "2026-11-18",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Mana Bakery Peperecha, 8 oz",
+   "reason": "Contains undeclared color (FD&C Yellow 5)",
+   "details": "Mana Bakery (Farmingdale, NY). FDA Class II. NJ, NY, CT",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99997&limit=100"
+  },
+  {
+   "id": "us-fda-100089",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Starfish Seafood Cold Smoked Norwegian Salmon, Starfish Seafood Cold Smoked Trio Salmon Halibut Trout",
+   "reason": "Contaminated with Listeria monocytogenes",
+   "details": "Krasnyi Oktyabr Inc (Brooklyn, NY). FDA Class I. NY, MA, SC, FL, GA, NV, NJ, OH, NC, SC, OH",
+   "lots": "D080-148",
+   "bestBefore": "27.11.2027, 12/01/2027",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100089&limit=100"
+  },
+  {
+   "id": "us-fda-100122",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "ParaBien Al Grano",
+   "reason": "Contains undeclared sesame",
+   "details": "Pan Pepin, Inc. (Bayamon, PR). FDA Class I. All customers located in Puerto Rico",
+   "bestBefore": "10-15-26, 10-17-26, 10-18-26, 10-19-26, 10-21-26",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100122&limit=100",
+   "gtins": [
+    "021425015134"
+   ]
+  },
+  {
+   "id": "us-fda-100127",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Bulk packaged Seitan Cubes",
+   "reason": "Product label missing ingredient statement and allergen ingredient (wheat)",
+   "details": "House Foods America Corporation (Garden Grove, CA). FDA Class I. Product was distributed to 9 different distribution centers across the country.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100127&limit=100"
+  },
+  {
+   "id": "us-fda-100137",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Raw milk cheddar cheese packed in vacuum sealed clear plastic with a white, red and green label which reads in part as, \"FAMILY FARMSTEAD MILD RAW CHEDDAR…",
+   "reason": "Potential contamination with E. coli (pathogenic non-O157 STEC).",
+   "details": "Family Farmstead Dairy, LLC (Worcester, NY). FDA Class I. Distributors located in CT, MA, MD, NJ, NY, PA, and VA. Product may be further distributed.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100137&limit=100",
+   "gtins": [
+    "860007132216"
+   ]
+  },
+  {
+   "id": "us-fda-100138",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Gelatelli NATURALLY FLAVORED COFFEE & VANILLA GELATO WITH COFFEE SAUCE & COOKIE PIECES 16FL OZ (1PT) 475 mL",
+   "reason": "Listeria monocytogenes. The firm received positive test result of Listeria monocytogenes in the product.",
+   "details": "Lidl US TRADING (Arlington, VA). FDA Class I. Product was shipped to the following states: DC, DE, GA, MD, NC, NJ, NY, PA, SC & VA.",
+   "lots": "085261",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100138&limit=100"
+  },
+  {
+   "id": "us-fda-100144",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wise Wife ground cinnamon in plastic container with black screw top cap, 3.88 oz",
+   "reason": "Product contains elevated levels of lead",
+   "details": "SLR Food Distribution, Inc. (Hicksville, NY). FDA Class II. 20 retail locations located in: CT, IN, KS, MA, MI, MN, NC, NE, NY, OH, PA, TX, VA and WI",
+   "bestBefore": "4/25/2027",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100144&limit=100"
+  },
+  {
+   "id": "us-fda-100191",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "other",
+   "name": "7-Eleven Horchata FD 4:1 BIB",
+   "reason": "Sunny Sky Products has identified that analytical results for certain lots of 7-Eleven Horchata may not conform to established product requirements.…",
+   "details": "Sunny Sky Products, LLC (Houston, TX). FDA Class II. Nationwide 7-11 stores",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100191&limit=100"
+  },
+  {
+   "id": "us-fda-100193",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "WinCo Foods Hoagie Rolls, 6 rolls/bag",
+   "reason": "Undeclared Sesame",
+   "details": "WinCo Foods LLC (Boise, ID). FDA Class I. Distributed in CA, ID, MT, NV, OR, UT, and WA.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100193&limit=100",
+   "gtins": [
+    "070552006492"
+   ]
+  },
+  {
+   "id": "us-fda-100223",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "other",
+   "name": "Ethel's Gluten Free Turtle Dandy Dessert Bars 6oz",
+   "reason": "Product mix-up resulting in incorrect product identity, inaccurate ingredient declaration (extra ingredients declared that are not present in the product)…",
+   "details": "Ethel's Bakery, LLC (Shelby Township, MI). FDA Class III. Arizona, Colorado, Illinois, Indiana, Maryland, Michigan, New Hampshire, New York, Oregon, and Pennsylvania.",
+   "lots": "26-254",
+   "bestBefore": "9/11/2027",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100223&limit=100",
+   "gtins": [
+    "850054166012"
+   ]
+  },
+  {
+   "id": "us-fda-100248",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "365 Whole Foods Market Standardized + Full Spectrum Blend Ashwagandha Capsules 120 count",
+   "reason": "Possible Salmonella contamination.",
+   "details": "Vitality Works, Inc (Albuquerque, NM). FDA Class I. Recalled product was distributed nationwide.",
+   "lots": "202526227",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100248&limit=100",
+   "gtins": [
+    "099482520991"
+   ]
+  },
+  {
+   "id": "us-fda-98489",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Boner Bears Chocolate Syrup, Serving size 15g, Dosage: Consume 1 Piece At Least 1 Hour Prior To Activity",
+   "reason": "FDA analysis revealed the presence of undeclared sildenafil.",
+   "details": "Lockout Industries, LLC (McKinney, TX). FDA Class I. The product was sold to consumers through the firm's website.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:98489&limit=100"
+  },
+  {
+   "id": "us-fda-98760",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "DTF SEXUAL CHOCOLATES",
+   "reason": "Product contains undeclared sildenafil and tadalafil.",
+   "details": "NALPAC LTD. (Ferndale, MI). FDA Class I. Nalpac sold to approximately 16 customers, some of whom have multiple stores.",
+   "lots": "20241022",
+   "bestBefore": "12/31/2027",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:98760&limit=100",
+   "gtins": [
+    "757817783069"
+   ]
+  },
+  {
+   "id": "us-fda-99783",
+   "country": "US",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "other",
+   "name": "Little Temptations, Chocolatey Eyeballs (Hazelnut Praline Chocolatey Eyeballs ) Spooks and Spells, The product comes in the following sizes: Card Header Bag…",
+   "reason": "Product packaging mix-up. Product containing whey (milk), were distributed in packaging that did not reveal the presence of milk.",
+   "details": "Crystal Temptations (North Arlington, NJ). FDA Class II. AZ, TX, VA, GA, MA, NC, IN, NV, CA, NJ, CT, OH, WY",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99783&limit=100"
+  },
+  {
+   "id": "us-fda-100088",
+   "country": "US",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Riad's Oliva to Go Hummus, Riad's Oliva to Go Baba Ghanouj, Riad's Oliva to Go Spicy Baba Ghanouj",
+   "reason": "contains undeclared sesame",
+   "details": "Oliva on Main (Bethlehem, CT). FDA Class I. MA, CT",
+   "bestBefore": "10/12/26, 10/10/26",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100088&limit=100"
+  },
+  {
+   "id": "us-fda-100118",
+   "country": "US",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "ZestiGreens Broccoli Seeds for Sprouting & Microgreens",
+   "reason": "Broccoli seeds potentially contaminated with Salmonella",
+   "details": "FORTUNA MARKETING, INC (Poway, CA). FDA Class I. Product was primarily distributed to Amazon fulfillment center. Customers were notified directly by the recalling firm. Amazon was notified and placed a stop on the product SKU. Additional product was sold and shipped to a co-packer. That product was never repackaged and was destroyed.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100118&limit=100"
+  },
+  {
+   "id": "us-fda-99495",
+   "country": "US",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "other",
+   "name": "Boner Bears CHOCOLATE, 3 DOSES PER BAR",
+   "reason": "JXK Enterprises, Inc is voluntarily recalling Boner Bears Chocolate, Lot #BB21125, after being notified that FDA laboratory analysis confirmed the presence of…",
+   "details": "JXK Enterprises, Inc. (Miami, FL). FDA Class I. Boner Bears Chocolate is marketed as a sexual enhancement product and was distributed nationwide via online sales through www.elyxr.com.",
+   "lots": "BB21125",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99495&limit=100"
+  },
+  {
+   "id": "us-fda-99871",
+   "country": "US",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Miyoko's Creamery European Style Salted Plant Milk Butter",
+   "reason": "Product recalled due to yeast, mold, and E. coli.",
+   "details": "Prosperity Organic Foods Inc (Boise, ID). FDA Class II. Distributed in CT, FL, GA, IA, IL, IN, MD, NJ, NH, and WI.",
+   "lots": "07871",
+   "bestBefore": "11/5/26",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99871&limit=100",
+   "gtins": [
+    "857554005773"
+   ]
+  },
+  {
+   "id": "us-fda-99881",
+   "country": "US",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "other",
+   "name": "Sunny Sky Non-Dairy French Vanilla Creamer, 96oz , bag in box, 3 per case, refrigerate after opening",
+   "reason": "Product sterility was potentially compromised.",
+   "details": "Sunny Sky Products, LLC (Douglassville, PA). FDA Class II. The adulterated product was distributed to the following States: GA, TX, UT, MN, NM, OH, NC, CA, KY, AR, NV,",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99881&limit=100"
+  },
+  {
+   "id": "us-fda-99914",
+   "country": "US",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Gluten Free Truly AIP Rustic Bread Mix, 14 oz, Gluten Free EAT G.A.N.G.S.T.E.R Pizza Crust and Flat Bread Mix, 5.8oz (165g) & 3.98 lbs, Gluten Free Truly AIP…",
+   "reason": "Products are recalled due to potential undeclared wheat gluten",
+   "details": "GF Blends Inc (Richland, WA). FDA Class I. Sold nationwide online at eatgangster.com, trulyaip.com, and Amazon.com",
+   "lots": "260417, 260617, 260327, 260803, 260225, 260610",
+   "bestBefore": "4-17-28, 12-17-27, 7-27-27, 9-27-27, 2-03-28, 2-25-28, 6-10-28",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99914&limit=100"
+  },
+  {
+   "id": "us-fda-99961",
+   "country": "US",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Blue Bottle Coffee 4oz Sweet Blossom Simple Syrup in a glass boston round bottle with metal and plastisol cap",
+   "reason": "Potential contamination with mold (Aspergillus niger)",
+   "details": "Pink House Alchemy, LLC (Fayetteville, AR). FDA Class II. Sole consignee: Blue Bottle Coffee LLC, 476 9th Steet Oakland, CA 94607",
+   "bestBefore": "04/15/2028, 04/16/2028, 04/17/2028, 04/28/2026, 04/30/2028, 05/08/2028",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99961&limit=100"
+  },
+  {
+   "id": "us-fda-99993",
+   "country": "US",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "EDEN BROTHERS Broccoli Seeds - Calabrese",
+   "reason": "Salmonella",
+   "details": "EDEN BROTHERS (Arden, NC). FDA Class I. Product was distributed to the following states: AK, AL, AR, AZ, CA, CO, CT, DC, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MS, MT, NC, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VA, VT, WA, WI, WV & WY.",
+   "lots": "1022067, 1022068",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99993&limit=100"
+  },
+  {
+   "id": "us-fda-100040",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Heirloom Homegrown Green Sprouting Calabrese Broccoli Sprouts Seed",
+   "reason": "Salmonella.",
+   "details": "EAK Distribution LLC (Casper, WY). FDA Class I. sold on Amazon nationwide",
+   "lots": "AUG172026",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100040&limit=100",
+   "gtins": [
+    "850056627443"
+   ]
+  },
+  {
+   "id": "us-fda-100052",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Trader Joe's Crispy Rice Milk Chocolate Bar",
+   "reason": "Undeclared wheat. Product outer label incorrect; contains wrong allergen ingredients.",
+   "details": "Trader Joe's Company (Monrovia, CA). FDA Class II. Firm received and distributed to Distribution Centers all product received from contract manufacturer. DCs further distributed to stores located in the following states: CT, FL, GA, MA, ME, NH, NJ, NY, PA, RI, SC, VT.",
+   "lots": "LT26189",
+   "bestBefore": "10.08.2027",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100052&limit=100"
+  },
+  {
+   "id": "us-fda-100060",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "other",
+   "name": "Voila! juice 100% SQUEEZED ORANGE VOILA! OAKLAND, CA 94601 16 OZ, Andronico's COMMUNITY MARKETS 100% SQUEEZED ORANGE ANDROINCO'S COMMUNITY MARKETS SAN…",
+   "reason": "Product not processed to achieve 5-log pathogen reduction.",
+   "details": "Voila Juice Company (Oakland, CA). FDA Class II. Domestic: CA. Foreign: Not applicable.",
+   "bestBefore": "10/14/26",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100060&limit=100",
+   "gtins": [
+    "701725001074",
+    "701725001081",
+    "701725001098",
+    "701725001104",
+    "675643050967",
+    "675643050974",
+    "675643050981"
+   ]
+  },
+  {
+   "id": "us-fda-100068",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "supplement",
+   "hazard": "other",
+   "name": "Babies' Magic Tea",
+   "reason": "Adulterated (elevated levels of alcohol) infant dietary supplement",
+   "details": "Pacific Health Sciences Llc (Oxnard, CA). FDA Class II. Product was manufactured for a single customer located in Florida. Product was made available through Amazon and through the customers website.",
+   "bestBefore": "12/2028",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100068&limit=100"
+  },
+  {
+   "id": "us-fda-100077",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Gardners Basics brand Waltham 29 Broccoli Sprouting Seeds packaged in a white and green resealable pouch, net weight 1 pound (454 g)",
+   "reason": "Salmonella",
+   "details": "Gardeners Basics (Spanish Fork, UT). FDA Class I. Distributed nationwide via online sales.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100077&limit=100",
+   "gtins": [
+    "848137042889"
+   ]
+  },
+  {
+   "id": "us-fda-100125",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Great Value Fruit Cocktail in Fruit Juice from Concentrate",
+   "reason": "Potential contamination with elevated levels of lead.",
+   "details": "Pacific Coast Producers (Lodi, CA). FDA Class II. Domestic: AL, AZ, LA, NM, PA, WA, WY. Foreign: Not applicable.",
+   "lots": "6FCB 04 C2263",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100125&limit=100",
+   "gtins": [
+    "078742369570"
+   ]
+  },
+  {
+   "id": "us-fda-98583",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "other",
+   "name": "PRIMAL HERBS, VOLUME, HERBAL SUPPLEMENT",
+   "reason": "FDA laboratory analysis confirmed that Primal Herbs Volume contains sildenafil not listed on the product label.",
+   "details": "PRIMAL SUPPLEMENTS GROUP LLC (Albuquerque, NM). FDA Class I. Product was sold on the website primalherbs.com",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:98583&limit=100"
+  },
+  {
+   "id": "us-fda-99727",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Jovy Gummy Worms Neon, Milk Chocolate Covered Raisins, Whole wheat flour, Special Red Almond Mole Powder, Fritura mixed dry fruit, Black Sesame Seeds, 10X10…",
+   "reason": "undeclared allergen ingredient (Red#40, Yellow#5, Yellow#6, Blue#1)",
+   "details": "El Ruisenor De Mexico, Inc. (Vernon, CA). FDA Class II, Class III, Class I. Recalling firm distributes primarily to California customers both retail and wholesale. Additional distribution to limited customers in Hawaii, Illinois, Kansas, Nevada, Oregon, and Washington.",
+   "lots": "6156, 630-715, 14250, 10989, 3260420701, 3263290501, 6155, 14929, 261705, 124624, 440024553-11-001, KW-R01-44, 1400/08067-25098-1, 101026, 6124, 14944, 15052, 261245XXX18L04A, KP02036, 5120, 181759P, 6087, 14968, 1493261035, 15132, 3032026, 6101, 630-035",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99727&limit=100",
+   "gtins": [
+    "712199083411",
+    "712199085156",
+    "712199083404",
+    "712199083558",
+    "712199083398",
+    "712199083510"
+   ]
+  },
+  {
+   "id": "us-fda-99942",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "supplement",
+   "hazard": "other",
+   "name": "Evexias Health Solutions Amino Ultra, 90-capsules, dietary supplement in white plastic bottles with blue/green/white labeling",
+   "reason": "The product is mislabeled and fails to declare fish oil.",
+   "details": "EVEXIAS HEALTH SOLUTION (Southlake, TX). FDA Class II. FL, NM, PA, NY, TN, SD, ND, KY, WA",
+   "lots": "594886001 MFG 1125",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99942&limit=100"
+  },
+  {
+   "id": "us-fda-99944",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "GEARHARTS FINE CHOCOLATES",
+   "reason": "Foreign Object - Broken glass was found in a piece of finished product.",
+   "details": "Gearharts Fine Chocolates, Inc. (Charlottesville, VA). FDA Class II. Product was shipped to the following states: CA, CT, GA, IL, KY, MA, MD, ME, MN, NC, NJ, NY, OH, SC, TX, VA & WA.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99944&limit=100",
+   "gtins": [
+    "898111002057"
+   ]
+  },
+  {
+   "id": "us-fda-99958",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Marca El Pato Salsa para Enchiladas",
+   "reason": "Undeclared salt, garlic, and onions",
+   "details": "Walker Foods, Inc (Los Angeles, CA). FDA Class II. Product was shipped to 32 direct account customers across the country. 15 of those are distributors, with the remaining 17 being retail groceries.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99958&limit=100"
+  },
+  {
+   "id": "us-fda-99981",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Sempio Yellow Peach",
+   "reason": "elevated level of lead in canned peaches",
+   "details": "Sempio Food Services, Inc (Cerritos, CA). FDA Class II. Product was primarily distributed to Asian grocery stores in California, Washington, Nevada, Arizona, Hawaii, New Jersey, Georgia, Maryland, New York, Illinois, and Virginia.",
+   "lots": "2026 06 01",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99981&limit=100",
+   "gtins": [
+    "8801005320825"
+   ]
+  },
+  {
+   "id": "us-fda-99985",
+   "country": "US",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Wild West Seeds Broccoli Seeds Green Sprouting Calabrese lot #4105",
+   "reason": "Salmonella",
+   "details": "Wild West Seed Inc (Albany, OR). FDA Class I. Distributed in CA, FL, GA, ID, MD, ME, NC, OR, PA, TX, UT, and United Kingdom.",
+   "lots": "W4105, W4475",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99985&limit=100"
+  },
+  {
+   "id": "us-fda-100002",
+   "country": "US",
+   "published": "2026-10-21",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Holsum Spinach Flour Tortillas Large, 8 count (20 oz.)",
+   "reason": "Undeclared colors (FD&C Blue No. 1 and FD&C Yellow No. 5)",
+   "details": "Holsum De Puerto Rico, Inc. (Toa Baja, PR). FDA Class II. PR, US Virgin Islands",
+   "bestBefore": "10/04/26, 10/12/26, 10/27/26, 11/02/26, 11/10/26, 11/25/26, 12/06/26, 12/07/26, 12/17/26",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100002&limit=100",
+   "gtins": [
+    "810023430629"
+   ]
+  },
+  {
+   "id": "us-fda-100041",
+   "country": "US",
+   "published": "2026-10-21",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Stewarts Shops Vanilla Heavenly Medley 1/2 Gallon (1.89 L), Stewarts Shops Vanilla chocolate Strawberry Ice Cream 1/2 gallon (1.89 L)",
+   "reason": "Foreign object: May contain pieces of metal",
+   "details": "Stewart's Shops Corp. (Saratoga Springs, NY). FDA Class II. NY, VT, NH",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100041&limit=100",
+   "gtins": [
+    "082086443711",
+    "082086443773"
+   ]
+  },
+  {
+   "id": "us-fda-100096",
+   "country": "US",
+   "published": "2026-10-21",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Pur Aqua Sparkling Frost Cherry Limeade 17 oz",
+   "reason": "May contain undeclared aspartame.",
+   "details": "Refresco Beverages US Inc (Tampa, FL). FDA Class III. Florida with further downstream distribution to retail stores",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100096&limit=100",
+   "gtins": [
+    "4099100167023"
+   ]
+  },
+  {
+   "id": "us-fda-99898",
+   "country": "US",
+   "published": "2026-10-21",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "HIGGS Loaded Bacon & Cheddar Potato Chips",
+   "reason": "Undeclared soy.",
+   "details": "Saratoga Potato Chips LLC (Fort Wayne, IN). FDA Class II. The recalled J. HIGGS Loaded Bacon and Cheddar Potato Chips were distributed in the states of Florida, Indiana, Kentucky, Ohio, Tennessee, and Maryland and sold in Save A Lot stores.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99898&limit=100",
+   "gtins": [
+    "051933316454"
+   ]
+  },
+  {
+   "id": "us-fda-99966",
+   "country": "US",
+   "published": "2026-10-21",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Deano's Pasta",
+   "reason": "Undeclared Lobster",
+   "details": "DEANO'S PASTA (Somerville, MA). FDA Class I. MA, NH",
+   "lots": "090126126",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99966&limit=100"
+  },
+  {
+   "id": "us-fda-99992",
+   "country": "US",
+   "published": "2026-10-21",
+   "category": "food",
+   "hazard": "other",
+   "name": "Made From Plants",
+   "reason": "defective packaging; packaging can rupture/explode during cooking.",
+   "details": "DARING FOODS INC (Long Beach, CA). FDA Class II. Product was distributed to a single retail grocery chain customer with multiple locations in Florida and one location in North Carolina. A total of 6 locations received recalled product.",
+   "lots": "2576",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99992&limit=100"
+  },
+  {
+   "id": "us-fda-100010",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Lemon Alfredo Fettuccine packed in a yellow plastic sealed bag with pink and black lettering",
+   "reason": "Contamination with Listeria monocytogenes",
+   "details": "GIAS FOOD INC. (New York, NY). FDA Class I. Retail locations nationwide",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100010&limit=100",
+   "gtins": [
+    "194346442706"
+   ]
+  },
+  {
+   "id": "us-fda-100043",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Saint Francis Apizza Frozen Pepperoni Pizza, Net Weight: 17 oz. (482g), packaged individually in vacuum-sealed plastic, Saint Francis Apizza Frozen Cheese…",
+   "reason": "Undeclared soy allergen: soybean oil and soy lecithin",
+   "details": "Saint Francis Apizza LLC (Cincinnati, OH). FDA Class II. KY, OH",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100043&limit=100",
+   "gtins": [
+    "666186277621",
+    "666186277591",
+    "666186277607",
+    "666186277645"
+   ]
+  },
+  {
+   "id": "us-fda-99442",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Sweet Sensi Elevated Edibles Hybrid Gum Drops - Passion Guava Kush 140mg THC",
+   "reason": "Staphylococcus aureus detected in product.",
+   "details": "SWEET SENSI (Austin, TX). FDA Class II. Nationwide",
+   "lots": "1811",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99442&limit=100",
+   "gtins": [
+    "850043378020"
+   ]
+  },
+  {
+   "id": "us-fda-99686",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Donutful Chocolate Dipped Vanilla Cake Donuts - 7.05oz/10ct.Case Configuration 5 count carton, 6 cartons per case",
+   "reason": "Undeclared Milk.",
+   "details": "The Better Bakehouse Snack Company (Las Vegas, NV). FDA Class I. Product was distributed nationwide.",
+   "lots": "26078",
+   "bestBefore": "09/15/2026",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99686&limit=100",
+   "gtins": [
+    "850041392103"
+   ]
+  },
+  {
+   "id": "us-fda-99823",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "other",
+   "name": "Chocolate Chip Cookies packaged in a cardboard box, Croissant, Lemon Blueberry Loaf packaged in a cardboard box",
+   "reason": "Soy was not declared in the Contains statement.",
+   "details": "J K Patisserie & Bakery LLC (Long Island City, NY). FDA Class II. NY and NJ",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99823&limit=100"
+  },
+  {
+   "id": "us-fda-99847",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Cranberry Chicken Salad Wedge 4.5 oz package in Wedge plastic and clear container with a plastic film sealing the top",
+   "reason": "The chicken salad sandwich has an improperly declared allergen (egg). While egg is included in the ingredients list on the package label, it is not included…",
+   "details": "FRESHPOINT CENTRAL FLORIDA, INC. (Orlando, FL). FDA Class II. Florida and Georgia",
+   "bestBefore": "9/3/2026 – 9/17/2026",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99847&limit=100"
+  },
+  {
+   "id": "us-fda-99872",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, biQ-FEL, 16.9 fl oz (500 mL), 17 servings per bottle",
+   "reason": "Product contains undeclared Sildenafil and Tadalafil.",
+   "details": "A&P CREATIONS (Clermont, FL). FDA Class I. Distributed nationwide (US).",
+   "lots": "F090824LN16, F170325LN19, 300326LN28, biQ-f001-06-25, biQ-003-01-26",
+   "bestBefore": "8/2026, 03/2027, 03/2028, 05/06/2027, 01/01/28",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99872&limit=100",
+   "gtins": [
+    "7708075247094"
+   ]
+  },
+  {
+   "id": "us-fda-99894",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Berlin Seeds Alfalfa Sprouting Seeds, packaged in 1/4 lb., 1/2 lb., 1 lb., and 5 lb",
+   "reason": "Product contains alfalfa seed recalled by the supplier due to potential E. coli and/or Salmonella contamination.",
+   "details": "Berlin Seeds (Millersburg, OH). FDA Class I. Through the firm's retail store in Millersburg, OH and nationwide through the firm's website",
+   "lots": "SAL2-24JB",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99894&limit=100"
+  },
+  {
+   "id": "us-fda-99933",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "QUESO PALMITA",
+   "reason": "Undeclared milk, cheese declared",
+   "details": "QUESO PALMITA GP LLC (Stafford, TX). FDA Class II. Texas",
+   "lots": "PQ-1-0024",
+   "bestBefore": "10/22/2026",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99933&limit=100",
+   "gtins": [
+    "094922980045"
+   ]
+  },
+  {
+   "id": "us-fda-99937",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Mezzetta GOLDEN GREEK PEPERONCINI MEDIUM HEAT 32 FL OZ G.L",
+   "reason": "Potential contamination with foreign objects: mice.",
+   "details": "G L Mezzetta Inc (American Canyon, CA). FDA Class II. Domestic: AZ, CA, CO, GA, IA, ID, IL, IN, MI, MN, MO, NC, OH, OK, OR, PA, SD, TX, UT, VA, WA, WI. Foreign: Not applicable.",
+   "lots": "720106",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99937&limit=100",
+   "gtins": [
+    "073214003280"
+   ]
+  },
+  {
+   "id": "us-fda-99946",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "other",
+   "name": "WinCo Foods Salsa Bean Dip Express Tray is packaged in a foil bottom container with clear plastic lid",
+   "reason": "Bean Dip Trays contains recalled Peperoncini (pepper) which was recalled due to pest issue.",
+   "details": "WinCo Foods LLC (Boise, ID). FDA Class II. Distributed in AZ, CA, ID, MT, NV, OR, UT, and WA.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99946&limit=100"
+  },
+  {
+   "id": "us-fda-99951",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "LEASA Alfalfa Sprouts, LEASA Living Alfalfa Sprouts",
+   "reason": "Seeds may have been contaminated with E.coli",
+   "details": "LEASA Industries Co., Inc. (Miami, FL). FDA Class I. FL and NH",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99951&limit=100",
+   "gtins": [
+    "075465111110",
+    "075465559127"
+   ]
+  },
+  {
+   "id": "us-fda-99986",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "SIERRA NEVADA GRAZIERS RAW MONTEREY JACK, SIERRA NEVADA GRAZIERS RAW SHARP CHEDDAR, SIERRA NEVADA GRAZIERS RAW MEDIUM CHEDDAR, GRAZIERS RAW SMOKED CHEDDAR…",
+   "reason": "Potential contamination due to E. coli O26:H11.",
+   "details": "Sierra Nevada Cheese Company, Inc (Willows, CA). FDA Class I. Domestic: AZ, CA, CO, FL, GA, IL, IN, MD, NJ, OR, TX, WA, WI. Foreign: Not applicable.",
+   "lots": "00116265, 00305264",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99986&limit=100",
+   "gtins": [
+    "687652164009",
+    "687652165075",
+    "687652165013",
+    "687652165068",
+    "687652164030"
+   ]
+  },
+  {
+   "id": "us-fda-99991",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Gatorade Lemon Lime, Gatorade Lemon Lime Zero, Gatorade Orange, and Gatorade Orange Zero",
+   "reason": "Undeclared Yellow No. 6 and/or Yellow No. 5",
+   "details": "Pepsico Inc (Purchase, NY). FDA Class II. AK, AL, AR, AZ, CA, CO, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MI, MN, MO, MS, NC, ND, NE, NJ, NM, NV, NY, OH, OK, PA, SC, SD, TN, TX, UT, WA, WI",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99991&limit=100"
+  }
+ ]
+}

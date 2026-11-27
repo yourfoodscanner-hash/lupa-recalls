@@ -1,0 +1,46 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T14:58:44Z",
+ "country": "LT",
+ "recalls": [
+  {
+   "id": "eu-rasff-lt-2026-10125",
+   "country": "LT",
+   "published": "2026-11-13",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Salmone scozzese affumicato//smoked Scottish salmon",
+   "reason": "Listeria monocytogenes in salmone scozzese affumicato//Listeria monocytogenes in smoked Scottish salmon",
+   "details": "Listeria monocytogenes - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886879",
+   "group": "rasff-2026-10125"
+  },
+  {
+   "id": "eu-rasff-lt-2026-9796",
+   "country": "LT",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Saucy Noodles Sesame",
+   "reason": "Absence of allergen labelling in the greek language in saucy noodles",
+   "details": "allergen information - insufficient - faulty labelling or claims",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883576",
+   "group": "rasff-2026-9796"
+  },
+  {
+   "id": "eu-rasff-lt-2026-9682",
+   "country": "LT",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  }
+ ]
+}

@@ -1,0 +1,370 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T14:58:44Z",
+ "country": "NL",
+ "recalls": [
+  {
+   "id": "nl-nvwa-diverse-salades-van-marqt-keuken",
+   "country": "NL",
+   "published": "2026-11-26",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Buddha bowl, Powerful pumpkin salade, Turmeric tango salade",
+   "brand": "Marqt Keuken",
+   "reason": "Er bestaat een kans dat deze producten witte harde plastic stukjes bevatten",
+   "details": "Buddha bowl: Artikelnummer: 6001335, EAN: 8711521160525, Ten minste houdbaar tot (THT): 28-11-2026 & 29-11-2026; Powerful pumpkin salade: Artikelnummer: 6001337, EAN: 8711521160501, Ten minste houdbaar tot (THT): 27-11-2026 & 28-11-2026 & 29-11-2026; Turmeric tango salade: Artikelnummer: 6001338, EAN: 8711521160518, Ten minste houdbaar tot (THT): 27-11-2026 & 28-11-2026 & 29-11-2026",
+   "bestBefore": "28-11-2026, 29-11-2026, 27-11-2026",
+   "action": "Eet de salades niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/26/veiligheidswaarschuwing-diverse-salades-van-marqt-keuken",
+   "gtins": [
+    "8711521160525",
+    "8711521160501",
+    "8711521160518"
+   ]
+  },
+  {
+   "id": "nl-nvwa-jumbo-kiprollade-rolletje-met-roomkaas-allergenen",
+   "country": "NL",
+   "published": "2026-11-24",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Jumbo Kiprollade Rolletje met Roomkaas",
+   "reason": "Het product bevat mogelijk een onjuist etiket, waardoor het allergeen cashewnoten niet wordt vermeld",
+   "details": "Product: Jumbo Kiprollade Rolletje met Roomkaas, Streepjescode: 8726900064042, Ten minste houdbaar tot (THT): van 15-11-2026 t/m 11-12-2026",
+   "bestBefore": "15-11-2026 – 11-12-2026",
+   "action": "Eet het product niet als u allergisch bent voor cashewnoten.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/24/veiligheidswaarschuwing-jumbo-kiprollade-rolletje-met-roomkaas-allergenen",
+   "gtins": [
+    "8726900064042"
+   ]
+  },
+  {
+   "id": "nl-nvwa-healthyfit-vegan-protein-bar-hazelnut-nougat",
+   "country": "NL",
+   "published": "2026-11-21",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Healthy Fit Vegan proteïne reep hazelnoot nougat",
+   "reason": "Het product bevat pinda's. Dit staat niet op de verpakking vermeld",
+   "details": "Product: Healthy Fit Vegan proteïne reep hazelnoot nougat, Ten minste houdbaar tot (THT): 06-2027 (batch 4245)",
+   "lots": "4245",
+   "bestBefore": "06-2027",
+   "action": "Eet de reep niet als u allergisch bent voor pinda's.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/21/veiligheidswaarschuwing-healthyfit-vegan-protein-bar-hazelnut-nougat"
+  },
+  {
+   "id": "nl-nvwa-ah-spinazie-a-la-creme-750-gram",
+   "country": "NL",
+   "published": "2026-11-19",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "AH Spinazie à la crème 750 gram",
+   "reason": "Het product bevat mogelijk plastic deeltjes",
+   "details": "Product: AH Spinazie à la crème 750 gram, Ten minste houdbaar tot (THT): 04-2028",
+   "bestBefore": "04-2028",
+   "action": "Eet de spinazie niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/19/veiligheidswaarschuwing-ah-spinazie-a-la-creme-750-gram"
+  },
+  {
+   "id": "nl-nvwa-milbona-uht-volle-melk-van-lidl",
+   "country": "NL",
+   "published": "2026-11-13",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Milbona – UHT volle melk",
+   "brand": "Lidl",
+   "reason": "Het product bevat mogelijk ziekmakende bacteriën. Deze bacteriën kunnen ernstige gezondheidsrisico’s veroorzaken",
+   "details": "Product: Milbona – UHT volle melk, Streepjescode: 4335619043268, Ten minste houdbaar tot (THT): 05-07-2027",
+   "bestBefore": "05-07-2027",
+   "action": "Drink de melk niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/13/veiligheidswaarschuwing-milbona-uht-volle-melk-van-lidl",
+   "gtins": [
+    "4335619043268"
+   ]
+  },
+  {
+   "id": "nl-nvwa-brandwijk-alkmaarse-gort-van-poiesz-supermarkten",
+   "country": "NL",
+   "published": "2026-11-12",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Brandwijk Alkmaarse Gort (Parelgort)",
+   "brand": "Poiesz Supermarkten",
+   "reason": "In het product kunnen levende larven of motvliegen zitten",
+   "details": "Product: Brandwijk Alkmaarse Gort (Parelgort), Ten minste houdbaar tot (THT): 09-2028",
+   "bestBefore": "09-2028",
+   "action": "Eet de gort niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/12/veiligheidswaarschuwing-brandwijk-alkmaarse-gort-van-poiesz-supermarkten"
+  },
+  {
+   "id": "nl-nvwa-rode-wijn-saus-gourmet-van-aldi-allergenen",
+   "country": "NL",
+   "published": "2026-11-12",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Rode wijn saus gourmet",
+   "reason": "De saus bevat sulfiet. Dit staat niet op de verpakking",
+   "details": "Product: Rode wijn saus gourmet, Streepjescode: 4068428042824, Ten minste houdbaar tot (THT): 02-2027, 06-2027 en 02-2028",
+   "bestBefore": "02-2027, 06-2027, 02-2028",
+   "action": "Eet de saus niet als u allergisch bent voor sulfiet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/12/veiligheidswaarschuwing-rode-wijn-saus-gourmet-van-aldi-allergenen",
+   "gtins": [
+    "4068428042824"
+   ]
+  },
+  {
+   "id": "nl-nvwa-jumbo-wraphapje-kip-pesto-allergenen",
+   "country": "NL",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Jumbo wraphapje kip pesto 110 gram",
+   "reason": "Op de verpakking zit het verkeerde etiket. Hierdoor staat niet vermeld dat er pinda en noten in het product zitten",
+   "details": "Product: Jumbo wraphapje kip pesto 110 gram, Streepjescode: 8726900041821, Ten minste houdbaar tot (THT): 16-11-2026",
+   "bestBefore": "16-11-2026",
+   "action": "Eet het wraphapje kip pesto niet als u allergisch bent voor pinda's en/of noten.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/11/veiligheidswaarschuwing-jumbo-wraphapje-kip-pesto-allergenen",
+   "gtins": [
+    "8726900041821"
+   ]
+  },
+  {
+   "id": "nl-nvwa-de-oude-streek-machedoux-en-macandre-geitenkaas",
+   "country": "NL",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Machedoux geitenkaas, Macandré geitenkaas",
+   "reason": "In deze producten is Listeria aangetroffen. Deze bacterie kan gezondheidsklachten veroorzaken",
+   "details": "Machedoux geitenkaas: Artikelnummer: 0825, Streepjescode: 8714108860108, Ten minste houdbaar tot (THT): 21-11-2026; Macandré geitenkaas: Artikelnummer: 2020, Streepjescode: 8714108005028, Ten minste houdbaar tot (THT): 21-11-2026",
+   "bestBefore": "21-11-2026",
+   "action": "Eet de geitenkaas niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/06/veiligheidswaarschuwing-de-oude-streek-machedoux-en-macandre-geitenkaas",
+   "gtins": [
+    "8714108860108",
+    "8714108005028"
+   ]
+  },
+  {
+   "id": "nl-nvwa-jumbo-red-velvet-punten-appel-victoria-vlaaitjes-en-aardbeienslofjes",
+   "country": "NL",
+   "published": "2026-11-05",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Jumbo Red velvet punten, Jumbo Appel Victoria vlaaitjes, Jumbo aardbei slofjes",
+   "reason": "Op de verpakking staat het glutenvrij logo afgebeeld, terwijl het product wel gluten bevat",
+   "details": "Jumbo Red velvet punten: Streepjescode: 8726900070531, Te gebruiken tot (TGT): 05-11-2026; Jumbo Appel Victoria vlaaitjes: Streepjescode: 8726900019455, Te gebruiken tot (TGT): 05-11-2026; Jumbo aardbei slofjes: Streepjescode: 8726900019448, Te gebruiken tot (TGT): 05-11-2026",
+   "bestBefore": "05-11-2026",
+   "action": "Eet het product niet als u glutenintolerant of glutensensitief bent.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/05/veiligheidswaarschuwing-jumbo-red-velvet-punten-appel-victoria-vlaaitjes-en-aardbeienslofjes",
+   "gtins": [
+    "8726900070531",
+    "8726900019455",
+    "8726900019448"
+   ]
+  },
+  {
+   "id": "nl-nvwa-granditalia-gnocchi-di-patate-500-gram",
+   "country": "NL",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Grand’Italia Gnocchi di Patate 500 gram",
+   "reason": "Het product kan mogelijk brokken blauw hard plastic bevatten",
+   "details": "Product: Grand’Italia Gnocchi di Patate 500 gram, Streepjescode: 8000050217221, Productiecode: 6218 (houdbaarheidsdatum 6-8-2027 en 7-8-2027), Productiecode: 6243 (houdbaarheidsdatum 31-8-2027); Dit product is onder andere verkocht bij::",
+   "lots": "6218, 6243",
+   "bestBefore": "6-8-2027, 7-8-2027, 31-8-2027",
+   "action": "Eet de gnocchi niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/04/veiligheidswaarschuwing-granditalia-gnocchi-di-patate-500-gram",
+   "gtins": [
+    "8000050217221"
+   ]
+  },
+  {
+   "id": "nl-nvwa-madegood-crunchy-cookies-vanilla",
+   "country": "NL",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "MadeGood Crunchy Cookies Vanilla",
+   "reason": "Op de verpakking staat de ingrediënten- en allergeneninformatie alleen in het Engels. Hierdoor is haver niet duidelijk als allergeen aangegeven",
+   "details": "Product: MadeGood Crunchy Cookies Vanilla, Streepjescode: 687456284347, Batchnummer:06082026, Ten minste houdbaar tot (THT):8 maart 2027",
+   "lots": "06082026",
+   "action": "Eet het product niet als u allergisch bent voor haver.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/29/veiligheidswaarschuwing-madegood-crunchy-cookies-vanilla",
+   "gtins": [
+    "687456284347"
+   ]
+  },
+  {
+   "id": "nl-nvwa-lochtman-hollandse-hachee-allergenen",
+   "country": "NL",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Lochtman Hollandse Hachee 500 gram",
+   "reason": "In de verpakking zit de verkeerde inhoud, namelijk Hongaarse Goulash. De goulash bevat de allergenen soja en selderij",
+   "details": "Product: Lochtman Hollandse Hachee 500 gram, Streepjescode: 8717056394411, Batch: 740531, Ten minste houdbaar tot (THT): 08-01-2027, Verkocht bij: Jumbo supermarkten",
+   "lots": "740531",
+   "bestBefore": "08-01-2027",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/28/veiligheidswaarschuwing-lochtman-hollandse-hachee-allergenen",
+   "gtins": [
+    "8717056394411"
+   ]
+  },
+  {
+   "id": "nl-nvwa-ah-pokebowl-sticky-tempeh-allergenen",
+   "country": "NL",
+   "published": "2026-10-24",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "AH Pokebowl sticky tempeh (allergenen)",
+   "reason": "Op de verpakking staat een vegan-logo, terwijl het product ei bevat",
+   "action": "Eet het product niet als u allergisch bent voor ei of een veganistisch dieet volgt.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/24/veiligheidswaarschuwing-ah-pokebowl-sticky-tempeh-allergenen"
+  },
+  {
+   "id": "nl-nvwa-melkunie-protein-pudding",
+   "country": "NL",
+   "published": "2026-10-23",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Melkunie Protein Pudding",
+   "reason": "Melkunie roept een partij Melkunie Protein Pudding in de smaken chocolade en crème brûlée terug omdat ze mogelijk kleine glasdeeltjes bevatten",
+   "details": "Melkunie Protein Pudding Chocolate THT-data: 07-01-2027, 09-01-2027 en 06-02-2027, Melkunie Protein Pudding Crème Brûlée THT-datum: 25-01-2027",
+   "bestBefore": "07-01-2027, 09-01-2027, 06-02-2027, 25-01-2027",
+   "action": "Eet het product niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/23/veiligheidswaarschuwing-melkunie-protein-pudding"
+  },
+  {
+   "id": "nl-nvwa-ah-ossenworst-van-albert-heijn",
+   "country": "NL",
+   "published": "2026-10-22",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "AH Ossenworst van Albert Heijn",
+   "brand": "Albert Heijn",
+   "reason": "De shigatoxine-producerende E. coli-bacterie (STEC) kan aanwezig zijn in het product",
+   "details": "Te gebruiken tot (TGT): 20-10-2026, 21-10-2026, 23-10-2026 en 26-10-2026",
+   "bestBefore": "20-10-2026, 21-10-2026, 23-10-2026, 26-10-2026",
+   "action": "Eet de ossenworst niet",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/22/veiligheidswaarschuwing-ah-ossenworst-van-albert-heijn"
+  },
+  {
+   "id": "nl-nvwa-lavacake-chocoladeletter-van-jamin",
+   "country": "NL",
+   "published": "2026-10-20",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Lavacake Chocoladeletter van Jamin",
+   "brand": "Jamin",
+   "reason": "In een aantal producten is schimmel aangetroffen. Dit kan een risico vormen voor de gezondheid",
+   "details": "Product: Lavacake Chocoladeletter van Jamin, Streepjescode (EAN): 08716739197561, Batchnummer(s) / THT: 10-01-2027, Producent: Winters – the chocolate company, Verkocht van: 5 oktober 2026 tot en met 19 oktober 2026, Verkocht bij: Fysieke Jamin-winkels en online via Jamin",
+   "bestBefore": "10-01-2027",
+   "action": "Eet het product niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/20/veiligheidswaarschuwing-lavacake-chocoladeletter-van-jamin",
+   "gtins": [
+    "08716739197561"
+   ]
+  },
+  {
+   "id": "nl-nvwa-esn-designer-protein-bar-dark-chocolate-salted-almond",
+   "country": "NL",
+   "published": "2026-10-19",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "ESN Designer Protein Bar Dark Chocolate Salted Almond, 45 g",
+   "reason": "De proteïnereep bevat mogelijk kunststof vreemde delen",
+   "details": "Product: ESN Designer Protein Bar Dark Chocolate Salted Almond, 45 g, Streepjescode: 4250519680279, Batch: L3226505-11, Ten minste houdbaar tot (THT): 13 april 2027, Verkocht bij: Jumbo Supermarkten",
+   "lots": "L3226505-11",
+   "action": "Eet het product niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/19/veiligheidswaarschuwing-esn-designer-protein-bar-dark-chocolate-salted-almond",
+   "gtins": [
+    "4250519680279"
+   ]
+  },
+  {
+   "id": "nl-nvwa-jumbo-pulled-chicken",
+   "country": "NL",
+   "published": "2026-10-19",
+   "category": "food",
+   "hazard": "other",
+   "name": "Jumbo pulled chicken",
+   "reason": "De pulled chicken bevat mogelijk rauwe kip, terwijl deze voorgegaard hoort te zijn",
+   "details": "Product: Jumbo pulled chicken, Streepjescode: 8726900034397, Te gebruiken tot (TGT): 02-12-2026",
+   "bestBefore": "02-12-2026",
+   "action": "Eet het product niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/19/veiligheidswaarschuwing-jumbo-pulled-chicken",
+   "gtins": [
+    "8726900034397"
+   ]
+  },
+  {
+   "id": "nl-nvwa-peterselie-krul-40g-van-aldi-allergenen",
+   "country": "NL",
+   "published": "2026-10-16",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Peterselie krul 40g",
+   "reason": "In de verpakking zit selderij. Dit staat niet vermeld op het etiket",
+   "details": "Product: Peterselie krul 40g, Streepjescode: 2003021095749, Ten minste houdbaar tot (THT): 28-10-2026",
+   "bestBefore": "28-10-2026",
+   "action": "Eet het product niet als u allergisch bent voor selderij.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/16/veiligheidswaarschuwing-peterselie-krul-40g-van-aldi-allergenen"
+  },
+  {
+   "id": "nl-nvwa-cook-kerrie-mild",
+   "country": "NL",
+   "published": "2026-10-13",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Cook Kerrie mild",
+   "reason": "Het product bevat mogelijk salmonella",
+   "details": "Product: Cook Kerrie mild, Streepjescode: 3417960022657, Artikelnummer Odin: 10743, Ten minste houdbaar tot (THT): 08-2028",
+   "bestBefore": "08-2028",
+   "action": "Gebruik de kerrie niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/13/veiligheidswaarschuwing-cook-kerrie-mild",
+   "gtins": [
+    "3417960022657"
+   ]
+  },
+  {
+   "id": "nl-nvwa-cook-korianderzaad-gemalen",
+   "country": "NL",
+   "published": "2026-10-13",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Cook korianderzaad Gemalen",
+   "reason": "Het product bevat mogelijk salmonella",
+   "details": "Product: Cook korianderzaad Gemalen, Streepjescode: 3417960022619, Artikelnummer: 5005719, Artikelnummer Odin: 10749, Ten minste houdbaar tot (THT): 08-2028",
+   "bestBefore": "08-2028",
+   "action": "Gebruik het korianderzaad niet.",
+   "source": "NVWA",
+   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/13/veiligheidswaarschuwing-cook-korianderzaad-gemalen",
+   "gtins": [
+    "3417960022619"
+   ]
+  }
+ ]
+}
