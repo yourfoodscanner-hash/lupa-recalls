@@ -1,209 +1,193 @@
 [
  {
-  "name": "eu-rasff-consumers",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/consumers",
+  "name": "eu-rasff-main",
+  "url": "https://webgate.ec.europa.eu/rasff-window/main.js",
+  "max": 8000000
+ },
+ {
+  "name": "eu-rasff-UO7PX3GR",
+  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-UO7PX3GR.js",
+  "max": 8000000
+ },
+ {
+  "name": "eu-rasff-6NDRLT7K",
+  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-6NDRLT7K.js",
+  "max": 8000000
+ },
+ {
+  "name": "eu-rasff-NMMTOIVC",
+  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-NMMTOIVC.js",
+  "max": 8000000
+ },
+ {
+  "name": "eu-rasff-JBC2RXAS",
+  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-JBC2RXAS.js",
+  "max": 8000000
+ },
+ {
+  "name": "se-list",
+  "url": "https://www.livsmedelsverket.se/om-oss/press/aterkallanden/",
   "scan": true
  },
  {
-  "name": "nl-nvwa",
-  "url": "https://www.nvwa.nl/onderwerpen/veiligheidswaarschuwingen",
+  "name": "se-rss-page",
+  "url": "https://www.livsmedelsverket.se/om-oss/press/rss/",
   "scan": true
  },
  {
-  "name": "nl-nvwa-home",
-  "url": "https://www.nvwa.nl/",
+  "name": "fi-list",
+  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot/",
   "scan": true
  },
  {
-  "name": "be-favv-list",
-  "url": "https://favv-afsca.be/nl/producten",
+  "name": "lv-rasff",
+  "url": "https://www.pvd.gov.lv/lv/pvd-nosutitie-zinojumi-rasff",
   "scan": true
  },
  {
-  "name": "be-favv-recall",
-  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-danone-0",
+  "name": "nl-list",
+  "url": "https://www.nvwa.nl/actueel/veiligheidswaarschuwingen/overzicht",
   "scan": true
  },
  {
-  "name": "lu-home",
-  "url": "https://securite-alimentaire.public.lu/fr.html",
+  "name": "be-list-recalls",
+  "url": "https://favv-afsca.be/nl/producten?f%5B0%5D=products_issue_type%3A13",
   "scan": true
  },
  {
-  "name": "ie-fsai",
-  "url": "https://www.fsai.ie/news-and-alerts/food-alerts",
+  "name": "cz-rss",
+  "url": "https://www.potravinynapranyri.cz/Rss.aspx"
+ },
+ {
+  "name": "cz-szpi-rss",
+  "url": "https://www.szpi.gov.cz/rss.aspx"
+ },
+ {
+  "name": "ch-recallswiss",
+  "url": "https://www.recallswiss.admin.ch/customer-access/",
   "scan": true
  },
  {
-  "name": "pt-asae",
-  "url": "https://www.asae.gov.pt/",
+  "name": "gr-list",
+  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat",
   "scan": true
  },
  {
-  "name": "se-lv",
-  "url": "https://www.livsmedelsverket.se/livsmedel-och-innehall/aterkallade-livsmedel",
+  "name": "gr-feed",
+  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat?format=feed&type=rss"
+ },
+ {
+  "name": "is-list",
+  "url": "https://www.mast.is/is/matvaelafyrirtaeki/innra-eftirlit-fyrirtaekja/innkollun",
   "scan": true
  },
  {
-  "name": "se-lv-home",
-  "url": "https://www.livsmedelsverket.se/",
+  "name": "is-feed",
+  "url": "https://www.mast.is/is/feed"
+ },
+ {
+  "name": "lu-list",
+  "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes.html",
   "scan": true
  },
  {
-  "name": "dk-rss",
-  "url": "https://foedevarestyrelsen.dk/handlers/DynamicRss.ashx?id=8c2cdc12-6a58-43d1-8b4e-97aa96dedd0c"
- },
- {
-  "name": "dk-home",
-  "url": "https://foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter",
+  "name": "md-list",
+  "url": "https://www.ansa.gov.md/media/rechemare-retragere",
   "scan": true
  },
  {
-  "name": "fi-home",
-  "url": "https://www.ruokavirasto.fi/",
+  "name": "mk-list",
+  "url": "https://fva.gov.mk/mk/izvestuvanje-otpovikuvanje-nebezbedni-proizvodi",
   "scan": true
  },
  {
-  "name": "pl-gis",
-  "url": "https://www.gov.pl/web/gis/ostrzezenia",
+  "name": "mk-rss",
+  "url": "https://fva.gov.mk/mk/rss.xml"
+ },
+ {
+  "name": "no-api-page",
+  "url": "https://www.mattilsynet.no/om-mattilsynet/api",
   "scan": true
  },
  {
-  "name": "pl-gis-food",
-  "url": "https://www.gov.pl/web/gis/ostrzezenia-publiczne-dotyczace-zywnosci",
+  "name": "no-detail",
+  "url": "https://www.mattilsynet.no/tilbakekallinger/sunkost-superfood-kakaopulver-tilbakekalles"
+ },
+ {
+  "name": "pl-detail",
+  "url": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-stwierdzenie-obecnosci-plesni-w-wodzie-mineralnej"
+ },
+ {
+  "name": "sk-wp-cats",
+  "url": "https://svps.sk/wp-json/wp/v2/categories?per_page=100"
+ },
+ {
+  "name": "sk-wp-search",
+  "url": "https://svps.sk/wp-json/wp/v2/posts?search=stiahnutie&per_page=10&_fields=id,date,link,title,categories"
+ },
+ {
+  "name": "rs-wp-search",
+  "url": "https://www.vet.minpolj.gov.rs/wp-json/wp/v2/posts?search=povla%C4%8Denje&per_page=10&_fields=id,date,link,title,categories"
+ },
+ {
+  "name": "al-wp-search",
+  "url": "https://aku.gov.al/wp-json/wp/v2/posts?search=t%C3%ABrheq&per_page=10&_fields=id,date,link,title,categories"
+ },
+ {
+  "name": "al-wp-cats",
+  "url": "https://aku.gov.al/wp-json/wp/v2/categories?per_page=100"
+ },
+ {
+  "name": "ua-list",
+  "url": "https://dpss.gov.ua/diyalnist/bezpechnist-harchovih-produktiv-ta-veterinarna-medicina/povidomlennia-pro-nevidpovidnist/povidomlennia-pro-nevidpovidnist-poviazani-z-kharchovymy-produktamy-ta-kormamy",
   "scan": true
  },
  {
-  "name": "cz-pranyr",
-  "url": "https://www.potravinynapranyri.cz/",
+  "name": "me-doc",
+  "url": "https://www.gov.me/en/documents/8f67a7e5-38b2-477e-a56d-3142fa3892f6",
   "scan": true
  },
  {
-  "name": "cz-szpi",
-  "url": "https://www.szpi.gov.cz/",
+  "name": "es-list",
+  "url": "https://www.aesan.gob.es/alertas/buscador-alertas?itemsPage=50"
+ },
+ {
+  "name": "uk-api-30",
+  "url": "https://data.food.gov.uk/food-alerts/id?_format=json&_limit=30&_sort=-created"
+ },
+ {
+  "name": "ee-search",
+  "url": "https://pta.agri.ee/otsing?search_api_fulltext=tagasikutsumine",
   "scan": true
  },
  {
-  "name": "sk-svps",
-  "url": "https://www.svps.sk/",
+  "name": "lt-news",
+  "url": "https://vmvt.lt/naujienos",
   "scan": true
  },
  {
-  "name": "hu-nebih",
-  "url": "https://portal.nebih.gov.hu/termekvisszahivas",
+  "name": "bg-retry",
+  "url": "https://bfsa.egov.bg/wps/portal/bfsa-web/home",
   "scan": true
  },
  {
-  "name": "ro-ansvsa",
-  "url": "https://www.ansvsa.ro/",
+  "name": "ro-retry",
+  "url": "https://www.ansvsa.ro/informatii-pentru-public/alerte-rasff/",
   "scan": true
  },
  {
-  "name": "bg-bfsa",
-  "url": "https://bfsa.egov.bg/",
+  "name": "pt-retry",
+  "url": "https://www.asae.gov.pt/seguranca-alimentar.aspx",
   "scan": true
  },
  {
-  "name": "gr-efet",
-  "url": "https://www.efet.gr/",
+  "name": "cy-retry",
+  "url": "https://www.moh.gov.cy/moh/sgl/",
   "scan": true
  },
  {
-  "name": "lt-vmvt",
-  "url": "https://vmvt.lt/",
-  "scan": true
- },
- {
-  "name": "lv-pvd",
-  "url": "https://www.pvd.gov.lv/",
-  "scan": true
- },
- {
-  "name": "ee-pta",
-  "url": "https://pta.agri.ee/",
-  "scan": true
- },
- {
-  "name": "cy-moh",
-  "url": "https://www.moh.gov.cy/",
-  "scan": true
- },
- {
-  "name": "mt-fsc",
-  "url": "https://fsc.gov.mt/",
-  "scan": true
- },
- {
-  "name": "uk-fsa-api",
-  "url": "https://data.food.gov.uk/food-alerts/id?_format=json&_limit=5&_sort=-created"
- },
- {
-  "name": "uk-fsa-rss",
-  "url": "https://www.food.gov.uk/rss-feed/alerts-food"
- },
- {
-  "name": "no-mattilsynet",
-  "url": "https://www.mattilsynet.no/tilbakekallinger",
-  "scan": true
- },
- {
-  "name": "ch-blv",
-  "url": "https://www.blv.admin.ch/blv/de/home/lebensmittel-und-ernaehrung/rueckrufe-und-oeffentliche-warnungen.html",
-  "scan": true
- },
- {
-  "name": "is-mast",
-  "url": "https://www.mast.is/",
-  "scan": true
- },
- {
-  "name": "rs-mpsv",
-  "url": "https://www.minpolj.gov.rs/",
-  "scan": true
- },
- {
-  "name": "rs-vet",
-  "url": "https://www.vet.minpolj.gov.rs/",
-  "scan": true
- },
- {
-  "name": "me-ubh",
-  "url": "https://www.ubh.gov.me/",
-  "scan": true
- },
- {
-  "name": "mk-fva",
-  "url": "https://www.fva.gov.mk/",
-  "scan": true
- },
- {
-  "name": "al-aku",
-  "url": "https://aku.gov.al/",
-  "scan": true
- },
- {
-  "name": "xk-auv",
-  "url": "https://auv-ks.net/",
-  "scan": true
- },
- {
-  "name": "md-ansa",
-  "url": "https://www.ansa.gov.md/",
-  "scan": true
- },
- {
-  "name": "ua-dpss",
-  "url": "https://dpss.gov.ua/",
-  "scan": true
- },
- {
-  "name": "ru-rpn",
-  "url": "https://www.rospotrebnadzor.ru/",
-  "scan": true
- },
- {
-  "name": "by-home",
-  "url": "https://www.minzdrav.gov.by/",
+  "name": "xk-root",
+  "url": "https://www.auv-ks.net/",
   "scan": true
  }
 ]
