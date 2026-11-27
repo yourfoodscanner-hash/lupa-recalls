@@ -140,7 +140,7 @@ git push
 | Nébih „Termékvisszahívás” (`nebih`) | Mađarska | lista (50) + stranica svakog novog opoziva | 45 dana | 11 (27. 11.) |
 | Ruokavirasto „Takaisinvedot” (`ruokavirasto`) | Finska | lista + stranica svakog novog opoziva | 60 dana | 8 (27. 11.) |
 | NVWA „Veiligheidswaarschuwingen” (`nvwa`) | Holandija | pretraga sajta („veiligheidswaarschuwing”, najnovije prvo) + news sitemap i 3 najnovija upozorenja + stranica svakog novog | 45 dana | 22 (27. 11.) |
-| U.S. FDA Enforcement Report (`fda`) — samo v2 | SAD | openFDA API (`api.fda.gov/food/enforcement.json`), hrana i dodaci prehrani | 45 dana | 62 (27. 11.) |
+| U.S. FDA (`fda`) — samo v2 | SAD | saopćenja firmi (lista sa fda.gov + stranica svakog novog) i Enforcement Report (openFDA API `api.fda.gov/food/enforcement.json`), hrana i dodaci prehrani | 45 dana | 60 (27. 11.) |
 | FSA food alerts (`fsa`) — samo v2 | Ujedinjeno Kraljevstvo | FSA API (`data.food.gov.uk/food-alerts`, `_view=full`): allergy alerts, recall notices, alerts for action | 45 dana | 20 (27. 11.) |
 | RecallSwiss (`recallswiss`) — samo v2 | Švicarska | servis registra RecallSwiss, sektor „Lebensmittel”, objave BLV-a | 60 dana | 35 (27. 11.) |
 | Mattilsynet „Tilbakekallinger” (`mattilsynet`) — samo v2 | Norveška | lista teme „Mat og drikke” + stranica svakog novog opoziva | 60 dana | 13 (27. 11.) |
@@ -148,6 +148,7 @@ git push
 | АХВ „Отповикување небезбедни производи” (`fva`) — samo v2 | Sjeverna Makedonija | lista opoziva + stranica svakog novog | 365 dana | 1 (27. 11.) |
 | AESAN „Red de alerta alimentaria” (`aesan`) | Španija | lista upozorenja (20 po stranici) + stranica svakog novog | 45 dana | 14 (27. 11.) |
 | ALVA „Alertes alimentaires” (`alva`) | Luksemburg | RSS liste (zadnjih 50) + stranica svakog novog upozorenja | 45 dana | 26 (27. 11.) |
+| AUV — vijesti (`auv`) — samo v2 | Kosovo (XK) | WordPress API vijesti + Word dokument svake nove vijesti o povlačenju | 365 dana | 10 (27. 11.) |
 | EU RASFF Consumers' Portal (`rasff`) | 11 zemalja EU (vidi niže) | lista po zemlji (RSS) + javni JSON svake notifikacije | 30 dana | 65 (27. 11.) |
 
 Prozor od 180 dana za Sloveniju, Hrvatsku i BiH je isti kao za ručno unesene obavijesti: ti izvori
@@ -186,9 +187,33 @@ USDA (FSIS), čiji servis ne odgovara GitHubovim serverima. Obavijesti iz SAD id
 (aplikacija koja čita v1 ne prihvata zemlju US). Izvor se isključuje u `config.json`
 (`"enabled": false`); izvor koji `config.json` ne navodi se ne čita.
 
+**SAD — saopćenja firmi.** Firma koja povlači proizvod objavi saopćenje, a FDA ga isti dan stavi na
+listu „Recalls, Market Withdrawals, & Safety Alerts” — sedmicama prije nego što opoziv uđe u
+Enforcement Report. Posao čita tu listu (njen JSON, 100 najnovijih) i stranicu svakog novog saopćenja
+o hrani ili dodacima prehrani (lijekovi, uređaji i hrana za životinje se izostavljaju; saopćenje na
+španskom uz isto saopćenje na engleskom je jedno). Sa stranice: barkod, serija i rok gdje su označeni
+u tekstu ili u koloni tabele („UPC”, „Lot”, „Best By”), i savjet kupcima. **Jedan opoziv je jedna
+obavijest:** opoziv koji je firma najavila objavljuje se kao saopćenje (od dana saopćenja, s linkom
+na stranicu FDA), a njegov zapis u Enforcement Reportu — ista firma, opoziv započet u roku od 3
+sedmice od saopćenja i zajednička riječ u nazivu proizvoda, ili zajednički barkod — ne objavljuje se
+ponovo; njegovi barkodovi se dodaju saopćenju. Kad saopćenje izađe iz prozora, opoziv se ne vraća
+kao zapis izvještaja.
+
+**Kosovo (XK, samo v2).** AUV objavljuje vijesti na svom sajtu, a tekst većine je u Word dokumentu
+koji stranica prikazuje (`…/wp-content/uploads/….docx`). Posao čita listu vijesti (WordPress API) i
+otvara dokument samo za vijest čiji naslov ili ime dokumenta govori o povlačenju, seriji ili
+obavještenju javnosti (uvoz, uništavanje i izolacija robe se preskaču). Obavijest je samo ono gdje
+tekst kaže da se proizvod povlači s tržišta („tërheq…”, „largim nga tregu”, „bllokim”) i da je hrana
+za ljude (hrana za stoku se izostavlja). Naziv: „Emri i produktit” / „Brendi”, naziv iz naslova ili
+naziv u navodnicima uz samo povlačenje; razlog: „Arsyeja e njoftimit”, ono na šta se odnosi RASFF
+notifikacija ili ono što je utvrđeno; serija uz „Lot”, rok uz „datë skadimi”. Ista RASFF notifikacija
+u dvije vijesti je jedna obavijest, a njen broj je `group` (veza s istom notifikacijom u drugim
+zemljama). Prozor je 365 dana jer AUV objavi nekoliko opoziva godišnje. „XK” nije ISO 3166 kod, ali
+ga koriste EU i drugi; prikaz Kosova je odluka vlasnika (27. 11. 2026).
+
 Svaki adapter je napisan **prema stvarnim odgovorima** tih servisa (26. i 27. 11. 2026, snimljeni na
-GitHub Actions) i testiran na njima (`test/fixtures/live/`, `test/sources.test.js`,
-`test/sources-europe.test.js`, `test/sources-europe-2.test.js`). Kad izvor
+GitHub Actions) i testiran na njima (`test/fixtures/live/`, `test/sources*.test.js`: `sources`,
+`sources-europe` 1–4, `sources-usa`, `sources-kosovo`). Kad izvor
 promijeni oblik, adapter **ne pogađa**: stane s porukom šta je vidio, fajl se objavi s obavijestima tog
 izvora od prošlog puta, a nakon 3 dana šutnje pokretanje „padne” i stigne e-mail (poglavlje 4).
 
@@ -284,8 +309,6 @@ koliko bi obavijesti bilo objavljeno, zašto su ostale izostavljene i tri primje
 - **Crna Gora:** `gov.me` ne prihvata vezu sa servera GitHuba (istek vremena), a `ubh.gov.me` više ne
   postoji (DNS).
 - **Albanija (AKU):** objavljuje zbirne izvještaje inspekcija (kazne, zaplijene), ne opozive proizvoda.
-- **Kosovo (AUV, `auvk.rks-gov.net`):** opozive objavljuje kao vijesti (WordPress API, oko 8 u 2026.)
-  — izvor postoji, ali „XK” nije ISO kod i nije u ugovoru; dodaje se tek uz odluku vlasnika.
 
 **Napomena o RappelConso.** Adapter je pisan bez pristupa živim podacima, a zatim usklađen s
 onim što je registar stvarno dao 26. 11. 2026 (19 336 redova):
@@ -350,7 +373,8 @@ Posao objavljuje dva oblika istih obavijesti:
 - **v2 — fajl po zemlji** (`v2/index.json` i `v2/fr.json`, `v2/us.json` …): indeks kaže koje zemlje
   imaju fajl, koliko obavijesti i znakova ima svaki i datum najnovije; fajl zemlje ima samo
   obavijesti te zemlje (`"country"` mora biti ista kao zemlja fajla). Zemlje: one iz v1, **US** i
-  Evropa izvan EU — GB, CH, NO, IS, MK, MD, UA, ME, AL (`COUNTRIES_V2`; zemlja bez izvora nema fajl).
+  Evropa izvan EU — GB, CH, NO, IS, MK, MD, UA, ME, AL i **XK** (Kosovo; nije kod iz ISO 3166, nego
+  oznaka koju koriste EU i drugi) (`COUNTRIES_V2`; zemlja bez izvora nema fajl).
   Svaki fajl ima svoje granice (800 obavijesti, 500 000 znakova), pa mnogo obavijesti jedne zemlje
   nikad ne istiskuje drugu. `group` povezuje obavijesti i preko fajlova. Zemlja koja više nema
   nijednu obavijest nema ni fajl ni red u indeksu.

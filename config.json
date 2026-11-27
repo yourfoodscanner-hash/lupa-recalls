@@ -95,6 +95,10 @@
       "enabled": true,
       "windowDays": 45
     },
+    "auv": {
+      "enabled": true,
+      "windowDays": 365
+    },
     "rasff": {
       "enabled": true,
       "windowDays": 30,
