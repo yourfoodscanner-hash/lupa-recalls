@@ -1,0 +1,209 @@
+[
+ {
+  "name": "eu-rasff-consumers",
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/consumers",
+  "scan": true
+ },
+ {
+  "name": "nl-nvwa",
+  "url": "https://www.nvwa.nl/onderwerpen/veiligheidswaarschuwingen",
+  "scan": true
+ },
+ {
+  "name": "nl-nvwa-home",
+  "url": "https://www.nvwa.nl/",
+  "scan": true
+ },
+ {
+  "name": "be-favv-list",
+  "url": "https://favv-afsca.be/nl/producten",
+  "scan": true
+ },
+ {
+  "name": "be-favv-recall",
+  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-danone-0",
+  "scan": true
+ },
+ {
+  "name": "lu-home",
+  "url": "https://securite-alimentaire.public.lu/fr.html",
+  "scan": true
+ },
+ {
+  "name": "ie-fsai",
+  "url": "https://www.fsai.ie/news-and-alerts/food-alerts",
+  "scan": true
+ },
+ {
+  "name": "pt-asae",
+  "url": "https://www.asae.gov.pt/",
+  "scan": true
+ },
+ {
+  "name": "se-lv",
+  "url": "https://www.livsmedelsverket.se/livsmedel-och-innehall/aterkallade-livsmedel",
+  "scan": true
+ },
+ {
+  "name": "se-lv-home",
+  "url": "https://www.livsmedelsverket.se/",
+  "scan": true
+ },
+ {
+  "name": "dk-rss",
+  "url": "https://foedevarestyrelsen.dk/handlers/DynamicRss.ashx?id=8c2cdc12-6a58-43d1-8b4e-97aa96dedd0c"
+ },
+ {
+  "name": "dk-home",
+  "url": "https://foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter",
+  "scan": true
+ },
+ {
+  "name": "fi-home",
+  "url": "https://www.ruokavirasto.fi/",
+  "scan": true
+ },
+ {
+  "name": "pl-gis",
+  "url": "https://www.gov.pl/web/gis/ostrzezenia",
+  "scan": true
+ },
+ {
+  "name": "pl-gis-food",
+  "url": "https://www.gov.pl/web/gis/ostrzezenia-publiczne-dotyczace-zywnosci",
+  "scan": true
+ },
+ {
+  "name": "cz-pranyr",
+  "url": "https://www.potravinynapranyri.cz/",
+  "scan": true
+ },
+ {
+  "name": "cz-szpi",
+  "url": "https://www.szpi.gov.cz/",
+  "scan": true
+ },
+ {
+  "name": "sk-svps",
+  "url": "https://www.svps.sk/",
+  "scan": true
+ },
+ {
+  "name": "hu-nebih",
+  "url": "https://portal.nebih.gov.hu/termekvisszahivas",
+  "scan": true
+ },
+ {
+  "name": "ro-ansvsa",
+  "url": "https://www.ansvsa.ro/",
+  "scan": true
+ },
+ {
+  "name": "bg-bfsa",
+  "url": "https://bfsa.egov.bg/",
+  "scan": true
+ },
+ {
+  "name": "gr-efet",
+  "url": "https://www.efet.gr/",
+  "scan": true
+ },
+ {
+  "name": "lt-vmvt",
+  "url": "https://vmvt.lt/",
+  "scan": true
+ },
+ {
+  "name": "lv-pvd",
+  "url": "https://www.pvd.gov.lv/",
+  "scan": true
+ },
+ {
+  "name": "ee-pta",
+  "url": "https://pta.agri.ee/",
+  "scan": true
+ },
+ {
+  "name": "cy-moh",
+  "url": "https://www.moh.gov.cy/",
+  "scan": true
+ },
+ {
+  "name": "mt-fsc",
+  "url": "https://fsc.gov.mt/",
+  "scan": true
+ },
+ {
+  "name": "uk-fsa-api",
+  "url": "https://data.food.gov.uk/food-alerts/id?_format=json&_limit=5&_sort=-created"
+ },
+ {
+  "name": "uk-fsa-rss",
+  "url": "https://www.food.gov.uk/rss-feed/alerts-food"
+ },
+ {
+  "name": "no-mattilsynet",
+  "url": "https://www.mattilsynet.no/tilbakekallinger",
+  "scan": true
+ },
+ {
+  "name": "ch-blv",
+  "url": "https://www.blv.admin.ch/blv/de/home/lebensmittel-und-ernaehrung/rueckrufe-und-oeffentliche-warnungen.html",
+  "scan": true
+ },
+ {
+  "name": "is-mast",
+  "url": "https://www.mast.is/",
+  "scan": true
+ },
+ {
+  "name": "rs-mpsv",
+  "url": "https://www.minpolj.gov.rs/",
+  "scan": true
+ },
+ {
+  "name": "rs-vet",
+  "url": "https://www.vet.minpolj.gov.rs/",
+  "scan": true
+ },
+ {
+  "name": "me-ubh",
+  "url": "https://www.ubh.gov.me/",
+  "scan": true
+ },
+ {
+  "name": "mk-fva",
+  "url": "https://www.fva.gov.mk/",
+  "scan": true
+ },
+ {
+  "name": "al-aku",
+  "url": "https://aku.gov.al/",
+  "scan": true
+ },
+ {
+  "name": "xk-auv",
+  "url": "https://auv-ks.net/",
+  "scan": true
+ },
+ {
+  "name": "md-ansa",
+  "url": "https://www.ansa.gov.md/",
+  "scan": true
+ },
+ {
+  "name": "ua-dpss",
+  "url": "https://dpss.gov.ua/",
+  "scan": true
+ },
+ {
+  "name": "ru-rpn",
+  "url": "https://www.rospotrebnadzor.ru/",
+  "scan": true
+ },
+ {
+  "name": "by-home",
+  "url": "https://www.minzdrav.gov.by/",
+  "scan": true
+ }
+]
