@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-27T09:03:56Z",
- "total": 709,
+ "generated": "2026-11-27T12:06:21Z",
+ "total": 715,
  "curated": 0,
  "byCountry": {
-  "DE": 40,
-  "DK": 19,
-  "FR": 274,
+  "CZ": 54,
+  "DE": 41,
+  "DK": 20,
+  "FR": 276,
   "SI": 103,
-  "CZ": 53,
   "BE": 21,
   "BG": 3,
   "IT": 18,
@@ -15,6 +15,7 @@
   "SK": 6,
   "GR": 6,
   "FI": 6,
+  "SE": 11,
   "CY": 4,
   "ES": 10,
   "HU": 9,
@@ -23,7 +24,6 @@
   "MT": 3,
   "PT": 7,
   "RO": 7,
-  "SE": 10,
   "AT": 10,
   "PL": 11,
   "HR": 36,
@@ -35,8 +35,8 @@
   "rappelconso": {
    "enabled": true,
    "ok": true,
-   "seen": 19336,
-   "published": 274,
+   "seen": 19338,
+   "published": 276,
    "dropped": {
     "kategorija koju LUPA ne prikazuje": 4932,
     "starije od prozora": 14130
@@ -47,8 +47,8 @@
   "lebensmittelwarnung": {
    "enabled": true,
    "ok": true,
-   "seen": 237,
-   "published": 40,
+   "seen": 238,
+   "published": 41,
    "dropped": {
     "starije od prozora": 197
    },
@@ -111,8 +111,8 @@
   "fvst": {
    "enabled": true,
    "ok": true,
-   "seen": 526,
-   "published": 19,
+   "seen": 527,
+   "published": 20,
    "dropped": {
     "stavka nije obavijest o povlačenju": 2,
     "starije od prozora": 505
@@ -124,10 +124,10 @@
    "enabled": true,
    "ok": true,
    "seen": 100,
-   "published": 53,
+   "published": 54,
    "dropped": {
     "pronađeno u ugostiteljstvu, ne u prodaji": 26,
-    "starije od prozora": 21
+    "starije od prozora": 20
    },
    "carried": 0,
    "error": null
@@ -148,8 +148,8 @@
   "rasff": {
    "enabled": true,
    "ok": true,
-   "seen": 355,
-   "published": 167,
+   "seen": 356,
+   "published": 168,
    "dropped": {
     "starije od prozora": 150,
     "nije hrana (hrana za životinje, materijali u dodiru s hranom …)": 38

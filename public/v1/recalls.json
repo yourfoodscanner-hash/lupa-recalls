@@ -1,7 +1,80 @@
 {
  "version": 1,
- "generated": "2026-11-27T09:03:56Z",
+ "generated": "2026-11-27T12:06:21Z",
  "recalls": [
+  {
+   "id": "cz-pranyr-202381",
+   "country": "CZ",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Kukuřičné kuře - horní stehna",
+   "reason": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu",
+   "details": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu.",
+   "lots": "0082311015",
+   "bestBefore": "29.08.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202381"
+  },
+  {
+   "id": "de-lmw-26117-30-nw-blondierspray",
+   "country": "DE",
+   "published": "2026-11-27",
+   "category": "cosmetic",
+   "hazard": "other",
+   "name": "Blossity Blondspray 150 Milliliter",
+   "reason": "Sonstige Gründe",
+   "details": "Bei einer Untersuchung des Produkts wurde festgestellt, dass es aufgrund der unzureichenden Dichtigkeit der Verpackung nicht den allgemeinen Sicherheitsstandards von Dayes entspricht.",
+   "lots": "25L25",
+   "action": "Das Produkt soll nicht weiter verwendet werden. Es wird empfohlen, den Artikel in der nächstgelegenen Action-Filiale zurückzugeben. Kunden werden gebeten, beim Umgang mit dem Produkt Handschuhe zu tragen und sicherzustellen, dass das Produkt gut und auslaufsicher verpackt ist, zum Beispiel in einem verschlossenen Plastikbeutel. So werden mögliche Schäden an anderen Waren sowie mögliche Hautreizungen während des Transports und der Rückgabe des Produkts vermieden. Der Kaufpreis wird auch ohne…",
+   "source": "lebensmittelwarnung.de",
+   "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/26117_30_NW_Blondierspray/261117_30_NW_Blondierspray_Meldung.html"
+  },
+  {
+   "id": "dk-fvst-2026-nov-tilbagekald-smaakager-coronet",
+   "country": "DK",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Risiko for mykotoksiner i forskellige typer af småkager og julekager",
+   "reason": "Der er risiko for mykotoksiner i produkterne, og en sundhedsmæssig risiko kan derfor ikke udelukkes",
+   "details": "FAVORINA Pebernødder, 400 g; Bedst før: 30.09.2026, 07.10.2026 og 08.10.2026; Solgt i: Lidl-butikker i hele landet; FAVORINA Brunkager, 400 g; Bedst før: 29.09.2026 og 30.09.2026; Solgt i: Lidl-butikker i hele landet; Lidl Deluxe Jødekager, 170 g; Bedst før: 30.09.2026; Solgt i: Lidl-butikker i hele landet; Lidl Deluxe Vaniljekranse, 170 g; Bedst før: 14.05.2026 og 26.05.2026; Solgt i: Lidl-butikker i hele landet; Curré Pebernødder, 400 g; Bedst før: 24.09.2026, 02.10.2026 og 03.10.2026; Solgt i: Netto-butikker i hele landet; Curré Brunkager, 400 g; Bedst før: 18.09.2026, 24.09.2026, 26.09.2026, 01.10.2026 og 02.10.2026; Solgt i: Netto-butikker i hele landet; Finton's Bakery Blandede Småkager, 400 g; Bedst før: 08.10.2026; Solgt i: Netto-butikker i hele landet; Klosterskovens…",
+   "bestBefore": "30.09.2026, 07.10.2026, 08.10.2026, 29.09.2026, 14.05.2026, 26.05.2026, 24.09.2026, 02.10.2026, 03.10.2026…",
+   "action": "Produkterne er udløbet, men kan fortsat være opbevaret hos forbrugere. Har du produkterne, bør du kassere dem.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-smaakager-coronet"
+  },
+  {
+   "id": "fr-rc-2026-11-0202",
+   "country": "FR",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Filet de hareng (conditionné sous-vide)",
+   "brand": "E. Leclerc",
+   "reason": "Mise en évidence d’un taux d’histamine supérieur à la valeur cible lors d’un autocontrôle.",
+   "details": "Toxines endogènes : histamine",
+   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Contacter le service consommateur. Détruire le produit.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24197/interne"
+  },
+  {
+   "id": "fr-rc-2026-11-0204",
+   "country": "FR",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Bouteille 1l25 boisson rafraîchissante à l'extrait de thé noir, saveur pêche, avec sucre et édulcorant.",
+   "brand": "Fuze Tea Pêche",
+   "reason": "Teneur en chlorate non conforme aux standards de qualité",
+   "details": "Autre risque",
+   "action": "Ne plus consommer. Contacter le service consommateur. Détruire le produit.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24199/interne",
+   "gtins": [
+    "05449000232250"
+   ]
+  },
   {
    "id": "de-lmw-261126-26-hh-kartoffeln",
    "country": "DE",
@@ -718,6 +791,18 @@
    "action": "Informing recipient(s)",
    "source": "RASFF – European Commission",
    "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889004"
+  },
+  {
+   "id": "eu-rasff-se-2026-10456",
+   "country": "SE",
+   "published": "2026-11-24",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Chocolate cereal bars",
+   "reason": "Metal foreign bodies in chocolate cereal bars distributed to Finland and Iceland",
+   "details": "fragments metal - foreign bodies / physical danger",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889186"
   },
   {
    "id": "fr-rc-2026-11-0153",
