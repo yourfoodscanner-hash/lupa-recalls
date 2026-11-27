@@ -1,16 +1,19 @@
 {
- "generated": "2026-11-27T17:33:15Z",
+ "generated": "2026-11-27T17:44:42Z",
  "total": 734,
  "curated": 0,
  "byCountry": {
   "BE": 20,
+  "CH": 35,
   "CZ": 54,
   "DE": 45,
   "DK": 21,
   "FR": 282,
   "IE": 16,
+  "GB": 20,
   "HU": 11,
   "NL": 22,
+  "NO": 13,
   "PL": 12,
   "SI": 103,
   "BG": 3,
@@ -222,6 +225,39 @@
    "published": 62,
    "dropped": {
     "nije hrana za ljude (FDA broj nije H-…)": 1
+   },
+   "carried": 0,
+   "error": null
+  },
+  "fsa": {
+   "enabled": true,
+   "ok": true,
+   "seen": 20,
+   "published": 20,
+   "dropped": {},
+   "carried": 0,
+   "error": null
+  },
+  "recallswiss": {
+   "enabled": true,
+   "ok": true,
+   "seen": 50,
+   "published": 35,
+   "dropped": {
+    "bez razloga": 2,
+    "starije od prozora": 10,
+    "upozorenje BLV-a za isti proizvod kao objavljeni opoziv": 3
+   },
+   "carried": 0,
+   "error": null
+  },
+  "mattilsynet": {
+   "enabled": true,
+   "ok": true,
+   "seen": 30,
+   "published": 13,
+   "dropped": {
+    "starije od prozora": 17
    },
    "carried": 0,
    "error": null

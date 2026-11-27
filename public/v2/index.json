@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T17:33:15Z",
+ "generated": "2026-11-27T17:44:42Z",
  "countries": [
   {
    "country": "AT",
@@ -29,6 +29,13 @@
    "recalls": 3,
    "chars": 1410,
    "newest": "2026-11-25"
+  },
+  {
+   "country": "CH",
+   "file": "ch.json",
+   "recalls": 35,
+   "chars": 19869,
+   "newest": "2026-11-27"
   },
   {
    "country": "CY",
@@ -85,6 +92,13 @@
    "recalls": 282,
    "chars": 160233,
    "newest": "2026-11-27"
+  },
+  {
+   "country": "GB",
+   "file": "gb.json",
+   "recalls": 20,
+   "chars": 20808,
+   "newest": "2026-11-26"
   },
   {
    "country": "GR",
@@ -147,6 +161,13 @@
    "file": "nl.json",
    "recalls": 22,
    "chars": 16610,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "NO",
+   "file": "no.json",
+   "recalls": 13,
+   "chars": 12218,
    "newest": "2026-11-26"
   },
   {
