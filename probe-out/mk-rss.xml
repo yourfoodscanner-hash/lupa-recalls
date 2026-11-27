@@ -1,0 +1,1649 @@
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-rss.html.twig' -->
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://fva.gov.mk/mk" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Агенција за Храна и Ветерина - ФВА</title>
+    <link>https://fva.gov.mk/mk</link>
+    <description></description>
+    <language>mk</language>
+    
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>АХВ со едукативни предавања во училиштата: Правилен избор на храна и пијалоци за заштита на здравјето на младите</title>
+  <link>https://fva.gov.mk/mk/261123-akhv-edukativni-predavana-uchilishtata-pravilen-izbor-khrana-pijaloci-zashtita-zdravjeto-mladite</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--article.html.twig
+   x field--node--title.html.twig
+   * field--node--article.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:name&quot;&gt;АХВ со едукативни предавања во училиштата: Правилен избор на храна и пијалоци за заштита на здравјето на младите&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--article.html.twig
+   x field--node--uid.html.twig
+   * field--node--article.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+&lt;span rel=&quot;schema:author&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/mk/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--article.html.twig
+   x field--node--created.html.twig
+   * field--node--article.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:dateCreated&quot; content=&quot;2026-11-23T09:42:35+00:00&quot;&gt;23.11.2026 - 10:42&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;layout__onecol&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   x layout--onecol.html.twig
+   x layout--onecol.html.twig
+   * layout.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+  &lt;div class=&quot;layout layout--onecol&quot;&gt;
+    &lt;div  class=&quot;layout__region layout__region--content&quot;&gt;
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Mon, 23 Nov 2026 09:42:35 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">2740 at https://fva.gov.mk</guid>
+    <comments>https://fva.gov.mk/mk/261123-akhv-edukativni-predavana-uchilishtata-pravilen-izbor-khrana-pijaloci-zashtita-zdravjeto-mladite#comments</comments>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Од понеделник, продолжуваат дијагностичките испитувања за болеста бруцелоза кај говедата</title>
+  <link>https://fva.gov.mk/mk/261120-ponedelnik-prodolzhuvaat-dijagnostichkite-ispituvana-bolesta-bruceloza-kaj-govedata</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--article.html.twig
+   x field--node--title.html.twig
+   * field--node--article.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:name&quot;&gt;Од понеделник, продолжуваат дијагностичките испитувања за болеста бруцелоза кај говедата&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--article.html.twig
+   x field--node--uid.html.twig
+   * field--node--article.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+&lt;span rel=&quot;schema:author&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/mk/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--article.html.twig
+   x field--node--created.html.twig
+   * field--node--article.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:dateCreated&quot; content=&quot;2026-11-20T17:04:15+00:00&quot;&gt;20.11.2026 - 18:04&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;layout__onecol&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   x layout--onecol.html.twig
+   x layout--onecol.html.twig
+   * layout.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+  &lt;div class=&quot;layout layout--onecol&quot;&gt;
+    &lt;div  class=&quot;layout__region layout__region--content&quot;&gt;
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Fri, 20 Nov 2026 17:04:15 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">2739 at https://fva.gov.mk</guid>
+    <comments>https://fva.gov.mk/mk/261120-ponedelnik-prodolzhuvaat-dijagnostichkite-ispituvana-bolesta-bruceloza-kaj-govedata#comments</comments>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Почна вакцинацијата на ситниот добиток против болеста сипаници кај овци и кози</title>
+  <link>https://fva.gov.mk/mk/261119-pochna-vakcinacijata-sitniot-dobitok-protiv-bolesta-sipanici-kaj-ovci-kozi</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--article.html.twig
+   x field--node--title.html.twig
+   * field--node--article.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:name&quot;&gt;Почна вакцинацијата на ситниот добиток против болеста сипаници кај овци и кози&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--article.html.twig
+   x field--node--uid.html.twig
+   * field--node--article.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+&lt;span rel=&quot;schema:author&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/mk/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--article.html.twig
+   x field--node--created.html.twig
+   * field--node--article.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:dateCreated&quot; content=&quot;2026-11-19T11:13:00+00:00&quot;&gt;19.11.2026 - 12:13&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;layout__onecol&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   x layout--onecol.html.twig
+   x layout--onecol.html.twig
+   * layout.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+  &lt;div class=&quot;layout layout--onecol&quot;&gt;
+    &lt;div  class=&quot;layout__region layout__region--content&quot;&gt;
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Thu, 19 Nov 2026 11:13:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">2738 at https://fva.gov.mk</guid>
+    <comments>https://fva.gov.mk/mk/261119-pochna-vakcinacijata-sitniot-dobitok-protiv-bolesta-sipanici-kaj-ovci-kozi#comments</comments>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Почна дистрибуцијата на вакцините за болеста сипаници кај овци и кози до ветеринарните друштва</title>
+  <link>https://fva.gov.mk/mk/261114-pochna-distribucijata-vakcinite-bolesta-sipanici-kaj-ovci-kozi-do-veterinarnite-drushtva</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--article.html.twig
+   x field--node--title.html.twig
+   * field--node--article.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:name&quot;&gt;Почна дистрибуцијата на вакцините за болеста сипаници кај овци и кози до ветеринарните друштва&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--article.html.twig
+   x field--node--uid.html.twig
+   * field--node--article.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+&lt;span rel=&quot;schema:author&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/mk/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--article.html.twig
+   x field--node--created.html.twig
+   * field--node--article.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:dateCreated&quot; content=&quot;2026-11-14T10:13:12+00:00&quot;&gt;14.11.2026 - 11:13&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;layout__onecol&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   x layout--onecol.html.twig
+   x layout--onecol.html.twig
+   * layout.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+  &lt;div class=&quot;layout layout--onecol&quot;&gt;
+    &lt;div  class=&quot;layout__region layout__region--content&quot;&gt;
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Sat, 14 Nov 2026 10:13:12 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">2737 at https://fva.gov.mk</guid>
+    <comments>https://fva.gov.mk/mk/261114-pochna-distribucijata-vakcinite-bolesta-sipanici-kaj-ovci-kozi-do-veterinarnite-drushtva#comments</comments>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Директорот на АХВ Јовица Андовски оствари прва официјална средба со Верче Мицевска, Национален координатор за безбедност на храната</title>
+  <link>https://fva.gov.mk/mk/261111-direktorot-akhv-jovica-andovski-ostvari-prva-oficijalna-sredba-verche-micevska-nacionalen-koordinator-bezbednost-khranata</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--article.html.twig
+   x field--node--title.html.twig
+   * field--node--article.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:name&quot;&gt;Директорот на АХВ Јовица Андовски оствари прва официјална средба со Верче Мицевска, Национален координатор за безбедност на храната&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--article.html.twig
+   x field--node--uid.html.twig
+   * field--node--article.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+&lt;span rel=&quot;schema:author&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/mk/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--article.html.twig
+   x field--node--created.html.twig
+   * field--node--article.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:dateCreated&quot; content=&quot;2026-11-11T14:25:07+00:00&quot;&gt;11.11.2026 - 15:25&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;layout__onecol&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   x layout--onecol.html.twig
+   x layout--onecol.html.twig
+   * layout.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+  &lt;div class=&quot;layout layout--onecol&quot;&gt;
+    &lt;div  class=&quot;layout__region layout__region--content&quot;&gt;
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Wed, 11 Nov 2026 14:25:07 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">2734 at https://fva.gov.mk</guid>
+    <comments>https://fva.gov.mk/mk/261111-direktorot-akhv-jovica-andovski-ostvari-prva-oficijalna-sredba-verche-micevska-nacionalen-koordinator-bezbednost-khranata#comments</comments>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Од денес до четврток АХВ ќе спроведе симулациска вежба за болеста шап и лигавка</title>
+  <link>https://fva.gov.mk/mk/261110-denes-do-chetvrtok-akhv-ke-sprovede-simulaciska-vezhba-bolesta-shap-ligavka</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--article.html.twig
+   x field--node--title.html.twig
+   * field--node--article.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:name&quot;&gt;Од денес до четврток АХВ ќе спроведе симулациска вежба за болеста шап и лигавка&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--article.html.twig
+   x field--node--uid.html.twig
+   * field--node--article.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+&lt;span rel=&quot;schema:author&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/mk/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--article.html.twig
+   x field--node--created.html.twig
+   * field--node--article.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:dateCreated&quot; content=&quot;2026-11-10T14:16:33+00:00&quot;&gt;10.11.2026 - 15:16&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;layout__onecol&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   x layout--onecol.html.twig
+   x layout--onecol.html.twig
+   * layout.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+  &lt;div class=&quot;layout layout--onecol&quot;&gt;
+    &lt;div  class=&quot;layout__region layout__region--content&quot;&gt;
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Tue, 10 Nov 2026 14:16:33 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">2733 at https://fva.gov.mk</guid>
+    <comments>https://fva.gov.mk/mk/261110-denes-do-chetvrtok-akhv-ke-sprovede-simulaciska-vezhba-bolesta-shap-ligavka#comments</comments>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>АХВ и Ветеринарната комора партнерски ќе бараат решенија за предизвиците</title>
+  <link>https://fva.gov.mk/mk/261110-akhv-veterinarnata-komora-partnerski-ke-baraat-reshenija-predizvicite</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--article.html.twig
+   x field--node--title.html.twig
+   * field--node--article.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:name&quot;&gt;АХВ и Ветеринарната комора партнерски ќе бараат решенија за предизвиците&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--article.html.twig
+   x field--node--uid.html.twig
+   * field--node--article.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+&lt;span rel=&quot;schema:author&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/mk/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--article.html.twig
+   x field--node--created.html.twig
+   * field--node--article.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:dateCreated&quot; content=&quot;2026-11-10T01:59:38+00:00&quot;&gt;10.11.2026 - 02:59&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;layout__onecol&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   x layout--onecol.html.twig
+   x layout--onecol.html.twig
+   * layout.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+  &lt;div class=&quot;layout layout--onecol&quot;&gt;
+    &lt;div  class=&quot;layout__region layout__region--content&quot;&gt;
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Tue, 10 Nov 2026 01:59:38 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">2732 at https://fva.gov.mk</guid>
+    <comments>https://fva.gov.mk/mk/261110-akhv-veterinarnata-komora-partnerski-ke-baraat-reshenija-predizvicite#comments</comments>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Јовица Андовски нов директор на АХВ</title>
+  <link>https://fva.gov.mk/mk/261109-jovica-andovski-nov-direktor-akhv</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--article.html.twig
+   x field--node--title.html.twig
+   * field--node--article.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:name&quot;&gt;Јовица Андовски нов директор на АХВ&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--article.html.twig
+   x field--node--uid.html.twig
+   * field--node--article.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+&lt;span rel=&quot;schema:author&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/mk/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--article.html.twig
+   x field--node--created.html.twig
+   * field--node--article.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:dateCreated&quot; content=&quot;2026-11-09T12:05:23+00:00&quot;&gt;09.11.2026 - 13:05&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;layout__onecol&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   x layout--onecol.html.twig
+   x layout--onecol.html.twig
+   * layout.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+  &lt;div class=&quot;layout layout--onecol&quot;&gt;
+    &lt;div  class=&quot;layout__region layout__region--content&quot;&gt;
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Mon, 09 Nov 2026 12:05:23 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">2731 at https://fva.gov.mk</guid>
+    <comments>https://fva.gov.mk/mk/261109-jovica-andovski-nov-direktor-akhv#comments</comments>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Агенцијата за храна и ветеринарство објавува јавен оглас за продажба на движни ствари бр. 02/2026</title>
+  <link>https://fva.gov.mk/mk/261102-agencijata-khrana-veterinarstvo-objavuva-javen-oglas-prodazhba-dvizhni-stvari-br-022026</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--article.html.twig
+   x field--node--title.html.twig
+   * field--node--article.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:name&quot;&gt;Агенцијата за храна и ветеринарство објавува јавен оглас за продажба на движни ствари бр. 02/2026&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--article.html.twig
+   x field--node--uid.html.twig
+   * field--node--article.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+&lt;span rel=&quot;schema:author&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/mk/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--article.html.twig
+   x field--node--created.html.twig
+   * field--node--article.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:dateCreated&quot; content=&quot;2026-11-02T15:02:36+00:00&quot;&gt;02.11.2026 - 16:02&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;layout__onecol&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   x layout--onecol.html.twig
+   x layout--onecol.html.twig
+   * layout.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+  &lt;div class=&quot;layout layout--onecol&quot;&gt;
+    &lt;div  class=&quot;layout__region layout__region--content&quot;&gt;
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Mon, 02 Nov 2026 15:02:36 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">2729 at https://fva.gov.mk</guid>
+    <comments>https://fva.gov.mk/mk/261102-agencijata-khrana-veterinarstvo-objavuva-javen-oglas-prodazhba-dvizhni-stvari-br-022026#comments</comments>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>АХВ и Амбасадата на Република Кореја потпишаа Меморандум за соработка во областа на безбедноста на храната и ветеринарството</title>
+  <link>https://fva.gov.mk/mk/261102-akhv-ambasadata-republika-koreja-potpishaa-memorandum-sorabotka-oblasta-bezbednosta-khranata-veterinarstvoto</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--article.html.twig
+   x field--node--title.html.twig
+   * field--node--article.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:name&quot;&gt;АХВ и Амбасадата на Република Кореја потпишаа Меморандум за соработка во областа на безбедноста на храната и ветеринарството&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--article.html.twig
+   x field--node--uid.html.twig
+   * field--node--article.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+&lt;span rel=&quot;schema:author&quot;&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span lang=&quot;&quot; about=&quot;/mk/user/1&quot; typeof=&quot;schema:Person&quot; property=&quot;schema:name&quot; datatype=&quot;&quot;&gt;admin&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--article.html.twig
+   x field--node--created.html.twig
+   * field--node--article.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+&lt;span property=&quot;schema:dateCreated&quot; content=&quot;2026-11-02T05:01:14+00:00&quot;&gt;02.11.2026 - 06:01&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;layout__onecol&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   x layout--onecol.html.twig
+   x layout--onecol.html.twig
+   * layout.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+  &lt;div class=&quot;layout layout--onecol&quot;&gt;
+    &lt;div  class=&quot;layout__region layout__region--content&quot;&gt;
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;block&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * block--extra-field-block--node--article--links.html.twig
+   * block--extra-field-block--node--article.html.twig
+   * block--extra-field-block--node.html.twig
+   * block--extra-field-block.html.twig
+   * block--layout-builder.html.twig
+   x block.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+&lt;section class=&quot;block block-layout-builder block-extra-field-blocknodearticlelinks clearfix&quot;&gt;
+  
+    
+
+      
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/system/links.html.twig&#039; --&gt;
+
+
+  &lt;/section&gt;
+
+
+&lt;!-- END OUTPUT from &#039;themes/bootstrap/templates/block/block.html.twig&#039; --&gt;
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/layout_discovery/layouts/onecol/layout--onecol.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Mon, 02 Nov 2026 05:01:14 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">2727 at https://fva.gov.mk</guid>
+    <comments>https://fva.gov.mk/mk/261102-akhv-ambasadata-republika-koreja-potpishaa-memorandum-sorabotka-oblasta-bezbednosta-khranata-veterinarstvoto#comments</comments>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+  </channel>
+</rss>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-rss.html.twig' -->
+

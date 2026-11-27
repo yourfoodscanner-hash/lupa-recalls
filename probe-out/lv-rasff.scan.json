@@ -1,0 +1,35 @@
+{
+ "feeds": [],
+ "links": [
+  {
+   "href": "https://www.pvd.gov.lv/lv/ek-normativie-akti-par-oficiali-brivu-noteiktu-valstu-vai-regionu-statusiem-un-papildus-garantijam",
+   "text": "EK normatīvie akti par oficiāli brīvu noteiktu valstu vai to reģionu statusiem un papildus garantijām"
+  },
+  {
+   "href": "https://www.pvd.gov.lv/lv/apinu-un-produktu-kvalitates-kontrole",
+   "text": "Apiņu un to produktu kvalitātes kontrole"
+  },
+  {
+   "href": "https://www.pvd.gov.lv/lv/veterinaro-zalu-anatomiski-terapeitiski-kimiska-klasifikacijas-sistema",
+   "text": "Veterināro zāļu anatomiski terapeitiski ķīmiskā klasifikācijas sistēma"
+  },
+  {
+   "href": "https://www.pvd.gov.lv/lv/form/website-rating?current_page=/node/2547",
+   "text": "Sniegt atsauksmi"
+  }
+ ],
+ "scripts": [
+  "https://www.pvd.gov.lv/files/pvd-s3/s3fs-public/eu_cookie_compliance/eu_cookie_compliance.script.js?tos1wi",
+  "https://www.pvd.gov.lv/sites/default/files/js/js_wlnZ8Af-RKjPYfxglGh6FA5BTOOciPi8iLSHUJP_xF0.js?scope=footer&delta=0&language=lv&theme=ministry&include=eJx9UVty5DAIvJAmOpIKy1gmg4Ui0CTO6YNnnGztbGo_9KBpXg3MswnUPcL5eVm6VAswTFKTNlq832GCWrFrZPjcWWD-AZRpxh6yR2G1BGzYI9S8Sk_k6JPn2zIR1jSx5Ot_GSuCp_-V-Po2sO9pAqVsMDG6X66EaYMKxQn3oFTgGX-YGvJQky0pQs9rPCs9rDCDYepQC6ZG-epRCx1VL4v0LeBIZ84sW2PyeTH-Bgb88KAKnJjq9VR0JmApoaAw2I1eIS2EPMeCruhRd3QORaQwJm-Zd6Os8RkIG1aveJ8hHv-wUSW1vsd8OcQzan8gtd0F-jFvhO960dyF-bLQR9iG85OSV_eWO8S7xhoadCgd2vq92Zylz-R7ffY8VqANNj81yrQMzT5NsBU3dF3NqBY9MqAqTcRk-9_7tVtL1Rtj53pGHZNmmtC1Uws36jZcSPBgNagW_0HCO07HfuL5vpxKn-bZqEvsjaRNZuAv55YxYA",
+  "https://www.pvd.gov.lv/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.js?tos1wi",
+  "https://www.pvd.gov.lv/sites/default/files/js/js_0QddSTlzSyZcv3ZpVeU5z0-FBTf8q4KfAdAb1XcR-Ig.js?scope=footer&delta=2&language=lv&theme=ministry&include=eJx9UVty5DAIvJAmOpIKy1gmg4Ui0CTO6YNnnGztbGo_9KBpXg3MswnUPcL5eVm6VAswTFKTNlq832GCWrFrZPjcWWD-AZRpxh6yR2G1BGzYI9S8Sk_k6JPn2zIR1jSx5Ot_GSuCp_-V-Po2sO9pAqVsMDG6X66EaYMKxQn3oFTgGX-YGvJQky0pQs9rPCs9rDCDYepQC6ZG-epRCx1VL4v0LeBIZ84sW2PyeTH-Bgb88KAKnJjq9VR0JmApoaAw2I1eIS2EPMeCruhRd3QORaQwJm-Zd6Os8RkIG1aveJ8hHv-wUSW1vsd8OcQzan8gtd0F-jFvhO960dyF-bLQR9iG85OSV_eWO8S7xhoadCgd2vq92Zylz-R7ffY8VqANNj81yrQMzT5NsBU3dF3NqBY9MqAqTcRk-9_7tVtL1Rtj53pGHZNmmtC1Uws36jZcSPBgNagW_0HCO07HfuL5vpxKn-bZqEvsjaRNZuAv55YxYA"
+ ],
+ "apiPaths": [
+  "./dropdown/search",
+  "./selection/search",
+  "api/chosen-cookies",
+  "https://www.google.com/maps/search/?api=1&query=",
+  "select2/dropdown/search",
+  "select2/selection/search"
+ ]
+}

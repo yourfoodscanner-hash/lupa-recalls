@@ -1,0 +1,47 @@
+{
+ "feeds": [],
+ "links": [
+  {
+   "href": "https://www.mattilsynet.no/om-mattilsynet/api",
+   "text": "API"
+  },
+  {
+   "href": "https://www.mattilsynet.no/om-mattilsynet/api/maskinell-innrapportering-via-api-innen-akvakultur-omradet",
+   "text": "Rapportering via REST API"
+  },
+  {
+   "href": "https://www.mattilsynet.no/mat-og-drikke/matproduksjon/kjott-og-kjottprodukter/krav-til-levering-av-matkjedeinformasjon-mki-til-mattilsynet-for-slakting-av-storfe-svin-og-smafe/hvordan-levere-mki",
+   "text": "Rapportering via REST API"
+  },
+  {
+   "href": "https://www.mattilsynet.no/om-mattilsynet/api/deling-av-offentlige-data-via-api-innen-akvakultur-omradet",
+   "text": "Offentlige data via API"
+  },
+  {
+   "href": "https://www.mattilsynet.no/om-mattilsynet/api/kjottkontroll",
+   "text": "Kodeliste for registreringer ved levendedyrkontroll på slakteri"
+  },
+  {
+   "href": "https://www.mattilsynet.no/om-mattilsynet/api/matvaretabellen",
+   "text": "Matvaretabellen"
+  },
+  {
+   "href": "https://www.mattilsynet.no/om-mattilsynet/api/smilefjestilsyn",
+   "text": "Smilefjestilsyn på serveringssteder"
+  },
+  {
+   "href": "https://www.mattilsynet.no/om-mattilsynet/api/husdyrregisteret-storfeindivider",
+   "text": "Husdyrregisteret - data om registrerte storfeindivider"
+  },
+  {
+   "href": "https://www.mattilsynet.no/om-mattilsynet/api/api-for-plantevernmidler",
+   "text": "API for plantevernmidler"
+  },
+  {
+   "href": "https://www.mattilsynet.no/om-mattilsynet/api/rss",
+   "text": "RSS"
+  }
+ ],
+ "scripts": [],
+ "apiPaths": []
+}

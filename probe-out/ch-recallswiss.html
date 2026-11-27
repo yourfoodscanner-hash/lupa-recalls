@@ -1,0 +1,83 @@
+<!DOCTYPE html><html><head>
+    <title>RecallSwiss</title>
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="/customer-access/images/Icon_168.png" type="image/png">
+    <link rel="apple-touch-icon" href="/customer-access/images/Icon_168.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color" content="#f00">
+    <meta charset="utf-8">
+    <meta name="keywords" lang="de" content="Rückruf, öffentliche Warnung, Sicherheitswarnung, Sicherheitshinweis, Recall, Gefahr, Risiko, gefährlich, Produkt, Sicherheit, Gesundheit,
+     Gefährdung, Unfall, Verletzung, Swiss, Schweiz, Schweizerisch, Marktaufsichtsbehörde, Schweizerische Eidgenossenschaft, BFK, BLV, BFU, ESTI">
+    <meta name="keywords" lang="fr" content="rappel, mise en garde publique, alerte de sécurité, avis de sécurité, recall, danger, risque, dangereux, produit, sécurité, santé,
+     mise en danger, accident, Swiss, suisse, autorité de surveillance du marché, confédération suisse, BFC, OSAV, BPA, ESTI">
+    <meta name="keywords" lang="it" content="richiamo, avvertimento al pubblico, avviso di sicurezza, recall, pericolo, rischio, pericoloso, prodotto, sicurezza, salute, messa in pericolo,
+     infortunio, lesione, swiss, Svizzera, svizzero, Autorità di sorveglianza del mercato, Confederazione Svizzera, UFDC, USAV, UPI, ESTI">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/components/site.css" integrity="sha256-mSIZIDP7/g4nGdIT7YaqpeBl7b2OTlbzdH2mV8qrJ1U=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/components/icon.css" integrity="sha256-EyIocnfi8LE28Ogio6vh1jzAztY8lXFrHvAGviJ7cVQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/components/button.css" integrity="sha256-wpzJilWuuuCiST+1kQ6j3vLpVZT7CVZ2WsVtcdA5cKE=" crossorigin="anonymous">
+    <noscript>Produktrückrufe – Rappels de produits – Richiami di prodotti</noscript>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall" nonce="c11e72894e32f1b02b9b93eb9d8740e7"></script>
+    <script src="isceco_matomo.js" nonce="c11e72894e32f1b02b9b93eb9d8740e7"></script>
+</head>
+
+<body>
+    <main>
+
+        <header>
+            <div class="swissxlogo">
+                <a href="/" class="homelink"><img width="33" height="36" alt="SwissX" src="images/swissx.png">
+                </a>
+            </div>
+            <div class="corecalllogo">
+                <a href="/" class="homelink"><img width="189" height="36" alt="Logo" src="images/recallswiss_logo.png">
+                </a>
+            </div>
+            <customer-access-navigation></customer-access-navigation>
+        </header>
+        <customer-access-quick-navigation></customer-access-quick-navigation>
+        <div id="pwaInstaller" style="display: none;">
+            <pwa-install showopen="" manifestpath="/customer-access/manifest.webmanifest" explainer="" featuresheader="" descriptionheader=" " installbuttontext="Install" cancelbuttontext="Cancel"></pwa-install>--&gt;
+        </div>
+        <customer-access-main-view></customer-access-main-view>
+        <customer-access-footer></customer-access-footer>
+    </main>
+    <script nonce="c11e72894e32f1b02b9b93eb9d8740e7">
+        window.onpopstate = function (event) {
+            if (document.location.hash === '#Installer') {
+                document.getElementById('pwaInstaller').style.display = 'block';
+            } else
+                document.getElementById('pwaInstaller').style.display = 'none';
+
+        };
+        if ("serviceWorker" in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register("service-worker.js").then(
+                    registration => console.log('ServiceWorker registration successful with scope: ', registration.scope)
+                ).catch(error => console.log('ServiceWorker registration failed: ', error))
+            })
+        }
+        window.addEventListener('appinstalled', (evt) => {
+            console.log('The pwa was installed successfully');
+        });
+        let deferredPrompt;
+        window.addEventListener('beforeinstallprompt', (e) => {
+            // Prevent the mini-infobar from appearing on mobile
+            console.log('Ready to install!!');
+            e.preventDefault();
+            // Stash the event so it can be triggered later.
+            deferredPrompt = e;
+            // Update UI notify the user they can install the PWA
+        });
+    </script>
+    <script src="app-20261029095208.js" type="module" nonce="c11e72894e32f1b02b9b93eb9d8740e7"></script>
+
+
+
+
+</body><!-- As long as you change something on this page, please copy the content to template.html --><!-- except the script containing app-20261029095208.js --></html>

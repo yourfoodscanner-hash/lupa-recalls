@@ -1,0 +1,42 @@
+{
+ "feeds": [
+  {
+   "href": "https://www.mast.is/is/feed",
+   "type": "application/rss+xml",
+   "title": "RSS - Fréttir"
+  }
+ ],
+ "links": [
+  {
+   "href": "https://www.mast.is/is/matvaelafyrirtaeki/innra-eftirlit-fyrirtaekja/innkollun",
+   "text": "Innk&ouml;llun"
+  },
+  {
+   "href": "https://www.mast.is/static/files/leidbeiningar-til-fyrirtaekja-um-innkollun-matvaela-okt-2025.docx",
+   "text": "Leiðbeiningarnar á pdf formi"
+  },
+  {
+   "href": "https://www.mast.is/static/files/Uploads/document/leidbeiningar/leidbeiningarinnleidinggr18og19_178_2002.PDF",
+   "text": "Leiðbeiningar um innleiðingu á 19. grein EB/178/2002 um innköllun - á ensku"
+  },
+  {
+   "href": "https://www.mast.is/_/is/social/index/share?url=https%3A%2F%2Fwww.mast.is%2Fis%2Fmatvaelafyrirtaeki%2Finnra-eftirlit-fyrirtaekja%2Finnkollun&title=Innk%C3%B6llun+%7C+Matv%C3%A6lastofnun&description=",
+   "text": "Deila síðu"
+  }
+ ],
+ "scripts": [
+  "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+  "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js",
+  "https://www.mast.is/_moya/javascripts/dist/bundle.min.js?v=1795760323",
+  "https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/7.2.2/jquery.mmenu.all.js?v=1795760323",
+  "https://www.google.com/recaptcha/api.js?render=6Leq23QrAAAAAI7hSaEpKFqwZ1JZ0TybTNI1oLnO&hl=is&&v=1795760323",
+  "https://www.mast.is/_moya/js/recaptcha3.min.js?v=1795760323",
+  "https://www.mast.is/static/themes/2019/js/moya.min.js?v=7f961f10e9",
+  "https://www.mast.is/static/themes/2019/js/site.min.js?v=e680fc53fc"
+ ],
+ "apiPaths": [
+  "//vimeo.com/api/v2/video/",
+  "//vzaar.com/api/videos/",
+  "/search/ajax/autocomplete"
+ ]
+}

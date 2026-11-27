@@ -1,0 +1,32 @@
+{
+ "feeds": [],
+ "links": [
+  {
+   "href": "https://pta.agri.ee/tarbijale-ja-eraisikule/linnu-ja-loomapidamine/loomade-vedu",
+   "text": "Loomade vedu"
+  },
+  {
+   "href": "https://pta.agri.ee/vaikeaiapidaja-teekond-kullusliku-saagini",
+   "text": "Väikeaiapidajale"
+  },
+  {
+   "href": "https://pta.agri.ee/tarbijale-ja-eraisikule/linnu-ja-loomapidamine/haigused-ja-ohtlikud-loomataudid",
+   "text": "Haigused ja ohtlikud loomataudid"
+  },
+  {
+   "href": "https://pta.agri.ee/rss-feeds/rss.xml",
+   "text": ""
+  }
+ ],
+ "scripts": [
+  "https://pta.agri.ee/sites/default/files/js/js_ubR6ZriCN2HFjz3bBrMJsdtzMPQb0vnv7upNAOHNNKU.js?scope=header&delta=0&language=et&theme=vp_distro_theme&include=eJxdjlESgzAIRC-k5UgZQDSpiTgQW4_fVD-0_dpdHrOz-MQ9ZMVBDPDyjxpNicQ62oC2B0fhuaURWUh1DmvaJcNv7ApWLQqndK81NOYVE1y2NWElrV86JK-mgdUEpqyEuc9pmXtrVX94HcaD-Q24oHGEU0Irr4nvWDlhDol1cfCIJv3hby81SpE2Ny2341toVCtQxB0n-QD1B3GY",
+  "https://pta.agri.ee/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+  "https://pta.agri.ee/profiles/vp_distro/themes/vp_distro_theme/assets/vendor/jquery/jquery.min.js?v=4.0.0",
+  "https://pta.agri.ee/sites/default/files/js/js_KIeVYKqiRxJZb1cdspLYAqktPzk6LIPi71ZzEj3zww4.js?scope=footer&delta=1&language=et&theme=vp_distro_theme&include=eJxdjlESgzAIRC-k5UgZQDSpiTgQW4_fVD-0_dpdHrOz-MQ9ZMVBDPDyjxpNicQ62oC2B0fhuaURWUh1DmvaJcNv7ApWLQqndK81NOYVE1y2NWElrV86JK-mgdUEpqyEuc9pmXtrVX94HcaD-Q24oHGEU0Irr4nvWDlhDol1cfCIJv3hby81SpE2Ny2341toVCtQxB0n-QD1B3GY",
+  "https://buerokratt.agri.ee/widget_bundle.js",
+  "https://pta.agri.ee/sites/default/files/js/js_PMa6OkcA9aDTF7xPZhaTSdlH06eUr-npvxFNUmCy_e0.js?scope=footer&delta=3&language=et&theme=vp_distro_theme&include=eJxdjlESgzAIRC-k5UgZQDSpiTgQW4_fVD-0_dpdHrOz-MQ9ZMVBDPDyjxpNicQ62oC2B0fhuaURWUh1DmvaJcNv7ApWLQqndK81NOYVE1y2NWElrV86JK-mgdUEpqyEuc9pmXtrVX94HcaD-Q24oHGEU0Irr4nvWDlhDol1cfCIJv3hby81SpE2Ny2341toVCtQxB0n-QD1B3GY",
+  "https://pta.agri.ee/profiles/vp_distro/modules/vp_distro_search/assets/dist/index.js?to120j",
+  "https://pta.agri.ee/sites/default/files/js/js_pTV8H2qBi3qH_26wnWiD2XM8a-nPYUcRzmWdS_oM6Y0.js?scope=footer&delta=5&language=et&theme=vp_distro_theme&include=eJxdjlESgzAIRC-k5UgZQDSpiTgQW4_fVD-0_dpdHrOz-MQ9ZMVBDPDyjxpNicQ62oC2B0fhuaURWUh1DmvaJcNv7ApWLQqndK81NOYVE1y2NWElrV86JK-mgdUEpqyEuc9pmXtrVX94HcaD-Q24oHGEU0Irr4nvWDlhDol1cfCIJv3hby81SpE2Ny2341toVCtQxB0n-QD1B3GY"
+ ],
+ "apiPaths": []
+}
