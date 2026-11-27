@@ -1,22 +1,8 @@
 [
- {
-  "name": "nl-term-p1",
-  "url": "https://www.nvwa.nl/api/search?hash=2443f457f50c71ad382eaf0e1e48f696c1cf91a841cadfe7fd4a6a486ce3320f",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json",
-   "Accept": "application/json"
-  },
-  "body": "{\"requestState\":{\"current\":1,\"filters\":[],\"resultsPerPage\":50,\"searchTerm\":\"veiligheidswaarschuwing\",\"sortDirection\":\"\",\"sortField\":\"\",\"sortList\":[]},\"queryConfig\":{\"filters\":[{\"field\":\"topic\",\"values\":[\"Veiligheidswaarschuwingen\"],\"type\":\"all\"},{\"field\":\"content_type\",\"values\":[\"pro:newsDocument\"],\"type\":\"all\"}],\"result_fields\":{\"url\":{\"raw\":{}},\"page_title\":{\"raw\":{}},\"meta_description\":{\"raw\":{},\"snippet\":{\"size\":140,\"fallback\":true}},\"sort_date\":{\"raw\":{}},\"information_type\":{\"raw\":{}}},\"disjunctiveFacets\":[\"information_type\",\"activity_type\"],\"facets\":{\"information_type\":{\"type\":\"value\",\"size\":100}},\"sortList\":[{\"field\":\"sort_date\",\"direction\":\"desc\"}]}}"
- },
- {
-  "name": "nl-term-p2",
-  "url": "https://www.nvwa.nl/api/search?hash=e1c123961011f35417057fd8c46688336545cbdb78ef03de33765290ef8291ab",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json",
-   "Accept": "application/json"
-  },
-  "body": "{\"requestState\":{\"current\":2,\"filters\":[],\"resultsPerPage\":50,\"searchTerm\":\"veiligheidswaarschuwing\",\"sortDirection\":\"\",\"sortField\":\"\",\"sortList\":[]},\"queryConfig\":{\"filters\":[{\"field\":\"topic\",\"values\":[\"Veiligheidswaarschuwingen\"],\"type\":\"all\"},{\"field\":\"content_type\",\"values\":[\"pro:newsDocument\"],\"type\":\"all\"}],\"result_fields\":{\"url\":{\"raw\":{}},\"page_title\":{\"raw\":{}},\"meta_description\":{\"raw\":{},\"snippet\":{\"size\":140,\"fallback\":true}},\"sort_date\":{\"raw\":{}},\"information_type\":{\"raw\":{}}},\"disjunctiveFacets\":[\"information_type\",\"activity_type\"],\"facets\":{\"information_type\":{\"type\":\"value\",\"size\":100}},\"sortList\":[{\"field\":\"sort_date\",\"direction\":\"desc\"}]}}"
- }
+ { "name": "fda-enf", "url": "https://api.fda.gov/food/enforcement.json?search=report_date:[20261015+TO+20261127]&limit=100&sort=report_date:desc" },
+ { "name": "fda-enf-count", "url": "https://api.fda.gov/food/enforcement.json?search=report_date:[20260901+TO+20261127]&count=report_date" },
+ { "name": "fda-rss", "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml" },
+ { "name": "fda-recalls-page", "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts", "scan": true },
+ { "name": "fsis-api", "url": "https://www.fsis.usda.gov/fsis/api/recall/v/1", "max": 20000000 },
+ { "name": "fsis-rss", "url": "https://www.fsis.usda.gov/fsis-content/rss/recalls.xml" }
 ]
