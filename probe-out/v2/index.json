@@ -1,0 +1,244 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T18:20:56Z",
+ "countries": [
+  {
+   "country": "AT",
+   "file": "at.json",
+   "recalls": 10,
+   "chars": 5307,
+   "newest": "2026-11-21"
+  },
+  {
+   "country": "BA",
+   "file": "ba.json",
+   "recalls": 1,
+   "chars": 897,
+   "newest": "2026-06-24"
+  },
+  {
+   "country": "BE",
+   "file": "be.json",
+   "recalls": 20,
+   "chars": 16092,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "BG",
+   "file": "bg.json",
+   "recalls": 3,
+   "chars": 1378,
+   "newest": "2026-11-25"
+  },
+  {
+   "country": "CH",
+   "file": "ch.json",
+   "recalls": 35,
+   "chars": 19869,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "CY",
+   "file": "cy.json",
+   "recalls": 4,
+   "chars": 2040,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "CZ",
+   "file": "cz.json",
+   "recalls": 54,
+   "chars": 35529,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "DE",
+   "file": "de.json",
+   "recalls": 45,
+   "chars": 44250,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "DK",
+   "file": "dk.json",
+   "recalls": 21,
+   "chars": 23545,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "EE",
+   "file": "ee.json",
+   "recalls": 1,
+   "chars": 514,
+   "newest": "2026-11-10"
+  },
+  {
+   "country": "ES",
+   "file": "es.json",
+   "recalls": 14,
+   "chars": 15642,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "FI",
+   "file": "fi.json",
+   "recalls": 8,
+   "chars": 7645,
+   "newest": "2026-11-25"
+  },
+  {
+   "country": "FR",
+   "file": "fr.json",
+   "recalls": 282,
+   "chars": 160335,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "GB",
+   "file": "gb.json",
+   "recalls": 20,
+   "chars": 20808,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "GR",
+   "file": "gr.json",
+   "recalls": 6,
+   "chars": 8578,
+   "newest": "2026-11-25"
+  },
+  {
+   "country": "HR",
+   "file": "hr.json",
+   "recalls": 36,
+   "chars": 25481,
+   "newest": "2026-11-20"
+  },
+  {
+   "country": "HU",
+   "file": "hu.json",
+   "recalls": 11,
+   "chars": 6228,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "IE",
+   "file": "ie.json",
+   "recalls": 16,
+   "chars": 13711,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "IS",
+   "file": "is.json",
+   "recalls": 12,
+   "chars": 11551,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "IT",
+   "file": "it.json",
+   "recalls": 18,
+   "chars": 8996,
+   "newest": "2026-11-25"
+  },
+  {
+   "country": "LT",
+   "file": "lt.json",
+   "recalls": 3,
+   "chars": 1628,
+   "newest": "2026-11-13"
+  },
+  {
+   "country": "LU",
+   "file": "lu.json",
+   "recalls": 26,
+   "chars": 20612,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "MK",
+   "file": "mk.json",
+   "recalls": 1,
+   "chars": 990,
+   "newest": "2026-01-09"
+  },
+  {
+   "country": "MT",
+   "file": "mt.json",
+   "recalls": 4,
+   "chars": 2201,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "NL",
+   "file": "nl.json",
+   "recalls": 22,
+   "chars": 16610,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "NO",
+   "file": "no.json",
+   "recalls": 13,
+   "chars": 12218,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "PL",
+   "file": "pl.json",
+   "recalls": 12,
+   "chars": 13264,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "PT",
+   "file": "pt.json",
+   "recalls": 7,
+   "chars": 3316,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "RO",
+   "file": "ro.json",
+   "recalls": 7,
+   "chars": 3424,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "SE",
+   "file": "se.json",
+   "recalls": 12,
+   "chars": 6517,
+   "newest": "2026-11-24"
+  },
+  {
+   "country": "SI",
+   "file": "si.json",
+   "recalls": 103,
+   "chars": 76891,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "SK",
+   "file": "sk.json",
+   "recalls": 6,
+   "chars": 2900,
+   "newest": "2026-11-25"
+  },
+  {
+   "country": "US",
+   "file": "us.json",
+   "recalls": 60,
+   "chars": 54562,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "XK",
+   "file": "xk.json",
+   "recalls": 10,
+   "chars": 9238,
+   "newest": "2026-09-28"
+  }
+ ]
+}

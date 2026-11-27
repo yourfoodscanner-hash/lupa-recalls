@@ -1,0 +1,30 @@
+{
+ "fda": {
+  "since": "2026-10-13",
+  "seen": 128,
+  "notices": 42,
+  "bad": [],
+  "skipped": {
+   "isto saopćenje na španskom": 1,
+   "isti opoziv kao saopćenje firme": 15
+  },
+  "withBarcode": 22,
+  "withLots": 18,
+  "ms": 9076
+ },
+ "auv": {
+  "since": "2025-11-27",
+  "seen": 100,
+  "notices": 10,
+  "bad": [],
+  "skipped": {
+   "nije povlačenje proizvoda": 34,
+   "starije od prozora": 52,
+   "bez naziva": 2,
+   "hrana za životinje": 2
+  },
+  "withBarcode": 0,
+  "withLots": 4,
+  "ms": 2567
+ }
+}

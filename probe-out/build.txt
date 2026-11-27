@@ -1,0 +1,36 @@
+Obavijesti u fajlu: 715 (prethodno 752) · s barkodom: 180 · veličina: 499701 znakova
+v2 (fajl po zemlji): 903 obavijesti u 34 fajlova (prethodno 895) · najveći fajl: 160335 znakova
+Isti proizvod u više obavijesti: 32 grupa (85 obavijesti)
+Ručno unesene: 0
+Izvor rappelconso: pročitano 19345 redova → objavljeno 282 (izostavljeno — kategorija koju LUPA ne prikazuje: 4933; starije od prozora: 14130)
+Izvor lebensmittelwarnung: NIJE pročitan — nema odgovora 60 s (lebensmittelwarnung.de/___LMW-Redaktion/RSSNewsfeed/Functions/RssFeeds/rssnewsfeed_Alle_DE). Zadržano iz prethodnog fajla: 45
+Izvor govsi: pročitano 1444 redova → objavljeno 103 (izostavljeno — kategorija koju LUPA ne prikazuje: 677; starije od prozora: 554; nije stiglo do potrošača u Sloveniji: 109; bez razloga: 1)
+Izvor hapih: pročitano 50 redova → objavljeno 36 (izostavljeno — hrana za životinje ili posuđe (LUPA ne prikazuje): 8; povlačenje ranije obavijesti: 2; obavijest koju je inspektorat povukao: 1; starije od prozora: 3)
+Izvor fsaba: pročitano 50 redova → objavljeno 1 (izostavljeno — posuđe ili hrana za životinje (LUPA ne prikazuje): 6; starije od prozora: 35; nije obavijest o povlačenju: 8)
+Izvor ages: pročitano 27 redova → objavljeno 10 (izostavljeno — starije od prozora: 16; kategorija koju LUPA ne prikazuje: 1)
+Izvor fvst: pročitano 528 redova → objavljeno 21 (izostavljeno — stavka nije obavijest o povlačenju: 2; starije od prozora: 505)
+Izvor pranyr: pročitano 100 redova → objavljeno 54 (izostavljeno — pronađeno u ugostiteljstvu, ne u prodaji: 26; starije od prozora: 20)
+Izvor efet: pročitano 20 redova → objavljeno 6 (izostavljeno — nije hrana (posuđe i sl.): 2; bez naziva: 1; starije od prozora: 1)
+Izvor favv: pročitano 30 redova → objavljeno 20 (izostavljeno — starije od prozora: 8; nije hrana (hrana za životinje, posuđe): 2)
+Izvor fsai: pročitano 30 redova → objavljeno 16 (izostavljeno — starije od prozora: 14)
+Izvor gis: pročitano 20 redova → objavljeno 12 (izostavljeno — nije hrana (posuđe, druge obavijesti): 2; starije od prozora: 6)
+Izvor nebih: pročitano 29 redova → objavljeno 11 (izostavljeno — nije hrana (hrana za životinje, posuđe): 6; starije od prozora: 12)
+Izvor ruokavirasto: pročitano 102 redova → objavljeno 8 (izostavljeno — starije od prozora: 92; nije hrana (posuđe, kontaktni materijal): 2)
+Izvor nvwa: pročitano 77 redova → objavljeno 22 (izostavljeno — starije od prozora: 42; nije hrana (consumentenartikelen): 13)
+Izvor fda: pročitano 213 redova → objavljeno 60 (izostavljeno — nije hrana za ljude (FDA broj nije H-…): 1; isto saopćenje na španskom: 1; isti opoziv kao saopćenje firme: 29)
+Izvor fsa: pročitano 20 redova → objavljeno 20
+Izvor recallswiss: pročitano 50 redova → objavljeno 35 (izostavljeno — bez razloga: 2; starije od prozora: 10; upozorenje BLV-a za isti proizvod kao objavljeni opoziv: 3)
+Izvor mattilsynet: pročitano 30 redova → objavljeno 13 (izostavljeno — starije od prozora: 17)
+Izvor mast: pročitano 220 redova → objavljeno 12 (izostavljeno — starije od prozora: 208)
+Izvor fva: pročitano 20 redova → objavljeno 1 (izostavljeno — starije od prozora: 19)
+Izvor aesan: pročitano 33 redova → objavljeno 14 (izostavljeno — upozorenje povučeno (retirada): 1; starije od prozora: 17)
+Izvor alva: pročitano 49 redova → objavljeno 26 (izostavljeno — hrana za životinje: 1; starije od prozora: 21; materijal u dodiru s hranom (posuđe): 2)
+Izvor auv: pročitano 100 redova → objavljeno 10 (izostavljeno — nije povlačenje proizvoda: 34; starije od prozora: 52; bez naziva: 2; hrana za životinje: 2)
+Izvor rasff: pročitano 146 redova → objavljeno 65 (izostavljeno — starije od prozora: 65; nije hrana (hrana za životinje, materijali u dodiru s hranom …): 16)
+Po zemljama: AT 10, BA 1, BE 20, BG 3, CH 35, CY 4, CZ 54, DE 45, DK 21, EE 1, ES 14, FI 8, FR 282, GB 20, GR 6, HR 36, HU 11, IE 16, IS 12, IT 18, LT 3, LU 26, MK 1, MT 4, NL 22, NO 13, PL 12, PT 7, RO 7, SE 12, SI 103, SK 6, US 60, XK 10
+UPOZORENJE: Izvor „lebensmittelwarnung” nije pročitan (nema odgovora 60 s (lebensmittelwarnung.de/___LMW-Redaktion/RSSNewsfeed/Functions/RssFeeds/rssnewsfeed_Alle_DE)). Zadržano 45 njegovih obavijesti iz prethodnog fajla.
+UPOZORENJE: Izostavljeno 37 najstarijih obavijesti da fajl ostane u granicama (800 obavijesti, 500000 znakova) — iz zemalja s najviše obavijesti; u v2 (fajl po zemlji) ostaju.
+::warning::Izvor „lebensmittelwarnung” nije pročitan (nema odgovora 60 s (lebensmittelwarnung.de/___LMW-Redaktion/RSSNewsfeed/Functions/RssFeeds/rssnewsfeed_Alle_DE)). Zadržano 45 njegovih obavijesti iz prethodnog fajla.
+::warning::Izostavljeno 37 najstarijih obavijesti da fajl ostane u granicama (800 obavijesti, 500000 znakova) — iz zemalja s najviše obavijesti; u v2 (fajl po zemlji) ostaju.
+
+Upisano: public/v1/recalls.json

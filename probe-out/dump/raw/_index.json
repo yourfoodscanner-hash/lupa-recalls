@@ -1,0 +1,296 @@
+[
+ {
+  "url": "https://api.fda.gov/food/enforcement.json?search=report_date:[20261013+TO+20261127]&limit=1000&sort=report_date:desc",
+  "status": 200,
+  "type": "application/json; charset=utf-8",
+  "bytes": 79446,
+  "file": "cac78fb78ed5.txt"
+ },
+ {
+  "url": "https://www.fda.gov/datatables/views/ajax?search_api_fulltext=&field_regulated_product_field=All&field_terminated_recall=All&draw=1&start=0&length=100&view_name=recall_solr_index&view_display_id=recall_datatable_block_1",
+  "status": 200,
+  "type": "application/json",
+  "bytes": 46292,
+  "file": "bf512af9f3bb.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-safety-warning-regarding-uneviscerated-dried-herring-fish-0",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 44800,
+  "file": "3db074f9548a.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-safety-warning-regarding-two-uneviscerated-dried-fish-products",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 48717,
+  "file": "cb99ab16773a.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shanghai-san-niu-food-co-ltd-recalling-sanniu-evergeen-biscuits-due-undeclared-milk-and-sanniu-salt",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 61288,
+  "file": "ed9bde2c6f65.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/grand-strand-sandwich-company-recalls-lunch-box-bacon-egg-and-cheese-biscuit-lunch-box-jumbo-sausage",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 49300,
+  "file": "7f340dc795ce.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/rocky-mountain-nutrition-issues-allergy-alert-undeclared-milk-certain-pre-workout-powders",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 40394,
+  "file": "885a380aeaec.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/larbi-inc-recalls-yellow-dock-root-because-possible-health-risk",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 44233,
+  "file": "71d727a4f80c.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-llc-expands-recall-include-fresh-you-brand-sausage-egg-cheese-biscuit-sandwich-and",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 47934,
+  "file": "e6d3cc408779.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aldi-recalls-priano-protein-carbonara-tortelloni-and-priano-protein-herb-cheese-tortelloni-because",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 45961,
+  "file": "eb66f5ac8baa.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/naia-inc-recalls-chocolate-banana-bar-sorbetto-because-undeclared-milk-eggs-and-nuts",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 45949,
+  "file": "0f6bc207b4c1.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/eros-apothecary-issues-recall-candy-power-man-organic-honey-due-undeclared-tadalafil",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 43167,
+  "file": "008452c0fc92.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bioquad-life-sciences-issues-allergy-alert-undeclared-milk-osteodenxr-dietary-supplement",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 49038,
+  "file": "3241a72b9ab6.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/game-changer-products-llc-issues-voluntary-nationwide-recall-10-day-forecast-capsules-due-presence",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 46366,
+  "file": "9a00bcfe7e0f.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/family-farmstead-dairy-announces-recall-all-cheddar-cheese-products-because-possible-health-risk",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 44708,
+  "file": "09cb651d417b.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-llc-recalls-fresh-you-brand-sausage-egg-cheese-biscuit-sandwich-due-possible",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 45140,
+  "file": "e45917b69a49.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/snack-right-super-foods-inc-dba-brads-raw-chips-recalls-brads-crunchy-kale-veggie-chips-due",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 48834,
+  "file": "18a1192dd116.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/once-upon-farm-recalls-all-lots-and-varieties-tractor-wheels-organic-toddler-soft-baked-bars-due",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 52694,
+  "file": "4d878f8c4c53.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vitality-works-inc-recalls-365-whole-foods-market-ashwagandha-capsules-sold-nationwide-due-potential",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 45088,
+  "file": "410a1f206357.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-due-elevated-lead-levels",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 42897,
+  "file": "d99b9217e405.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haifa-smoked-fish-recalls-cold-smoked-sprats-due-potential-health-risk",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 42268,
+  "file": "ad0469f05b7b.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tonight-we-ride-llc-issues-voluntary-recall-ultimate-forza-male-supplement-due-presence-undeclared",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 45456,
+  "file": "e1fc396f548e.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/taylor-farms-issues-recall-h-e-b-backyard-bbq-chop-salad-kit-due-potential-undeclared-soy-and-tree",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 43853,
+  "file": "c59daada7c35.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/natural-grocers-recalls-natural-grocers-brand-organic-2-pound-mung-beans-due-potential-presence",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 41236,
+  "file": "8387f9484d29.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/winco-foods-llc-issues-allergy-alert-undeclared-sesame-hoagie-rolls",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 42860,
+  "file": "b01642ee9db1.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lidl-us-recalls-gelatelli-coffee-vanilla-gelato-due-possible-health-risk",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 44924,
+  "file": "4179d51f9e5e.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/krasnyi-oktyabr-inc-recalls-starfish-seafood-premium-cold-smoked-norwegian-salmon-sliced-227g8oz",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 45464,
+  "file": "7a8982b3e913.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pan-pepin-inc-issues-allergy-alert-para-bien-al-grano-due-undeclared-sesame",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 45595,
+  "file": "9053e30c7f15.txt"
+ },
+ {
+  "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/family-farmstead-dairy-announces-recall-raw-mild-cheddar-cheese-due-potential-e-coli-o26h11-and",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 46446,
+  "file": "52508432f207.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-json/wp/v2/posts?per_page=100&_fields=id,date,link,title,content",
+  "status": 200,
+  "type": "application/json; charset=UTF-8",
+  "bytes": 192591,
+  "file": "2cc4e49a9148.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2026/09/Produkti-ushqimore-Flips-Ketchup-prodhues-Postova-me-date-skadimi-11.02.2027-terhiqet-nga-tregu.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 34046,
+  "file": "b9c8c0358513.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2026/03/Komunikate-per-Media-12.03.2026.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 33287,
+  "file": "ce7440d8ee92.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2026/06/Disa-lote-prodhimi-te-Ujit-mineral-Kllokoti-kane-rezultuar-me-permbajtje-te-larte-te-Borit-‘Boron-sipas-njoftimit-te-RASFF.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 120338,
+  "file": "4e6c773b8380.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2026/02/Komunikate-per-Media-AUV-18.02.2026.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 38125,
+  "file": "cba8620e9046.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2026/02/Komunikate-per-Media-AUV-23-shkurt-2026.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 36165,
+  "file": "145433114553.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2026/01/Njoftim-per-opinionin-AUV-26.01.2026-APTAMIL.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 36865,
+  "file": "446abad9bb5d.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2026/02/AUV-Komunikate-per-Media-08-shkurt-2026.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 41926,
+  "file": "49b033fca865.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2026/01/Njoftim-per-opinionin-AUV-16.01.2026.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 36469,
+  "file": "5d5e7fec6767.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2026/01/Njoftim-per-Opinionin-AUV-19.01.2026-1.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 35405,
+  "file": "c18c3babc6a0.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2025/12/Komunikate-per-Media-2-31.12.-2025.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 35480,
+  "file": "8138286f1abf.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2026/01/Njoftim-per-opinionin-AUV-15.01.2026.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 36388,
+  "file": "984f8def7735.txt"
+ },
+ {
+  "url": "https://auvk.rks-gov.net/wp-content/uploads/2025/12/Njoftim-pÃr-Opinionin-23.12.-2025-AUV-l-1-1.docx",
+  "status": 200,
+  "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "bytes": 35208,
+  "file": "4b3a7a7aed07.txt"
+ }
+]
