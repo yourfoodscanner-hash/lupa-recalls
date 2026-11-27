@@ -1,4 +1,22 @@
 [
- { "name": "nl-feed", "url": "https://www.nvwa.nl/api/feeds?type=news&filter=topic-Veiligheidswaarschuwingen&q=&title=Alle+veiligheidswaarschuwingen", "max": 20000000 },
- { "name": "nl-feed-bare", "url": "https://www.nvwa.nl/api/feeds?type=news&filter=topic-Veiligheidswaarschuwingen", "max": 20000000 }
+ {
+  "name": "nl-search-50",
+  "url": "https://www.nvwa.nl/api/search?hash=e1274fe5c23016f480cc6130d030882a7f87ffba619d4f4a2dc74d23e93e0b1c",
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json",
+   "Accept": "application/json"
+  },
+  "body": "{\"requestState\":{\"current\":1,\"filters\":[],\"resultsPerPage\":50,\"searchTerm\":\"\",\"sortDirection\":\"\",\"sortField\":\"\",\"sortList\":[]},\"queryConfig\":{\"filters\":[{\"field\":\"topic\",\"values\":[\"Veiligheidswaarschuwingen\"],\"type\":\"all\"},{\"field\":\"content_type\",\"values\":[\"pro:newsDocument\"],\"type\":\"all\"}],\"result_fields\":{\"url\":{\"raw\":{}},\"page_title\":{\"raw\":{}},\"meta_description\":{\"raw\":{},\"snippet\":{\"size\":140,\"fallback\":true}},\"sort_date\":{\"raw\":{}},\"information_type\":{\"raw\":{}}},\"disjunctiveFacets\":[\"information_type\",\"activity_type\"],\"facets\":{\"information_type\":{\"type\":\"value\",\"size\":100}},\"sortList\":[{\"field\":\"sort_date\",\"direction\":\"desc\"}]}}"
+ },
+ {
+  "name": "nl-search-10",
+  "url": "https://www.nvwa.nl/api/search?hash=db453f2df2907e5896fdaa2fad60c63495103f06ca2f5fcda11ff037ef65d36a",
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json",
+   "Accept": "application/json"
+  },
+  "body": "{\"requestState\":{\"current\":1,\"filters\":[],\"resultsPerPage\":10,\"searchTerm\":\"\",\"sortDirection\":\"\",\"sortField\":\"\",\"sortList\":[]},\"queryConfig\":{\"filters\":[{\"field\":\"topic\",\"values\":[\"Veiligheidswaarschuwingen\"],\"type\":\"all\"},{\"field\":\"content_type\",\"values\":[\"pro:newsDocument\"],\"type\":\"all\"}],\"result_fields\":{\"url\":{\"raw\":{}},\"page_title\":{\"raw\":{}},\"meta_description\":{\"raw\":{},\"snippet\":{\"size\":140,\"fallback\":true}},\"sort_date\":{\"raw\":{}},\"information_type\":{\"raw\":{}}},\"disjunctiveFacets\":[\"information_type\",\"activity_type\"],\"facets\":{\"information_type\":{\"type\":\"value\",\"size\":100}},\"sortList\":[{\"field\":\"sort_date\",\"direction\":\"desc\"}]}}"
+ }
 ]
