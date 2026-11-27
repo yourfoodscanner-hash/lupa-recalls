@@ -5,7 +5,7 @@
   "sources": {
     "rappelconso": {
       "enabled": true,
-      "windowDays": 30
+      "windowDays": 45
     },
     "lebensmittelwarnung": {
       "enabled": true,
@@ -60,6 +60,10 @@
       "windowDays": 60
     },
     "nvwa": {
+      "enabled": true,
+      "windowDays": 45
+    },
+    "fda": {
       "enabled": true,
       "windowDays": 45
     },

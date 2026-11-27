@@ -76,4 +76,15 @@ test('numbers that shops give out themselves: told apart exactly as the app does
   for (const none of ['2609898025202', '', '26', 'abc', null, undefined, 2609898025201]) assert.equal(isShopNumber(none), false, String(none));
 });
 
+test('v2: a country\'s file and the index, as both sides read them (contract-cases-v2.json)', () => {
+  const v2 = require('./fixtures/contract-cases-v2.json');
+  for (const c of v2.files) {
+    const got = C.readCountryFile(JSON.stringify(c.file), c.country);
+    assert.deepEqual(got === null ? null : got.recalls.map((n) => n.id), c.expect, c.what);
+  }
+  for (const c of v2.v1) assert.equal(C.checkNotice(c.notice).ok, c.ok, c.what);
+  assert.equal(C.checkNotice(v2.v1[0].notice, C.COUNTRIES_V2).ok, true);
+  assert.deepEqual(C.readIndex(JSON.stringify(v2.index.index)).countries.map((c) => c.country), v2.index.expect, v2.index.what);
+});
+
 verify();
