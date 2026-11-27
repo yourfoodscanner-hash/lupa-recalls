@@ -60,12 +60,15 @@ function pageParts(html) {
   if (!article || !/<p class="date">/.test(main[1])) return null;
   const title = oneLine((/<h1[^>]*>([\s\S]*?)<\/h1>/.exec(main[1]) ?? [])[1] ?? '');
   const paragraphs = [];
+  const items = [];
   for (const p of article[1].matchAll(/<p[^>]*>([\s\S]*?)<\/p>|<li[^>]*>([\s\S]*?)<\/li>/g)) {
     const text = htmlToText(p[1] ?? p[2]).replace(/\s+([.,])/g, '$1').replace(/\s+/g, ' ').trim();
-    if (text) paragraphs.push(text);
+    if (!text) continue;
+    paragraphs.push(text);
+    if (p[2] !== undefined) items.push(text);
   }
   const highlighted = [...article[1].matchAll(/<strong>([\s\S]*?)<\/strong>/g)].map((s) => oneLine(s[1]).replace(/[.,:;]+$/, '').trim()).filter(Boolean);
-  return { title, paragraphs, highlighted };
+  return { title, paragraphs, items, highlighted };
 }
 
 const NOT_FOOD = /kontaktimateriaal|lusik|lautas|pannusta|pannuista|astioi|astiast|kupeista|mukeista|elintarvikekosketus/;
@@ -73,6 +76,26 @@ const NOT_FOOD = /kontaktimateriaal|lusik|lautas|pannusta|pannuista|astioi|astia
 const NOT_A_NAME = /parasta ennen|viimeinen kayttopaiva|ean|gtin|eranumero|eratunnus|pakkauskoko|lisatietoja|kuva|^\d[\d.\s/-]*$/;
 /** Where the text ends: contacts, pictures, the authority's own staff. */
 const TAIL = /^(?:lisatietoja|asiaa hoitaa|kuva tuotteesta|yrityksen tiedote|tilaa )/;
+
+/** A size on a product line: "230 g", "200g", "1,5 l". */
+const SIZE = /\d\s?(?:g|kg|ml|cl|l|kpl)(?![a-zäö])/i;
+
+/**
+ * The product, in the order the pages say it: the listed products ("Tuotteet ovat:" and a list —
+ * each without its date or barcode), "… Urtekram Peanut Butter Crunchy 230 g -tuotetta", "… nimellä
+ * Coop Chopped Chili.", and the first highlighted name that is a name (capital letter first, not a date
+ * or a label). null when the page names none.
+ */
+function nameOf(parts, text) {
+  const listed = parts.items.filter((i) => SIZE.test(i) || /\bean\b/i.test(i)).map((i) => i.replace(/\s*\((?:[^()]*)\)\s*$/, '').replace(/\s*(?:,\s*)?ean(?:-koodi)?\s*:?\s*\d[\d\s,]*$/i, '').trim()).filter((i) => i.length >= 2 && i.length <= 120);
+  if (listed.length) return [...new Set(listed)].join(', ');
+  const product = /(?:^|[\s,])((?:\p{Lu}|\d)[^.]{1,100}?)\s+-tuotett(?:a|ta)\b/u.exec(text);
+  if (product) return product[1].replace(/^(?:yhden |kahden |kolmen )?(?:erän |eriä )/i, '').trim();
+  const named = /\bnimell[aä]\s+(\p{Lu}[^.]{1,120}?)\s*\./u.exec(text);
+  if (named) return named[1];
+  const highlighted = parts.highlighted.find((h) => h.length >= 2 && h.length <= 160 && /^\p{Lu}/u.test(h) && !NOT_A_NAME.test(alignedFold(h)) && !/\d{1,2}\.\d{1,2}\.\d{2,4}/.test(h));
+  return highlighted ?? null;
+}
 
 function categoryOf(text) {
   const f = alignedFold(text ?? '');
@@ -87,14 +110,12 @@ function toNotice(row, parts) {
   if (NOT_FOOD.test(alignedFold(title))) return { skip: 'nije hrana (posuđe, kontaktni materijal)' };
   const body = parts.paragraphs.filter((p) => !TAIL.test(alignedFold(p)));
   const text = body.join('\n');
-  const highlighted = parts.highlighted.find((h) => h.length >= 2 && h.length <= 160 && !NOT_A_NAME.test(alignedFold(h)));
-  const said = /(?:nimell[aä]|tuotetta|tuotteita|tuotteen)\s+([^.]{2,120}?)\s*\./i.exec(text);
-  const name = cut(highlighted ?? (said ? said[1] : '') ?? '', 160) || cut(title, 160);
+  const name = cut(nameOf(parts, text), 160) || cut(title, 160);
   if (name.length < 2) return { skip: 'bez naziva' };
   const reason = cut(title.replace(/^p[aä]ivitys[^:]*:\s*/i, ''), 160);
   if (!reason) return { skip: 'bez razloga' };
-  const sentences = text.split(/(?<=[.!?])\s+/);
-  const action = sentences.find((s) => /kuluttaj/i.test(s) && /(?:hävit|palaut|lopett|ei (?:tule )?(?:syö|käyt)|älä|kehot|pyytä|pyydetään)/i.test(s));
+  const sentences = text.split(/(?<=[.!?])\s+|\n/);
+  const action = sentences.find((s) => /kuluttaj/i.test(s) && /(?:hävit|palaut|lopett|olemaan (?:syömättä|käyttämättä|juomatta)|ei (?:tule )?(?:syö|käyt)|älä)/i.test(s));
   const lots = labeledLots(text);
   const dates = labeledDates(text);
   return {

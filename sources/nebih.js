@@ -56,7 +56,8 @@ function pageParts(html) {
   return { fields, paragraphs };
 }
 
-const NOT_FOOD = /takarmany|allateledel|kutya|macska|kisallat|haziallat|elelmiszerrel erintkez|konyhai eszkoz|bogre|tanyer|pohar|evoeszkoz|melamin/;
+/** Feed and pet food ("… ne adják kedvencüknek!" — do not give it to your pet), kitchenware (folded). */
+const NOT_FOOD = /takarmany|allateledel|kutya|macska|kisallat|haziallat|kedvenc(?:uknek|enek|uk)|petfood|pet food|tiernahrung|elelmiszerrel erintkez|konyhai eszkoz|(?<![a-z])(?:kanal|kanalak|bogre|bogrek|tanyer|tanyerok|pohar|poharak|cumisuveg|edeny|edenyek|evoeszkoz[a-z]*)(?![a-z])|melamin|biszfenol/;
 
 function categoryOf(text) {
   const f = alignedFold(text ?? '');
@@ -76,10 +77,10 @@ function toNotice(row, parts) {
   const lines = parts.paragraphs.filter((p) => LABELED.test(p));
   const prose = parts.paragraphs.filter((p) => !LABELED.test(p) && !/:$/.test(p) && !BOILERPLATE.test(alignedFold(p)));
   const labeled = lines.join('\n');
-  const name = cut(parts.fields['termek neve'] || labeledValue(labeled, 'termek megnevezese', 160) || '', 160);
+  const name = cut((parts.fields['termek neve'] || labeledValue(labeled, 'termek megnevezese', 160) || '').replace(/^friss[ií]tve\s*:\s*/i, ''), 160);
   if (name.length < 2) return { skip: 'bez naziva' };
   const everything = `${name}\n${parts.fields['problema jellege'] ?? ''}\n${parts.paragraphs.join('\n')}`;
-  if (NOT_FOOD.test(alignedFold(`${name}\n${parts.fields['problema jellege'] ?? ''}`))) return { skip: 'nije hrana (hrana za životinje, posuđe)' };
+  if (NOT_FOOD.test(alignedFold(`${name}\n${parts.fields['problema jellege'] ?? ''}\n${prose.join('\n')}`))) return { skip: 'nije hrana (hrana za životinje, posuđe)' };
   const reason = cut(capital(parts.fields['problema jellege'] ?? ''), 160);
   if (!reason) return { skip: 'bez razloga' };
   const action = prose.find((p) => /kéri|kerjuk|ne fogyassz|ne hasznalj|ne fogyasszak/i.test(alignedFold(p)) || /kéri/.test(p));

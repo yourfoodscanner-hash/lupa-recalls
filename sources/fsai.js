@@ -103,8 +103,10 @@ const capital = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
 /** The product's name: the summary's own words, else the names in the products table, else the title. */
 function nameOf(parts) {
-  const named = (parts.fields['product identification'] ?? '').split(/[;\n]/)[0].replace(/,?\s*pack size.*$/i, '').trim();
-  if (named.length >= 2 && !/see (?:the )?table|see below|please see/i.test(named)) return named;
+  // "Aneto Natural Chicken Broth; pack size: 1000 ml;" — a product a line, its name before the ";"
+  const pi = parts.fields['product identification'] ?? '';
+  const named = pi.split('\n').map((l) => l.split(';')[0].replace(/,?\s*pack size.*$/i, '').replace(/[.,]+$/, '').trim()).filter((n, i, xs) => n.length >= 2 && xs.indexOf(n) === i);
+  if (named.length && !/see (?:the )?table|see below|please see/i.test(pi)) return named.join(', ');
   const all = Object.values(parts.sections).join('\n');
   const names = [...all.matchAll(/^(?:product(?: name)?|name of product|description)\s*:\s*(.+)$/gim)].map((m) => m[1].trim()).filter((n, i, xs) => n && xs.indexOf(n) === i);
   if (names.length) return names.join(', ');
@@ -147,7 +149,7 @@ function toNotice(row, parts) {
   const danger = parts.sections['nature of danger'] ?? (row.allergen ? firstSentence(parts.sections.message ?? '', 800) : null);
   return {
     notice: {
-      id: idOfRow(row), country: COUNTRY, published: parts.day, category: categoryOf(everything),
+      id: idOfRow(row), country: COUNTRY, published: parts.day, category: categoryOf(`${parts.title}\n${name}\n${parts.fields['product identification'] ?? ''}`),
       hazard: row.allergen ? 'allergen' : hazardOf(reason, everything),
       name, reason,
       details: danger ? cut(danger.replace(/\n+/g, ' '), 800) : undefined,
@@ -196,7 +198,7 @@ async function fetchNotices({ fetchImpl = fetch, url = LIST, since = '2000-01-01
       else notices.push(out.notice);
     });
     if (days.length > 0 && days.every((d) => d < since)) break;
-    if (reads >= MAX_PAGES) break;
+    if (reads >= MAX_PAGES || (odd > 0 && read === 0)) break;   // no page in the form of an alert: stop here (below)
   }
   if (odd > 0 && read === 0) throw new Error(`nijedna pročitana stranica nije u obliku upozorenja (${odd}) — format se promijenio?`);
   return { notices, seen: seen.size, skipped };
