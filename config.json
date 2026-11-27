@@ -41,7 +41,7 @@
     },
     "rasff": {
       "enabled": true,
-      "windowDays": 60,
+      "windowDays": 30,
       "countries": [
         "BE",
         "BG",

@@ -16,7 +16,7 @@
  *
  * Batches, dates and barcodes: only where the product section labels them (lib/text).
  */
-const { rssItems, htmlToText, oneLine, dayIn, idOf, cut, labeledGtins, labeledLots, labeledDates, firstSentence, alignedFold } = require('../lib/text');
+const { rssItems, htmlToText, oneLine, dayIn, idOf, cut, labeledGtins, labeledLots, labeledDates, labeledValue, firstSentence, alignedFold } = require('../lib/text');
 const { getText, mapLimit } = require('../lib/http');
 const { hazardOf } = require('../lib/classify');
 const { hostOf } = require('../lib/contract');
@@ -48,9 +48,10 @@ function pageParts(html) {
   const lead = oneLine((/<p class="lead">([\s\S]*?)<\/p>/i.exec(page) ?? [])[1] ?? '');
   const rich = (/<div class="rich-text">([\s\S]*?)<\/div>\s*<\/div>/i.exec(page) ?? [])[1] ?? '';
   const sections = {};
-  const parts = rich.split(/<h2\b[^>]*>/i).slice(1);
+  // the sections' headings are <h2> on most pages, <h1> or <h3> on some
+  const parts = rich.split(/<h[1-4]\b[^>]*>/i).slice(1);
   for (const part of parts) {
-    const close = part.search(/<\/h2>/i);
+    const close = part.search(/<\/h[1-4]>/i);
     if (close < 0) continue;
     const heading = alignedFold(oneLine(part.slice(0, close)));
     const body = htmlToText(part.slice(close + 5));
@@ -63,12 +64,15 @@ function pageParts(html) {
 }
 
 /** Lines of the product section that name a value ("Nettoindhold: 400 g", "Bedst før 7/4-2028") rather than a product. */
-const VALUE_LINE = /^(?:nettoindhold|netto|vægt|vaegt|bedst f|sidste anvendelses|anvendes senest|holdbar|mindst holdbar|ean|stregkode|lot|batch|parti|emballage|pakning|oprindelse|producent|varenummer|varenr|solgt|størrelse|storrelse|indhold)|:/;
+const VALUE_LINE = /^(?:nettoindhold|netto|vægt|vaegt|bedst f|sidste anvendelses|anvendes senest|holdbar|mindst holdbar|ean|stregkode|lot|batch|parti|emballage|pakning|oprindelse|producent|varenummer|varenr|artikel|brand|mærke|maerke|solgt|størrelse|storrelse|indhold)|:/;
 /** The product named in the product section, when it names exactly one; null otherwise. */
 function singleProduct(product) {
   const lines = String(product ?? '').split('\n').map((l) => l.trim()).filter(Boolean);
   const names = lines.filter((l) => !VALUE_LINE.test(alignedFold(l)));
-  return names.length === 1 && names[0].length >= 2 && names[0].length <= 160 ? names[0] : null;
+  if (names.length !== 1) return null;
+  // "Amanda Makrelkræs tube 80 gram. Varenr. 107080001010," → the name, without the values written after it
+  const name = names[0].replace(/[.,;]?\s*(?:varenr|varenummer|artikel|ean|stregkode|bedst f|nettoindhold|netto)(?![a-zæøå]).*$/i, '').replace(/[.,;:\s]+$/, '');
+  return name.length >= 2 && name.length <= 160 ? name : null;
 }
 
 /** "Tilbagekald af oksekebab" → "Oksekebab"; "Tilbagekald - Risiko for … i X" → "Risiko for … i X". */
@@ -104,7 +108,7 @@ function toNotice(item, parts, day) {
   return {
     notice: {
       id: idOfLink(item.link), country: COUNTRY, published: day, category, hazard: hazardOf(reason, parts.why, parts.lead),
-      name, reason,
+      name, brand: labeledValue(parts.product, '(?:brand|mærke|maerke|varemærke|varemaerke)(?=\\s*:)', 40) ?? undefined, reason,
       details: details ? cut(details, 800) : undefined,
       lots: lots.length ? cut(lots.join(', '), 300) : undefined,
       bestBefore: dates.length ? cut(dates.join(', '), 120) : undefined,

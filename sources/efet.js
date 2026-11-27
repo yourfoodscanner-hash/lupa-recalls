@@ -73,12 +73,12 @@ function pageParts(html) {
 function titleName(title) {
   let t = String(title ?? '').replace(/^\s*ΔΕΛΤΙΟ ΤΥΠΟΥ\s*:\s*/i, '');
   const f = alignedFold(t);
-  const head = /^(?:επεκταση ανακλησης|ανακληση|ανακλησεις)(?:\s+(?:μη ασφαλ[α-ω]*|επικινδυν[α-ω]*)\s+(?:τροφιμ[α-ω]*|προιον[α-ω]*))?\s*[:\-–]?\s*(?:(?:σε|του|της|των|στο|στη|στον|στην)\s+)?/.exec(f);
+  const head = /^(?:(?:ενημερωση|συμπληρωματικη ανακοινωση)(?:\s+(?:σχετικα με|για)\s+(?:την|τη))?\s+)?(?:επεκταση\s+)?ανακλησ[α-ω]*(?:\s+(?:του|της|των))?(?:\s+(?:μη\s+)?(?:ασφαλ[α-ω]*|επικινδυν[α-ω]*))?(?:\s+(?:προιον[α-ω]*|τροφιμ[α-ω]*))?\s*[:\-–]?\s*(?:(?:σε|του|της|των|στο|στη|στον|στην)\s+)?/.exec(f);
   if (head) t = t.slice(head[0].length);
   const because = alignedFold(t).search(/\s(?:λογω|εξαιτιας)\s/);
   if (because > 0) t = t.slice(0, because);
   t = t.trim().replace(/[.,;:\s]+$/, '');
-  const wrapped = /^[(«"“]([^()«»"“”]+)[)»"”]$/.exec(t);
+  const wrapped = /^[(«"“]\s*([^()«»"“”]+?)\s*[)»"”]$/.exec(t);
   if (wrapped) t = wrapped[1].trim();
   return t ? t[0].toUpperCase() + t.slice(1) : '';
 }
@@ -90,7 +90,7 @@ function tradeName(text) {
 }
 
 /** Kitchenware and other things that are not food (folded). */
-const NOT_FOOD = /κουταλ|καλαμακ|μαχαιροπιρουν|πιρουν|σκευ|ποτηρ|πιατ|κατσαρολ|τηγαν|δοχει|μπιμπερ|πιπιλ|υλικ[α-ω]* (?:και αντικειμεν[α-ω]* )?(?:που )?(?:προοριζ|σε επαφη)/;
+const NOT_FOOD = /κουταλ|καλαμακ|μαχαιροπιρουν|πιρουν|σκευ|ποτηρ|πιατ|κατσαρολ|τηγαν|δοχει|μπιμπερ|πιπιλ|μπαμπου|μελαμιν|υλικ[α-ω]* (?:και αντικειμεν[α-ω]* )?(?:που )?(?:προοριζ|σε επαφη)/;
 
 function categoryOf(text) {
   const f = alignedFold(text ?? '');
@@ -106,8 +106,8 @@ function toNotice(number, link, parts, day) {
   const name = cut(tradeName(parts.text) ?? titleName(title), 160);
   if (name.length < 2) return { skip: 'bez naziva' };
   const text = parts.text;
-  const found = becauseClause(text, ['διαπιστωθηκε', 'διαπιστωθηκαν', 'ανιχνευθηκε', 'ανιχνευθηκαν']);
-  const reason = cut((found ? found.replace(/^(?:η|ο|το|οι|τα)\s+/i, '') : null) ?? becauseClause(title, ['λογω']) ?? sentenceNaming(text) ?? '', 160);
+  const found = becauseClause(text, ['διαπιστωθηκε', 'διαπιστωθηκαν', 'ανιχνευθηκε', 'ανιχνευθηκαν', 'ενημερωνει τους καταναλωτες για']);
+  const reason = cut((found ? found.replace(/^(?:η|ο|το|οι|τα|την|τη|τον|ότι|οτι)\s+/i, '') : null) ?? becauseClause(title, ['λογω']) ?? sentenceNaming(text) ?? '', 160);
   if (!reason) return { skip: 'bez razloga' };
   const paragraphs = text.split('\n').filter((l) => !/^(?:Ανάκληση|Επέκταση ανάκλησης)(?!\p{L})/iu.test(l) && l.length > 40);
   const action = paragraphs.find((l) => /καλουνται οι καταναλωτες/.test(alignedFold(l)));

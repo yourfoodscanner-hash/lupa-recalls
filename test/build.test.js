@@ -247,8 +247,14 @@ test('every source the job can read: its own prefix and country; config.json nam
   for (const [name, adapter] of Object.entries(SOURCES)) {
     assert.equal(adapter.name, name);
     assert.match(adapter.prefix, /^[a-z]{2}-[a-z]+-$/);
-    assert.ok(C.COUNTRIES.includes(adapter.country), name);
-    assert.ok(adapter.prefix.startsWith(adapter.country.toLowerCase()), name);
+    if (Array.isArray(adapter.countries)) {
+      // a source for several countries (the EU's portal): every one of them a country the feed may name
+      assert.equal(adapter.prefix, 'eu-rasff-', name);
+      for (const c of adapter.countries) assert.ok(C.EU_COUNTRIES.includes(c), `${name}: ${c}`);
+    } else {
+      assert.ok(C.COUNTRIES.includes(adapter.country), name);
+      assert.ok(adapter.prefix.startsWith(adapter.country.toLowerCase()), name);
+    }
     assert.equal(typeof adapter.fetchNotices, 'function');
     assert.match(adapter.defaultUrl, /^https:\/\//);
     assert.equal(prefixes.filter((p) => p.startsWith(adapter.prefix) || adapter.prefix.startsWith(p)).length, 1, `${name}: a prefix that overlaps another`);
@@ -256,7 +262,11 @@ test('every source the job can read: its own prefix and country; config.json nam
   for (const [name, settings] of Object.entries(config.sources)) {
     assert.ok(SOURCES[name], `config.json names „${name}”, which the job does not know`);
     assert.ok(Number.isInteger(settings.windowDays) && settings.windowDays >= 14 && settings.windowDays <= 365, name);
+    if (settings.countries) for (const c of settings.countries) assert.ok(SOURCES[name].countries.includes(c), `${name}: ${c} is not a country this source reads`);
   }
+  // a country read by its own authority is not read again through the EU's portal (no notice twice)
+  const own = Object.values(SOURCES).filter((s) => !Array.isArray(s.countries)).map((s) => s.country);
+  for (const c of config.sources.rasff.countries) assert.ok(!own.includes(c), `rasff: ${c} has its own source`);
 });
 
 verify();

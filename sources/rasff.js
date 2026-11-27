@@ -57,7 +57,9 @@ function categoryOf(view) {
 }
 
 const capital = (s) => (s ? s[0].toUpperCase() + s.slice(1) : s);
-const clean = (s) => oneLine(String(s ?? '')).replace(/\s+-\s+/g, ' - ').replace(/\s{2,}/g, ' ').trim();
+const clean = (s) => oneLine(String(s ?? '').replace(/\p{Co}/gu, ' ')).replace(/\s+-\s+/g, ' - ').replace(/\s{2,}/g, ' ').replace(/^[\s\p{Z}\p{Cf}]+|[\s\p{Z}\p{Cf}]+$/gu, '');
+/** A subject as a reason: without the full stop some subjects end with. */
+const sentence = (s) => s.replace(/\.+$/, '').trim();
 
 /** One notification on one country's list → a notice (unchecked), or { skip }. */
 function toNotice(view, country, day) {
@@ -69,7 +71,7 @@ function toNotice(view, country, day) {
   const subject = clean(view.subject);
   if (subject.length < 3) return { skip: 'bez opisa' };
   const product = clean(view.product?.description);
-  const findings = (Array.isArray(view.product?.findings) ? view.product.findings : []).map((f) => clean(f?.name)).filter(Boolean);
+  const findings = (Array.isArray(view.product?.findings) ? view.product.findings : []).map((f) => clean(f?.name)).filter((f) => f && !/not in catalogue|not determined/i.test(f));
   const measures = [...new Set((Array.isArray(view.product?.measures) ? view.product.measures : [])
     .filter((m) => m?.takenBy?.isoCode === country).map((m) => clean(m?.actionTaken?.description)).filter(Boolean))];
   return {
@@ -77,7 +79,7 @@ function toNotice(view, country, day) {
       id: idOf(PREFIX, `${country}-${reference}`), country, published: dayOfStamp(view.ecValidationDate) ?? day, category,
       hazard: hazardOf(subject, findings.join('; ')),
       name: cut(capital(product.length >= 2 ? product : subject), 160),
-      reason: cut(capital(subject), 160),
+      reason: cut(capital(sentence(subject)), 160),
       details: findings.length ? cut(findings.join('; '), 800) : undefined,
       action: measures.length ? cut(capital(measures.join(', ')), 500) : undefined,
       source: SOURCE, url: `${BASE}screen/notification/${nid}`,
