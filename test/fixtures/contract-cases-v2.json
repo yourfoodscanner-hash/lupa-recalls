@@ -1,5 +1,5 @@
 {
- "about": "Cases both sides of the \"v2\" files are tested against: the job that makes them (lupa-recalls, lib/contract.js: readCountryFile, readIndex) and the app that reads them. A country's file → expect: the ids accepted, in order (null: the file is refused). The index → expect: the countries accepted. A notice in v2 is checked as in v1 (contract-cases.json), its country one of v1's, US, GB, CH, NO, IS, MK, MD, UA, ME or AL.",
+ "about": "Cases both sides of the \"v2\" files are tested against: the job that makes them (lupa-recalls, lib/contract.js: readCountryFile, readIndex) and the app that reads them. A country's file → expect: the ids accepted, in order (null: the file is refused). The index → expect: the countries accepted. A notice in v2 is checked as in v1 (contract-cases.json), its country one of v1's, US, GB, CH, NO, IS, MK, MD, UA, ME, AL or XK (Kosovo: not an ISO 3166 code, the code the EU uses).",
  "files": [
   {
    "what": "a country's file: its notices",
@@ -53,6 +53,32 @@
    },
    "expect": [
     "gb-fsa-2026-001"
+   ]
+  },
+  {
+   "what": "Kosovo is in v2 as \"XK\": a Kosovo file",
+   "country": "XK",
+   "file": {
+    "version": 2,
+    "generated": "2026-11-27T03:10:00Z",
+    "country": "XK",
+    "recalls": [
+     {
+      "id": "xk-auv-2026-001",
+      "country": "XK",
+      "published": "2026-11-18",
+      "category": "food",
+      "hazard": "foreign",
+      "name": "Ground Up Nut Butter Cups filled with Almond & Cashew Butter Dark Chocolate Two Pack",
+      "reason": "Foreign material: plastic fiber",
+      "source": "Agjencia e Ushqimit dhe Veterinarisë (AUV)",
+      "url": "https://auvk.rks-gov.net/produkti-ushqimore-terhiqet-nga-tregu/",
+      "gtins": []
+     }
+    ]
+   },
+   "expect": [
+    "xk-auv-2026-001"
    ]
   },
   {
@@ -204,6 +230,13 @@
      "newest": "2026-11-25"
     },
     {
+     "country": "XK",
+     "file": "xk.json",
+     "recalls": 1,
+     "chars": 480,
+     "newest": "2026-11-20"
+    },
+    {
      "country": "US",
      "file": "usa.json",
      "recalls": 1,
@@ -227,7 +260,8 @@
    ]
   },
   "expect": [
-   "FR"
+   "FR",
+   "XK"
   ]
  }
 }
