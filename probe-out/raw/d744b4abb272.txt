@@ -34,7 +34,7 @@
 	<style type="text/css">
 body{font-family:Open Sans, sans-serif; font-size:14px; font-weight:normal; }h1{font-family:Didact Gothic, sans-serif; font-weight:normal; }h2{font-family:Arimo, sans-serif; font-weight:700; }h3{font-family:Arimo, sans-serif; font-weight:700; }h4{font-family:Arimo, sans-serif; font-weight:700; }h5{font-family:Open Sans, sans-serif; font-weight:600; }h6{font-family:Open Sans, sans-serif; font-weight:600; }#sp-trending-news{ background-color:#272727;color:#ffffff;padding:10px 15px; }#sp-header{ padding:20px 0px; }#sp-footer-logo{ background-color:#1c1c1c;color:#969696;padding:0 0 40px; }#sp-footer{ padding:15px 0; }
 	</style>
-	<script type="application/json" class="joomla-script-options new">{"csrf.token":"d0791d1cff527112b9dfdce167cca2b9","system.paths":{"root":"","base":""}}</script>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"d607e15878b8ea293b61c7706f4f4fe6","system.paths":{"root":"","base":""}}</script>
 	<script src="/media/jui/js/jquery.min.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
 	<script src="/media/jui/js/jquery-noconflict.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
 	<script src="/media/jui/js/jquery-migrate.min.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
@@ -865,7 +865,7 @@ submit_complaint = "Submit Complaint";
 					<input type="submit" name="Submit" class="btl-buttonsubmit" onclick="return loginAjax()" value="Σύνδεση" /> 
 					<input type="hidden" name="bttask" value="login" /> 
 					<input type="hidden" name="return" id="btl-return"	value="aW5kZXgucGhwP0l0ZW1pZD04NzI=" />
-					<input type="hidden" name="d0791d1cff527112b9dfdce167cca2b9" value="1" />				</div>
+					<input type="hidden" name="d607e15878b8ea293b61c7706f4f4fe6" value="1" />				</div>
 			</form>	
 			<ul id ="bt_ul">
 				<li>

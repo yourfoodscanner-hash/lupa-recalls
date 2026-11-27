@@ -4,7 +4,7 @@
     <title>Estonia RASFF notifications</title>
     <link>https://webgate.ec.europa.eu/rasff-window/screen/list?consumer=5009</link>
     <description />
-    <pubDate>Fri, 27 Nov 2026 08:44:20 GMT</pubDate>
+    <pubDate>Fri, 27 Nov 2026 08:47:47 GMT</pubDate>
     <item>
       <title>2026.9991 - Too high count of E.coli in mussels from The Netherlands</title>
       <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/885799</link>

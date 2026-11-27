@@ -9,7 +9,8 @@
   "reason": "High content of hydrocyanic acid in golden flax seeds",
   "details": "cyanide - too high content - biological contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889320"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889320",
+  "group": "rasff-2026-10492"
  },
  {
   "id": "eu-rasff-be-2026-10484",
@@ -20,7 +21,8 @@
   "name": "Chicken snack wit cheese",
   "reason": "Undeclared allergen cashew on a chicken cheese snack, from the Netherlands",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889386"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889386",
+  "group": "rasff-2026-10484"
  },
  {
   "id": "eu-rasff-be-2026-10406",
@@ -33,7 +35,8 @@
   "details": "mustard - traces - allergens",
   "action": "Withdrawal from the market, public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-be-2026-10227",
@@ -45,7 +48,8 @@
   "reason": "Presence of beetles in frozen peas from Belgium",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887420"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887420",
+  "group": "rasff-2026-10227"
  },
  {
   "id": "eu-rasff-be-2026-10164",
@@ -57,7 +61,8 @@
   "reason": "Undeclared allergen hazelnut in chocolate cream from Italy",
   "details": "hazelnut - presence - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091",
+  "group": "rasff-2026-10164"
  },
  {
   "id": "eu-rasff-be-2026-10141",
@@ -70,7 +75,8 @@
   "details": "anthraquinone - pesticide residues",
   "action": "Withdrawal from the market",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+  "group": "rasff-2026-10141"
  },
  {
   "id": "eu-rasff-be-2026-10085",
@@ -82,7 +88,8 @@
   "reason": "Presence of spoilage microorganisms in fruit-flavored yogurts",
   "action": "Withdrawal from the market",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886458"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886458",
+  "group": "rasff-2026-10085"
  },
  {
   "id": "eu-rasff-be-2026-10028",
@@ -94,7 +101,8 @@
   "reason": "Undeclared allergen cashew on chicken wrap, from the Netheralnds",
   "action": "Public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886282"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886282",
+  "group": "rasff-2026-10028"
  },
  {
   "id": "eu-rasff-be-2026-9993",
@@ -106,7 +114,8 @@
   "reason": "Swollen tins of sardines from Senegal + microbiological non conform results",
   "details": "bulging packaging - faulty processing or storage conditions",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885966"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885966",
+  "group": "rasff-2026-9993"
  },
  {
   "id": "eu-rasff-be-2026-9991",
@@ -118,7 +127,8 @@
   "reason": "Too high count of E.coli in mussels from The Netherlands",
   "details": "Escherichia coli - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799",
+  "group": "rasff-2026-9991"
  },
  {
   "id": "eu-rasff-be-2026-9985",
@@ -130,7 +140,8 @@
   "reason": "Salmonella in chicken pops",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
+  "group": "rasff-2026-9985"
  },
  {
   "id": "eu-rasff-be-2026-9973",
@@ -143,7 +154,8 @@
   "details": "Salmonella - pathogenic micro-organisms",
   "action": "Detained by operator",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+  "group": "rasff-2026-9973"
  },
  {
   "id": "eu-rasff-be-2026-9716",
@@ -155,7 +167,8 @@
   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+  "group": "rasff-2026-9716"
  },
  {
   "id": "eu-rasff-be-2026-9701",
@@ -168,7 +181,8 @@
   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
   "action": "Recall from consumer, informing recipient(s)",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+  "group": "rasff-2026-9701"
  },
  {
   "id": "eu-rasff-be-2026-9695",
@@ -179,7 +193,8 @@
   "name": "Frozen leaf spinach",
   "reason": "Bones and feathers found in frozen leaf spinach – Customer complaint",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883887"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883887",
+  "group": "rasff-2026-9695"
  },
  {
   "id": "eu-rasff-be-2026-9690",
@@ -191,7 +206,8 @@
   "reason": "Sugar free soda bottles labeled as soda (with sugar) from Belgium",
   "action": "Withdrawal from the market, public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883593"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883593",
+  "group": "rasff-2026-9690"
  },
  {
   "id": "eu-rasff-be-2026-9687",
@@ -203,7 +219,8 @@
   "reason": "Allergen oats not highlighted and not in Dutch language on cookies, from Canada, via the Netherlands",
   "action": "Withdrawal from the market",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883433"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883433",
+  "group": "rasff-2026-9687"
  },
  {
   "id": "eu-rasff-be-2026-9682",
@@ -216,7 +233,8 @@
   "details": "glycidyl esters - industrial contaminants",
   "action": "Public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-be-2026-9657",
@@ -228,7 +246,8 @@
   "reason": "Listeria detected Fine bulgur wheat salad",
   "details": "Listeria monocytogenes - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883521"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883521",
+  "group": "rasff-2026-9657"
  },
  {
   "id": "eu-rasff-be-2026-9651",
@@ -241,7 +260,8 @@
   "details": "prothioconazole - pesticide residues",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
+  "group": "rasff-2026-9651"
  },
  {
   "id": "eu-rasff-be-2026-9645",
@@ -254,7 +274,8 @@
   "details": "Listeria monocytogenes - pathogenic micro-organisms",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883478"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883478",
+  "group": "rasff-2026-9645"
  },
  {
   "id": "eu-rasff-bg-2026-10469",
@@ -265,7 +286,8 @@
   "name": "Potatoes",
   "reason": "Glycoalkaloids in potatoes from France",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185",
+  "group": "rasff-2026-10469"
  },
  {
   "id": "eu-rasff-bg-2026-10141",
@@ -277,7 +299,8 @@
   "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
   "details": "anthraquinone - pesticide residues",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+  "group": "rasff-2026-10141"
  },
  {
   "id": "eu-rasff-bg-2026-9682",
@@ -289,7 +312,8 @@
   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
   "details": "glycidyl esters - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-cy-2026-10406",
@@ -301,7 +325,8 @@
   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
   "details": "mustard - traces - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-cy-2026-9872",
@@ -313,7 +338,8 @@
   "reason": "Exceedance of aflatoxin in pistachio kernels from USA via Italy",
   "details": "Aflatoxin B1 - mycotoxins",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+  "group": "rasff-2026-9872"
  },
  {
   "id": "eu-rasff-cy-2026-9796",
@@ -325,7 +351,8 @@
   "reason": "Absence of allergen labelling in the greek language in saucy noodles",
   "details": "allergen information - insufficient - faulty labelling or claims",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883576"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883576",
+  "group": "rasff-2026-9796"
  },
  {
   "id": "eu-rasff-cy-2026-9716",
@@ -337,7 +364,8 @@
   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+  "group": "rasff-2026-9716"
  },
  {
   "id": "eu-rasff-ee-2026-9991",
@@ -349,7 +377,8 @@
   "reason": "Too high count of E.coli in mussels from The Netherlands",
   "details": "Escherichia coli - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799",
+  "group": "rasff-2026-9991"
  },
  {
   "id": "eu-rasff-es-2026-10406",
@@ -361,7 +390,8 @@
   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
   "details": "mustard - traces - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-es-2026-10164",
@@ -373,7 +403,8 @@
   "reason": "Undeclared allergen hazelnut in chocolate cream from Italy",
   "details": "hazelnut - presence - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091",
+  "group": "rasff-2026-10164"
  },
  {
   "id": "eu-rasff-es-2026-10141",
@@ -385,7 +416,8 @@
   "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
   "details": "anthraquinone - pesticide residues",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+  "group": "rasff-2026-10141"
  },
  {
   "id": "eu-rasff-es-2026-10134",
@@ -397,7 +429,8 @@
   "reason": "Unlabeled or incorrectly labeled allergen (wheat) in tuna salad with couscous from Spain",
   "details": "allergen information - incorrect - faulty labelling or claims",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886914"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886914",
+  "group": "rasff-2026-10134"
  },
  {
   "id": "eu-rasff-es-2026-10085",
@@ -408,7 +441,8 @@
   "name": "Fruit-flavored yogurts",
   "reason": "Presence of spoilage microorganisms in fruit-flavored yogurts",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886458"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886458",
+  "group": "rasff-2026-10085"
  },
  {
   "id": "eu-rasff-es-2026-9985",
@@ -420,7 +454,8 @@
   "reason": "Salmonella in chicken pops",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
+  "group": "rasff-2026-9985"
  },
  {
   "id": "eu-rasff-es-2026-9973",
@@ -432,7 +467,8 @@
   "reason": "Salmonella in marshmallow from Belgium",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+  "group": "rasff-2026-9973"
  },
  {
   "id": "eu-rasff-es-2026-9922",
@@ -444,7 +480,8 @@
   "reason": "Excessive amounts of Bone Fragements in frozen chicken breast trimmings",
   "details": "bone fragments - foreign bodies / physical danger",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885447"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885447",
+  "group": "rasff-2026-9922"
  },
  {
   "id": "eu-rasff-es-2026-9864",
@@ -456,7 +493,8 @@
   "reason": "Salmonella Cubana in organic pine nuts from Italy",
   "details": "Salmonella cubana - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
+  "group": "rasff-2026-9864"
  },
  {
   "id": "eu-rasff-es-2026-9682",
@@ -468,7 +506,8 @@
   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
   "details": "glycidyl esters - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-fi-2026-10456",
@@ -481,7 +520,8 @@
   "details": "fragments metal - foreign bodies / physical danger",
   "action": "Public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889186"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889186",
+  "group": "rasff-2026-10456"
  },
  {
   "id": "eu-rasff-fi-2026-10406",
@@ -493,7 +533,8 @@
   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
   "details": "mustard - traces - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-fi-2026-10360",
@@ -506,7 +547,8 @@
   "details": "cyanide - too high content - biological contaminants",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+  "group": "rasff-2026-10360"
  },
  {
   "id": "eu-rasff-fi-2026-9854",
@@ -519,7 +561,8 @@
   "details": "cypermethrin - pesticide residues; chlorfenapyr - pesticide residues; dinotefuran - unauthorised substance - pesticide residues; chlorpyrifos - unauthorised substance - pesticide residues; bifenthrin - pesticide residues; paclobutrazol - pesticide residues; triazophos - pesticide residues; thiamethoxam - pesticide residues; pyridaben - pesticide residues; acetamiprid - pesticide residues; lufenuron - pesticide residues; clothianidin - pesticide residues; imidacloprid - pesticide residues; lambda-cyhalothrin - pesticide residues; emamectin - pesticide residues; chlorantraniliprole - pesticide residues",
   "action": "Destruction, recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884565"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884565",
+  "group": "rasff-2026-9854"
  },
  {
   "id": "eu-rasff-fi-2026-9716",
@@ -532,7 +575,8 @@
   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+  "group": "rasff-2026-9716"
  },
  {
   "id": "eu-rasff-fi-2026-9682",
@@ -545,7 +589,8 @@
   "details": "glycidyl esters - industrial contaminants",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-hu-2026-10406",
@@ -557,7 +602,8 @@
   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
   "details": "mustard - traces - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-hu-2026-10360",
@@ -569,7 +615,8 @@
   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
   "details": "cyanide - too high content - biological contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+  "group": "rasff-2026-10360"
  },
  {
   "id": "eu-rasff-hu-2026-10359",
@@ -581,7 +628,8 @@
   "reason": "Proteine di mandorle (allergeni) non dichiarate in etichetta in biscotti senza glutine dall'Italia/Almond proteins (allergens) not declared on the label in…",
   "details": "almond - undeclared - allergens - faulty labelling or claims",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887984"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887984",
+  "group": "rasff-2026-10359"
  },
  {
   "id": "eu-rasff-hu-2026-10033",
@@ -594,7 +642,8 @@
   "details": "Salmonella typhimurium - pathogenic micro-organisms",
   "action": "Detained by operator",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886262"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886262",
+  "group": "rasff-2026-10033"
  },
  {
   "id": "eu-rasff-hu-2026-9973",
@@ -606,7 +655,8 @@
   "reason": "Salmonella in marshmallow from Belgium",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+  "group": "rasff-2026-9973"
  },
  {
   "id": "eu-rasff-hu-2026-9942",
@@ -618,7 +668,8 @@
   "reason": "Exceeded pesticide levels in Brown Rice",
   "details": "tricyclazole - unauthorised substance - pesticide residues; propiconazole - unauthorised substance - pesticide residues",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664",
+  "group": "rasff-2026-9942"
  },
  {
   "id": "eu-rasff-hu-2026-9864",
@@ -630,7 +681,8 @@
   "reason": "Salmonella Cubana in organic pine nuts from Italy",
   "details": "Salmonella cubana - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
+  "group": "rasff-2026-9864"
  },
  {
   "id": "eu-rasff-hu-2026-9716",
@@ -642,7 +694,8 @@
   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+  "group": "rasff-2026-9716"
  },
  {
   "id": "eu-rasff-hu-2026-9682",
@@ -654,7 +707,8 @@
   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
   "details": "glycidyl esters - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-ie-2026-10406",
@@ -666,7 +720,8 @@
   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
   "details": "mustard - traces - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-ie-2026-10368",
@@ -679,7 +734,8 @@
   "details": "peanut - presence - allergens",
   "action": "Public warning - press release, recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888600"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888600",
+  "group": "rasff-2026-10368"
  },
  {
   "id": "eu-rasff-ie-2026-10360",
@@ -691,7 +747,8 @@
   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
   "details": "cyanide - too high content - biological contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+  "group": "rasff-2026-10360"
  },
  {
   "id": "eu-rasff-ie-2026-10141",
@@ -703,7 +760,8 @@
   "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
   "details": "anthraquinone - pesticide residues",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+  "group": "rasff-2026-10141"
  },
  {
   "id": "eu-rasff-ie-2026-10126",
@@ -715,7 +773,8 @@
   "reason": "No ingredients listed on spice mixes from Nigeria",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886885"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886885",
+  "group": "rasff-2026-10126"
  },
  {
   "id": "eu-rasff-ie-2026-9913",
@@ -727,7 +786,8 @@
   "reason": "Undeclared egg and milk in mispacked Southern Fried Chicken Sliders",
   "action": "Recall from consumer, public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885371"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885371",
+  "group": "rasff-2026-9913"
  },
  {
   "id": "eu-rasff-ie-2026-9912",
@@ -738,7 +798,8 @@
   "name": "Various meat products including poultry products and non poultry products",
   "reason": "Insufficient sterilisation levels in tinned food produced in France",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885004"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885004",
+  "group": "rasff-2026-9912"
  },
  {
   "id": "eu-rasff-ie-2026-9897",
@@ -751,7 +812,8 @@
   "details": "Aflatoxin B1 - mycotoxins; Aflatoxin B1 - mycotoxins; aflatoxin total - mycotoxins; aflatoxin total - mycotoxins",
   "action": "Recall from consumer, public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885018"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885018",
+  "group": "rasff-2026-9897"
  },
  {
   "id": "eu-rasff-ie-2026-9872",
@@ -763,7 +825,8 @@
   "reason": "Exceedance of aflatoxin in pistachio kernels from USA via Italy",
   "details": "Aflatoxin B1 - mycotoxins",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+  "group": "rasff-2026-9872"
  },
  {
   "id": "eu-rasff-ie-2026-9701",
@@ -775,7 +838,8 @@
   "reason": "Shiga toxin-producing Escherichia coli (STEC) in frozen goat meat from the Netherlands",
   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+  "group": "rasff-2026-9701"
  },
  {
   "id": "eu-rasff-ie-2026-9646",
@@ -787,7 +851,8 @@
   "reason": "Glycidol in rice crackers from Japan",
   "details": "glycidyl esters - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/882876"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/882876",
+  "group": "rasff-2026-9646"
  },
  {
   "id": "eu-rasff-it-2026-10469",
@@ -798,7 +863,8 @@
   "name": "Potatoes",
   "reason": "Glycoalkaloids in potatoes from France",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185",
+  "group": "rasff-2026-10469"
  },
  {
   "id": "eu-rasff-it-2026-10406",
@@ -810,7 +876,8 @@
   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
   "details": "mustard - traces - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-it-2026-10359",
@@ -823,7 +890,8 @@
   "details": "almond - undeclared - allergens - faulty labelling or claims",
   "action": "Recall from consumer, detained by operator",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887984"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887984",
+  "group": "rasff-2026-10359"
  },
  {
   "id": "eu-rasff-it-2026-10351",
@@ -835,7 +903,8 @@
   "reason": "Detection of E.coli in live mussels (Mytilus edulis)",
   "details": "Escherichia coli - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888433"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888433",
+  "group": "rasff-2026-10351"
  },
  {
   "id": "eu-rasff-it-2026-10329",
@@ -848,7 +917,8 @@
   "details": "checks - insufficient - lacking or improper documentation or controls",
   "action": "Official detention",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888243"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888243",
+  "group": "rasff-2026-10329"
  },
  {
   "id": "eu-rasff-it-2026-10303",
@@ -861,7 +931,8 @@
   "details": "Salmonella - pathogenic micro-organisms",
   "action": "Recall from consumer, informing authorities",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888019"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888019",
+  "group": "rasff-2026-10303"
  },
  {
   "id": "eu-rasff-it-2026-10164",
@@ -873,7 +944,8 @@
   "reason": "Undeclared allergen hazelnut in chocolate cream from Italy",
   "details": "hazelnut - presence - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091",
+  "group": "rasff-2026-10164"
  },
  {
   "id": "eu-rasff-it-2026-10125",
@@ -886,7 +958,8 @@
   "details": "Listeria monocytogenes - pathogenic micro-organisms",
   "action": "Informing authorities, recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886879"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886879",
+  "group": "rasff-2026-10125"
  },
  {
   "id": "eu-rasff-it-2026-10116",
@@ -898,7 +971,8 @@
   "reason": "Salmonella Agona in organic pine nuts from Italy",
   "details": "Salmonella Agona - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886785"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886785",
+  "group": "rasff-2026-10116"
  },
  {
   "id": "eu-rasff-it-2026-9985",
@@ -910,7 +984,8 @@
   "reason": "Salmonella in chicken pops",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
+  "group": "rasff-2026-9985"
  },
  {
   "id": "eu-rasff-it-2026-9973",
@@ -922,7 +997,8 @@
   "reason": "Salmonella in marshmallow from Belgium",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+  "group": "rasff-2026-9973"
  },
  {
   "id": "eu-rasff-it-2026-9942",
@@ -934,7 +1010,8 @@
   "reason": "Exceeded pesticide levels in Brown Rice",
   "details": "tricyclazole - unauthorised substance - pesticide residues; propiconazole - unauthorised substance - pesticide residues",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664",
+  "group": "rasff-2026-9942"
  },
  {
   "id": "eu-rasff-it-2026-9912",
@@ -945,7 +1022,8 @@
   "name": "Various meat products including poultry products and non poultry products",
   "reason": "Insufficient sterilisation levels in tinned food produced in France",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885004"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885004",
+  "group": "rasff-2026-9912"
  },
  {
   "id": "eu-rasff-it-2026-9872",
@@ -957,7 +1035,8 @@
   "reason": "Exceedance of aflatoxin in pistachio kernels from USA via Italy",
   "details": "Aflatoxin B1 - mycotoxins",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+  "group": "rasff-2026-9872"
  },
  {
   "id": "eu-rasff-it-2026-9864",
@@ -969,7 +1048,8 @@
   "reason": "Salmonella Cubana in organic pine nuts from Italy",
   "details": "Salmonella cubana - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
+  "group": "rasff-2026-9864"
  },
  {
   "id": "eu-rasff-it-2026-9682",
@@ -981,7 +1061,8 @@
   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
   "details": "glycidyl esters - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-it-2026-9642",
@@ -993,7 +1074,8 @@
   "reason": "Exceedance of the maximum residue level for acetamiprid in table grapes from Italy",
   "details": "acetamiprid - pesticide residues; spiroxamine - pesticide residues; pyriofenone - pesticide residues",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883236"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883236",
+  "group": "rasff-2026-9642"
  },
  {
   "id": "eu-rasff-it-2026-9623",
@@ -1005,7 +1087,8 @@
   "reason": "Possibile contaminazione fungina in integratore alimentare destinato a soggetti in età pediatrica////Possible fungal contamination in a food supplement for…",
   "action": "Withdrawal from the market, recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880636"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880636",
+  "group": "rasff-2026-9623"
  },
  {
   "id": "eu-rasff-lt-2026-10125",
@@ -1017,7 +1100,8 @@
   "reason": "Listeria monocytogenes in salmone scozzese affumicato//Listeria monocytogenes in smoked Scottish salmon",
   "details": "Listeria monocytogenes - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886879"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886879",
+  "group": "rasff-2026-10125"
  },
  {
   "id": "eu-rasff-lt-2026-9796",
@@ -1029,7 +1113,8 @@
   "reason": "Absence of allergen labelling in the greek language in saucy noodles",
   "details": "allergen information - insufficient - faulty labelling or claims",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883576"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883576",
+  "group": "rasff-2026-9796"
  },
  {
   "id": "eu-rasff-lt-2026-9682",
@@ -1041,7 +1126,8 @@
   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
   "details": "glycidyl esters - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-lu-2026-10406",
@@ -1054,7 +1140,8 @@
   "details": "mustard - traces - allergens",
   "action": "Withdrawal from the market, public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-lu-2026-10141",
@@ -1067,7 +1154,8 @@
   "details": "anthraquinone - pesticide residues",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+  "group": "rasff-2026-10141"
  },
  {
   "id": "eu-rasff-lu-2026-10090",
@@ -1079,7 +1167,8 @@
   "reason": "Foreign object in yogurt",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886617"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886617",
+  "group": "rasff-2026-10090"
  },
  {
   "id": "eu-rasff-lu-2026-10085",
@@ -1090,7 +1179,8 @@
   "name": "Fruit-flavored yogurts",
   "reason": "Presence of spoilage microorganisms in fruit-flavored yogurts",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886458"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886458",
+  "group": "rasff-2026-10085"
  },
  {
   "id": "eu-rasff-lu-2026-9973",
@@ -1102,7 +1192,8 @@
   "reason": "Salmonella in marshmallow from Belgium",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+  "group": "rasff-2026-9973"
  },
  {
   "id": "eu-rasff-lu-2026-9952",
@@ -1114,7 +1205,8 @@
   "reason": "Incorrectly labeled trays containing undeclared mollusks and wheat",
   "action": "Public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885761"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885761",
+  "group": "rasff-2026-9952"
  },
  {
   "id": "eu-rasff-lu-2026-9864",
@@ -1127,7 +1219,8 @@
   "details": "Salmonella cubana - pathogenic micro-organisms",
   "action": "Withdrawal from the market",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
+  "group": "rasff-2026-9864"
  },
  {
   "id": "eu-rasff-lu-2026-9701",
@@ -1140,7 +1233,8 @@
   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
   "action": "Withdrawal from the market",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+  "group": "rasff-2026-9701"
  },
  {
   "id": "eu-rasff-lu-2026-9690",
@@ -1152,7 +1246,8 @@
   "reason": "Sugar free soda bottles labeled as soda (with sugar) from Belgium",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883593"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883593",
+  "group": "rasff-2026-9690"
  },
  {
   "id": "eu-rasff-lu-2026-9682",
@@ -1165,7 +1260,8 @@
   "details": "glycidyl esters - industrial contaminants",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-lu-2026-9657",
@@ -1178,7 +1274,8 @@
   "details": "Listeria monocytogenes - pathogenic micro-organisms",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883521"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883521",
+  "group": "rasff-2026-9657"
  },
  {
   "id": "eu-rasff-lu-2026-9651",
@@ -1191,7 +1288,8 @@
   "details": "prothioconazole - pesticide residues",
   "action": "Recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
+  "group": "rasff-2026-9651"
  },
  {
   "id": "eu-rasff-mt-2026-10406",
@@ -1203,7 +1301,8 @@
   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
   "details": "mustard - traces - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-mt-2026-9922",
@@ -1216,7 +1315,8 @@
   "details": "bone fragments - foreign bodies / physical danger",
   "action": "Public warning - press release, recall from consumer",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885447"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885447",
+  "group": "rasff-2026-9922"
  },
  {
   "id": "eu-rasff-mt-2026-9682",
@@ -1229,7 +1329,8 @@
   "details": "glycidyl esters - industrial contaminants",
   "action": "Informing recipient(s), public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-nl-2026-10492",
@@ -1241,7 +1342,8 @@
   "reason": "High content of hydrocyanic acid in golden flax seeds",
   "details": "cyanide - too high content - biological contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889320"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889320",
+  "group": "rasff-2026-10492"
  },
  {
   "id": "eu-rasff-nl-2026-10484",
@@ -1253,7 +1355,8 @@
   "reason": "Undeclared allergen cashew on a chicken cheese snack, from the Netherlands",
   "action": "Informing recipient(s), public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889386"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889386",
+  "group": "rasff-2026-10484"
  },
  {
   "id": "eu-rasff-nl-2026-10469",
@@ -1265,7 +1368,8 @@
   "reason": "Glycoalkaloids in potatoes from France",
   "action": "Destruction",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185",
+  "group": "rasff-2026-10469"
  },
  {
   "id": "eu-rasff-nl-2026-10445",
@@ -1278,7 +1382,8 @@
   "details": "foreign body/ies - foreign bodies / physical danger",
   "action": "Informing recipient(s)",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889004"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889004",
+  "group": "rasff-2026-10445"
  },
  {
   "id": "eu-rasff-nl-2026-10406",
@@ -1291,7 +1396,8 @@
   "details": "mustard - traces - allergens",
   "action": "Withdrawal from the market, informing recipient(s)",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-nl-2026-10368",
@@ -1304,7 +1410,8 @@
   "details": "peanut - presence - allergens",
   "action": "Informing recipient(s)",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888600"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888600",
+  "group": "rasff-2026-10368"
  },
  {
   "id": "eu-rasff-nl-2026-10360",
@@ -1317,7 +1424,8 @@
   "details": "cyanide - too high content - biological contaminants",
   "action": "Informing recipient(s)",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+  "group": "rasff-2026-10360"
  },
  {
   "id": "eu-rasff-nl-2026-10359",
@@ -1329,7 +1437,8 @@
   "reason": "Proteine di mandorle (allergeni) non dichiarate in etichetta in biscotti senza glutine dall'Italia/Almond proteins (allergens) not declared on the label in…",
   "details": "almond - undeclared - allergens - faulty labelling or claims",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887984"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887984",
+  "group": "rasff-2026-10359"
  },
  {
   "id": "eu-rasff-nl-2026-10274",
@@ -1340,7 +1449,8 @@
   "name": "Ready-to-eat mini chicken breast fillet pieces",
   "reason": "Listeria monocytogenes in ready-to-eat Mini Chicken Breast Fillet Pieces from Germany",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887085"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887085",
+  "group": "rasff-2026-10274"
  },
  {
   "id": "eu-rasff-nl-2026-10141",
@@ -1353,7 +1463,8 @@
   "details": "anthraquinone - pesticide residues",
   "action": "Withdrawal from the market",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+  "group": "rasff-2026-10141"
  },
  {
   "id": "eu-rasff-nl-2026-10084",
@@ -1364,7 +1475,8 @@
   "name": "Protein bar",
   "reason": "Foreign object (plastic) in a protein bar from the Netherlands",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886528"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886528",
+  "group": "rasff-2026-10084"
  },
  {
   "id": "eu-rasff-nl-2026-10028",
@@ -1376,7 +1488,8 @@
   "reason": "Undeclared allergen cashew on chicken wrap, from the Netheralnds",
   "action": "Informing recipient(s), public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886282"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886282",
+  "group": "rasff-2026-10028"
  },
  {
   "id": "eu-rasff-nl-2026-9991",
@@ -1389,7 +1502,8 @@
   "details": "Escherichia coli - pathogenic micro-organisms",
   "action": "Informing recipient(s)",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799",
+  "group": "rasff-2026-9991"
  },
  {
   "id": "eu-rasff-nl-2026-9973",
@@ -1401,7 +1515,8 @@
   "reason": "Salmonella in marshmallow from Belgium",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+  "group": "rasff-2026-9973"
  },
  {
   "id": "eu-rasff-nl-2026-9951",
@@ -1412,7 +1527,8 @@
   "name": "Chocolate Santas",
   "reason": "For further investigations - Insects found in chocolate Santas",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885211"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885211",
+  "group": "rasff-2026-9951"
  },
  {
   "id": "eu-rasff-nl-2026-9872",
@@ -1425,7 +1541,8 @@
   "details": "Aflatoxin B1 - mycotoxins",
   "action": "Informing recipient(s), withdrawal from the market",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+  "group": "rasff-2026-9872"
  },
  {
   "id": "eu-rasff-nl-2026-9716",
@@ -1437,7 +1554,8 @@
   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+  "group": "rasff-2026-9716"
  },
  {
   "id": "eu-rasff-nl-2026-9715",
@@ -1448,7 +1566,8 @@
   "name": "Capsules oil",
   "reason": "Higher THC content in capsules from the Netherlands",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884178"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884178",
+  "group": "rasff-2026-9715"
  },
  {
   "id": "eu-rasff-nl-2026-9701",
@@ -1461,7 +1580,8 @@
   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
   "action": "Informing consignor, withdrawal from the market",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+  "group": "rasff-2026-9701"
  },
  {
   "id": "eu-rasff-nl-2026-9687",
@@ -1473,7 +1593,8 @@
   "reason": "Allergen oats not highlighted and not in Dutch language on cookies, from Canada, via the Netherlands",
   "action": "Informing recipient(s), public warning - press release",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883433"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883433",
+  "group": "rasff-2026-9687"
  },
  {
   "id": "eu-rasff-nl-2026-9323",
@@ -1484,7 +1605,8 @@
   "name": "Chickpeas",
   "reason": "For further investigations - Beetles found in chickpeas",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880978"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880978",
+  "group": "rasff-2026-9323"
  },
  {
   "id": "eu-rasff-nl-2026-9682",
@@ -1497,7 +1619,8 @@
   "details": "glycidyl esters - industrial contaminants",
   "action": "Informing recipient(s)",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-nl-2026-9651",
@@ -1509,7 +1632,8 @@
   "reason": "MRL exceedance for prothioconazole in Savoy cabbage from Belgium",
   "details": "prothioconazole - pesticide residues",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
+  "group": "rasff-2026-9651"
  },
  {
   "id": "eu-rasff-nl-2026-9645",
@@ -1521,7 +1645,8 @@
   "reason": "Listeria monocytogenes in minced meat preparations from Belgium",
   "details": "Listeria monocytogenes - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883478"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883478",
+  "group": "rasff-2026-9645"
  },
  {
   "id": "eu-rasff-nl-2026-9623",
@@ -1532,7 +1657,8 @@
   "name": "PediaVit Complesso B Sciroppo, flacone da 100 ml///PediaVit B Complex Syrup, 100 ml bottle",
   "reason": "Possibile contaminazione fungina in integratore alimentare destinato a soggetti in età pediatrica////Possible fungal contamination in a food supplement for…",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880636"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880636",
+  "group": "rasff-2026-9623"
  },
  {
   "id": "eu-rasff-pl-2026-10326",
@@ -1544,7 +1670,8 @@
   "reason": "Salmonella i duck breast and legs",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888228"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888228",
+  "group": "rasff-2026-10326"
  },
  {
   "id": "eu-rasff-pl-2026-10303",
@@ -1556,7 +1683,8 @@
   "reason": "Presenza di Salmonella Spp. in Salsiccia/Presence of Salmonella Spp. in Sausage",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888019"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888019",
+  "group": "rasff-2026-10303"
  },
  {
   "id": "eu-rasff-pl-2026-10117",
@@ -1567,7 +1695,8 @@
   "name": "Pearl barley",
   "reason": "Moth webbing in pearl barley",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886658"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886658",
+  "group": "rasff-2026-10117"
  },
  {
   "id": "eu-rasff-pl-2026-9991",
@@ -1579,7 +1708,8 @@
   "reason": "Too high count of E.coli in mussels from The Netherlands",
   "details": "Escherichia coli - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799",
+  "group": "rasff-2026-9991"
  },
  {
   "id": "eu-rasff-pl-2026-9985",
@@ -1591,7 +1721,8 @@
   "reason": "Salmonella in chicken pops",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
+  "group": "rasff-2026-9985"
  },
  {
   "id": "eu-rasff-pl-2026-9973",
@@ -1604,7 +1735,8 @@
   "details": "Salmonella - pathogenic micro-organisms",
   "action": "No action taken",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+  "group": "rasff-2026-9973"
  },
  {
   "id": "eu-rasff-pl-2026-9942",
@@ -1616,7 +1748,8 @@
   "reason": "Exceeded pesticide levels in Brown Rice",
   "details": "tricyclazole - unauthorised substance - pesticide residues; propiconazole - unauthorised substance - pesticide residues",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664",
+  "group": "rasff-2026-9942"
  },
  {
   "id": "eu-rasff-pl-2026-9716",
@@ -1628,7 +1761,8 @@
   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+  "group": "rasff-2026-9716"
  },
  {
   "id": "eu-rasff-pl-2026-9701",
@@ -1640,7 +1774,8 @@
   "reason": "Shiga toxin-producing Escherichia coli (STEC) in frozen goat meat from the Netherlands",
   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+  "group": "rasff-2026-9701"
  },
  {
   "id": "eu-rasff-pl-2026-9323",
@@ -1651,7 +1786,8 @@
   "name": "Chickpeas",
   "reason": "For further investigations - Beetles found in chickpeas",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880978"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880978",
+  "group": "rasff-2026-9323"
  },
  {
   "id": "eu-rasff-pl-2026-9682",
@@ -1663,7 +1799,8 @@
   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
   "details": "glycidyl esters - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-pt-2026-10406",
@@ -1675,7 +1812,8 @@
   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
   "details": "mustard - traces - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-pt-2026-10360",
@@ -1687,7 +1825,8 @@
   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
   "details": "cyanide - too high content - biological contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+  "group": "rasff-2026-10360"
  },
  {
   "id": "eu-rasff-pt-2026-10164",
@@ -1699,7 +1838,8 @@
   "reason": "Undeclared allergen hazelnut in chocolate cream from Italy",
   "details": "hazelnut - presence - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091",
+  "group": "rasff-2026-10164"
  },
  {
   "id": "eu-rasff-pt-2026-9985",
@@ -1711,7 +1851,8 @@
   "reason": "Salmonella in chicken pops",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
+  "group": "rasff-2026-9985"
  },
  {
   "id": "eu-rasff-pt-2026-9872",
@@ -1723,7 +1864,8 @@
   "reason": "Exceedance of aflatoxin in pistachio kernels from USA via Italy",
   "details": "Aflatoxin B1 - mycotoxins",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+  "group": "rasff-2026-9872"
  },
  {
   "id": "eu-rasff-pt-2026-9682",
@@ -1735,7 +1877,8 @@
   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
   "details": "glycidyl esters - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-pt-2026-9651",
@@ -1747,7 +1890,8 @@
   "reason": "MRL exceedance for prothioconazole in Savoy cabbage from Belgium",
   "details": "prothioconazole - pesticide residues",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
+  "group": "rasff-2026-9651"
  },
  {
   "id": "eu-rasff-ro-2026-10406",
@@ -1759,7 +1903,8 @@
   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
   "details": "mustard - traces - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-ro-2026-10360",
@@ -1771,7 +1916,8 @@
   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
   "details": "cyanide - too high content - biological contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+  "group": "rasff-2026-10360"
  },
  {
   "id": "eu-rasff-ro-2026-10303",
@@ -1784,7 +1930,8 @@
   "details": "Salmonella - pathogenic micro-organisms",
   "action": "Destruction",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888019"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888019",
+  "group": "rasff-2026-10303"
  },
  {
   "id": "eu-rasff-ro-2026-9912",
@@ -1795,7 +1942,8 @@
   "name": "Various meat products including poultry products and non poultry products",
   "reason": "Insufficient sterilisation levels in tinned food produced in France",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885004"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885004",
+  "group": "rasff-2026-9912"
  },
  {
   "id": "eu-rasff-ro-2026-9864",
@@ -1807,7 +1955,8 @@
   "reason": "Salmonella Cubana in organic pine nuts from Italy",
   "details": "Salmonella cubana - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
+  "group": "rasff-2026-9864"
  },
  {
   "id": "eu-rasff-ro-2026-9808",
@@ -1819,7 +1968,8 @@
   "reason": "Salmonella Infantis in chilled corn fed chicken breast filets from Romania",
   "details": "Salmonella infantis - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884751"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884751",
+  "group": "rasff-2026-9808"
  },
  {
   "id": "eu-rasff-ro-2026-9682",
@@ -1831,7 +1981,8 @@
   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
   "details": "glycidyl esters - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-se-2026-10406",
@@ -1843,7 +1994,8 @@
   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
   "details": "mustard - traces - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-se-2026-10360",
@@ -1856,7 +2008,8 @@
   "details": "cyanide - too high content - biological contaminants",
   "action": "Informing authorities",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+  "group": "rasff-2026-10360"
  },
  {
   "id": "eu-rasff-se-2026-10227",
@@ -1867,7 +2020,8 @@
   "name": "Fine peas",
   "reason": "Presence of beetles in frozen peas from Belgium",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887420"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887420",
+  "group": "rasff-2026-10227"
  },
  {
   "id": "eu-rasff-se-2026-9973",
@@ -1880,7 +2034,8 @@
   "details": "Salmonella - pathogenic micro-organisms",
   "action": "No action taken",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+  "group": "rasff-2026-9973"
  },
  {
   "id": "eu-rasff-se-2026-9872",
@@ -1893,7 +2048,8 @@
   "details": "Aflatoxin B1 - mycotoxins",
   "action": "Withdrawal from recipient(s)",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+  "group": "rasff-2026-9872"
  },
  {
   "id": "eu-rasff-se-2026-9854",
@@ -1906,7 +2062,8 @@
   "details": "cypermethrin - pesticide residues; chlorfenapyr - pesticide residues; dinotefuran - unauthorised substance - pesticide residues; chlorpyrifos - unauthorised substance - pesticide residues; bifenthrin - pesticide residues; paclobutrazol - pesticide residues; triazophos - pesticide residues; thiamethoxam - pesticide residues; pyridaben - pesticide residues; acetamiprid - pesticide residues; lufenuron - pesticide residues; clothianidin - pesticide residues; imidacloprid - pesticide residues; lambda-cyhalothrin - pesticide residues; emamectin - pesticide residues; chlorantraniliprole - pesticide residues",
   "action": "Withdrawal from recipient(s)",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884565"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884565",
+  "group": "rasff-2026-9854"
  },
  {
   "id": "eu-rasff-se-2026-9818",
@@ -1918,7 +2075,8 @@
   "reason": "Opiums alkaloids in blue poppy seeds fromTürkiye",
   "details": "opium alkaloids - too high content - composition",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884535"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884535",
+  "group": "rasff-2026-9818"
  },
  {
   "id": "eu-rasff-se-2026-9716",
@@ -1931,7 +2089,8 @@
   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
   "action": "Informing authorities",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+  "group": "rasff-2026-9716"
  },
  {
   "id": "eu-rasff-se-2026-9701",
@@ -1944,7 +2103,8 @@
   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
   "action": "Informing authorities",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+  "group": "rasff-2026-9701"
  },
  {
   "id": "eu-rasff-se-2026-9682",
@@ -1957,7 +2117,8 @@
   "details": "glycidyl esters - industrial contaminants",
   "action": "Withdrawal from the market",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  },
  {
   "id": "eu-rasff-sk-2026-10469",
@@ -1968,7 +2129,8 @@
   "name": "Potatoes",
   "reason": "Glycoalkaloids in potatoes from France",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185",
+  "group": "rasff-2026-10469"
  },
  {
   "id": "eu-rasff-sk-2026-10406",
@@ -1980,7 +2142,8 @@
   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
   "details": "mustard - traces - allergens",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+  "group": "rasff-2026-10406"
  },
  {
   "id": "eu-rasff-sk-2026-9973",
@@ -1992,7 +2155,8 @@
   "reason": "Salmonella in marshmallow from Belgium",
   "details": "Salmonella - pathogenic micro-organisms",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+  "group": "rasff-2026-9973"
  },
  {
   "id": "eu-rasff-sk-2026-9942",
@@ -2004,7 +2168,8 @@
   "reason": "Exceeded pesticide levels in Brown Rice",
   "details": "tricyclazole - unauthorised substance - pesticide residues; propiconazole - unauthorised substance - pesticide residues",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664",
+  "group": "rasff-2026-9942"
  },
  {
   "id": "eu-rasff-sk-2026-9716",
@@ -2016,7 +2181,8 @@
   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+  "group": "rasff-2026-9716"
  },
  {
   "id": "eu-rasff-sk-2026-9682",
@@ -2028,6 +2194,7 @@
   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
   "details": "glycidyl esters - industrial contaminants",
   "source": "RASFF – European Commission",
-  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779"
+  "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+  "group": "rasff-2026-9682"
  }
 ]

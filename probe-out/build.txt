@@ -1,4 +1,5 @@
-Obavijesti u fajlu: 709 (prethodno 464) · s barkodom: 160 · veličina: 442878 znakova
+Obavijesti u fajlu: 709 (prethodno 464) · s barkodom: 160 · veličina: 448047 znakova
+Isti proizvod u više obavijesti: 43 grupa (163 obavijesti)
 Ručno unesene: 0
 Izvor rappelconso: pročitano 19336 redova → objavljeno 274 (izostavljeno — kategorija koju LUPA ne prikazuje: 4932; starije od prozora: 14130)
 Izvor lebensmittelwarnung: pročitano 237 redova → objavljeno 40 (izostavljeno — starije od prozora: 197)

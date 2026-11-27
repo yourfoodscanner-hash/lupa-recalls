@@ -5,7 +5,7 @@
 		<title>Ανακλήσεις</title>
 		<description><![CDATA[]]></description>
 		<link>https://www.efet.gr</link>
-		<lastBuildDate>Fri, 27 Nov 2026 08:44:12 +0000</lastBuildDate>
+		<lastBuildDate>Fri, 27 Nov 2026 08:47:37 +0000</lastBuildDate>
 		<generator>Joomla! - Open Source Content Management</generator>
 		<atom:link rel="self" type="application/rss+xml" href="https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat?format=feed&amp;type=rss"/>
 		<language>el-gr</language>

@@ -4,7 +4,7 @@
     <title>Sweden RASFF notifications</title>
     <link>https://webgate.ec.europa.eu/rasff-window/screen/list?consumer=5031</link>
     <description />
-    <pubDate>Fri, 27 Nov 2026 08:44:25 GMT</pubDate>
+    <pubDate>Fri, 27 Nov 2026 08:47:53 GMT</pubDate>
     <item>
       <title>2026.10406 - 	Undeclared allergen mustard in soba noodles, from Australia via the Netherlands.</title>
       <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/888857</link>
