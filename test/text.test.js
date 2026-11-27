@@ -44,6 +44,8 @@ test('batches: only after a label, short, with a digit — never prose and never
     ['Suhe marelice Garden Good 180g,\nLot: L 15 326012,\nUporabno najmanj do: 02.06.2027', ['L 15 326012']],
     ['Losnummer: 26128774', ['26128774']],
     ['Lot: LC233098, BBD 02/2026', ['LC233098']],
+    ['Lotnummers: 07/12 – 08/12 – 09/12', ['07/12', '08/12', '09/12']],                         // a list split by dashes
+    ['Lot: L12345 – best before 12.12.2026', ['L12345']],
     // not taken
     ['Serija proizvoda je povučena s tržišta zbog utvrđene bakterije', []],                     // no value with a digit
     ['lot: 15.10.2026', []],                                                                    // a date, not a batch
@@ -61,9 +63,14 @@ test('dates: only after a best-before label, as written there', () => {
     ['Rok uporabe: 06/2029', ['06/2029']],
     ['Mindesthaltbarkeitsdatum: 24.01.2027', ['24.01.2027']],
     ['Uporabno najmanj do: 02-02-2027, 24-02-2027,', ['02-02-2027', '24-02-2027']],
+    // a range stays one range, not two dates
+    ['Navedeni rok uporabnosti: od 05.11.2026 do 06.12.2026.', ['05.11.2026 – 06.12.2026']],
+    ['Houdbaarheidsdata (Ten minste houdbaar tot): vanaf 07-12-26 tot 13-12-26', ['07-12-26 – 13-12-26']],
+    ['Best-before dates: All best-before dates from 30/06/2027 to 25/08/2027 inclusive', ['30/06/2027 – 25/08/2027']],
+    ['Ten minste houdbaar tot (THT): 28-11-2026 & 29-11-2026', ['28-11-2026', '29-11-2026']],
     // not taken
     ['Objavljeno 19.06.2026. na stranicama agencije', []],
-    ['Navedeni rok uporabnosti: od 05.11.2026 do 06.12.2026.', []],                             // a range is not read as two dates
+    ['Rok uporabe: od danas', []],
   ];
   for (const [text, want] of cases) assert.deepEqual(T.labeledDates(text), want, text);
 });

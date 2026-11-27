@@ -39,25 +39,43 @@
       "enabled": true,
       "windowDays": 90
     },
+    "favv": {
+      "enabled": true,
+      "windowDays": 30
+    },
+    "fsai": {
+      "enabled": true,
+      "windowDays": 45
+    },
+    "gis": {
+      "enabled": true,
+      "windowDays": 60
+    },
+    "nebih": {
+      "enabled": true,
+      "windowDays": 45
+    },
+    "ruokavirasto": {
+      "enabled": true,
+      "windowDays": 60
+    },
+    "nvwa": {
+      "enabled": true,
+      "windowDays": 45
+    },
     "rasff": {
       "enabled": true,
       "windowDays": 30,
       "countries": [
-        "BE",
         "BG",
         "CY",
         "EE",
         "ES",
-        "FI",
-        "HU",
-        "IE",
         "IT",
         "LT",
         "LU",
         "LV",
         "MT",
-        "NL",
-        "PL",
         "PT",
         "RO",
         "SE",
