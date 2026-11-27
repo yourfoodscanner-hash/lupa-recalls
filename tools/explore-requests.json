@@ -1,193 +1,118 @@
 [
  {
-  "name": "eu-rasff-main",
-  "url": "https://webgate.ec.europa.eu/rasff-window/main.js",
+  "name": "eu-rasff-consumers-chunk",
+  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-GJQMOZWY.js",
   "max": 8000000
  },
  {
-  "name": "eu-rasff-UO7PX3GR",
-  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-UO7PX3GR.js",
+  "name": "eu-rasff-list-chunk",
+  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-KEA4RNID.js",
   "max": 8000000
  },
  {
-  "name": "eu-rasff-6NDRLT7K",
-  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-6NDRLT7K.js",
-  "max": 8000000
+  "name": "eu-rasff-config",
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/configuration/"
  },
  {
-  "name": "eu-rasff-NMMTOIVC",
-  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-NMMTOIVC.js",
-  "max": 8000000
+  "name": "eu-rasff-consumer-post",
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/consumer/search/",
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json",
+   "Accept": "application/json"
+  },
+  "body": {
+   "parameters": {
+    "pageNumber": 1,
+    "itemsPerPage": 25
+   }
+  }
  },
  {
-  "name": "eu-rasff-JBC2RXAS",
-  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-JBC2RXAS.js",
-  "max": 8000000
+  "name": "eu-rasff-consumer-post2",
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/consumer/search",
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json",
+   "Accept": "application/json"
+  },
+  "body": {
+   "parameters": {
+    "pageNumber": 1,
+    "itemsPerPage": 25
+   }
+  }
  },
  {
-  "name": "se-list",
-  "url": "https://www.livsmedelsverket.se/om-oss/press/aterkallanden/",
+  "name": "eu-rasff-consolidated-post",
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/search/consolidated/",
+  "method": "POST",
+  "headers": {
+   "Content-Type": "application/json",
+   "Accept": "application/json"
+  },
+  "body": {
+   "parameters": {
+    "pageNumber": 1,
+    "itemsPerPage": 25
+   }
+  }
+ },
+ {
+  "name": "dk-detail-1",
+  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-af-oksekebab"
+ },
+ {
+  "name": "dk-detail-2",
+  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-aebleskiver-og-smaakager"
+ },
+ {
+  "name": "se-rss",
+  "url": "https://www.livsmedelsverket.se/rss/rss-aterkallanden/"
+ },
+ {
+  "name": "cz-detail-1",
+  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202417"
+ },
+ {
+  "name": "cz-detail-2",
+  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202401"
+ },
+ {
+  "name": "gr-detail-1",
+  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5431-deltio-typou-anaklisi-mi-asfaloys-trofimou-bifteki-kotopoulo-hamburger-katepsygmeno"
+ },
+ {
+  "name": "gr-detail-2",
+  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5428-deltio-typou-anaklisi-se-ryzogkofretes"
+ },
+ {
+  "name": "no-rss-page",
+  "url": "https://www.mattilsynet.no/om-mattilsynet/api/rss",
   "scan": true
  },
  {
-  "name": "se-rss-page",
-  "url": "https://www.livsmedelsverket.se/om-oss/press/rss/",
-  "scan": true
+  "name": "is-detail",
+  "url": "https://www.mast.is/is/um-mast/frettir/frettir/adskotahlutur-i-orkustykki"
  },
  {
-  "name": "fi-list",
-  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot/",
-  "scan": true
+  "name": "be-detail",
+  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-albert-heijn-21"
  },
  {
-  "name": "lv-rasff",
-  "url": "https://www.pvd.gov.lv/lv/pvd-nosutitie-zinojumi-rasff",
-  "scan": true
+  "name": "fi-detail",
+  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/kahden-maapahkinavoituotteen-takaisinveto/"
  },
  {
-  "name": "nl-list",
-  "url": "https://www.nvwa.nl/actueel/veiligheidswaarschuwingen/overzicht",
-  "scan": true
+  "name": "ie-detail",
+  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-a-batch-of-card-factory-candy-canes"
  },
  {
-  "name": "be-list-recalls",
-  "url": "https://favv-afsca.be/nl/producten?f%5B0%5D=products_issue_type%3A13",
-  "scan": true
+  "name": "md-detail",
+  "url": "https://www.ansa.gov.md/media/rechemare-retragere/atentie-rechemare-de-produs-alimentar.html-4"
  },
  {
-  "name": "cz-rss",
-  "url": "https://www.potravinynapranyri.cz/Rss.aspx"
- },
- {
-  "name": "cz-szpi-rss",
-  "url": "https://www.szpi.gov.cz/rss.aspx"
- },
- {
-  "name": "ch-recallswiss",
-  "url": "https://www.recallswiss.admin.ch/customer-access/",
-  "scan": true
- },
- {
-  "name": "gr-list",
-  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat",
-  "scan": true
- },
- {
-  "name": "gr-feed",
-  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat?format=feed&type=rss"
- },
- {
-  "name": "is-list",
-  "url": "https://www.mast.is/is/matvaelafyrirtaeki/innra-eftirlit-fyrirtaekja/innkollun",
-  "scan": true
- },
- {
-  "name": "is-feed",
-  "url": "https://www.mast.is/is/feed"
- },
- {
-  "name": "lu-list",
-  "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes.html",
-  "scan": true
- },
- {
-  "name": "md-list",
-  "url": "https://www.ansa.gov.md/media/rechemare-retragere",
-  "scan": true
- },
- {
-  "name": "mk-list",
-  "url": "https://fva.gov.mk/mk/izvestuvanje-otpovikuvanje-nebezbedni-proizvodi",
-  "scan": true
- },
- {
-  "name": "mk-rss",
-  "url": "https://fva.gov.mk/mk/rss.xml"
- },
- {
-  "name": "no-api-page",
-  "url": "https://www.mattilsynet.no/om-mattilsynet/api",
-  "scan": true
- },
- {
-  "name": "no-detail",
-  "url": "https://www.mattilsynet.no/tilbakekallinger/sunkost-superfood-kakaopulver-tilbakekalles"
- },
- {
-  "name": "pl-detail",
-  "url": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-stwierdzenie-obecnosci-plesni-w-wodzie-mineralnej"
- },
- {
-  "name": "sk-wp-cats",
-  "url": "https://svps.sk/wp-json/wp/v2/categories?per_page=100"
- },
- {
-  "name": "sk-wp-search",
-  "url": "https://svps.sk/wp-json/wp/v2/posts?search=stiahnutie&per_page=10&_fields=id,date,link,title,categories"
- },
- {
-  "name": "rs-wp-search",
-  "url": "https://www.vet.minpolj.gov.rs/wp-json/wp/v2/posts?search=povla%C4%8Denje&per_page=10&_fields=id,date,link,title,categories"
- },
- {
-  "name": "al-wp-search",
-  "url": "https://aku.gov.al/wp-json/wp/v2/posts?search=t%C3%ABrheq&per_page=10&_fields=id,date,link,title,categories"
- },
- {
-  "name": "al-wp-cats",
-  "url": "https://aku.gov.al/wp-json/wp/v2/categories?per_page=100"
- },
- {
-  "name": "ua-list",
-  "url": "https://dpss.gov.ua/diyalnist/bezpechnist-harchovih-produktiv-ta-veterinarna-medicina/povidomlennia-pro-nevidpovidnist/povidomlennia-pro-nevidpovidnist-poviazani-z-kharchovymy-produktamy-ta-kormamy",
-  "scan": true
- },
- {
-  "name": "me-doc",
-  "url": "https://www.gov.me/en/documents/8f67a7e5-38b2-477e-a56d-3142fa3892f6",
-  "scan": true
- },
- {
-  "name": "es-list",
-  "url": "https://www.aesan.gob.es/alertas/buscador-alertas?itemsPage=50"
- },
- {
-  "name": "uk-api-30",
-  "url": "https://data.food.gov.uk/food-alerts/id?_format=json&_limit=30&_sort=-created"
- },
- {
-  "name": "ee-search",
-  "url": "https://pta.agri.ee/otsing?search_api_fulltext=tagasikutsumine",
-  "scan": true
- },
- {
-  "name": "lt-news",
-  "url": "https://vmvt.lt/naujienos",
-  "scan": true
- },
- {
-  "name": "bg-retry",
-  "url": "https://bfsa.egov.bg/wps/portal/bfsa-web/home",
-  "scan": true
- },
- {
-  "name": "ro-retry",
-  "url": "https://www.ansvsa.ro/informatii-pentru-public/alerte-rasff/",
-  "scan": true
- },
- {
-  "name": "pt-retry",
-  "url": "https://www.asae.gov.pt/seguranca-alimentar.aspx",
-  "scan": true
- },
- {
-  "name": "cy-retry",
-  "url": "https://www.moh.gov.cy/moh/sgl/",
-  "scan": true
- },
- {
-  "name": "xk-root",
-  "url": "https://www.auv-ks.net/",
-  "scan": true
+  "name": "mk-detail",
+  "url": "https://fva.gov.mk/mk/260109-otpovikuvane-nebezbedni-proizvodi-nan-lactose-free-nlnwb333-12kh400gr-ro-i-nan-confort-1-lr-denwhspb290-6kh800gr-es"
  }
 ]
