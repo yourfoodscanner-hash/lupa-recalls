@@ -187,12 +187,14 @@ test('FI: the product as the page names it — a list, "… -tuotetta", "nimell�
 });
 
 // ── Netherlands ──────────────────────────────────────────────────────────────────────────────────────
-test('NL: the news sitemap and the latest warnings — food only, each product with its barcode and dates', async () => {
-  const { fetchImpl } = server(live('nvwa'));
+test('NL: the site\'s search, the news sitemap and the latest warnings — food only, each product with its barcode and dates', async () => {
+  const { fetchImpl, asked } = server(live('nvwa'));
   const got = await NL.fetchNotices({ fetchImpl, since: '2026-10-13' });
   sound(NL, got.notices);
-  assert.deepEqual(got.skipped, { 'nije hrana (consumentenartikelen)': 2 });
-  assert.deepEqual(got.notices, [{
+  assert.equal(asked[0], NL.searchRequest(1).url);                  // the search, as the site's page posts it
+  assert.deepEqual(got.skipped, { 'nije hrana (consumentenartikelen)': 4 });
+  assert.deepEqual(got.notices.map((x) => x.id), ['nl-nvwa-diverse-salades-van-marqt-keuken', 'nl-nvwa-jumbo-kiprollade-rolletje-met-roomkaas-allergenen', 'nl-nvwa-healthyfit-vegan-protein-bar-hazelnut-nougat', 'nl-nvwa-ah-spinazie-a-la-creme-750-gram']);
+  assert.deepEqual(got.notices[0], {
     id: 'nl-nvwa-diverse-salades-van-marqt-keuken', country: 'NL', published: '2026-11-26', category: 'food', hazard: 'foreign',
     name: 'Buddha bowl, Powerful pumpkin salade, Turmeric tango salade', brand: 'Marqt Keuken',
     reason: 'Er bestaat een kans dat deze producten witte harde plastic stukjes bevatten',
@@ -200,17 +202,27 @@ test('NL: the news sitemap and the latest warnings — food only, each product w
     lots: undefined, bestBefore: '28-11-2026, 29-11-2026, 27-11-2026', action: 'Eet de salades niet.',
     source: 'NVWA', url: 'https://www.nvwa.nl/actueel/nieuws/2026/11/26/veiligheidswaarschuwing-diverse-salades-van-marqt-keuken',
     gtins: ['8711521160525', '8711521160501', '8711521160518'],
-  }]);
+  });
+  const kip = got.notices[1];
+  assert.equal(kip.hazard, 'allergen');
+  assert.equal(kip.bestBefore, '15-11-2026 – 11-12-2026');          // "van 15-11-2026 t/m 11-12-2026" stays a range
+  assert.equal(got.notices[2].lots, '4245');                          // "(batch 4245)"
 });
 
-test('NL: a warning no longer on the short lists stays while it is in the window; a changed sitemap stops the source', async () => {
+test('NL: without the search, the short lists — and a warning read before stays while it is in the window', async () => {
   const older = { id: 'nl-nvwa-kipfilet-van-voorbeeld', country: 'NL', published: '2026-11-10', category: 'food', hazard: 'microbe', name: 'Kipfilet', reason: 'Listeria', source: 'NVWA', url: 'https://www.nvwa.nl/actueel/nieuws/2026/11/10/veiligheidswaarschuwing-kipfilet-van-voorbeeld', gtins: [] };
   const tooOld = { ...older, id: 'nl-nvwa-oud', published: '2026-09-01' };
-  const { fetchImpl } = server(live('nvwa'));
-  const got = await NL.fetchNotices({ fetchImpl, since: '2026-10-13', known: new Map([[older.id, older], [tooOld.id, tooOld]]) });
+  const known = new Map([[older.id, older], [tooOld.id, tooOld]]);
+  const noSearch = replacing(live('nvwa'), /\/api\/search/, '{"ok":false,"message":"Invalid search request"}');
+  const got = await NL.fetchNotices({ fetchImpl: server(noSearch).fetchImpl, since: '2026-10-13', known });
   const ids = got.notices.map((x) => x.id);
+  assert.ok(ids.includes('nl-nvwa-diverse-salades-van-marqt-keuken'));   // on the sitemap and the latest warnings
   assert.ok(ids.includes(older.id));
   assert.ok(!ids.includes(tooOld.id));
+  assert.ok(Object.keys(got.skipped).some((k) => /^pretraga NVWA nije odgovorila/.test(k)));
+  // with the search answering, what the search no longer finds is not kept
+  const withSearch = await NL.fetchNotices({ fetchImpl: server(live('nvwa')).fetchImpl, since: '2026-10-13', known });
+  assert.ok(!withSearch.notices.some((x) => x.id === older.id));
   await assert.rejects(NL.fetchNotices({ fetchImpl: server(replacing(live('nvwa'), /sitemap\.xml$/, MAINTENANCE)).fetchImpl, since: '2026-10-13' }), /format se promijenio/);
 });
 

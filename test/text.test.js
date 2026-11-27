@@ -46,6 +46,9 @@ test('batches: only after a label, short, with a digit — never prose and never
     ['Lot: LC233098, BBD 02/2026', ['LC233098']],
     ['Lotnummers: 07/12 – 08/12 – 09/12', ['07/12', '08/12', '09/12']],                         // a list split by dashes
     ['Lot: L12345 – best before 12.12.2026', ['L12345']],
+    ['Lotnummers: 103150 / 104062 / 104731', ['103150', '104062', '104731']],
+    ['Productiecode: 6218 (houdbaarheidsdatum 6-8-2027 en 7-8-2027)', ['6218']],
+    ['Batch code: Use-by-date: 04/11/2026', []],                                                // a date where the batch would be
     // not taken
     ['Serija proizvoda je povučena s tržišta zbog utvrđene bakterije', []],                     // no value with a digit
     ['lot: 15.10.2026', []],                                                                    // a date, not a batch
@@ -68,6 +71,10 @@ test('dates: only after a best-before label, as written there', () => {
     ['Houdbaarheidsdata (Ten minste houdbaar tot): vanaf 07-12-26 tot 13-12-26', ['07-12-26 – 13-12-26']],
     ['Best-before dates: All best-before dates from 30/06/2027 to 25/08/2027 inclusive', ['30/06/2027 – 25/08/2027']],
     ['Ten minste houdbaar tot (THT): 28-11-2026 & 29-11-2026', ['28-11-2026', '29-11-2026']],
+    ['Ten minste houdbaar tot (THT): van 15-11-2026 t/m 11-12-2026', ['15-11-2026 – 11-12-2026']],
+    ['THT-data: 07-01-2027, 09-01-2027 en 06-02-2027', ['07-01-2027', '09-01-2027', '06-02-2027']],
+    ['Lejárati idő: 2027.12.19.', ['2027.12.19']],
+    ['Best before: from 01/02/2027 onwards', []],                                               // a start without its end
     // not taken
     ['Objavljeno 19.06.2026. na stranicama agencije', []],
     ['Rok uporabe: od danas', []],

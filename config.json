@@ -5,7 +5,7 @@
   "sources": {
     "rappelconso": {
       "enabled": true,
-      "windowDays": 45
+      "windowDays": 30
     },
     "lebensmittelwarnung": {
       "enabled": true,

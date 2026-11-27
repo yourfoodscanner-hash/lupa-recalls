@@ -114,8 +114,10 @@ function pageParts(html) {
   const title = oneLine((/<h1[^>]*>([\s\S]*?)<\/h1>/.exec(page) ?? [])[1] ?? '');
   const text = htmlToText(main[1]);
   const f = alignedFold(text);
-  const kind = /veiligheidswaarschuwingen over levensmiddelen/.test(f) ? 'food' : /veiligheidswaarschuwingen over consumenten/.test(f) ? 'other' : null;
-  const intro = text.split('\n').find((l) => /\bwaarschuwt\b/i.test(l)) ?? '';
+  const kind = /veiligheidswaarschuwingen over (?:levensmiddelen|voeding)/.test(f) ? 'food' : /veiligheidswaarschuwingen over consumenten/.test(f) ? 'other' : null;
+  // the opening paragraph: "… waarschuwt voor …" / "… waarschuwen voor …" / "… roept … terug …"
+  const opening = text.split('\n').filter((l) => /\bwaarschuw(?:t|en)\b|\broep(?:t|en)\b.*\bterug\b/i.test(l));
+  const intro = opening.find((l) => !/^update\b/i.test(l)) ?? opening[0] ?? '';   // not "Update 13 oktober 2026: Ook … waarschuwt …"
   // "Om welke producten gaat het?": a heading per product, then its labeled lines
   const block = /<h2[^>]*>\s*Om welke? product(?:en)? gaat het\??\s*<\/h2>([\s\S]*?)(?:<\/div>|<h2)/i.exec(main[1]);
   const products = [];
@@ -124,7 +126,8 @@ function pageParts(html) {
       if (m[1] !== undefined) { const n = oneLine(m[1]); if (n) products.push({ name: n, lines: [] }); }
       else {
         const l = oneLine(m[2]);
-        if (!l) continue;
+        if (!l || !l.includes(':')) continue;   // "Label: value" lines; the shops it was sold in are not
+
         if (products.length === 0) products.push({ name: null, lines: [] });
         products[products.length - 1].lines.push(l);
       }
@@ -144,6 +147,16 @@ function categoryOf(text) {
   return 'food';
 }
 
+/** The sentences of a paragraph; "Anstelfood b.v. waarschuwt …" is one sentence, not two. */
+function sentencesOf(text) {
+  const out = [];
+  for (const piece of String(text ?? '').split(/(?<=[.!?])\s+/)) {
+    if (out.length > 0 && /(?:^|\s)(?:\p{L}{1,2}\.){1,3}$/u.test(out[out.length - 1])) out[out.length - 1] += ` ${piece}`;
+    else out.push(piece);
+  }
+  return out.map((s) => s.trim()).filter(Boolean);
+}
+
 /** "Eet de salades niet." — what the consumer is asked to do. */
 const ACTION = /^(?:eet|drink|gebruik|geef|consumeer|breng|lever)\b.*\bniet\b|niet (?:op)?eten|niet (?:te )?gebruiken|niet (?:op)?drinken|niet (?:te )?consumeren|terugbrengen/i;
 
@@ -152,9 +165,9 @@ function toNotice(row, parts) {
   if (parts.kind !== 'food') return { skip: parts.kind === 'other' ? 'nije hrana (consumentenartikelen)' : 'vrsta upozorenja nije prepoznata' };
   const title = parts.title || row.title;
   if (NOT_FOOD.test(alignedFold(`${title}\n${parts.intro}`))) return { skip: 'hrana za životinje' };
-  const sentences = parts.intro.split(/(?<=[.!?])\s+/).map((s) => s.trim()).filter(Boolean);
+  const sentences = sentencesOf(parts.intro);
   const action = sentences.find((s) => ACTION.test(s));
-  const why = sentences.filter((s) => s !== action && !/\bwaarschuwt\b/i.test(s));
+  const why = sentences.filter((s) => s !== action && !/\bwaarschuw(?:t|en)\b/i.test(s));
   const reason = cut(why.slice(0, 2).join(' ').replace(/\.$/, ''), 160);
   if (!reason) return { skip: 'bez razloga' };
   const labeledName = parts.lines.map((l) => /^product(?:naam)?\s*:\s*(.+)$/i.exec(l)).filter(Boolean).map((m) => m[1]);
@@ -168,7 +181,7 @@ function toNotice(row, parts) {
   return {
     notice: {
       id: idOfRow(row), country: COUNTRY, published: row.day, category: categoryOf(`${title}\n${parts.intro}\n${labeled}`),
-      hazard: hazardOf(reason, `${parts.intro}\n${labeled}`),
+      hazard: hazardOf(reason, `${title}\n${parts.intro}\n${labeled}`),
       name, brand: brand ? brand.trim() : undefined, reason,
       details: parts.lines.length ? cut(parts.products.map((p) => (p.name ? `${p.name}: ${p.lines.join(', ')}` : p.lines.join(', '))).join('; '), 800) : undefined,
       lots: lots.length ? cut(lots.join(', '), 300) : undefined,
