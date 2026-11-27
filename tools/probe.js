@@ -82,7 +82,7 @@ async function generic(adapter, settings, config, url) {
   console.log(`Izvor: ${adapter.name} (${adapter.country})\nAdresa: ${url}\nOd: ${since}${config.sources && config.sources[adapter.name] ? '' : '\n(config.json ovaj izvor ne navodi — posao ga ne čita)'}\n`);
   let got;
   try {
-    got = await adapter.fetchNotices({ since, url, userAgent: config.userAgent });
+    got = await adapter.fetchNotices({ since, url, userAgent: config.userAgent, ...(settings.countries ? { countries: settings.countries } : {}) });
   } catch (e) { console.error(`Adapter je stao: ${e.message}`); process.exitCode = 1; return; }
   const ok = []; const why = {};
   for (const n of got.notices) { const c = C.checkNotice(n); if (c.ok) ok.push(c.notice); else why[c.why.split(' ')[0]] = (why[c.why.split(' ')[0]] ?? 0) + 1; }
