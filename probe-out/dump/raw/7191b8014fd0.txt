@@ -118,17 +118,17 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,500italic,900,900italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" />
 
-	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/jquery-11.0.min.js?v=1795788979519" charset="utf-8"></script>
+	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/jquery-11.0.min.js?v=1795789458689" charset="utf-8"></script>
 	
 	<script type='text/javascript'>
 		var ug_jquery11 = jQuery.noConflict();
 	</script>
-	<!--script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/captcha/nebihMtcaptchaConfig.js?v=1795788979519" charset="utf-8"></script-->
-	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/unitegallery_noconflict.min.js?v=1795788979519" charset="utf-8"></script>
-	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/ug-theme-default_noconflict.js?v=1795788979519" charset="utf-8"></script>
-	<script type="application/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/components/TogglerTree.js?minifierType=js&t=1795788979519" charset="utf-8"></script>
+	<!--script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/captcha/nebihMtcaptchaConfig.js?v=1795789458689" charset="utf-8"></script-->
+	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/unitegallery_noconflict.min.js?v=1795789458689" charset="utf-8"></script>
+	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/ug-theme-default_noconflict.js?v=1795789458689" charset="utf-8"></script>
+	<script type="application/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/components/TogglerTree.js?minifierType=js&t=1795789458689" charset="utf-8"></script>
 
-	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/counterup/counterup.js?v=1795788979519" charset="utf-8"></script>
+	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/counterup/counterup.js?v=1795789458689" charset="utf-8"></script>
 
 
 
@@ -556,7 +556,7 @@
 			}
 		};
 
-		Liferay.authToken = 'R1QFPwhF';
+		Liferay.authToken = 'bHLRIoQK';
 
 		
 
@@ -1132,7 +1132,7 @@ Liferay.on(
 
 
 
-	<nav aria-label="Gyorslinkek" class="quick-access-nav" id="oefc_quickAccessNav">
+	<nav aria-label="Gyorslinkek" class="quick-access-nav" id="qqfb_quickAccessNav">
 		<h1 class="hide-accessible">Navigáció</h1>
 
 		<ul>
@@ -2613,7 +2613,7 @@ Liferay.on(
 
 		
 			
-				<input  class="field form-control"  id="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"    name="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"     type="hidden" value="1795788979529"   />
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"    name="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"     type="hidden" value="1795789458715"   />
 			
 		
 
@@ -3890,7 +3890,7 @@ Az adatbázis az önkéntes és a hatósági kötelezésre végrehajtott termék
 <div class="journal-content-article " data-analytics-asset-id="1159654" data-analytics-asset-title="Termékvisszahívás - mit tehet" data-analytics-asset-type="web-content">
 	
 
-	<div id="tibs_toggler" class="toggler organization tibs_organization_toggle"><div class="o2 tibs_o2_toggle"><div class="o3 tibs_o3_toggle">
+	<div id="lxez_toggler" class="toggler organization lxez_organization_toggle"><div class="o2 lxez_o2_toggle"><div class="o3 lxez_o3_toggle">
     <h2>Mit tehet...</h2>
     <div class="lead"></div>
         <ul class="organization-list">
@@ -3935,7 +3935,7 @@ Liferay.on(
   function () {
       togglerTree.app(
         (config = {
-          id: "tibs_toggler",
+          id: "lxez_toggler",
         })
       );
   })
@@ -5816,9 +5816,9 @@ információk</h2>
 
 <div id=ddl-add-new-button class=ddl-datatables-dd-new-button-div></div>
 
-<div  id="DDL-old-92755703_4dd6_42c7_afaa_63312e0716d8" style="display:none">
+<div  id="DDL-old-cb540666_08e2_4e0f_a63b_2d7e7cdda49e" style="display:none">
 
-<script> var actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8= new Array();</script>
+<script> var actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e= new Array();</script>
 
 
 
@@ -5963,7 +5963,7 @@ információk</h2>
 
 		
 			
-				<input  class="field form-control"  id="_com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_formDate"    name="_com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_formDate"     type="hidden" value="1795788979489"   />
+				<input  class="field form-control"  id="_com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_formDate"    name="_com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_formDate"     type="hidden" value="1795789458593"   />
 			
 		
 
@@ -6042,7 +6042,7 @@ információk</h2>
 
 
 
-	<div class="navbar navbar-default " id="dasj"  >
+	<div class="navbar navbar-default " id="sxvh"  >
 		<div class="container-fluid">
 			
 				<div class="navbar-header">
@@ -6204,7 +6204,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2829237189)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2829237189)
 
 			</script>
 				
@@ -6223,7 +6223,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2813979324)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2813979324)
 
 			</script>
 				
@@ -6242,7 +6242,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2796296588)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2796296588)
 
 			</script>
 				
@@ -6261,7 +6261,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2793743029)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2793743029)
 
 			</script>
 				
@@ -6280,7 +6280,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2789106677)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2789106677)
 
 			</script>
 				
@@ -6299,7 +6299,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2789099582)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2789099582)
 
 			</script>
 				
@@ -6318,7 +6318,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2770931260)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2770931260)
 
 			</script>
 				
@@ -6337,7 +6337,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2763740284)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2763740284)
 
 			</script>
 				
@@ -6356,7 +6356,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2735471721)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2735471721)
 
 			</script>
 				
@@ -6375,7 +6375,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2702170612)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2702170612)
 
 			</script>
 				
@@ -6394,7 +6394,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2684505101)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2684505101)
 
 			</script>
 				
@@ -6413,7 +6413,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2679862415)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2679862415)
 
 			</script>
 				
@@ -6432,7 +6432,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2655721620)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2655721620)
 
 			</script>
 				
@@ -6451,7 +6451,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2651086742)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2651086742)
 
 			</script>
 				
@@ -6470,7 +6470,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2646449927)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2646449927)
 
 			</script>
 				
@@ -6489,7 +6489,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2591631846)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2591631846)
 
 			</script>
 				
@@ -6508,7 +6508,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2572375192)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2572375192)
 
 			</script>
 				
@@ -6527,7 +6527,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2501486182)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2501486182)
 
 			</script>
 				
@@ -6546,7 +6546,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2398105122)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2398105122)
 
 			</script>
 				
@@ -6565,7 +6565,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2397158878)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2397158878)
 
 			</script>
 				
@@ -6584,7 +6584,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2285447481)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2285447481)
 
 			</script>
 				
@@ -6603,7 +6603,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2278740783)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2278740783)
 
 			</script>
 				
@@ -6622,7 +6622,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2264073413)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2264073413)
 
 			</script>
 				
@@ -6641,7 +6641,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2149801187)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2149801187)
 
 			</script>
 				
@@ -6660,7 +6660,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2147713791)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2147713791)
 
 			</script>
 				
@@ -6679,7 +6679,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2114715607)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2114715607)
 
 			</script>
 				
@@ -6698,7 +6698,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(2114644652)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(2114644652)
 
 			</script>
 				
@@ -6717,7 +6717,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(1668113694)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(1668113694)
 
 			</script>
 				
@@ -6736,7 +6736,7 @@ információk</h2>
 
 			<script>
 
-				actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8.push(1288856936)
+				actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e.push(1288856936)
 
 			</script>
 
@@ -7375,7 +7375,7 @@ információk</h2>
 		data[curParam] = cur;
 
 		Liferay.Util.postForm(
-			document.hjxr__com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_pageIteratorFm,
+			document.mqhw__com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_pageIteratorFm,
 			{
 				data: data
 			}
@@ -13039,7 +13039,7 @@ információk</h2>
 		data[curParam] = cur;
 
 		Liferay.Util.postForm(
-			document.zums__com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_pageIteratorFm,
+			document.bpeh__com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_pageIteratorFm,
 			{
 				data: data
 			}
@@ -13139,7 +13139,7 @@ információk</h2>
 
 
 <div class="ddl-datatable dataTableDDL">
-		<div class="ddl-table-container-92755703_4dd6_42c7_afaa_63312e0716d8">
+		<div class="ddl-table-container-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 			<table id="ddl-dataTable-noEdit" class="data-table" width="100%" class="display" cellspacing="0">
 				<thead>
 					<tr class="data-table-foot">
@@ -13207,7 +13207,7 @@ információk</h2>
 				</thead>
 				<tbody>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.11.26.</td>
 
@@ -13218,12 +13218,12 @@ információk</h2>
 								<td class="col"> nem jelölt allergén jelenléte (mandula)</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2829237189"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2829237189"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.11.23.</td>
 
@@ -13234,12 +13234,12 @@ információk</h2>
 								<td class="col"> Pinus armandii (kínai selyemfenyő) jelenléte</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2813979324"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2813979324"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.11.19.</td>
 
@@ -13250,12 +13250,12 @@ információk</h2>
 								<td class="col"> lehetséges rovarszennyezettség</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2796296588"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2796296588"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.11.18.</td>
 
@@ -13266,12 +13266,12 @@ információk</h2>
 								<td class="col"> Nem engedélyezett növényvédőszer-maradék</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2793743029"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2793743029"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.11.17.</td>
 
@@ -13282,12 +13282,12 @@ információk</h2>
 								<td class="col"> Salmonella jelenléte</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2789106677"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2789106677"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.11.17.</td>
 
@@ -13298,12 +13298,12 @@ információk</h2>
 								<td class="col"> mikrobiológiai eltérés</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2789099582"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2789099582"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.11.13.</td>
 
@@ -13314,12 +13314,12 @@ információk</h2>
 								<td class="col"> kis méretű idegen anyagok esetleges jelenléte</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2770931260"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2770931260"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.11.11.</td>
 
@@ -13330,12 +13330,12 @@ információk</h2>
 								<td class="col"> biszfenol AF (BPAF) határértékének túllépése</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2763740284"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2763740284"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.11.04.</td>
 
@@ -13346,12 +13346,12 @@ információk</h2>
 								<td class="col"> határérték feletti alkaloidtartalom</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2735471721"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2735471721"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.10.27.</td>
 
@@ -13362,12 +13362,12 @@ információk</h2>
 								<td class="col"> aflatoxin szennyezettség</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2702170612"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2702170612"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.10.22.</td>
 
@@ -13378,12 +13378,12 @@ információk</h2>
 								<td class="col"> mikrobiológiai eltérés</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2684505101"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2684505101"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.10.21.</td>
 
@@ -13394,12 +13394,12 @@ információk</h2>
 								<td class="col"> Halcsontszilánkok jelenléte</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2679862415"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2679862415"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.10.15.</td>
 
@@ -13410,12 +13410,12 @@ információk</h2>
 								<td class="col"> mikrobiológiai nem megfelelőség</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2655721620"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2655721620"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.10.14.</td>
 
@@ -13426,12 +13426,12 @@ információk</h2>
 								<td class="col"> Idegen anyag jelenléte</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2651086742"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2651086742"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.10.13.</td>
 
@@ -13442,12 +13442,12 @@ információk</h2>
 								<td class="col"> Határérték feletti kén-dioxid-tartalom</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2646449927"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2646449927"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.09.27.</td>
 
@@ -13458,12 +13458,12 @@ információk</h2>
 								<td class="col"> élelmiszermoly-fertőzés (lárvák és szövedékek jelenléte)</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2591631846"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2591631846"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.09.17.</td>
 
@@ -13474,12 +13474,12 @@ információk</h2>
 								<td class="col"> mikrobiológiai nem megfelelőség</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2572375192"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2572375192"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.08.14.</td>
 
@@ -13490,12 +13490,12 @@ információk</h2>
 								<td class="col"> érzékszervi probléma (savanyú íz)</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2501486182"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2501486182"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.06.25.</td>
 
@@ -13506,12 +13506,12 @@ információk</h2>
 								<td class="col"> Határérték feletti hidrogén-cianid tartalom</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2398105122"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2398105122"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.06.25.</td>
 
@@ -13522,12 +13522,12 @@ információk</h2>
 								<td class="col"> fémdarabok jelenléte</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2397158878"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2397158878"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.05.23.</td>
 
@@ -13538,12 +13538,12 @@ információk</h2>
 								<td class="col"> Mikrobiológiai nem megfelelőség</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2285447481"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2285447481"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.05.21.</td>
 
@@ -13554,12 +13554,12 @@ információk</h2>
 								<td class="col"> Mikrobiológiai nem megfelelőség</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2278740783"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2278740783"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.05.14.</td>
 
@@ -13570,12 +13570,12 @@ információk</h2>
 								<td class="col"> Határérték feletti gluténtartalom</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2264073413"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2264073413"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.03.19.</td>
 
@@ -13586,12 +13586,12 @@ információk</h2>
 								<td class="col"> Idegen anyag (expandált polisztirol) szennyezettség</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2149801187"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2149801187"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.03.18.</td>
 
@@ -13602,12 +13602,12 @@ információk</h2>
 								<td class="col"> növényvédőszer-maradék jelenléte</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2147713791"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2147713791"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.02.27.</td>
 
@@ -13618,12 +13618,12 @@ információk</h2>
 								<td class="col"> analitikai eltérés</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2114715607"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2114715607"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2026.02.13.</td>
 
@@ -13634,12 +13634,12 @@ információk</h2>
 								<td class="col"> mikrobiológiai nem megfelelőség</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_2114644652"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_2114644652"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2025.05.10.</td>
 
@@ -13650,12 +13650,12 @@ információk</h2>
 								<td class="col"> műanyag fóliadarab a termékben</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_1668113694"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_1668113694"></div></td>
 
 							
 						</tr>
 					
-						<tr class="data-table-row row-92755703_4dd6_42c7_afaa_63312e0716d8">
+						<tr class="data-table-row row-cb540666_08e2_4e0f_a63b_2d7e7cdda49e">
 							
 								<td class="col"> 2024.09.18.</td>
 
@@ -13666,7 +13666,7 @@ információk</h2>
 								<td class="col"> elégtelen hőkezelés miatt a termék romlott lehet</td>
 
 							
-								<td class="col"> <div id="new_92755703_4dd6_42c7_afaa_63312e0716d8_1288856936"></div></td>
+								<td class="col"> <div id="new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_1288856936"></div></td>
 
 							
 						</tr>
@@ -13686,13 +13686,13 @@ információk</h2>
 
 //var myGlobalHref = '';
 
-function createSpanBeforeActionDivs_92755703_4dd6_42c7_afaa_63312e0716d8() {
+function createSpanBeforeActionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e() {
 	var failedCount=0;
 
-	for(recordIdIndex in actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8) {
-		var recordId = actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8[recordIdIndex];
+	for(recordIdIndex in actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e) {
+		var recordId = actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e[recordIdIndex];
 		var oldDiv= document.getElementById("old_"+recordId);
-		var newDiv= document.getElementById("new_92755703_4dd6_42c7_afaa_63312e0716d8_"+recordId);
+		var newDiv= document.getElementById("new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_"+recordId);
 		var myDiv = oldDiv;
 		if(myDiv != null && myDiv != undefined &&  myDiv.tagName === "DIV")
 		{
@@ -13723,14 +13723,14 @@ function createSpanBeforeActionDivs_92755703_4dd6_42c7_afaa_63312e0716d8() {
 }
 
 
-function copyActionDivs_92755703_4dd6_42c7_afaa_63312e0716d8() {
+function copyActionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e() {
 	var failedCount=0;
 	var ok = 0;
 	//console.log("copyActionDivs is called");
-	for(recordIdIndex in actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8) {
-		var recordId = actionDivs_92755703_4dd6_42c7_afaa_63312e0716d8[recordIdIndex];
+	for(recordIdIndex in actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e) {
+		var recordId = actionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e[recordIdIndex];
 		var oldDiv= document.getElementById("old_"+recordId);
-		var newDiv= document.getElementById("new_92755703_4dd6_42c7_afaa_63312e0716d8_"+recordId);
+		var newDiv= document.getElementById("new_cb540666_08e2_4e0f_a63b_2d7e7cdda49e_"+recordId);
 
 		if (newDiv != undefined && newDiv != null && oldDiv != undefined && oldDiv != null) {
 				//Remove dropdown editor menu text. If text is present it causes
@@ -13910,7 +13910,7 @@ if (!Array.from) {
 		
 
 
-	    var tables = $('.ddl-table-container-92755703_4dd6_42c7_afaa_63312e0716d8');
+	    var tables = $('.ddl-table-container-cb540666_08e2_4e0f_a63b_2d7e7cdda49e');
 
 
     	
@@ -13937,11 +13937,11 @@ if (!Array.from) {
 
 			//console.log("init02");
 			//Reszletek oldal linkjenek elhelyezese a letoltott excel fajlba
-			createSpanBeforeActionDivs_92755703_4dd6_42c7_afaa_63312e0716d8();
+			createSpanBeforeActionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e();
 			//console.log("init03");
 			// Transform table to DataTable
 
-			var dtButtonArrray_92755703_4dd6_42c7_afaa_63312e0716d8 = [];
+			var dtButtonArrray_cb540666_08e2_4e0f_a63b_2d7e7cdda49e = [];
 			
 			
 
@@ -13952,7 +13952,7 @@ if (!Array.from) {
 				"scrollX": true,
 				"autoWidth": true,
 				"dom": 'Bfrtp',
-				"buttons": dtButtonArrray_92755703_4dd6_42c7_afaa_63312e0716d8,
+				"buttons": dtButtonArrray_cb540666_08e2_4e0f_a63b_2d7e7cdda49e,
 				"columnDefs": [
 					{type: 'hu-sort', targets: '_all'},
 				],
@@ -13960,7 +13960,7 @@ if (!Array.from) {
 					"url": "/o/dynamic-data-lists-web/DataTables-1.10.16/i18n/Hungarian.json"
 				},
 				"fnDrawCallback": function () {
-					copyActionDivs_92755703_4dd6_42c7_afaa_63312e0716d8();
+					copyActionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e();
 				}
 			});
 			//console.log("init04");
@@ -14042,7 +14042,7 @@ if (!Array.from) {
 
 		});
 		//console.log("init07");
-		//copyActionDivs_92755703_4dd6_42c7_afaa_63312e0716d8();
+		//copyActionDivs_cb540666_08e2_4e0f_a63b_2d7e7cdda49e();
 		//console.log("init08");
 
 	});
@@ -15314,20 +15314,6 @@ Fax: 06-1/336-9479</p>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
 
 	
@@ -15593,77 +15579,6 @@ Fax: 06-1/336-9479</p>
 	};
 
 	Liferay.on('destroyPortlet', onDestroyPortlet);
-})();(function() {var $ = AUI.$;var _ = AUI._;
-	function showDialog(uri, title, namespace, refreshOnClose) {
-		Liferay.Util.openWindow({
-			dialog: {
-				centered: true,
-				constrain: true,
-				cssClass: 'sharing-dialog',
-				destroyOnHide: true,
-				modal: true,
-				height: 540,
-				width: 600,
-				on: {
-					visibleChange: function(event) {
-						if (refreshOnClose && !event.newVal) {
-							Liferay.Portlet.refresh('#p_p_id' + namespace);
-						}
-					}
-				}
-			},
-			id: 'sharingDialog',
-			title: Liferay.Util.escapeHTML(title),
-			uri: uri
-		});
-	}
-
-	var Sharing = {};
-
-	Liferay.provide(
-		Sharing,
-		'share',
-		function(classNameId, classPK, title, namespace, refreshOnClose) {
-			var sharingParameters = {
-				classNameId: classNameId,
-				classPK: classPK
-			};
-
-			var sharingURL = Liferay.Util.PortletURL.createPortletURL(
-				'https://portal.nebih.gov.hu/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_SharingPortlet&p_p_lifecycle=0&p_p_state=pop_up&_com_liferay_sharing_web_portlet_SharingPortlet_mvcRenderCommandName=%2Fsharing%2Fshare&p_p_auth=LPBYMuLg',
-				sharingParameters
-			);
-
-			showDialog(sharingURL.toString(), title, namespace, refreshOnClose);
-		},
-		['liferay-util-window']
-	);
-
-	Liferay.provide(
-		Sharing,
-		'manageCollaborators',
-		function(classNameId, classPK, namespace, refreshOnClose) {
-			var manageCollaboratorsParameters = {
-				classNameId: classNameId,
-				classPK: classPK
-			};
-
-			var manageCollaboratorsURL = Liferay.Util.PortletURL.createPortletURL(
-				'https://portal.nebih.gov.hu/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet&p_p_lifecycle=0&p_p_state=pop_up&_com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet_mvcRenderCommandName=%2Fsharing%2Fmanage_collaborators&p_p_auth=SSoc7nvR',
-				manageCollaboratorsParameters
-			);
-
-			showDialog(
-				manageCollaboratorsURL.toString(),
-				'Együttműködők kezelése',
-				namespace,
-				refreshOnClose
-			);
-		},
-		['liferay-util-window']
-	);
-
-	Liferay.Sharing = Sharing;
 })();
 	if (Liferay.Data.ICONS_INLINE_SVG) {
 		svg4everybody(
@@ -16036,7 +15951,7 @@ console.error(err);
 })();})();
 });
 // ]]>
-</script><script type="application/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/components/AccessibilityNavigation.js?minifierType=js&t=1795788979536" charset="utf-8"></script>
+</script><script type="application/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/components/AccessibilityNavigation.js?minifierType=js&t=1795789458738" charset="utf-8"></script>
 </body>
 
 </html>

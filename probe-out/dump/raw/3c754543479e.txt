@@ -51,7 +51,7 @@
 </head>
 
 	<body>
-<form action="/news-and-alerts/allergen-alerts/presence-of-peanut-in-specific-batches-of-healthyf?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="DEpdLxMBwWWZwp2zttGdDBVyDXuKPBEFAXBsFFYsb_XoHYqAR6941HphrKxUqbsOlqbkEopV16fO83vRKd5b0M-1Jv-2KwsIjlnx45CK3Lo1" /></form>
+<form action="/news-and-alerts/allergen-alerts/presence-of-peanut-in-specific-batches-of-healthyf?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="bTjmnd1_nKf9tBLLaxpuObrxMu4p_fL1jtl45iG52govzCGzAcCqJW8_wi55HzSEdzWKSmAjwIWBPMYCVkKRkmHVqUmfFsLIollcyETO4e01" /></form>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K75P7NV"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

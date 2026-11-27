@@ -51,7 +51,7 @@
 </head>
 
 	<body>
-<form action="/news-and-alerts/food-alerts/recall-of-a-batch-of-bialetti-perfetto-moka-carame?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="qcN3GgCKzsuLTM-0QiQ2xw82PRSH8DYjguUFrInAAGSzOZSVlHhdoeC7YU-g1VoOTzKgeBzKpzwy-dmkR4MaCBnvw9dktpnbPCXcf0eMFms1" /></form>
+<form action="/news-and-alerts/food-alerts/recall-of-a-batch-of-bialetti-perfetto-moka-carame?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="uQxHvmPQoOt9kSmIjvawhZ7-G2nfwcjP9Az9RR7h7Kb3kkvmG_OD8tYfRD1561JMReHM9WsE0CpYBUQIb7TyCVtbFQDhN5hdcvVfjjISUIM1" /></form>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K75P7NV"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

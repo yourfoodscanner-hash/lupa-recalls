@@ -36,7 +36,7 @@
   "published": "2026-11-19",
   "category": "food",
   "hazard": "other",
-  "name": "Frissítve: Tesco barna rizs főzőtasakban 4 x 125 g (500 g)",
+  "name": "Tesco barna rizs főzőtasakban 4 x 125 g (500 g)",
   "brand": "Tesco",
   "reason": "Lehetséges rovarszennyezettség",
   "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező terméket ne fogyasszák el!",
@@ -82,37 +82,10 @@
   "brand": "Privát Hús",
   "reason": "Mikrobiológiai eltérés",
   "lots": "26272",
+  "bestBefore": "2026.12.27",
   "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező terméket ne fogyasszák el!",
   "source": "Nébih",
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2789099582"
- },
- {
-  "id": "hu-nebih-2770931260",
-  "country": "HU",
-  "published": "2026-11-13",
-  "category": "food",
-  "hazard": "foreign",
-  "name": "Rocco Sensitive Pulyka és burgonya 6 x 800 g",
-  "brand": "Rocco",
-  "reason": "Kis méretű idegen anyagok esetleges jelenléte",
-  "lots": "249MH",
-  "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező terméket ne adják kedvencüknek!",
-  "source": "Nébih",
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2770931260",
-  "group": "rasff-2026-9837"
- },
- {
-  "id": "hu-nebih-2763740284",
-  "country": "HU",
-  "published": "2026-11-11",
-  "category": "food",
-  "hazard": "other",
-  "name": "Hőérzékelő kanál hot safe",
-  "brand": "Nûby",
-  "reason": "Biszfenol AF (BPAF) határértékének túllépése",
-  "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező terméket ne használják!",
-  "source": "Nébih",
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2763740284"
  },
  {
   "id": "hu-nebih-2735471721",
@@ -157,21 +130,6 @@
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2684505101"
  },
  {
-  "id": "hu-nebih-2679862415",
-  "country": "HU",
-  "published": "2026-10-21",
-  "category": "food",
-  "hazard": "other",
-  "name": "MOMENTS Filet Bites Tonhal és Szardella 50 g",
-  "brand": "MOMENTS",
-  "reason": "Halcsontszilánkok jelenléte",
-  "lots": "150098",
-  "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező terméket ne adják kedvencüknek!",
-  "source": "Nébih",
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2679862415",
-  "group": "rasff-2026-9223"
- },
- {
   "id": "hu-nebih-2655721620",
   "country": "HU",
   "published": "2026-10-15",
@@ -183,21 +141,6 @@
   "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező termékeket ne fogyasszák el!",
   "source": "Nébih",
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2655721620"
- },
- {
-  "id": "hu-nebih-2651086742",
-  "country": "HU",
-  "published": "2026-10-14",
-  "category": "food",
-  "hazard": "foreign",
-  "name": "Real Nature Wilderness, Pure Chicken Adult, konzerv, 400 g",
-  "brand": "Real Nature",
-  "reason": "Idegen anyag jelenléte",
-  "lots": "DE03452000213",
-  "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező terméket ne adják kedvencüknek!",
-  "source": "Nébih",
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2651086742",
-  "group": "rasff-2026-8625"
  },
  {
   "id": "hu-nebih-2646449927",

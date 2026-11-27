@@ -331,7 +331,7 @@
                                    <div class="group__inner group__inner--content">
                               <div data-drupal-messages-fallback class="hidden"></div>
   
-<div class="view--products--page view view--products-search-api view--id-products_search_api js-view-dom-id-62730b317d22c03b9a95c2682fb8b5ebbec05b831ab0e0635de7afb16cb7d17d">
+<div class="view--products--page view view--products-search-api view--id-products_search_api js-view-dom-id-a5033d1a82db31a0ae5ce367e36dd2b634cfc459be88e1cb7e38f7d2164d5e70">
   
   
   

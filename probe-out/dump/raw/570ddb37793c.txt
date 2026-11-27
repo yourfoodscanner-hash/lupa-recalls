@@ -51,7 +51,7 @@
 </head>
 
 	<body>
-<form action="/news-and-alerts/allergen-alerts/undeclared-allergen-sulphur-dioxide-in-specific-ba?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="-sg66nqgXTCEcpcwJ0TrZ9CoUUGr_UveVjSHjFBP3jkJOZkkLLKg34mu5I-foYP1eAAW07rZCadh-EvItI3Chzm-wmFhyC05CEH-tb7nkhg1" /></form>
+<form action="/news-and-alerts/allergen-alerts/undeclared-allergen-sulphur-dioxide-in-specific-ba?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="PArHGRIAJ3c2Orpa4ZAXFQgw2w8-kXG2N3M2xdbUY9C8DShIYOZiF0bCEnS7ra0MQghKihbDDmRnzvIcDKXWz_LhAguG4kphYWZAEk_NlBw1" /></form>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K75P7NV"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

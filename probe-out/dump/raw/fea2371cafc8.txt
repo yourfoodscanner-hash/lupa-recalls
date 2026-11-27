@@ -51,7 +51,7 @@
 </head>
 
 	<body>
-<form action="/news-and-alerts/allergen-alerts/undeclared-egg-and-milk-in-a-batch-of-mispacked-du?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="PXwzjM1M1rw4XOcXu8K0QBBZ7qjGGQYcf81rTfbvNfmVJsw_CNPrL5K8NmbctdDfTsW36y1Y_H7Y1jmfxJbD05WTQhWck8frNwWWP5b74ss1" /></form>
+<form action="/news-and-alerts/allergen-alerts/undeclared-egg-and-milk-in-a-batch-of-mispacked-du?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="CkxEb7NqiGTn49uGFqtiyLvORLCJLJ-RR1NnKioXcnYppXjxaCDODgX53q_LsyHXZiLL3HKnBHpi5a8rH8eIbSvEFJ_BmQNvGI4hiOkV0kM1" /></form>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K75P7NV"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

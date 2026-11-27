@@ -51,7 +51,7 @@
 </head>
 
 	<body>
-<form action="/news-and-alerts/allergen-alerts/milk-in-a-batch-of-milbona-high-protein-yogurt-not?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="d_YN2nOFhJ2E0A1DRe23vMBWsraQr-Pu2yHAoxWdASlG4rpTMfoAXGcE49xP3JysDFhmfrmcg8_igLEZV4K0X9Msu8ubhgPPWiw4zYkTxMg1" /></form>
+<form action="/news-and-alerts/allergen-alerts/milk-in-a-batch-of-milbona-high-protein-yogurt-not?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="8L6bPF-bCCU33w4Pp5w9sMY-NAKBRkBx_wSSw0TlFE0WMBWVkNMwNYhKW6qF8o5AZsjfRStSjsSk5AW2I4_R7Pel6wg-9jEuW3ZUya1v1qI1" /></form>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K75P7NV"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

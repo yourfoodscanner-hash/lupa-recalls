@@ -118,17 +118,17 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,500,500italic,900,900italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" />
 
-	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/jquery-11.0.min.js?v=1795788986429" charset="utf-8"></script>
+	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/jquery-11.0.min.js?v=1795789465847" charset="utf-8"></script>
 	
 	<script type='text/javascript'>
 		var ug_jquery11 = jQuery.noConflict();
 	</script>
-	<!--script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/captcha/nebihMtcaptchaConfig.js?v=1795788986429" charset="utf-8"></script-->
-	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/unitegallery_noconflict.min.js?v=1795788986429" charset="utf-8"></script>
-	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/ug-theme-default_noconflict.js?v=1795788986429" charset="utf-8"></script>
-	<script type="application/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/components/TogglerTree.js?minifierType=js&t=1795788986429" charset="utf-8"></script>
+	<!--script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/captcha/nebihMtcaptchaConfig.js?v=1795789465847" charset="utf-8"></script-->
+	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/unitegallery_noconflict.min.js?v=1795789465847" charset="utf-8"></script>
+	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/unitGallery/ug-theme-default_noconflict.js?v=1795789465847" charset="utf-8"></script>
+	<script type="application/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/components/TogglerTree.js?minifierType=js&t=1795789465847" charset="utf-8"></script>
 
-	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/counterup/counterup.js?v=1795788986429" charset="utf-8"></script>
+	<script type="text/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/counterup/counterup.js?v=1795789465847" charset="utf-8"></script>
 
 
 
@@ -556,7 +556,7 @@
 			}
 		};
 
-		Liferay.authToken = 'aQZx2noG';
+		Liferay.authToken = 'oOeNtw6W';
 
 		
 
@@ -1135,7 +1135,7 @@ Liferay.on(
 
 
 
-	<nav aria-label="Gyorslinkek" class="quick-access-nav" id="ufrx_quickAccessNav">
+	<nav aria-label="Gyorslinkek" class="quick-access-nav" id="fqbr_quickAccessNav">
 		<h1 class="hide-accessible">Navigáció</h1>
 
 		<ul>
@@ -2616,7 +2616,7 @@ Liferay.on(
 
 		
 			
-				<input  class="field form-control"  id="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"    name="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"     type="hidden" value="1795788986438"   />
+				<input  class="field form-control"  id="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"    name="_com_liferay_portal_search_web_portlet_SearchPortlet_formDate"     type="hidden" value="1795789465855"   />
 			
 		
 
@@ -4985,7 +4985,7 @@ Fax: 06-1/336-9479</p>
 			};
 
 			var sharingURL = Liferay.Util.PortletURL.createPortletURL(
-				'https://portal.nebih.gov.hu/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_SharingPortlet&p_p_lifecycle=0&p_p_state=pop_up&_com_liferay_sharing_web_portlet_SharingPortlet_mvcRenderCommandName=%2Fsharing%2Fshare&p_p_auth=P0IYvrCy',
+				'https://portal.nebih.gov.hu/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_SharingPortlet&p_p_lifecycle=0&p_p_state=pop_up&_com_liferay_sharing_web_portlet_SharingPortlet_mvcRenderCommandName=%2Fsharing%2Fshare&p_p_auth=e00Zksaz',
 				sharingParameters
 			);
 
@@ -5004,7 +5004,7 @@ Fax: 06-1/336-9479</p>
 			};
 
 			var manageCollaboratorsURL = Liferay.Util.PortletURL.createPortletURL(
-				'https://portal.nebih.gov.hu/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet&p_p_lifecycle=0&p_p_state=pop_up&_com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet_mvcRenderCommandName=%2Fsharing%2Fmanage_collaborators&p_p_auth=479wcpCc',
+				'https://portal.nebih.gov.hu/group/guest/~/control_panel/manage?p_p_id=com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet&p_p_lifecycle=0&p_p_state=pop_up&_com_liferay_sharing_web_portlet_ManageCollaboratorsPortlet_mvcRenderCommandName=%2Fsharing%2Fmanage_collaborators&p_p_auth=yIFrG1TQ',
 				manageCollaboratorsParameters
 			);
 
@@ -5166,7 +5166,7 @@ console.error(err);
 })();})();
 });
 // ]]>
-</script><script type="application/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/components/AccessibilityNavigation.js?minifierType=js&t=1795788986444" charset="utf-8"></script>
+</script><script type="application/javascript" src="https://portal.nebih.gov.hu/o/nebih-theme/js/components/AccessibilityNavigation.js?minifierType=js&t=1795789465861" charset="utf-8"></script>
 </body>
 
 </html>

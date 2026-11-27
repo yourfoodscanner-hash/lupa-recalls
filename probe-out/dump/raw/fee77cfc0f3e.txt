@@ -51,7 +51,7 @@
 </head>
 
 	<body>
-<form action="/news-and-alerts/allergen-alerts/undeclared-milk-and-egg-in-a-batch-of-lemanfen-str?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="3OtHQUIeAerKfdd695HXs087m2sAnrYHYUaSWOKNChL31hNpLtJgiSXDwpPcnI3K60gWIBfF9XNonTPCUSF2ylQ40Oaa_8o6J1QhcBIIIz01" /></form>
+<form action="/news-and-alerts/allergen-alerts/undeclared-milk-and-egg-in-a-batch-of-lemanfen-str?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="916vWKOUmwADJvDcSg5s9l0cB3-SkgyU8Dc-rcR_AXReMUDxl8NZougeerEVnXIy52zvjeoaH8QuflTnf0Ronr34yKPYdNCUgJ-dsVcwjzM1" /></form>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K75P7NV"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

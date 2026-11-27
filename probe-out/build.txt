@@ -1,4 +1,4 @@
-Obavijesti u fajlu: 709 (prethodno 715) · s barkodom: 169 · veličina: 475663 znakova
+Obavijesti u fajlu: 705 (prethodno 715) · s barkodom: 169 · veličina: 473695 znakova
 Isti proizvod u više obavijesti: 32 grupa (95 obavijesti)
 Ručno unesene: 0
 Izvor rappelconso: pročitano 19339 redova → objavljeno 277 (izostavljeno — kategorija koju LUPA ne prikazuje: 4932; starije od prozora: 14130)
@@ -13,10 +13,10 @@ Izvor efet: pročitano 20 redova → objavljeno 6 (izostavljeno — nije hrana (
 Izvor favv: pročitano 30 redova → objavljeno 19 (izostavljeno — starije od prozora: 9; nije hrana (hrana za životinje, posuđe): 2)
 Izvor fsai: pročitano 30 redova → objavljeno 15 (izostavljeno — starije od prozora: 15)
 Izvor gis: pročitano 20 redova → objavljeno 12 (izostavljeno — nije hrana (posuđe, druge obavijesti): 2; starije od prozora: 6)
-Izvor nebih: pročitano 29 redova → objavljeno 15 (izostavljeno — nije hrana (hrana za životinje, posuđe): 1; starije od prozora: 13)
+Izvor nebih: pročitano 29 redova → objavljeno 11 (izostavljeno — nije hrana (hrana za životinje, posuđe): 6; starije od prozora: 12)
 Izvor ruokavirasto: pročitano 102 redova → objavljeno 8 (izostavljeno — starije od prozora: 92; nije hrana (posuđe, kontaktni materijal): 2)
 Izvor nvwa: pročitano 3 redova → objavljeno 1 (izostavljeno — nije hrana (consumentenartikelen): 2)
 Izvor rasff: pročitano 192 redova → objavljeno 87 (izostavljeno — starije od prozora: 83; nije hrana (hrana za životinje, materijali u dodiru s hranom …): 22)
-Po zemljama: AT 10, BA 1, BE 19, BG 3, CY 4, CZ 54, DE 44, DK 21, EE 1, ES 10, FI 8, FR 277, GR 6, HR 36, HU 15, IE 15, IT 18, LT 3, LU 12, MT 4, NL 1, PL 12, PT 7, RO 7, SE 12, SI 103, SK 6
+Po zemljama: AT 10, BA 1, BE 19, BG 3, CY 4, CZ 54, DE 44, DK 21, EE 1, ES 10, FI 8, FR 277, GR 6, HR 36, HU 11, IE 15, IT 18, LT 3, LU 12, MT 4, NL 1, PL 12, PT 7, RO 7, SE 12, SI 103, SK 6
 
 Upisano: public/v1/recalls.json

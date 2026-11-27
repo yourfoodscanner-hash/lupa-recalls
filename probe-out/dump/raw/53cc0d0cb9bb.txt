@@ -51,7 +51,7 @@
 </head>
 
 	<body>
-<form action="/news-and-alerts/food-alerts/recall-of-a-batch-of-card-factory-candy-canes?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="LtWaXy3kTw6f4CSXwvUOe-DmKFhC2TbXuwUwd0jNu7iS-FZY2vvzagZtuHa6fpBPWI-aR4x4-iEJ6bhgZuhxwSP1-WohLzYdd2kbKDccRFI1" /></form>
+<form action="/news-and-alerts/food-alerts/recall-of-a-batch-of-card-factory-candy-canes?action=Index&amp;controller=Alert" id="__AjaxAntiForgeryForm" method="post" style="display: none;"><input name="__RequestVerificationToken" type="hidden" value="437tK8oU3fZulRrJSwUH9GNRmJxXlhVDnNCQPlwBdT6R0H0g8k1zeGcf2V-Os3M8ZBlYWjnv0Dx4Ot8hO8Vi68sTuCjOHWUzwhox_JI-9oI1" /></form>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K75P7NV"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

@@ -21,18 +21,18 @@
   "file": "26b5d106dea4.txt"
  },
  {
-  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-coprospect-srl",
-  "status": 200,
-  "type": "text/html; charset=UTF-8",
-  "bytes": 39894,
-  "file": "cc8bfc3ce456.txt"
- },
- {
   "url": "https://favv-afsca.be/nl/producten/terugroeping-van-albert-heijn-21",
   "status": 200,
   "type": "text/html; charset=UTF-8",
   "bytes": 37032,
   "file": "aaf8d4f8d084.txt"
+ },
+ {
+  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-coprospect-srl",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 39894,
+  "file": "cc8bfc3ce456.txt"
  },
  {
   "url": "https://favv-afsca.be/nl/producten/terugroeping-van-new-valmar-bv",
@@ -63,18 +63,18 @@
   "file": "79c96405c759.txt"
  },
  {
-  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-het-favv-159",
-  "status": 200,
-  "type": "text/html; charset=UTF-8",
-  "bytes": 38134,
-  "file": "bcb31ce9a43e.txt"
- },
- {
   "url": "https://favv-afsca.be/nl/producten/terugroeping-van-het-favv-160",
   "status": 200,
   "type": "text/html; charset=UTF-8",
   "bytes": 37627,
   "file": "c0d462a178a3.txt"
+ },
+ {
+  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-het-favv-159",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 38134,
+  "file": "bcb31ce9a43e.txt"
  },
  {
   "url": "https://favv-afsca.be/nl/producten/terugroeping-van-holland-and-barrett-3",
@@ -91,18 +91,18 @@
   "file": "ba87dfea52af.txt"
  },
  {
-  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-grand-frais-16",
-  "status": 200,
-  "type": "text/html; charset=UTF-8",
-  "bytes": 37129,
-  "file": "bd76cfa6c95f.txt"
- },
- {
   "url": "https://favv-afsca.be/nl/producten/waarschuwing-van-canlar-gida",
   "status": 200,
   "type": "text/html; charset=UTF-8",
   "bytes": 37298,
   "file": "bfaa68c2b835.txt"
+ },
+ {
+  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-grand-frais-16",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 37129,
+  "file": "bd76cfa6c95f.txt"
  },
  {
   "url": "https://favv-afsca.be/nl/producten/terugroeping-van-carrefour-36",
@@ -126,18 +126,18 @@
   "file": "436db3b202c1.txt"
  },
  {
-  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-biogarten-handels-gmbhde",
-  "status": 200,
-  "type": "text/html; charset=UTF-8",
-  "bytes": 39503,
-  "file": "d3cf265a427d.txt"
- },
- {
   "url": "https://favv-afsca.be/nl/producten/terugroeping-van-porc-qualite-ardenne-scrl",
   "status": 200,
   "type": "text/html; charset=UTF-8",
   "bytes": 37023,
   "file": "331f6eb8d342.txt"
+ },
+ {
+  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-biogarten-handels-gmbhde",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 39503,
+  "file": "d3cf265a427d.txt"
  },
  {
   "url": "https://favv-afsca.be/nl/producten/terugroeping-van-biervliet-diervoeding-bv",
@@ -154,18 +154,18 @@
   "file": "bdcf0d138219.txt"
  },
  {
-  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-carmans-el",
-  "status": 200,
-  "type": "text/html; charset=UTF-8",
-  "bytes": 39439,
-  "file": "31a7e34633e1.txt"
- },
- {
   "url": "https://favv-afsca.be/nl/producten/terugroeping-van-patel-bv",
   "status": 200,
   "type": "text/html; charset=UTF-8",
   "bytes": 36910,
   "file": "8f60d0f240b4.txt"
+ },
+ {
+  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-carmans-el",
+  "status": 200,
+  "type": "text/html; charset=UTF-8",
+  "bytes": 39439,
+  "file": "31a7e34633e1.txt"
  },
  {
   "url": "https://www.fsai.ie/news-alert/all-alerts",
@@ -196,13 +196,6 @@
   "file": "59d55c0728f2.txt"
  },
  {
-  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/update-to-recall-of-a-batch-of-bialetti-perfetto-m",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 29762,
-  "file": "fa5465c2b69c.txt"
- },
- {
   "url": "https://www.fsai.ie/news-and-alerts/allergen-alerts/incorrectly-declared-celery-in-aneto-natural-chick",
   "status": 200,
   "type": "text/html; charset=utf-8",
@@ -210,11 +203,11 @@
   "file": "b604db874019.txt"
  },
  {
-  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-a-batch-of-card-factory-candy-canes",
+  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/update-to-recall-of-a-batch-of-bialetti-perfetto-m",
   "status": 200,
   "type": "text/html; charset=utf-8",
-  "bytes": 28200,
-  "file": "53cc0d0cb9bb.txt"
+  "bytes": 29762,
+  "file": "fa5465c2b69c.txt"
  },
  {
   "url": "https://www.fsai.ie/news-and-alerts/allergen-alerts/presence-of-peanut-in-specific-batches-of-healthyf",
@@ -222,6 +215,13 @@
   "type": "text/html; charset=utf-8",
   "bytes": 28189,
   "file": "3c754543479e.txt"
+ },
+ {
+  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-a-batch-of-card-factory-candy-canes",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 28200,
+  "file": "53cc0d0cb9bb.txt"
  },
  {
   "url": "https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-allergen-sulphur-dioxide-in-specific-ba",
@@ -252,13 +252,6 @@
   "file": "84a3c9cd91a3.txt"
  },
  {
-  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-a-batch-of-bialetti-perfetto-moka-carame",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 28751,
-  "file": "8d4b0aa97dd5.txt"
- },
- {
   "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-several-supervalu-and-inspired-by-centra",
   "status": 200,
   "type": "text/html; charset=utf-8",
@@ -266,11 +259,11 @@
   "file": "08354d077112.txt"
  },
  {
-  "url": "https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-milk-and-egg-in-a-batch-carroll-s-of-tu",
+  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-a-batch-of-bialetti-perfetto-moka-carame",
   "status": 200,
   "type": "text/html; charset=utf-8",
-  "bytes": 28010,
-  "file": "7af67ce6c4cd.txt"
+  "bytes": 28751,
+  "file": "8d4b0aa97dd5.txt"
  },
  {
   "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-centra-inspired-by-supervalu-smoked-salm",
@@ -280,11 +273,11 @@
   "file": "aba02a54cc77.txt"
  },
  {
-  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-a-batch-of-smoked-slamon",
+  "url": "https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-milk-and-egg-in-a-batch-carroll-s-of-tu",
   "status": 200,
   "type": "text/html; charset=utf-8",
-  "bytes": 28774,
-  "file": "182bfa16c132.txt"
+  "bytes": 28010,
+  "file": "7af67ce6c4cd.txt"
  },
  {
   "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-specific-batches-of-ready-brek-original",
@@ -292,6 +285,13 @@
   "type": "text/html; charset=utf-8",
   "bytes": 29414,
   "file": "938c348aa418.txt"
+ },
+ {
+  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-a-batch-of-smoked-slamon",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 28774,
+  "file": "182bfa16c132.txt"
  },
  {
   "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-specific-batches-of-various-supervalu-sm",
@@ -441,18 +441,18 @@
   "file": "a89ca2b70569.txt"
  },
  {
-  "url": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-mozliwa-obecnosc-fragmentow-szkla-w-jednej-partii-puddingu-proteinowego",
-  "status": 200,
-  "type": "text/html;charset=UTF-8",
-  "bytes": 25930,
-  "file": "37205e2c40e8.txt"
- },
- {
   "url": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-stwierdzenie-substancji-psychoaktywnej-w-suplemencie-diety",
   "status": 200,
   "type": "text/html;charset=UTF-8",
   "bytes": 25632,
   "file": "12bee9e20bde.txt"
+ },
+ {
+  "url": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-mozliwa-obecnosc-fragmentow-szkla-w-jednej-partii-puddingu-proteinowego",
+  "status": 200,
+  "type": "text/html;charset=UTF-8",
+  "bytes": 25930,
+  "file": "37205e2c40e8.txt"
  },
  {
   "url": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-wykrycie-obecnosci-bakterii-listeria-monocytogenes-w-jednej-partii-salami",
@@ -500,15 +500,22 @@
   "url": "https://portal.nebih.gov.hu/termekvisszahivas",
   "status": 200,
   "type": "text/html;charset=UTF-8",
-  "bytes": 219770,
+  "bytes": 221848,
   "file": "62bb775c1c4e.txt"
  },
  {
   "url": "https://portal.nebih.gov.hu/termekvisszahivas?p_p_id=com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_struts_action=%2Fdynamic_data_lists%2Fview_record_set&_com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_redirect=&_com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_recordSetId=1150861&_com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_cur=1&_com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_resetCur=false&_com_liferay_dynamic_data_lists_web_portlet_DDLDisplayPortlet_INSTANCE_V7CbHUFUlkoI_delta=50\" target=",
   "status": 200,
   "type": "text/html;charset=UTF-8",
-  "bytes": 235001,
+  "bytes": 232923,
   "file": "7191b8014fd0.txt"
+ },
+ {
+  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2829237189",
+  "status": 200,
+  "type": "text/html;charset=UTF-8",
+  "bytes": 112796,
+  "file": "6aefb6fd86d5.txt"
  },
  {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2813979324",
@@ -518,11 +525,11 @@
   "file": "2d78e0e49f87.txt"
  },
  {
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2829237189",
+  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2796296588",
   "status": 200,
   "type": "text/html;charset=UTF-8",
-  "bytes": 114874,
-  "file": "6aefb6fd86d5.txt"
+  "bytes": 114808,
+  "file": "2ce9596c4b3e.txt"
  },
  {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2793743029",
@@ -532,32 +539,18 @@
   "file": "a207d5275133.txt"
  },
  {
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2796296588",
-  "status": 200,
-  "type": "text/html;charset=UTF-8",
-  "bytes": 112730,
-  "file": "2ce9596c4b3e.txt"
- },
- {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2789106677",
   "status": 200,
   "type": "text/html;charset=UTF-8",
-  "bytes": 113028,
+  "bytes": 115106,
   "file": "b1fd689e646a.txt"
  },
  {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2789099582",
   "status": 200,
   "type": "text/html;charset=UTF-8",
-  "bytes": 114662,
+  "bytes": 112584,
   "file": "72dc154357c3.txt"
- },
- {
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2763740284",
-  "status": 200,
-  "type": "text/html;charset=UTF-8",
-  "bytes": 112514,
-  "file": "56f9009a4972.txt"
  },
  {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2770931260",
@@ -567,18 +560,25 @@
   "file": "7aacc7940c52.txt"
  },
  {
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2735471721",
+  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2763740284",
   "status": 200,
   "type": "text/html;charset=UTF-8",
-  "bytes": 112508,
-  "file": "ba55e62b1f5d.txt"
+  "bytes": 112514,
+  "file": "56f9009a4972.txt"
  },
  {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2702170612",
   "status": 200,
   "type": "text/html;charset=UTF-8",
-  "bytes": 115359,
+  "bytes": 113281,
   "file": "7c1cecd7c23e.txt"
+ },
+ {
+  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2735471721",
+  "status": 200,
+  "type": "text/html;charset=UTF-8",
+  "bytes": 112508,
+  "file": "ba55e62b1f5d.txt"
  },
  {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2684505101",
@@ -595,13 +595,6 @@
   "file": "35a721072634.txt"
  },
  {
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2655721620",
-  "status": 200,
-  "type": "text/html;charset=UTF-8",
-  "bytes": 113917,
-  "file": "b82409c07629.txt"
- },
- {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2651086742",
   "status": 200,
   "type": "text/html;charset=UTF-8",
@@ -609,10 +602,17 @@
   "file": "4ccfed5b4d0a.txt"
  },
  {
+  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2655721620",
+  "status": 200,
+  "type": "text/html;charset=UTF-8",
+  "bytes": 113917,
+  "file": "b82409c07629.txt"
+ },
+ {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2591631846",
   "status": 200,
   "type": "text/html;charset=UTF-8",
-  "bytes": 114506,
+  "bytes": 112428,
   "file": "f7075915d9e7.txt"
  },
  {
@@ -637,18 +637,18 @@
   "file": "963cd54908b1.txt"
  },
  {
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2397158878",
-  "status": 200,
-  "type": "text/html;charset=UTF-8",
-  "bytes": 114432,
-  "file": "3b1742c8a0f2.txt"
- },
- {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2398105122",
   "status": 200,
   "type": "text/html;charset=UTF-8",
   "bytes": 113147,
   "file": "ee3250bbcaf0.txt"
+ },
+ {
+  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2397158878",
+  "status": 200,
+  "type": "text/html;charset=UTF-8",
+  "bytes": 112354,
+  "file": "3b1742c8a0f2.txt"
  },
  {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2285447481",
@@ -661,14 +661,14 @@
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2278740783",
   "status": 200,
   "type": "text/html;charset=UTF-8",
-  "bytes": 114591,
+  "bytes": 112513,
   "file": "a59205c2bc58.txt"
  },
  {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2264073413",
   "status": 200,
   "type": "text/html;charset=UTF-8",
-  "bytes": 117763,
+  "bytes": 119841,
   "file": "a0fcb5511d4a.txt"
  },
  {
@@ -693,18 +693,18 @@
   "file": "681a911e7708.txt"
  },
  {
+  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2114644652",
+  "status": 200,
+  "type": "text/html;charset=UTF-8",
+  "bytes": 112463,
+  "file": "073d2221a1d6.txt"
+ },
+ {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/1668113694",
   "status": 200,
   "type": "text/html;charset=UTF-8",
   "bytes": 112203,
   "file": "9a6460efbe18.txt"
- },
- {
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2114644652",
-  "status": 200,
-  "type": "text/html;charset=UTF-8",
-  "bytes": 114541,
-  "file": "073d2221a1d6.txt"
  },
  {
   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/1288856936",
@@ -735,18 +735,18 @@
   "file": "000fa25bd21b.txt"
  },
  {
-  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/valipalapatukoissa-metalliriski/",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 24651,
-  "file": "721159d5bbc2.txt"
- },
- {
   "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/paivitys-18.11.2026-muovisessa-ensilusikassa-kontaktimateriaalivirhe",
   "status": 200,
   "type": "text/html; charset=utf-8",
   "bytes": 25242,
   "file": "87243f2a6bc6.txt"
+ },
+ {
+  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/valipalapatukoissa-metalliriski/",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 24651,
+  "file": "721159d5bbc2.txt"
  },
  {
   "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/muovisessa-ensilusikassa-kontaktimateriaalivirhe/",
@@ -805,18 +805,18 @@
   "file": "f50f8915bbe0.txt"
  },
  {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/27/veiligheidswaarschuwing-dille-kamille-vrachtwagen-oplegger-speelset-hout",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 217317,
+  "file": "f319ff78654e.txt"
+ },
+ {
   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/26/veiligheidswaarschuwing-diverse-salades-van-marqt-keuken",
   "status": 200,
   "type": "text/html; charset=utf-8",
   "bytes": 217088,
   "file": "63cfa121f3a9.txt"
- },
- {
-  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/27/veiligheidswaarschuwing-dille-kamille-vrachtwagen-oplegger-speelset-hout",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 217217,
-  "file": "f319ff78654e.txt"
  },
  {
   "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/26/veiligheidswaarschuwing-zenwave-elektrische-kruiken",

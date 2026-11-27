@@ -37,7 +37,7 @@
   "category": "food",
   "hazard": "foreign",
   "name": "Rode Kool met Appelen",
-  "brand": "Carrefour Classic’",
+  "brand": "Carrefour Classic",
   "reason": "Mogelijke aanwezigheid van stukjes glas",
   "details": "Naam: Rode Kool met Appelen; Merk: Carrefour Classic’; EAN: 3560071221058; Houdbaarheidsdatum (THT) : 01/10/2027; Lotnummer: LGK0002410156 RK; Inhoud: 720 ml",
   "lots": "LGK0002410156 RK",
@@ -238,7 +238,7 @@
   "brand": "Natur und Mensch Lebensbaum",
   "reason": "Te hoog gehalte aan pyrrolizidine alkaloïden",
   "details": "Productcategorie: kruiden; Naam van het product: Bohnenkraut, gerebelt und getrocknet; Merk: Natur und Mensch Lebensbaum; Lot: 103150 / THT: 31 august 2028; Lot: 104062 / THT: 31 december 2028; Lot: 104731 / THT: 31 maart 2029; Periode van verkoop: vanaf 12/12/2025 tot 30/10/2026; Aard van de verpakking: zakje; Gewicht: 25g",
-  "lots": "103150 /, 104062 /, 104731 /",
+  "lots": "103150, 104062, 104731",
   "action": "Biogarten Handels GmbH/DE vraagt haar klanten om dit product niet te consumeren en het terug te brengen naar het verkooppunt.",
   "source": "FAVV",
   "url": "https://favv-afsca.be/nl/producten/terugroeping-van-biogarten-handels-gmbhde"
