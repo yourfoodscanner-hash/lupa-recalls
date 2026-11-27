@@ -1,0 +1,27 @@
+{
+ "feeds": [],
+ "links": [],
+ "scripts": [
+  "https://www.nvwa.nl/_next/static/chunks/1lrmym-n28lw_.js",
+  "https://www.nvwa.nl/_next/static/chunks/0881cweaeoct0.js",
+  "https://www.nvwa.nl/_next/static/chunks/0rw2ss1788ye-.js",
+  "https://www.nvwa.nl/_next/static/chunks/turbopack-077hmtqrhcoji.js",
+  "https://www.nvwa.nl/_next/static/chunks/2gnb-6zci64l2.js",
+  "https://www.nvwa.nl/_next/static/chunks/3wifd505v699i.js",
+  "https://www.nvwa.nl/_next/static/chunks/2pj9q0yvyr8a_.js",
+  "https://www.nvwa.nl/_next/static/chunks/2bw46mddjm9gn.js",
+  "https://www.nvwa.nl/_next/static/chunks/3sa61csk6aonj.js",
+  "https://www.nvwa.nl/_next/static/chunks/400tsqbl3izwb.js",
+  "https://www.nvwa.nl/_next/static/chunks/3cucat9evd5qi.js",
+  "https://www.nvwa.nl/_next/static/chunks/0cz1d0mv5g_q7.js",
+  "https://www.nvwa.nl/_next/static/chunks/1x-2gg4rjotzt.js"
+ ],
+ "apiPaths": [
+  "${em.default.env.BRXM_URL}/site/resourceapi",
+  "${er}/api/feeds?${ea}",
+  "/api/form/${X}",
+  "/api/search",
+  "/api/search/voorlichting",
+  "https://sheets.googleapis.com/v4/spreadsheets"
+ ]
+}
