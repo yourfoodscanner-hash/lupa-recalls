@@ -7,8 +7,9 @@ https://yourfoodscanner-hash.github.io/lupa-recalls/v1/recalls.json
 ```
 
 U fajlu su službene obavijesti o povlačenju proizvoda (hrana, hrana za bebe, suplementi,
-kozmetika) iz EU, BiH, Hrvatske, Srbije i Slovenije. Svaka obavijest ima izvor i link na
-službenu obavijest. Aplikacija sama ne čita ničije stranice — čita samo ovaj fajl.
+kozmetika). Posao ih sam čita iz šest službenih izvora — Francuska, Njemačka, Austrija, Slovenija,
+Hrvatska, BiH (poglavlje 3) — a ručno se može dodati bilo koja druga (poglavlje 2). Svaka obavijest
+ima izvor i link na službenu obavijest. Aplikacija sama ne čita ničije stranice — čita samo ovaj fajl.
 
 Posao se pokreće sam, svaki dan u 03:10 UTC, i nakon svake izmjene u repozitoriju.
 
@@ -42,9 +43,11 @@ Posao se pokreće sam, svaki dan u 03:10 UTC, i nakon svake izmjene u repozitori
 Ako se adresa naloga ili repozitorija razlikuje, adresa fajla se mijenja — tada je treba
 promijeniti i u aplikaciji (`lib/recallsStore.ts`, `RECALLS_URL`) i u `config.json` ovdje.
 
-## 2. Kako dodati obavijest ručno (BiH, Hrvatska, Srbija, Slovenija …)
+## 2. Kako dodati obavijest ručno (samo ono što izvori ne daju)
 
-Obavijesti iz regije unose se ručno, iz službene objave nadležnog tijela. Najlakše direktno na
+Obavijesti iz BiH, Hrvatske, Slovenije, Njemačke, Austrije i Francuske posao čita sam (poglavlje 3) —
+njih **ne treba** unositi. Ručno se unosi samo ono čega u tim izvorima nema: npr. Srbija, ili
+obavijest neke druge zemlje EU. Unosi se iz službene objave nadležnog tijela. Najlakše direktno na
 GitHubu: otvori `curated/hr.json` (ili `ba.json`, `rs.json`, `si.json`; za ostale zemlje EU
 `eu.json`) → olovka (Edit) → dodaj obavijest u listu → **Commit changes**. Za oko minutu je
 u aplikaciji.
@@ -108,23 +111,76 @@ git pull --rebase origin main
 git push
 ```
 
-### Gdje gledati (službene objave)
+### Gdje gledati (službene objave koje posao ne čita sam)
 
-- BiH — Agencija za sigurnost hrane BiH: https://www.fsa.gov.ba/
-- Hrvatska — Državni inspektorat, „Obavijesti za potrošače”: https://dirh.gov.hr/
-- Slovenija — „Umiki in odpoklici živil” (https://www.gov.si/teme/umiki-in-odpoklici-zivil/); od 2024. se
-  obavijesti objavljuju na listi „Nevarni in neskladni izdelki”
-  (https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/).
 - Srbija — jedinstvena službena lista nije pronađena. Unosi samo iz saopštenja nadležnog tijela
   (Ministarstvo zdravlja, Ministarstvo poljoprivrede – Uprava za veterinu), s linkom na to saopštenje;
   vijest iz medija nije izvor.
+- Italija — Ministero della Salute, „Avvisi e richiami di prodotti alimentari”
+  (https://www.salute.gov.it/new/it/avvisi/avvisi-e-richiami-di-prodotti-alimentari/). Ne čita se
+  automatski: stranica je iza zaštite od botova (Gcore), a otvorenih podataka o povlačenjima nema.
+- Španija — AESAN, „Alertas alimentarias” (https://www.aesan.gob.es/alertas/alertas-alimentarias).
 - EU, neprehrambeni proizvodi (kozmetika) — Safety Gate: https://ec.europa.eu/safety-gate-alerts/
 
 ## 3. Izvori koje posao čita sam
 
-| Izvor | Zemlja | Stanje |
-|---|---|---|
-| RappelConso (`sources/rappelconso.js`) | Francuska | Radi (26. 11. 2026: 19 336 redova → 281 obavijest, 45 dana). Vidi napomenu ispod. |
+| Izvor (`config.json`) | Zemlja | Šta čita | Prozor | 26. 11. 2026. |
+|---|---|---|---|---|
+| RappelConso (`rappelconso`) | Francuska | otvoreni podaci DGCCRF (JSON) | 45 dana | 281 |
+| lebensmittelwarnung.de (`lebensmittelwarnung`) | Njemačka | RSS za hranu i za kozmetiku + stranica svake nove obavijesti | 45 dana | 41 |
+| AGES (`ages`) | Austrija | lista „Produktwarnungen & Produktrückrufe”, kategorije hrana, dječja hrana, suplementi, kozmetika | 60 dana | 10 |
+| GOV.SI „Nevarni in neskladni izdelki” (`govsi`) | Slovenija | službeni JSON izvoz liste | 180 dana | 103 |
+| HAPIH „Obavijesti za potrošače” (`hapih`) | Hrvatska | RSS kategorije + stranica svake nove obavijesti (tekst Državnog inspektorata) | 180 dana | 36 |
+| Agencija za sigurnost hrane BiH (`fsaba`) | BiH | WordPress API, kategorija „Povlačenje i opoziv hrane” | 180 dana | 1 |
+
+Prozor od 180 dana za Sloveniju, Hrvatsku i BiH je isti kao za ručno unesene obavijesti: ti izvori
+objavljuju malo, pa bi kraći prozor ostavio zemlju praznom. Izvor se isključuje u `config.json`
+(`"enabled": false`); izvor koji `config.json` ne navodi se ne čita.
+
+Svaki adapter je napisan **prema stvarnim odgovorima** tih servisa (26. 11. 2026, snimljeni na
+GitHub Actions) i testiran na njima (`test/fixtures/live/`, `test/sources.test.js`). Kad izvor
+promijeni oblik, adapter **ne pogađa**: stane s porukom šta je vidio, fajl se objavi s obavijestima tog
+izvora od prošlog puta, a nakon 3 dana šutnje pokretanje „padne” i stigne e-mail (poglavlje 4).
+
+**Šta se uzima, a šta ne — isto pravilo za sve izvore:**
+- naziv, datum, razlog, link — iz polja izvora; gdje izvor ima polja za seriju, rok, preporuku,
+  objašnjenje (Njemačka, Austrija), objavljuju se kako pišu;
+- iz slobodnog teksta (Hrvatska, Slovenija, BiH) **serija, rok i barkod uzimaju se samo kad ih tekst
+  označi** („lot L233249A2”, „rok uporabe: 27.11.2026”, „EAN 3831115348162”, „bar koda …”,
+  „GTIN broja …”), i to cijeli: ništa se ne sastavlja iz dijelova, broj u sredini rečenice nije
+  barkod, barkod mora imati ispravnu kontrolnu cifru, a broj koji dodjeljuje prodavnica (počinje s 2,
+  02, 04) se nikad ne objavljuje (`lib/text.js`, testovi u `test/text.test.js`). Kad nije sigurno,
+  polje ostaje prazno — sve je u službenoj obavijesti, jedan dodir dalje;
+- razlog: riječi same obavijesti („zbog utvrđene prisutnosti kikirikija …”, „Prisotnost bakterije
+  Listeria monocytogenes”); vrsta opasnosti (`hazard`) samo kad je riječi jasno imenuju, inače
+  `other`.
+
+**Šta se izostavlja (i broji u Summary):** sve osim hrane, hrane za bebe, suplemenata i kozmetike
+(igračke, posuđe i materijali u dodiru s hranom, hrana za životinje, električni uređaji …); u
+Sloveniji obavijesti za robu koja nije stigla do potrošača (zadržana na granici, nije puštena u
+promet, prodavana samo restoranima); u BiH objave koje nisu povlačenje (zabrana uvoza, odbijanje na
+granici, pojačane kontrole).
+
+**Povučene obavijesti (Hrvatska).** Kad Državni inspektorat povuče raniju obavijest („Opoziv
+obavijesti objavljene 19.06.2026.: …”), proizvod ipak nije opozvan: ne objavljuje se ni ta objava ni
+obavijest koju ona povlači.
+
+**Koliko se pita.** Slovenija i BiH: jedan zahtjev. Austrija: lista i 4 kategorije (stranica po
+stranica dok prozor ne prođe). Njemačka i Hrvatska: feed, pa stranica **samo za novu ili
+promijenjenu obavijest** (ono što je već jednom pročitano cijelo uzima se iz prethodnog fajla) — dva
+zahtjeva istovremeno, nikad više. Stranica koja se ne može pročitati: obavijest se objavi s onim što
+daje feed, a stranica se traži ponovo sljedećeg dana.
+
+Za pregled živih podataka bilo kojeg izvora: `node tools/probe.js <izvor>` (npr. `hapih`) — ispiše
+koliko bi obavijesti bilo objavljeno, zašto su ostale izostavljene i tri primjera.
+
+**Šta nije automatski i zašto:**
+- **EU Safety Gate** (kozmetika): pojedinačna obavijest se može pročitati
+  (`/safety-gate-alerts/public/api/notification/{id}`), ali lista po kategoriji ne — pretraga
+  odgovara „405”, a lista „najnovijih” nije potpuna. Bez pouzdane liste se ne objavljuje ništa.
+- **Italija:** zaštita od botova na stranici ministarstva; nema otvorenih podataka o povlačenjima.
+- **Španija:** moguće (AESAN lista + stranice obavijesti), ali jedna obavijest često obuhvata
+  desetak proizvoda — sljedeći korak.
 
 **Napomena o RappelConso.** Adapter je pisan bez pristupa živim podacima, a zatim usklađen s
 onim što je registar stvarno dao 26. 11. 2026 (19 336 redova):
@@ -151,10 +207,9 @@ Iz registra se uzimaju samo hrana, hrana za bebe, dodaci prehrani i kozmetika, z
 Serije i rokovi se **ne** čitaju iz registra (polje u kojem su nije provjereno, a pogrešno
 pročitana serija je gora od nikakve) — nalaze se u službenoj obavijesti, jedan dodir dalje.
 
-Izvor se isključuje u `config.json`: `"enabled": false`.
-
 Podaci RappelConso: DGCCRF, „Licence Ouverte / Open Licence 2.0” — izvor se navodi uz svaku
-obavijest (aplikacija ispisuje „RappelConso” i vodi na samu obavijest).
+obavijest (aplikacija ispisuje „RappelConso” i vodi na samu obavijest). Isto vrijedi za ostale
+izvore: uz svaku obavijest piše ko ju je objavio i link vodi na njegovu službenu obavijest.
 
 ## 4. Šta se dešava kad nešto pođe po zlu
 
@@ -177,7 +232,7 @@ Treba samo Node.js 20 ili noviji; nema ničega za instalirati.
 npm test                 # svi testovi
 npm run check            # provjeri ručno unesene obavijesti, ništa ne upisuje
 node lib/build.js        # pročitaj izvore i napravi fajl (kao GitHub)
-node tools/probe.js rappelconso
+node tools/probe.js rappelconso     # ili: lebensmittelwarnung, ages, govsi, hapih, fsaba
 ```
 
 ## 6. Format fajla (v1)

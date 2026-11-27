@@ -4,6 +4,10 @@
  *
  *   node tools/probe.js rappelconso
  *   node tools/probe.js rappelconso https://…/another-dataset/exports/json    (another address of the same source)
+ *   node tools/probe.js lebensmittelwarnung | govsi | hapih | fsaba | ages
+ *
+ * For RappelConso: the details below. For every other source: what the adapter reads live, how many
+ * notices it would publish and why the others not, and three of them as they would be published.
  *
  * Prints: the columns of the live data, how many rows there are, what the product-identification
  * field looks like and how many rows carry a barcode, how many notices would be published and why
@@ -22,6 +26,7 @@ async function main() {
   const config = require(path.join(__dirname, '..', 'config.json'));
   const settings = (config.sources && config.sources[name]) || {};
   const url = process.argv[3] || settings.url || adapter.defaultUrl;
+  if (name !== 'rappelconso') { await generic(adapter, settings, config, url); return; }
   console.log(`Izvor: ${name}\nAdresa: ${url}\n`);
   let raw;
   try {
@@ -69,6 +74,24 @@ async function main() {
     console.error(`Adapter je stao: ${e.message}`);
     process.exitCode = 1;
   }
+}
+
+/** Any source other than RappelConso: the adapter itself, live. */
+async function generic(adapter, settings, config, url) {
+  const since = new Date(Date.now() - (settings.windowDays ?? 45) * 86400000).toISOString().slice(0, 10);
+  console.log(`Izvor: ${adapter.name} (${adapter.country})\nAdresa: ${url}\nOd: ${since}${config.sources && config.sources[adapter.name] ? '' : '\n(config.json ovaj izvor ne navodi — posao ga ne čita)'}\n`);
+  let got;
+  try {
+    got = await adapter.fetchNotices({ since, url, userAgent: config.userAgent });
+  } catch (e) { console.error(`Adapter je stao: ${e.message}`); process.exitCode = 1; return; }
+  const ok = []; const why = {};
+  for (const n of got.notices) { const c = C.checkNotice(n); if (c.ok) ok.push(c.notice); else why[c.why.split(' ')[0]] = (why[c.why.split(' ')[0]] ?? 0) + 1; }
+  console.log(`Pročitano: ${got.seen} · bilo bi objavljeno: ${ok.length} · s barkodom: ${ok.filter((n) => n.gtins).length} · sa serijom: ${ok.filter((n) => n.lots).length}`);
+  console.log('Izostavljeno u adapteru:', got.skipped);
+  console.log('Izostavljeno na provjeri:', why);
+  const kinds = {}; for (const n of ok) kinds[`${n.category}/${n.hazard}`] = (kinds[`${n.category}/${n.hazard}`] ?? 0) + 1;
+  console.log('Po kategoriji/vrsti:', kinds, '\n');
+  console.log('Tri obavijesti, kako bi bile objavljene:\n', JSON.stringify(ok.slice(0, 3), null, 1));
 }
 
 main();
