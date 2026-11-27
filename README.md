@@ -306,7 +306,8 @@ Opisan u `lib/contract.js`. Provjere u ovom repozitoriju su **iste** one koje ap
 Posao objavljuje dva oblika istih obavijesti:
 - **v2 — fajl po zemlji** (`v2/index.json` i `v2/fr.json`, `v2/us.json` …): indeks kaže koje zemlje
   imaju fajl, koliko obavijesti i znakova ima svaki i datum najnovije; fajl zemlje ima samo
-  obavijesti te zemlje (`"country"` mora biti ista kao zemlja fajla). Zemlje: one iz v1 i **US**.
+  obavijesti te zemlje (`"country"` mora biti ista kao zemlja fajla). Zemlje: one iz v1, **US** i
+  Evropa izvan EU — GB, CH, NO, IS, MK, MD, UA, ME, AL (`COUNTRIES_V2`; zemlja bez izvora nema fajl).
   Svaki fajl ima svoje granice (800 obavijesti, 500 000 znakova), pa mnogo obavijesti jedne zemlje
   nikad ne istiskuje drugu. `group` povezuje obavijesti i preko fajlova. Zemlja koja više nema
   nijednu obavijest nema ni fajl ni red u indeksu.
