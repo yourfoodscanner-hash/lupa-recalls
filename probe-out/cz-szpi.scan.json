@@ -1,0 +1,76 @@
+{
+ "feeds": [
+  {
+   "href": "https://www.szpi.gov.cz/rss.aspx",
+   "type": "application/rss+xml",
+   "title": "&#xA;        Státní zemědělská a potravinářská inspekce&#xA;          | Hlavní stránka"
+  }
+ ],
+ "links": [
+  {
+   "href": "https://play.google.com/store/apps/details?id=cz.futurasoft.android.potravinynapranyri",
+   "text": "Stáhněte si mobilní aplikaci"
+  },
+  {
+   "href": "https://itunes.apple.com/cz/app/potraviny-na-pranyri/id750792889",
+   "text": "Stáhněte si mobilní aplikaci"
+  },
+  {
+   "href": "https://www.potravinynapranyri.cz/",
+   "text": "SZPI je organizační složka státu, která je přímo podřízená ministerstvu zemědělství. Je orgánem státního dozoru zejména nad bezpečností, jak"
+  },
+  {
+   "href": "https://www.szpi.gov.cz/clanek/potraviny-na-pranyri.aspx",
+   "text": "Potraviny na pranýři"
+  },
+  {
+   "href": "https://www.szpi.gov.cz/clanek/prodejce-makro-informuje-o-stazeni-potraviny.aspx",
+   "text": "20. 10. 2026"
+  },
+  {
+   "href": "https://www.szpi.gov.cz/clanek/szpi-upozornuje-na-opetovny-vyskyt-drive-stahovane-kojenecke-vyzivy-nutrilon-v-prodejnach-kaufland.aspx",
+   "text": "15. 10. 2026"
+  },
+  {
+   "href": "https://www.szpi.gov.cz/clanek/aktualni-informace-k-potencialne-nebezpecne-sarzi-vody-natura.aspx",
+   "text": "15. 09. 2026"
+  },
+  {
+   "href": "https://www.facebook.com/potravinynapranyri/",
+   "text": "@potravinynapranyri"
+  },
+  {
+   "href": "https://www.instagram.com/potravinynapranyri/",
+   "text": "potravinynapranyri"
+  },
+  {
+   "href": "http://twitter.com/NaPranyri",
+   "text": "@NaPranyri"
+  },
+  {
+   "href": "https://www.szpi.gov.cz/dokumenty-ke-stazeni.aspx",
+   "text": "Dokumenty a formuláře"
+  },
+  {
+   "href": "https://www.szpi.gov.cz/rss.aspx",
+   "text": "RSS kanál"
+  }
+ ],
+ "scripts": [
+  "https://www.szpi.gov.cz/design/js/jquery.js?v=2",
+  "https://www.szpi.gov.cz/design/jquery-ui/jquery-ui.min.js?v=3",
+  "https://www.szpi.gov.cz/design/superfish/js/superfish.min.js?v=10",
+  "https://www.szpi.gov.cz/design/bxslider/jquery.bxslider.min.js?v=2",
+  "https://www.szpi.gov.cz/design/js/design-govcz-scripts.min.js",
+  "https://www.szpi.gov.cz/design/js/design-govcz-init.js",
+  "https://www.szpi.gov.cz/design/js/main.js?v=38",
+  "https://www.google.com/recaptcha/api.js",
+  "https://www.szpi.gov.cz/design/js/jquery.map.js",
+  "https://www.szpi.gov.cz/design/fancybox/jquery.fancybox-1.3.4.js?v=1",
+  "https://www.google.com/recaptcha/api.js",
+  "https://www.szpi.gov.cz/design/js/design-govcz-service.min.js"
+ ],
+ "apiPaths": [
+  "/service.aspx"
+ ]
+}

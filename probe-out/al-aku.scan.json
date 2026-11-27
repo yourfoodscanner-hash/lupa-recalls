@@ -1,0 +1,61 @@
+{
+ "feeds": [
+  {
+   "href": "https://aku.gov.al/feed/",
+   "type": "application/rss+xml",
+   "title": "Autoriteti Kombëtar i Ushqimit &raquo; Feed"
+  },
+  {
+   "href": "https://aku.gov.al/comments/feed/",
+   "type": "application/rss+xml",
+   "title": "Autoriteti Kombëtar i Ushqimit &raquo; Comments Feed"
+  },
+  {
+   "href": "https://aku.gov.al/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faku.gov.al%2F",
+   "type": "application/json+oembed",
+   "title": "oEmbed (JSON)"
+  },
+  {
+   "href": "https://aku.gov.al/wp-json/oembed/1.0/embed?url=https%3A%2F%2Faku.gov.al%2F&#038;format=xml",
+   "type": "text/xml+oembed",
+   "title": "oEmbed (XML)"
+  },
+  {
+   "href": "https://aku.gov.al/wp-json/wp/v2/pages/2",
+   "type": "application/json",
+   "title": "JSON"
+  }
+ ],
+ "links": [],
+ "scripts": [
+  "https://aku.gov.al/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+  "https://aku.gov.al/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+  "https://aku.gov.al/wp-content/plugins/ele-custom-skin/modules/mobile-menu/assets/js/ecs-mobile-menu.min.js?ver=4.3.11",
+  "https://aku.gov.al/wp-content/plugins/ele-custom-skin/assets/js/ecs_ajax_pagination.min.js?ver=4.3.11",
+  "https://aku.gov.al/wp-content/plugins/ari-fancy-lightbox/assets/fancybox/jquery.fancybox.min.js?ver=1.4.1",
+  "https://aku.gov.al/wp-content/plugins/ele-custom-skin/assets/js/ecs.min.js?ver=4.3.11",
+  "https://aku.gov.al/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+  "https://aku.gov.al/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=1.9.5",
+  "https://aku.gov.al/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0",
+  "https://aku.gov.al/wp-content/plugins/ele-custom-skin/modules/color-scheme/assets/js/ecs-color-switcher.min.js?ver=4.3.11",
+  "https://aku.gov.al/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.js?ver=8.4.5",
+  "https://aku.gov.al/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.9.0",
+  "https://aku.gov.al/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.9.0",
+  "https://aku.gov.al/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2",
+  "https://aku.gov.al/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.9.0",
+  "https://aku.gov.al/wp-content/plugins/ele-custom-skin/modules/container-layout/assets/js/ecs-slider.min.js?ver=4.3.11",
+  "https://aku.gov.al/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1",
+  "https://aku.gov.al/wp-includes/js/imagesloaded.min.js?ver=5.0.0",
+  "https://aku.gov.al/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1",
+  "https://aku.gov.al/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+  "https://aku.gov.al/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+  "https://aku.gov.al/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.js?ver=7.1.5",
+  "https://aku.gov.al/wp-content/plugins/ele-custom-skin-pro/assets/js/ecspro.js?ver=3.2.4",
+  "https://aku.gov.al/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.9.1",
+  "https://aku.gov.al/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.9.1",
+  "https://aku.gov.al/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.9.1"
+ ],
+ "apiPaths": [
+  "https://www.pinterest.com/pin/create/button/?url={{url}}&description={{descr}}&media={{media}}"
+ ]
+}

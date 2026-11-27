@@ -1,0 +1,30 @@
+{
+ "feeds": [],
+ "links": [
+  {
+   "href": "https://pta.agri.ee/tarbijale-ja-eraisikule/linnu-ja-loomapidamine/loomade-vedu",
+   "text": "Loomade vedu"
+  },
+  {
+   "href": "https://pta.agri.ee/vaikeaiapidaja-teekond-kullusliku-saagini",
+   "text": "Väikeaiapidajale"
+  },
+  {
+   "href": "https://pta.agri.ee/tarbijale-ja-eraisikule/linnu-ja-loomapidamine/haigused-ja-ohtlikud-loomataudid",
+   "text": "Haigused ja ohtlikud loomataudid"
+  },
+  {
+   "href": "https://pta.agri.ee/rss-feeds/rss.xml",
+   "text": ""
+  }
+ ],
+ "scripts": [
+  "https://pta.agri.ee/sites/default/files/js/js_ldvVyvy6NCR3EPElKmItUk4m2PRjlysjPuJucNd7Hrc.js?scope=header&delta=0&language=et&theme=vp_distro_theme&include=eJxljlESgyAMRC-k5khMAlGoQJyA1uOX2g9p-5XNvp2dxQeeJgo6VsBbT9WrELEOtAPtk_Vs1_bNaJlEVrOFkyN8v0PCKkngc4ZjM42VigFu2ZqwktQ3daFUFWNFGZYohHGMIa-jtqofvLn5YqUDRWzAaIKVXKB4VB4v3UWq58RtT8j_piTO_Ywn0yyaIHEpuPCb8NEiYDFydqidE7PTF4F8ezk",
+  "https://pta.agri.ee/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+  "https://pta.agri.ee/profiles/vp_distro/themes/vp_distro_theme/assets/vendor/jquery/jquery.min.js?v=4.0.0",
+  "https://pta.agri.ee/sites/default/files/js/js_DmyDWTzdy4wOH9Tp7ne1MlzJ3qi6ukHgCdQB2O0ttdI.js?scope=footer&delta=1&language=et&theme=vp_distro_theme&include=eJxljlESgyAMRC-k5khMAlGoQJyA1uOX2g9p-5XNvp2dxQeeJgo6VsBbT9WrELEOtAPtk_Vs1_bNaJlEVrOFkyN8v0PCKkngc4ZjM42VigFu2ZqwktQ3daFUFWNFGZYohHGMIa-jtqofvLn5YqUDRWzAaIKVXKB4VB4v3UWq58RtT8j_piTO_Ywn0yyaIHEpuPCb8NEiYDFydqidE7PTF4F8ezk",
+  "https://buerokratt.agri.ee/widget_bundle.js",
+  "https://pta.agri.ee/sites/default/files/js/js_LPjzARqyF5GwqqtbteppyttKgKMwzj6h8BQrY82qEBE.js?scope=footer&delta=3&language=et&theme=vp_distro_theme&include=eJxljlESgyAMRC-k5khMAlGoQJyA1uOX2g9p-5XNvp2dxQeeJgo6VsBbT9WrELEOtAPtk_Vs1_bNaJlEVrOFkyN8v0PCKkngc4ZjM42VigFu2ZqwktQ3daFUFWNFGZYohHGMIa-jtqofvLn5YqUDRWzAaIKVXKB4VB4v3UWq58RtT8j_piTO_Ywn0yyaIHEpuPCb8NEiYDFydqidE7PTF4F8ezk"
+ ],
+ "apiPaths": []
+}

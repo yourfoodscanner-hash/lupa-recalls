@@ -1,0 +1,23 @@
+{
+ "feeds": [],
+ "links": [
+  {
+   "href": "https://www.ansa.gov.md/media/rechemare-retragere",
+   "text": "Rechemare / retragere"
+  },
+  {
+   "href": "https://www.ansa.gov.md/media/comunicate-de-presa/ansa-consolideaza-implementarea-cerintelor-uniunii-europene-privind",
+   "text": "ANSA consolidează implementarea cerințelor Uniunii Europene privind siguranța produselor din carne destinate exportului"
+  }
+ ],
+ "scripts": [
+  "https://www.ansa.gov.md/themes/ansa/js/ansa-cookie-consent.js",
+  "https://www.ansa.gov.md/core/assets/vendor/jquery/jquery.min.js?v=3.6.3",
+  "https://www.ansa.gov.md/themes/ansa/bootstrap/js/bootstrap.min.js?v=1.x",
+  "https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js",
+  "https://www.ansa.gov.md/themes/ansa/js/Simple-Slider.js?v=1.x",
+  "https://www.ansa.gov.md/themes/ansa/js/uhpv-full.min.js?v=1.x",
+  "https://www.ansa.gov.md/themes/ansa/js/script.js?v=1.x"
+ ],
+ "apiPaths": []
+}

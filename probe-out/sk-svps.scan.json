@@ -1,0 +1,27 @@
+{
+ "feeds": [
+  {
+   "href": "https://svps.sk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsvps.sk%2F",
+   "title": "oEmbed (JSON)"
+  },
+  {
+   "href": "https://svps.sk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsvps.sk%2F&#038;format=xml",
+   "title": "oEmbed (XML)"
+  }
+ ],
+ "links": [],
+ "scripts": [
+  "https://svps.sk/wp-content/plugins/foobox-image-lightbox-premium/pro/js/foobox.min.js?ver=2.7.43",
+  "https://svps.sk/wp-content/plugins/foobox-image-lightbox-premium/pro/js/foobox-fotomoto.js?ver=7.1.3",
+  "https://svps.sk/wp-content/themes/svps2024/js/owl.carousel.min.js?ver=7.1.3",
+  "https://svps.sk/wp-content/plugins/zs-feedback/assets/js/zs-feedback.js?ver=1.2.0",
+  "https://svps.sk/wp-includes/js/hoverIntent.min.js?ver=1.10.2",
+  "https://svps.sk/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.10.5",
+  "https://svps.sk/wp-content/plugins/megamenu-pro/assets/public.js?ver=2.4.6"
+ ],
+ "apiPaths": [
+  "//vimeo.com/api/v2/video/",
+  "//vzaar.com/api/videos/",
+  "/wp-json/zs-feedback/v1/"
+ ]
+}

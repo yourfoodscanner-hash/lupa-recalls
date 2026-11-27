@@ -1,0 +1,61 @@
+{
+ "feeds": [
+  {
+   "href": "https://www.vet.minpolj.gov.rs/feed/",
+   "type": "application/rss+xml",
+   "title": "Управа за ветерину &raquo; довод"
+  },
+  {
+   "href": "https://www.vet.minpolj.gov.rs/comments/feed/",
+   "type": "application/rss+xml",
+   "title": "Управа за ветерину &raquo; довод коментара"
+  },
+  {
+   "href": "https://www.vet.minpolj.gov.rs/wp-json/wp/v2/pages/5",
+   "type": "application/json",
+   "title": "JSON"
+  },
+  {
+   "href": "https://www.vet.minpolj.gov.rs/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vet.minpolj.gov.rs%2F",
+   "type": "application/json+oembed",
+   "title": "oEmbed (JSON)"
+  },
+  {
+   "href": "https://www.vet.minpolj.gov.rs/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vet.minpolj.gov.rs%2F&#038;format=xml",
+   "type": "text/xml+oembed",
+   "title": "oEmbed (XML)"
+  }
+ ],
+ "links": [],
+ "scripts": [
+  "https://www.vet.minpolj.gov.rs/lib/js/jquery/jquery.min.js",
+  "https://www.vet.minpolj.gov.rs/lib/js/jquery/jquery-migrate.min.js",
+  "https://www.vet.minpolj.gov.rs/modules/198aea64f4/res/js/cookies/language-cookie.js",
+  "https://www.vet.minpolj.gov.rs/modules/9d03522b79/includes/portfolio//lib/js/isotope.min.js",
+  "https://www.vet.minpolj.gov.rs/modules/9d03522b79/includes/portfolio//lib/js/imagesloaded.min.js",
+  "https://www.googletagmanager.com/gtag/js?id=UA-246520219-1",
+  "https://www.vet.minpolj.gov.rs/modules/9d03522b79/assets/js/shortcodes.js",
+  "https://www.vet.minpolj.gov.rs/lib/js/imagesloaded.min.js",
+  "https://www.vet.minpolj.gov.rs/lib/js/masonry.min.js",
+  "https://www.vet.minpolj.gov.rs/lib/js/jquery/jquery.masonry.min.js",
+  "https://www.vet.minpolj.gov.rs/modules/8c898cdbc3/assets/js/wppm.frontend.js",
+  "https://www.vet.minpolj.gov.rs/modules/8c898cdbc3/assets/js/jquery.easing.min.js",
+  "https://www.vet.minpolj.gov.rs/modules/8c898cdbc3/assets/js/owl.carousel.min.js",
+  "https://www.vet.minpolj.gov.rs/modules/8c898cdbc3/assets/js/jquery.marquee.min.js",
+  "https://www.vet.minpolj.gov.rs/modules/4547984507/js/ssba.js",
+  "https://www.vet.minpolj.gov.rs/modules/9d03522b79/assets/3rd/jquery.flexslider-min.js",
+  "https://www.vet.minpolj.gov.rs/vet/57336afd1f/js/html5shiv.js",
+  "https://www.vet.minpolj.gov.rs/vet/57336afd1f/js/respond.min.js",
+  "https://www.vet.minpolj.gov.rs/vet/57336afd1f/js/jquery.easing.js",
+  "https://www.vet.minpolj.gov.rs/vet/57336afd1f/js/jquery-waypoints.js",
+  "https://www.vet.minpolj.gov.rs/vet/57336afd1f/js/matchMedia.js",
+  "https://www.vet.minpolj.gov.rs/vet/57336afd1f/js/jquery.fitvids.js",
+  "https://www.vet.minpolj.gov.rs/vet/57336afd1f/js/jquery.magnific-popup.min.js",
+  "https://www.vet.minpolj.gov.rs/vet/57336afd1f/js/owl.carousel.js",
+  "https://www.vet.minpolj.gov.rs/vet/57336afd1f/js/main.js",
+  "https://www.vet.minpolj.gov.rs/modules/782e22283d/assets/js/app.min.js",
+  "https://www.vet.minpolj.gov.rs/modules/041dc5d622/assets/js/dist/js_composer_front.min.js",
+  "https://www.vet.minpolj.gov.rs/modules/df1464318f/assets/js/ultp.min.js"
+ ],
+ "apiPaths": []
+}

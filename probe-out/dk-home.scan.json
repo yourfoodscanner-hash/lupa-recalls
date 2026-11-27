@@ -1,0 +1,31 @@
+{
+ "feeds": [],
+ "links": [
+  {
+   "href": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter",
+   "text": "Tilbagekaldte produkter"
+  },
+  {
+   "href": "https://foedevarestyrelsen.dk/handlers/DynamicRss.ashx?id=8c2cdc12-6a58-43d1-8b4e-97aa96dedd0c",
+   "text": "RSS"
+  }
+ ],
+ "scripts": [
+  "https://cdn2.gopublic.dk/Assets/GoBasic/Plugins/dompurify/purify.min.js",
+  "https://cdn2.gopublic.dk/Assets/GoBasic/Applications/Release/sanitizeHtml.min.js",
+  "https://cdn2.gopublic.dk/Assets/GoBasic/Plugins/fslightbox/fslightbox.js",
+  "https://consent.cookiebot.eu/uc.js",
+  "https://siteimproveanalytics.com/js/siteanalyze_260336.js",
+  "https://static.getkarla.ai/static/js/main.js?key=Dy98uLqLyC1bqjqqARBbdid6YI4A1QRlyT3CDipje1g",
+  "https://cdn2.gopublic.dk/Assets/GoBasic/Applications/Release/application.min.js",
+  "https://cdn2.gopublic.dk/Assets/GoBasic/Applications/Release/downloadRestrictions.min.js",
+  "https://cdn2.gopublic.dk/Assets/GoBasic/Applications/Release/cookies.min.js",
+  "https://cdn2.gopublic.dk/Assets/GoBasic/Applications/Release/navigation.min.js",
+  "https://cdn2.gopublic.dk/Assets/GoBasic/Applications/Release/popUpFrame.min.js",
+  "https://cdn2.gopublic.dk/Assets/GoBasic/Applications/Release/focusVisible.min.js",
+  "https://cdn2.gopublic.dk/Assets/GoBasic/Applications/Release/itemList.min.js",
+  "https://cdn2.gopublic.dk/Assets/Clients/fvst/Themes/FVST/Release/theme.min.js?timestamp=202611250934517888",
+  "https://www.foedevarestyrelsen.dk/_framework/blazor.web.js"
+ ],
+ "apiPaths": []
+}

@@ -1,0 +1,25 @@
+{
+ "feeds": [],
+ "links": [],
+ "scripts": [
+  "https://webgate.ec.europa.eu/rasff-window/polyfills.js",
+  "https://webgate.ec.europa.eu/rasff-window/scripts.js",
+  "https://webgate.ec.europa.eu/rasff-window/main.js"
+ ],
+ "apiPaths": [
+  "./backend/serviceNow/incident",
+  "/consumer/search",
+  "/notification/search/consolidated",
+  "/notification/search/export",
+  "/screen/feedback",
+  "http://localhost:3000/api/fake-api",
+  "https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission",
+  "https://food.ec.europa.eu/safety/rasff-food-and-feed-safety-alerts/members-rasff-network_en",
+  "https://gisco-services.ec.europa.eu",
+  "https://webgate.ec.europa.eu/rasff-window/screen/search",
+  "screen/feedback",
+  "screen/logged/search",
+  "screen/search",
+  "src/app/pages/feedback/feedback.component.ts"
+ ]
+}

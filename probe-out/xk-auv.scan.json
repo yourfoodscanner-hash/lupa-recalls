@@ -1,0 +1,26 @@
+{
+ "feeds": [],
+ "links": [],
+ "scripts": [
+  "https://auv-ks.net/_next/static/chunks/fd9d1056-771c0c2b17eaf2f9.js",
+  "https://auv-ks.net/_next/static/chunks/117-d9c43cb229ef702b.js",
+  "https://auv-ks.net/_next/static/chunks/main-app-1c9daae6dc3fef31.js",
+  "https://auv-ks.net/_next/static/chunks/972-e3da0395212cb000.js",
+  "https://auv-ks.net/_next/static/chunks/755-6ea49ff7e9e0f258.js",
+  "https://auv-ks.net/_next/static/chunks/763-cd5166ccd8a6f0f5.js",
+  "https://auv-ks.net/_next/static/chunks/421-a6e4375e3ec505cb.js",
+  "https://auv-ks.net/_next/static/chunks/54-6dc9b48972df5d86.js",
+  "https://auv-ks.net/_next/static/chunks/147-38ac16605fdac3d2.js",
+  "https://auv-ks.net/_next/static/chunks/app/page-b39465cb1a48e54b.js",
+  "https://auv-ks.net/_next/static/chunks/328-a17fe8b9375c7ab9.js",
+  "https://auv-ks.net/_next/static/chunks/app/layout-dbcdffbfa2c39ab3.js",
+  "https://auv-ks.net/_next/static/chunks/polyfills-42372ed130431b0a.js",
+  "https://auv-ks.net/_next/static/chunks/webpack-4ee7bc845c049703.js"
+ ],
+ "apiPaths": [
+  "/api/broadcast",
+  "/en/terms-of-service",
+  "/terms-of-service",
+  "rest/v1"
+ ]
+}

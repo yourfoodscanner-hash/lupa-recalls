@@ -1,0 +1,88 @@
+{
+ "feeds": [],
+ "links": [
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenia",
+   "text": "Ostrzeżenia"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-wykrycie-obecnosci-bakterii-listeria-monocytogenes-w-filetach-sledziowych-w-oleju",
+   "text": "Ostrzeżenie publiczne dotyczące żywności: wykrycie obecności bakterii Listeria monocytogenes w filetach śledziowych w oleju"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-stwierdzenie-przekroczenia-najwyzszego-dopuszczalnego-poziomu-ochratoksyny-a-w-mielonej-kawie",
+   "text": "Ostrzeżenie publiczne dotyczące żywności: stwierdzenie przekroczenia najwyższego dopuszczalnego poziomu ochratoksyny A w mielonej kawie"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-wyrobu-do-kontaktu-z-zywnoscia-migracja-formaldehydu-z-kubka-z-melaminy",
+   "text": "Ostrzeżenie publiczne dotyczące wyrobu do kontaktu z żywnością: migracja formaldehydu z kubka z melaminy"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-stwierdzenie-obecnosci-plesni-w-wodzie-mineralnej",
+   "text": "Ostrzeżenie publiczne dotyczące żywności: Stwierdzenie obecności pleśni w wodzie mineralnej"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/aktualizacja-ostrzezenia-publicznego-dotyczacego-zywnosci-z-dnia-28102026-stwierdzenie-substancji-psychoaktywnej-w-suplemencie-diety",
+   "text": "Aktualizacja ostrzeżenia publicznego dotyczącego żywności z dnia 28.10.2026: Stwierdzenie substancji psychoaktywnej w suplemencie diety"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-mozliwa-obecnosc-fragmentow-szkla-w-jednej-partii-puddingu-proteinowego",
+   "text": "Ostrzeżenie publiczne dotyczące żywności: możliwa obecność fragmentów szkła w jednej partii puddingu proteinowego"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-stwierdzenie-substancji-psychoaktywnej-w-suplemencie-diety",
+   "text": "Ostrzeżenie publiczne dotyczące żywności: stwierdzenie substancji psychoaktywnej w suplemencie diety"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-wyrobu-do-kontaktu-z-zywnoscia-migracja-pierwszorzedowych-amin-aromatycznych-z-zestawu-przyborow-kuchennych2",
+   "text": "Ostrzeżenie publiczne dotyczące wyrobu do kontaktu z żywnością: Migracja pierwszorzędowych amin aromatycznych z zestawu przyborów kuchennych"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-wykrycie-obecnosci-bakterii-listeria-monocytogenes-w-jednej-partii-salami",
+   "text": "Ostrzeżenie publiczne dotyczące żywności: wykrycie obecności bakterii Listeria monocytogenes w jednej partii salami"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-mozliwa-obecnosc-fragmentow-szkla-w-jednej-partii-wody-butelkowanej",
+   "text": "Ostrzeżenie publiczne dotyczące żywności: możliwa obecność fragmentów szkła w jednej partii wody butelkowanej"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenia?page=9&size=10",
+   "text": "9"
+  },
+  {
+   "href": "https://www.gov.pl/web/gis/ostrzezenia?page=2&size=10",
+   "text": ""
+  },
+  {
+   "href": "https://goo.gl/maps/k4Q5nfHKu1Hxe9k39",
+   "text": "Pokaż na mapie Link otworzy się w nowym oknie"
+  }
+ ],
+ "scripts": [
+  "https://www.gov.pl/scripts/polyfills/html5shiv-3.7.3.min.js",
+  "https://www.gov.pl/scripts/polyfills/modernizr-custom.js",
+  "https://www.gov.pl/scripts/polyfills/polyfills.js",
+  "https://www.gov.pl/scripts/vendors/jquery-3.7.1.min.js",
+  "https://www.gov.pl/scripts/vendors/jquery-ui-1.13.2.min.js",
+  "https://www.gov.pl/scripts/vendors/modaal.min.js",
+  "https://www.gov.pl/scripts/vendors/b_util.js",
+  "https://www.gov.pl/scripts/vendors/b_tab_orginal.js",
+  "https://www.gov.pl/scripts/vendors/validate.min.js",
+  "https://www.gov.pl/scripts/gov_context.js?locale=pl_PL",
+  "https://www.gov.pl/scripts/accordion.js",
+  "https://www.gov.pl/scripts/govpl.js",
+  "https://www.gov.pl/scripts/bundle-d06e3b45586.js",
+  "https://www.gov.pl/scripts/utils.js",
+  "https://www.gov.pl/scripts/body_end.js",
+  "https://www.gov.pl/scripts/register_metadata.js",
+  "https://www.gov.pl/scripts/zawbi_banner.js"
+ ],
+ "apiPaths": [
+  "https://css-tricks.com/webkit-html5-search-inputs/",
+  "https://url.spec.whatwg.org/#interface-urlsearchparams",
+  "https://web.archive.org/web/20121119094620/http://www.w3.org/TR/html5/media-elements.html#text-track-api",
+  "https://www.w3.org/TR/file-system-api/",
+  "https://www.w3.org/TR/quota-api/",
+  "https://www.wufoo.com/html5/search-type/"
+ ]
+}
