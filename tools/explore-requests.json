@@ -1,8 +1,5 @@
 [
- { "name": "fda-enf", "url": "https://api.fda.gov/food/enforcement.json?search=report_date:[20261015+TO+20261127]&limit=100&sort=report_date:desc" },
- { "name": "fda-enf-count", "url": "https://api.fda.gov/food/enforcement.json?search=report_date:[20260901+TO+20261127]&count=report_date" },
- { "name": "fda-rss", "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml" },
- { "name": "fda-recalls-page", "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts", "scan": true },
- { "name": "fsis-api", "url": "https://www.fsis.usda.gov/fsis/api/recall/v/1", "max": 20000000 },
- { "name": "fsis-rss", "url": "https://www.fsis.usda.gov/fsis-content/rss/recalls.xml" }
+ { "name": "ires-event", "url": "https://www.accessdata.fda.gov/scripts/ires/index.cfm?Event=100258" },
+ { "name": "ires-event-lc", "url": "https://www.accessdata.fda.gov/scripts/ires/index.cfm?event=100258" },
+ { "name": "fda-enf-event", "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100258&limit=100" }
 ]
