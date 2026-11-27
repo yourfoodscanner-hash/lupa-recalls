@@ -116,7 +116,7 @@ git push
 - Srbija — jedinstvena službena lista nije pronađena. Unosi samo iz saopštenja nadležnog tijela
   (Ministarstvo zdravlja, Ministarstvo poljoprivrede – Uprava za veterinu), s linkom na to saopštenje;
   vijest iz medija nije izvor.
-- Italija, Španija i ostale članice EU bez vlastitog adaptera — čitaju se preko EU RASFF portala
+- Italija, Portugal i ostale članice EU bez vlastitog adaptera — čitaju se preko EU RASFF portala
   (poglavlje 3); ručno se unosi samo ono što tamo nema (npr. serija ili barkod iz službene objave
   ministarstva, kao posebna obavijest s linkom na nju).
 - EU, neprehrambeni proizvodi (kozmetika) — Safety Gate: https://ec.europa.eu/safety-gate-alerts/
@@ -144,7 +144,11 @@ git push
 | FSA food alerts (`fsa`) — samo v2 | Ujedinjeno Kraljevstvo | FSA API (`data.food.gov.uk/food-alerts`, `_view=full`): allergy alerts, recall notices, alerts for action | 45 dana | 20 (27. 11.) |
 | RecallSwiss (`recallswiss`) — samo v2 | Švicarska | servis registra RecallSwiss, sektor „Lebensmittel”, objave BLV-a | 60 dana | 35 (27. 11.) |
 | Mattilsynet „Tilbakekallinger” (`mattilsynet`) — samo v2 | Norveška | lista teme „Mat og drikke” + stranica svakog novog opoziva | 60 dana | 13 (27. 11.) |
-| EU RASFF Consumers' Portal (`rasff`) | 13 zemalja EU (vidi niže) | lista po zemlji (RSS) + javni JSON svake notifikacije | 30 dana | 87 (27. 11.) |
+| MAST „Innkallanir” (`mast`) — samo v2 | Island | lista opoziva (sve od 2022. na jednoj stranici) + stranica svakog novog | 60 dana | 12 (27. 11.) |
+| АХВ „Отповикување небезбедни производи” (`fva`) — samo v2 | Sjeverna Makedonija | lista opoziva + stranica svakog novog | 365 dana | 1 (27. 11.) |
+| AESAN „Red de alerta alimentaria” (`aesan`) | Španija | lista upozorenja (20 po stranici) + stranica svakog novog | 45 dana | 14 (27. 11.) |
+| ALVA „Alertes alimentaires” (`alva`) | Luksemburg | RSS liste (zadnjih 50) + stranica svakog novog upozorenja | 45 dana | 26 (27. 11.) |
+| EU RASFF Consumers' Portal (`rasff`) | 11 zemalja EU (vidi niže) | lista po zemlji (RSS) + javni JSON svake notifikacije | 30 dana | 65 (27. 11.) |
 
 Prozor od 180 dana za Sloveniju, Hrvatsku i BiH je isti kao za ručno unesene obavijesti: ti izvori
 objavljuju malo, pa bi kraći prozor ostavio zemlju praznom.
@@ -157,6 +161,21 @@ sektoru hrane. BLV često objavi i svoje javno upozorenje i opoziv firme za iste
 se izostavlja kad postoji opoziv tačno istog proizvoda (naziv iz registra) u razmaku od 3 dana; tekst
 je njemački. Norveška: tema „Mat og drikke”; opozivi s liste „Matkontaktmaterialer” (posuđe) se
 izostavljaju; polja proizvoda („Produktnavn”, „Best før”, „GTIN”, „Lot-nummer”) su označena.
+
+**Island i Sjeverna Makedonija (samo v2), Španija i Luksemburg.** Island: MAST-ova lista
+„Innkallanir”; stranica opoziva ima vrijednosti označene po proizvodu („Vörumerki”, „Vöruheiti” ili
+„Vara”, „Strikamerki”, „Lotunúmer”, „Best fyrir”, „Síðasti notkunardagur”); „Allar lotur” / „Öll” nije
+serija, a „Lota 25/16/11, best fyrir 12.06.2028” je serija i rok. Razlog je naslov opoziva („Aðskotahlutur
+í orkustykki”). Sjeverna Makedonija: АХВ objavi nekoliko opoziva godišnje (u 2026. jedan), pa je prozor
+365 dana; serija i rok samo gdje ih tekst označi („Лот”, „серија”, „Рок на траење”); razlog iz naslova
+(„…, поради …”) ili teksta („Причина за отповикувањето - …”); posuđe se izostavlja. Španija: AESAN-ova
+lista; ista referenca (npr. „Ref. ES2026/711”) na više kartica je jedno upozorenje — čita se dopuna
+(„Ampliación de información…”, proizvodi kakvi su sada), datum je prvi dan upozorenja, a upozorenje koje
+je AESAN povukao („Retirada de la alerta…”) se ne objavljuje ni pod jednom karticom. Upozorenja koja
+AESAN svrstava pod alergije su `allergen`; barkod samo uz oznaku („EAN: …”). Luksemburg: RSS liste
+ALVA-e (upozorenja o alergenima su pod `…/Avertissementsallergenes/…`), tabela po proizvodu („Nom”,
+„Marque”, „Code barre”, „Lot”, „DLC”/„DDM”); posuđe („Migration …”) i hrana za životinje
+(`…/rappels-aliments-pour-animaux/…`) se izostavljaju.
 
 **SAD (FDA).** Zvanični sedmični „Enforcement Report” FDA za hranu i dodatke prehrani, preko openFDA:
 zapis po proizvodu, a obavijest po opozivu (`event_id` — jedan opoziv od 50 proizvoda je jedna
@@ -220,9 +239,9 @@ levensmiddelen en diervoeders” (ne „consumentenartikelen”); hrana za živo
 
 **EU RASFF — za zemlje koje posao (još) ne čita kod njihove agencije.** Portal Evropske komisije za
 potrošače vodi, za svaku zemlju, listu RASFF notifikacija o hrani na njenom tržištu. Posao je čita
-za zemlje navedene u `config.json` → `rasff.countries`: BG, CY, EE, ES, IT, LT, LU, LV, MT, PT, RO,
-SE, SK — tj. sve članice EU osim onih koje se čitaju kod vlastite agencije (FR, DE, AT, SI, HR, DK,
-CZ, GR, BE, IE, PL, HU, FI, NL). Italija, Portugal, Rumunija, Bugarska, Litvanija, Kipar i Malta
+za zemlje navedene u `config.json` → `rasff.countries`: BG, CY, EE, IT, LT, LV, MT, PT, RO, SE, SK —
+tj. sve članice EU osim onih koje se čitaju kod vlastite agencije (FR, DE, AT, SI, HR, DK, CZ, GR, BE,
+IE, PL, HU, FI, NL, ES, LU). Italija, Portugal, Rumunija, Bugarska, Litvanija, Kipar i Malta
 inače nisu dostupni (servis ne odgovara izvan zemlje ili blokira); za ostale je ovo privremeno, dok
 se ne napiše adapter njihove agencije — tada se zemlja briše s ove liste (test ne dozvoljava da se
 ista zemlja čita dvaput). Obavijest iz RASFF-a ima naziv proizvoda kako ga notifikacija navodi,
@@ -249,12 +268,24 @@ koliko bi obavijesti bilo objavljeno, zašto su ostale izostavljene i tri primje
   odgovara „405”, a lista „najnovijih” nije potpuna. Bez pouzdane liste se ne objavljuje ništa.
 - **Italija, Portugal, Rumunija, Bugarska, Litvanija, Kipar, Malta:** stranice agencija ne odgovaraju
   serverima GitHuba (ili blokiraju) — pokriveni su preko EU RASFF portala (gore).
-- **Švedska:** Livsmedelsverketova lista i RSS „Återkallanden” su 27. 11. 2026. prazni — adapter se
-  piše kad se pojavi prva stvarna obavijest; do tada RASFF.
-- **Zemlje izvan EU** (UK, Norveška, Švicarska, Island, Srbija, Crna Gora, Sjeverna Makedonija,
-  Moldavija, Ukrajina …): aplikacija trenutno prihvata samo zemlje EU, BA i RS
-  (`lib/contract.js` i `lib/recalls.ts` u aplikaciji). Adapteri za njih idu kad aplikacija prihvati
-  te kodove.
+- **Švedska:** Livsmedelsverketova lista „Återkallanden” je 27. 11. 2026. prazna (i njen API —
+  `/api/news/getnewsletters?filters=101` — i RSS), a saopćenja za štampu nisu opozivi; opozive objavljuju
+  same firme. SE ostaje na RASFF-u.
+- **Slovačka:** ŠVPS objavljuje „Nevyhovujúci výrobok” oko jednom mjesečno — manje nego što RASFF daje
+  za SK (6 u 30 dana), a ista zemlja se ne čita dvaput. SK ostaje na RASFF-u.
+- **Moldavija (ANSA):** opozivi na `ansa.gov.md/media/rechemare-retragere` su samo slike (snimci
+  ekrana), bez teksta — nema šta pročitati.
+- **Ukrajina (Держпродспоживслужба):** stranica sistema brzog upozoravanja postoji, ali je njena lista
+  obavijesti („Повідомлення про невідповідність…”) prazna; druge liste opoziva nema.
+- **Srbija:** nema liste opoziva. Ministarstvo poljoprivrede objavi par saopćenja godišnje o
+  inspekcijama (uglavnom zaplijene na pijacama, bez proizvoda koji se može skenirati). Njegov sajt šalje
+  nepotpun lanac certifikata (Let's Encrypt „YE2”, korijen „Root YE” koji Node još nema) — to se može
+  riješiti, ali nema šta čitati.
+- **Crna Gora:** `gov.me` ne prihvata vezu sa servera GitHuba (istek vremena), a `ubh.gov.me` više ne
+  postoji (DNS).
+- **Albanija (AKU):** objavljuje zbirne izvještaje inspekcija (kazne, zaplijene), ne opozive proizvoda.
+- **Kosovo (AUV, `auvk.rks-gov.net`):** opozive objavljuje kao vijesti (WordPress API, oko 8 u 2026.)
+  — izvor postoji, ali „XK” nije ISO kod i nije u ugovoru; dodaje se tek uz odluku vlasnika.
 
 **Napomena o RappelConso.** Adapter je pisan bez pristupa živim podacima, a zatim usklađen s
 onim što je registar stvarno dao 26. 11. 2026 (19 336 redova):

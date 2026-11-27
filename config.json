@@ -79,6 +79,22 @@
       "enabled": true,
       "windowDays": 60
     },
+    "mast": {
+      "enabled": true,
+      "windowDays": 60
+    },
+    "fva": {
+      "enabled": true,
+      "windowDays": 365
+    },
+    "aesan": {
+      "enabled": true,
+      "windowDays": 45
+    },
+    "alva": {
+      "enabled": true,
+      "windowDays": 45
+    },
     "rasff": {
       "enabled": true,
       "windowDays": 30,
@@ -86,10 +102,8 @@
         "BG",
         "CY",
         "EE",
-        "ES",
         "IT",
         "LT",
-        "LU",
         "LV",
         "MT",
         "PT",
