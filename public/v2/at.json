@@ -1,0 +1,137 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T16:20:23Z",
+ "country": "AT",
+ "recalls": [
+  {
+   "id": "at-ages-gurkerl-yutto-pinienkerne-50-g",
+   "country": "AT",
+   "published": "2026-11-21",
+   "category": "food",
+   "hazard": "other",
+   "name": "Gurkerl Yutto Pinienkerne 50 g",
+   "reason": "Verunreinigung mit Pinus-armandii-Kernen",
+   "details": "In Verkehr gebracht von: Gurkerl.at GmbH. Hersteller: VELKÁ PECKA s.r.o.",
+   "bestBefore": "26.04.2027",
+   "source": "AGES",
+   "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/gurkerl-yutto-pinienkerne-50-g"
+  },
+  {
+   "id": "at-ages-finis-feinstes-bio-weizenkeime-150g",
+   "country": "AT",
+   "published": "2026-11-12",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Fini's Feinstes Bio-Weizenkeime (150g)",
+   "reason": "Schimmel",
+   "details": "In Verkehr gebracht von: GoodMills Österreich GmbH. Hersteller: GoodMills Österreich GmbH",
+   "lots": "GM3051 (MHD 03.12.2026); GM3053 (MHD 31.12.2026)",
+   "bestBefore": "31.12.2026",
+   "source": "AGES",
+   "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/finis-feinstes-bio-weizenkeime-150g"
+  },
+  {
+   "id": "at-ages-alnatura-pinienkerne-60g-und-alnatura-salatkerne-mix-100g",
+   "country": "AT",
+   "published": "2026-11-05",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Alnatura Pinienkerne 60g und Alnatura Salatkerne-Mix 100g",
+   "reason": "Salmonellen",
+   "details": "In Verkehr gebracht von: Alnatura Produktions- und Handels GmbH",
+   "bestBefore": "13.07.2027",
+   "source": "AGES",
+   "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/alnatura-pinienkerne-60g-und-alnatura-salatkerne-mix-100g"
+  },
+  {
+   "id": "at-ages-dmbio-pinienkerne-60g",
+   "country": "AT",
+   "published": "2026-11-05",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "dmBio Pinienkerne, 60g",
+   "reason": "Salmonellen",
+   "details": "In Verkehr gebracht von: dm drogerie markt",
+   "bestBefore": "02.07.2027",
+   "source": "AGES",
+   "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/dmbio-pinienkerne-60g"
+  },
+  {
+   "id": "at-ages-dennree-pinienkerne-60-g",
+   "country": "AT",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "dennree Pinienkerne, 60 g",
+   "reason": "Salmonellen",
+   "details": "In Verkehr gebracht von: Denns BioMarkt",
+   "bestBefore": "03.06.2027",
+   "source": "AGES",
+   "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/dennree-pinienkerne-60-g"
+  },
+  {
+   "id": "at-ages-tafeltrauben-kernlos-hell-500g-von-villafrut-srl",
+   "country": "AT",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "TAFELTRAUBEN KERNLOS HELL 500G (von VILLAFRUT SRL)",
+   "reason": "Acetamiprid",
+   "details": "In Verkehr gebracht von: REWE International AG. Hersteller: Villafrut SRL",
+   "lots": "Pro L 2652541 / GGN 4059883043006",
+   "source": "AGES",
+   "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/tafeltrauben-kernlos-hell-500g-von-villafrut-srl"
+  },
+  {
+   "id": "at-ages-lidl-nautica-regenbogen-forellenfilets-natur-125g-und-nautica-re-0zkb9me",
+   "country": "AT",
+   "published": "2026-10-23",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Ausweitung Lidl „Nautica Regenbogen Forellenfilets Natur, 125g“ und „Nautica Regenbogen Forellenfilets Pfeffer, 125g“",
+   "reason": "Listerien",
+   "details": "In Verkehr gebracht von: Lidl Österreich. Hersteller: Danforel A/S",
+   "bestBefore": "03.11.2026",
+   "source": "AGES",
+   "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/lidl-nautica-regenbogen-forellenfilets-natur-125g-und-nautica-regenbogen-forellenfilets-pfeffer-125g"
+  },
+  {
+   "id": "at-ages-produktwarnung-salmonellen-in-tomaten-aus-zwei-regionen-in-sizilien",
+   "country": "AT",
+   "published": "2026-10-16",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Produktwarnung: Salmonellen in Tomaten aus zwei Regionen in Sizilien",
+   "reason": "Salmonellen",
+   "source": "AGES",
+   "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/produktwarnung-salmonellen-in-tomaten-aus-zwei-regionen-in-sizilien"
+  },
+  {
+   "id": "at-ages-mango-aegypten-offene-ware",
+   "country": "AT",
+   "published": "2026-09-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Mango / Ägypten, offene Ware",
+   "reason": "Rückstände Pflanzenschutzmittel",
+   "details": "In Verkehr gebracht von: Green Global Handels FlexCo",
+   "source": "AGES",
+   "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/mango-aegypten-offene-ware"
+  },
+  {
+   "id": "at-ages-sweet-land-veganer-fruchtgummi-sour-fruit-mix-180-g",
+   "country": "AT",
+   "published": "2026-09-30",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "SWEET LAND Veganer Fruchtgummi, Sour Fruit Mix 180 g",
+   "reason": "Metallfragmente",
+   "details": "In Verkehr gebracht von: HOFER. Hersteller: Vidal Deutschland GmbH",
+   "source": "AGES",
+   "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/sweet-land-veganer-fruchtgummi-sour-fruit-mix-180-g",
+   "gtins": [
+    "4061459455298"
+   ]
+  }
+ ]
+}

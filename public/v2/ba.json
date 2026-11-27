@@ -1,0 +1,20 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T16:20:23Z",
+ "country": "BA",
+ "recalls": [
+  {
+   "id": "ba-fsa-27026",
+   "country": "BA",
+   "published": "2026-06-24",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Povećane količine cijanovodonične kiseline u smeđem lanu porijeklom iz Kazahstana",
+   "reason": "Povećane količine cijanovodonične kiseline",
+   "details": "Agencija za sigurnost hrane Bosne i Hercegovine obaviještena je putem Sistema brzog uzbunjivanja za hranu i hranu za životinje (EU RASFF) da je na tržište Bosne i Hercegovine uvezen smeđi lan porijeklom iz Kazahstana u kojem su utvrđene povećane količine cijanovodonične kiseline.",
+   "lots": "25.02.2027./11/26, 200 g",
+   "source": "Agencija za sigurnost hrane BiH",
+   "url": "https://fsa.gov.ba/bs/eu-rasff-obavijest-povecane-kolicine-cijanovodonicne-kiseline-u-smedjem-lanu-porijeklom-iz-kazahstana/"
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T16:20:23Z",
+ "countries": [
+  {
+   "country": "AT",
+   "file": "at.json",
+   "recalls": 10,
+   "chars": 5307,
+   "newest": "2026-11-21"
+  },
+  {
+   "country": "BA",
+   "file": "ba.json",
+   "recalls": 1,
+   "chars": 897,
+   "newest": "2026-06-24"
+  },
+  {
+   "country": "BE",
+   "file": "be.json",
+   "recalls": 20,
+   "chars": 16092,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "BG",
+   "file": "bg.json",
+   "recalls": 3,
+   "chars": 1410,
+   "newest": "2026-11-25"
+  },
+  {
+   "country": "CY",
+   "file": "cy.json",
+   "recalls": 4,
+   "chars": 2040,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "CZ",
+   "file": "cz.json",
+   "recalls": 54,
+   "chars": 35529,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "DE",
+   "file": "de.json",
+   "recalls": 45,
+   "chars": 44217,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "DK",
+   "file": "dk.json",
+   "recalls": 21,
+   "chars": 23545,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "EE",
+   "file": "ee.json",
+   "recalls": 1,
+   "chars": 514,
+   "newest": "2026-11-10"
+  },
+  {
+   "country": "ES",
+   "file": "es.json",
+   "recalls": 10,
+   "chars": 4673,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "FI",
+   "file": "fi.json",
+   "recalls": 8,
+   "chars": 7645,
+   "newest": "2026-11-25"
+  },
+  {
+   "country": "FR",
+   "file": "fr.json",
+   "recalls": 279,
+   "chars": 158322,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "GR",
+   "file": "gr.json",
+   "recalls": 6,
+   "chars": 8578,
+   "newest": "2026-11-25"
+  },
+  {
+   "country": "HR",
+   "file": "hr.json",
+   "recalls": 36,
+   "chars": 25481,
+   "newest": "2026-11-20"
+  },
+  {
+   "country": "HU",
+   "file": "hu.json",
+   "recalls": 11,
+   "chars": 6228,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "IE",
+   "file": "ie.json",
+   "recalls": 16,
+   "chars": 13711,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "IT",
+   "file": "it.json",
+   "recalls": 18,
+   "chars": 8996,
+   "newest": "2026-11-25"
+  },
+  {
+   "country": "LT",
+   "file": "lt.json",
+   "recalls": 3,
+   "chars": 1628,
+   "newest": "2026-11-13"
+  },
+  {
+   "country": "LU",
+   "file": "lu.json",
+   "recalls": 12,
+   "chars": 5784,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "MT",
+   "file": "mt.json",
+   "recalls": 4,
+   "chars": 2232,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "NL",
+   "file": "nl.json",
+   "recalls": 22,
+   "chars": 16610,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "PL",
+   "file": "pl.json",
+   "recalls": 12,
+   "chars": 13264,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "PT",
+   "file": "pt.json",
+   "recalls": 7,
+   "chars": 3347,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "RO",
+   "file": "ro.json",
+   "recalls": 7,
+   "chars": 3424,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "SE",
+   "file": "se.json",
+   "recalls": 12,
+   "chars": 6548,
+   "newest": "2026-11-24"
+  },
+  {
+   "country": "SI",
+   "file": "si.json",
+   "recalls": 103,
+   "chars": 76891,
+   "newest": "2026-11-26"
+  },
+  {
+   "country": "SK",
+   "file": "sk.json",
+   "recalls": 6,
+   "chars": 2900,
+   "newest": "2026-11-25"
+  },
+  {
+   "country": "US",
+   "file": "us.json",
+   "recalls": 62,
+   "chars": 40212,
+   "newest": "2026-11-18"
+  }
+ ]
+}

@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-27T16:18:08Z",
- "total": 622,
+ "generated": "2026-11-27T16:20:23Z",
+ "total": 731,
  "curated": 0,
  "byCountry": {
   "BE": 20,
   "CZ": 54,
   "DE": 45,
   "DK": 21,
-  "FR": 171,
+  "FR": 279,
+  "IE": 16,
   "HU": 11,
-  "IE": 15,
   "NL": 22,
   "PL": 12,
   "SI": 103,
@@ -27,6 +27,7 @@
   "RO": 7,
   "AT": 10,
   "HR": 36,
+  "US": 62,
   "LT": 3,
   "EE": 1,
   "BA": 1
@@ -36,10 +37,10 @@
    "enabled": true,
    "ok": true,
    "seen": 19342,
-   "published": 171,
+   "published": 279,
    "dropped": {
     "kategorija koju LUPA ne prikazuje": 4933,
-    "starije od prozora": 14238
+    "starije od prozora": 14130
    },
    "carried": 0,
    "error": null
@@ -161,9 +162,9 @@
    "enabled": true,
    "ok": true,
    "seen": 30,
-   "published": 15,
+   "published": 16,
    "dropped": {
-    "starije od prozora": 15
+    "starije od prozora": 14
    },
    "carried": 0,
    "error": null
@@ -182,15 +183,12 @@
   },
   "nebih": {
    "enabled": true,
-   "ok": true,
-   "seen": 29,
+   "ok": false,
+   "seen": 0,
    "published": 11,
-   "dropped": {
-    "nije hrana (hrana za životinje, posuđe)": 6,
-    "starije od prozora": 12
-   },
-   "carried": 0,
-   "error": null
+   "dropped": {},
+   "carried": 11,
+   "error": "fetch failed"
   },
   "ruokavirasto": {
    "enabled": true,
@@ -216,6 +214,17 @@
    "carried": 0,
    "error": null
   },
+  "fda": {
+   "enabled": true,
+   "ok": true,
+   "seen": 144,
+   "published": 62,
+   "dropped": {
+    "nije hrana za ljude (FDA broj nije H-…)": 1
+   },
+   "carried": 0,
+   "error": null
+  },
   "rasff": {
    "enabled": true,
    "ok": true,
@@ -229,6 +238,10 @@
    "error": null
   }
  },
- "failing": {},
- "warnings": []
+ "failing": {
+  "nebih": "2026-11-27"
+ },
+ "warnings": [
+  "Izvor „nebih” nije pročitan (fetch failed). Zadržano 11 njegovih obavijesti iz prethodnog fajla."
+ ]
 }
