@@ -110,7 +110,8 @@ test('windows: a source\'s notices 45 days, hand-written ones 180; nothing dated
 });
 
 test('never more or larger than the app accepts: the oldest notices of the sources go first, hand-written ones stay', async () => {
-  const many = Array.from({ length: 900 }, (_, i) => ({ ...rows[0], numero_fiche: `2026-11-${String(i).padStart(4, '0')}`, date_publication: `2026-11-${String(1 + (i % 25)).padStart(2, '0')}` }));
+  // 900 different products (no shared barcode — the same barcode would make them one group, a few characters each)
+  const many = Array.from({ length: 900 }, (_, i) => ({ ...rows[0], gtin: '', identification_produits: '', numero_fiche: `2026-11-${String(i).padStart(4, '0')}`, date_publication: `2026-11-${String(1 + (i % 25)).padStart(2, '0')}` }));
   const curated = checked([notice('hr-old-but-kept', { published: '2026-07-01' })]);
   const { recalls, report, text } = await run({ curated, fetchImpl: live(many) });
   assert.equal(recalls.length, C.MAX_RECALLS);
@@ -118,7 +119,7 @@ test('never more or larger than the app accepts: the oldest notices of the sourc
   assert.ok(report.warnings.some((w) => /Izostavljeno 101 najstarijih/.test(w)));
   assert.ok(text.length <= C.MAX_CHARS);                              // the file as written — what the app downloads and measures
   // large texts: the size limit trims as well
-  const big = Array.from({ length: 700 }, (_, i) => ({ ...rows[0], numero_fiche: `2026-11-${String(i).padStart(4, '0')}`, risques_encourus: 'x'.repeat(900), conduites_a_tenir_par_le_consommateur: 'y'.repeat(600) }));
+  const big = Array.from({ length: 700 }, (_, i) => ({ ...rows[0], gtin: '', identification_produits: '', numero_fiche: `2026-11-${String(i).padStart(4, '0')}`, risques_encourus: 'x'.repeat(900), conduites_a_tenir_par_le_consommateur: 'y'.repeat(600) }));
   const trimmed = await run({ fetchImpl: live(big) });
   assert.ok(trimmed.recalls.length < 700 && trimmed.recalls.length > 100);
   assert.ok(trimmed.text.length <= C.MAX_CHARS);
@@ -247,8 +248,14 @@ test('every source the job can read: its own prefix and country; config.json nam
   for (const [name, adapter] of Object.entries(SOURCES)) {
     assert.equal(adapter.name, name);
     assert.match(adapter.prefix, /^[a-z]{2}-[a-z]+-$/);
-    assert.ok(C.COUNTRIES.includes(adapter.country), name);
-    assert.ok(adapter.prefix.startsWith(adapter.country.toLowerCase()), name);
+    if (Array.isArray(adapter.countries)) {
+      // a source for several countries (the EU's portal): every one of them a country the feed may name
+      assert.equal(adapter.prefix, 'eu-rasff-', name);
+      for (const c of adapter.countries) assert.ok(C.EU_COUNTRIES.includes(c), `${name}: ${c}`);
+    } else {
+      assert.ok(C.COUNTRIES.includes(adapter.country), name);
+      assert.ok(adapter.prefix.startsWith(adapter.country.toLowerCase()), name);
+    }
     assert.equal(typeof adapter.fetchNotices, 'function');
     assert.match(adapter.defaultUrl, /^https:\/\//);
     assert.equal(prefixes.filter((p) => p.startsWith(adapter.prefix) || adapter.prefix.startsWith(p)).length, 1, `${name}: a prefix that overlaps another`);
@@ -256,7 +263,36 @@ test('every source the job can read: its own prefix and country; config.json nam
   for (const [name, settings] of Object.entries(config.sources)) {
     assert.ok(SOURCES[name], `config.json names „${name}”, which the job does not know`);
     assert.ok(Number.isInteger(settings.windowDays) && settings.windowDays >= 14 && settings.windowDays <= 365, name);
+    if (settings.countries) for (const c of settings.countries) assert.ok(SOURCES[name].countries.includes(c), `${name}: ${c} is not a country this source reads`);
   }
+  // a country read by its own authority is not read again through the EU's portal (no notice twice)
+  const own = Object.values(SOURCES).filter((s) => !Array.isArray(s.countries)).map((s) => s.country);
+  for (const c of config.sources.rasff.countries) assert.ok(!own.includes(c), `rasff: ${c} has its own source`);
+});
+
+test('the same product in several notices: one group — by the same RASFF notification or the same barcode, never by name', () => {
+  const { withGroups } = require('../lib/build');
+  const n = (id, extra = {}) => ({ id, country: 'DE', published: '2026-11-20', category: 'food', hazard: 'other', name: 'Corny Riegel', reason: 'x', source: 's', url: 'https://example.org/a', ...extra });
+  const out = withGroups([
+    n('eu-rasff-it-2026-10406', { country: 'IT', group: 'rasff-2026-10406' }), n('eu-rasff-pt-2026-10406', { country: 'PT', group: 'rasff-2026-10406' }),
+    n('eu-rasff-lt-2026-9682', { country: 'LT', group: 'rasff-2026-9682' }),                                      // alone on its list: no group
+    n('de-lmw-1', { gtins: ['4011800563110'] }), n('at-ages-1', { country: 'AT', gtins: ['9001234567896', '4011800563110'] }),
+    n('si-gov-1', { country: 'SI', gtins: ['9001234567896'] }),                                                     // linked through the Austrian notice
+    n('dk-fvst-1', { country: 'DK', name: 'Corny Riegel' }),                                                      // the same name, no shared barcode: not linked
+  ]);
+  const g = Object.fromEntries(out.map((x) => [x.id, x.group]));
+  assert.equal(g['eu-rasff-it-2026-10406'], 'rasff-2026-10406');
+  assert.equal(g['eu-rasff-pt-2026-10406'], 'rasff-2026-10406');
+  assert.equal(g['eu-rasff-lt-2026-9682'], undefined);
+  assert.equal(g['de-lmw-1'], 'gtin-4011800563110');
+  assert.equal(g['at-ages-1'], 'gtin-4011800563110');
+  assert.equal(g['si-gov-1'], 'gtin-4011800563110');
+  assert.equal(g['dk-fvst-1'], undefined);
+  assert.deepEqual(withGroups(out).map((x) => x.group), out.map((x) => x.group));                                 // the same every day
+  // a notice that leaves the file takes its link with it
+  const left = withGroups(out.filter((x) => x.id !== 'eu-rasff-pt-2026-10406'));
+  assert.equal(left.find((x) => x.id === 'eu-rasff-it-2026-10406').group, undefined);
+  for (const x of out) assert.equal(C.checkNotice(x).ok, true, x.id);
 });
 
 verify();

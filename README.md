@@ -116,10 +116,9 @@ git push
 - Srbija — jedinstvena službena lista nije pronađena. Unosi samo iz saopštenja nadležnog tijela
   (Ministarstvo zdravlja, Ministarstvo poljoprivrede – Uprava za veterinu), s linkom na to saopštenje;
   vijest iz medija nije izvor.
-- Italija — Ministero della Salute, „Avvisi e richiami di prodotti alimentari”
-  (https://www.salute.gov.it/new/it/avvisi/avvisi-e-richiami-di-prodotti-alimentari/). Ne čita se
-  automatski: stranica je iza zaštite od botova (Gcore), a otvorenih podataka o povlačenjima nema.
-- Španija — AESAN, „Alertas alimentarias” (https://www.aesan.gob.es/alertas/alertas-alimentarias).
+- Italija, Španija i ostale članice EU bez vlastitog adaptera — čitaju se preko EU RASFF portala
+  (poglavlje 3); ručno se unosi samo ono što tamo nema (npr. serija ili barkod iz službene objave
+  ministarstva, kao posebna obavijest s linkom na nju).
 - EU, neprehrambeni proizvodi (kozmetika) — Safety Gate: https://ec.europa.eu/safety-gate-alerts/
 
 ## 3. Izvori koje posao čita sam
@@ -132,20 +131,25 @@ git push
 | GOV.SI „Nevarni in neskladni izdelki” (`govsi`) | Slovenija | službeni JSON izvoz liste | 180 dana | 103 |
 | HAPIH „Obavijesti za potrošače” (`hapih`) | Hrvatska | RSS kategorije + stranica svake nove obavijesti (tekst Državnog inspektorata) | 180 dana | 36 |
 | Agencija za sigurnost hrane BiH (`fsaba`) | BiH | WordPress API, kategorija „Povlačenje i opoziv hrane” | 180 dana | 1 |
+| Fødevarestyrelsen „Tilbagekaldte produkter” (`fvst`) | Danska | RSS liste + stranica svake nove obavijesti | 60 dana | 19 (27. 11.) |
+| Potraviny na pranýři (`pranyr`) | Češka | lista „Nebezpečné potraviny” (SZPI, SVS) + stranica svake nove | 45 dana | 53 (27. 11.) |
+| EFET „Ανακλήσεις” (`efet`) | Grčka | RSS i lista kategorije + stranica svakog novog saopćenja | 90 dana | 6 (27. 11.) |
+| EU RASFF Consumers' Portal (`rasff`) | 19 zemalja EU (vidi niže) | lista po zemlji (RSS) + javni JSON svake notifikacije | 30 dana | 167 (27. 11.) |
 
 Prozor od 180 dana za Sloveniju, Hrvatsku i BiH je isti kao za ručno unesene obavijesti: ti izvori
 objavljuju malo, pa bi kraći prozor ostavio zemlju praznom. Izvor se isključuje u `config.json`
 (`"enabled": false`); izvor koji `config.json` ne navodi se ne čita.
 
-Svaki adapter je napisan **prema stvarnim odgovorima** tih servisa (26. 11. 2026, snimljeni na
-GitHub Actions) i testiran na njima (`test/fixtures/live/`, `test/sources.test.js`). Kad izvor
+Svaki adapter je napisan **prema stvarnim odgovorima** tih servisa (26. i 27. 11. 2026, snimljeni na
+GitHub Actions) i testiran na njima (`test/fixtures/live/`, `test/sources.test.js`,
+`test/sources-europe.test.js`). Kad izvor
 promijeni oblik, adapter **ne pogađa**: stane s porukom šta je vidio, fajl se objavi s obavijestima tog
 izvora od prošlog puta, a nakon 3 dana šutnje pokretanje „padne” i stigne e-mail (poglavlje 4).
 
 **Šta se uzima, a šta ne — isto pravilo za sve izvore:**
 - naziv, datum, razlog, link — iz polja izvora; gdje izvor ima polja za seriju, rok, preporuku,
   objašnjenje (Njemačka, Austrija), objavljuju se kako pišu;
-- iz slobodnog teksta (Hrvatska, Slovenija, BiH) **serija, rok i barkod uzimaju se samo kad ih tekst
+- iz slobodnog teksta (Hrvatska, Slovenija, BiH, Danska, Grčka) **serija, rok i barkod uzimaju se samo kad ih tekst
   označi** („lot L233249A2”, „rok uporabe: 27.11.2026”, „EAN 3831115348162”, „bar koda …”,
   „GTIN broja …”), i to cijeli: ništa se ne sastavlja iz dijelova, broj u sredini rečenice nije
   barkod, barkod mora imati ispravnu kontrolnu cifru, a broj koji dodjeljuje prodavnica (počinje s 2,
@@ -160,6 +164,26 @@ izvora od prošlog puta, a nakon 3 dana šutnje pokretanje „padne” i stigne 
 Sloveniji obavijesti za robu koja nije stigla do potrošača (zadržana na granici, nije puštena u
 promet, prodavana samo restoranima); u BiH objave koje nisu povlačenje (zabrana uvoza, odbijanje na
 granici, pojačane kontrole).
+
+**Danska, Češka, Grčka.** Danska: stranica obavijesti uvijek ima iste naslove („Hvilken fødevare
+tilbagekaldes”, „Hvorfor …”, „Hvad skal du gøre …”); naziv je proizvod kad je naveden jedan, a kad ih
+je više, naslov obavijesti, a proizvodi s rokovima idu u „details”. Češka: samo kategorija
+„Nebezpečné potraviny” (ne „nejakostní” ni „falšované”), i samo ono što je nađeno u prodaji —
+restorani, menze, brza hrana i gotova jela se izostavljaju (ne mogu se kupiti ni skenirati); serija
+je polje „Šarže”. Grčka: saopćenje je tekst, pa se serija („παρτίδα”, „Lot”) i rok („ημερομηνία
+ανάλωσης”) uzimaju samo označeni; datum zamrzavanja nije rok; posuđe se izostavlja.
+
+**EU RASFF — za zemlje koje posao (još) ne čita kod njihove agencije.** Portal Evropske komisije za
+potrošače vodi, za svaku zemlju, listu RASFF notifikacija o hrani na njenom tržištu. Posao je čita
+za zemlje navedene u `config.json` → `rasff.countries`: BE, BG, CY, EE, ES, FI, HU, IE, IT, LT, LU,
+LV, MT, NL, PL, PT, RO, SE, SK — tj. sve članice EU osim onih koje se čitaju kod vlastite agencije
+(FR, DE, AT, SI, HR, DK, CZ, GR). Italija, Portugal, Rumunija, Bugarska, Litvanija, Kipar i Malta
+inače nisu dostupni (servis ne odgovara izvan zemlje ili blokira); za ostale je ovo privremeno, dok
+se ne napiše adapter njihove agencije — tada se zemlja briše s ove liste (test ne dozvoljava da se
+ista zemlja čita dvaput). Obavijest iz RASFF-a ima naziv proizvoda kako ga notifikacija navodi,
+razlog (naslov notifikacije, na engleskom), nalaz i mjere poduzete u toj zemlji; **serije, rokovi i
+barkodovi se tamo ne objavljuju**, pa ih ni ovdje nema. Link vodi na notifikaciju u RASFF Window.
+Hrana za životinje i materijali u dodiru s hranom se izostavljaju.
 
 **Povučene obavijesti (Hrvatska).** Kad Državni inspektorat povuče raniju obavijest („Opoziv
 obavijesti objavljene 19.06.2026.: …”), proizvod ipak nije opozvan: ne objavljuje se ni ta objava ni
@@ -178,9 +202,14 @@ koliko bi obavijesti bilo objavljeno, zašto su ostale izostavljene i tri primje
 - **EU Safety Gate** (kozmetika): pojedinačna obavijest se može pročitati
   (`/safety-gate-alerts/public/api/notification/{id}`), ali lista po kategoriji ne — pretraga
   odgovara „405”, a lista „najnovijih” nije potpuna. Bez pouzdane liste se ne objavljuje ništa.
-- **Italija:** zaštita od botova na stranici ministarstva; nema otvorenih podataka o povlačenjima.
-- **Španija:** moguće (AESAN lista + stranice obavijesti), ali jedna obavijest često obuhvata
-  desetak proizvoda — sljedeći korak.
+- **Italija, Portugal, Rumunija, Bugarska, Litvanija, Kipar, Malta:** stranice agencija ne odgovaraju
+  serverima GitHuba (ili blokiraju) — pokriveni su preko EU RASFF portala (gore).
+- **Švedska:** Livsmedelsverketova lista i RSS „Återkallanden” su 27. 11. 2026. prazni — adapter se
+  piše kad se pojavi prva stvarna obavijest; do tada RASFF.
+- **Zemlje izvan EU** (UK, Norveška, Švicarska, Island, Srbija, Crna Gora, Sjeverna Makedonija,
+  Moldavija, Ukrajina …): aplikacija trenutno prihvata samo zemlje EU, BA i RS
+  (`lib/contract.js` i `lib/recalls.ts` u aplikaciji). Adapteri za njih idu kad aplikacija prihvati
+  te kodove.
 
 **Napomena o RappelConso.** Adapter je pisan bez pristupa živim podacima, a zatim usklađen s
 onim što je registar stvarno dao 26. 11. 2026 (19 336 redova):
@@ -244,6 +273,19 @@ Opisan u `lib/contract.js`. Provjere u ovom repozitoriju su **iste** one koje ap
 
 Granice: najviše 800 obavijesti i 500 000 znakova (aplikacija prihvata do 1000 i 600 000).
 Kad ih ima više, izostavljaju se najstarije iz automatskih izvora; ručno unesene ostaju.
+
+**Isti proizvod u više zemalja — polje `group` (neobavezno).** Svaka zemlja zadržava svoju obavijest
+(svoju zemlju, link i tekst), a obavijesti koje su **sigurno** isti proizvod dobiju isto `group`, da
+ih aplikacija može prikazati kao jednu karticu sa spiskom zemalja i linkom za svaku:
+- ista RASFF notifikacija na listama više zemalja → `"rasff-2026-10406"`;
+- isti barkod proizvođača u dvije ili više obavijesti (iz bilo kojih izvora, i ručno unesenih) →
+  `"gtin-3850123456782"`.
+
+**Po nazivu se nikad ne spaja** — slični nazivi mogu biti drugi proizvod, druga serija ili drugi
+problem, a pogrešna veza je gora od nikakve. `group` se upisuje samo kad povezuje bar dvije
+obavijesti u fajlu; računa ga posao pri svakoj izgradnji (`withGroups` u `lib/build.js`), ručno se ne
+unosi. Aplikacija koja polje ne poznaje ga preskoči (kao i svako nepoznato polje), pa je to i dalje
+format `v1`.
 
 ## 7. Šta ovaj fajl nije
 

@@ -101,6 +101,25 @@ test('pages and feeds to text; days; ids', () => {
   assert.equal(T.alignedFold('Čokolada ŠAŽ').length, 'Čokolada ŠAŽ'.length);
 });
 
+test('labels of Denmark, Czechia and Greece: barcodes, batches and dates only where named', () => {
+  const dk = "Heat'n Eat Okse kebab\nNettoindhold: 400 g\nBedst før 7/4-2028 og 12/4-2028\nEAN: 5705518183096";
+  assert.deepEqual(T.labeledDates(dk), ['7/4-2028', '12/4-2028']);
+  assert.deepEqual(T.labeledGtins(dk), ['5705518183096']);
+  assert.deepEqual(T.labeledGtins('EAN-stregkode: 7340191175181'), ['7340191175181']);
+  assert.deepEqual(T.labeledDates('Karen Volf Digestive Classic 250g bedst før:\n15-09-2026, 29-09-2026 og 06-10-2026'), ['15-09-2026', '29-09-2026', '06-10-2026']);
+  assert.deepEqual(T.labeledLots('Lot nr. 12345 og 12346'), ['12345', '12346']);
+  assert.deepEqual(T.labeledLots('Batch nr.: L2345, bedst før 1.2.2027'), ['L2345']);
+  assert.deepEqual(T.labeledLots('partier af produktet er solgt'), []);                       // "partier" is a word, not a label
+  const gr = 'με αριθμό παρτίδας Lot 18726, με ημερομηνία κατάψυξης 06/07/2026 και ημερομηνία ανάλωσης 06/07/2027, που';
+  assert.deepEqual(T.labeledLots(gr), ['18726']);                                              // "παρτίδας Lot 18726" once
+  assert.deepEqual(T.labeledDates(gr), ['06/07/2027']);                                        // the freezing day is not a best-before date
+  const gr2 = 'με ημερομηνία ανάλωσης κατά προτίμηση πριν από 01.07.27 και παρτίδα L07 26 27 διαπιστώθηκε η παρουσία σκουληκιών';
+  assert.deepEqual([T.labeledLots(gr2), T.labeledDates(gr2)], [['L07 26 27'], ['01.07.27']]);
+  assert.equal(T.becauseClause('διαπιστώθηκε η παρουσία σκουληκιών. Η επιχείρηση', ['διαπιστωθηκε']), 'η παρουσία σκουληκιών');
+  assert.equal(T.becauseClause('zbog 3,2 mg/kg aloina, i to', ['zbog']), '3,2 mg/kg aloina');   // a decimal comma does not end the clause
+  assert.equal(T.decodeEntities('Makrelkr&aelig;s &oslash; &aring;'), 'Makrelkræs ø å');
+});
+
 test('kinds of hazard in the languages of the new sources — and a sentence that only cites the law is not a reason', () => {
   const cases = [
     ['utvrđene bakterije Listeria monocytogenes u proizvodu', 'microbe'], ['Možna prisotnost salmonele v izdelku', 'microbe'], ['Prisotnost noravirusa', 'microbe'],
@@ -110,6 +129,10 @@ test('kinds of hazard in the languages of the new sources — and a sentence tha
     ['povišene razine pesticida klorpirifosa', 'chemical'], ['Rückstände und Kontaminanten', 'chemical'], ['Gesundheitsschädliche Substanz', 'chemical'], ['Acetamiprid', 'chemical'],
     ['V izdelku je bil z analizo določen alergen linalol', 'allergen'], ['ne označenog proteina mlijeka u proizvodu', 'allergen'], ['Allergene', 'allergen'],
     ['Verunreinigung mit Pinus-armandii-Kernen', 'other'], ['moguće izloženosti ionizacijskom zračenju', 'other'], ['Sonstige Gründe', 'other'],
+    ['Der er risiko for mykotoksiner i produkterne', 'toxin'], ['påvist ikke-deklareret æg i produktet', 'allergen'], ['risiko for insekter/biller i produktet', 'foreign'],
+    ['Bakterien Listeria monocytogenes er påvist', 'microbe'], ['for højt indhold af cadmium', 'chemical'], ['Uvnitř výrobku byl zjištěn výskyt živých škůdců', 'foreign'],
+    ['Escherichia coli produkující shiga-toxin (STEC)', 'microbe'], ['παρουσία του παθογόνου μικροοργανισμού Salmonella spp.', 'microbe'], ['παρουσία σκουληκιών', 'foreign'],
+    ['πιθανή παρουσία ξένων σωμάτων (θραυσμάτων γυαλιού)', 'foreign'], ['High level of hydrogen cyanide in cassave flour', 'toxin'], ['Glycoalkaloids in potatoes', 'toxin'],
   ];
   for (const [text, kind] of cases) assert.equal(hazardOf(text), kind, text);
   assert.equal(hazardOf('Fini\'s Feinstes Bio-Weizenkeime'), 'other');                                // "Keime" in a name is not germs
