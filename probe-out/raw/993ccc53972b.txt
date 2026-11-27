@@ -4,7 +4,7 @@
     <title>Lithuania RASFF notifications</title>
     <link>https://webgate.ec.europa.eu/rasff-window/screen/list?consumer=5022</link>
     <description />
-    <pubDate>Fri, 27 Nov 2026 08:39:44 GMT</pubDate>
+    <pubDate>Fri, 27 Nov 2026 08:44:22 GMT</pubDate>
     <item>
       <title>2026.10125 - Listeria monocytogenes in salmone scozzese affumicato//Listeria monocytogenes in smoked Scottish salmon</title>
       <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/886879</link>

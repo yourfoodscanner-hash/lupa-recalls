@@ -10,7 +10,7 @@
   },
   "withBarcode": 8,
   "withLots": 1,
-  "ms": 4472
+  "ms": 4961
  },
  "pranyr": {
   "since": "2026-10-13",
@@ -23,7 +23,7 @@
   },
   "withBarcode": 0,
   "withLots": 29,
-  "ms": 7156
+  "ms": 4536
  },
  "efet": {
   "since": "2026-08-29",
@@ -37,7 +37,7 @@
   },
   "withBarcode": 0,
   "withLots": 4,
-  "ms": 3835
+  "ms": 6726
  },
  "rasff": {
   "since": "2026-10-28",
@@ -50,6 +50,6 @@
   },
   "withBarcode": 0,
   "withLots": 0,
-  "ms": 59440
+  "ms": 53042
  }
 }

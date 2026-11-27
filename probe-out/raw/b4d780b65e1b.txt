@@ -4,7 +4,7 @@
     <title>Finland RASFF notifications</title>
     <link>https://webgate.ec.europa.eu/rasff-window/screen/list?consumer=5012</link>
     <description />
-    <pubDate>Fri, 27 Nov 2026 08:39:42 GMT</pubDate>
+    <pubDate>Fri, 27 Nov 2026 08:44:20 GMT</pubDate>
     <item>
       <title>2026.10456 - Metal foreign bodies in chocolate cereal bars distributed to Finland and Iceland</title>
       <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/889186</link>
