@@ -1,83 +1,23 @@
 [
  {
-  "name": "nl-news",
-  "url": "https://www.nvwa.nl/actueel/nieuws",
-  "scan": true
+  "name": "nl-robots",
+  "url": "https://www.nvwa.nl/robots.txt"
  },
  {
-  "name": "nl-news-p2",
-  "url": "https://www.nvwa.nl/actueel/nieuws?pagina=2"
+  "name": "nl-sitemap",
+  "url": "https://www.nvwa.nl/sitemap.xml",
+  "max": 30000000
  },
  {
-  "name": "nl-rss-help",
-  "url": "https://www.nvwa.nl/service/rss",
-  "scan": true
+  "name": "nl-detail-nonfood",
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/26/veiligheidswaarschuwing-zenwave-elektrische-kruiken"
  },
  {
-  "name": "nl-detail-1",
-  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/26/veiligheidswaarschuwing-diverse-salades-van-marqt-keuken"
+  "name": "nl-detail-cosmetic",
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/25/veiligheidswaarschuwing-blondeerspray-150-ml-van-blossity"
  },
  {
-  "name": "nl-search",
-  "url": "https://www.nvwa.nl/zoeken?trefwoord=veiligheidswaarschuwing",
-  "scan": true
- },
- {
-  "name": "hu-list",
-  "url": "https://portal.nebih.gov.hu/termekvisszahivas",
-  "scan": true
- },
- {
-  "name": "hu-detail-1",
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2829237189"
- },
- {
-  "name": "hu-detail-2",
-  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2813979324"
- },
- {
-  "name": "fi-detail-1",
-  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/valipalapatukoissa-metalliriski/"
- },
- {
-  "name": "fi-detail-2",
-  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/pakastetussa-chilissa-kadmiumylitys/"
- },
- {
-  "name": "fi-list",
-  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot/"
- },
- {
-  "name": "ie-food-from",
-  "url": "https://www.fsai.ie/news-and-alerts/food-alerts?fromDate=2026-10-01"
- },
- {
-  "name": "ie-allergy",
-  "url": "https://www.fsai.ie/news-and-alerts/allergy-alerts",
-  "scan": true
- },
- {
-  "name": "ie-detail-2",
-  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-specific-batches-of-ready-brek-original"
- },
- {
-  "name": "pl-list-50",
-  "url": "https://www.gov.pl/web/gis/ostrzezenia?page=1&size=50"
- },
- {
-  "name": "pl-detail-2",
-  "url": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-wykrycie-obecnosci-bakterii-listeria-monocytogenes-w-filetach-sledziowych-w-oleju"
- },
- {
-  "name": "be-list-p2",
-  "url": "https://favv-afsca.be/nl/producten?f%5B0%5D=products_issue_type%3A13&page=1"
- },
- {
-  "name": "be-detail-2",
-  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-coprospect-srl"
- },
- {
-  "name": "be-detail-3",
-  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-het-favv-160"
+  "name": "nl-warnings",
+  "url": "https://www.nvwa.nl/actueel/veiligheidswaarschuwingen"
  }
 ]
