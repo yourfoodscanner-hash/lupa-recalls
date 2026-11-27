@@ -2,16 +2,15 @@
  "fvst": {
   "since": "2026-09-28",
   "seen": 526,
-  "notices": 14,
+  "notices": 19,
   "bad": [],
   "skipped": {
    "stavka nije obavijest o povlačenju": 2,
-   "starije od prozora": 505,
-   "stranica nije u obliku obavijesti": 5
+   "starije od prozora": 505
   },
-  "withBarcode": 6,
+  "withBarcode": 8,
   "withLots": 1,
-  "ms": 4575
+  "ms": 4472
  },
  "pranyr": {
   "since": "2026-10-13",
@@ -24,7 +23,7 @@
   },
   "withBarcode": 0,
   "withLots": 29,
-  "ms": 8812
+  "ms": 7156
  },
  "efet": {
   "since": "2026-08-29",
@@ -32,25 +31,25 @@
   "notices": 6,
   "bad": [],
   "skipped": {
-   "nije hrana (posuđe i sl.)": 1,
+   "nije hrana (posuđe i sl.)": 2,
    "bez naziva": 1,
    "starije od prozora": 1
   },
   "withBarcode": 0,
   "withLots": 4,
-  "ms": 6373
+  "ms": 3835
  },
  "rasff": {
-  "since": "2026-09-28",
+  "since": "2026-10-28",
   "seen": 355,
-  "notices": 247,
+  "notices": 167,
   "bad": [],
   "skipped": {
-   "starije od prozora": 61,
-   "nije hrana (hrana za životinje, materijali u dodiru s hranom …)": 47
+   "starije od prozora": 150,
+   "nije hrana (hrana za životinje, materijali u dodiru s hranom …)": 38
   },
   "withBarcode": 0,
   "withLots": 0,
-  "ms": 82739
+  "ms": 59440
  }
 }

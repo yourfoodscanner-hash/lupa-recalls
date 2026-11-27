@@ -93,11 +93,24 @@
   ]
  },
  {
+  "id": "dk-fvst-2026-nov-tilbagekald-risiko-for-salmonella-i-peking-and",
+  "country": "DK",
+  "published": "2026-11-19",
+  "category": "food",
+  "hazard": "microbe",
+  "name": "Risiko for Salmonella i andebryst og lår",
+  "reason": "Produktet kan nedfryses, og der er påvist Salmonella i produktet",
+  "details": "Fersk Pekingand lår 225-275 g; Fersk Pekingand brystfilet med skind 225-275 g; Bedst før: 11.11-2026",
+  "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det. Hvis du oplever symptomer i forbindelse med indtag af produktet, bør du kontakte din egen læge.",
+  "source": "Fødevarestyrelsen",
+  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-risiko-for-salmonella-i-peking-and"
+ },
+ {
   "id": "dk-fvst-2026-nov-tilbagekald-fund-af-biller-i-fine-aerter",
   "country": "DK",
   "published": "2026-11-18",
   "category": "food",
-  "hazard": "other",
+  "hazard": "foreign",
   "name": "Fund af biller i Fine ærter",
   "reason": "Der er risiko for coloradobiller i produktet",
   "details": "REMA 1000 Fine ærter 600g; EAN-kode: 5705830610904; Bedst før: 02.09.2028 + 03.09.2028; Lot kode: L26 02.09.2026 + L26 03.09.2026; Oprindelsesland: Belgien; Pakket af ARDO N.V. Wezestraat 61, 8850 Ardooie, Belgien for REMA 1000.",
@@ -107,6 +120,56 @@
   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-fund-af-biller-i-fine-aerter",
   "gtins": [
    "5705830610904"
+  ]
+ },
+ {
+  "id": "dk-fvst-2026-nov-tilbagekald-chlorpyrifos-i-peanut-butter",
+  "country": "DK",
+  "published": "2026-11-13",
+  "category": "food",
+  "hazard": "chemical",
+  "name": "Chlorpyrifos i Peanut Butter",
+  "brand": "Urtekram",
+  "reason": "Der kan være pesticidrester i vegetabilske fødevarer, men EU har fastsat grænseværdier for pesticider",
+  "details": "Økologisk Peanut butter crunchy; Brand: Urtekram; artikel nummer 1002876; EAN nr 5701058014432; Nettovægt 230 g; Bedst før 15-04-2027; Økologisk Peanut butter; Brand: Urtekram; artikel nummer 1002877; EAN nr 5701058014449; Nettovægt 230 g; Bedst før 14-04-2027",
+  "bestBefore": "15-04-2027, 14-04-2027",
+  "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det.",
+  "source": "Fødevarestyrelsen",
+  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-chlorpyrifos-i-peanut-butter",
+  "gtins": [
+   "5701058014432",
+   "5701058014449"
+  ]
+ },
+ {
+  "id": "dk-fvst-2026-nov-tilbagekald-salmonella-i-chicken-gyros",
+  "country": "DK",
+  "published": "2026-11-13",
+  "category": "food",
+  "hazard": "microbe",
+  "name": "Chicken gyros af mærket Eridanous",
+  "reason": "Ved rutinekontrol hos den danske virksomhed er der påvist Salmonella i produktet",
+  "details": "Ved rutinekontrol hos den danske virksomhed er der påvist Salmonella i produktet. Der er risiko for smitte med Salmonella. Symptomerne på infektion med Salmonella er diarré, mavesmerter, feber, hovedpine og eventuelt kvalme og opkast. Sygdommen kan vare fra få dage til flere uger. Læs mere om Salmonella i fødevarer her Læs mere om infektion med salmonella ved at trykke på linket her",
+  "bestBefore": "22.05.2027",
+  "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det. Hvis du oplever symptomer i forbindelse med indtag af produktet, bør du kontakte din egen læge.",
+  "source": "Fødevarestyrelsen",
+  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-salmonella-i-chicken-gyros"
+ },
+ {
+  "id": "dk-fvst-2026-nov-tilbagekald-spind-fra-moel-i-knaekkede-byggryn",
+  "country": "DK",
+  "published": "2026-11-12",
+  "category": "food",
+  "hazard": "other",
+  "name": "Kilic byggryn, knækkede 700g",
+  "reason": "Der er risiko for spind fra møl i produktet",
+  "details": "Der er risiko for spind fra møl i produktet. Spind fra møl gør produktet uegnet som fødevare.",
+  "bestBefore": "08.04.2027",
+  "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det.",
+  "source": "Fødevarestyrelsen",
+  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-spind-fra-moel-i-knaekkede-byggryn",
+  "gtins": [
+   "5706920116344"
   ]
  },
  {
@@ -158,8 +221,8 @@
   "country": "DK",
   "published": "2026-10-30",
   "category": "food",
-  "hazard": "other",
-  "name": "Samtlige produkter fra Frejas Fællesbageri produceret inden for de seneste 3 måneder.",
+  "hazard": "foreign",
+  "name": "Samtlige produkter fra Frejas Fællesbageri produceret inden for de seneste 3 måneder",
   "reason": "Der er manglende skadedyrssikring af produktions- og lagerlokaler og konstateret mange gnaverekskrementer i lokalerne",
   "details": "Der er manglende skadedyrssikring af produktions- og lagerlokaler og konstateret mange gnaverekskrementer i lokalerne. Skadedyrskontamineringen betyder, at produkterne vurderes at være farlige. Virksomheden er ikke registreret hos Fødevarestyrelsen og som følge af virksomhedens manglende sporbarhed kan der ikke redegøres for oprindelsen for virksomhedens råvarer.",
   "action": "Fødevarestyrelsen råder forbrugerne til at levere produkterne tilbage til butikken, hvor det er købt, eller at kassere det.",
@@ -181,6 +244,19 @@
   "gtins": [
    "7340191134195"
   ]
+ },
+ {
+  "id": "dk-fvst-2026-okt-tilbagekald-glasfragmenter-i-protein-budding",
+  "country": "DK",
+  "published": "2026-10-30",
+  "category": "food",
+  "hazard": "other",
+  "name": "Glasfragmenter i Protein budding",
+  "reason": "På grund af en fejl på tappeanlæg er der risiko for små fragmenter af glas i produktet",
+  "details": "Arla Protein Pudding Chokolade 6 x 200 g Varenummer: 608332 Bedst før-datoer: 11.01.2027; 18.01.2027; 20.01.2027; 06.02.2027; Arla Protein Pudding Karamel 6 x 200 g Varenummer: 608339 Bedst før-datoer: 23.01.2027; 02.02.2027",
+  "action": "Fødevarestyrelsen råder forbrugerne til at levere produktet tilbage til butikken, hvor det er købt eller at kassere det. Hvis du har spørgsmål til symptomer, skal du kontakte egen læge eller vagtlægen.",
+  "source": "Fødevarestyrelsen",
+  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/okt/tilbagekald-glasfragmenter-i-protein-budding"
  },
  {
   "id": "dk-fvst-2026-okt-tilbagekald-ikke-deklareret-aspartam-i-energidrik",
@@ -215,10 +291,10 @@
   "published": "2026-10-12",
   "category": "food",
   "hazard": "foreign",
-  "name": "Amanda Makrelkr&aelig;s tube 80 gram. Varenr. 107080001010,",
+  "name": "Amanda Makrelkræs tube 80 gram",
   "reason": "Der er risiko for forekomst af metalstykker i produktet",
   "details": "Der er risiko for forekomst af metalstykker i produktet. Metalstykkerne menes at stamme fra produktionen af emballagen.",
-  "action": "F&oslash;devarestyrelsen r&aring;der forbrugerne til at levere produktet tilbage til butikken, hvor det er k&oslash;bt eller at kassere det. Hvis du har sp&oslash;rgsm&aring;l til symptomer, skal du kontakte egen l&aelig;ge eller vagtl&aelig;gen.",
+  "action": "Fødevarestyrelsen råder forbrugerne til at levere produktet tilbage til butikken, hvor det er købt eller at kassere det. Hvis du har spørgsmål til symptomer, skal du kontakte egen læge eller vagtlægen.",
   "source": "Fødevarestyrelsen",
   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/okt/fremmedlegeme-i-tuber-med-makrelkraes"
  }

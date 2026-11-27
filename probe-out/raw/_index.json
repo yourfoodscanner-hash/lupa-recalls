@@ -7,18 +7,18 @@
   "file": "b6dd77e12091.txt"
  },
  {
-  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-aebleskiver-og-smaakager",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 71419,
-  "file": "c61763098698.txt"
- },
- {
   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-af-oksekebab",
   "status": 200,
   "type": "text/html; charset=utf-8",
   "bytes": 71191,
   "file": "9f3642ae2723.txt"
+ },
+ {
+  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-aebleskiver-og-smaakager",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 71419,
+  "file": "c61763098698.txt"
  },
  {
   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-bagel-og-pizzadej",
@@ -35,18 +35,18 @@
   "file": "ade662482ff9.txt"
  },
  {
-  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-risiko-for-salmonella-i-peking-and",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 71543,
-  "file": "f3ce0284a9e5.txt"
- },
- {
   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-risiko-for-mykotoksiner-i-mel",
   "status": 200,
   "type": "text/html; charset=utf-8",
   "bytes": 71639,
   "file": "db8214999432.txt"
+ },
+ {
+  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-risiko-for-salmonella-i-peking-and",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 71543,
+  "file": "f3ce0284a9e5.txt"
  },
  {
   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-fund-af-biller-i-fine-aerter",
@@ -175,18 +175,18 @@
   "file": "c70f701b68c2.txt"
  },
  {
-  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202404",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 35858,
-  "file": "73c09b8cdcb9.txt"
- },
- {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202216",
   "status": 200,
   "type": "text/html; charset=utf-8",
   "bytes": 32897,
   "file": "33c16085d28f.txt"
+ },
+ {
+  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202404",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 35858,
+  "file": "73c09b8cdcb9.txt"
  },
  {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202401",
@@ -245,13 +245,6 @@
   "file": "c166d4757ff1.txt"
  },
  {
-  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202357",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 32733,
-  "file": "32a453cd3001.txt"
- },
- {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202328",
   "status": 200,
   "type": "text/html; charset=utf-8",
@@ -259,11 +252,25 @@
   "file": "e1592ddf22f9.txt"
  },
  {
+  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202357",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 32733,
+  "file": "32a453cd3001.txt"
+ },
+ {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202326",
   "status": 200,
   "type": "text/html; charset=utf-8",
   "bytes": 33542,
   "file": "01a73e0b142b.txt"
+ },
+ {
+  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202356",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 36962,
+  "file": "4ebf38399ef3.txt"
  },
  {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202350",
@@ -285,13 +292,6 @@
   "type": "text/html; charset=utf-8",
   "bytes": 36398,
   "file": "736fedc9b47d.txt"
- },
- {
-  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202356",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 36962,
-  "file": "4ebf38399ef3.txt"
  },
  {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202311",
@@ -350,18 +350,18 @@
   "file": "cf08437ca761.txt"
  },
  {
-  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202280",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 33859,
-  "file": "6e70b5e0722d.txt"
- },
- {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202306",
   "status": 200,
   "type": "text/html; charset=utf-8",
   "bytes": 34934,
   "file": "b56609107ad1.txt"
+ },
+ {
+  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202280",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 33859,
+  "file": "6e70b5e0722d.txt"
  },
  {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202295",
@@ -378,13 +378,6 @@
   "file": "f8ab986d7826.txt"
  },
  {
-  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202228",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 35353,
-  "file": "cf8e43f45834.txt"
- },
- {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202229",
   "status": 200,
   "type": "text/html; charset=utf-8",
@@ -392,11 +385,11 @@
   "file": "ac902d716b2c.txt"
  },
  {
-  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202275",
+  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202228",
   "status": 200,
   "type": "text/html; charset=utf-8",
-  "bytes": 33921,
-  "file": "3dfaa3e8b2aa.txt"
+  "bytes": 35353,
+  "file": "cf8e43f45834.txt"
  },
  {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=201954",
@@ -406,11 +399,11 @@
   "file": "ba9e6eed8140.txt"
  },
  {
-  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202273",
+  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202275",
   "status": 200,
   "type": "text/html; charset=utf-8",
-  "bytes": 33427,
-  "file": "0270767dc50f.txt"
+  "bytes": 33921,
+  "file": "3dfaa3e8b2aa.txt"
  },
  {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202274",
@@ -418,6 +411,13 @@
   "type": "text/html; charset=utf-8",
   "bytes": 33916,
   "file": "85e74f3ac28f.txt"
+ },
+ {
+  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202273",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 33427,
+  "file": "0270767dc50f.txt"
  },
  {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202272",
@@ -476,6 +476,13 @@
   "file": "e5030da2c92b.txt"
  },
  {
+  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202169",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 35717,
+  "file": "83b75e2ef82f.txt"
+ },
+ {
   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202168",
   "status": 200,
   "type": "text/html; charset=utf-8",
@@ -516,13 +523,6 @@
   "type": "text/html; charset=utf-8",
   "bytes": 32951,
   "file": "dc1e7a4df9f6.txt"
- },
- {
-  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202169",
-  "status": 200,
-  "type": "text/html; charset=utf-8",
-  "bytes": 35717,
-  "file": "83b75e2ef82f.txt"
  },
  {
   "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat?format=feed&type=rss",
@@ -588,11 +588,11 @@
   "file": "97ec5836aaa0.txt"
  },
  {
-  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5411-deltio-typou-anaklisi-proionton-apo-bampoy",
+  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5410-deltio-typou-anaklisi-mi-asfalon-trofimon-typou-karamelon-zele-kai-synafon-glykismaton",
   "status": 200,
   "type": "text/html; charset=utf-8",
-  "bytes": 122722,
-  "file": "a93d271b8098.txt"
+  "bytes": 122264,
+  "file": "c3bad1540ff1.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/organization/single/market/list/en/",
@@ -749,18 +749,18 @@
   "file": "0ef29311956e.txt"
  },
  {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883859/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 7998,
-  "file": "f825d41bc10d.txt"
- },
- {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/888857/",
   "status": 200,
   "type": "application/json",
   "bytes": 18768,
   "file": "31976437ad37.txt"
+ },
+ {
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883859/",
+  "status": 200,
+  "type": "application/json",
+  "bytes": 7998,
+  "file": "f825d41bc10d.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/887359/",
@@ -819,18 +819,18 @@
   "file": "8feed5d2374d.txt"
  },
  {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/885886/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 15292,
-  "file": "9ac68d3fb3e1.txt"
- },
- {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/885928/",
   "status": 200,
   "type": "application/json",
   "bytes": 8202,
   "file": "9bd5475ede1a.txt"
+ },
+ {
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/885886/",
+  "status": 200,
+  "type": "application/json",
+  "bytes": 15292,
+  "file": "9ac68d3fb3e1.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/873185/",
@@ -847,18 +847,18 @@
   "file": "4fe7ef7d8575.txt"
  },
  {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883928/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 15182,
-  "file": "181031369b11.txt"
- },
- {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883887/",
   "status": 200,
   "type": "application/json",
   "bytes": 2536,
   "file": "ba1187463bc1.txt"
+ },
+ {
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883928/",
+  "status": 200,
+  "type": "application/json",
+  "bytes": 15182,
+  "file": "181031369b11.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883593/",
@@ -875,18 +875,18 @@
   "file": "68b675e34036.txt"
  },
  {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883779/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 25664,
-  "file": "2f4693bdebd8.txt"
- },
- {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883521/",
   "status": 200,
   "type": "application/json",
   "bytes": 6828,
   "file": "f6fe34bde58e.txt"
+ },
+ {
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883779/",
+  "status": 200,
+  "type": "application/json",
+  "bytes": 25664,
+  "file": "2f4693bdebd8.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883478/",
@@ -903,11 +903,11 @@
   "file": "723f640986f9.txt"
  },
  {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/882479/",
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/889185/",
   "status": 200,
   "type": "application/json",
-  "bytes": 3304,
-  "file": "a18de4099ff0.txt"
+  "bytes": 9575,
+  "file": "b759123265eb.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/882571/",
@@ -917,95 +917,11 @@
   "file": "de7746428499.txt"
  },
  {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/882379/",
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/884597/",
   "status": 200,
   "type": "application/json",
-  "bytes": 23916,
-  "file": "dfc201e52410.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/882145/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 3255,
-  "file": "a0ed933c1cd8.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/882251/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 16349,
-  "file": "25232f122fe6.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/881845/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 3295,
-  "file": "2f9c97e568f8.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/880624/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 4594,
-  "file": "d5601d9ab00c.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/881228/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 15736,
-  "file": "5744c1a32d20.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/880400/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 21549,
-  "file": "b017776122b7.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/879006/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 33790,
-  "file": "64eb0ddb0160.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/876681/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 22812,
-  "file": "0d7f18a6a535.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/878091/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 48682,
-  "file": "2dbf3546fa05.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/889185/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 9575,
-  "file": "b759123265eb.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/881836/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 21875,
-  "file": "e9127d2d9ca3.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/876267/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 19917,
-  "file": "25f65ffb326d.txt"
+  "bytes": 19867,
+  "file": "24cb6c0c0a1d.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883576/",
@@ -1013,13 +929,6 @@
   "type": "application/json",
   "bytes": 9084,
   "file": "98ed64d27dd5.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/884597/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 19867,
-  "file": "24cb6c0c0a1d.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/886914/",
@@ -1036,25 +945,18 @@
   "file": "4e0c5987e683.txt"
  },
  {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/885147/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 23359,
-  "file": "5f14f7c07725.txt"
- },
- {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/878585/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 19024,
-  "file": "1ba6e9988809.txt"
- },
- {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/889186/",
   "status": 200,
   "type": "application/json",
   "bytes": 7083,
   "file": "65c5a53c8534.txt"
+ },
+ {
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/885147/",
+  "status": 200,
+  "type": "application/json",
+  "bytes": 23359,
+  "file": "5f14f7c07725.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/888516/",
@@ -1092,13 +994,6 @@
   "file": "2a59321273e6.txt"
  },
  {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/882688/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 8460,
-  "file": "3c5c99a43a88.txt"
- },
- {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/888600/",
   "status": 200,
   "type": "application/json",
@@ -1127,18 +1022,18 @@
   "file": "5e7e7bbe9da3.txt"
  },
  {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/882876/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 9834,
-  "file": "c3c5da76e13d.txt"
- },
- {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/885018/",
   "status": 200,
   "type": "application/json",
   "bytes": 7420,
   "file": "f946206d4e75.txt"
+ },
+ {
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/882876/",
+  "status": 200,
+  "type": "application/json",
+  "bytes": 9834,
+  "file": "c3c5da76e13d.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/888433/",
@@ -1176,13 +1071,6 @@
   "file": "ebbe88062065.txt"
  },
  {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/880636/",
-  "status": 200,
-  "type": "application/json",
-  "bytes": 4360,
-  "file": "69d234a6ad01.txt"
- },
- {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/883236/",
   "status": 200,
   "type": "application/json",
@@ -1190,11 +1078,11 @@
   "file": "61ac863c17a5.txt"
  },
  {
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/886617/",
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/880636/",
   "status": 200,
   "type": "application/json",
-  "bytes": 2857,
-  "file": "d83730f8006f.txt"
+  "bytes": 4360,
+  "file": "69d234a6ad01.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/885761/",
@@ -1202,6 +1090,13 @@
   "type": "application/json",
   "bytes": 2983,
   "file": "2190c6bedfbf.txt"
+ },
+ {
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/886617/",
+  "status": 200,
+  "type": "application/json",
+  "bytes": 2857,
+  "file": "d83730f8006f.txt"
  },
  {
   "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/889004/",

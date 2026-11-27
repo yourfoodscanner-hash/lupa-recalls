@@ -5,17 +5,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
              <meta name="viewport" content="width=device-width, initial-scale=1">
                                 <!-- head -->
-                <base href="https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5411-deltio-typou-anaklisi-proionton-apo-bampoy" />
+                <base href="https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5410-deltio-typou-anaklisi-mi-asfalon-trofimon-typou-karamelon-zele-kai-synafon-glykismaton" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="title" content="ΔΕΛΤΙΟ ΤΥΠΟΥ: Ανάκληση προϊόντων από μπαμπού" />
+	<meta name="title" content="ΔΕΛΤΙΟ ΤΥΠΟΥ: Ανάκληση μη ασφαλών τροφίμων τύπου καραμελών ζελέ και συναφών γλυκισμάτων" />
 	<meta name="author" content="Super User" />
-	<meta property="og:url" content="https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5411-deltio-typou-anaklisi-proionton-apo-bampoy" />
-	<meta property="og:title" content="ΔΕΛΤΙΟ ΤΥΠΟΥ: Ανάκληση προϊόντων από μπαμπού" />
+	<meta property="og:url" content="https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5410-deltio-typou-anaklisi-mi-asfalon-trofimon-typou-karamelon-zele-kai-synafon-glykismaton" />
+	<meta property="og:title" content="ΔΕΛΤΙΟ ΤΥΠΟΥ: Ανάκληση μη ασφαλών τροφίμων τύπου καραμελών ζελέ και συναφών γλυκισμάτων" />
 	<meta property="og:type" content="article" />
-	<meta property="og:description" content="Βρίσκεστε εδώ:   Αρχική Ενημέρωση Δελτία Τύπου Αθήνα, 18 Αυγούστου 2026 ΔΕΛΤΙΟ ΤΥΠΟΥ Ανάκληση προϊόντων «ΠΙΑΤΑ, ΔΟΧΕΙΑ ΤΡΟΦΙΜΩΝ ΚΑΙ ΣΕΤ ΚΟΥΤΑΛΕΣ..." />
-	<meta name="description" content="Βρίσκεστε εδώ:   Αρχική Ενημέρωση Δελτία Τύπου Αθήνα, 18 Αυγούστου 2026 ΔΕΛΤΙΟ ΤΥΠΟΥ Ανάκληση προϊόντων «ΠΙΑΤΑ, ΔΟΧΕΙΑ ΤΡΟΦΙΜΩΝ ΚΑΙ ΣΕΤ ΚΟΥΤΑΛΕΣ..." />
+	<meta property="og:description" content="Βρίσκεστε εδώ:   Αρχική Ενημέρωση Δελτία Τύπου Αθήνα, 5 Αυγούστου 2026 ΔΕΛΤΙΟ ΤΥΠΟΥ Ανάκληση μη ασφαλών τροφίμων τύπου καραμελών ζελέ και συναφών..." />
+	<meta name="description" content="Βρίσκεστε εδώ:   Αρχική Ενημέρωση Δελτία Τύπου Αθήνα, 5 Αυγούστου 2026 ΔΕΛΤΙΟ ΤΥΠΟΥ Ανάκληση μη ασφαλών τροφίμων τύπου καραμελών ζελέ και συναφών..." />
 	<meta name="generator" content="Joomla! - Open Source Content Management" />
-	<title>ΔΕΛΤΙΟ ΤΥΠΟΥ: Ανάκληση προϊόντων από μπαμπού</title>
+	<title>ΔΕΛΤΙΟ ΤΥΠΟΥ: Ανάκληση μη ασφαλών τροφίμων τύπου καραμελών ζελέ και συναφών γλυκισμάτων</title>
 	<link href="/images/photos/favicon-96x96.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" type="text/css" />
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
@@ -45,9 +45,9 @@
 						.mfp-iframe-holder {padding:10px;}
 						.mfp-iframe-holder .mfp-content {max-width:100%;width:100%;height:100%;}
 						.mfp-iframe-scaler iframe {background:#fff;padding:10px;box-sizing:border-box;box-shadow:none;}
-					.sp-page-builder .page-content #section-id-1787096723042{padding:50px 0px 50px 0px;margin:0px 0px 0px 0px;}#column-id-1787096723041{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1787096723045 {margin:0px 0px 30px 0px;}#sppb-addon-1787096723045 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1787096723045 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1787096723045 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}#sppb-addon-wrapper-1787096723048 {margin:0px 0px 30px 0px;}#sppb-addon-1787096723048 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1787096723048 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1787096723048 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}.sp-page-builder .page-content #section-id-1787096723042{padding:50px 0px 50px 0px;margin:0px 0px 0px 0px;}#column-id-1787096723041{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1787096723045 {margin:0px 0px 30px 0px;}#sppb-addon-1787096723045 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1787096723045 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1787096723045 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}#sppb-addon-wrapper-1787096723048 {margin:0px 0px 30px 0px;}#sppb-addon-1787096723048 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1787096723048 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1787096723048 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}.sp-page-builder .page-content #section-id-1787096723042{padding:50px 0px 50px 0px;margin:0px 0px 0px 0px;}#column-id-1787096723041{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1787096723045 {margin:0px 0px 30px 0px;}#sppb-addon-1787096723045 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1787096723045 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1787096723045 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}#sppb-addon-wrapper-1787096723048 {margin:0px 0px 30px 0px;}#sppb-addon-1787096723048 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1787096723048 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1787096723048 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}body{font-family:Open Sans, sans-serif; font-size:14px; font-weight:normal; }h1{font-family:Didact Gothic, sans-serif; font-weight:normal; }h2{font-family:Arimo, sans-serif; font-weight:700; }h3{font-family:Arimo, sans-serif; font-weight:700; }h4{font-family:Arimo, sans-serif; font-weight:700; }h5{font-family:Open Sans, sans-serif; font-weight:600; }h6{font-family:Open Sans, sans-serif; font-weight:600; }#sp-trending-news{ background-color:#272727;color:#ffffff;padding:10px 15px; }#sp-header{ padding:20px 0px; }#sp-footer-logo{ background-color:#1c1c1c;color:#969696;padding:0 0 40px; }#sp-footer{ padding:15px 0; }
+					.sp-page-builder .page-content #section-id-1786236325675{padding:50px 0px 50px 0px;margin:0px 0px 0px 0px;}#column-id-1786236325674{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1786236325678 {margin:0px 0px 30px 0px;}#sppb-addon-1786236325678 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1786236325678 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1786236325678 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}#sppb-addon-wrapper-1786236325681 {margin:0px 0px 30px 0px;}#sppb-addon-1786236325681 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1786236325681 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1786236325681 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}.sp-page-builder .page-content #section-id-1786236325675{padding:50px 0px 50px 0px;margin:0px 0px 0px 0px;}#column-id-1786236325674{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1786236325678 {margin:0px 0px 30px 0px;}#sppb-addon-1786236325678 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1786236325678 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1786236325678 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}#sppb-addon-wrapper-1786236325681 {margin:0px 0px 30px 0px;}#sppb-addon-1786236325681 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1786236325681 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1786236325681 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}.sp-page-builder .page-content #section-id-1786236325675{padding:50px 0px 50px 0px;margin:0px 0px 0px 0px;}#column-id-1786236325674{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1786236325678 {margin:0px 0px 30px 0px;}#sppb-addon-1786236325678 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1786236325678 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1786236325678 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}#sppb-addon-wrapper-1786236325681 {margin:0px 0px 30px 0px;}#sppb-addon-1786236325681 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1786236325681 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1786236325681 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}body{font-family:Open Sans, sans-serif; font-size:14px; font-weight:normal; }h1{font-family:Didact Gothic, sans-serif; font-weight:normal; }h2{font-family:Arimo, sans-serif; font-weight:700; }h3{font-family:Arimo, sans-serif; font-weight:700; }h4{font-family:Arimo, sans-serif; font-weight:700; }h5{font-family:Open Sans, sans-serif; font-weight:600; }h6{font-family:Open Sans, sans-serif; font-weight:600; }#sp-trending-news{ background-color:#272727;color:#ffffff;padding:10px 15px; }#sp-header{ padding:20px 0px; }#sp-footer-logo{ background-color:#1c1c1c;color:#969696;padding:0 0 40px; }#sp-footer{ padding:15px 0; }
 	</style>
-	<script type="application/json" class="joomla-script-options new">{"csrf.token":"8f2a6f93105f0d90c997101ec898a129","system.paths":{"root":"","base":""}}</script>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"8153dec7c73f5bf098db5776d7de083d","system.paths":{"root":"","base":""}}</script>
 	<script src="/media/jui/js/jquery.min.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
 	<script src="/media/jui/js/jquery-noconflict.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
 	<script src="/media/jui/js/jquery-migrate.min.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
@@ -825,7 +825,7 @@ submit_complaint = "Submit Complaint";
 
 	<ul class="lang-inline" dir="ltr">
 									<li class="lang-active">
-			<a href="https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5411-deltio-typou-anaklisi-proionton-apo-bampoy">
+			<a href="https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5410-deltio-typou-anaklisi-mi-asfalon-trofimon-typou-karamelon-zele-kai-synafon-glykismaton">
 												<img src="/media/mod_languages/images/el_gr.gif" alt="Ελληνικά" title="Ελληνικά" />										</a>
 			</li>
 								<li>
@@ -880,8 +880,8 @@ submit_complaint = "Submit Complaint";
 								<div class="btl-buttonsubmit">
 					<input type="submit" name="Submit" class="btl-buttonsubmit" onclick="return loginAjax()" value="Σύνδεση" /> 
 					<input type="hidden" name="bttask" value="login" /> 
-					<input type="hidden" name="return" id="btl-return"	value="aW5kZXgucGhwP29wdGlvbj1jb21fazImdmlldz1pdGVtJmlkPTU0MTE6ZGVsdGlvLXR5cG91LWFuYWtsaXNpLXByb2lvbnRvbi1hcG8tYmFtcG95Jkl0ZW1pZD04NzI=" />
-					<input type="hidden" name="8f2a6f93105f0d90c997101ec898a129" value="1" />				</div>
+					<input type="hidden" name="return" id="btl-return"	value="aW5kZXgucGhwP29wdGlvbj1jb21fazImdmlldz1pdGVtJmlkPTU0MTA6ZGVsdGlvLXR5cG91LWFuYWtsaXNpLW1pLWFzZmFsb24tdHJvZmltb24tdHlwb3Uta2FyYW1lbG9uLXplbGUta2FpLXN5bmFmb24tZ2x5a2lzbWF0b24mSXRlbWlkPTg3Mg==" />
+					<input type="hidden" name="8153dec7c73f5bf098db5776d7de083d" value="1" />				</div>
 			</form>	
 			<ul id ="bt_ul">
 				<li>
@@ -907,8 +907,8 @@ submit_complaint = "Submit Complaint";
 /*<![CDATA[*/
 var btlOpt = 
 {
-	BT_AJAX					:'https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5411-deltio-typou-anaklisi-proionton-apo-bampoy',
-	BT_RETURN				:'/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5411-deltio-typou-anaklisi-proionton-apo-bampoy',
+	BT_AJAX					:'https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5410-deltio-typou-anaklisi-mi-asfalon-trofimon-typou-karamelon-zele-kai-synafon-glykismaton',
+	BT_RETURN				:'/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5410-deltio-typou-anaklisi-mi-asfalon-trofimon-typou-karamelon-zele-kai-synafon-glykismaton',
 	RECAPTCHA				:'none',
 	LOGIN_TAGS				:'',
 	REGISTER_TAGS			:'',
@@ -995,7 +995,7 @@ BTLJ("#btl .btl-panel > span").css({"color":btlOpt.TEXT_COLOR,"background-color"
 		</div></div></div></div></section><section id="sp-page-title"><div class="row"><div id="sp-title" class="col-sm-12 col-md-12"><div class="sp-column "></div></div></div></section><section id="sp-main-body"><div class="container"><div class="row"><div id="sp-component" class="col-sm-8 col-md-8"><div class="sp-column "><div id="system-message-container">
 	</div>
 <!-- Start K2 Item Layout -->
-<span id="startOfPageId5411"></span>
+<span id="startOfPageId5410"></span>
 
 <div id="k2Container" class="itemView">
 
@@ -1009,7 +1009,7 @@ BTLJ("#btl .btl-panel > span").css({"color":btlOpt.TEXT_COLOR,"background-color"
 		<!-- Item title -->
 	<h2 class="itemTitle">
 		
-		ΔΕΛΤΙΟ ΤΥΠΟΥ: Ανάκληση προϊόντων από μπαμπού
+		ΔΕΛΤΙΟ ΤΥΠΟΥ: Ανάκληση μη ασφαλών τροφίμων τύπου καραμελών ζελέ και συναφών γλυκισμάτων
 			</h2>
 	 <!-- Item title end -->
 
@@ -1039,14 +1039,14 @@ BTLJ("#btl .btl-panel > span").css({"color":btlOpt.TEXT_COLOR,"background-color"
 			
 						<!-- Print Button -->
 			<li>
-				<a class="itemPrintLink" rel="nofollow" href="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5411-deltio-typou-anaklisi-proionton-apo-bampoy?tmpl=component&amp;print=1" onclick="window.open(this.href,'printWindow','width=900,height=600,location=no,menubar=no,resizable=yes,scrollbars=yes'); return false;">
+				<a class="itemPrintLink" rel="nofollow" href="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5410-deltio-typou-anaklisi-mi-asfalon-trofimon-typou-karamelon-zele-kai-synafon-glykismaton?tmpl=component&amp;print=1" onclick="window.open(this.href,'printWindow','width=900,height=600,location=no,menubar=no,resizable=yes,scrollbars=yes'); return false;">
 					<span>Print</span>
 				</a>
 			</li>
 			
 						<!-- Email Button -->
 			<li>
-				<a class="itemEmailLink" rel="nofollow" href="/index.php/el/component/mailto/?tmpl=component&amp;template=ts_news247&amp;link=a93d271b8098c5bc8fe7ba04bd4a433672f5c211" onclick="window.open(this.href,'emailWindow','width=400,height=350,location=no,menubar=no,resizable=no,scrollbars=no'); return false;">
+				<a class="itemEmailLink" rel="nofollow" href="/index.php/el/component/mailto/?tmpl=component&amp;template=ts_news247&amp;link=c3bad1540ff16f6ef1fc7598c6862de264c63583" onclick="window.open(this.href,'emailWindow','width=400,height=350,location=no,menubar=no,resizable=no,scrollbars=no'); return false;">
 					<span>Email</span>
 				</a>
 			</li>
@@ -1078,7 +1078,7 @@ BTLJ("#btl .btl-panel > span").css({"color":btlOpt.TEXT_COLOR,"background-color"
 		
 		<!-- Item text -->
 		<div class="itemFullText">
-			<div id="sp-page-builder" class="sp-page-builder sppb-item-page-wrapper"><div class="page-content"><section id="section-id-1787096723042" class="sppb-section" ><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-12" id="column-wrap-id-1787096723041"><div id="column-id-1787096723041" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-wrapper-1787096723045" class="sppb-addon-wrapper"><div id="sppb-addon-1787096723045" class="clearfix "     ><div class="sppb-addon sppb-addon-module "><div class="sppb-addon-content"><div aria-label="breadcrumbs" role="navigation">
+			<div id="sp-page-builder" class="sp-page-builder sppb-item-page-wrapper"><div class="page-content"><section id="section-id-1786236325675" class="sppb-section" ><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-12" id="column-wrap-id-1786236325674"><div id="column-id-1786236325674" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-wrapper-1786236325678" class="sppb-addon-wrapper"><div id="sppb-addon-1786236325678" class="clearfix "     ><div class="sppb-addon sppb-addon-module "><div class="sppb-addon-content"><div aria-label="breadcrumbs" role="navigation">
 	<ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
 					<li>
 				Βρίσκεστε εδώ: &#160;
@@ -1106,20 +1106,21 @@ BTLJ("#btl .btl-panel > span").css({"color":btlOpt.TEXT_COLOR,"background-color"
 				</li>
 				</ul>
 </div>
-</div></div></div></div><div id="sppb-addon-wrapper-1787096723048" class="sppb-addon-wrapper"><div id="sppb-addon-1787096723048" class="clearfix "     ><div class="sppb-addon sppb-addon-text-block  "><div class="sppb-addon-content"><div><br /><br /></div>
+</div></div></div></div><div id="sppb-addon-wrapper-1786236325681" class="sppb-addon-wrapper"><div id="sppb-addon-1786236325681" class="clearfix "     ><div class="sppb-addon sppb-addon-text-block  "><div class="sppb-addon-content"><div><br /><br /></div>
 <div><span style="font-size: 10pt;"><img class="" style="float: left;" src="/files/images1/logoefet.jpg" alt="" width="139" height="106" /></span></div>
-<div style="text-align: right;"><br /><br /><br /><br /><span style="font-size: 10pt;"><strong><br /><br /><br /><br /> Αθήνα, 18 Αυγούστου 2026</strong></span></div>
+<div style="text-align: right;"><br /><br /><br /><br /><span style="font-size: 10pt;"><strong><br /><br /><br /><br /> Αθήνα, 5 Αυγούστου 2026</strong></span></div>
 <div> </div>
 <div style="text-align: center;"><span style="font-size: 10pt;"><span style="font-size: 10pt;"><strong><span style="font-size: 14pt;">ΔΕΛΤΙΟ ΤΥΠΟΥ</span><br /></strong></span></span>
-<p><strong>Ανάκληση προϊόντων «ΠΙΑΤΑ, ΔΟΧΕΙΑ ΤΡΟΦΙΜΩΝ ΚΑΙ ΣΕΤ ΚΟΥΤΑΛΕΣ ΜΠΑΜΠΟΥ»</strong></p>
+<p><strong>Ανάκληση μη ασφαλών τροφίμων τύπου καραμελών ζελέ και συναφών γλυκισμάτων </strong></p>
 <div style="text-align: left;">
-<p>Ο Ε.Φ.Ε.Τ. και ειδικότερα η Περιφερειακή Διεύθυνση Αττικής του Ε.Φ.Ε.Τ., κατά τη διενέργεια ελέγχων στο πλαίσιο του Προγράμματος Δειγματοληψίας &amp; Ανάλυσης έτους 2026 «Επίσημος Έλεγχος για την παρακολούθηση της συμμόρφωσης των υλικών και αντικειμένων που προορίζονται να έρθουν σε επαφή με τα τρόφιμα», προέβη σε δειγματοληψία πιάτων, δοχείων φαγητού και σετ κουταλών με τις ενδείξεις: «πιάτο μπαμπού SPRING, Made in P.R.C.», «δοχείο φαγητού Bamboo Fiber - Natural Collection, Made in P.R.C.», «σετ κουτάλες μπαμπού JULONG COMMODITY Life Style, Made in P.R.C.». Τα ανώτερα προϊόντα εισάγονται από την επιχείρηση «SPRING DEPARTMENT STORE Ι.Κ.Ε», με έδρα  Άγ. Ι. Ρέντης, Αθήνα. </p>
-<p>Τα προϊόντα εξετάστηκαν από το Β’ Τμήμα της Β’ Χημικής Υπηρεσίας Αθηνών του Γενικού Χημείου του Κράτους της Α.Α.Δ.Ε. και χαρακτηρίστηκαν <strong>ΜΗ ΚΑΝΟΝΙΚΑ</strong>, καθώς, ενώ στις ενδείξεις της συσκευασίας τους παρουσιάζονται ως «πιάτο μπαμπού», «δοχείο φαγητού Bamboo Fiber – Natural Collection», «σετ κουτάλες μπαμπού», από τους εργαστηριακούς ελέγχους διαπιστώθηκε ότι πρόκειται για πλαστικά υλικά και αντικείμενα σε επαφή με τρόφιμα (ΥΑΕΤ), κατασκευασμένα από ρητίνη μελαμίνης. Κατά συνέπεια, τα δείγματα δεν πληρούν τις απαιτήσεις του άρθρου 3 παρ. 2 του Κανονισμού (ΕΚ) 1935/2004 καθώς η επισήμανση και η παρουσίαση των προϊόντων δύναται να παραπλανήσει τον καταναλωτή ως προς τη φύση και τη σύνθεσή τους. </p>
-<p>Επιπλέον, δεδομένου ότι τα δείγματα αποτελούν πλαστικά αντικείμενα, εμπίπτουν στις διατάξεις του Κανονισμού (ΕΕ) 10/2011 για τα πλαστικά υλικά και αντικείμενα που προορίζονται να έρθουν σε επαφή με τρόφιμα. Συγκεκριμένα, το μπαμπού, είτε υπό μορφή αλεύρου είτε ινών, δεν περιλαμβάνεται στον ενωσιακό κατάλογο των εγκεκριμένων ουσιών του εν λόγω Κανονισμού για χρήση στην κατασκευή πλαστικών υλικών και αντικειμένων που προορίζονται να έρθουν σε επαφή με τρόφιμα. Ως εκ τούτου, πλαστικά υλικά και αντικείμενα που περιέχουν μπαμπού δεν επιτρέπεται να διατίθενται στην αγορά. </p>
-<p>Ο Ε.Φ.Ε.Τ. απαίτησε την άμεση ανάκληση του συνόλου των εν λόγω προϊόντων και των ομοειδών τους και ήδη βρίσκονται σε εξέλιξη οι σχετικοί έλεγχοι.</p>
-Καλούνται οι καταναλωτές που έχουν προμηθευτεί τα ανωτέρω προϊόντα (ενδεικτικές φωτογραφίες κάτωθι), να μην τα χρησιμοποιήσουν.</div>
+<p><strong>Ο Ε.Φ.Ε.Τ. και ειδικότερα η Περιφερειακή Διεύθυνση Αττικής, </strong><strong>ενημερώθηκε μέσω του Συστήματος Έγκαιρης Προειδοποίησης για τα Τρόφιμα και τις Ζωοτροφές (<em>RASFF</em>), σχετικά </strong>με τη διακίνηση στην Ελλάδα καραμελών ζελέ («ζελεδάκια»), στα οποία ανιχνεύτηκαν οι ουσίες δέλτα-9-τετραϋδροκανναβινόλη (<em>delta</em>-9-<em>THC</em>) και δέλτα-8-τετραϋδροκανναβινόλη (<em>delta</em>-8-<em>THC</em>) σε υψηλές συγκεντρώσεις. Επιπλέον, περιέχουν ως συστατικό την μη εγκεκριμένη ουσία κανναβιδιόλη (<em>CBD</em>).</p>
+<p>Συγκεκριμένα, πρόκειται για το προϊόν με ονομασία πώλησης «<em>Cookies Delta</em> 9 <em>Gummies</em> <em>infused</em>» και εμπορική ονομασία «<em>L</em><em>ONDON</em> <em>POUND</em> <em>CAKE</em> 75», σε συσκευασία των 50g. Το εν λόγω προϊόν εισάγεται από την Αμερική και διακινείται από την ελληνική επιχείρηση «<em>BIOMINERALES PHARMA EUROPE</em>» σε διάφορες επιχειρήσεις. </p>
+<p>Το προϊόν φέρει στην επισήμανσή του ένδειξη όπως «για διακοσμητικούς σκοπούς» (<em>souvenir</em> <em>purposes</em>). Ωστόσο, δεδομένου ότι έχει μορφή, σύσταση και παρουσίαση κοινών γλυκισμάτων, η κατανάλωσή του θεωρείται εύλογα αναμενόμενη. Ως εκ τούτου, εμπίπτει στην έννοια του τροφίμου, σύμφωνα με την οποία τρόφιμο θεωρείται κάθε ουσία που προορίζεται ή εύλογα αναμένεται να καταναλωθεί από τον άνθρωπο, ανεξαρτήτως του χαρακτηρισμού που αποδίδεται από τον κατασκευαστή.</p>
+<p>Ο Ε.Φ.Ε.Τ. απαίτησε την άμεση ανάκληση του συνόλου των προϊόντων των εν λόγω προϊόντων και ήδη βρίσκονται σε εξέλιξη οι σχετικοί έλεγχοι.</p>
+<p>Καλούνται οι καταναλωτές που έχουν προμηθευτεί παρόμοια προϊόντα (ενδεικτικές φωτογραφίες κάτωθι), να μην τα καταναλώσουν.</p>
+</div>
 <div class="col-md-12">
-<p class="text-center"><img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" src="/files/koutales_mpampou.jpg" alt="Κουτάλες Μπαμπου" /></p>
+<p class="text-center"><img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" src="/files/zeledakia_kanavi.jpg" alt="Ζελεδάκια" /></p>
 </div>
 </div></div></div></div></div></div></div></div></div></div></section></div></div>		</div>
 
@@ -1167,7 +1168,7 @@ BTLJ("#btl .btl-panel > span").css({"color":btlOpt.TEXT_COLOR,"background-color"
 	
 	
 		<div class="itemBackToTop">
-		<a class="k2Anchor" href="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5411-deltio-typou-anaklisi-proionton-apo-bampoy#startOfPageId5411">
+		<a class="k2Anchor" href="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5410-deltio-typou-anaklisi-mi-asfalon-trofimon-typou-karamelon-zele-kai-synafon-glykismaton#startOfPageId5410">
 			back to top		</a>
 	</div>
 	

@@ -4,7 +4,7 @@
     <title>Luxembourg RASFF notifications</title>
     <link>https://webgate.ec.europa.eu/rasff-window/screen/list?consumer=5023</link>
     <description />
-    <pubDate>Fri, 27 Nov 2026 08:34:05 GMT</pubDate>
+    <pubDate>Fri, 27 Nov 2026 08:39:45 GMT</pubDate>
     <item>
       <title>2026.10406 - 	Undeclared allergen mustard in soba noodles, from Australia via the Netherlands.</title>
       <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/888857</link>
