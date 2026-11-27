@@ -1,19 +1,88 @@
 {
- "generated": "2026-11-26T20:46:35Z",
- "total": 281,
+ "generated": "2026-11-27T08:07:07Z",
+ "total": 464,
  "curated": 0,
  "byCountry": {
-  "FR": 281
+  "DE": 40,
+  "FR": 274,
+  "SI": 103,
+  "AT": 10,
+  "HR": 36,
+  "BA": 1
  },
  "sources": {
   "rappelconso": {
    "enabled": true,
    "ok": true,
    "seen": 19336,
-   "published": 281,
+   "published": 274,
    "dropped": {
     "kategorija koju LUPA ne prikazuje": 4932,
-    "starije od prozora": 14123
+    "starije od prozora": 14130
+   },
+   "carried": 0,
+   "error": null
+  },
+  "lebensmittelwarnung": {
+   "enabled": true,
+   "ok": true,
+   "seen": 237,
+   "published": 40,
+   "dropped": {
+    "starije od prozora": 197
+   },
+   "carried": 0,
+   "error": null
+  },
+  "govsi": {
+   "enabled": true,
+   "ok": true,
+   "seen": 1443,
+   "published": 103,
+   "dropped": {
+    "kategorija koju LUPA ne prikazuje": 677,
+    "starije od prozora": 554,
+    "nije stiglo do potrošača u Sloveniji": 108,
+    "bez razloga": 1
+   },
+   "carried": 0,
+   "error": null
+  },
+  "hapih": {
+   "enabled": true,
+   "ok": true,
+   "seen": 50,
+   "published": 36,
+   "dropped": {
+    "hrana za životinje ili posuđe (LUPA ne prikazuje)": 8,
+    "povlačenje ranije obavijesti": 2,
+    "obavijest koju je inspektorat povukao": 1,
+    "starije od prozora": 3
+   },
+   "carried": 0,
+   "error": null
+  },
+  "fsaba": {
+   "enabled": true,
+   "ok": true,
+   "seen": 50,
+   "published": 1,
+   "dropped": {
+    "posuđe ili hrana za životinje (LUPA ne prikazuje)": 6,
+    "starije od prozora": 35,
+    "nije obavijest o povlačenju": 8
+   },
+   "carried": 0,
+   "error": null
+  },
+  "ages": {
+   "enabled": true,
+   "ok": true,
+   "seen": 27,
+   "published": 10,
+   "dropped": {
+    "starije od prozora": 16,
+    "kategorija koju LUPA ne prikazuje": 1
    },
    "carried": 0,
    "error": null
