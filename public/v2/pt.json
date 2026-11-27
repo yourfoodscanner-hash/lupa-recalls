@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T17:44:42Z",
+ "generated": "2026-11-27T17:48:00Z",
  "country": "PT",
  "recalls": [
   {
@@ -91,8 +91,7 @@
    "reason": "MRL exceedance for prothioconazole in Savoy cabbage from Belgium",
    "details": "prothioconazole - pesticide residues",
    "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
-   "group": "rasff-2026-9651"
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299"
   }
  ]
 }

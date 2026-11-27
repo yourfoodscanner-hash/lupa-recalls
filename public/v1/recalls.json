@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-27T17:44:42Z",
+ "generated": "2026-11-27T17:48:00Z",
  "recalls": [
   {
    "id": "be-favv-terugroeping-van-biofresh-belgium-7",
@@ -136,6 +136,20 @@
    "gtins": [
     "5709152020175"
    ]
+  },
+  {
+   "id": "es-aesan-es2026-716",
+   "country": "ES",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Hakubaku Organic Soba Noodles",
+   "reason": "Presencia de mostaza",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LA MOSTAZA de la comercialización del producto Organic Soba Noodles con presencia de mostaza no incluida en el etiquetado. Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Cataluña, Madrid y País Vasco, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+   "bestBefore": "01.06.2028",
+   "action": "Como medida de precaución, se recomienda a aquellas PERSONAS CON ALERGIA A LA MOSTAZA que pudieran tener el producto anteriormente mencionado en sus hogares se abstengan de consumirlo.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_89"
   },
   {
    "id": "fr-rc-2026-11-0198",
@@ -278,6 +292,24 @@
    "action": "This may make these batches unsafe for consumers who are allergic to or intolerant of celery and therefore, these consumers should not eat the implicated broths.",
    "source": "FSAI",
    "url": "https://www.fsai.ie/news-and-alerts/allergen-alerts/update-(1)-to-incorrectly-declared-celery-in-some"
+  },
+  {
+   "id": "lu-alva-2026-11-avertissement-coca-cola-zero-de-la-marque-coca-cola",
+   "country": "LU",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "label",
+   "name": "Coca-Cola zero",
+   "brand": "Coca-Cola",
+   "reason": "Erreur d'étiquetage",
+   "details": "Période de vente : 04/11/2026 - 26/11/2026. Suite à un mélange d’étiquettes, certaines bouteilles contenant du ‘Coca Cola Zero Sugar’ sont munies d’une étiquette de ‘Coca Cola Regular’. Leur contenu est sans sucre, contient des édulcorants et constitue donc une source de phénylalanine. Les personnes diabétiques sont invitées à faire preuve d’une vigilance particulière et à tenir compte du fait que le contenu réel est sans sucre et peut donc différer des informations figurant sur l’étiquette. Nous demandons également aux personnes atteintes de phénylcétonurie (PCU) ou sensibles à la phénylalanine de faire preuve d’une prudence particulière, car l’étiquette erronée pourrait les amener à consommer à leur insu un produit contenant des édulcorants. Ce produit est sans danger pour les…",
+   "lots": "295AN2 17:07 jusqu’à 295AN2 20:37",
+   "bestBefore": "28/02/2027",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/11/avertissement-coca-cola-zero-de-la-marque-coca-cola.html",
+   "gtins": [
+    "5449000131836"
+   ]
   },
   {
    "id": "be-favv-terugroeping-van-coprospect-srl",
@@ -533,6 +565,20 @@
    "url": "https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-mustard-in-a-batch-of-hakubaku-organic"
   },
   {
+   "id": "lu-alva-2026-11-avertissement-allergene-organi-soba-noodles-de-la-marque-0pbvkti",
+   "country": "LU",
+   "published": "2026-11-26",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Organic Soba noodles",
+   "brand": "Hakubaku",
+   "reason": "Présence de l'allergène moutarde non mentionnée sur l'étiquette",
+   "details": "Distribution dans des points de vente au Luxembourg.",
+   "bestBefore": "01/06/2028",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/Avertissementsallergenes/2026/11/avertissement-allergene-organi-soba-noodles-de-la-marque-hakubaku.html"
+  },
+  {
    "id": "nl-nvwa-diverse-salades-van-marqt-keuken",
    "country": "NL",
    "published": "2026-11-26",
@@ -683,6 +729,21 @@
     "5712875171161",
     "5712875171185"
    ]
+  },
+  {
+   "id": "es-aesan-es2026-712",
+   "country": "ES",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "AUCHAN MIX SPRINT & GO, EL CORTE INGLÉS Mix para ensalada con bayas de goji, EL CORTE INGLÉS Pipa de girasol peladas fritas, EL CORTE INGLÉS Cóctel fiesta, EL…",
+   "reason": "Posible presencia de fragmentos de vidrio",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Autónoma de Cataluña, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la posible presencia de fragmentos de vidrio en varios productos elaborados con frutos secos y de varias marcas. Según la información disponible, la distribución inicial se ha producido en la mayor parte del territorio nacional.",
+   "lots": "1127091, 1128091, 1127474, 1127555, 1128181, 1128258, 1128079, 1128238, 1127796, 1128182, 1127704, 1127306, 1127948, 1127774, 1127445, 1127465, 1127790, 1127868, 1128041, 2100700, 2100768, 2100901, 1127427, 1127901, 1127780",
+   "bestBefore": "12/12/2026, 15/03/2027, 22/01/2027, 03/02/2027, 17/03/2027, 28/03/2027, 16/03/2027, 10/03/2027, 20/02/2027…",
+   "action": "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_88"
   },
   {
    "id": "eu-rasff-bg-2026-10469",
@@ -1306,19 +1367,6 @@
    "group": "rasff-2026-10406"
   },
   {
-   "id": "eu-rasff-es-2026-10406",
-   "country": "ES",
-   "published": "2026-11-23",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Noodles",
-   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
-   "details": "mustard - traces - allergens",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
-   "group": "rasff-2026-10406"
-  },
-  {
    "id": "eu-rasff-it-2026-10406",
    "country": "IT",
    "published": "2026-11-23",
@@ -1327,20 +1375,6 @@
    "name": "Noodles",
    "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
    "details": "mustard - traces - allergens",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
-   "group": "rasff-2026-10406"
-  },
-  {
-   "id": "eu-rasff-lu-2026-10406",
-   "country": "LU",
-   "published": "2026-11-23",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Noodles",
-   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
-   "details": "mustard - traces - allergens",
-   "action": "Withdrawal from the market, public warning - press release",
    "source": "RASFF – European Commission",
    "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
    "group": "rasff-2026-10406"
@@ -1622,6 +1656,41 @@
    "action": "Eet de reep niet als u allergisch bent voor pinda's.",
    "source": "NVWA",
    "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/21/veiligheidswaarschuwing-healthyfit-vegan-protein-bar-hazelnut-nougat"
+  },
+  {
+   "id": "es-aesan-es2026-710",
+   "country": "ES",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "La Quindianita Helado de chocolate, La Quindianita Helado yogur maracuyá, La Quindianita Helado yogur mora, La Quindianita Helado de maní, La Quindianita…",
+   "reason": "Presencia de soja, cacahuete y/o sulfitos",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA A LA SOJA Y/O EL CACAHUETE E INTOLERANCIA A LOS SULFITOS de la comercialización de helados de la marca LA QUINDIANITA con presencia de soja, cacahuetes y/o sulfitos no incluidos en el etiquetado. Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Andalucía, Aragón, Cataluña y Madrid, si bienno es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+   "action": "Como medida de precaución, se recomienda a aquellas PERSONAS CON ALERGIA A LA SOJA Y/O EL CACAHUETE E INTOLERANCIA A LOS SULFITOS que pudieran tener los productos anteriormente mencionados en sus hogares se abstengan de consumirlos.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_84"
+  },
+  {
+   "id": "es-aesan-es2026-711",
+   "country": "ES",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Eroski Huevos frescos de gallinas sueltas en el gallinero",
+   "reason": "Posible presencia de Salmonella Enteritidis",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) amplía la información relativa a la alerta por posible presencia de Salmonella Enteritidis en huevos procedentes de España.",
+   "lots": "0222F XXXX",
+   "bestBefore": "Todas entre el 22/11 y el 1/12 de 2026",
+   "action": "Se recomienda a las personas que tengan en su domicilio productos incluidos en esta alerta se abstengan de consumirlos.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_86",
+   "gtins": [
+    "8480010184778",
+    "8480010184785",
+    "8480010190106",
+    "8480010190076",
+    "8480010196733"
+   ]
   },
   {
    "id": "eu-rasff-it-2026-10329",
@@ -1957,6 +2026,23 @@
    "url": "https://www.fsai.ie/news-and-alerts/allergen-alerts/presence-of-peanut-in-specific-batches-of-healthyf"
   },
   {
+   "id": "lu-alva-2026-11-avertissement-ananas-en-morceaux-de-la-marque-douceur-du-verger",
+   "country": "LU",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "label",
+   "name": "Ananas en morceaux",
+   "brand": "Douceur du Verger",
+   "reason": "Date de durabilité minimale erronée",
+   "details": "Vente confirmée au Luxembourg par: Leclerc",
+   "bestBefore": "DDM erronée : 17/2028 & 19/2028 ; DDM correcte : 17/08/2028 & 19/08/2028",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/11/avertissement-ananas-en-morceaux-de-la-marque-douceur-du-verger.html",
+   "gtins": [
+    "3564700698051"
+   ]
+  },
+  {
    "id": "be-favv-terugroeping-van-albert-heijn-21",
    "country": "BE",
    "published": "2026-11-19",
@@ -2207,6 +2293,24 @@
    "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-a-batch-of-card-factory-candy-canes"
   },
   {
+   "id": "lu-alva-2026-11-rappel-yerba-mate-de-la-marque-sabrosa",
+   "country": "LU",
+   "published": "2026-11-19",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Yerba Mate",
+   "brand": "Sabrosa",
+   "reason": "Teneur trop élevée en anthraquinone (résidu de pesticide)",
+   "details": "Distribution dans des points de vente au Luxembourg.",
+   "lots": "06-2027/21",
+   "bestBefore": "30/06/2027",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/11/rappel-yerba-mate-de-la-marque-sabrosa.html",
+   "gtins": [
+    "6217000144113"
+   ]
+  },
+  {
    "id": "nl-nvwa-ah-spinazie-a-la-creme-750-gram",
    "country": "NL",
    "published": "2026-11-19",
@@ -2302,6 +2406,23 @@
    "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező terméket ne fogyasszák el!",
    "source": "Nébih",
    "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2793743029"
+  },
+  {
+   "id": "lu-alva-2026-11-rappel-gourmand-la-grecque-citron-yuzu-mamie-nova",
+   "country": "LU",
+   "published": "2026-11-18",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Gourmand à la grecque Citron-Yuzu",
+   "brand": "MAMIE NOVA",
+   "reason": "Présence possible de corps étranger de type verre",
+   "details": "Distribution dans des points de vente au Luxembourg.",
+   "bestBefore": "12/12/2026",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/11/rappel-gourmand-la-grecque-citron-yuzu-mamie-nova.html",
+   "gtins": [
+    "3456772024237"
+   ]
   },
   {
    "id": "pl-gis-stwierdzenie-przekroczenia-najwyzszego-dopuszczalnego-poziomu-och-1gbxieg",
@@ -2448,46 +2569,7 @@
    "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
    "details": "anthraquinone - pesticide residues",
    "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
-   "group": "rasff-2026-10141"
-  },
-  {
-   "id": "eu-rasff-es-2026-10134",
-   "country": "ES",
-   "published": "2026-11-16",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Pre-made salad",
-   "reason": "Unlabeled or incorrectly labeled allergen (wheat) in tuna salad with couscous from Spain",
-   "details": "allergen information - incorrect - faulty labelling or claims",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886914"
-  },
-  {
-   "id": "eu-rasff-es-2026-10141",
-   "country": "ES",
-   "published": "2026-11-16",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Yerba Mate Tea",
-   "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
-   "details": "anthraquinone - pesticide residues",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
-   "group": "rasff-2026-10141"
-  },
-  {
-   "id": "eu-rasff-es-2026-10164",
-   "country": "ES",
-   "published": "2026-11-16",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Chocolate cream",
-   "reason": "Undeclared allergen hazelnut in chocolate cream from Italy",
-   "details": "hazelnut - presence - allergens",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091",
-   "group": "rasff-2026-10164"
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687"
   },
   {
    "id": "eu-rasff-it-2026-10164",
@@ -2501,20 +2583,6 @@
    "source": "RASFF – European Commission",
    "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091",
    "group": "rasff-2026-10164"
-  },
-  {
-   "id": "eu-rasff-lu-2026-10141",
-   "country": "LU",
-   "published": "2026-11-16",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Yerba Mate Tea",
-   "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
-   "details": "anthraquinone - pesticide residues",
-   "action": "Recall from consumer",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
-   "group": "rasff-2026-10141"
   },
   {
    "id": "eu-rasff-pt-2026-10164",
@@ -2640,6 +2708,24 @@
     "3258561419701",
     "3258561419718",
     "3258561419725"
+   ]
+  },
+  {
+   "id": "lu-alva-2026-11-avertissement-apero-croques-delhaize",
+   "country": "LU",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "label",
+   "name": "Apéro Croques",
+   "brand": "Delhaize",
+   "reason": "Date limite de consommation erronée",
+   "details": "Période de vente : 04/11/2026 - 12/11/2026. Vente confirmée au Luxembourg par: Delhaize",
+   "lots": "26444B511",
+   "bestBefore": "DLC erronée : 31/12/2026 ; DLC correcte : 20/11/2026",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/11/avertissement-apero-croques-delhaize.html",
+   "gtins": [
+    "5400117642479"
    ]
   },
   {
@@ -2923,6 +3009,36 @@
    "url": "https://www.hapih.hr/opoziv-proizvoda-dodatna-obavijest-okusi-zavicaja-dalmatinska-panceta-narezak-100g/"
   },
   {
+   "id": "lu-alva-2026-11-rappel-protein-chocolate-flavour-pudding-arla",
+   "country": "LU",
+   "published": "2026-11-13",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Protein Chocolate flavour Pudding",
+   "brand": "Arla",
+   "reason": "Présence possible de corps étranger de type verre",
+   "details": "Distribution dans des points de vente au Luxembourg.",
+   "lots": "ES26251001",
+   "bestBefore": "11/01/2027",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/11/rappel-protein-chocolate-flavour-pudding-arla.html"
+  },
+  {
+   "id": "lu-alva-2026-11-rappel-yaourt-cremeux-sur-lit-de-framboise-de-la-marque-070tjwu",
+   "country": "LU",
+   "published": "2026-11-13",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Yaourt-crémeux sur lit de framboises",
+   "brand": "Bonne Maman",
+   "reason": "Présence possible de corps étranger de type verre",
+   "details": "Distribution dans des points de vente au Luxembourg",
+   "lots": "F705468",
+   "bestBefore": "23/11/2026",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/11/rappel-yaourt-cremeux-sur-lit-de-framboise-de-la-marque-bonne-maman.html"
+  },
+  {
    "id": "nl-nvwa-milbona-uht-volle-melk-van-lidl",
    "country": "NL",
    "published": "2026-11-13",
@@ -3040,42 +3156,6 @@
    "gtins": [
     "5706920116344"
    ]
-  },
-  {
-   "id": "eu-rasff-es-2026-10085",
-   "country": "ES",
-   "published": "2026-11-12",
-   "category": "food",
-   "hazard": "other",
-   "name": "Fruit-flavored yogurts",
-   "reason": "Presence of spoilage microorganisms in fruit-flavored yogurts",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886458",
-   "group": "rasff-2026-10085"
-  },
-  {
-   "id": "eu-rasff-lu-2026-10085",
-   "country": "LU",
-   "published": "2026-11-12",
-   "category": "food",
-   "hazard": "other",
-   "name": "Fruit-flavored yogurts",
-   "reason": "Presence of spoilage microorganisms in fruit-flavored yogurts",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886458",
-   "group": "rasff-2026-10085"
-  },
-  {
-   "id": "eu-rasff-lu-2026-10090",
-   "country": "LU",
-   "published": "2026-11-12",
-   "category": "food",
-   "hazard": "foreign",
-   "name": "Yogurt",
-   "reason": "Foreign object in yogurt",
-   "action": "Recall from consumer",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886617"
   },
   {
    "id": "fr-rc-2026-11-0071",
@@ -3511,6 +3591,19 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261109_09_NI_Corned_Beef/261109_09_NI_Corned_Beef.html"
   },
   {
+   "id": "es-aesan-es2026-678",
+   "country": "ES",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Leche Fresca Entera Priégola 1 Litro, Leche Fresca Semidesnatada Priégola 1 Litro, Leche Fresca Desnatada Priégola 1 Litro, Leche Fresca Semidesnatada…",
+   "reason": "Posible presencia de Listeria monocytogenes",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Autónoma de Madrid, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la posible presencia de Listeria monocytogenes en varios productos lácteos de la marca Priégola, de varios lotes. Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Madrid y Comunidad Valenciana, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+   "action": "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_81"
+  },
+  {
    "id": "eu-rasff-ee-2026-9991",
    "country": "EE",
    "published": "2026-11-10",
@@ -3521,32 +3614,6 @@
    "details": "Escherichia coli - pathogenic micro-organisms",
    "source": "RASFF – European Commission",
    "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799"
-  },
-  {
-   "id": "eu-rasff-es-2026-9973",
-   "country": "ES",
-   "published": "2026-11-10",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Marshmallow",
-   "reason": "Salmonella in marshmallow from Belgium",
-   "details": "Salmonella - pathogenic micro-organisms",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
-   "group": "rasff-2026-9973"
-  },
-  {
-   "id": "eu-rasff-es-2026-9985",
-   "country": "ES",
-   "published": "2026-11-10",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Chicken pops",
-   "reason": "Salmonella in chicken pops",
-   "details": "Salmonella - pathogenic micro-organisms",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
-   "group": "rasff-2026-9985"
   },
   {
    "id": "eu-rasff-it-2026-9973",
@@ -3573,19 +3640,6 @@
    "source": "RASFF – European Commission",
    "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
    "group": "rasff-2026-9985"
-  },
-  {
-   "id": "eu-rasff-lu-2026-9973",
-   "country": "LU",
-   "published": "2026-11-10",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Marshmallow",
-   "reason": "Salmonella in marshmallow from Belgium",
-   "details": "Salmonella - pathogenic micro-organisms",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
-   "group": "rasff-2026-9973"
   },
   {
    "id": "eu-rasff-pt-2026-9985",
@@ -3794,6 +3848,39 @@
    "group": "gtin-3505870000343"
   },
   {
+   "id": "lu-alva-2026-11-avertissement-allergene-saumon-puree-de-brocolis-de-la-m-1lmy104",
+   "country": "LU",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Saumon purée de brocolis",
+   "brand": "Côté Table",
+   "reason": "Présence des allergènes mollusques, gluten (blé) et traces de céleri non mentionnée sur l'étiquette",
+   "details": "*Avertissement allergène en raison d'une erreur d'étiquetage (« Saumon purée de brocolis» à la place de « Coquille Saint-Jacques, ris et mélange de légumes»). Par conséquent, les allergènes « mollusques », « gluten (blé) » et « traces de céleri » ne sont pas mentionnés sur l'étiquette de ces produits.",
+   "lots": "2822F",
+   "bestBefore": "13/11/2026",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/Avertissementsallergenes/2026/11/avertissement-allergene-saumon-puree-de-brocolis-de-la-marque-cote-table.html"
+  },
+  {
+   "id": "lu-alva-2026-11-avertissement-kochkaese-mit-kraeutern-40-ekabe",
+   "country": "LU",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "label",
+   "name": "Kochkäse mit Kräutern 40%",
+   "brand": "Ekabe",
+   "reason": "Date de durabilité minimale erronée",
+   "details": "Période de vente : 02/11/2026 - 09/11/2026. Distribution dans des points de vente au Luxembourg.",
+   "lots": "293A",
+   "bestBefore": "DDM erronée : 29/12/2027 ; DDM correcte : 29/12/2026",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/11/avertissement-kochkaese-mit-kraeutern-40-ekabe.html",
+   "gtins": [
+    "05450001110102"
+   ]
+  },
+  {
    "id": "pl-gis-aktualizacja-ostrzezenia-publicznego-dotyczacego-zywnosci-z-dnia-0ldvx45",
    "country": "PL",
    "published": "2026-11-10",
@@ -3891,19 +3978,6 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261109_10_BE_Wasabi_rice_crackers/261109_10_BE_Wasabi_rice_crackers.html"
   },
   {
-   "id": "eu-rasff-es-2026-9922",
-   "country": "ES",
-   "published": "2026-11-09",
-   "category": "food",
-   "hazard": "foreign",
-   "name": "Frozen Chicken Breast Trimmings",
-   "reason": "Excessive amounts of Bone Fragements in frozen chicken breast trimmings",
-   "details": "bone fragments - foreign bodies / physical danger",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885447",
-   "group": "rasff-2026-9922"
-  },
-  {
    "id": "eu-rasff-it-2026-9942",
    "country": "IT",
    "published": "2026-11-09",
@@ -3917,18 +3991,6 @@
    "group": "rasff-2026-9942"
   },
   {
-   "id": "eu-rasff-lu-2026-9952",
-   "country": "LU",
-   "published": "2026-11-09",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Scallops, rice, and mixed vegetables",
-   "reason": "Incorrectly labeled trays containing undeclared mollusks and wheat",
-   "action": "Public warning - press release",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885761"
-  },
-  {
    "id": "eu-rasff-mt-2026-9922",
    "country": "MT",
    "published": "2026-11-09",
@@ -3939,8 +4001,7 @@
    "details": "bone fragments - foreign bodies / physical danger",
    "action": "Public warning - press release, recall from consumer",
    "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885447",
-   "group": "rasff-2026-9922"
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885447"
   },
   {
    "id": "eu-rasff-mt-2026-9939",
@@ -4153,19 +4214,6 @@
    "group": "rasff-2026-9872"
   },
   {
-   "id": "eu-rasff-es-2026-9864",
-   "country": "ES",
-   "published": "2026-11-06",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Bio-Pinienkerne - organic pine nuts",
-   "reason": "Salmonella Cubana in organic pine nuts from Italy",
-   "details": "Salmonella cubana - pathogenic micro-organisms",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
-   "group": "rasff-2026-9864"
-  },
-  {
    "id": "eu-rasff-it-2026-9864",
    "country": "IT",
    "published": "2026-11-06",
@@ -4202,20 +4250,6 @@
    "source": "RASFF – European Commission",
    "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885004",
    "group": "rasff-2026-9912"
-  },
-  {
-   "id": "eu-rasff-lu-2026-9864",
-   "country": "LU",
-   "published": "2026-11-06",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Bio-Pinienkerne - organic pine nuts",
-   "reason": "Salmonella Cubana in organic pine nuts from Italy",
-   "details": "Salmonella cubana - pathogenic micro-organisms",
-   "action": "Withdrawal from the market",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
-   "group": "rasff-2026-9864"
   },
   {
    "id": "eu-rasff-pt-2026-9872",
@@ -4400,6 +4434,20 @@
     "3700133918872",
     "3700133918889"
    ]
+  },
+  {
+   "id": "lu-alva-2026-11-rappel-salatkerne-mix-de-la-marque-alnatura",
+   "country": "LU",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Salatkerne Mix",
+   "brand": "ALNATURA",
+   "reason": "Présence possible de Salmonella",
+   "details": "Distribution dans des points de vente au Luxembourg.",
+   "bestBefore": "03/06/2027 - 13/07/2027",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/11/rappel-salatkerne-mix-de-la-marque-alnatura.html"
   },
   {
    "id": "nl-nvwa-de-oude-streek-machedoux-en-macandre-geitenkaas",
@@ -4796,6 +4844,36 @@
    "lots": "026090, 026025",
    "source": "FAVV",
    "url": "https://favv-afsca.be/nl/producten/waarschuwing-van-canlar-gida"
+  },
+  {
+   "id": "es-aesan-es2026-659",
+   "country": "ES",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "La Pardina Kéfir de cabra con probióticos",
+   "reason": "Presencia de Salmonella",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Autónoma de Aragón, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Salmonella en kéfir de cabra de la marca La Pardina con fechas de caducidad 14/11/26 y 25/11/2026 Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos. Según la información disponible, la distribución inicial ha sido a la comunidad autónoma de Aragón, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+   "lots": "62100902, 62102102",
+   "bestBefore": "14/11/2026, 25/11/2026",
+   "action": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Autónoma de Aragón, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Salmonella en kéfir de cabra de la marca La Pardina con fechas de caducidad 14/11/26 y 25/11/2026 Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_79"
+  },
+  {
+   "id": "es-aesan-es2026-665",
+   "country": "ES",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "URKABE Jamón cocido",
+   "reason": "Presencia de Listeria monocytogenes",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades competentes del País Vasco a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Listeria monocytogenes en jamón cocido de la marca Urkabe, con fecha de caducidad 26/11/2026. Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Castilla y León, Madrid, Navarra y País Vasco, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+   "lots": "61027",
+   "bestBefore": "26/11/2026",
+   "action": "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_80"
   },
   {
    "id": "eu-rasff-cy-2026-9796",
@@ -5212,6 +5290,25 @@
    ]
   },
   {
+   "id": "lu-alva-2026-11-rappel-wasabi-rice-crackers-de-la-marque-golden-turtle",
+   "country": "LU",
+   "published": "2026-11-03",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi Rice Crackers",
+   "brand": "Golden Turtle",
+   "reason": "Teneur trop élevée en MCPDs, glycidol et leurs esters (Contaminants industriels)",
+   "details": "Distribution dans des points de vente au Luxembourg.",
+   "lots": "04571",
+   "bestBefore": "02/02/2028 ; 24/02/2027 ; 19/03/2027 ; 18/05/2027 ; 05/06/2027",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/11/rappel-wasabi-rice-crackers-de-la-marque-golden-turtle.html",
+   "gtins": [
+    "8717703617092"
+   ],
+   "group": "gtin-8717703617092"
+  },
+  {
    "id": "be-favv-terugroeping-van-dv-fresh",
    "country": "BE",
    "published": "2026-11-02",
@@ -5412,6 +5509,18 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23983/interne"
   },
   {
+   "id": "lu-alva-2026-11-rappel-chou-vert-frise-vendu-en-vrac",
+   "country": "LU",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Chou vert frisé",
+   "reason": "Teneur trop élevée en prothioconazole (résidu de pesticide)",
+   "details": "Période de vente : 14/10/2026 - 30/10/2026. Vente confirmée au Luxembourg par: La Grande Epicerie Massen. Une vente par d'autres exploitants ne peut être exclue.",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/11/rappel-chou-vert-frise-vendu-en-vrac.html"
+  },
+  {
    "id": "be-favv-terugroeping-van-vegromix-bv",
    "country": "BE",
    "published": "2026-11-01",
@@ -5425,6 +5534,20 @@
    "action": "VEGROMIX vraagt haar klanten om dit product niet te consumeren en het terug te brengen naar het verkooppunt waar het is gekocht, waar ze een terugbetaling zullen ontvangen .",
    "source": "FAVV",
    "url": "https://favv-afsca.be/nl/producten/terugroeping-van-vegromix-bv"
+  },
+  {
+   "id": "lu-alva-2026-11-avertissement-allergene-raisins-secs-sultana-de-la-marqu-0jbozsl",
+   "country": "LU",
+   "published": "2026-10-31",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Raisins secs Sultana",
+   "brand": "Anatolia",
+   "reason": "Présence de l'allergène sulfites non mentionnée sur l'étiquette",
+   "details": "Distribution dans des points de vente au Luxembourg.",
+   "lots": "026090; 026025",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/Avertissementsallergenes/2026/11/avertissement-allergene-raisins-secs-sultana-de-la-marque-anatolia.html"
   },
   {
    "id": "be-favv-terugroeping-van-biogarten-handels-gmbhde",
@@ -5598,19 +5721,6 @@
    "group": "rasff-2026-9682"
   },
   {
-   "id": "eu-rasff-es-2026-9682",
-   "country": "ES",
-   "published": "2026-10-30",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Wasabi rice crackers",
-   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
-   "details": "glycidyl esters - industrial contaminants",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
-   "group": "rasff-2026-9682"
-  },
-  {
    "id": "eu-rasff-it-2026-9682",
    "country": "IT",
    "published": "2026-10-30",
@@ -5635,59 +5745,6 @@
    "source": "RASFF – European Commission",
    "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
    "group": "rasff-2026-9682"
-  },
-  {
-   "id": "eu-rasff-lu-2026-9657",
-   "country": "LU",
-   "published": "2026-10-30",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Fine bulgur wheat salad",
-   "reason": "Listeria detected Fine bulgur wheat salad",
-   "details": "Listeria monocytogenes - pathogenic micro-organisms",
-   "action": "Recall from consumer",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883521"
-  },
-  {
-   "id": "eu-rasff-lu-2026-9682",
-   "country": "LU",
-   "published": "2026-10-30",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Wasabi rice crackers",
-   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
-   "details": "glycidyl esters - industrial contaminants",
-   "action": "Recall from consumer",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
-   "group": "rasff-2026-9682"
-  },
-  {
-   "id": "eu-rasff-lu-2026-9690",
-   "country": "LU",
-   "published": "2026-10-30",
-   "category": "food",
-   "hazard": "other",
-   "name": "Sugar free soda",
-   "reason": "Sugar free soda bottles labeled as soda (with sugar) from Belgium",
-   "action": "Recall from consumer",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883593"
-  },
-  {
-   "id": "eu-rasff-lu-2026-9701",
-   "country": "LU",
-   "published": "2026-10-30",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Goat meat",
-   "reason": "Shiga toxin-producing Escherichia coli (STEC) in frozen goat meat from the Netherlands",
-   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
-   "action": "Withdrawal from the market",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
-   "group": "rasff-2026-9701"
   },
   {
    "id": "eu-rasff-mt-2026-9682",
@@ -5754,8 +5811,7 @@
    "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
    "action": "Informing authorities",
    "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
-   "group": "rasff-2026-9701"
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928"
   },
   {
    "id": "eu-rasff-sk-2026-9682",
@@ -6016,6 +6072,44 @@
    ]
   },
   {
+   "id": "lu-alva-2026-10-mise-a-jour-rappel-jus-de-fruits-de-la-marque-la-cabane-a-jus",
+   "country": "LU",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Jus de pomme, Jus de pomme cassis, Jus de pomme cerise, Jus de pomme framboise, Jus de pomme poire",
+   "reason": "Teneur trop élevée en Patuline (Mycotoxine)",
+   "details": "Distribution dans des points de vente au Luxembourg.",
+   "lots": "01/06/28, 29/05/28",
+   "bestBefore": "01/06/2028, 29/05/2028",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/mise-a-jour-rappel-jus-de-fruits-de-la-marque-la-cabane-a-jus.html"
+  },
+  {
+   "id": "lu-alva-2026-10-rappel-chou-vert-chou-de-savoie-vendu-en-vrac",
+   "country": "LU",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Chou vert (Chou de Savoie)",
+   "reason": "Teneur trop élevée en prothioconazole (résidu de pesticide)",
+   "details": "Période de vente : 14/10/2026 - 29/10/2026. Vente confirmée au Luxembourg par: \"Colruyt\". Une vente par d'autres exploitants ne peut être exclue.",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/rappel-chou-vert-chou-de-savoie-vendu-en-vrac.html"
+  },
+  {
+   "id": "lu-alva-2026-10-rappel-chou-vert-frise-vendu-en-vrac0",
+   "country": "LU",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Chou vert frisé",
+   "reason": "Teneur trop élevée en prothioconazole (résidu de pesticide)",
+   "details": "Période de vente : 29/10/2026. Vente confirmée au Luxembourg par: Auchan Drive, Cactus Shoppi, Delhaize Proxy, Pall Center. Une vente par d'autres exploitants ne peut être exclue.",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/rappel-chou-vert-frise-vendu-en-vrac0.html"
+  },
+  {
    "id": "at-ages-tafeltrauben-kernlos-hell-500g-von-villafrut-srl",
    "country": "AT",
    "published": "2026-10-29",
@@ -6083,20 +6177,6 @@
    "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883236"
   },
   {
-   "id": "eu-rasff-lu-2026-9651",
-   "country": "LU",
-   "published": "2026-10-29",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Savoy cabbages (Brassica oleracea var. sabauda)",
-   "reason": "MRL exceedance for prothioconazole in Savoy cabbage from Belgium",
-   "details": "prothioconazole - pesticide residues",
-   "action": "Recall from consumer",
-   "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
-   "group": "rasff-2026-9651"
-  },
-  {
    "id": "eu-rasff-pt-2026-9651",
    "country": "PT",
    "published": "2026-10-29",
@@ -6106,8 +6186,7 @@
    "reason": "MRL exceedance for prothioconazole in Savoy cabbage from Belgium",
    "details": "prothioconazole - pesticide residues",
    "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
-   "group": "rasff-2026-9651"
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299"
   },
   {
    "id": "fr-rc-2026-10-0254",
@@ -6278,6 +6357,25 @@
    ]
   },
   {
+   "id": "lu-alva-2026-10-avertissement-coca-cola-zero-sugar-de-la-marque-coca-cola",
+   "country": "LU",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "label",
+   "name": "Coca Cola Zero Sugar 12-Pack",
+   "brand": "Coca Cola",
+   "reason": "Erreur d’étiquetage",
+   "details": "Période de vente : 08/10/2026 - 28/10/2026. Certaines bouteilles contenant du ‘Coca Cola Zero Sugar’ et munies d’un bouchon noir, peuvent porter par erreur une étiquette de ‘Coca Cola Original Taste’. Leur contenu est sans sucre, contient des édulcorants et constitue donc une source de phénylalanine. Les personnes diabétiques sont invitées à faire preuve d’une vigilance particulière et à tenir compte du fait que le contenu réel est sans sucre et peut donc différer des informations figurant sur l’étiquette. Nous demandons également aux personnes atteintes de phénylcétonurie (PCU) ou sensibles à la phénylalanine de faire preuve d’une prudence particulière, car l’étiquette erronée pourrait les amener à consommer à leur insu un produit contenant des édulcorants. Ce produit est sans danger…",
+   "lots": "274AN2",
+   "bestBefore": "28/02/2027",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/avertissement-coca-cola-zero-sugar-de-la-marque-coca-cola.html",
+   "gtins": [
+    "00000050112579",
+    "05449000202741"
+   ]
+  },
+  {
    "id": "nl-nvwa-madegood-crunchy-cookies-vanilla",
    "country": "NL",
    "published": "2026-10-29",
@@ -6341,6 +6439,33 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261026_24_SH_Sumak/261026_24_SH_Sumak.html"
   },
   {
+   "id": "es-aesan-es2026-654",
+   "country": "ES",
+   "published": "2026-10-28",
+   "category": "supplement",
+   "hazard": "chemical",
+   "name": "Enerup Premium",
+   "reason": "Presencia de sildenafilo",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) informa de la retirada de “Enerup Premium”, comercializado como complemento alimenticio por presencia de sildenafilo no declarado en el etiquetado, y que puede producir reacciones adversas de diversa gravedad.",
+   "action": "Se recomienda a las personas que tengan en su domicilio el productos incluido en esta alerta se abstengan de consumirlo.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_78"
+  },
+  {
+   "id": "es-aesan-es2026-655",
+   "country": "ES",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "DIA Mari Marinera MeloDIA marinera con gambas al ajillo",
+   "reason": "Presencia de huevo no declarado",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ADVIERTE A LAS PERSONAS CON ALERGIA AL HUEVO de la comercialización del producto MeloDIA marinera con gambas al ajillo de la marca DIA Mari Marinera con presencia de huevo no incluido en el etiquetado. Según la información disponible, la distribución se ha realizado en todo el territorio nacional.",
+   "lots": "L260747GGO, L260754GGO, L260942GGO, L260951GGO",
+   "action": "Como medida de precaución, se recomienda a aquellas PERSONAS CON ALERGIA AL HUEVO que pudieran tener el producto anteriormente mencionado en sus hogares se abstengan de consumirlo.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_77"
+  },
+  {
    "id": "fr-rc-2026-10-0270",
    "country": "FR",
    "published": "2026-10-28",
@@ -6373,6 +6498,21 @@
    "gtins": [
     "3560070184200"
    ]
+  },
+  {
+   "id": "lu-alva-2026-10-avertissement-allergene-raisins-secs-sultanines-de-la-ma-1k6icte",
+   "country": "LU",
+   "published": "2026-10-28",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Raisins secs Sultanines",
+   "brand": "Menzil Pazarı",
+   "reason": "Présence de l'allergène sulfites non mentionnée sur l'étiquette",
+   "details": "Distribution dans des points de vente au Luxembourg.",
+   "lots": "69026025",
+   "bestBefore": "26/07/2027",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/Avertissementsallergenes/2026/10/avertissement-allergene-raisins-secs-sultanines-de-la-marque-menzil-pazari.html"
   },
   {
    "id": "nl-nvwa-lochtman-hollandse-hachee-allergenen",
@@ -6465,6 +6605,21 @@
    "action": "Von dem Verzehr des betroffenen Produktes wird abgeraten",
    "source": "lebensmittelwarnung.de",
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261027_26_HH_Himbeeren_gefroren/261027_26_HH_Himbeeren_gefroren.html"
+  },
+  {
+   "id": "es-aesan-es2026-647",
+   "country": "ES",
+   "published": "2026-10-27",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Arla protein Vanilla cookie flavour pudding",
+   "reason": "Posible presencia de fragmentos de cristal",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por el Estado miembro de Dinamarca, a través de la Red de Alerta Alimentaria Europea (RASFF), de la posible presencia de fragmentos de cristal en pudding de la marca Arla, con fecha de caducidad 25/04/2027. Según la información disponible, la distribución inicial se ha realizado en casi todo el territorio nacional.",
+   "lots": "ES26271001",
+   "bestBefore": "25/04/2027",
+   "action": "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_76"
   },
   {
    "id": "fi-ruokavirasto-pakastetussa-chilissa-kadmiumylitys",
@@ -6571,6 +6726,38 @@
    "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2702170612"
   },
   {
+   "id": "lu-alva-2026-10-rappel-boulgour-fin-a-la-libanaise-sans-marque",
+   "country": "LU",
+   "published": "2026-10-27",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Boulgour fin à la libanaise",
+   "reason": "Présence de Listeria monocytogenes",
+   "details": "Période de vente : 19/10/2026 - 26/10/2026. Vente confirmée au Luxembourg par: Grand Frais. Une vente par d'autres exploitants ne peut être exclue.",
+   "lots": "288",
+   "bestBefore": "05/11/2026",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/rappel-boulgour-fin-a-la-libanaise-sans-marque.html"
+  },
+  {
+   "id": "lu-alva-2026-10-rappel-treat-cozy-cardamom-de-la-marque-britannia",
+   "country": "LU",
+   "published": "2026-10-27",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Treat Cozy Cardamom (Biscuits à la farine de blé et à la cardamome)",
+   "brand": "Britannia",
+   "reason": "Teneur trop élevée en MCPDs, glycidol et leurs esters (Contaminants industriels)",
+   "details": "Distribution dans des points de vente au Luxembourg.",
+   "lots": "HX2595/10GC02R",
+   "bestBefore": "09/01/2027",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/rappel-treat-cozy-cardamom-de-la-marque-britannia.html",
+   "gtins": [
+    "8901063166684"
+   ]
+  },
+  {
    "id": "si-gov-toast-6",
    "country": "SI",
    "published": "2026-10-27",
@@ -6659,6 +6846,21 @@
    "action": "Fødevarestyrelsen råder forbrugerne til at levere produktet tilbage til butikken, hvor det er købt eller at kassere det. Hvis du oplever symptomer i forbindelse med indtag af produktet, bør du kontakte din egen læge.",
    "source": "Fødevarestyrelsen",
    "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/okt/listeria-i-roeget-oerred"
+  },
+  {
+   "id": "es-aesan-es2026-648",
+   "country": "ES",
+   "published": "2026-10-26",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Arkan Pure Sesame Tahini",
+   "reason": "Presencia de Salmonella",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de Malta, a través de la Red de Alerta Alimentaria Europea (RASFF), de la presencia de Salmonella spp. Según la información disponible, la distribución inicial ha sido a las comunidades autónomas de Cataluña, Madrid, Islas Baleares y Comunidad Valenciana, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+   "lots": "0257502493",
+   "bestBefore": "12/2027",
+   "action": "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_75"
   },
   {
    "id": "fi-ruokavirasto-proteiinivanukkaissa-mahdollisesti-lasinsiruja",
@@ -6762,6 +6964,23 @@
    "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Contacter le service consommateur.",
    "source": "RappelConso",
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23934/interne"
+  },
+  {
+   "id": "lu-alva-2026-10-rappel-protein-pudding-chocolat-de-la-marque-melkunie",
+   "country": "LU",
+   "published": "2026-10-26",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Protein Pudding Chocolat",
+   "brand": "Melkunie",
+   "reason": "Présence possible de corps étranger de type verre",
+   "details": "Période de vente : 08/08/2026 - 23/10/2026. Distribution dans des points de vente au Luxembourg.",
+   "bestBefore": "07/01/2027 ; 09/01/2027 ; 06/02/2027",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/rappel-protein-pudding-chocolat-de-la-marque-melkunie.html",
+   "gtins": [
+    "5711953221408"
+   ]
   },
   {
    "id": "si-gov-toast-3",
@@ -6908,8 +7127,37 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261023_23_NW_Kaffee_gemahlen/261023_23_NW_Kaffee_gemahlen_Meldung.html",
    "gtins": [
     "8006363076203"
-   ],
-   "group": "gtin-8006363076203"
+   ]
+  },
+  {
+   "id": "es-aesan-es2026-621",
+   "country": "ES",
+   "published": "2026-10-23",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "EROSKI Salsa Ricotta",
+   "reason": "Presencia de cuerpos extraños (fragmentos de vidrio)",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por la Comunidad Foral de Navarra, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de cuerpos extraños (fragmentos de vidrio) en el producto Salsa Ricota de la marca EROSKI, del lote LA310CRI01 de fecha de caducidad 06/11/2028.",
+   "lots": "LA310CRI01",
+   "bestBefore": "06/11/2028",
+   "action": "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_73"
+  },
+  {
+   "id": "es-aesan-es2026-642",
+   "country": "ES",
+   "published": "2026-10-23",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Casa de Castrelo Clara de huevo pasteurizada",
+   "reason": "Presencia de Salmonella spp.",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de la Junta de Andalucía a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI) de la presencia de Salmonella spp. Según la información disponible, la distribución inicial ha sido a la comunidad autónoma de Andalucía, si bien no es descartable que puedan existir redistribuciones a otras comunidades autónomas.",
+   "lots": "6265",
+   "bestBefore": "27/10/26",
+   "action": "en clara de huevo pasteurizada de la marca Casa de Castrelo con fecha de caducidad 27/10/2026 Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_74"
   },
   {
    "id": "fr-rc-2026-10-0135",
@@ -6927,8 +7175,7 @@
    "gtins": [
     "3350033877665",
     "3350033877672"
-   ],
-   "group": "gtin-3350033877665"
+   ]
   },
   {
    "id": "fr-rc-2026-10-0208",
@@ -7048,7 +7295,8 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23921/interne",
    "gtins": [
     "8717703617092"
-   ]
+   ],
+   "group": "gtin-8717703617092"
   },
   {
    "id": "fr-rc-2026-10-0249",
@@ -7210,6 +7458,21 @@
    "action": "Potrošniki naj živilo ne uporabijo in ga vrnejo na mesto nakupa.",
    "source": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/zamrznjena-raca/"
+  },
+  {
+   "id": "es-aesan-es2026-637",
+   "country": "ES",
+   "published": "2026-10-22",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Marvalmar Mejillón de Chile cocido",
+   "reason": "Presencia de Listeria monocytogenes",
+   "details": "La Agencia Española de Seguridad Alimentaria y Nutrición (AESAN) ha sido informada por las autoridades sanitarias de la Comunidad de Madrid, a través del Sistema Coordinado de Intercambio Rápido de Información (SCIRI), de la presencia de Listeria monocytogenes en mejillones cocidos de la marca Marvalmar con fecha de caducidad 20/11/2026. Según la información disponible, la distribución ha sido a las comunidades autónomas de Castilla - La Mancha, Castilla y León y Comunidad de Madrid.",
+   "lots": "387/21096 1809",
+   "bestBefore": "20/11/2026",
+   "action": "Se recomienda a las personas que tengan en su domicilio los productos incluidos en esta alerta se abstengan de consumirlos.",
+   "source": "Agencia Española de Seguridad Alimentaria y Nutrición (AESAN)",
+   "url": "https://www.aesan.gob.es/alertas/2026_72"
   },
   {
    "id": "fr-rc-2026-10-0207",
@@ -7492,6 +7755,20 @@
    "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező termékeket ne fogyasszák el!",
    "source": "Nébih",
    "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2684505101"
+  },
+  {
+   "id": "lu-alva-2026-10-rappel-bohnenkraut-gerebelt-und-getrocknet-de-la-marque-07rt4jr",
+   "country": "LU",
+   "published": "2026-10-22",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Bohnenkraut gerebelt und getrocknet",
+   "brand": "Natur und Mensch Lebensbaum",
+   "reason": "Teneur trop élevée en alcaloïdes pyrrolizidiniques",
+   "details": "Distribution dans des points de vente au Luxembourg.",
+   "lots": "103150- 08/2028* ; 104062 - 12/2028 ; 104731 - 03/2029",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/rappel-bohnenkraut-gerebelt-und-getrocknet-de-la-marque-natur-und-mensch-lebensbaum.html"
   },
   {
    "id": "nl-nvwa-ah-ossenworst-van-albert-heijn",
@@ -8128,7 +8405,8 @@
    "gtins": [
     "3574300034128",
     "3760082430320"
-   ]
+   ],
+   "group": "gtin-3760082430320"
   },
   {
    "id": "fr-rc-2026-10-0179",
@@ -8302,6 +8580,25 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23867/interne"
   },
   {
+   "id": "lu-alva-2026-10-rappel-crevette-entiere-cuite-refrigere-de-la-marque-auc-0cj8way",
+   "country": "LU",
+   "published": "2026-10-19",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Crevette entière cuite réfrigérée 10/20, Crevette entière cuite réfrigérée 10/15, Crevette entière cuite réfrigérée U10",
+   "brand": "Auchan le poissonnier",
+   "reason": "Présence possible de Listeria monocytogenes",
+   "details": "Période de vente : 07/10/2063 - 16/10/2026. Vente confirmée au Luxembourg par Auchan. Une vente par d'autres exploitants ne peut être exclue.",
+   "lots": "9262800100, 540766, 9262800157",
+   "bestBefore": "19/10/2026",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/rappel-crevette-entiere-cuite-refrigere-de-la-marque-auchan-le-poissonnier-et-vente-en-vrac.html",
+   "gtins": [
+    "3760082430320"
+   ],
+   "group": "gtin-3760082430320"
+  },
+  {
    "id": "nl-nvwa-esn-designer-protein-bar-dark-chocolate-salted-almond",
    "country": "NL",
    "published": "2026-10-19",
@@ -8436,309 +8733,6 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23760/interne"
   },
   {
-   "id": "fr-rc-2026-10-0112",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "baby",
-   "hazard": "other",
-   "name": "Auchan baby bio croissance 6x1l",
-   "brand": "Auchan",
-   "reason": "Suite à une odeur et/ou d'un goût inhabituel rappelant le poisson",
-   "details": "Modifications organoleptiques",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23808/interne",
-   "gtins": [
-    "3596710527519",
-    "3596710527526"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0114",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Crevette entière cuite réfrigérée 20/30 sauvage penaeus indicus péchée en océan indien ouest fao51",
-   "reason": "Présence de listeria monocytogenes",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23785/interne",
-   "gtins": [
-    "33760082430796"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0115",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Crevette entière cuite réfrigérée 30/40 sauvage penaeus monocéros péchées en océan indien ouest (fao51)",
-   "reason": "Présence de listeria monocytogenes",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23786/interne",
-   "gtins": [
-    "3760082437190"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0119",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Poulet tex mex",
-   "reason": "E.leclerc cholet ribou procède à un rappel des produits suivants suite à la mise en évidence de la présence de salmonelle.",
-   "details": "Salmonella spp (agent responsable de la salmonellose)",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23790/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0127",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Og kush indoor delta9 thc 0.11%",
-   "brand": "Cbd'eau",
-   "reason": "Taux delta9 thc supérieur au taux recommandé de l'anses",
-   "details": "Présence de substance interdite",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Contacter le service consommateur.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23798/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0128",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Tangerine dream indoor delta9 thc 0.14%",
-   "brand": "Cbd'eau",
-   "reason": "Taux delta 9 supérieur au taux recommandé par l'anses",
-   "details": "Présence de substance interdite",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Contacter le service consommateur.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23799/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0134",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Raisins secs sultana 250 g",
-   "brand": "Menzil Pazari",
-   "reason": "Présence d'anhydride sulfureux (sulfites), allergène non déclaré dans la liste des ingrédients des raisins secs sultana menzil pazari, lot l 69026025.",
-   "details": "Substances allergisantes non déclarées",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le point de vente.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23805/interne",
-   "gtins": [
-    "8717973295297"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0138",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Produits du stand izakaya st die",
-   "brand": "Izakaya",
-   "reason": "La société hana group a procédé, le 13/10/2026, au retrait de la vente de l’ensemble des produits présents sur le stand izakaya de saint-dié à la suite de la m…",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Contacter le service consommateur. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23810/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0139",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Jambon à l'ancienne cuit au torchon u saveurs bbc",
-   "brand": "U",
-   "reason": "Par mesure de précaution, le magasin procède à un rappel du produit en raison d'une présence listéria monocytogènes",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Contacter le point de vente. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23811/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0146",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "other",
-   "name": "Terrine de chataigne en 180gr",
-   "brand": "La Drosera Gourmande",
-   "reason": "Test de stabilité insatisfaisant",
-   "details": "Autres contaminants biologiques",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le point de vente. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23818/interne",
-   "gtins": [
-    "3760148070460"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0147",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Mélange tandoori 35g",
-   "brand": "La Vie Claire",
-   "reason": "Détection de salmonelle",
-   "details": "Salmonella spp (agent responsable de la salmonellose)",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23819/interne",
-   "gtins": [
-    "3266191021690"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0151",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "other",
-   "name": "Gummies reelaxx d9",
-   "brand": "Reelaxx",
-   "reason": "Présence de delta-9-tétrahydrocannabinol (?9-thc) à une teneur susceptible de présenter un risque pour le consommateur.",
-   "details": "Autre risque",
-   "action": "Ne plus consommer. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23823/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0153",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Fromages de chèvres lactiques au lait cru",
-   "brand": "Vente au Détail/sans Étiquette",
-   "reason": "Produit contaminé par echiachicoli",
-   "details": "Escherichia coli shiga toxinogène (stec)",
-   "action": "Ne plus consommer. Contacter le point de vente. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23825/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0154",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "baby",
-   "hazard": "other",
-   "name": "Croissance dha 10 mois à 3 ans u tout petits bio bouteilles 6x1 litre",
-   "brand": "U Tout Petits Bio",
-   "reason": "Défaut organoleptique",
-   "details": "Modifications organoleptiques",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23826/interne",
-   "gtins": [
-    "3256228439802"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0156",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Saucisses lentilles u bte 4/4",
-   "brand": "U",
-   "reason": "Défaut d'étiquetage produit et risque allergène.",
-   "details": "Substances allergisantes non déclarées",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23828/interne",
-   "gtins": [
-    "3256225736126"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0158",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Coppa 100g netto",
-   "brand": "Netto",
-   "reason": "Suspicion de listeria monocytogène",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23830/interne",
-   "gtins": [
-    "3250391184330"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0169",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "baby",
-   "hazard": "other",
-   "name": "Croissance nature my baby bio",
-   "brand": "Carrefour",
-   "reason": "Défaut organoleptique",
-   "details": "Modifications organoleptiques",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23841/interne",
-   "gtins": [
-    "3560071286262",
-    "3560071286293"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0172",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Coppa 60 tranches 2x250g metro chef",
-   "brand": "Metro Chef",
-   "reason": "Contamination à la listeria monocytogenes",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23844/interne",
-   "gtins": [
-    "3439496301334"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0173",
-   "country": "FR",
-   "published": "2026-10-16",
-   "category": "baby",
-   "hazard": "other",
-   "name": "Croissance nature bio monoprix",
-   "brand": "Monoprix",
-   "reason": "Défaut organoleptique",
-   "details": "Modifications organoleptiques",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23845/interne",
-   "gtins": [
-    "3350033877665",
-    "3350033877672"
-   ],
-   "group": "gtin-3350033877665"
-  },
-  {
    "id": "hr-hapih-32473",
    "country": "HR",
    "published": "2026-10-16",
@@ -8848,102 +8842,6 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261015_15_TH_Rindergulasch_im_Glas/261015_15_TH_Rindergulasch_im_Glas_Meldung.html"
   },
   {
-   "id": "fr-rc-2026-10-0090",
-   "country": "FR",
-   "published": "2026-10-15",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Mélange curry cook 35g* coriandre moulue cook 30g* mélange curry madras cook 35g* mélange tandoori cook 35g* coriandre moulue sachet coussin cook 500g*",
-   "brand": "Cook",
-   "reason": "La arcadie procède aujourd’hui au retrait de la vente de certains produits cook suite à la mise en évidence de la présence de salmonelles.",
-   "details": "Salmonella spp (agent responsable de la salmonellose)",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23761/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0122",
-   "country": "FR",
-   "published": "2026-10-15",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Tomes des bauges",
-   "brand": "Fruitière du Massif de Semnoz",
-   "reason": "Présence e.colis stec",
-   "details": "Escherichia coli shiga toxinogène (stec)",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23793/interne",
-   "gtins": [
-    "3414170004411",
-    "3414170004473",
-    "3414170005135"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0123",
-   "country": "FR",
-   "published": "2026-10-15",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Camembert fermier au lait cru",
-   "brand": "5 Frères",
-   "reason": "Présence de listeria",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23794/interne",
-   "gtins": [
-    "3770008396005"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0124",
-   "country": "FR",
-   "published": "2026-10-15",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Saucisse de cerf",
-   "brand": "Saveurs Sauvages",
-   "reason": "Salmonelle",
-   "details": "Salmonella spp (agent responsable de la salmonellose)",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23795/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0125",
-   "country": "FR",
-   "published": "2026-10-15",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Filet de poulet thym citron",
-   "brand": "Les Volaillers de Keranna",
-   "reason": "Présence de salmonelles",
-   "details": "Salmonella spp (agent responsable de la salmonellose)",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Contacter le service consommateur. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23796/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0126",
-   "country": "FR",
-   "published": "2026-10-15",
-   "category": "food",
-   "hazard": "toxin",
-   "name": "Perfetto moka caramello",
-   "brand": "Bialetti",
-   "reason": "Teneurs en ochratoxine a supérieures aux limites réglementaires autorisées",
-   "details": "Autres contaminants chimiques",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23797/interne",
-   "gtins": [
-    "8006363076203"
-   ],
-   "group": "gtin-8006363076203"
-  },
-  {
    "id": "gr-efet-5419",
    "country": "GR",
    "published": "2026-10-15",
@@ -8997,6 +8895,25 @@
    "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező termékeket ne fogyasszák el!",
    "source": "Nébih",
    "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2655721620"
+  },
+  {
+   "id": "lu-alva-2026-10-rappel-lait-croissance-3-nature-de-la-marque-auchan-baby-bio",
+   "country": "LU",
+   "published": "2026-10-15",
+   "category": "baby",
+   "hazard": "other",
+   "name": "Lait Croissance 3 Nature",
+   "brand": "Auchan Baby bio",
+   "reason": "Défaut organoleptique (goût et odeur)",
+   "details": "Période de vente : 31/08/2026 - 13/10/2026. Vente confirmée au Luxembourg par: Auchan",
+   "lots": "26205PC",
+   "bestBefore": "20/04/2027",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/rappel-lait-croissance-3-nature-de-la-marque-auchan-baby-bio.html",
+   "gtins": [
+    "3596710527519",
+    "3596710527526"
+   ]
   },
   {
    "id": "si-gov-chia-semena",
@@ -9058,119 +8975,6 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261009_12_SN_Wurzener_Weisse_Bohnen/261009_12_SN_Wurzener_Weisse_Bohnen.html"
   },
   {
-   "id": "fr-rc-2026-10-0085",
-   "country": "FR",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Escalope de poulet milanaise",
-   "reason": "E.leclerc royan procède à un retrait de la vente et à un rappel des produits suivants suite à la mise en évidence de la présence de salmonelle infantis.¤",
-   "details": "Autres contaminants biologiques",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23756/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0098",
-   "country": "FR",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "foreign",
-   "name": "Epinards branche portion 50g iqf sachet x 2.5 kg",
-   "brand": "Krill Essentiel",
-   "reason": "Corps étrangers non inertes (os et plumes)",
-   "details": "Non inertes (insectes larves etc)",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23769/interne",
-   "gtins": [
-    "3661366170522"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0103",
-   "country": "FR",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "other",
-   "name": "Lait de croissance nature- 6x1l",
-   "brand": "Bio Village Bebe",
-   "reason": "Mauvaise odeur et d’un goût inhabituel, rappelant le poisson",
-   "details": "Modifications organoleptiques",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23774/interne",
-   "gtins": [
-    "3564707095945",
-    "3564707095952"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0105",
-   "country": "FR",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "label",
-   "name": "Merguez veritable x6 barquette",
-   "brand": "Secrets du Val d'argent",
-   "reason": "La date limite de consommation (dlc) est erronée. la date figurant sur l'étiquette produit est trop longue (+7 jours)",
-   "details": "Autres contaminants biologiques",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23776/interne",
-   "gtins": [
-    "3433700008576"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0106",
-   "country": "FR",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "label",
-   "name": "Chipolatas x6 barquette",
-   "brand": "Secrets du Val d'argent",
-   "reason": "La date limite de consommation (dlc) est erronée. la date figurant sur l'étiquette produit est trop longue (+7 jours)",
-   "details": "Autres contaminants biologiques",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23777/interne",
-   "gtins": [
-    "3433700008231"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0107",
-   "country": "FR",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "label",
-   "name": "Saucisse blanche a frire 450g",
-   "brand": "Secrets du Val d'argent",
-   "reason": "La date limite de consommation (dlc) est erronée. la date figurant sur l'étiquette produit est trop longue (+9 jours)",
-   "details": "Autres contaminants biologiques",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23778/interne",
-   "gtins": [
-    "3433700020172"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0117",
-   "country": "FR",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Tome des bauges aop (vendu au rayon coupe)",
-   "brand": "Nos Regions Ont du Talent",
-   "reason": "Présence de e. coli stec o26:h11.",
-   "details": "Escherichia coli shiga toxinogène (stec)",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23788/interne"
-  },
-  {
    "id": "ie-fsai-recall-of-centra-inspired-by-supervalu-smoked-salm",
    "country": "IE",
    "published": "2026-10-14",
@@ -9214,80 +9018,6 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261013_13_NW_Herbal_Paste/261013_13_NW_Herbal_Paste_Meldung.html"
   },
   {
-   "id": "fr-rc-2026-10-0093",
-   "country": "FR",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Paupiette chorizo",
-   "reason": "Non conformite microbiologique",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23764/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0094",
-   "country": "FR",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "toxin",
-   "name": "Filet de maquereau",
-   "brand": "Produit Vendu en Frais Emballé",
-   "reason": "Presence histamine >200mg",
-   "details": "Autres contaminants biologiques. Toxines endogènes : histamine",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23765/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0096",
-   "country": "FR",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Creme crue",
-   "brand": "La Ferme du Bignon",
-   "reason": "Détection de listéria",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23767/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0097",
-   "country": "FR",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Salade nordique",
-   "brand": "Emb 94073 le",
-   "reason": "Présence de listéria monocytogénès",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23768/interne",
-   "gtins": [
-    "3665287019083",
-    "3665287019090",
-    "366528701912"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0101",
-   "country": "FR",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Chrysanthemum bud",
-   "brand": "Nature's Best Harvest",
-   "reason": "Présence de pesticides",
-   "details": "Dépassement des limites autorisées de pesticides",
-   "action": "Ne plus consommer. Ne plus utiliser le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23772/interne"
-  },
-  {
    "id": "hu-nebih-2646449927",
    "country": "HU",
    "published": "2026-10-13",
@@ -9314,6 +9044,23 @@
    "action": "Consumers are advised not to eat the implicated batches.",
    "source": "FSAI",
    "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-specific-batches-of-ready-brek-original"
+  },
+  {
+   "id": "lu-alva-2026-10-rappel-coriandre-moulue-de-la-marque-cook",
+   "country": "LU",
+   "published": "2026-10-13",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Coriandre moulue Bio",
+   "brand": "COOK",
+   "reason": "Présence possible de Salmonella",
+   "details": "Période de vente : 08/09/2026-13/10/2026. Distribution dans des points de vente au Luxembourg.",
+   "bestBefore": "31/08/2028",
+   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
+   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/rappel-coriandre-moulue-de-la-marque-cook.html",
+   "gtins": [
+    "03417960022619"
+   ]
   },
   {
    "id": "nl-nvwa-cook-kerrie-mild",

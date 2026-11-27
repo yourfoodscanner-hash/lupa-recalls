@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-27T17:44:42Z",
- "total": 734,
+ "generated": "2026-11-27T17:48:00Z",
+ "total": 715,
  "curated": 0,
  "byCountry": {
   "BE": 20,
@@ -8,10 +8,13 @@
   "CZ": 54,
   "DE": 45,
   "DK": 21,
+  "ES": 14,
   "FR": 282,
   "IE": 16,
+  "LU": 26,
   "GB": 20,
   "HU": 11,
+  "IS": 12,
   "NL": 22,
   "NO": 13,
   "PL": 12,
@@ -23,8 +26,6 @@
   "GR": 6,
   "SE": 12,
   "CY": 4,
-  "ES": 10,
-  "LU": 12,
   "MT": 4,
   "PT": 7,
   "RO": 7,
@@ -33,7 +34,8 @@
   "US": 62,
   "LT": 3,
   "EE": 1,
-  "BA": 1
+  "BA": 1,
+  "MK": 1
  },
  "sources": {
   "rappelconso": {
@@ -262,14 +264,61 @@
    "carried": 0,
    "error": null
   },
+  "mast": {
+   "enabled": true,
+   "ok": true,
+   "seen": 220,
+   "published": 12,
+   "dropped": {
+    "starije od prozora": 208
+   },
+   "carried": 0,
+   "error": null
+  },
+  "fva": {
+   "enabled": true,
+   "ok": true,
+   "seen": 20,
+   "published": 1,
+   "dropped": {
+    "starije od prozora": 19
+   },
+   "carried": 0,
+   "error": null
+  },
+  "aesan": {
+   "enabled": true,
+   "ok": true,
+   "seen": 33,
+   "published": 14,
+   "dropped": {
+    "upozorenje povučeno (retirada)": 1,
+    "starije od prozora": 17
+   },
+   "carried": 0,
+   "error": null
+  },
+  "alva": {
+   "enabled": true,
+   "ok": true,
+   "seen": 49,
+   "published": 26,
+   "dropped": {
+    "hrana za životinje": 1,
+    "starije od prozora": 21,
+    "materijal u dodiru s hranom (posuđe)": 2
+   },
+   "carried": 0,
+   "error": null
+  },
   "rasff": {
    "enabled": true,
    "ok": true,
-   "seen": 192,
-   "published": 87,
+   "seen": 146,
+   "published": 65,
    "dropped": {
-    "starije od prozora": 83,
-    "nije hrana (hrana za životinje, materijali u dodiru s hranom …)": 22
+    "starije od prozora": 65,
+    "nije hrana (hrana za životinje, materijali u dodiru s hranom …)": 16
    },
    "carried": 0,
    "error": null
@@ -279,6 +328,7 @@
   "lebensmittelwarnung": "2026-11-27"
  },
  "warnings": [
-  "Izvor „lebensmittelwarnung” nije pročitan (nema odgovora 60 s (lebensmittelwarnung.de/___LMW-Redaktion/RSSNewsfeed/Functions/RssFeeds/rssnewsfeed_Alle_DE)). Zadržano 45 njegovih obavijesti iz prethodnog fajla."
+  "Izvor „lebensmittelwarnung” nije pročitan (nema odgovora 60 s (lebensmittelwarnung.de/___LMW-Redaktion/RSSNewsfeed/Functions/RssFeeds/rssnewsfeed_Alle_DE)). Zadržano 45 njegovih obavijesti iz prethodnog fajla.",
+  "Izostavljeno 37 najstarijih obavijesti da fajl ostane u granicama (800 obavijesti, 500000 znakova) — iz zemalja s najviše obavijesti; u v2 (fajl po zemlji) ostaju."
  ]
 }

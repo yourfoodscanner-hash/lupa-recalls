@@ -1,0 +1,21 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T17:48:00Z",
+ "country": "MK",
+ "recalls": [
+  {
+   "id": "mk-fva-2603",
+   "country": "MK",
+   "published": "2026-01-09",
+   "category": "baby",
+   "hazard": "toxin",
+   "name": "NAN LACTOSE FREE NLNWB333 12х400гр. RO и NAN CONFORT 1 LR DENWHSPB290 6х800гр. ES",
+   "reason": "Присуство на цереулид продуциран од Bacillus cereus во формула за доенчиња со потекло од Холандија и Германија",
+   "details": "Агенцијата за храна и ветеринарство ги информира потрошувачите дека операторот со храна ДПТУ Нестле Адриатик Македонија со седиште на Бул.8-ми Септември бр.16 дел центар Хипериум Скопје врши отповикување на следниве небезбедни производи:",
+   "lots": "51520346АЕ, 52620742F2",
+   "bestBefore": "30.06.2027, 31.07.2027",
+   "source": "Агенција за храна и ветеринарство (АХВ)",
+   "url": "https://fva.gov.mk/mk/260109-otpovikuvane-nebezbedni-proizvodi-nan-lactose-free-nlnwb333-12kh400gr-ro-i-nan-confort-1-lr-denwhspb290-6kh800gr-es"
+  }
+ ]
+}

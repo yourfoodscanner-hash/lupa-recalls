@@ -1,0 +1,218 @@
+{
+ "version": 2,
+ "generated": "2026-11-27T17:48:00Z",
+ "country": "IS",
+ "recalls": [
+  {
+   "id": "is-mast-adskotahlutur-i-orkustykki",
+   "country": "IS",
+   "published": "2026-11-26",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Corny 0% Added sugar Chocolate Multi pack 6x20g",
+   "brand": "Corny",
+   "reason": "Aðskotahlutur í orkustykki",
+   "details": "Innnes ehf., Korngörðum 3, 104 Reykjavík. Matvælastofnun varar við neyslu á einni framleiðslulotu af Corny 0% Added sugar Chocolate Multi pack 6x20g sem Innnes ehf. flytur inn vegna málmhluta sem fannst í vöru. Fyrirtækið hefur í samráði við Heilbrigðiseftirlit Reykjavíkurborgar innkalla vöruna.",
+   "bestBefore": "10.09.2027",
+   "action": "Neytendur sem eiga umrædda vöru eru beðnir um að neyta hennar ekki heldur farga henni. Einnig er hægt að skila henni í versluninni þar sem hún var keypt og fá hana bætta.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/adskotahlutur-i-orkustykki",
+   "gtins": [
+    "4011800593063"
+   ]
+  },
+  {
+   "id": "is-mast-adskotahlutur-i-smakokudeigi",
+   "country": "IS",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Eva Laufey Jólasmákökudeig - Þristakökur",
+   "brand": "Eva Laufey",
+   "reason": "Aðskotahlutur í smákökudeigi",
+   "details": "Myllan, Blikastaðavegi 2-8, 112 Reykjavík. Matvælastofnun varar við neyslu á öllum framleiðslulotum af jólasmákökudeigi, Þristakökum með vörumerkinu Evu Laufey sem Myllan framleiðir vegna málmloks sem fannst í einni vöru. Varan hefur verið innkölluð af fyrirtækinu í samráði við Heilbrigðiseftirlit Reykjavíkurborgar.",
+   "action": "Neytendur sem eiga umrædda vöru eru beðnir um að neyta hennar ekki heldur farga henni. Einnig er hægt að skila henni í versluninni þar sem hún var keypt eða hjá Myllunni.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/adskotahlutur-i-smakokudeigi",
+   "gtins": [
+    "5690568019863"
+   ]
+  },
+  {
+   "id": "is-mast-myglueitur-i-hveiti",
+   "country": "IS",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Kornax rautt, blátt og heilhveiti, First Price hveiti, Euro Shopper Hveiti",
+   "reason": "Grunur um myglueitur í hveiti",
+   "details": "Valsemøllen A/S, Køge. Framleitt fyrir Lífland ehf. á Íslandi, Krónan, Dalvegi 10-14. Matvælastofnun varar við hveiti frá Valsemöllen A/S vegna grun um myglueitur yfir mörkum. Innflytjendur Krónan, Aðföng og Lífland hafa innkallað vörurnar í samráði við heilbrigðiseftirlitin vegna ófullnægjandi aðstæðna hjá kornbirgja. Hveitið Best fyrir dagsetning var í september 2026.",
+   "bestBefore": "15-09-2026, 29-09-2026, 01.09.2026, 15.09.2026",
+   "action": "Neytendur sem eiga umrædda vöru eru beðnir um að neyta hennar ekki. Vörunni má farga eða fá nýja vöru í verslunum.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/myglueitur-i-hveiti",
+   "gtins": [
+    "8719323800915"
+   ]
+  },
+  {
+   "id": "is-mast-adskotaefni-yfir-morkum-i-kexi-1",
+   "country": "IS",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Parle-G Original Gluco Biscuits",
+   "brand": "Parle-G",
+   "reason": "Aðskotaefni yfir mörkum í kexi",
+   "details": "Parle Products Pvt. Ltd. Matvælastofnun varar við neyslu á Parle-G Orginal Gluco biscuits kexi sem Lagsmaður ehf. flytur inn vegna aðskotaefni sem fundust í vörunni. Fyritækið hefur í samráði við Heilbrigðiseftirlit Garðabæjar, Hafnarfjarðar, Kópavogs, Mosfellsbæjar og Seltjarnarness (HEF), innkallað kexið.",
+   "lots": "LM00018430",
+   "bestBefore": "17.12.2026",
+   "action": "Neytendur sem eiga umrædda vöru eru beðnir um að neyta hennar ekki, heldur farga henni eða skila henni í verslun Fiska.is, Nýbýlavegi 6, 200 Kópavogi.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/adskotaefni-yfir-morkum-i-kexi-1",
+   "gtins": [
+    "8901719101045"
+   ]
+  },
+  {
+   "id": "is-mast-adskotaefni-yfir-morkum-i-kexi",
+   "country": "IS",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "other",
+   "name": "Golden Turtle Wasabi rice cracker",
+   "brand": "Golden Turtle",
+   "reason": "Aðskotaefni yfir mörkum í kexi",
+   "details": "Heuschen & Schrouff Oriental Foods Trading B.V. Matvælastofnun varar við neyslu á Wasabi rice cracker sem Lagsmaður ehf/Fiska.is flytur inn vegna aðskotarefna glýsidýl fitusýruestera sem fundust í vörunni. Fyrirtækið hefur innkallað af markaði og tekið úr verslun í samráði við Heilbrigðiseftirlit Garðabæjar, Hafnarfjarðar, Kópavogs, Mosfellsbæjar og Seltjarnarnes ( HEF).",
+   "action": "Þeir sem eiga umrædda vöru ennþá til eru beðnir um að neyta hennar ekki, og farga eða skila í verslun Fiska.is, Nýbýlavegi 6, 200 Kópavogur.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/adskotaefni-yfir-morkum-i-kexi"
+  },
+  {
+   "id": "is-mast-ooruggt-hraefni-i-kokudropum",
+   "country": "IS",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "other",
+   "name": "Bónus Vanilludropar",
+   "brand": "Bónus",
+   "reason": "Óöruggt hráefni í kökudropum",
+   "details": "Aðföng, Skútuvogi 7-9, 104 Reykjavík. Matvælastofnun varar við Bónus Vanilludropum frá H. Berg ehf vegna gæðamála. Möguleiki er á að hráefni sem notað var við framleiðsluna uppfyllti ekki kröfur sem gerðar eru til matvæla. Fyrirtækið hefur í samráði við Heilbrigðiseftirlit Reykjavíkur innkallað allar framleiðslulotur sem voru á markaði.",
+   "action": "Viðskiptavinum Bónus sem keypt hafa vöruna er ráðið frá því að nota hana og er bent á að þeir geta skilað henni í verslunina þar sem hún var keypt gegn fullri endurgreiðslu.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/ooruggt-hraefni-i-kokudropum",
+   "gtins": [
+    "5694311960143",
+    "5694311960341",
+    "5694311960150"
+   ]
+  },
+  {
+   "id": "is-mast-adskotahlutur-i-skinku",
+   "country": "IS",
+   "published": "2026-11-03",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Stjörnugrís Skinka 80",
+   "brand": "Stjörnugrís",
+   "reason": "Aðskotahlutur í skinku",
+   "details": "Stjörnugrís hf., 162 Saltvík, Kjalarnesi. Matvælastofnun varar við neyslu á einni framleiðslulotu af Skinku 80 frá Stjörnugrís hf. vegna aðskotarhlutar (málmbiti) sem fannst í vörunni. Fyrirtækið hefur innkallað vöruna í samráði við Matvælastofnun.",
+   "lots": "6002-26286",
+   "action": "Neytendur eru beðnir um að neyta ekki vörunnar. Neytendur sem keypt hafa Skinku 80 með þessu rekjanleikanúmeri eru beðnir um að skila vörunni í viðkomandi verslun.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/adskotahlutur-i-skinku",
+   "gtins": [
+    "5694230203031"
+   ]
+  },
+  {
+   "id": "is-mast-adskotahlutur-plast-i-jogurt",
+   "country": "IS",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Arna Örnujógúrt með jarðarberjum og AB-gerlum",
+   "brand": "Arna",
+   "reason": "Aðskotahlutur (plast) í jógúrt",
+   "details": "Arna ehf, Hafnargata 80, 415 Bolungarvík. Matvælastofnun varar við einni framleiðslulotu af Örnu jógúrt með jarðarberjum og AB-gerlum frá Örnu ehf. vegna aðskotahlutar (plastbiti) sem fannst í vörunni. Fyrirtækið hefur innkallað vöruna.",
+   "bestBefore": "13.11.26",
+   "action": "Neytendur sem hafa keypt umrædda vöru eru beðnir um að neyta hennar ekki og farga en einnig má skila henni í verslun gegn nýrri vöru eða fullri endurgreiðslu.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/adskotahlutur-plast-i-jogurt",
+   "gtins": [
+    "5694230157044"
+   ]
+  },
+  {
+   "id": "is-mast-adskotahlutur-i-kanilkokublondu",
+   "country": "IS",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Kornax Kanilsnúðakaka",
+   "brand": "Kornax",
+   "reason": "Aðskotahlutur í kanilkökublöndu",
+   "details": "Valsemøllen A/S, Esbjerg, Danmörku fyrir Lífland ehf. Matvælastofnun varar við tveimur framleiðslulotum af Kanilsnúðaköku frá Kornax vegna plastbita sem er aðskotahlutur í vörunni. Fyrirtækið hefur í samráði við heilbrigðiseftirlit Reykjavíkur innkallað vöruna. Plastbitinn var í kanilsykurpoka sem fylgdi með kökublöndunni.",
+   "lots": "15012534403, 15012546102",
+   "bestBefore": "18.08.2026, 10.11.2026",
+   "action": "Kaupendur skulu ekki neyta hennar heldur farga eða skila til verslunar Líflands í Korputorgi í Reykjavík.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/adskotahlutur-i-kanilkokublondu",
+   "gtins": [
+    "5690453977919"
+   ]
+  },
+  {
+   "id": "is-mast-adskotahlutur-i-hnetublondu",
+   "country": "IS",
+   "published": "2026-10-16",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Bónus Hnetublanda með trönuberjum og pistasíum",
+   "brand": "Bónus",
+   "reason": "Aðskotahlutur í hnetublöndu",
+   "details": "Pakkað af H-Berg í Hafnarfirði. Matvælastofnun varar við neyslu á einni framleiðslulotu af Bónus Hnetublöndu með trönuberjum og pistasíum vegna aðskotahluts (trábita) sem fannst í einum poka. Fyrirtækið Aðföng hefur í samráði við Heilbrigðiseftirlit Reykjavíkur innkallað vöruna.",
+   "lots": "150901",
+   "bestBefore": "15.05.2027",
+   "action": "Neytendur sem hafa keypt umrædda vöru eru beðnir um að hætta notkun hennar og farga en einnig má skila henni í versluninni þar sem hún var keypt gegn fullri endurgreiðslu.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/adskotahlutur-i-hnetublondu",
+   "gtins": [
+    "5694311960501"
+   ]
+  },
+  {
+   "id": "is-mast-salmonella-i-kryddi",
+   "country": "IS",
+   "published": "2026-10-13",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Medelys Timur berry (Zanthoxylum armatum) / Baie De Timur Nepal",
+   "brand": "Medelys",
+   "reason": "Salmonella í kryddi",
+   "details": "Medelys. Matvælastofnun varar við neyslu á Timur berry kryddi frá Lifa ehf. (selt í Kokka, Laugarvegi 47) þar sem Salmonella greindist í kryddinu. Fyrirtækið hefur, í samráði við Heilbrigðiseftirlit Reykjavíkur, innkallað vöruna.",
+   "bestBefore": "05.05.2030",
+   "action": "Neytendum sem hafa verslað vöruna er bent á að neyta hennar ekki og farga eða skila í viðkomandi verslun.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/salmonella-i-kryddi"
+  },
+  {
+   "id": "is-mast-ologlegt-varnarefni-i-pistasium",
+   "country": "IS",
+   "published": "2026-10-01",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Krónan Pistasíuhnetur ristaðar og saltaðar",
+   "brand": "Krónan",
+   "reason": "Ólöglegt varnarefni í pistasíum",
+   "details": "Salvía ehf. Matvælastofnun varar við neyslu á einni lotu af ristuðum og söltuðum pistasíum merkt Krónunni sem Salvía efh. flytur inn en það greindist ólöglegt varnarefni Clothianidin í vörunni við markaðseftirlit. Fyrirtækið hefur í samráði við Heilbrigðiseftirlitið innkallað vöruna.",
+   "bestBefore": "03.01.2027",
+   "action": "Viðskiptavinum sem hafa verslað vöruna í verslunum Krónunnar er bent á að skila henni í viðkomandi verslun gegn fullri endurgreiðslu.",
+   "source": "Matvælastofnun (MAST)",
+   "url": "https://www.mast.is/is/um-mast/frettir/innkallanir/ologlegt-varnarefni-i-pistasium",
+   "gtins": [
+    "5694310451291"
+   ]
+  }
+ ]
+}

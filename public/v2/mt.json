@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T17:44:42Z",
+ "generated": "2026-11-27T17:48:00Z",
  "country": "MT",
  "recalls": [
   {
@@ -27,8 +27,7 @@
    "details": "bone fragments - foreign bodies / physical danger",
    "action": "Public warning - press release, recall from consumer",
    "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885447",
-   "group": "rasff-2026-9922"
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885447"
   },
   {
    "id": "eu-rasff-mt-2026-9939",

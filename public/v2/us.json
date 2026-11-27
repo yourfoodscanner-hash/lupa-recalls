@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T17:44:42Z",
+ "generated": "2026-11-27T17:48:00Z",
  "country": "US",
  "recalls": [
   {
@@ -510,7 +510,7 @@
    "country": "US",
    "published": "2026-10-28",
    "category": "food",
-   "hazard": "other",
+   "hazard": "chemical",
    "name": "PRIMAL HERBS, VOLUME, HERBAL SUPPLEMENT",
    "reason": "FDA laboratory analysis confirmed that Primal Herbs Volume contains sildenafil not listed on the product label.",
    "details": "PRIMAL SUPPLEMENTS GROUP LLC (Albuquerque, NM). FDA Class I. Product was sold on the website primalherbs.com",

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T17:44:42Z",
+ "generated": "2026-11-27T17:48:00Z",
  "countries": [
   {
    "country": "AT",
@@ -27,7 +27,7 @@
    "country": "BG",
    "file": "bg.json",
    "recalls": 3,
-   "chars": 1410,
+   "chars": 1378,
    "newest": "2026-11-25"
   },
   {
@@ -75,9 +75,9 @@
   {
    "country": "ES",
    "file": "es.json",
-   "recalls": 10,
-   "chars": 4673,
-   "newest": "2026-11-23"
+   "recalls": 14,
+   "chars": 15642,
+   "newest": "2026-11-27"
   },
   {
    "country": "FI",
@@ -90,7 +90,7 @@
    "country": "FR",
    "file": "fr.json",
    "recalls": 282,
-   "chars": 160233,
+   "chars": 160335,
    "newest": "2026-11-27"
   },
   {
@@ -129,6 +129,13 @@
    "newest": "2026-11-27"
   },
   {
+   "country": "IS",
+   "file": "is.json",
+   "recalls": 12,
+   "chars": 11551,
+   "newest": "2026-11-26"
+  },
+  {
    "country": "IT",
    "file": "it.json",
    "recalls": 18,
@@ -145,15 +152,22 @@
   {
    "country": "LU",
    "file": "lu.json",
-   "recalls": 12,
-   "chars": 5784,
-   "newest": "2026-11-23"
+   "recalls": 26,
+   "chars": 20612,
+   "newest": "2026-11-27"
+  },
+  {
+   "country": "MK",
+   "file": "mk.json",
+   "recalls": 1,
+   "chars": 990,
+   "newest": "2026-01-09"
   },
   {
    "country": "MT",
    "file": "mt.json",
    "recalls": 4,
-   "chars": 2232,
+   "chars": 2201,
    "newest": "2026-11-23"
   },
   {
@@ -181,7 +195,7 @@
    "country": "PT",
    "file": "pt.json",
    "recalls": 7,
-   "chars": 3347,
+   "chars": 3316,
    "newest": "2026-11-23"
   },
   {
@@ -195,7 +209,7 @@
    "country": "SE",
    "file": "se.json",
    "recalls": 12,
-   "chars": 6548,
+   "chars": 6517,
    "newest": "2026-11-24"
   },
   {
@@ -216,7 +230,7 @@
    "country": "US",
    "file": "us.json",
    "recalls": 62,
-   "chars": 40212,
+   "chars": 40215,
    "newest": "2026-11-18"
   }
  ]

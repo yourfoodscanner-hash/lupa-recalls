@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T17:44:42Z",
+ "generated": "2026-11-27T17:48:00Z",
  "country": "SE",
  "recalls": [
   {
@@ -158,8 +158,7 @@
    "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
    "action": "Informing authorities",
    "source": "RASFF – European Commission",
-   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
-   "group": "rasff-2026-9701"
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928"
   }
  ]
 }
