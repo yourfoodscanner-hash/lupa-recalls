@@ -53,8 +53,8 @@
 <link rel="icon" href="/themes/custom/preview/favicon.ico" type="image/vnd.microsoft.icon" />
 <link rel="alternate" hreflang="en" href="https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bioquad-life-sciences-issues-allergy-alert-undeclared-milk-osteodenxr-dietary-supplement" />
 <link rel="canonical" href="https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bioquad-life-sciences-issues-allergy-alert-undeclared-milk-osteodenxr-dietary-supplement" />
-<link rel="shortlink" href="https://www.fda.gov/node/431149" />
-<script src="/files/google_tag/production/google_tag.script.js?tp0u05" defer></script>
+<link rel="shortlink" href="https://www.fda.gov/node/431032" />
+<script src="/files/google_tag/production/google_tag.script.js?tos295" defer></script>
 
     <title>bioQuad Life Sciences Issues Allergy Alert on Undeclared Milk in OsteoDenx® Dietary Supplement | FDA</title>
     <link rel="stylesheet" media="all" href="/files/css/css_I1lI2DYRy4WvhS49GZC8Z2v9NUFD60djX72-ZNQ0RPY.css?delta=0&amp;language=en&amp;theme=preview&amp;include=eJxNzEsOwjAMRdENBbykKJ9HZeLGJXZA2T2CQWFydUa3NFR2HZF7RfcsWhr9Odgyx045GcIx8GS8aBPNSS7mS7hv4f6YGCtOjjU5Di4Ng34MN1Xv6jA6FT4fo2-vu9YpeAPskjb1" />
@@ -291,7 +291,7 @@
                                         Recalls, Market Withdrawals, &amp; Safety Alerts
                     </a>
 
-                        <div class="views-element-container form-group"><div class="view view-in-this-section view-id-in_this_section view-display-id-block_5 js-view-dom-id-4410f1b8e1dab19d7194215320013e25860a0340d8d21d42d1417df7d0c55a84">
+                        <div class="views-element-container form-group"><div class="view view-in-this-section view-id-in_this_section view-display-id-block_5 js-view-dom-id-2d826a8437e8ea77e03bd81d8314db6159aed841f784fba5440b915d520b0150">
   
     
       
@@ -312,7 +312,7 @@
 </div>
 
 
-                        <div class="views-element-container form-group"><div class="view view-in-this-section-sub view-id-in_this_section_sub view-display-id-block_2 js-view-dom-id-4c9941c7cdde5a3fc627232fdf95fd60b2d281cc98cb971c02ffcaa2dc1eb110">
+                        <div class="views-element-container form-group"><div class="view view-in-this-section-sub view-id-in_this_section_sub view-display-id-block_2 js-view-dom-id-085dc943124b7a317bd9c744d39814a29ee7f55dfbe304fefa36e5ae0a6e8b4d">
   
     
       
@@ -408,7 +408,7 @@
                       </a>
 
           
-                        <div class="views-element-container form-group"><div class="view view-in-this-section view-id-in_this_section view-display-id-block_4 js-view-dom-id-86b23bfdffd5c04ce16881987e57f56041aadfe5620f123c4ff498f2ebafeded">
+                        <div class="views-element-container form-group"><div class="view view-in-this-section view-id-in_this_section view-display-id-block_4 js-view-dom-id-0c1a3eda3f82e4386b1baad975d19d62ecbfa9847c72f9b10b652f68c5825dd0">
   
     
       
@@ -429,7 +429,7 @@
 </div>
 
 
-                        <div class="views-element-container form-group"><div class="view view-in-this-section-sub view-id-in_this_section_sub view-display-id-block_1 js-view-dom-id-c1df27f66e3c82d6fe2c7b874701874b9df2d157a25afb13ecc6f30962c8f391">
+                        <div class="views-element-container form-group"><div class="view view-in-this-section-sub view-id-in_this_section_sub view-display-id-block_1 js-view-dom-id-a99d090b2fc7a0dae02e16ce12e2a8fa0a34df4c74bfc60e8ccd2f6e885c74b1">
   
     
       
@@ -900,7 +900,7 @@
   </div>
 
     
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/431149","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"fda_ckeditor_enhancements":{"basePath":"modules\/custom\/fda_ckeditor_enhancements"},"google_analytics":{"account":"G-273DTKB5QW","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click"},"ajax":[],"user":{"uid":0,"permissionsHash":"1b1b521ce0efd787b9481ef00f514b542eb396217a4d74c357d2ecd6b6b52a2d"}}</script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/431032","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"fda_ckeditor_enhancements":{"basePath":"modules\/custom\/fda_ckeditor_enhancements"},"google_analytics":{"account":"G-273DTKB5QW","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click"},"ajax":[],"user":{"uid":0,"permissionsHash":"1b1b521ce0efd787b9481ef00f514b542eb396217a4d74c357d2ecd6b6b52a2d"}}</script>
 <script src="/files/js/js_m-ZWR_cs-hqNqcig58rDAWPKmdcLCm6PHaaAkFc9qH8.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=preview&amp;include=eJxdjtEKwjAMRX9oo74I_k3J0hiLXROSMJlfL1Ms4uM9JOdeFuFGGTq0PSp64j8wqdFW6ZG4yQJtdrSq4dMiEh4GmlRUNrLpWiDjnUoNsUz9Bh1ppR6eAFGsVOk5hA-738QCpdDnSVZt9ThPR5Pn8-nyA8cCNHjuxDxAAX1Lvnlo59H4Ai47WJ8"></script>
 
   <script type="text/javascript"  src="/wDYy-AWN3/j/c/dpqMpbR6H1HHT1uo/f7rOVfrXD26JGNXO/HTwfBwVCYw/XV/tDUGwsZCc"></script></body>

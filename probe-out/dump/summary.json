@@ -1,16 +1,17 @@
 {
  "fda": {
   "since": "2026-10-13",
-  "seen": 128,
-  "notices": 42,
+  "seen": 213,
+  "notices": 60,
   "bad": [],
   "skipped": {
+   "nije hrana za ljude (FDA broj nije H-…)": 1,
    "isto saopćenje na španskom": 1,
-   "isti opoziv kao saopćenje firme": 15
+   "isti opoziv kao saopćenje firme": 29
   },
-  "withBarcode": 22,
-  "withLots": 18,
-  "ms": 9076
+  "withBarcode": 33,
+  "withLots": 24,
+  "ms": 2629
  },
  "auv": {
   "since": "2025-11-27",
@@ -25,6 +26,6 @@
   },
   "withBarcode": 0,
   "withLots": 4,
-  "ms": 2567
+  "ms": 2549
  }
 }
