@@ -1,0 +1,207 @@
+{
+ "about": "Cases both sides of the \"v2\" files are tested against: the job that makes them (lupa-recalls, lib/contract.js: readCountryFile, readIndex) and the app that reads them. A country's file → expect: the ids accepted, in order (null: the file is refused). The index → expect: the countries accepted. A notice in v2 is checked as in v1 (contract-cases.json), its country one of v1's or US.",
+ "files": [
+  {
+   "what": "a country's file: its notices",
+   "country": "US",
+   "file": {
+    "version": 2,
+    "generated": "2026-11-27T03:10:00Z",
+    "country": "US",
+    "recalls": [
+     {
+      "id": "us-fda-100258",
+      "country": "US",
+      "published": "2026-11-18",
+      "category": "food",
+      "hazard": "foreign",
+      "name": "Ground Up Nut Butter Cups filled with Almond & Cashew Butter Dark Chocolate Two Pack",
+      "reason": "Foreign material: plastic fiber",
+      "source": "U.S. Food and Drug Administration (FDA)",
+      "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100258&limit=100",
+      "gtins": [
+       "850017637221"
+      ]
+     }
+    ]
+   },
+   "expect": [
+    "us-fda-100258"
+   ]
+  },
+  {
+   "what": "a notice of another country in a country's file is left out",
+   "country": "US",
+   "file": {
+    "version": 2,
+    "generated": "2026-11-27T03:10:00Z",
+    "country": "US",
+    "recalls": [
+     {
+      "id": "us-fda-100258",
+      "country": "US",
+      "published": "2026-11-18",
+      "category": "food",
+      "hazard": "foreign",
+      "name": "Ground Up Nut Butter Cups filled with Almond & Cashew Butter Dark Chocolate Two Pack",
+      "reason": "Foreign material: plastic fiber",
+      "source": "U.S. Food and Drug Administration (FDA)",
+      "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100258&limit=100",
+      "gtins": [
+       "850017637221"
+      ]
+     },
+     {
+      "id": "fr-rc-2026-11-0101",
+      "country": "FR",
+      "published": "2026-11-25",
+      "category": "food",
+      "hazard": "microbe",
+      "name": "Rillettes de canard 180 g",
+      "reason": "Listeria monocytogenes",
+      "source": "RappelConso",
+      "url": "https://rappel.conso.gouv.fr/fiche-rappel/1/Interne"
+     }
+    ]
+   },
+   "expect": [
+    "us-fda-100258"
+   ]
+  },
+  {
+   "what": "the file of another country is not this country's",
+   "country": "FR",
+   "file": {
+    "version": 2,
+    "generated": "2026-11-27T03:10:00Z",
+    "country": "US",
+    "recalls": [
+     {
+      "id": "us-fda-100258",
+      "country": "US",
+      "published": "2026-11-18",
+      "category": "food",
+      "hazard": "foreign",
+      "name": "Ground Up Nut Butter Cups filled with Almond & Cashew Butter Dark Chocolate Two Pack",
+      "reason": "Foreign material: plastic fiber",
+      "source": "U.S. Food and Drug Administration (FDA)",
+      "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100258&limit=100",
+      "gtins": [
+       "850017637221"
+      ]
+     }
+    ]
+   },
+   "expect": null
+  },
+  {
+   "what": "a country v2 does not know",
+   "country": "GB",
+   "file": {
+    "version": 2,
+    "generated": "2026-11-27T03:10:00Z",
+    "country": "GB",
+    "recalls": [
+     {
+      "id": "gb-fsa-1",
+      "country": "GB",
+      "published": "2026-11-18",
+      "category": "food",
+      "hazard": "foreign",
+      "name": "Ground Up Nut Butter Cups filled with Almond & Cashew Butter Dark Chocolate Two Pack",
+      "reason": "Foreign material: plastic fiber",
+      "source": "U.S. Food and Drug Administration (FDA)",
+      "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100258&limit=100",
+      "gtins": [
+       "850017637221"
+      ]
+     }
+    ]
+   },
+   "expect": null
+  },
+  {
+   "what": "a v1 file is not a v2 file",
+   "country": "FR",
+   "file": {
+    "version": 1,
+    "generated": "2026-11-27T03:10:00Z",
+    "recalls": [
+     {
+      "id": "fr-rc-2026-11-0101",
+      "country": "FR",
+      "published": "2026-11-25",
+      "category": "food",
+      "hazard": "microbe",
+      "name": "Rillettes de canard 180 g",
+      "reason": "Listeria monocytogenes",
+      "source": "RappelConso",
+      "url": "https://rappel.conso.gouv.fr/fiche-rappel/1/Interne"
+     }
+    ]
+   },
+   "expect": null
+  }
+ ],
+ "v1": [
+  {
+   "what": "US is a country of v2 only: in v1 the same notice is refused",
+   "v1": true,
+   "notice": {
+    "id": "us-fda-100258",
+    "country": "US",
+    "published": "2026-11-18",
+    "category": "food",
+    "hazard": "foreign",
+    "name": "Ground Up Nut Butter Cups filled with Almond & Cashew Butter Dark Chocolate Two Pack",
+    "reason": "Foreign material: plastic fiber",
+    "source": "U.S. Food and Drug Administration (FDA)",
+    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100258&limit=100",
+    "gtins": [
+     "850017637221"
+    ]
+   },
+   "ok": false
+  }
+ ],
+ "index": {
+  "what": "the index: a row whose file is not <country>.json, a country twice or one v2 does not know is left out",
+  "index": {
+   "version": 2,
+   "generated": "2026-11-27T03:10:00Z",
+   "countries": [
+    {
+     "country": "FR",
+     "file": "fr.json",
+     "recalls": 1,
+     "chars": 420,
+     "newest": "2026-11-25"
+    },
+    {
+     "country": "US",
+     "file": "usa.json",
+     "recalls": 1,
+     "chars": 500,
+     "newest": "2026-11-18"
+    },
+    {
+     "country": "FR",
+     "file": "fr.json",
+     "recalls": 9,
+     "chars": 9,
+     "newest": "2026-11-25"
+    },
+    {
+     "country": "GB",
+     "file": "gb.json",
+     "recalls": 1,
+     "chars": 1,
+     "newest": "2026-11-25"
+    }
+   ]
+  },
+  "expect": [
+   "FR"
+  ]
+ }
+}

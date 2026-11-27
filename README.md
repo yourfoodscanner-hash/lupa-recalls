@@ -125,7 +125,7 @@ git push
 
 | Izvor (`config.json`) | Zemlja | Šta čita | Prozor | 26. 11. 2026. |
 |---|---|---|---|---|
-| RappelConso (`rappelconso`) | Francuska | otvoreni podaci DGCCRF (JSON) | 30 dana | 281 (45 dana) |
+| RappelConso (`rappelconso`) | Francuska | otvoreni podaci DGCCRF (JSON) | 45 dana | 281 |
 | lebensmittelwarnung.de (`lebensmittelwarnung`) | Njemačka | RSS za hranu i za kozmetiku + stranica svake nove obavijesti | 45 dana | 41 |
 | AGES (`ages`) | Austrija | lista „Produktwarnungen & Produktrückrufe”, kategorije hrana, dječja hrana, suplementi, kozmetika | 60 dana | 10 |
 | GOV.SI „Nevarni in neskladni izdelki” (`govsi`) | Slovenija | službeni JSON izvoz liste | 180 dana | 103 |
@@ -140,12 +140,19 @@ git push
 | Nébih „Termékvisszahívás” (`nebih`) | Mađarska | lista (50) + stranica svakog novog opoziva | 45 dana | 11 (27. 11.) |
 | Ruokavirasto „Takaisinvedot” (`ruokavirasto`) | Finska | lista + stranica svakog novog opoziva | 60 dana | 8 (27. 11.) |
 | NVWA „Veiligheidswaarschuwingen” (`nvwa`) | Holandija | pretraga sajta („veiligheidswaarschuwing”, najnovije prvo) + news sitemap i 3 najnovija upozorenja + stranica svakog novog | 45 dana | 22 (27. 11.) |
+| U.S. FDA Enforcement Report (`fda`) — samo v2 | SAD | openFDA API (`api.fda.gov/food/enforcement.json`), hrana i dodaci prehrani | 45 dana | 61 (27. 11.) |
 | EU RASFF Consumers' Portal (`rasff`) | 13 zemalja EU (vidi niže) | lista po zemlji (RSS) + javni JSON svake notifikacije | 30 dana | 87 (27. 11.) |
 
 Prozor od 180 dana za Sloveniju, Hrvatsku i BiH je isti kao za ručno unesene obavijesti: ti izvori
-objavljuju malo, pa bi kraći prozor ostavio zemlju praznom. Francuska ima 30 dana (od 27. 11. 2026;
-ranije 45): objavljuje najviše, a fajl ima granicu od 500 000 znakova — kad bi je prešao, prvo bi
-otpale najstarije automatske obavijesti, tj. baš one zemalja s prozorom od 180 dana. Izvor se isključuje u `config.json`
+objavljuju malo, pa bi kraći prozor ostavio zemlju praznom.
+
+**SAD (FDA).** Zvanični sedmični „Enforcement Report” FDA za hranu i dodatke prehrani, preko openFDA:
+zapis po proizvodu, a obavijest po opozivu (`event_id` — jedan opoziv od 50 proizvoda je jedna
+obavijest s nazivima, barkodovima i serijama svih). Barkod samo uz „UPC” (i kad je pisan u grupama,
+„0 11152 64246 8”), serija i rok samo iz polja „code_info” kad su označeni („Lot”, „Best By”, „Exp”).
+Datum je sedmica izvještaja. Link vodi na FDA zapis tog opoziva (openFDA). Meso, perad i jaja su
+USDA (FSIS), čiji servis ne odgovara GitHubovim serverima. Obavijesti iz SAD idu **samo u v2**
+(aplikacija koja čita v1 ne prihvata zemlju US). Izvor se isključuje u `config.json`
 (`"enabled": false`); izvor koji `config.json` ne navodi se ne čita.
 
 Svaki adapter je napisan **prema stvarnim odgovorima** tih servisa (26. i 27. 11. 2026, snimljeni na
@@ -290,15 +297,26 @@ node lib/build.js        # pročitaj izvore i napravi fajl (kao GitHub)
 node tools/probe.js rappelconso     # ili: lebensmittelwarnung, ages, govsi, hapih, fsaba
 ```
 
-## 6. Format fajla (v1)
+## 6. Format fajla (v1 i v2)
 
 Opisan u `lib/contract.js`. Provjere u ovom repozitoriju su **iste** one koje aplikacija radi kad
 čita fajl (aplikacija: `lib/recalls.ts`); obje strane se testiraju na istim primjerima
-(`test/fixtures/contract-cases.json`). Format se ne mijenja unutar `v1`: aplikacija koja bi
-čitala drugačiji format tražila bi `v2/recalls.json`.
+(`test/fixtures/contract-cases.json`).
 
-Granice: najviše 800 obavijesti i 500 000 znakova (aplikacija prihvata do 1000 i 600 000).
-Kad ih ima više, izostavljaju se najstarije iz automatskih izvora; ručno unesene ostaju.
+Posao objavljuje dva oblika istih obavijesti:
+- **v2 — fajl po zemlji** (`v2/index.json` i `v2/fr.json`, `v2/us.json` …): indeks kaže koje zemlje
+  imaju fajl, koliko obavijesti i znakova ima svaki i datum najnovije; fajl zemlje ima samo
+  obavijesti te zemlje (`"country"` mora biti ista kao zemlja fajla). Zemlje: one iz v1 i **US**.
+  Svaki fajl ima svoje granice (800 obavijesti, 500 000 znakova), pa mnogo obavijesti jedne zemlje
+  nikad ne istiskuje drugu. `group` povezuje obavijesti i preko fajlova. Zemlja koja više nema
+  nijednu obavijest nema ni fajl ni red u indeksu.
+- **v1 — jedan fajl** (`v1/recalls.json`) za verzije aplikacije koje čitaju samo njega: iste
+  obavijesti, samo zemlje v1 (EU, BA, RS), najviše 800 obavijesti i 500 000 znakova (aplikacija
+  prihvata do 1000 i 600 000). Kad ih ima više, obavijest gubi **zemlja s najviše obavijesti** — svoju
+  najstariju iz automatskog izvora; ručno unesene ostaju. U v2 ostaju sve.
+
+Obavijest je u oba oblika ista. Format se ne mijenja unutar verzije: nova polja koja aplikacija ne
+poznaje ona preskoči.
 
 **Isti proizvod u više zemalja — polje `group` (neobavezno).** Svaka zemlja zadržava svoju obavijest
 (svoju zemlju, link i tekst), a obavijesti koje su **sigurno** isti proizvod dobiju isto `group`, da

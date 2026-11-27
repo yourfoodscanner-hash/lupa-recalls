@@ -28,6 +28,9 @@ test('barcodes: only after a label, whole, with a valid check digit, never a sho
     ['črtna koda: 2659557; serija: 26392239', []],                                             // 7 digits: no barcode
     ['EAN: 2609898025201', []],                                                                // a number shops give out themselves
     ['Pro L 2652541 / GGN 4059883043006', []],                                                 // GGN is not a barcode
+    ['UPC 813104021679', ['813104021679']],                                                    // "UPC 8…" is not "UPC-8"
+    ['EAN 8711521160525', ['8711521160525']],
+    ['EAN-13: 3850123456782', ['3850123456782']],
   ];
   for (const [text, want] of cases) assert.deepEqual(T.labeledGtins(text), want, text);
 });
