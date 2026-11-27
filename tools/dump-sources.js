@@ -19,13 +19,14 @@ const recording = async (url, options) => {
 };
 (async () => {
   const summary = {};
+  const only = (process.env.ONLY || '').split(',').filter(Boolean);
   for (const [name, adapter] of Object.entries(SOURCES)) {
-    if (name === 'rappelconso') continue;
+    if (name === 'rappelconso' || (only.length && !only.includes(name))) continue;
     const s = config.sources[name] || {};
     const since = new Date(Date.now() - (s.windowDays ?? 45) * 86400000).toISOString().slice(0, 10);
     const started = Date.now();
     try {
-      const got = await adapter.fetchNotices({ fetchImpl: recording, since, userAgent: config.userAgent });
+      const got = await adapter.fetchNotices({ fetchImpl: recording, since, userAgent: config.userAgent, ...(s.countries ? { countries: s.countries } : {}) });
       const checked = got.notices.map((n) => C.checkNotice(n));
       const bad = checked.filter((c) => !c.ok).map((c) => c.why);
       const ok = checked.filter((c) => c.ok).map((c) => c.notice);

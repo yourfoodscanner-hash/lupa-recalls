@@ -1,2 +1,2 @@
 set -e
-node tools/explore.js tools/explore-requests.json probe-out
+ONLY=fvst,pranyr,efet,rasff node tools/dump-sources.js probe-out
