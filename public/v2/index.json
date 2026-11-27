@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T17:48:00Z",
+ "generated": "2026-11-27T18:37:47Z",
  "countries": [
   {
    "country": "AT",
@@ -229,9 +229,16 @@
   {
    "country": "US",
    "file": "us.json",
-   "recalls": 62,
-   "chars": 40215,
-   "newest": "2026-11-18"
+   "recalls": 60,
+   "chars": 54562,
+   "newest": "2026-11-23"
+  },
+  {
+   "country": "XK",
+   "file": "xk.json",
+   "recalls": 10,
+   "chars": 9201,
+   "newest": "2026-09-28"
   }
  ]
 }

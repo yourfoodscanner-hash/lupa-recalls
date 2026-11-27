@@ -1,25 +1,74 @@
 {
  "version": 2,
- "generated": "2026-11-27T17:48:00Z",
+ "generated": "2026-11-27T18:37:47Z",
  "country": "US",
  "recalls": [
   {
-   "id": "us-fda-100177",
+   "id": "us-fda-prime-food-processing-llc-issues-safety-warning-regarding-two-une-0c8xsj9",
    "country": "US",
-   "published": "2026-11-18",
+   "published": "2026-11-23",
    "category": "food",
-   "hazard": "chemical",
-   "name": "Brad's Crunchy Kale Original, 2 oz (57g) bags, Brad's Crunchy Kale, Cheeze It Up, 2 oz (57g) bags, Brad's Crunchy Kale Radical Ranch, 2 oz (57g) bags, Brad's…",
-   "reason": "Products may contain elevated levels of thallium",
-   "details": "Snack Right Super Foods, Inc. (Quakertown, PA). FDA Class II. The product was distributed to the following States: IL and RI",
-   "lots": "33525-1, 33525-2, 33525-3, 34525-1, 35125-2, 35025-3, 29425-1, 33225-3, 33325-2, 33425-1",
+   "hazard": "microbe",
+   "name": "Dried Croaker Fish",
+   "reason": "Potential contamination with Clostridium Botulinum",
+   "details": "Prime Food Processing LLC. Brooklyn, NY – Prime Food Processing LLC is voluntarily recalling 200 cases of Dried Croaker Fish under 2 different Item numbers because the products were not adequately eviscerated. The sale of uneviscerated fish is prohibited under New York State Agriculture and Markets regulations because Clostridium botulinum spores are more likely to be concentrated in the viscera than any other portion of the fish. Uneviscerated fish have been linked to outbreaks of botulism poisoning. Symptoms of botulism include dizziness, blurred or double vision, and trouble with speaking or swallowing. Difficulty in breathing, weakness of other muscles, abdominal distension, and constipation may also be common symptoms. People experiencing these problems should seek immediate medical…",
+   "bestBefore": "06.24.27, 02.03.27",
+   "action": "Consumers who purchased these products should return them to the place of purchase with the uneaten fish and packaging for a full refund.",
    "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100177&limit=100",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-safety-warning-regarding-two-uneviscerated-dried-fish-products"
+  },
+  {
+   "id": "us-fda-prime-food-processing-llc-issues-safety-warning-regarding-unevisc-0vaszxe",
+   "country": "US",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Dried Herring Fish",
+   "reason": "Potential contamination with Clostridium Botulinum",
+   "details": "Prime Food Processing LLC. Brooklyn, NY – Prime Food Processing LLC is voluntarily recalling 225 cases of “Dried Herring Fish” because the product was not adequately eviscerated. The sale of uneviscerated fish is prohibited under New York State Agriculture and Markets regulations because Clostridium botulinum spores are more likely to be concentrated in the viscera than any other portion of the fish.",
+   "bestBefore": "12.28.27",
+   "action": "Consumers who purchased these products should return them to the place of purchase with the uneaten fish and packaging for a full refund.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prime-food-processing-llc-issues-safety-warning-regarding-uneviscerated-dried-herring-fish-0"
+  },
+  {
+   "id": "us-fda-shanghai-san-niu-food-co-ltd-recalling-sanniu-evergeen-biscuits-d-00zcy84",
+   "country": "US",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Sanniu Evergreen Biscuits and Sanniu Salt and Pepper Soda Biscuits",
+   "reason": "Undeclared Milk and Shrimp",
+   "details": "Shanghai San Niu Food Co., Ltd. Shanghai San Niu Food Co., Ltd. of Shanghai, China is recalling all Sanniu Evergreen Biscuits and Salt and Pepper Soda Biscuits, because it may contain undeclared milk in Sanniu Evergreen Biscuits (三牛万年青饼干) and undeclared milk and shrimp in Sanniu Salt and Pepper Soda Biscuits (三牛苏打饼干椒盐味). People who have an allergy or severe sensitivity to milk and shrimp run the risk of serious or life-threatening allergic reaction if they consume these products.",
+   "bestBefore": "between Nov 13, 2026 to Oct 13, 2027, between Apr 19 2026 to Oct 13, 2027, MAR,26,2027",
+   "action": "Consumers who have purchased these products should not eat them.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shanghai-san-niu-food-co-ltd-recalling-sanniu-evergeen-biscuits-due-undeclared-milk-and-sanniu-salt",
    "gtins": [
-    "813104021679",
-    "813104021877",
-    "813104020726",
-    "854615002054"
+    "6926664703467",
+    "6926664700435",
+    "6926664706048",
+    "6926664705713"
+   ]
+  },
+  {
+   "id": "us-fda-grand-strand-sandwich-company-recalls-lunch-box-bacon-egg-and-che-08e0uu5",
+   "country": "US",
+   "published": "2026-11-19",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Lunch Box Sandwiches Lunch Box Chicken Sausage Biscuit ; Lunch Box Sausage Egg & Cheese Biscuit; Lunch Box Jumbo Sausage Biscuit; and Lunch Box Bacon Egg and…",
+   "reason": "Potential to be contaminated with Listeria monocytogenes",
+   "details": "Grand Strand Sandwich Company Inc. Longs, SC – 11/19/2026 – Grand Strand Sandwich Company Inc. is recalling Lunch Box Chicken Sausage Biscuit 3.75 oz package; Lunch Box Sausage Egg & Cheese Biscuit 5 oz package; Lunch Box Jumbo Sausage Biscuit 4 oz package; and Lunch Box Bacon Egg and Cheese Biscuit 4 oz package due to a potential contamination with Listeria monocytogenes . Listeria monocytogenes is an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune systems. Although healthy individuals may suffer only short-term symptoms such as high fever, severe headache, stiffness, nausea, abdominal pain and diarrhea, a Listeria monocytogenes infection can cause miscarriages and stillbirths among pregnant women.",
+   "lots": "07026, 07526, 08326, 09626, 12526, 13226, 14026, 16826, 17526, 23726, 06126, 11126, 11826, 19526, 15426, 18226, 20226, 25826, 26426, 29926",
+   "action": "Consumers who have purchased these products are urged to return them to the place of purchase for a full refund or they may discard the product.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/grand-strand-sandwich-company-recalls-lunch-box-bacon-egg-and-cheese-biscuit-lunch-box-jumbo-sausage",
+   "gtins": [
+    "067068214008",
+    "067068214046",
+    "067068214077",
+    "067068214022"
    ]
   },
   {
@@ -33,19 +82,6 @@
    "details": "Country Creek LLC (Weldon Spring, MO). FDA Class I. E-commerce customers located nationwide",
    "source": "U.S. Food and Drug Administration (FDA)",
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100206&limit=100"
-  },
-  {
-   "id": "us-fda-100220",
-   "country": "US",
-   "published": "2026-11-18",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Cold Smoked Sprats, 5 lbs",
-   "reason": "May be contaminated with Clostridium botulinum",
-   "details": "D & M Smoked Fish, Inc. (Jamaica, NY). FDA Class I. NY, NJ, PA",
-   "lots": "9/2 Lot 244, 244, 250, 9/9 Lot 251, 9/14 Lot 254, 9/15 Lot 257, 251, 254, 257",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100220&limit=100"
   },
   {
    "id": "us-fda-100225",
@@ -92,21 +128,6 @@
    ]
   },
   {
-   "id": "us-fda-100316",
-   "country": "US",
-   "published": "2026-11-18",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Fresh To You Sausage, Egg & Cheese Biscuit Sandwich, net weight. 4.6 oz (131g)",
-   "reason": "Possible Listeria monocytogenes contamination.",
-   "details": "Fresh & Ready Foods LLC (Renton, WA). FDA Class I. Distributed in OR and WA",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100316&limit=100",
-   "gtins": [
-    "840549301684"
-   ]
-  },
-  {
    "id": "us-fda-99997",
    "country": "US",
    "published": "2026-11-18",
@@ -119,33 +140,132 @@
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99997&limit=100"
   },
   {
-   "id": "us-fda-100089",
+   "id": "us-fda-fresh-ready-foods-llc-expands-recall-include-fresh-you-brand-saus-041jje7",
    "country": "US",
-   "published": "2026-11-11",
+   "published": "2026-11-18",
    "category": "food",
    "hazard": "microbe",
-   "name": "Starfish Seafood Cold Smoked Norwegian Salmon, Starfish Seafood Cold Smoked Trio Salmon Halibut Trout",
-   "reason": "Contaminated with Listeria monocytogenes",
-   "details": "Krasnyi Oktyabr Inc (Brooklyn, NY). FDA Class I. NY, MA, SC, FL, GA, NV, NJ, OH, NC, SC, OH",
-   "lots": "D080-148",
-   "bestBefore": "27.11.2027, 12/01/2027",
+   "name": "Fresh to You Sausage, Egg & Cheese Biscuit Sandwich",
+   "reason": "Potential to be contaminated with Listeria monocytogenes",
+   "details": "Fresh & Ready Foods LLC. LONGVIEW, Texas, November 17, 2026 — Fresh & Ready Foods LLC is expanding its November 8th recall of select Fresh To You Sausage, Egg & Cheese Biscuit Sandwiches to now include the additional products listed below produced at Fresh & Ready’s Longview, Texas facility. This recall is due to the expansion of C.H. Guenther & Son’s recall of certain biscuit products that may be contaminated with Listeria monocytogenes . Fresh & Ready Foods used the affected biscuits in the specific products identified below.",
+   "bestBefore": "Fresh Thru: 11/12- 11/22, 11/12-11/18",
+   "action": "Consumers who purchased the affected products are urged not to consume them and to discard any remaining product immediately.",
    "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100089&limit=100"
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-llc-expands-recall-include-fresh-you-brand-sausage-egg-cheese-biscuit-sandwich-and",
+   "gtins": [
+    "840549301684"
+   ],
+   "group": "gtin-840549301684"
   },
   {
-   "id": "us-fda-100122",
+   "id": "us-fda-rocky-mountain-nutrition-issues-allergy-alert-undeclared-milk-cer-15m4vet",
    "country": "US",
-   "published": "2026-11-11",
+   "published": "2026-11-18",
+   "category": "supplement",
+   "hazard": "allergen",
+   "name": "Santa Cruz Paleo Pineapple Caffeine and Island Punch Caffeine Pre-Workout Powder",
+   "reason": "Undeclared Milk",
+   "details": "Rocky Mountain Nutrition, LLC. Rocky Mountain Nutrition LLC is voluntarily recalling certain Santa Cruz Paleo Pineapple Caffeine and Island Punch Caffeine Pre-Workout Powder products because they contain milk that is not declared on the label. People who have an allergy or severe sensitivity to milk run the risk of serious or life-threatening allergic reaction if they consume these products.",
+   "lots": "2606161, 2512293",
+   "bestBefore": "6/29/2026, 12/29/2025",
+   "action": "Consumers who purchased the affected products should stop using them and dispose of the product especially those people with a milk allergy or severe sensitivity.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/rocky-mountain-nutrition-issues-allergy-alert-undeclared-milk-certain-pre-workout-powders"
+  },
+  {
+   "id": "us-fda-aldi-recalls-priano-protein-carbonara-tortelloni-and-priano-prote-1ltzws3",
+   "country": "US",
+   "published": "2026-11-17",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Priano Protein Carbonara Tortelloni and Protein Herb & Cheese Tortelloni",
+   "reason": "Potential to be contaminated with Clostridium botulinum",
+   "details": "ALDI. ALDI of Batavia, IL, is recalling Priano Protein Carbonara Tortelloni and Priano Protein Herb & Cheese Tortelloni sold at select stores because the products may not have been stored, distributed or sold at appropriate temperatures, which may allow growth of pathogens including Clostridium botulinum (\" C. botulinum \"), a bacterium which can cause life-threatening illness or death. Consumers are warned not to prepare or consume the affected products from the impacted states, even if they do not look or smell spoiled.",
+   "lots": "T9101926",
+   "bestBefore": "12/18/2026",
+   "action": "Consumers experiencing these problems should seek immediate medical attention.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aldi-recalls-priano-protein-carbonara-tortelloni-and-priano-protein-herb-cheese-tortelloni-because"
+  },
+  {
+   "id": "us-fda-larbi-inc-recalls-yellow-dock-root-because-possible-health-risk",
+   "country": "US",
+   "published": "2026-11-17",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Herb to Body Yellow Dock Root C/S",
+   "reason": "Potential to be contaminated with Salmonella",
+   "details": "Larbi Inc.. Larbi Inc. of Valley Cottage, NY, is recalling three lots of Herb To Body Yellow Dock Root C/S 4oz, because it has the potential to be contaminated with Salmonella , an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune systems. Healthy persons infected with Salmonella often experience fever, diarrhea (which may be bloody), nausea, vomiting and abdominal pain. In rare circumstances, infection with Salmonella can result in the organism getting into the bloodstream and producing more severe illnesses such as arterial infections (i.e., infected aneurysms), endocarditis and arthritis.",
+   "action": "Consumers who have this product should not consume it and should discard it for a full refund or with questions, contact Herb To Body Customer Care at 914-713-5226, Monday through Friday, 9 AM to 5 PM Eastern Time, or care@herbtobody.com .",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/larbi-inc-recalls-yellow-dock-root-because-possible-health-risk"
+  },
+  {
+   "id": "us-fda-naia-inc-recalls-chocolate-banana-bar-sorbetto-because-undeclared-0rptg8r",
+   "country": "US",
+   "published": "2026-11-17",
    "category": "food",
    "hazard": "allergen",
-   "name": "ParaBien Al Grano",
-   "reason": "Contains undeclared sesame",
-   "details": "Pan Pepin, Inc. (Bayamon, PR). FDA Class I. All customers located in Puerto Rico",
-   "bestBefore": "10-15-26, 10-17-26, 10-18-26, 10-19-26, 10-21-26",
+   "name": "Naia Chocolate Banana Bar Sorbetto",
+   "reason": "Undeclared Allergen – milk, eggs, tree nut (pistachio)",
+   "details": "Naia, Inc.. Naia, Inc. of Hercules, CA is recalling Chocolate Banana Bar Sorbetto with code dates of 10/5/2027, 10/6/2027, 10/7/2027, and 10/8/2026, because it may contain undeclared tree nuts (pistachio), milk, and egg allergens. People who have an allergy or severe sensitivity to tree nuts (pistachio), milk or eggs run the risk of serious or life-threatening allergic reaction if they consume these products.",
+   "bestBefore": "Oct/05/2027, Oct/06/2027, Oct/07/2027, Oct/08/2027",
+   "action": "Consumers should check the date codes of any sorbetto bars labeled Chocolate Banana in their freezer.",
    "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100122&limit=100",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/naia-inc-recalls-chocolate-banana-bar-sorbetto-because-undeclared-milk-eggs-and-nuts"
+  },
+  {
+   "id": "us-fda-bioquad-life-sciences-issues-allergy-alert-undeclared-milk-osteod-0ttv8jf",
+   "country": "US",
+   "published": "2026-11-13",
+   "category": "supplement",
+   "hazard": "allergen",
+   "name": "OsteoDenx capsules",
+   "reason": "Contain undeclared milk",
+   "details": "bioQuad Life Sciences. “This is an update to the company’s press release, previously issued on 11/13/2026. This update adds two additional UPC codes for cartons sold on a third-party retailer’s website.”",
+   "lots": "0524100, 0625041",
+   "bestBefore": "05/2027, 08/2028, 05/2027 or 08/2028",
+   "action": "Consumers who are allergic or sensitive to milk should not take the product and may discard it.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bioquad-life-sciences-issues-allergy-alert-undeclared-milk-osteodenxr-dietary-supplement",
    "gtins": [
-    "021425015134"
+    "857294007228",
+    "857294007341",
+    "857294007259",
+    "857294007242"
+   ]
+  },
+  {
+   "id": "us-fda-eros-apothecary-issues-recall-candy-power-man-organic-honey-due-u-0l7je45",
+   "country": "US",
+   "published": "2026-11-12",
+   "category": "supplement",
+   "hazard": "chemical",
+   "name": "Candy Power For Man Honey Dietary Supplement",
+   "reason": "Contain Undeclared Tadalafil",
+   "details": "Eros Apothecary. Eros Apothecary of Indio, California is recalling Candy Power For Man Organic Honey because the product was found to contain undeclared tadalafil.",
+   "lots": "241020",
+   "action": "Consumers should stop using Candy Power For Man immediately and dispose of any remaining product.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/eros-apothecary-issues-recall-candy-power-man-organic-honey-due-undeclared-tadalafil",
+   "gtins": [
+    "5285002251390"
+   ]
+  },
+  {
+   "id": "us-fda-game-changer-products-llc-issues-voluntary-nationwide-recall-10-d-16871wr",
+   "country": "US",
+   "published": "2026-11-12",
+   "category": "supplement",
+   "hazard": "chemical",
+   "name": "10 Day Forecast Capsules 3200mg",
+   "reason": "Tainted with Sildenafil and Acetaminophen",
+   "details": "Game Changer Products, LLC. FOR IMMEDIATE RELEASE – November 12, 2026 - Tampa, Florida . Game Changer Products LLC is voluntarily recalling all lots of 10 Day Forecast capsules to the consumer level. FDA analysis has found the product to be tainted with sildenafil and acetaminophen. Sildenafil is an active ingredient in an FDA-approved prescription drug product, used to treat erectile dysfunction. Acetaminophen is a prescription and over-the-counter drug product used to temporarily relieve pain and reduce fever. Products containing sildenafil and acetaminophen cannot be marketed as dietary supplements. 10 Day Forecast capsules are unapproved new drugs for which safety and efficacy have not been established and, therefore, subject to recall.",
+   "action": "Consumers who have 10 Day Forecast should stop using it and throw away any unused product in a safe manner.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/game-changer-products-llc-issues-voluntary-nationwide-recall-10-day-forecast-capsules-due-presence",
+   "gtins": [
+    "191645852717"
    ]
   },
   {
@@ -161,47 +281,6 @@
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100127&limit=100"
   },
   {
-   "id": "us-fda-100137",
-   "country": "US",
-   "published": "2026-11-11",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Raw milk cheddar cheese packed in vacuum sealed clear plastic with a white, red and green label which reads in part as, \"FAMILY FARMSTEAD MILD RAW CHEDDAR…",
-   "reason": "Potential contamination with E. coli (pathogenic non-O157 STEC).",
-   "details": "Family Farmstead Dairy, LLC (Worcester, NY). FDA Class I. Distributors located in CT, MA, MD, NJ, NY, PA, and VA. Product may be further distributed.",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100137&limit=100",
-   "gtins": [
-    "860007132216"
-   ]
-  },
-  {
-   "id": "us-fda-100138",
-   "country": "US",
-   "published": "2026-11-11",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Gelatelli NATURALLY FLAVORED COFFEE & VANILLA GELATO WITH COFFEE SAUCE & COOKIE PIECES 16FL OZ (1PT) 475 mL",
-   "reason": "Listeria monocytogenes. The firm received positive test result of Listeria monocytogenes in the product.",
-   "details": "Lidl US TRADING (Arlington, VA). FDA Class I. Product was shipped to the following states: DC, DE, GA, MD, NC, NJ, NY, PA, SC & VA.",
-   "lots": "085261",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100138&limit=100"
-  },
-  {
-   "id": "us-fda-100144",
-   "country": "US",
-   "published": "2026-11-11",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Wise Wife ground cinnamon in plastic container with black screw top cap, 3.88 oz",
-   "reason": "Product contains elevated levels of lead",
-   "details": "SLR Food Distribution, Inc. (Hicksville, NY). FDA Class II. 20 retail locations located in: CT, IN, KS, MA, MI, MN, NC, NE, NY, OH, PA, TX, VA and WI",
-   "bestBefore": "4/25/2027",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100144&limit=100"
-  },
-  {
    "id": "us-fda-100191",
    "country": "US",
    "published": "2026-11-11",
@@ -212,21 +291,6 @@
    "details": "Sunny Sky Products, LLC (Houston, TX). FDA Class II. Nationwide 7-11 stores",
    "source": "U.S. Food and Drug Administration (FDA)",
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100191&limit=100"
-  },
-  {
-   "id": "us-fda-100193",
-   "country": "US",
-   "published": "2026-11-11",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "WinCo Foods Hoagie Rolls, 6 rolls/bag",
-   "reason": "Undeclared Sesame",
-   "details": "WinCo Foods LLC (Boise, ID). FDA Class I. Distributed in CA, ID, MT, NV, OR, UT, and WA.",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100193&limit=100",
-   "gtins": [
-    "070552006492"
-   ]
   },
   {
    "id": "us-fda-100223",
@@ -243,22 +307,6 @@
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100223&limit=100",
    "gtins": [
     "850054166012"
-   ]
-  },
-  {
-   "id": "us-fda-100248",
-   "country": "US",
-   "published": "2026-11-11",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "365 Whole Foods Market Standardized + Full Spectrum Blend Ashwagandha Capsules 120 count",
-   "reason": "Possible Salmonella contamination.",
-   "details": "Vitality Works, Inc (Albuquerque, NM). FDA Class I. Recalled product was distributed nationwide.",
-   "lots": "202526227",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100248&limit=100",
-   "gtins": [
-    "099482520991"
    ]
   },
   {
@@ -291,29 +339,35 @@
    ]
   },
   {
-   "id": "us-fda-99783",
+   "id": "us-fda-family-farmstead-dairy-announces-recall-all-cheddar-cheese-produc-02u7gxr",
    "country": "US",
-   "published": "2026-11-11",
+   "published": "2026-11-10",
    "category": "food",
-   "hazard": "other",
-   "name": "Little Temptations, Chocolatey Eyeballs (Hazelnut Praline Chocolatey Eyeballs ) Spooks and Spells, The product comes in the following sizes: Card Header Bag…",
-   "reason": "Product packaging mix-up. Product containing whey (milk), were distributed in packaging that did not reveal the presence of milk.",
-   "details": "Crystal Temptations (North Arlington, NJ). FDA Class II. AZ, TX, VA, GA, MA, NC, IN, NV, CA, NJ, CT, OH, WY",
+   "hazard": "microbe",
+   "name": "Family Farmstead Raw Mild Cheddar; Raw Sharp Cheddar",
+   "reason": "Potential to be contaminated with Listeria monocytogenes",
+   "details": "Family Farmstead Dairy. Worcester, New York – Family Farmstead Dairy is recalling all cheddar cheese products because it has the potential to be contaminated with Listeria monocytogenes , an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune systems. Although healthy individuals may suffer only short-term symptoms such as high fever, severe headache, stiffness, nausea, abdominal pain and diarrhea, Listeria infection can cause miscarriages and stillbirths among pregnant women.",
+   "action": "Consumer Information Consumers who have purchased affected cheddar products may return them to the place of purchase or contact Family Farmstead Dairy directly for assistance.",
    "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99783&limit=100"
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/family-farmstead-dairy-announces-recall-all-cheddar-cheese-products-because-possible-health-risk"
   },
   {
-   "id": "us-fda-100088",
+   "id": "us-fda-fresh-ready-foods-llc-recalls-fresh-you-brand-sausage-egg-cheese-01vzdbe",
    "country": "US",
-   "published": "2026-11-04",
+   "published": "2026-11-08",
    "category": "food",
-   "hazard": "allergen",
-   "name": "Riad's Oliva to Go Hummus, Riad's Oliva to Go Baba Ghanouj, Riad's Oliva to Go Spicy Baba Ghanouj",
-   "reason": "contains undeclared sesame",
-   "details": "Oliva on Main (Bethlehem, CT). FDA Class I. MA, CT",
-   "bestBefore": "10/12/26, 10/10/26",
+   "hazard": "microbe",
+   "name": "Fresh to You Sausage, Egg & Cheese Biscuit Sandwich",
+   "reason": "Potential to be contaminated with Listeria monocytogenes",
+   "details": "Fresh & Ready Foods LLC. November 7, 2026, Fresh & Ready Foods LLC of Renton, WA is recalling 2,414 of Fresh To You Sausage, Egg & Cheese Biscuit Sandwiches (4.6 oz) because it has the potential to be contaminated with Listeria monocytogenes , an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune systems. Although healthy individuals may suffer only short-term symptoms such as high fever, severe headache, stiffness, nausea, abdominal pain and diarrhea. Listeria monocytogenes infection can cause miscarriages and stillbirths among pregnant women.",
+   "bestBefore": "Fresh Thru: 11/07-11/19",
+   "action": "Consumers who have purchased the affected product are urged not to consume the product and discard any remaining product immediately.",
    "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100088&limit=100"
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-llc-recalls-fresh-you-brand-sausage-egg-cheese-biscuit-sandwich-due-possible",
+   "gtins": [
+    "840549301684"
+   ],
+   "group": "gtin-840549301684"
   },
   {
    "id": "us-fda-100118",
@@ -370,20 +424,6 @@
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99881&limit=100"
   },
   {
-   "id": "us-fda-99914",
-   "country": "US",
-   "published": "2026-11-04",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Gluten Free Truly AIP Rustic Bread Mix, 14 oz, Gluten Free EAT G.A.N.G.S.T.E.R Pizza Crust and Flat Bread Mix, 5.8oz (165g) & 3.98 lbs, Gluten Free Truly AIP…",
-   "reason": "Products are recalled due to potential undeclared wheat gluten",
-   "details": "GF Blends Inc (Richland, WA). FDA Class I. Sold nationwide online at eatgangster.com, trulyaip.com, and Amazon.com",
-   "lots": "260417, 260617, 260327, 260803, 260225, 260610",
-   "bestBefore": "4-17-28, 12-17-27, 7-27-27, 9-27-27, 2-03-28, 2-25-28, 6-10-28",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99914&limit=100"
-  },
-  {
    "id": "us-fda-99961",
    "country": "US",
    "published": "2026-11-04",
@@ -397,32 +437,77 @@
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99961&limit=100"
   },
   {
-   "id": "us-fda-99993",
+   "id": "us-fda-snack-right-super-foods-inc-dba-brads-raw-chips-recalls-brads-cru-051t3cl",
    "country": "US",
-   "published": "2026-11-04",
+   "published": "2026-11-03",
    "category": "food",
-   "hazard": "microbe",
-   "name": "EDEN BROTHERS Broccoli Seeds - Calabrese",
-   "reason": "Salmonella",
-   "details": "EDEN BROTHERS (Arden, NC). FDA Class I. Product was distributed to the following states: AK, AL, AR, AZ, CA, CO, CT, DC, DE, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MS, MT, NC, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VA, VT, WA, WI, WV & WY.",
-   "lots": "1022067, 1022068",
+   "hazard": "chemical",
+   "name": "Brad’s Crunchy Kale and Veggie Chips Kale",
+   "reason": "Product may contain thallium",
+   "details": "Snack Right Super Foods dba Brad’s Raw Chips. Coral Gables, FL - Snack Right Super Foods, Inc., doing business as Brad's Raw Chips, is recalling certain Brad's Plant Based Crunchy Kale (2 oz) and Brad's Veggie Chips Kale (3 oz) products because they may contain thallium.",
+   "lots": "33525-1, 33525-2, 33525-3, 34525-1, 35125-2, 35025-3, 29425-1, 33225-3, 33325-2, 33425-1",
+   "bestBefore": "February 1, 2027, February 11, 2027, February 17, 2027, February 16, 2027, December 21, 2026, January 28, 2027…",
+   "action": "Consumers who have purchased any of the products listed above should stop consuming them immediately and discard the product.",
    "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99993&limit=100"
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/snack-right-super-foods-inc-dba-brads-raw-chips-recalls-brads-crunchy-kale-veggie-chips-due",
+   "gtins": [
+    "813104021679",
+    "813104021877",
+    "813104020726",
+    "854615002054"
+   ]
   },
   {
-   "id": "us-fda-100040",
+   "id": "us-fda-once-upon-farm-recalls-all-lots-and-varieties-tractor-wheels-orga-0wes3go",
    "country": "US",
-   "published": "2026-10-28",
+   "published": "2026-11-02",
+   "category": "baby",
+   "hazard": "other",
+   "name": "Once Upon a Farm Tractor Wheels Organic Toddler Soft-Baked Bars (all lots and varieties)",
+   "reason": "Potential choking hazard",
+   "details": "Once Upon a Farm. Once Upon a Farm (Berkeley, CA) is recalling all lots and varieties of fruit-flavored Tractor Wheel Organic Toddler Soft-Baked bars due to reports that the composition of the Tractor Wheel toddler snack can rapidly hydrate into a dense, dry, and sticky mass upon contact with saliva and during chewing, which can result in a potential choking hazard for toddlers for ages 1.5-2.5 years old.",
+   "action": "Consumers who have purchased this recalled Once Upon a Farm Tractor Wheels product should not open the package or consume the products.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/once-upon-farm-recalls-all-lots-and-varieties-tractor-wheels-organic-toddler-soft-baked-bars-due",
+   "gtins": [
+    "810003512932",
+    "810003512840",
+    "810003512918",
+    "810003512925"
+   ]
+  },
+  {
+   "id": "us-fda-vitality-works-inc-recalls-365-whole-foods-market-ashwagandha-cap-0hkfmzr",
+   "country": "US",
+   "published": "2026-10-30",
    "category": "food",
    "hazard": "microbe",
-   "name": "Heirloom Homegrown Green Sprouting Calabrese Broccoli Sprouts Seed",
-   "reason": "Salmonella.",
-   "details": "EAK Distribution LLC (Casper, WY). FDA Class I. sold on Amazon nationwide",
-   "lots": "AUG172026",
+   "name": "365 Whole Foods Market Standardized + Full Spectrum Blend Ashwagandha Capsules",
+   "reason": "Potential to be contaminated with Salmonella",
+   "details": "Vitality Works Inc.. “Firm press was updated on 10/30/2026 to reflect nationwide product distribution rather than to select states.”",
+   "lots": "2025-26227",
+   "bestBefore": "10/13/2028",
+   "action": "Customers who have the recalled product should not consume it.",
    "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100040&limit=100",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vitality-works-inc-recalls-365-whole-foods-market-ashwagandha-capsules-sold-nationwide-due-potential",
    "gtins": [
-    "850056627443"
+    "099482520991"
+   ]
+  },
+  {
+   "id": "us-fda-slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-0u96l04",
+   "country": "US",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wise Wife Ground cinnamon",
+   "reason": "Potential to be contaminated with elevated levels of lead",
+   "details": "SLR Food Distribution Inc.. SLR Food Distribution Inc. of Hicksville, New York, is voluntarily recalling Wise Wife Brand Ground Cinnamon because it has the potential to be contaminated with elevated levels of lead.",
+   "action": "Consumers should not consume the recalled product and should either discard it or return it to the place of purchase for a full refund.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/slr-food-distribution-inc-recalls-wise-wife-brand-ground-cinnamon-due-elevated-lead-levels",
+   "gtins": [
+    "0688474302754"
    ]
   },
   {
@@ -459,34 +544,6 @@
     "675643050967",
     "675643050974",
     "675643050981"
-   ]
-  },
-  {
-   "id": "us-fda-100068",
-   "country": "US",
-   "published": "2026-10-28",
-   "category": "supplement",
-   "hazard": "other",
-   "name": "Babies' Magic Tea",
-   "reason": "Adulterated (elevated levels of alcohol) infant dietary supplement",
-   "details": "Pacific Health Sciences Llc (Oxnard, CA). FDA Class II. Product was manufactured for a single customer located in Florida. Product was made available through Amazon and through the customers website.",
-   "bestBefore": "12/2028",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100068&limit=100"
-  },
-  {
-   "id": "us-fda-100077",
-   "country": "US",
-   "published": "2026-10-28",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Gardners Basics brand Waltham 29 Broccoli Sprouting Seeds packaged in a white and green resealable pouch, net weight 1 pound (454 g)",
-   "reason": "Salmonella",
-   "details": "Gardeners Basics (Spanish Fork, UT). FDA Class I. Distributed nationwide via online sales.",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100077&limit=100",
-   "gtins": [
-    "848137042889"
    ]
   },
   {
@@ -608,6 +665,85 @@
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99985&limit=100"
   },
   {
+   "id": "us-fda-haifa-smoked-fish-recalls-cold-smoked-sprats-due-potential-health-risk",
+   "country": "US",
+   "published": "2026-10-27",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Cold Smoked Sprat Fish",
+   "reason": "Potential contamination with Clostridium botulinum",
+   "details": "D&M Smoked Fish Inc. dba Haifa Smoked Fish Inc.. HAIFA SMOKED FISH of QUEENS NY is recalling approximately 560 lbs. of Cold Smoked Sprats, due to potential contamination with Clostridium botulinum , a bacterium which can cause life-threatening illness. Consumers are warned not to use the product even if it does not look or smell spoiled.",
+   "action": "Consumers who have purchased Cold Smoked Sprats are urged to return it to the place of purchase for a full refund.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haifa-smoked-fish-recalls-cold-smoked-sprats-due-potential-health-risk"
+  },
+  {
+   "id": "us-fda-taylor-farms-issues-recall-h-e-b-backyard-bbq-chop-salad-kit-due-06z6qb0",
+   "country": "US",
+   "published": "2026-10-27",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "H-E-B BBQ Chop Salad Kit",
+   "reason": "Undeclared soy and tree nuts (almonds)",
+   "details": "Taylor Farms. Taylor Farms of Dallas, Texas is recalling H-E-B Backyard BBQ Chop Salad kit due to the potential undeclared soy and tree nuts(almonds).",
+   "bestBefore": "October 30, 2026",
+   "action": "The recalled product is packaged in plastic bags and can be identified by the Best If Used By date and UPC code below: Backyard BBQ Chop Salad Kit 13.4 oz Customers who purchased the products should not consume the items.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/taylor-farms-issues-recall-h-e-b-backyard-bbq-chop-salad-kit-due-potential-undeclared-soy-and-tree",
+   "gtins": [
+    "041220300457"
+   ]
+  },
+  {
+   "id": "us-fda-tonight-we-ride-llc-issues-voluntary-recall-ultimate-forza-male-s-0ehgmn8",
+   "country": "US",
+   "published": "2026-10-24",
+   "category": "supplement",
+   "hazard": "chemical",
+   "name": "Ultimate Forza Male Supplement",
+   "reason": "Product contains undeclared Sildenafil, Tadalafil, and Dapoxetine",
+   "details": "Tonight We Ride, LLC. October 24, 2026, Tonight We Ride, LLC of Lakeville, Minnesota is voluntarily recalling all lots of Ultimate Forza Male Supplement capsules to the consumer level because it has been found to contain undeclared Sildenafil, Tadalafil, and Dapoxetine.",
+   "action": "Consumers should stop using Ultimate Forza Male Supplement immediately.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tonight-we-ride-llc-issues-voluntary-recall-ultimate-forza-male-supplement-due-presence-undeclared",
+   "gtins": [
+    "868592000002",
+    "868592000040"
+   ]
+  },
+  {
+   "id": "us-fda-natural-grocers-recalls-natural-grocers-brand-organic-2-pound-mun-19852rr",
+   "country": "US",
+   "published": "2026-10-22",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Natural Grocers 2 pound Mung Beans",
+   "reason": "Possible foreign material contamination with glass",
+   "details": "Vitamin Cottage Natural Food Markets, Inc.. 10/22/2026 , Vitamin Cottage Natural Food Markets, Inc., Lakewood, Colorado, is recalling Natural Grocers Brand Organic 2-Pound Mung Beans due to the potential presence of glass.",
+   "action": "Consumers who purchased this product should discontinue use immediately and either discard it or return it for a full refund or credit.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/natural-grocers-recalls-natural-grocers-brand-organic-2-pound-mung-beans-due-potential-presence",
+   "gtins": [
+    "000080112600"
+   ]
+  },
+  {
+   "id": "us-fda-winco-foods-llc-issues-allergy-alert-undeclared-sesame-hoagie-rolls",
+   "country": "US",
+   "published": "2026-10-22",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "WinCo Foods Hoagie Rolls",
+   "reason": "Undeclared sesame",
+   "details": "WinCo Foods LLC. October 22, 2026 - WinCo Foods of Boise, ID is recalling the following WinCo Foods Brand Hoagie Rolls due to undeclared sesame.",
+   "action": "Consumers are advised not to consume the hoagie rolls if they have a sensitivity or allergy to sesame, and to return them to their nearest WinCo Foods location for a refund.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/winco-foods-llc-issues-allergy-alert-undeclared-sesame-hoagie-rolls",
+   "gtins": [
+    "070552006492"
+   ]
+  },
+  {
    "id": "us-fda-100002",
    "country": "US",
    "published": "2026-10-21",
@@ -621,22 +757,6 @@
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100002&limit=100",
    "gtins": [
     "810023430629"
-   ]
-  },
-  {
-   "id": "us-fda-100041",
-   "country": "US",
-   "published": "2026-10-21",
-   "category": "food",
-   "hazard": "foreign",
-   "name": "Stewarts Shops Vanilla Heavenly Medley 1/2 Gallon (1.89 L), Stewarts Shops Vanilla chocolate Strawberry Ice Cream 1/2 gallon (1.89 L)",
-   "reason": "Foreign object: May contain pieces of metal",
-   "details": "Stewart's Shops Corp. (Saratoga Springs, NY). FDA Class II. NY, VT, NH",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100041&limit=100",
-   "gtins": [
-    "082086443711",
-    "082086443773"
    ]
   },
   {
@@ -655,34 +775,6 @@
    ]
   },
   {
-   "id": "us-fda-99898",
-   "country": "US",
-   "published": "2026-10-21",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "HIGGS Loaded Bacon & Cheddar Potato Chips",
-   "reason": "Undeclared soy.",
-   "details": "Saratoga Potato Chips LLC (Fort Wayne, IN). FDA Class II. The recalled J. HIGGS Loaded Bacon and Cheddar Potato Chips were distributed in the states of Florida, Indiana, Kentucky, Ohio, Tennessee, and Maryland and sold in Save A Lot stores.",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99898&limit=100",
-   "gtins": [
-    "051933316454"
-   ]
-  },
-  {
-   "id": "us-fda-99966",
-   "country": "US",
-   "published": "2026-10-21",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Deano's Pasta",
-   "reason": "Undeclared Lobster",
-   "details": "DEANO'S PASTA (Somerville, MA). FDA Class I. MA, NH",
-   "lots": "090126126",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99966&limit=100"
-  },
-  {
    "id": "us-fda-99992",
    "country": "US",
    "published": "2026-10-21",
@@ -696,36 +788,53 @@
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99992&limit=100"
   },
   {
-   "id": "us-fda-100010",
+   "id": "us-fda-lidl-us-recalls-gelatelli-coffee-vanilla-gelato-due-possible-health-risk",
    "country": "US",
-   "published": "2026-10-14",
+   "published": "2026-10-17",
    "category": "food",
    "hazard": "microbe",
-   "name": "Lemon Alfredo Fettuccine packed in a yellow plastic sealed bag with pink and black lettering",
-   "reason": "Contamination with Listeria monocytogenes",
-   "details": "GIAS FOOD INC. (New York, NY). FDA Class I. Retail locations nationwide",
+   "name": "Gelatelli Coffee & Vanilla Gelato with Coffee Sauce & Cookie Pieces",
+   "reason": "Potential contamination with Listeria monocytogenes",
+   "details": "Lidl US. ARLINGTON, VA – OCTOBER 16, 2026 – Lidl US is recalling one lot of Gelatelli Coffee & Vanilla Gelato with Coffee Sauce & Cookie Pieces 16 FL OZ (1 PT) UPC 4 0564897 22458 Lot: 085261 Best By MAR/26/2028 because it has the potential to be contaminated with Listeria monocytogenes , an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune systems. Although healthy individuals may suffer only short-term symptoms such as high fever, severe headache, stiffness, nausea, abdominal pain and diarrhea, Listeria monocytogenes infection can cause miscarriages and stillbirths among pregnant women.",
+   "lots": "085261",
+   "bestBefore": "MAR/26/2028",
+   "action": "Customers should immediately discard or return the recalled product to their nearest Lidl store for a full refund (a receipt is not required for return).",
    "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100010&limit=100",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lidl-us-recalls-gelatelli-coffee-vanilla-gelato-due-possible-health-risk"
+  },
+  {
+   "id": "us-fda-krasnyi-oktyabr-inc-recalls-starfish-seafood-premium-cold-smoked-0mfphbc",
+   "country": "US",
+   "published": "2026-10-16",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Starfish Seafood Cold Smoked Salmon",
+   "reason": "Potential to be contaminated with Listeria monocytogenes",
+   "details": "Krasnyi Oktyabr Inc.. Krasnyi Oktyabr Inc. of Brooklyn, New York, is voluntarily recalling STARFISH SEAFOOD PREMIUM COLD SMOKED NORWEGIAN SALMON SLICED (227g/8oz) packages, because the product has the potential to be contaminated with Listeria monocytogenes , an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune systems. Although healthy individuals may suffer only short-term symptoms such as high fever, severe headache, stiffness, nausea, abdominal pain, and diarrhea, Listeria infection can cause miscarriages and stillbirths among pregnant women.",
+   "lots": "D080-148",
+   "bestBefore": "27.11.2027",
+   "action": "Consumers who have purchased the recalled STARFISH SEAFOOD PREMIUM COLD SMOKED NORWEGIAN SALMON SLICED are urged not to consume the product and to return it to the place of purchase for a full refund.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/krasnyi-oktyabr-inc-recalls-starfish-seafood-premium-cold-smoked-norwegian-salmon-sliced-227g8oz",
    "gtins": [
-    "194346442706"
+    "4751048940099"
    ]
   },
   {
-   "id": "us-fda-100043",
+   "id": "us-fda-family-farmstead-dairy-announces-recall-raw-mild-cheddar-cheese-d-1bcegqq",
    "country": "US",
-   "published": "2026-10-14",
+   "published": "2026-10-15",
    "category": "food",
-   "hazard": "allergen",
-   "name": "Saint Francis Apizza Frozen Pepperoni Pizza, Net Weight: 17 oz. (482g), packaged individually in vacuum-sealed plastic, Saint Francis Apizza Frozen Cheese…",
-   "reason": "Undeclared soy allergen: soybean oil and soy lecithin",
-   "details": "Saint Francis Apizza LLC (Cincinnati, OH). FDA Class II. KY, OH",
+   "hazard": "microbe",
+   "name": "Family Farmstead Raw Mild Cheddar Cheese",
+   "reason": "Potential to be contaminated with Shiga toxin-producing Escherichia coli (E. Coli O26:H11 and O45:H2)",
+   "details": "Family Farmstead Dairy, LLC. “This is an update to the company’s press release, previously issued on 10/15/2026, to correct the distribution pattern and serotype of E. coli”",
+   "bestBefore": "7/22/27",
+   "action": "Consumers who have purchased the affected product should not consume it.",
    "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100043&limit=100",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/family-farmstead-dairy-announces-recall-raw-mild-cheddar-cheese-due-potential-e-coli-o26h11-and",
    "gtins": [
-    "666186277621",
-    "666186277591",
-    "666186277607",
-    "666186277645"
+    "860007132216"
    ]
   },
   {
@@ -745,23 +854,6 @@
    ]
   },
   {
-   "id": "us-fda-99686",
-   "country": "US",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Donutful Chocolate Dipped Vanilla Cake Donuts - 7.05oz/10ct.Case Configuration 5 count carton, 6 cartons per case",
-   "reason": "Undeclared Milk.",
-   "details": "The Better Bakehouse Snack Company (Las Vegas, NV). FDA Class I. Product was distributed nationwide.",
-   "lots": "26078",
-   "bestBefore": "09/15/2026",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99686&limit=100",
-   "gtins": [
-    "850041392103"
-   ]
-  },
-  {
    "id": "us-fda-99823",
    "country": "US",
    "published": "2026-10-14",
@@ -772,49 +864,6 @@
    "details": "J K Patisserie & Bakery LLC (Long Island City, NY). FDA Class II. NY and NJ",
    "source": "U.S. Food and Drug Administration (FDA)",
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99823&limit=100"
-  },
-  {
-   "id": "us-fda-99847",
-   "country": "US",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Cranberry Chicken Salad Wedge 4.5 oz package in Wedge plastic and clear container with a plastic film sealing the top",
-   "reason": "The chicken salad sandwich has an improperly declared allergen (egg). While egg is included in the ingredients list on the package label, it is not included…",
-   "details": "FRESHPOINT CENTRAL FLORIDA, INC. (Orlando, FL). FDA Class II. Florida and Georgia",
-   "bestBefore": "9/3/2026 – 9/17/2026",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99847&limit=100"
-  },
-  {
-   "id": "us-fda-99872",
-   "country": "US",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "X10 Natural Enhancement Supplement, 0.5 fl oz/sachet (15 mL), 7 sachets/box, biQ-FEL, 16.9 fl oz (500 mL), 17 servings per bottle",
-   "reason": "Product contains undeclared Sildenafil and Tadalafil.",
-   "details": "A&P CREATIONS (Clermont, FL). FDA Class I. Distributed nationwide (US).",
-   "lots": "F090824LN16, F170325LN19, 300326LN28, biQ-f001-06-25, biQ-003-01-26",
-   "bestBefore": "8/2026, 03/2027, 03/2028, 05/06/2027, 01/01/28",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99872&limit=100",
-   "gtins": [
-    "7708075247094"
-   ]
-  },
-  {
-   "id": "us-fda-99894",
-   "country": "US",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Berlin Seeds Alfalfa Sprouting Seeds, packaged in 1/4 lb., 1/2 lb., 1 lb., and 5 lb",
-   "reason": "Product contains alfalfa seed recalled by the supplier due to potential E. coli and/or Salmonella contamination.",
-   "details": "Berlin Seeds (Millersburg, OH). FDA Class I. Through the firm's retail store in Millersburg, OH and nationwide through the firm's website",
-   "lots": "SAL2-24JB",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99894&limit=100"
   },
   {
    "id": "us-fda-99933",
@@ -834,34 +883,6 @@
    ]
   },
   {
-   "id": "us-fda-99937",
-   "country": "US",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "foreign",
-   "name": "Mezzetta GOLDEN GREEK PEPERONCINI MEDIUM HEAT 32 FL OZ G.L",
-   "reason": "Potential contamination with foreign objects: mice.",
-   "details": "G L Mezzetta Inc (American Canyon, CA). FDA Class II. Domestic: AZ, CA, CO, GA, IA, ID, IL, IN, MI, MN, MO, NC, OH, OK, OR, PA, SD, TX, UT, VA, WA, WI. Foreign: Not applicable.",
-   "lots": "720106",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99937&limit=100",
-   "gtins": [
-    "073214003280"
-   ]
-  },
-  {
-   "id": "us-fda-99946",
-   "country": "US",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "other",
-   "name": "WinCo Foods Salsa Bean Dip Express Tray is packaged in a foil bottom container with clear plastic lid",
-   "reason": "Bean Dip Trays contains recalled Peperoncini (pepper) which was recalled due to pest issue.",
-   "details": "WinCo Foods LLC (Boise, ID). FDA Class II. Distributed in AZ, CA, ID, MT, NV, OR, UT, and WA.",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99946&limit=100"
-  },
-  {
    "id": "us-fda-99951",
    "country": "US",
    "published": "2026-10-14",
@@ -878,26 +899,6 @@
    ]
   },
   {
-   "id": "us-fda-99986",
-   "country": "US",
-   "published": "2026-10-14",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "SIERRA NEVADA GRAZIERS RAW MONTEREY JACK, SIERRA NEVADA GRAZIERS RAW SHARP CHEDDAR, SIERRA NEVADA GRAZIERS RAW MEDIUM CHEDDAR, GRAZIERS RAW SMOKED CHEDDAR…",
-   "reason": "Potential contamination due to E. coli O26:H11.",
-   "details": "Sierra Nevada Cheese Company, Inc (Willows, CA). FDA Class I. Domestic: AZ, CA, CO, FL, GA, IL, IN, MD, NJ, OR, TX, WA, WI. Foreign: Not applicable.",
-   "lots": "00116265, 00305264",
-   "source": "U.S. Food and Drug Administration (FDA)",
-   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99986&limit=100",
-   "gtins": [
-    "687652164009",
-    "687652165075",
-    "687652165013",
-    "687652165068",
-    "687652164030"
-   ]
-  },
-  {
    "id": "us-fda-99991",
    "country": "US",
    "published": "2026-10-14",
@@ -908,6 +909,24 @@
    "details": "Pepsico Inc (Purchase, NY). FDA Class II. AK, AL, AR, AZ, CA, CO, FL, GA, HI, IA, ID, IL, IN, KS, KY, LA, MI, MN, MO, MS, NC, ND, NE, NJ, NM, NV, NY, OH, OK, PA, SC, SD, TN, TX, UT, WA, WI",
    "source": "U.S. Food and Drug Administration (FDA)",
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99991&limit=100"
+  },
+  {
+   "id": "us-fda-pan-pepin-inc-issues-allergy-alert-para-bien-al-grano-due-undecla-1ganm3z",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Para Bien Al Grano, 24oz box",
+   "reason": "Undeclared sesame",
+   "details": "Pan Pepin Inc.. Pan Pepin Inc. of Bayamón, Puerto Rico is recalling certain lots of Para Bien Al Grano because the product contain sesame.",
+   "lots": "Sell By Oct / 12 3B1 274, Sell By Oct / 14 3B1 277, Sell By Oct / 15 3B1 278, Sell By Oct / 17 3B1 280, Sell By Oct / 18 3B1 281, Sell By Oct / 19 3B1 282, Sell By Oct / 21 3B1 284",
+   "bestBefore": "10-12-26, 10-14-26, 10-15-26, 10-17-26, 10-18-26, 10-19-26, 10-21-26",
+   "action": "The recall involves the following product lots: Consumers with a sesame allergy who have purchased the affected products should not consume them .",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pan-pepin-inc-issues-allergy-alert-para-bien-al-grano-due-undeclared-sesame",
+   "gtins": [
+    "021425015134"
+   ]
   }
  ]
 }

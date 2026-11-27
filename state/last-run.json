@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T17:48:00Z",
+ "generated": "2026-11-27T18:37:47Z",
  "total": 715,
  "curated": 0,
  "byCountry": {
@@ -29,11 +29,12 @@
   "MT": 4,
   "PT": 7,
   "RO": 7,
+  "US": 60,
   "AT": 10,
   "HR": 36,
-  "US": 62,
   "LT": 3,
   "EE": 1,
+  "XK": 10,
   "BA": 1,
   "MK": 1
  },
@@ -52,12 +53,14 @@
   },
   "lebensmittelwarnung": {
    "enabled": true,
-   "ok": false,
-   "seen": 0,
+   "ok": true,
+   "seen": 242,
    "published": 45,
-   "dropped": {},
-   "carried": 45,
-   "error": "nema odgovora 60 s (lebensmittelwarnung.de/___LMW-Redaktion/RSSNewsfeed/Functions/RssFeeds/rssnewsfeed_Alle_DE)"
+   "dropped": {
+    "starije od prozora": 197
+   },
+   "carried": 0,
+   "error": null
   },
   "govsi": {
    "enabled": true,
@@ -223,10 +226,12 @@
   "fda": {
    "enabled": true,
    "ok": true,
-   "seen": 144,
-   "published": 62,
+   "seen": 213,
+   "published": 60,
    "dropped": {
-    "nije hrana za ljude (FDA broj nije H-…)": 1
+    "nije hrana za ljude (FDA broj nije H-…)": 1,
+    "isto saopćenje na španskom": 1,
+    "isti opoziv kao saopćenje firme": 29
    },
    "carried": 0,
    "error": null
@@ -311,6 +316,20 @@
    "carried": 0,
    "error": null
   },
+  "auv": {
+   "enabled": true,
+   "ok": true,
+   "seen": 100,
+   "published": 10,
+   "dropped": {
+    "nije povlačenje proizvoda": 34,
+    "starije od prozora": 52,
+    "bez naziva": 2,
+    "hrana za životinje": 2
+   },
+   "carried": 0,
+   "error": null
+  },
   "rasff": {
    "enabled": true,
    "ok": true,
@@ -324,11 +343,8 @@
    "error": null
   }
  },
- "failing": {
-  "lebensmittelwarnung": "2026-11-27"
- },
+ "failing": {},
  "warnings": [
-  "Izvor „lebensmittelwarnung” nije pročitan (nema odgovora 60 s (lebensmittelwarnung.de/___LMW-Redaktion/RSSNewsfeed/Functions/RssFeeds/rssnewsfeed_Alle_DE)). Zadržano 45 njegovih obavijesti iz prethodnog fajla.",
   "Izostavljeno 37 najstarijih obavijesti da fajl ostane u granicama (800 obavijesti, 500000 znakova) — iz zemalja s najviše obavijesti; u v2 (fajl po zemlji) ostaju."
  ]
 }
