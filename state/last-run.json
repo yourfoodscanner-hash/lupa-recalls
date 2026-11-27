@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-27T12:06:21Z",
- "total": 715,
+ "generated": "2026-11-27T14:46:33Z",
+ "total": 618,
  "curated": 0,
  "byCountry": {
   "CZ": 54,
-  "DE": 41,
-  "DK": 20,
-  "FR": 276,
+  "DE": 44,
+  "DK": 21,
+  "FR": 169,
+  "BE": 19,
+  "HU": 11,
+  "IE": 15,
+  "NL": 22,
+  "PL": 12,
   "SI": 103,
-  "BE": 21,
   "BG": 3,
   "IT": 18,
-  "NL": 25,
   "SK": 6,
+  "FI": 8,
   "GR": 6,
-  "FI": 6,
-  "SE": 11,
+  "SE": 12,
   "CY": 4,
   "ES": 10,
-  "HU": 9,
-  "IE": 11,
   "LU": 12,
-  "MT": 3,
+  "MT": 4,
   "PT": 7,
   "RO": 7,
   "AT": 10,
-  "PL": 11,
   "HR": 36,
   "LT": 3,
   "EE": 1,
@@ -35,11 +35,11 @@
   "rappelconso": {
    "enabled": true,
    "ok": true,
-   "seen": 19338,
-   "published": 276,
+   "seen": 19339,
+   "published": 169,
    "dropped": {
     "kategorija koju LUPA ne prikazuje": 4932,
-    "starije od prozora": 14130
+    "starije od prozora": 14238
    },
    "carried": 0,
    "error": null
@@ -47,8 +47,8 @@
   "lebensmittelwarnung": {
    "enabled": true,
    "ok": true,
-   "seen": 238,
-   "published": 41,
+   "seen": 241,
+   "published": 44,
    "dropped": {
     "starije od prozora": 197
    },
@@ -58,12 +58,12 @@
   "govsi": {
    "enabled": true,
    "ok": true,
-   "seen": 1443,
+   "seen": 1444,
    "published": 103,
    "dropped": {
     "kategorija koju LUPA ne prikazuje": 677,
     "starije od prozora": 554,
-    "nije stiglo do potrošača u Sloveniji": 108,
+    "nije stiglo do potrošača u Sloveniji": 109,
     "bez razloga": 1
    },
    "carried": 0,
@@ -111,8 +111,8 @@
   "fvst": {
    "enabled": true,
    "ok": true,
-   "seen": 527,
-   "published": 20,
+   "seen": 528,
+   "published": 21,
    "dropped": {
     "stavka nije obavijest o povlačenju": 2,
     "starije od prozora": 505
@@ -145,14 +145,85 @@
    "carried": 0,
    "error": null
   },
+  "favv": {
+   "enabled": true,
+   "ok": true,
+   "seen": 30,
+   "published": 19,
+   "dropped": {
+    "starije od prozora": 9,
+    "nije hrana (hrana za životinje, posuđe)": 2
+   },
+   "carried": 0,
+   "error": null
+  },
+  "fsai": {
+   "enabled": true,
+   "ok": true,
+   "seen": 30,
+   "published": 15,
+   "dropped": {
+    "starije od prozora": 15
+   },
+   "carried": 0,
+   "error": null
+  },
+  "gis": {
+   "enabled": true,
+   "ok": true,
+   "seen": 20,
+   "published": 12,
+   "dropped": {
+    "nije hrana (posuđe, druge obavijesti)": 2,
+    "starije od prozora": 6
+   },
+   "carried": 0,
+   "error": null
+  },
+  "nebih": {
+   "enabled": true,
+   "ok": true,
+   "seen": 29,
+   "published": 11,
+   "dropped": {
+    "nije hrana (hrana za životinje, posuđe)": 6,
+    "starije od prozora": 12
+   },
+   "carried": 0,
+   "error": null
+  },
+  "ruokavirasto": {
+   "enabled": true,
+   "ok": true,
+   "seen": 102,
+   "published": 8,
+   "dropped": {
+    "starije od prozora": 92,
+    "nije hrana (posuđe, kontaktni materijal)": 2
+   },
+   "carried": 0,
+   "error": null
+  },
+  "nvwa": {
+   "enabled": true,
+   "ok": true,
+   "seen": 77,
+   "published": 22,
+   "dropped": {
+    "starije od prozora": 42,
+    "nije hrana (consumentenartikelen)": 13
+   },
+   "carried": 0,
+   "error": null
+  },
   "rasff": {
    "enabled": true,
    "ok": true,
-   "seen": 356,
-   "published": 168,
+   "seen": 192,
+   "published": 87,
    "dropped": {
-    "starije od prozora": 150,
-    "nije hrana (hrana za životinje, materijali u dodiru s hranom …)": 38
+    "starije od prozora": 83,
+    "nije hrana (hrana za životinje, materijali u dodiru s hranom …)": 22
    },
    "carried": 0,
    "error": null
