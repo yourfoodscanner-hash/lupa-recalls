@@ -1,0 +1,17 @@
+{
+ "nvwa": {
+  "since": "2026-10-13",
+  "seen": 77,
+  "notices": 10,
+  "bad": [],
+  "skipped": {
+   "starije od prozora": 42,
+   "nije hrana (consumentenartikelen)": 13,
+   "bez razloga": 1,
+   "stranica nije u obliku upozorenja": 11
+  },
+  "withBarcode": 7,
+  "withLots": 1,
+  "ms": 11657
+ }
+}

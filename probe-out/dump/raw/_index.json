@@ -1,0 +1,275 @@
+[
+ {
+  "url": "https://www.nvwa.nl/api/search?hash=2443f457f50c71ad382eaf0e1e48f696c1cf91a841cadfe7fd4a6a486ce3320f",
+  "status": 200,
+  "type": "application/json",
+  "bytes": 115254,
+  "file": "19b734e85a31.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/api/search?hash=e1c123961011f35417057fd8c46688336545cbdb78ef03de33765290ef8291ab",
+  "status": 200,
+  "type": "application/json",
+  "bytes": 116718,
+  "file": "528233d7fa14.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/news/sitemap.xml",
+  "status": 200,
+  "type": "application/xml",
+  "bytes": 2247,
+  "file": "8b6cc2976f90.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/veiligheidswaarschuwingen",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 249140,
+  "file": "f50f8915bbe0.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/26/veiligheidswaarschuwing-diverse-salades-van-marqt-keuken",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 217088,
+  "file": "63cfa121f3a9.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/26/veiligheidswaarschuwing-zenwave-elektrische-kruiken",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 215901,
+  "file": "c59ccbe7cc35.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/27/veiligheidswaarschuwing-dille-kamille-vrachtwagen-oplegger-speelset-hout",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 217217,
+  "file": "f319ff78654e.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/25/veiligheidswaarschuwing-blondeerspray-150-ml-van-blossity",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 216828,
+  "file": "aa1837eb434e.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/24/veiligheidswaarschuwing-jumbo-kiprollade-rolletje-met-roomkaas-allergenen",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 217155,
+  "file": "7e7b4a89a1be.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/21/veiligheidswaarschuwing-healthyfit-vegan-protein-bar-hazelnut-nougat",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 217064,
+  "file": "ddcb269d9345.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/19/veiligheidswaarschuwing-ah-spinazie-a-la-creme-750-gram",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 214854,
+  "file": "4f3b54184d82.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/16/veiligheidswaarschuwing-nuby-thermolepels-3m",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 215365,
+  "file": "9e192f7e943a.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/13/veiligheidswaarschuwing-milbona-uht-volle-melk-van-lidl",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 215576,
+  "file": "157691676494.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/12/veiligheidswaarschuwing-brandwijk-alkmaarse-gort-van-poiesz-supermarkten",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 216407,
+  "file": "f7d288920139.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/11/veiligheidswaarschuwing-jumbo-wraphapje-kip-pesto-allergenen",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 216463,
+  "file": "1f0cfa2c81fc.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/12/veiligheidswaarschuwing-rode-wijn-saus-gourmet-van-aldi-allergenen",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 216146,
+  "file": "5d1bd90e8904.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/11/veiligheidswaarschuwing-speelgoedauto-van-zeeman",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 215668,
+  "file": "b61b6d010dc4.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/11/veiligheidswaarschuwing-romy-active-romance-kinderhemdje-van-zeeman",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 217258,
+  "file": "2d201ae81362.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/06/veiligheidswaarschuwing-houten-telefoon-fsc-van-wibra",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 216558,
+  "file": "3351e83a56fc.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/06/veiligheidswaarschuwing-de-oude-streek-machedoux-en-macandre-geitenkaas",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 217421,
+  "file": "a2476330d507.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/05/veiligheidswaarschuwing-jumbo-red-velvet-punten-appel-victoria-vlaaitjes-en-aardbeienslofjes",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 217226,
+  "file": "a5b54b06e8ec.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/04/veiligheidswaarschuwing-granditalia-gnocchi-di-patate-500-gram",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 225024,
+  "file": "899c86ec0f59.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/29/veiligheidswaarschuwing-madegood-crunchy-cookies-vanilla",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 214358,
+  "file": "addbc8f459bf.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/28/veiligheidswaarschuwing-lochtman-hollandse-hachee-allergenen",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 214926,
+  "file": "2002912368e3.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/30/veiligheidswaarschuwing-baby-kindermeisjes-vestje-catfeather-strik",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 215160,
+  "file": "be5b03cb7724.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/27/veiligheidswaarschuwing-baby-slaapzakken-van-zeeman",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 214346,
+  "file": "5adeb5cfd823.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/24/veiligheidswaarschuwing-ah-pokebowl-sticky-tempeh-allergenen",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 213838,
+  "file": "957dec1d6ad5.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/23/veiligheidswaarschuwing-melkunie-protein-pudding",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 213799,
+  "file": "5b62f2a07f71.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/22/veiligheidswaarschuwing-ah-ossenworst-van-albert-heijn",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 213335,
+  "file": "5fad72a30119.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/20/veiligheidswaarschuwing-lavacake-chocoladeletter-van-jamin",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 215412,
+  "file": "e5dde562e0ef.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/19/veiligheidswaarschuwing-esn-designer-protein-bar-dark-chocolate-salted-almond",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 215218,
+  "file": "4686219cea36.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/19/veiligheidswaarschuwing-jumbo-pulled-chicken",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 213603,
+  "file": "7e4a613d8eb5.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/16/veiligheidswaarschuwing-peterselie-krul-40g-van-aldi-allergenen",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 214177,
+  "file": "54febcd35556.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/16/veiligheidswaarschuwing-kinderzitje-hamax-buddy",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 213984,
+  "file": "0fd6b9b1c6f6.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/13/veiligheidswaarschuwing-yes-studio-spicy-season-pumpkin-spice-dental-floss-picks-van-normal",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 216995,
+  "file": "c27ea3d369c9.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/13/veiligheidswaarschuwing-cook-kerrie-mild",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 213138,
+  "file": "fc1896e90efb.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/13/veiligheidswaarschuwing-yes-studio-sippin-pretty-hot-cocoa-cream-dental-floss-picks-van-normal",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 216726,
+  "file": "b5b914208642.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/13/veiligheidswaarschuwing-baby-slaapzak-van-zeeman",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 214133,
+  "file": "49154f3ff3c8.txt"
+ },
+ {
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/13/veiligheidswaarschuwing-cook-korianderzaad-gemalen",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "bytes": 217192,
+  "file": "86a6274957e5.txt"
+ }
+]
