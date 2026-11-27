@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-27T16:20:23Z",
- "total": 731,
+ "generated": "2026-11-27T17:33:15Z",
+ "total": 734,
  "curated": 0,
  "byCountry": {
   "BE": 20,
   "CZ": 54,
   "DE": 45,
   "DK": 21,
-  "FR": 279,
+  "FR": 282,
   "IE": 16,
   "HU": 11,
   "NL": 22,
@@ -36,8 +36,8 @@
   "rappelconso": {
    "enabled": true,
    "ok": true,
-   "seen": 19342,
-   "published": 279,
+   "seen": 19345,
+   "published": 282,
    "dropped": {
     "kategorija koju LUPA ne prikazuje": 4933,
     "starije od prozora": 14130
@@ -47,14 +47,12 @@
   },
   "lebensmittelwarnung": {
    "enabled": true,
-   "ok": true,
-   "seen": 242,
+   "ok": false,
+   "seen": 0,
    "published": 45,
-   "dropped": {
-    "starije od prozora": 197
-   },
-   "carried": 0,
-   "error": null
+   "dropped": {},
+   "carried": 45,
+   "error": "nema odgovora 60 s (lebensmittelwarnung.de/___LMW-Redaktion/RSSNewsfeed/Functions/RssFeeds/rssnewsfeed_Alle_DE)"
   },
   "govsi": {
    "enabled": true,
@@ -183,12 +181,15 @@
   },
   "nebih": {
    "enabled": true,
-   "ok": false,
-   "seen": 0,
+   "ok": true,
+   "seen": 29,
    "published": 11,
-   "dropped": {},
-   "carried": 11,
-   "error": "fetch failed"
+   "dropped": {
+    "nije hrana (hrana za životinje, posuđe)": 6,
+    "starije od prozora": 12
+   },
+   "carried": 0,
+   "error": null
   },
   "ruokavirasto": {
    "enabled": true,
@@ -239,9 +240,9 @@
   }
  },
  "failing": {
-  "nebih": "2026-11-27"
+  "lebensmittelwarnung": "2026-11-27"
  },
  "warnings": [
-  "Izvor „nebih” nije pročitan (fetch failed). Zadržano 11 njegovih obavijesti iz prethodnog fajla."
+  "Izvor „lebensmittelwarnung” nije pročitan (nema odgovora 60 s (lebensmittelwarnung.de/___LMW-Redaktion/RSSNewsfeed/Functions/RssFeeds/rssnewsfeed_Alle_DE)). Zadržano 45 njegovih obavijesti iz prethodnog fajla."
  ]
 }

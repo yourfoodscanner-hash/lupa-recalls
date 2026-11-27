@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T16:20:23Z",
+ "generated": "2026-11-27T17:33:15Z",
  "country": "DE",
  "recalls": [
   {
@@ -48,7 +48,8 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261127_33_BY_Soba/261127_33_BY_Soba.html",
    "gtins": [
     "837328000029"
-   ]
+   ],
+   "group": "gtin-837328000029"
   },
   {
    "id": "de-lmw-261127-34-by-entenbrust-gaensebrust",

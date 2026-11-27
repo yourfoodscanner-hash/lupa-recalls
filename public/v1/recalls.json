@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-27T16:20:23Z",
+ "generated": "2026-11-27T17:33:15Z",
  "recalls": [
   {
    "id": "be-favv-terugroeping-van-biofresh-belgium-7",
@@ -75,7 +75,8 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261127_33_BY_Soba/261127_33_BY_Soba.html",
    "gtins": [
     "837328000029"
-   ]
+   ],
+   "group": "gtin-837328000029"
   },
   {
    "id": "de-lmw-261127-34-by-entenbrust-gaensebrust",
@@ -135,6 +136,24 @@
    "gtins": [
     "5709152020175"
    ]
+  },
+  {
+   "id": "fr-rc-2026-11-0198",
+   "country": "FR",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "label",
+   "name": "Soba nouilles sechees au sarrasin bio 270 g",
+   "brand": "Hakubaku",
+   "reason": "Mise en évidence de la présence de moutarde non mentionné sur l’étiquetage",
+   "details": "Substances allergisantes non déclarées",
+   "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le point de vente.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24192/interne",
+   "gtins": [
+    "837328000029"
+   ],
+   "group": "gtin-837328000029"
   },
   {
    "id": "fr-rc-2026-11-0202",
@@ -212,6 +231,40 @@
    "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le point de vente. Contacter le service consommateur. Détruire le produit.",
    "source": "RappelConso",
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24209/interne"
+  },
+  {
+   "id": "fr-rc-2026-11-0215",
+   "country": "FR",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Soupe poisson traditionnelle pf 750ml",
+   "reason": "Risque d'un éventuel défaut de stérilisation",
+   "details": "Clostridium botulinum (agent responsable du botulisme)",
+   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Contacter le service consommateur. Détruire le produit.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24210/interne",
+   "gtins": [
+    "3770001302096"
+   ]
+  },
+  {
+   "id": "fr-rc-2026-11-0216",
+   "country": "FR",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "label",
+   "name": "Soba nouilles sechees au sarrasin bio 270 g",
+   "brand": "Hakubaku",
+   "reason": "Mise en évidence de la présence de moutarde non mentionné sur l’étiquetage",
+   "details": "Substances allergisantes non déclarées",
+   "action": "Ne plus consommer. Rapporter le produit au point de vente. Détruire le produit.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24211/interne",
+   "gtins": [
+    "837328000029"
+   ],
+   "group": "gtin-837328000029"
   },
   {
    "id": "ie-fsai-a-update-1-to-incorrectly-declared-celery-in-some",
