@@ -1,55 +1,22 @@
 [
  {
-  "name": "eu-rasff-markets",
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/organization/single/market/list/en/"
- },
- {
-  "name": "eu-rasff-notif-chunk",
-  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-7UJMJRHB.js",
-  "max": 8000000
- },
- {
-  "name": "eu-rasff-notif-view",
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/889479/"
- },
- {
-  "name": "se-news-101",
-  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=20&filters=101"
- },
- {
-  "name": "se-news-101b",
-  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=20&filters=101",
+  "name": "nl-term-p1",
+  "url": "https://www.nvwa.nl/api/search?hash=2443f457f50c71ad382eaf0e1e48f696c1cf91a841cadfe7fd4a6a486ce3320f",
+  "method": "POST",
   "headers": {
-   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36",
-   "Accept": "application/json",
-   "Accept-Language": "sv-SE,sv;q=0.9",
-   "Referer": "https://www.livsmedelsverket.se/om-oss/press/aterkallanden/"
-  }
+   "Content-Type": "application/json",
+   "Accept": "application/json"
+  },
+  "body": "{\"requestState\":{\"current\":1,\"filters\":[],\"resultsPerPage\":50,\"searchTerm\":\"veiligheidswaarschuwing\",\"sortDirection\":\"\",\"sortField\":\"\",\"sortList\":[]},\"queryConfig\":{\"filters\":[{\"field\":\"topic\",\"values\":[\"Veiligheidswaarschuwingen\"],\"type\":\"all\"},{\"field\":\"content_type\",\"values\":[\"pro:newsDocument\"],\"type\":\"all\"}],\"result_fields\":{\"url\":{\"raw\":{}},\"page_title\":{\"raw\":{}},\"meta_description\":{\"raw\":{},\"snippet\":{\"size\":140,\"fallback\":true}},\"sort_date\":{\"raw\":{}},\"information_type\":{\"raw\":{}}},\"disjunctiveFacets\":[\"information_type\",\"activity_type\"],\"facets\":{\"information_type\":{\"type\":\"value\",\"size\":100}},\"sortList\":[{\"field\":\"sort_date\",\"direction\":\"desc\"}]}}"
  },
  {
-  "name": "se-news-45",
-  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=10&filters=45",
+  "name": "nl-term-p2",
+  "url": "https://www.nvwa.nl/api/search?hash=e1c123961011f35417057fd8c46688336545cbdb78ef03de33765290ef8291ab",
+  "method": "POST",
   "headers": {
-   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36",
-   "Accept": "application/json",
-   "Accept-Language": "sv-SE,sv;q=0.9",
-   "Referer": "https://www.livsmedelsverket.se/om-oss/press/aterkallanden/"
-  }
- },
- {
-  "name": "cz-search-table",
-  "url": "https://www.potravinynapranyri.cz/Search.aspx?scategory=3&ext=y&lang=cs&design=default&archive=actual&listtype=table"
- },
- {
-  "name": "cz-search-tiles",
-  "url": "https://www.potravinynapranyri.cz/Search.aspx?scategory=3&ext=y&lang=cs&design=default&archive=actual&listtype=tiles"
- },
- {
-  "name": "gr-feed-limit",
-  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat?format=feed&type=rss&limit=60"
- },
- {
-  "name": "gr-list-p2",
-  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat?start=10"
+   "Content-Type": "application/json",
+   "Accept": "application/json"
+  },
+  "body": "{\"requestState\":{\"current\":2,\"filters\":[],\"resultsPerPage\":50,\"searchTerm\":\"veiligheidswaarschuwing\",\"sortDirection\":\"\",\"sortField\":\"\",\"sortList\":[]},\"queryConfig\":{\"filters\":[{\"field\":\"topic\",\"values\":[\"Veiligheidswaarschuwingen\"],\"type\":\"all\"},{\"field\":\"content_type\",\"values\":[\"pro:newsDocument\"],\"type\":\"all\"}],\"result_fields\":{\"url\":{\"raw\":{}},\"page_title\":{\"raw\":{}},\"meta_description\":{\"raw\":{},\"snippet\":{\"size\":140,\"fallback\":true}},\"sort_date\":{\"raw\":{}},\"information_type\":{\"raw\":{}}},\"disjunctiveFacets\":[\"information_type\",\"activity_type\"],\"facets\":{\"information_type\":{\"type\":\"value\",\"size\":100}},\"sortList\":[{\"field\":\"sort_date\",\"direction\":\"desc\"}]}}"
  }
 ]
