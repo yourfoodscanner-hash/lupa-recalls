@@ -1,0 +1,78 @@
+{
+ "favv": {
+  "since": "2026-10-28",
+  "seen": 30,
+  "notices": 19,
+  "bad": [],
+  "skipped": {
+   "starije od prozora": 9,
+   "nije hrana (hrana za životinje, posuđe)": 2
+  },
+  "withBarcode": 2,
+  "withLots": 12,
+  "ms": 32737
+ },
+ "fsai": {
+  "since": "2026-10-13",
+  "seen": 30,
+  "notices": 15,
+  "bad": [],
+  "skipped": {
+   "starije od prozora": 15
+  },
+  "withBarcode": 0,
+  "withLots": 8,
+  "ms": 3202
+ },
+ "gis": {
+  "since": "2026-09-28",
+  "seen": 20,
+  "notices": 12,
+  "bad": [],
+  "skipped": {
+   "nije hrana (posuđe, druge obavijesti)": 2,
+   "starije od prozora": 6
+  },
+  "withBarcode": 0,
+  "withLots": 10,
+  "ms": 1709
+ },
+ "nebih": {
+  "since": "2026-10-13",
+  "seen": 29,
+  "notices": 15,
+  "bad": [],
+  "skipped": {
+   "nije hrana (hrana za životinje, posuđe)": 1,
+   "starije od prozora": 13
+  },
+  "withBarcode": 0,
+  "withLots": 7,
+  "ms": 17656
+ },
+ "ruokavirasto": {
+  "since": "2026-09-28",
+  "seen": 102,
+  "notices": 8,
+  "bad": [],
+  "skipped": {
+   "starije od prozora": 92,
+   "nije hrana (posuđe, kontaktni materijal)": 2
+  },
+  "withBarcode": 3,
+  "withLots": 0,
+  "ms": 1214
+ },
+ "nvwa": {
+  "since": "2026-10-13",
+  "seen": 3,
+  "notices": 1,
+  "bad": [],
+  "skipped": {
+   "nije hrana (consumentenartikelen)": 2
+  },
+  "withBarcode": 1,
+  "withLots": 0,
+  "ms": 969
+ }
+}
