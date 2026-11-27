@@ -1,55 +1,83 @@
 [
  {
-  "name": "eu-rasff-markets",
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/organization/single/market/list/en/"
+  "name": "nl-news",
+  "url": "https://www.nvwa.nl/actueel/nieuws",
+  "scan": true
  },
  {
-  "name": "eu-rasff-notif-chunk",
-  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-7UJMJRHB.js",
-  "max": 8000000
+  "name": "nl-news-p2",
+  "url": "https://www.nvwa.nl/actueel/nieuws?pagina=2"
  },
  {
-  "name": "eu-rasff-notif-view",
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/889479/"
+  "name": "nl-rss-help",
+  "url": "https://www.nvwa.nl/service/rss",
+  "scan": true
  },
  {
-  "name": "se-news-101",
-  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=20&filters=101"
+  "name": "nl-detail-1",
+  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/26/veiligheidswaarschuwing-diverse-salades-van-marqt-keuken"
  },
  {
-  "name": "se-news-101b",
-  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=20&filters=101",
-  "headers": {
-   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36",
-   "Accept": "application/json",
-   "Accept-Language": "sv-SE,sv;q=0.9",
-   "Referer": "https://www.livsmedelsverket.se/om-oss/press/aterkallanden/"
-  }
+  "name": "nl-search",
+  "url": "https://www.nvwa.nl/zoeken?trefwoord=veiligheidswaarschuwing",
+  "scan": true
  },
  {
-  "name": "se-news-45",
-  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=10&filters=45",
-  "headers": {
-   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36",
-   "Accept": "application/json",
-   "Accept-Language": "sv-SE,sv;q=0.9",
-   "Referer": "https://www.livsmedelsverket.se/om-oss/press/aterkallanden/"
-  }
+  "name": "hu-list",
+  "url": "https://portal.nebih.gov.hu/termekvisszahivas",
+  "scan": true
  },
  {
-  "name": "cz-search-table",
-  "url": "https://www.potravinynapranyri.cz/Search.aspx?scategory=3&ext=y&lang=cs&design=default&archive=actual&listtype=table"
+  "name": "hu-detail-1",
+  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2829237189"
  },
  {
-  "name": "cz-search-tiles",
-  "url": "https://www.potravinynapranyri.cz/Search.aspx?scategory=3&ext=y&lang=cs&design=default&archive=actual&listtype=tiles"
+  "name": "hu-detail-2",
+  "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2813979324"
  },
  {
-  "name": "gr-feed-limit",
-  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat?format=feed&type=rss&limit=60"
+  "name": "fi-detail-1",
+  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/valipalapatukoissa-metalliriski/"
  },
  {
-  "name": "gr-list-p2",
-  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat?start=10"
+  "name": "fi-detail-2",
+  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/pakastetussa-chilissa-kadmiumylitys/"
+ },
+ {
+  "name": "fi-list",
+  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot/"
+ },
+ {
+  "name": "ie-food-from",
+  "url": "https://www.fsai.ie/news-and-alerts/food-alerts?fromDate=2026-10-01"
+ },
+ {
+  "name": "ie-allergy",
+  "url": "https://www.fsai.ie/news-and-alerts/allergy-alerts",
+  "scan": true
+ },
+ {
+  "name": "ie-detail-2",
+  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-specific-batches-of-ready-brek-original"
+ },
+ {
+  "name": "pl-list-50",
+  "url": "https://www.gov.pl/web/gis/ostrzezenia?page=1&size=50"
+ },
+ {
+  "name": "pl-detail-2",
+  "url": "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-wykrycie-obecnosci-bakterii-listeria-monocytogenes-w-filetach-sledziowych-w-oleju"
+ },
+ {
+  "name": "be-list-p2",
+  "url": "https://favv-afsca.be/nl/producten?f%5B0%5D=products_issue_type%3A13&page=1"
+ },
+ {
+  "name": "be-detail-2",
+  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-coprospect-srl"
+ },
+ {
+  "name": "be-detail-3",
+  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-het-favv-160"
  }
 ]
