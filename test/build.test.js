@@ -9,7 +9,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
-const { build, loadCurated, describe, nextState } = require('../lib/build');
+const { build, loadCurated, readPublishedV2, describe, nextState } = require('../lib/build');
 const { unhealthy } = require('../lib/health');
 const C = require('../lib/contract');
 const RC = require('../sources/rappelconso');
@@ -116,7 +116,9 @@ test('never more or larger than the app accepts: the oldest notices of the sourc
   const { recalls, report, text } = await run({ curated, fetchImpl: live(many) });
   assert.equal(recalls.length, C.MAX_RECALLS);
   assert.ok(recalls.some((n) => n.id === 'hr-old-but-kept'));
-  assert.ok(report.warnings.some((w) => /Izostavljeno 101 najstarijih/.test(w)));
+  // France's own file (v2) keeps 800 of its 900; the one file of v1 then has one too many
+  assert.ok(report.warnings.some((w) => /v2: izostavljeno 100 najstarijih/.test(w)));
+  assert.ok(report.warnings.some((w) => /Izostavljeno 1 najstarijih/.test(w)));
   assert.ok(text.length <= C.MAX_CHARS);                              // the file as written — what the app downloads and measures
   // large texts: the size limit trims as well
   const big = Array.from({ length: 700 }, (_, i) => ({ ...rows[0], gtin: '', identification_produits: '', numero_fiche: `2026-11-${String(i).padStart(4, '0')}`, risques_encourus: 'x'.repeat(900), conduites_a_tenir_par_le_consommateur: 'y'.repeat(600) }));
@@ -124,6 +126,65 @@ test('never more or larger than the app accepts: the oldest notices of the sourc
   assert.ok(trimmed.recalls.length < 700 && trimmed.recalls.length > 100);
   assert.ok(trimmed.text.length <= C.MAX_CHARS);
   assert.ok(trimmed.text.length > C.MAX_CHARS - 3000);                // … and no more is left out than needed
+});
+
+/** A source that gives the notices it is given — for the tests of more than one source. */
+const fixed = (prefix, country, list) => ({ name: prefix, prefix: `${prefix}-`, country, source: 'Test', fetchNotices: async () => ({ notices: list, seen: list.length, skipped: {} }) });
+const auto = (id, country, published, over = {}) => ({ ...notice(id, { country, published, gtins: [] }), ...over });
+
+test('v2: a file for every country and an index — the United States only there, v1 as before', async () => {
+  const curated = checked([notice('hr-2026-11-24-kasica')]);
+  const us = [auto('us-fda-100258', 'US', '2026-11-18', { name: 'Ground Up Nut Butter Cups', source: 'U.S. FDA', url: 'https://api.fda.gov/food/enforcement.json?search=event_id:100258', gtins: ['850017637221'] })];
+  const fr = [auto('fr-a-1', 'FR', '2026-11-20'), auto('fr-a-2', 'FR', '2026-11-21', { gtins: ['850017637221'] })];
+  const sources = { us: fixed('us', 'US', us), fr: fixed('fr', 'FR', fr) };
+  const config = { ...CONFIG, sources: { us: {}, fr: {} } };
+  const { text, recalls, report, v2 } = await run({ curated, sources, config });
+  // v1: the countries of v1 only
+  assert.deepEqual(recalls.map((n) => n.id), ['hr-2026-11-24-kasica', 'fr-a-2', 'fr-a-1']);
+  assert.ok(!text.includes('us-fda'));
+  // v2: one file a country, each read back as the app reads it
+  const index = C.readIndex(v2.index);
+  assert.deepEqual(index.countries.map((c) => [c.country, c.file, c.recalls, c.newest]), [['FR', 'fr.json', 2, '2026-11-21'], ['HR', 'hr.json', 1, '2026-11-24'], ['US', 'us.json', 1, '2026-11-18']]);
+  assert.deepEqual(Object.keys(v2.files).sort(), ['fr.json', 'hr.json', 'us.json']);
+  for (const c of index.countries) {
+    assert.equal(c.chars, v2.files[c.file].length);
+    assert.equal(C.readCountryFile(v2.files[c.file], c.country).recalls.length, c.recalls);
+  }
+  // the same barcode in France and the United States: one group across the files of v2 …
+  const usBack = C.readCountryFile(v2.files['us.json'], 'US').recalls[0];
+  assert.equal(usBack.group, 'gtin-850017637221');
+  assert.equal(C.readCountryFile(v2.files['fr.json'], 'FR').recalls.find((n) => n.id === 'fr-a-2').group, 'gtin-850017637221');
+  // … but not in v1, where the American notice is not: there the group would link one notice
+  assert.equal(recalls.find((n) => n.id === 'fr-a-2').group, undefined);
+  assert.equal(report.v2.total, 4);
+  assert.deepEqual(report.byCountry, { FR: 2, HR: 1, US: 1 });
+  // a file of one country is not read as another's; a notice of another country in a file is left out
+  assert.equal(C.readCountryFile(v2.files['fr.json'], 'HR'), null);
+  const mixed = JSON.parse(v2.files['fr.json']);
+  mixed.recalls.push({ ...mixed.recalls[0], id: 'hr-in-fr-file', country: 'HR' });
+  assert.equal(C.readCountryFile(JSON.stringify(mixed), 'FR').recalls.length, 2);
+});
+
+test('v1 over its limits: the country with the most notices loses its oldest first — a small country keeps its few', async () => {
+  const big = Array.from({ length: 790 }, (_, i) => auto(`fr-a-${i}`, 'FR', `2026-11-${String(1 + (i % 25)).padStart(2, '0')}`));
+  const small = Array.from({ length: 20 }, (_, i) => auto(`si-b-${i}`, 'SI', '2026-06-15'));   // old, but few
+  const sources = { fr: fixed('fr', 'FR', big), si: fixed('si', 'SI', small) };
+  const config = { ...CONFIG, sources: { fr: { windowDays: 45 }, si: { windowDays: 180 } } };
+  const { recalls, v2 } = await run({ sources, config });
+  assert.equal(recalls.length, C.MAX_RECALLS);
+  assert.equal(recalls.filter((n) => n.country === 'SI').length, 20);   // all of Slovenia's stay
+  assert.equal(recalls.filter((n) => n.country === 'FR').length, 780);  // France gave 10 of its oldest
+  assert.equal(C.readCountryFile(v2.files['fr.json'], 'FR').recalls.length, 790);   // its own file keeps all
+});
+
+test('v2: what was published last time (every country\'s file) is what a source that cannot be read keeps', async () => {
+  const us = [auto('us-fda-1', 'US', '2026-11-18', { source: 'U.S. FDA', url: 'https://api.fda.gov/food/enforcement.json?search=event_id:1' })];
+  const first = await run({ sources: { us: fixed('us', 'US', us) }, config: { ...CONFIG, sources: { us: {} } } });
+  const previousAll = C.readCountryFile(first.v2.files['us.json'], 'US').recalls;
+  const broken = { name: 'us', prefix: 'us-', country: 'US', source: 'Test', fetchNotices: async () => { throw new Error('HTTP 503'); } };
+  const next = await run({ now: new Date('2026-11-27T04:10:00Z'), previousAll, sources: { us: broken }, config: { ...CONFIG, sources: { us: {} } } });
+  assert.equal(next.report.sources.us.ok, false);
+  assert.deepEqual(C.readCountryFile(next.v2.files['us.json'], 'US').recalls.map((n) => n.id), ['us-fda-1']);
 });
 
 test('a list that suddenly shrinks to less than half is not published', async () => {
@@ -190,7 +251,7 @@ test('hand-written files: every mistake stops the build and is named with its fi
 
 test('the repository\'s own hand-written files and settings are sound', () => {
   const curated = loadCurated();
-  for (const n of curated) assert.equal(C.checkNotice(n).ok, true);
+  for (const n of curated) assert.equal(C.checkNotice(n, C.COUNTRIES_V2).ok, true);
   const config = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'config.json'), 'utf8'));
   assert.match(config.feedUrl, /^https:\/\/[a-z0-9-]+\.github\.io\/lupa-recalls\/v1\/recalls\.json$/);
   assert.ok(config.sources.rappelconso.windowDays >= 14);
@@ -198,6 +259,7 @@ test('the repository\'s own hand-written files and settings are sound', () => {
   // what is committed as the published file is the format
   const published = fs.readFileSync(path.join(__dirname, '..', 'public', 'v1', 'recalls.json'), 'utf8');
   assert.notEqual(C.readFeed(published), null);
+  if (fs.existsSync(path.join(__dirname, '..', 'public', 'v2', 'index.json'))) assert.notEqual(readPublishedV2(), null);
 });
 
 test('a source that stays silent for three days fails the run — one bad day does not', () => {
@@ -253,7 +315,7 @@ test('every source the job can read: its own prefix and country; config.json nam
       assert.equal(adapter.prefix, 'eu-rasff-', name);
       for (const c of adapter.countries) assert.ok(C.EU_COUNTRIES.includes(c), `${name}: ${c}`);
     } else {
-      assert.ok(C.COUNTRIES.includes(adapter.country), name);
+      assert.ok(C.COUNTRIES_V2.includes(adapter.country), name);   // a country of v1, or one that only v2 carries (US)
       assert.ok(adapter.prefix.startsWith(adapter.country.toLowerCase()), name);
     }
     assert.equal(typeof adapter.fetchNotices, 'function');

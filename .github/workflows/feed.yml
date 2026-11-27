@@ -15,6 +15,7 @@ on:
     branches: [main]
     paths-ignore:
       - 'public/v1/recalls.json'
+      - 'public/v2/**'
       - 'state/**'
       - '**.md'
   workflow_dispatch:
@@ -62,13 +63,13 @@ jobs:
         run: |
           git config user.name "lupa-recalls"
           git config user.email "lupa-recalls@users.noreply.github.com"
-          git add public/v1/recalls.json state/last-run.json
+          git add -A public/v1 public/v2 state/last-run.json
           if git diff --cached --quiet; then
             echo "Nothing changed."
           else
             git commit -m "feed: $(date -u +%Y-%m-%d) ($(node -e "console.log(require('./public/v1/recalls.json').recalls.length)") obavijesti)"
             # main may have moved while this ran (a hand-written notice saved just now): this commit goes on top of it.
-            # The two files above are always this run's — they are the newest — so a clash in them is settled in their favour.
+            # The files above are always this run's — they are the newest — so a clash in them is settled in their favour.
             git fetch origin main
             git rebase -X theirs origin/main
             git push origin HEAD:main
