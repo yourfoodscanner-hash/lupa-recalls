@@ -1,0 +1,581 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" xmlns:v="http://rdf.data-vocabulary.org/#" lang="cs">
+<head id="Head1"><meta http-equiv="content-type" content="text/html; charset=utf-8" /><meta http-equiv="content-language" content="cs" /><meta http-equiv="X-UA-Compatible" content="IE=EDGE" /><meta name="author" content="FUTURA SOFT, s.r.o. - www.futurasoft.cz" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="application-name" content="Potraviny na pranýři" /><meta name="msapplication-TileColor" content="#E51400" /><meta name="msapplication-square70x70logo" content="design/img/msapp/tiny.png" /><meta name="msapplication-square150x150logo" content="design/img/msapp/square.png" /><meta name="msapplication-wide310x150logo" content="design/img/msapp/wide.png" /><meta name="msapplication-square310x310logo" content="design/img/msapp/large.png" /><meta name="msapplication-notification" content="frequency=360;polling-uri=http://notifications.buildmypinnedsite.com/?feed=http://www.potravinynapranyri.cz/Rss.aspx&amp;id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed=http://www.potravinynapranyri.cz/Rss.aspx&amp;id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed=http://www.potravinynapranyri.cz/Rss.aspx&amp;id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed=http://www.potravinynapranyri.cz/Rss.aspx&amp;id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed=http://www.potravinynapranyri.cz/Rss.aspx&amp;id=5; cycle=1" /><meta property="og:title" content="Čerstvé KUŘECÍ STEHNA" />
+<meta property="og:description" content="Potraviny na pranýři" />
+<meta property="og:image" content="https://www.potravinynapranyri.cz:443/ViewImage.aspx?guid=c838830c-bee5-444d-af54-729709e739d2&amp;fld=0000000021&amp;name=20260918_071406.jpg&amp;size=detail" />
+<meta property="og:image" content="https://www.potravinynapranyri.cz:443/ViewImage.aspx?guid=00867acc-d9ce-452c-8804-98051354e26c&amp;fld=0000000021&amp;name=20260918_071415.jpg&amp;size=detail" />
+<meta property="og:image" content="https://www.potravinynapranyri.cz:443/design/img/fb-pnp.png?v=1" />
+<title>
+	Potraviny na pran&#253;ři | nejakostn&#237;, falšovan&#233; a nebezpečn&#233; potraviny | Čerstv&#233; KUŘEC&#205; STEHNA
+</title><link rel="shortcut icon" type="image/ico" href="design/img/favicon.ico" /><link rel="icon" href="design/img/icon.png" /><link href="Rss.aspx" rel="alternate" type="application/rss+xml" />
+    <script type="text/javascript" src="design2014/js/jquery.min.js?v=36"></script>
+    <script type="text/javascript" src="design2014/js/main.js?v=36"></script>
+    
+    <script type="text/javascript" src="design2014/fancybox/jquery.fancybox-1.3.4.min.js"></script>
+    <link type="text/css" href="design2014/fancybox/jquery.fancybox-1.3.4.min.css" rel="stylesheet"  media="all"/>
+    <script type="text/javascript" src="design2014/js/jquery.bxslider.min.js"></script>
+    <link type="text/css" href="design2014/css/jquery.bxslider.min.css" rel="stylesheet"  media="all"/>
+    <script type="text/javascript">
+        //<![CDATA[
+        $(document).ready(function () {
+            $('.sliderGallery').bxSlider({ auto: false, autoControls: false, pager: ($(".sliderGallery>a").length > 1) ? true : false, speed: 500, infiniteLoop: false, hideControlOnEnd: true, slideMargin: 10 });
+            $(".sliderGallery a").fancybox({ 'titlePosition': 'inside' });
+            $(".itname[title], .itvalue[title], .create-date[title]").addClass('has-title').tooltip({ track: true });
+            if ($('#iframe-map .link').length != 0) { $('#iframe-map').append('<iframe src="' + $('#iframe-map .link').attr('href') + '" width="315" height="400" scrolling="no" frameborder="0"></iframe>'); }
+            if ($('#fbLikeURL').val != "") { $('#fb-like').append(' <iframe id="fbLikeIframe" src="' + $('#fbLikeURL').val() + '" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:608px; height:40px;" allowtransparency="true"></iframe>'); }
+        });
+        //]]>
+    </script>
+
+    <link href="design2014/css/style.css?v=77" rel="stylesheet" type="text/css" media="all"/>
+    <link href="design2014/css/style-mobile.css?v=73" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 960px)" /><link href="design2014/css/print.css?v=36" rel="stylesheet" type="text/css" media="print" />
+    <script type="text/javascript" src="design2014/js/jquery-ui.custom.min.js?v=36"></script>
+    <link type="text/css" href="design2014/css/jquery-ui.custom.min.css?v=36" rel="stylesheet" media="all" />
+    <!-- cookie consent by designsystem.gov.cz -->
+    <link rel="stylesheet" media="screen" href="design2014/css/design-govcz-styles.min.css?v=39" /><link rel="stylesheet" media="print" href="design2014/css/design-govcz-print.min.css?v=36" />
+    <script type="text/javascript" src="design2014/js/design-govcz-scripts.min.js?v=36">&#160;</script>
+    <script type="text/javascript" src="design2014/js/design-govcz-init.js?v=36">&#160;</script>
+    <!-- pro nacteni fontu *.woff (ktere design gov.cz pouziva) je treba do configu pridat:
+                <system.webServer>
+                <staticContent>
+                    <remove fileExtension=".woff2" />
+                    <mimeMap fileExtension=".woff2" mimeType="font/woff2" />
+                </staticContent>        
+                </system.webServer>
+                nebo v adresari "c:\Program Files\IIS Express" spustit
+            appcmd set config /section:staticContent /+[fileExtension='.woff2',mimeType='font/woff2'] 
+        -->
+    <!-- designsystem.gov.cz - Platforma pro spravu souhlasu s cookies (inicializace) -->
+    <!-- ve _footer.xslt se musí načíst příslušný script (musí být ve footeru, jinak to neseje) -->
+    <script type="text/javascript">
+        window.onload = function () {
+            
+            CookieConsentInitializeCZ('.potravinynapranyri.cz', '/', 'Cookies.aspx');
+            
+        };
+    </script>
+    <!-- end of - cookie consent by designsystem.gov.cz -->
+
+    
+    <script type="text/javascript">
+        //<![CDATA[
+        $(document).ready(function () {
+            $("a, img, input, span").tooltip({ track: !0 }); $(".logo.pnp .text").tooltip({ content: $("#tooltips .pranyr").html(), items: ".logo.pnp .text", tooltipClass: "big-tooltip", track: !0 });
+            $(".bx-prev").tooltip({ content: $("#tooltips .prev").html(), items: ".bx-prev", track: !0 }); $(".bx-next").tooltip({ content: $("#tooltips .next").html(), items: ".bx-next", track: !0 });
+        });
+        //]]>
+    </script>
+    </head>
+<body id="htmlBody" class="cs Unknown Actual">
+    <div id="main">
+
+        
+
+        <div id="top">
+            <span class="blind">Přejít na:</span>
+            <ul class="focus">
+                <li>
+                    <a href="#content">přejít na obsah</a>
+                </li>
+                <li>
+                    <a href="#pnlSearchBasic">přejít na vyhledávání</a>
+                </li>
+            </ul>
+
+            <div id="pnlLanguageSelect" class="langSelect">
+	
+                
+                        <a title="Čeština" class="cs active" href="/Detail.aspx?id=202228&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles"> <span>Čeština</span></a>
+                    
+                        <a title="English" class="en" href="/Detail.aspx?id=202228&amp;lang=en&amp;design=default&amp;archive=actual&amp;listtype=tiles"> <span>English</span></a>
+                    
+                
+            
+</div>              
+
+
+            
+
+               
+            <div id="tabbar">
+                <a href="Search.aspx?lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles" id="tabAqesf" class="aqesf active" title="Přehled nevyhovujících šarží potravin, které byly inspektory zjištěny v rámci úřední kontroly.">
+                    <span>Potraviny</span>
+                </a>
+                <a href="WSearch.aspx?lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles" id="tabWorkshops" class="workshop" title="Přehled provozoven nebo částí provozoven, jejichž užívání bylo inspektorem zakázáno z důvodů nesplnění podmínek, které umožňují uchovat bezpečnost potravin.">
+                    <span>Provozovny</span>
+                </a>
+                <a href="ESearch.aspx?lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles" id="tabWebsites" class="website" title="Přehled rizikových webových stránek.">
+                    <span>Rizikové weby</span>
+                </a>
+                
+                <a href="InspControl.aspx?lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles" id="tabKontroly" class="kontroly" title="Přehled tematických kontrolních akcí zaměřených na určitou problematiku trhu (např. na komoditu). Jsou zde uvedeny informace o vyhovujících i nevyhovujících šaržích potravin zjištěných během kontrolní akce.">
+                    <span id="lblKontrolyText">Tematické kontroly</span>
+                </a>
+                <a href="http://www.szpi.gov.cz/default.aspx" id="tabInfo" class="info" title="SZPI je organizační složka státu, která je přímo podřízená ministerstvu zemědělství. Je orgánem státního dozoru zejména nad bezpečností, jakostí a řádným označováním potravin.">
+                    <span>www.szpi.gov.cz</span>
+                    <span class="mobile">www</span>
+                </a>
+            </div>    
+                                           
+        </div>
+
+        <div id="header">
+
+            
+
+            <div class="logo pnp">
+                <a class="img" href="Default.aspx?lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles" title="Potraviny na pranýři">
+                    <img src="design2014/img/logo1/logo_pnp_cs.svg" alt="Potraviny na pranýři" />
+                    <span>Potraviny na pranýři</span>
+                </a>
+                
+                <div class="info"><h1>potraviny na pranýři - nejakostní, falšované a nebezpečné potraviny</h1></div>
+            </div>
+
+            <div class="logo szpi">
+                <a class="img" href="http://www.szpi.gov.cz/" title="Státní zemědělská a potravinářská inspekce">
+                  <span>Státní zemědělská a potravinářská inspekce</span>
+                </a>
+                
+                <div class="info">
+                  <h1>Státní zemědělská a potravinářská inspekce</h1>
+                </div>
+            </div>  
+            
+            <div class="logo svs">
+                <a class="img" href="http://www.svscr.cz" title="Státní veterinární správa [otevíráno do nového okna]" onclick="window.open(this.href);return false;">
+                  <span>Státní veterinární správa [otevíráno do nového okna]</span>
+                </a>
+            </div>       
+
+            <a class="logo mze" href="http://eagri.cz/public/web/mze/ministerstvo-zemedelstvi/" title="Ministerstvo zemědělství [otevíráno do nového okna]" onclick="window.open(this.href);return false;">
+                <span>Ministerstvo zemědělství [otevíráno do nového okna]</span>
+            </a>
+
+            <div id="pnlSearchBasic" class="search">
+	
+                <div id="pnlSearchBasicTitle" class="title"><span id="lblSearchBasicTitle">Hledání potravin</span>:</div>
+                
+                <div id="pnlDocSearchBasicBox" class="search-div">
+		
+                    <form action="Search.aspx" id="dsearchbasic-form" method="get">
+                        <div id="pnlDocSearchBasicSubmit">
+			
+                            <input type="hidden" name="lang" value = "cs" />
+                            <input type="hidden" name="listtype" value = "tiles" />
+                            <input type="hidden" name="archive" value = "actual" />
+                            <input name="stext" id="dsearchbasic-text" class="input-text" value="" />
+                            <input type="submit" name="submitsearch" class="btn button-search" value="Hledej" />
+                        
+		</div>
+                        
+                        <div>
+                            <a id="cmdDocShowSearchExtended" class="lnk-extend" href="SearchExtended.aspx?lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">Rozšířené hledání &raquo;</a>
+                        </div>
+                    </form>
+                
+	</div>
+                
+                
+                
+                
+                
+                <a class="btn button-initiative" href="Suggestions.aspx" title="Podání podnětu ke kontrole">Podání podnětu</a>     
+                <a class="btn button-remarks" href="/Remarks.aspx" title="Připomínky k webovým stránkám Potraviny na pranýři">Připomínky</a> 
+            
+</div>
+            <div id="tooltips" style="display:none;">
+                <span class="pranyr"><strong>Pranýř</strong> býval umístěn na veřejném místě a byli k němu připoutáni nepoctiví občané. K  webovému pranýři, na kterém se právě nacházíte, jsou připoutány potraviny, u kterých byl porušen některý z požadavků potravinového práva.<br /><br />Každý, kdo navštíví tento web, může tyto informace využít pro svoji potřebu, například již při svém nejbližším nákupu...<br /><br />V okamžiku zveřejnění informace již bylo na předmětné potraviny uloženo opatření ke stažení z prodeje a spotřebitelé by se s nimi v obchodech již neměli setkat.</span>
+                <span class="next">Další</span>
+                <span class="prev">Předchozí</span>
+                <div id="placeholder-search">Např. název výrobku, výrobce, prodejce...</div>
+                <div id="placeholder-wsearch">Např. název, adresa, zjištěná skutečnost...</div>
+                <div id="placeholder-map">Město nebo PSČ</div>
+            </div>
+        </div>
+
+        <div id="content">
+            
+    <form method="post" action="./Detail.aspx?id=202228" id="ctl00">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTc4Mjg4NjQ5MGRkK+uLO6T2WSdm7vu6LqqsPQq6d7a8DfSa/y9LoP+G62g=" />
+
+
+<script src="/ScriptResource.axd?d=mfvDrC_1Q1dWJ1xyY7phiFqUiAzLD33tLpgW9bO5A9SGaPWmZ0LLU_l_iSt_BsSZjm-Hc9IDFMk68DZU_2Y1zra_ECHu5f3IeGT9aVL3SKnGV8SNF0jIOnyO-4MP8jnwIa9U09_8tqE5RsBKBUBwOEpqiPoNEOe273ewYeKBOvrtTFalRQ1b0jc8G1p5Bl_k0&amp;t=2a9d95e3" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="05E0F5E4" />
+        
+    <ul class="breadcrumb">
+<li class="home"><a href="Default.aspx?lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">Domů</a></li>
+<li><a href="Search.aspx?lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">Potraviny</a></li>
+<li class="active">Čerstv&#233; KUŘEC&#205; STEHNA</li>
+</ul>
+
+
+
+
+    <div id="MainContent_pnlDocDetail" class="Document">
+	
+                
+        <h1 class="hidden">
+            <span id="MainContent_lblDocDetailHeader" class="title">Čerstv&#233; KUŘEC&#205; STEHNA</span>
+        </h1>
+
+        <div id="MainContent_pnlDocDetailButPrevNext" class="buttons-prevnext">
+		
+            
+            
+        
+	</div>
+        
+        <div class="detail-right">
+            <div class="row1">
+                
+                <a id="MainContent_lnkDocDetailCategory" title="Dělení potravin na nejakostní, falšované a nebezpečné" class="lnkDocDetailCategory" href="Search.aspx?scategory=3&amp;ext=y&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles"><img id="MainContent_imgDocDetailCategoryIcon" title="Kategorie: Nebezpečné potraviny" class="category-icon has-title" src="design/img/icons/icon-dangerous.png" alt="Nebezpečné potraviny" /></a>
+
+                <span id="MainContent_lblDocDetailProductionRow1" class="OriginCountryIcon"><img id="MainContent_imgDocDetailProductionRow1" title="Země původu: Česko" class="has-title" src="design/img/flags/CZE.png" alt="Česko" /></span>
+
+                <a id="MainContent_lnkDocDetailBusinessTypeIcon" href="Search.aspx?sbustype=2&amp;ext=y&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles"><img id="MainContent_imgBusinessTypeIcon" title="Maloobchod" class="iconBusiness has-title" src="design2014/img/business/icon-btw-ko.png" alt="Maloobchod" /></a>
+
+                <a id="MainContent_lnkDocDetailBusinessType" class="BusinessTypeText" href="Search.aspx?sbustype=2&amp;ext=y&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">Maloobchod</a>
+
+                                
+
+                
+
+                <span id="MainContent_lblDocDetailStatePublishedDate" title="Datum zveřejnění vzorku na webu" class="create-date">23.10.2026</span>
+                
+
+            </div>
+
+            <div class="row2">  
+                
+                <img id="MainContent_imgDocDetailSupervisorAuthorityIcon" title="Vzorek byl zjištěn úřední kontrolou Státní zemědělské a potravinářské inspekce." class="sa-short-icon" src="design2014/img/logo-detail-szpi-c.png" />
+                    
+                <div id="MainContent_pnlDocDetailControlledEntityHeader">
+		
+                    <strong title="Kontrolovaná osoba">Místo kontroly:</strong>
+                 
+	</div>
+                <div id="MainContent_pnlDocDetailControlledEntityName" class="ControlledEntityName">
+		
+                    <a id="MainContent_lnkDocDetailControlledEntityName" class="ControlledEntityName" href="Search.aspx?ext=y&amp;sentname=Lidl+%c4%8cesk%c3%a1+republika+s.r.o.&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">Lidl Česk&#225; republika s.r.o.</a>
+                 
+	</div>
+                
+                <div id="MainContent_pnlDocDetailControlledEntityAddress">
+		
+                    <span></span>                
+                    <a id="MainContent_lnkDocDetailControlledEntityCity" href="Search.aspx?ext=y&amp;sentcity=Praha&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">Praha</a>
+                    (<span id="MainContent_lblDocDetailControlledEntityAddress">Sokolovsk&#225; 202/314, 190 00 Praha</span>)
+                 
+	</div>
+                 <div id="MainContent_pnlDocDetailControlledEntityIC">
+		
+                    <span></span>
+                    IČ: <span id="MainContent_lblDocDetailControlledEntityIC">26178541</span>
+                 
+	</div>
+             </div>
+            
+              <div class="row3"> 
+                
+                 
+                
+                 <div id="MainContent_pnlDocDetailBranch">
+		
+                    <span>Skupina potravin:</span>
+                    <a id="MainContent_lnkDocDetailBranch" href="Search.aspx?ext=y&amp;sbranch=61&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">Maso a masn&#233; v&#253;robky</a>
+                <span id="MainContent_pnlDocDetailProductGroup">
+                     
+                    / <a id="MainContent_lnkDocDetailProductGroup" href="Search.aspx?ext=y&amp;sbranch=61&amp;sgroup=473&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">Balen&#233; maso</a></span>
+                 <div id="MainContent_pnlDocDetailProductName">
+			
+                    <span title="Název udaný na výrobku"></span>
+                    <span id="MainContent_lblDocDetailProductName" title="Název udaný na výrobku" class="product-name">Čerstv&#233; KUŘEC&#205; STEHNA</span>
+                 
+		</div>
+
+                 <div id="MainContent_pnlDocDetailCategory">
+			
+                    <span title="Dělení potravin na nejakostní, falšované a nebezpečné">Kategorie:</span>
+                    <a id="MainContent_lnkDocDetailCategory1" title="Dělení potravin na nejakostní, falšované a nebezpečné" href="Search.aspx?scategory=3&amp;ext=y&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">Nebezpečn&#233; potraviny</a>
+                 
+		</div>
+
+                 
+	</div>
+             </div>
+         
+                   
+             <div class="row4">
+                 <div id="MainContent_pnlDocDetailLaboratoryBrief" class="laboratory">
+		
+                        <strong>Nevyhovující parametr:</strong>
+                        <div>
+                            <div class="param">vůně</div>
+
+                        </div>
+                        <div id="MainContent_pnlDocDetailLaboratoryBriefComment" class="htmleditorcontent">
+			
+                            <p>U potraviny byla zjištěna netypická, nepříjemná, cizí vůně po zkaženém mase.&nbsp;</p>
+
+<p>Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.</p>
+
+                        
+		</div>
+                        
+                        
+                    
+	</div>      
+             </div>
+            
+            <div class="row5">
+                <table>
+                    <tr id="MainContent_pnlDocDetailBatch">
+		<td class="c1">
+                            <span class="itname">Šarže:</span>
+                        </td>
+		<td class="c2">
+                            <span id="MainContent_lblDocDetailBatch" class="itvalue">L:172625200</span>
+                        </td>
+	</tr>
+	
+                    
+                    <tr id="MainContent_pnlDocDetailUsabilityDate">
+		<td class="c1">
+                            <span class="itname" title="Datum použitelnosti = 'spotřebujte do': Po tomto datu se již výrobek nesmí prodávat" >Datum použitelnosti:</span> 
+                        </td>
+		<td class="c2">
+                            <span id="MainContent_lblDocDetailUsabilityDate" title="Datum použitelnosti = &#39;spotřebujte do&#39;: Po tomto datu se již výrobek nesmí prodávat" class="itvalue">18.09.2026</span>
+                        </td>
+	</tr>
+	
+                    <tr id="MainContent_pnlDocDetailPackage">
+		<td class="c1">
+                            <span class="itname">Obal:</span>
+                        </td>
+		<td class="c2">
+                            <span id="MainContent_lblDocDetailPackage" class="itvalue">PP, PET/PP</span>
+                        </td>
+	</tr>
+	
+                    <tr id="MainContent_pnlDocDetailProductSize">
+		<td class="c1">
+                            <span class="itname" title="Hmotnost, objem nebo počet kusů výrobku v jednom balení.">Množství výrobku v balení:</span>
+                        </td>
+		<td class="c2">
+                            <span id="MainContent_lblDocDetailProductSize" title="Hmotnost, objem nebo počet kusů výrobku v jednom balení." class="itvalue">0,877</span>
+                            <span id="MainContent_lblDocDetailProductUnit" title="Hmotnost, objem nebo počet kusů výrobku v jednom balení." class="itvalue">kg</span>
+                        </td>
+	</tr>
+	
+                    <tr id="MainContent_pnlDocDetailProducer">
+		<td class="c1">
+                             <span class="itname" title="Ten, kdo výrobek vyrobil.">Výrobce:</span>
+                        </td>
+		<td class="c2">
+                            <a id="MainContent_lnkDocDetailProducer" title="Ten, kdo výrobek vyrobil." class="itvalue" href="Search.aspx?ext=y&amp;sproducer=RABBIT+Trhov%c3%bd+%c5%a0t%c4%9bp%c3%a1nov+a.s.%2c+Sokolsk%c3%a1+302%2c+252+63+Trhov%c3%bd+%c5%a0t%c4%9bp%c3%a1nov&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">RABBIT Trhov&#253; Štěp&#225;nov a.s., Sokolsk&#225; 302, 252 63 Trhov&#253; Štěp&#225;nov</a>
+                        </td>
+	</tr>
+	
+                    
+                    
+                    
+                    
+                    <tr id="MainContent_pnlDocDetailOriginCountry">
+		<td class="c1">
+                             <span class="itname" title="Země původu hlavní složky, která má rozhodující vliv na vlastnosti výrobku.">Země původu:</span>
+                        </td>
+		<td class="c2">
+                            <span class="itvalue">
+                                <a id="MainContent_imgDocDetailOriginCountryIcon" title="Česko" href="Search.aspx?ext=y&amp;sorigincountry=51&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles"><img title="Česko" src="design/img/flags/CZE.png" alt="" /></a>
+                                <a id="MainContent_lnkDocDetailOriginCountry" title="Země původu hlavní složky, která má rozhodující vliv na vlastnosti výrobku." href="Search.aspx?ext=y&amp;sorigincountry=51&amp;lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">Česko</a>
+                            </span>
+                        </td>
+	</tr>
+	
+                    
+                    
+                    
+                    
+                    
+                    
+                    <tr id="MainContent_pnlDocDetailSamplingDate">
+		<td class="c1">
+                            <span class="itname">Datum odběru vzorku:</span>
+                        </td>
+		<td class="c2">
+                            <span id="MainContent_lblDocDetailSamplingDate" class="itvalue">18.09.2026</span>
+                        </td>
+	</tr>
+	
+                    <tr id="MainContent_pnlDocDetailReferenceNumber">
+		<td class="c1">
+                            <span class="itname" title="Číselné označení výrobku platné na této webové stránce">Referenční číslo:</span>
+                        </td>
+		<td class="c2">
+                            <span id="MainContent_lblDocDetailReferenceNumber" title="Číselné označení výrobku platné na této webové stránce" class="itvalue">26-000500-SZPI-CZ</span>
+                        </td>
+	</tr>
+	
+                    
+                </table>              
+             </div>      
+             
+             <div class="clear h20">&#160;</div>
+
+            <div id="MainContent_pnlDocDetailSupervisorAuthorityInfo">
+                <span id="lblDocDetailSupervisorAuthorityInfo">Vzorek byl zjištěn úřední kontrolou Státní zemědělské a potravinářské inspekce.</span>
+            </div>
+
+            <div class="clear h40">&#160;</div>
+
+            <div id="fb-like" class="fb-like">
+                <input name="ctl00$MainContent$fbLikeURL" type="hidden" id="fbLikeURL" value="" />
+            </div>   
+         
+        </div>
+
+
+        <div class="detail-left">
+                <div id="MainContent_pnlPhotoGallery" class="sliderDetail">
+		
+                    <div class="sliderGallery">
+                    
+                            <a href="ViewImage.aspx?guid=c838830c-bee5-444d-af54-729709e739d2&amp;fld=0000000021&amp;name=20260918_071406.jpg&amp;size=maxi" rel="group" class="g-item">
+                                <img src='ViewImage.aspx?guid=c838830c-bee5-444d-af54-729709e739d2&amp;fld=0000000021&amp;name=20260918_071406.jpg&amp;size=detail' width='320' height='400' alt="Ilustrační fotografie č. 1" />
+                            </a>
+                        
+                            <a href="ViewImage.aspx?guid=00867acc-d9ce-452c-8804-98051354e26c&amp;fld=0000000021&amp;name=20260918_071415.jpg&amp;size=maxi" rel="group" class="g-item">
+                                <img src='ViewImage.aspx?guid=00867acc-d9ce-452c-8804-98051354e26c&amp;fld=0000000021&amp;name=20260918_071415.jpg&amp;size=detail' width='320' height='400' alt="Ilustrační fotografie č. 2" />
+                            </a>
+                        
+                    </div>
+                 
+	</div>
+
+             <div id="iframe-map">
+                <a id="MainContent_lnkDocDetailControlledEntityLocMap" class="link hidden" href="DetailMap.aspx?id=202228">Zobrazit na mapě</a>
+             </div>
+        </div>
+         
+        <div class="buttons detail">
+            <a id="MainContent_lnkDocDetailBackToList" class="btn" href="Search.aspx?lang=cs&amp;design=default&amp;archive=actual&amp;listtype=tiles">&laquo; zpět na seznam</a>
+        </div>         
+
+     
+</div>  
+
+    
+    
+    </form>
+    
+
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <div class="inner">
+
+            <div class="links">
+                <div class="h4">Mobilní aplikace</div>
+                <div class="clear">&#160;</div>
+                <div class="links-inner">
+                    <div>
+                        <a class="android tt" href="https://play.google.com/store/apps/details?id=cz.futurasoft.android.potravinynapranyri" onclick="window.open(this.href);return false;">
+                            <img src="design/img/android-google-play-small-1.png" alt="Stažení aplikace pro Android" title="Stažení aplikace pro Android [Otevíráno do nového okna]" />
+                        </a>
+                        <a class="ios tt" href="https://itunes.apple.com/cz/app/potraviny-na-pranyri/id750792889" onclick="window.open(this.href);return false;">
+                            <img src="design/img/ios-app-store-small-1.png" alt="Stažení aplikace pro iPhone"  title="Stažení aplikace pro iPhone [Otevíráno do nového okna]" />
+                        </a>
+                    </div>
+                    <div>
+                        <a class="tt" href="https://www.facebook.com/potravinynapranyri/" title="Potraviny na pranýři na facebooku [Otevíráno do nového okna]" onclick="window.open(this.href);return false;">
+                            <img src="design/img/social/bw-facebook-24.png" alt="Potraviny na pranýři na facebooku" />
+                            <span>@potravinynapranyri</span>
+                        </a>
+                        <a class="tt" href="https://www.instagram.com/potravinynapranyri/" title="Sledovat uživatele Potraviny na pranýři na Instagramu [Otevíráno do nového okna]" onclick="window.open(this.href);return false;">
+                            <img src="design/img/social/bw-instagram-24.png" alt="Sledovat uživatele Potraviny na pranýři na Instagramu" />
+                            <span>potravinynapranyri</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="tt" href="http://twitter.com/NaPranyri" title="Potraviny na pranýři na X [Otevíráno do nového okna]" onclick="window.open(this.href);return false;">
+                            <img src="design/img/social/bw-x-24.png" alt="Potraviny na pranýři na X" />
+                            <span>@NaPranyri</span>
+                        </a>
+                        <a class="tt" href="https://www.linkedin.com/company/st&#37;C3&#37;A1tn&#37;C3&#37;AD-zem&#37;C4&#37;9Bd&#37;C4&#37;9Blsk&#37;C3&#37;A1-a-potravin&#37;C3&#37;A1&#37;C5&#37;99sk&#37;C3&#37;A1-inspekce/" title="Potraviny na pranýři na linkedin [Otevíráno do nového okna]" onclick="window.open(this.href);return false;">
+                            <img src="design/img/social/bw-linkedin-24.png" alt="Potraviny na pranýři na linkedin" />
+                            <span>@SZPIjobs</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+                
+                               
+                <div class="text-links">
+
+                    <div class="text">
+
+                        
+                        <span id="lblCopyright"><a href="http://www.szpi.gov.cz" onclick="window.open(this.href);return false;" title="[otevíráno do nového okna]">© Státní zemědělská a potravinářská inspekce 2026</a>.<br />
+Květná 15, 603 00 Brno, <a href="javascript:void(location.href='mailto:'+String.fromCharCode(101,112,111,100,97,116,101,108,110,97,64,115,122,112,105,46,103,111,118,46,99,122))" class="link-footer">
+&#101;&#112;&#111;&#100;&#097;&#116;&#101;&#108;&#110;&#097;<img src="design/img/mail.gif" alt="" style="vertical-align: text-bottom;"/>&#115;&#122;&#112;&#105;&#046;&#103;&#111;&#118;&#046;&#099;&#122;</a><br />
+ID datové schránky: avraiqg<br />
+IČO: 75014149, DIČ: CZ75014149</span>
+                        <br />
+                        <span id="lblPrivacyPolicy"><a href="http://www.szpi.gov.cz/clanek/zasady-ochrany-soukromi-potraviny-na-pranyri.aspx">Zásady ochrany soukromí</a></span>
+                        &nbsp;
+                        <a href="Cookies.aspx">Nastavení cookies</a>
+                        
+                    </div>
+
+                    <img class="certificate" src="design/img/certificate-iso-9001-small.png" width="100" height="48" alt="Certifikát ISO 9001:2000" title="Certifikát ISO 9001:2000" />
+
+                    <a href="http://www.webarchiv.cz/" class="webarchive" onclick="window.open(this.href);return false;">
+                        <img src="design/img/webarchive_certificate.png" width="90" height="91" alt="Stránky archivovány Národní knihovnou ČR [Otevíráno do nového okna]" title="Stránky archivovány Národní knihovnou ČR [Otevíráno do nového okna]" />
+                    </a>
+
+                </div>
+
+                <div id="pnlToolbar" class="toolbar">
+	
+                    <a id="lnkTextVersionOn" title="Přepnout na textovou verzi" class="text-version" href="/Detail.aspx?id=202228&amp;lang=cs&amp;design=text&amp;archive=actual&amp;listtype=tiles">Textová verze</a>
+                    
+                    <a id="lnkRemarks" title="Připomínky k webovým stránkám Potraviny na pranýři" class="remarks" href="Remarks.aspx">Připomínky</a>             
+                    <a id="lnkNewsMail" title="Novinky e-mailem" class="news" href="NewsMail.aspx">Novinky</a>
+                                    <a id="lnkSendUrl" title="Odkaz" class="send-url_" href="mailto:?subject=Odkaz z portálu Potraviny na pranýři&amp;body=https://www.potravinynapranyri.cz/Detail.aspx?id=202228">Odkaz</a>
+                    <a id="lnkRss" title="RSS kanál" class="rss_" href="Rss.aspx">RSS kanál</a>
+                    <a id="lnkPrint" title="Tisk stránky" class="print_" onclick="window.focus(); window.print(); return false;" href="#print">Tisk stránky</a>
+
+                    
+
+                
+</div> 
+
+
+        </div>            
+    </div>
+
+    <!-- cookie consent by designsystem.gov.cz -->
+    <script  type="text/javascript" src="design2014/js/design-govcz-service.min.js">&#160;</script>
+
+    <!--
+    <div>
+        necessary: <br />
+        analytics: <br />
+        personalization: <br />
+    </div>
+    -->
+
+</body>
+</html>

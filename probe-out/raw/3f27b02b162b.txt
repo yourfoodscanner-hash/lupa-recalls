@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="el-gr" lang="el-gr" dir="ltr">
+    <head>
+  <title>Διαδικτυακή Πύλη του ΕΦΕΤ</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+             <meta name="viewport" content="width=device-width, initial-scale=1">
+                                <!-- head -->
+                <base href="https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5424-deltio-typou-enimerosi-sxetika-me-tin-anaklisi-tou-proiontos-maggi-saucy-noodles" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="title" content="ΔΕΛΤΙΟ ΤΥΠΟΥ: Ενημέρωση σχετικά με την ανάκληση του προϊόντος MAGGI Saucy Noodles" />
+	<meta name="author" content="Super User" />
+	<meta property="og:url" content="https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5424-deltio-typou-enimerosi-sxetika-me-tin-anaklisi-tou-proiontos-maggi-saucy-noodles" />
+	<meta property="og:title" content="ΔΕΛΤΙΟ ΤΥΠΟΥ: Ενημέρωση σχετικά με την ανάκληση του προϊόντος MAGGI Saucy Noodles" />
+	<meta property="og:type" content="article" />
+	<meta property="og:description" content="Βρίσκεστε εδώ:   Αρχική Ενημέρωση Δελτία Τύπου Αθήνα, 22 Οκτωβρίου 2026 ΔΕΛΤΙΟ ΤΥΠΟΥ Ενημέρωση σχετικά με την ανάκληση του προϊόντοςMAGGI Saucy N..." />
+	<meta name="description" content="Βρίσκεστε εδώ:   Αρχική Ενημέρωση Δελτία Τύπου Αθήνα, 22 Οκτωβρίου 2026 ΔΕΛΤΙΟ ΤΥΠΟΥ Ενημέρωση σχετικά με την ανάκληση του προϊόντοςMAGGI Saucy N..." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>ΔΕΛΤΙΟ ΤΥΠΟΥ: Ενημέρωση σχετικά με την ανάκληση του προϊόντος MAGGI Saucy Noodles</title>
+	<link href="/images/photos/favicon-96x96.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" type="text/css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ts_news247/css/k2.css?v=2.9.0" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/animate.min.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_sppagebuilder/assets/css/sppagebuilder.css" rel="stylesheet" type="text/css" />
+	<link href="/media/system/css/modal.css?701837c0c3fb482aed43fe9b2979b5b8" rel="stylesheet" type="text/css" />
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&amp;subset=greek-ext,latin" rel="stylesheet" type="text/css" />
+	<link href="//fonts.googleapis.com/css?family=Didact+Gothic:regular&amp;subset=greek-ext" rel="stylesheet" type="text/css" />
+	<link href="//fonts.googleapis.com/css?family=Arimo:regular,italic,700,700italic&amp;subset=cyrillic-ext" rel="stylesheet" type="text/css" />
+	<link href="/templates/ts_news247/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ts_news247/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ts_news247/css/template.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ts_news247/css/presets/preset1.css" rel="stylesheet" type="text/css" class="preset" />
+	<link href="/templates/ts_news247/css/frontend-edit.css" rel="stylesheet" type="text/css" />
+	<link href="/media/jui/css/chosen.css?701837c0c3fb482aed43fe9b2979b5b8" rel="stylesheet" type="text/css" />
+	<link href="/media/com_finder/css/finder.css?701837c0c3fb482aed43fe9b2979b5b8" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_sp_social/assets/css/default/sp_social.css" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_bt_login/tmpl/css/style2.0.css" rel="stylesheet" type="text/css" />
+	<link href="/media/mod_languages/css/template.css?701837c0c3fb482aed43fe9b2979b5b8" rel="stylesheet" type="text/css" />
+	<link href="/components/com_roksprocket/layouts/headlines/themes/default/headlines.css" rel="stylesheet" type="text/css" />
+	<link href="/media/plg_system_kickgdpr/css/cookieconsent.min.css?701837c0c3fb482aed43fe9b2979b5b8" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+
+						/* K2 - Magnific Popup Overrides */
+						.mfp-iframe-holder {padding:10px;}
+						.mfp-iframe-holder .mfp-content {max-width:100%;width:100%;height:100%;}
+						.mfp-iframe-scaler iframe {background:#fff;padding:10px;box-sizing:border-box;box-shadow:none;}
+					.sp-page-builder .page-content #section-id-1793959903270{padding:50px 0px 50px 0px;margin:0px 0px 0px 0px;}#column-id-1793959903269{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1793959903273 {margin:0px 0px 30px 0px;}#sppb-addon-1793959903273 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1793959903273 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1793959903273 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}#sppb-addon-wrapper-1793959903276 {margin:0px 0px 30px 0px;}#sppb-addon-1793959903276 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1793959903276 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1793959903276 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}.sp-page-builder .page-content #section-id-1793959903270{padding:50px 0px 50px 0px;margin:0px 0px 0px 0px;}#column-id-1793959903269{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1793959903273 {margin:0px 0px 30px 0px;}#sppb-addon-1793959903273 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1793959903273 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1793959903273 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}#sppb-addon-wrapper-1793959903276 {margin:0px 0px 30px 0px;}#sppb-addon-1793959903276 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1793959903276 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1793959903276 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}.sp-page-builder .page-content #section-id-1793959903270{padding:50px 0px 50px 0px;margin:0px 0px 0px 0px;}#column-id-1793959903269{box-shadow:0 0 0 0 #fff;}#sppb-addon-wrapper-1793959903273 {margin:0px 0px 30px 0px;}#sppb-addon-1793959903273 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1793959903273 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1793959903273 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}#sppb-addon-wrapper-1793959903276 {margin:0px 0px 30px 0px;}#sppb-addon-1793959903276 {box-shadow:0 0 0 0 #ffffff;}@media (min-width:768px) and (max-width:991px) {#sppb-addon-wrapper-1793959903276 {margin-top:0px;margin-right:0px;margin-bottom:20px;margin-left:0px;}}@media (max-width:767px) {#sppb-addon-wrapper-1793959903276 {margin-top:0px;margin-right:0px;margin-bottom:10px;margin-left:0px;}}body{font-family:Open Sans, sans-serif; font-size:14px; font-weight:normal; }h1{font-family:Didact Gothic, sans-serif; font-weight:normal; }h2{font-family:Arimo, sans-serif; font-weight:700; }h3{font-family:Arimo, sans-serif; font-weight:700; }h4{font-family:Arimo, sans-serif; font-weight:700; }h5{font-family:Open Sans, sans-serif; font-weight:600; }h6{font-family:Open Sans, sans-serif; font-weight:600; }#sp-trending-news{ background-color:#272727;color:#ffffff;padding:10px 15px; }#sp-header{ padding:20px 0px; }#sp-footer-logo{ background-color:#1c1c1c;color:#969696;padding:0 0 40px; }#sp-footer{ padding:15px 0; }
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"6e923d210675e3ea8a5f3e5cde53e92a","system.paths":{"root":"","base":""}}</script>
+	<script src="/media/jui/js/jquery.min.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" type="text/javascript"></script>
+	<script src="/media/k2/assets/js/k2.frontend.js?v=2.9.0&amp;sitepath=/" type="text/javascript"></script>
+	<script src="/components/com_sppagebuilder/assets/js/jquery.parallax.js" type="text/javascript"></script>
+	<script src="/components/com_sppagebuilder/assets/js/sppagebuilder.js" type="text/javascript"></script>
+	<script src="/media/system/js/mootools-core.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
+	<script src="/media/system/js/mootools-more.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
+	<script src="/media/system/js/modal.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
+	<script src="/templates/ts_news247/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="/templates/ts_news247/js/jquery.sticky.js" type="text/javascript"></script>
+	<script src="/templates/ts_news247/js/main.js" type="text/javascript"></script>
+	<script src="/templates/ts_news247/js/progressbar.js" type="text/javascript"></script>
+	<script src="/templates/ts_news247/js/frontend-edit.js" type="text/javascript"></script>
+	<script src="/media/jui/js/chosen.jquery.min.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery.autocomplete.min.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
+	<script src="/modules/mod_bt_login/tmpl/js/jquery.simplemodal.js" type="text/javascript"></script>
+	<script src="/modules/mod_bt_login/tmpl/js/default.js" type="text/javascript"></script>
+	<script src="/components/com_roksprocket/assets/js/mootools-mobile.js" type="text/javascript"></script>
+	<script src="/components/com_roksprocket/assets/js/rokmediaqueries.js" type="text/javascript"></script>
+	<script src="/components/com_roksprocket/assets/js/roksprocket.js" type="text/javascript"></script>
+	<script src="/components/com_roksprocket/layouts/headlines/themes/default/headlines.js" type="text/javascript"></script>
+	<script src="/media/plg_system_kickgdpr/js/cookieconsent.min.js?701837c0c3fb482aed43fe9b2979b5b8" type="text/javascript"></script>
+	<script type="text/javascript">
+
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			initSqueezeBox();
+			$(document).on('subform-row-add', initSqueezeBox);
+
+			function initSqueezeBox(event, container)
+			{
+				SqueezeBox.assign($(container || document).find('a.modal').get(), {
+					parse: 'rel'
+				});
+			}
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		
+var sp_preloader = '0';
+
+var sp_gotop = '1';
+
+var sp_offanimation = 'default';
+
+	jQuery(function ($) {
+		initChosen();
+		$("body").on("subform-row-add", initChosen);
+
+		function initChosen(event, container)
+		{
+			container = container || document;
+			$(container).find(".advancedSelect").chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"\u03a0\u03bb\u03b7\u03ba\u03c4\u03c1\u03bf\u03bb\u03bf\u03b3\u03ae\u03c3\u03c4\u03b5 \u03ae \u0395\u03c0\u03b9\u03bb\u03ad\u03be\u03c4\u03b5","placeholder_text_single":"\u039a\u03ac\u03bd\u03c4\u03b5 \u03bc\u03b9\u03b1 \u03b5\u03c0\u03b9\u03bb\u03bf\u03b3\u03ae","no_results_text":"\u0394\u03b5\u03bd \u03b2\u03c1\u03ad\u03b8\u03b7\u03ba\u03b1\u03bd \u03b1\u03c0\u03bf\u03c4\u03b5\u03bb\u03ad\u03c3\u03bc\u03b1\u03c4\u03b1"});
+		}
+	});
+	jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(document).ready(function() {
+	var value, searchword = jQuery('#mod-finder-searchword256');
+
+		// Get the current value.
+		value = searchword.val();
+
+		// If the current value equals the default value, clear it.
+		searchword.on('focus', function ()
+		{
+			var el = jQuery(this);
+
+			if (el.val() === 'Αναζήτηση...')
+			{
+				el.val('');
+			}
+		});
+
+		// If the current value is empty, set the previous value.
+		searchword.on('blur', function ()
+		{
+			var el = jQuery(this);
+
+			if (!el.val())
+			{
+				el.val(value);
+			}
+		});
+
+		jQuery('#mod-finder-searchform256').on('submit', function (e)
+		{
+			e.stopPropagation();
+			var advanced = jQuery('#mod-finder-advanced256');
+
+			// Disable select boxes with no value selected.
+			if (advanced.length)
+			{
+				advanced.find('select').each(function (index, el)
+				{
+					var el = jQuery(el);
+
+					if (!el.val())
+					{
+						el.attr('disabled', 'disabled');
+					}
+				});
+			}
+		});
+	var suggest = jQuery('#mod-finder-searchword256').autocomplete({
+		serviceUrl: '/index.php/el/component/finder/?task=suggestions.suggest&amp;format=json&amp;tmpl=component',
+		paramName: 'q',
+		minChars: 1,
+		maxHeight: 400,
+		width: 300,
+		zIndex: 9999,
+		deferRequestBy: 500
+	});});if (typeof RokSprocket == 'undefined') RokSprocket = {};
+Object.merge(RokSprocket, {
+	SiteURL: 'https://www.efet.gr/',
+	CurrentURL: 'https://www.efet.gr/',
+	AjaxURL: 'https://www.efet.gr/index.php?option=com_roksprocket&amp;task=ajax&amp;format=raw&amp;ItemId=872'
+});
+window.addEvent('domready', function(){
+		RokSprocket.instances.headlines = new RokSprocket.Headlines();
+});
+window.addEvent('domready', function(){
+	RokSprocket.instances.headlines.attach(122, '{"accordion":1,"autoplay":"1","delay":"5"}');
+});
+window.addEvent('load', function(){
+   var overridden = false;
+   if (!overridden && window.G5 && window.G5.offcanvas){
+       var mod = document.getElement('[data-headlines="122"]');
+       mod.addEvents({
+           touchstart: function(){ window.G5.offcanvas.detach(); },
+           touchend: function(){ window.G5.offcanvas.attach(); }
+       });
+       overridden = true;
+   };
+});
+// Start Cookie Alert
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000000",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#f1d600",
+      "text": "#000000",
+    }
+  },
+  "theme": "block",
+  "position": "bottom",
+  "type": "",
+  "revokeBtn": "<div class=\"cc-revoke {{classes}}\">Cookie Policy</div>",
+  "content": {
+    "message": "Για τη βελτίωση της εμπειρίας πλοήγησης στον ιστότοπο  www.efet.gr, χρησιμοποιούνται cookies, τα οποία στέλνονται στο πρόγραμμα πλοήγησης των χρηστών από τους server του ιστοτόπου www.efet.gr .Τα cookies αποθηκεύονται στον υπολογιστή του κάθε χρήστη, προκειμένου να επιτρέπουν τη σε δεύτερο χρόνο ταυτοποίησή του, εφόσον έχει ήδη επισκεφθεί την ιστοσελίδα και έχει συνδεθεί με κάποιο τύπο λογαριασμού.",
+    "dismiss": "Το κατάλαβα!",
+    "allow": "Allow cookies",
+    "deny": "Refuse cookies",
+    "link": "",
+    "imprint_link": "Imprint",
+    "href": "",
+  },
+  "cookie": {
+    "expiryDays": 365
+  },
+  "elements": {
+    "messagelink": "<span id=\"cookieconsent:desc\" class=\"cc-message\">{{message}}<a aria-label=\"learn more about cookies\" role=\"button\" tabindex=\"0\" class=\"cc-link\" href=\"\" target=\"_blank\">{{link}}</a></span>"
+  },
+  onInitialise: function (status) {
+    handleCookies(status);
+  },
+  onStatusChange: function (status, chosenBefore) {
+    handleCookies(status);
+  },
+  onRevokeChoice: function () {
+    handleCookies(status);
+  }
+})});
+// End Cookie Alert
+function handleCookies(status){
+
+
+
+
+
+
+}
+
+// Init handleCookies if the user doesn't choose any options
+if (document.cookie.split(';').filter(function(item) {
+    return item.indexOf('cookieconsent_status=') >= 0
+}).length == 0) {
+  handleCookies('notset');
+};
+	</script>
+
+                                  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VRMT9T79D8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VRMT9T79D8');
+</script>
+                  <script type="text/javascript">
+                  jQuery(function($) {
+					var url = window.location.pathname;
+var submit_complaint = url.substr(url.lastIndexOf('/') + 1);
+var is_ok = false;
+
+if((submit_complaint == 'ilektroniki-ypovoli') || (submit_complaint == 'electronic-complaint')){
+    is_ok = true;
+}
+
+if(is_ok) {
+	$('body').addClass('efet_ops_complaint_page');
+	//$('#newslist').remove();
+	
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.id   = 'ops_4mat_css';
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'https://ops-efet.gr/api.css';
+    link.media = 'all';
+    head.appendChild(link);
+
+	var host = window.location.host;
+	var elem = $("#efet_ops_complaint_form");
+
+	$(document).ready(function () {
+		$('body').addClass('efet_ops_complaint_page');
+		//$('#newslist').remove();
+		loadContent(elem);
+		$(window).keydown(function (event) {
+			if ((event.which == 13) && ($(event.target)[0].localName != "textarea")) {
+				event.preventDefault();
+				return false;
+			}
+		});
+		$(document).on('change', '#filefield', function(e) {
+            handleFileSelect(e);
+        });
+        $(document).on("click", ".selFile", removeFile);
+        $(document).on("click", ".ops_container_image span", removeFile);
+	});
+
+	var storedFiles = [];
+
+	function handleFileSelect(e) {
+
+		var selDiv = $("#selectedFiles");
+		selDiv.html("");
+		storedFiles = [];
+		$('.ops_container_images_help').hide();
+
+		var i = 0;
+		var maxFiles = 10;
+		var files = e.target.files;
+		var filesArr = Array.prototype.slice.call(files);
+		filesArr.forEach(function(f) {
+
+			if(i > maxFiles){
+				swal('','Μέχρι ' + maxFiles + ' φωτογραφίες μπορείτε να ανεβάσετε, επιλέχθηκαν οι ' + maxFiles + ' πρώτες, αν δεν είναι η σωστές κάντε κλικ πάνω τους για να τις διαγράψετε και επαναλάβετε την διαδικασία' ,'warning');
+				return;
+			}
+
+			if(!f.type.match("image.*")) {
+				return;
+			}
+
+			storedFiles.push(f);
+
+			selDiv.append('<img src="https://ops.4mat.ltd/assets/layout/img/loading-spinner-grey.gif" alt="loading image" class="loading_image" width="22" height="22" style="width: 22px!important;height: 22px!important;"/>');
+
+			if($('.loading_image').length > 1){
+				$('.loading_image').slice(1).remove();
+			}
+
+			var reader = new FileReader();
+
+			reader.onload = function (e) {
+
+				selDiv.append('<div class="ops_container_image"><img src="' + e.target.result + '" data-file="' + f.name + '" class="selFile" title="Click to remove"><span>&times;</span></div>');
+				$('.loading_image').remove();
+			};
+
+			reader.readAsDataURL(f);
+			i++;
+			$('.ops_container_images_help').show();
+
+		});
+	}
+
+
+	function removeFile(e) {
+		var file = $(this).data("file");
+		for(var i=0;i<storedFiles.length;i++) {
+			if(storedFiles[i].name === file) {
+				storedFiles.splice(i,1);
+				if(storedFiles.length == 0){
+					$('.ops_container_images_help').hide();
+				}
+				break;
+			}
+		}
+		$(this).parent().remove();
+	}
+
+
+
+
+	$(document).on('submit', '#complaint_form', function(e){
+
+	e.preventDefault();
+
+		var submit_form_btn = $('.btn__submit').html();
+		$('.btn__submit').html("Παρακαλω   περιμενετε...");
+		$('.btn__submit').attr('disabled', true).addClass('disabled');
+		$('#counter').val(parseInt($('#counter').val()) + 1);
+		var formData = new FormData($("#complaint_form")[0]);
+		console.log(formData);
+		$.ajax({
+			type: "POST",
+			url: 'https://ops-efet.gr/submit-form.php?action=remote-form-submitting&t=' + new Date().getTime(),
+			data: formData,
+			contentType: false,
+			processData: false,
+			dataType: "json",
+			success: function (response) {
+				if (response[0].status == 'success') {
+					$('.efet-ops-messages').html('<div class="alert ' + response[0].status + ' ">' + response[0].message + '</div>').fadeIn();
+					$("#complaint_form")[0].reset();
+					$('.btn__submit').html(submit_form_btn);
+					setTimeout(function () {
+						$('.efet-ops-messages').html('').fadeOut();
+						$('.btn__submit').attr('disabled', false).removeClass('disabled');
+					}, 10000);
+				} else {
+					$('.efet-ops-messages').html('<div class="alert ' + response[0].status + ' ">' + response[0].message + '</div>').fadeIn();
+					setTimeout(function () {
+						$('.efet-ops-messages').html('').fadeOut();
+						$('.btn__submit').attr('disabled', false).removeClass('disabled');
+						$('.btn__submit').html(submit_form_btn);
+					}, 8000);
+				}
+			}
+		});
+		return false;
+	});
+
+    function loadContent(elem) {
+      var stoixeia_kataggelontos = "Στοιχεία Καταγγέλοντος"; "Personal Details";
+	  var onoma = "Όνομα"; "Name";
+var eponimo = "Επώνυμο"; "Surname";
+var address = "Διεύθυνση";"Address";
+var fax = "Φαξ";
+var tk = "Ταχ. Κώδικας"; "Postal Code";
+var prefecture = "Νομός"; "Prefecture";
+var select_prefecture = "Επιλέξτε Νομό"; "Select Prefecture";
+var akarnania = "Αιτωλοακαρνανίας"; "Aitoloakarnanias";
+var argolida = "Αργολίδας"; "Argolidas";
+var arkadia = "Αρκαδίας"; "Arkadias";
+var artas = "Αρτας"; "Artas";
+var east_attica = "Αττική ΠΕ Ανατολικής Αττικής"; "East Attica";
+var north_athens = "Αττική ΠΕ Βόρειου Τομέα Αθηνών"; "Attica North Athens";
+var west_attica = "Αττικη ΠΕ Δυτικής Αττικής"; "West Attica";
+var west_athens = "Αττική ΠΕ Δυτικού Τομέα Αθηνών"; "Attica West Athens";
+var central_athens = "Αττική ΠΕ Κεντρικού Τομέα Αθηνών"; "Attica Central Athens";
+var islands = "Αττική ΠΕ Νήσων"; "Islands";
+var south_athens = "Αττική ΠΕ Νότιου Τομέα Αθηνών"; "Attica South Athens";
+var peiraieus = "Αττική ΠΕ Πειραιώς"; "Attica Peirieus";
+var achaia = "Αχαϊας"; "Achaia";
+var vioteia = "Βοιωτίας"; "Vioteia";
+var north_evros = "Βόρειος Έβρος"; "North Evros";
+var grevena = "Γρεβενών"; "Grevena";
+var drama = "Δράμας"; "Drama";
+var dodekanisa = "Δωδεκανήσου"; "Dodekanisou";
+var evros = "Εβρου"; "Evros";
+var evoia = "Ευβοίας"; "Evoia";
+var evritania = "Ευρυτανίας"; "Evritania";
+var zakinthos = "Ζακύνθου"; "Zakinthos";
+var ilia = "Ηλείας"; "Ilia";
+var imatheia = "Ημαθίας"; "Imatheia";
+var irakleiou = "Ηρακλείου"; "Irakleiou";
+var thesprotia = "Θεσπρωτίας"; "Thesprotia";
+var thessaloniki = "Θεσσαλονίκης"; "Thessaloniki";
+var ioannina = "Ιωαννίνων"; "Ioannina";
+var kavala = "Καβάλας"; "Kavala";
+var ioannina = "Ιωαννίνων"; "Ioannina";
+var karditsa = "Καρδίτσας"; "Karditsa";
+var kastoria = "Καστοριάς"; "Kastoria";
+var kerkira = "Κέρκυρας"; "Kerkira";
+var kefallinia = "Κεφαλληνίας"; "Kefallinia";
+var kilkis = "Κιλκίς"; "Kilkis";
+var kozani = "Κοζάνης"; "Kozani";
+var korinthia = "Κορινθίας"; "Korinthia";
+var cyclades = "Κυκλάδων"; "Cyclades";
+var lakonia = "Λακωνίας"; "Lakonia";
+var larisa = "Λαρίσης"; "Larisa";
+var lasithi = "Λασιθίου"; "Lasithi";
+var lesvos = "Λέσβου"; "Lesvos";
+var lefkada = "Λευκάδας"; "Lefkada";
+var magnisia = "Μαγνησίας"; "Magnisia";
+var messinia = "Μεσσηνίας"; "Messinia";
+var ksanthi = "Ξάνθης"; "Ksanthi";
+var pelli = "Πέλλης"; "Pelli";
+var pieria = "Πιερίας"; "Pieria";
+var preveza = "Πρέβεζας"; "Preveza";
+var rethimno = "Ρεθύμνης"; "Rethimnis";
+var rodopi = "Ροδόπης"; "Rodopi";
+var samos = "Σάμου"; "Samos";
+var serres = "Σερρών"; "Serres";
+var trikala = "Τρικάλων"; "Trikala";
+var trifillias = "Τριφυλλίας"; "Trifillias";
+var fthiotida = "Φθιώτιδας"; "Fthiotida";
+var florina = "Φλώρινας"; "Florina";
+var fokida = "Φωκίδας"; "Fokida";
+var chalkidikis = "Χαλκιδικής"; "Chalkidikis";
+var chania = "Χανίων"; "Chania";
+var chios = "Χίου"; "Chios";
+var phone = "Τηλέφωνο"; "Telephone";
+var incident_description = "Περιγραφή Γεγονότος"; "Description of Incident";
+var incident_date = "Ημερομηνία που έλαβε χώρα το γεγονός"; "Date of Occurence";
+var complaint_description = "Περιγραφή Καταγγελίας"; 'Description of Complaint';
+var photos = "Φωτογραφίες δείγματος"; "Product Photos";
+var ten_photos = "Φωτογραφίες (μέχρι 10)"; "Photos (up to 10)";
+var remove_photo = "Κάντε κλικ πάνω την εικόνα για να την αφαιρέσετε."; "Click on image to remove it";
+var photo_orientation = "Αν οι φωτογραφίες είναι απο κινητό θα ρυθμιστεί αυτόματα ο προσανατολισμός"; "If images are from mobile orientation will be set automatically";
+var bad_product = "Προιόν που ενοχοποιείται (κατά την κρίση του καταγγέλοντος)"; "Problematic product (opinion of complainant)";
+var product_type = "Είδος Προιόντος"; "Product Type";
+var brand_name = "Εμπορική Ονομασία"; "Bramd Name";
+var producer_details = "Στοιχεία Παραγωγού - Συσκευαστή"; "Producer Details";
+var packaging_details = "Συσκευασία (προσυσκευασμένο - χύμα τρόφιμο - συσκευασία στο κατάστημα πώλησης)"; "Packaging Details (prepacked - bulk - packed on the sales premises)";
+var marking_details = "Στοιχεία Επισήμανσης"; "Marking Details";
+var product_date = "Ημ. Παραγωγής - Λήξης" ; "Production Date: Best before - Use by date";
+var packet_num = "Αριθμός Παρτίδας"; "Lot No.";
+var company_details = "Στοιχεία Επιχείρησης που έλαβε χώρα το γεγονός"; "Food Business Details";
+var company_name = "Επωνυμία"; "Name";
+var business_type = "Είδος Επιχείρησης"; "Business Type";
+var business_route = "Οδός"; "Route";
+var business_number = "Αριθμός"; "Number";
+var business_region = "Περιοχή"; "Region";
+var telephone_fax = "Τηλέφωνο - Φάξ"; "Telephone - Fax";
+var business_operator = "Ονοματεπώνυμο Υπευθύνου"; "Food Business Operator";
+var comments = "Σχόλια για την κατάσταση του δείγματος"; "Comments on status of sample";
+var other_comments = "Άλλα σχόλια"; "Other Comments";
+var submit_complaint = "Υποβολή Καταγγελίας"; "Submit Complaint";
+      
+      if (location.href.indexOf("en/") > 0) {
+       stoixeia_kataggelontos = "Personal Details";
+       onoma = "Name";
+       eponimo = "Surname";
+address = "Address";
+fax = "Fax";
+tk = "Postal Code";
+prefecture = "Prefecture";
+select_prefecture = "Select Prefecture";
+akarnania = "Aitoloakarnanias";
+argolida = "Argolidas";
+arkadia = "Arkadias";
+artas = "Artas";
+east_attica = "East Attica";
+north_athens = "Attica North Athens";
+west_attica = "West Attica";
+west_athens = "Attica West Athens";
+central_athens = "Attica Central Athens";
+islands = "Islands";
+south_athens = "Attica South Athens";
+peiraieus =  "Attica Peirieus";
+achaia = "Achaia";
+vioteia = "Vioteia";
+north_evros =  "North Evros";
+grevena =  "Grevena";
+drama =  "Drama";
+dodekanisa = "Dodekanisou";
+evros = "Evros";
+evoia = "Evoia";
+evritania = "Evritania";
+zakinthos =  "Zakinthos";
+ilia = "Ilia";
+imatheia = "Imatheia";
+irakleiou = "Irakleiou";
+thesprotia = "Thesprotia";
+thessaloniki = "Thessaloniki";
+ioannina = "Ioannina";
+kavala = "Kavala";
+karditsa = "Karditsa";
+kastoria = "Kastoria";
+kerkira = "Kerkira";
+kefallinia = "Kefallinia";
+kilkis = "Kilkis";
+kozani = "Kozani";
+korinthia =  "Korinthia";
+cyclades = "Cyclades";
+lakonia =  "Lakonia";
+larisa = "Larisa";
+lasithi = "Lasithi";
+lesvos =  "Lesvos";
+lefkada = "Lefkada";
+magnisia = "Magnisia";
+messinia =  "Messinia";
+ksanthi =  "Ksanthi";
+pelli = "Pelli";
+pieria =  "Pieria";
+preveza =  "Preveza";
+rethimno =  "Rethimnis";
+rodopi = "Rodopi";
+samos = "Samos";
+serres = "Serres";
+trikala = "Trikala";
+trifillias = "Trifillias";
+fthiotida = "Fthiotida";
+florina = "Florina";
+fokida =  "Fokida";
+chalkidikis =  "Chalkidikis";
+chania = "Chania";
+chios = "Chios";
+phone = "Telephone";
+incident_description = "Description of Incident";
+incident_date = "Date of Occurence";
+complaint_description = "Description of Complaint";
+photos = "Product Photos";
+ten_photos = "Photos (up to 10)";
+remove_photo = "Click on image to remove it";
+photo_orientation =  "If images are from mobile orientation will be set automatically";
+bad_product =  "Problematic product (opinion of complainant)";
+product_type =  "Product Type";
+brand_name = "Bramd Name";
+producer_details = "Producer Details";
+packaging_details = "Packaging Details (prepacked - bulk - packed on the sales premises)";
+marking_details =  "Marking Details";
+product_date = "Production Date: Best before - Use by date";
+packet_num =  "Lot No.";
+company_details = "Food Business Details";
+company_name = "Name";
+business_type = "Business Type";
+business_route = "Route";
+business_number = "Number";
+business_region = "Region";
+telephone_fax =  "Telephone - Fax";
+business_operator = "Food Business Operator";
+comments = "Comments on status of sample";
+other_comments = "Other Comments";
+submit_complaint = "Submit Complaint"; 
+}
+        elem.html('<div id="efet_ops" class="container" style=\"max-width:none\"><!--<img src="/images/photos/11717.jpg" alt="grammi politon" class="header-image" />--><form id="complaint_form"><input type="hidden" id="counter" name="counter" value="0"><p>' + stoixeia_kataggelontos + '</p><div class="row"><div class="col-100"><label for="firstname">' + onoma + ' <span class="required">*</span> </label><input id="firstname" name="firstname" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="lastname">' + eponimo + ' <span class="required">*</span> </label><input id="lastname" name="lastname" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="address">' + address + ' <span class="required">*</span> </label><input id="address" name="address" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="zip_code">' + tk + ' <span class="required">*</span> </label><input id="zip_code" name="zip_code" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="municipality">' + prefecture + ' <span class="required">*</span></label><select id="municipality" name="municipality" class="form-control"><option value="">' + select_prefecture + '</option><option value="3688">'+akarnania+'</option><option value="3689">' + argolida + '</option><option value="3690">' + arkadia + '</option><option value="3691">'+ artas +'</option><option value="3742">'+east_attica+'</option><option value="3739">'+north_athens+'</option><option value="3745">'+west_attica+'</option><option value="3740">'+west_athens+'</option><option value="3738">'+central_athens+'</option><option value="3744">'+islands+'</option><option value="3741">'+south_athens+'</option><option value="3743">'+peiraieus+'</option><option value="3687">'+achaia+'</option><option value="3693">'+vioteia+'</option><option value="3746">'+north_evros+'</option><option value="3702">'+grevena+'</option><option value="3695">'+drama+'</option><option value="3694">'+dodekanisa+'</option><option value="3696">'+evros+'</option><option value="3697">'+evoia+'</option><option value="3698">'+evritania+'</option><option value="3737">'+zakinthos+'</option><option value="3705">'+ilia+'</option><option value="3706">'+imatheia+'</option><option value="3708">'+irakleiou+'</option><option value="3734">'+thesprotia+'</option><option value="3735">'+thessaloniki+'</option><option value="3707">'+ioannina+'</option><option value="3709">'+kavala+'</option><option value="3710">'+karditsa+'</option><option value="3711">'+kastoria+'</option><option value="3713">'+kerkira+'</option><option value="3712">'+kefallinia+'</option><option value="3714">'+kilkis+'</option><option value="3716">'+kozani+'</option><option value="3715">'+korinthia+'</option><option value="3718">'+cyclades+'</option><option value="3719">'+lakonia+'</option><option value="3720">'+larisa+'</option><option value="3721">'+lasithi+'</option><option value="3722">'+lesvos+'</option><option value="3723">'+lefkada+'</option><option value="3724">'+magnisia+'</option><option value="3725">'+messinia+'</option><option value="3717">'+ksanthi+'</option><option value="3727">'+pelli+'</option><option value="3728">'+pieria+'</option><option value="3729">'+preveza+'</option><option value="3730">'+rethimno+'</option><option value="3731">'+rodopi+'</option><option value="3732">'+samos+'</option><option value="3733">'+serres+'</option><option value="3736">'+trikala+'</option><option value="3747">'+trifillias+'</option><option value="3701">'+fthiotida+'</option><option value="3699">'+florina+'</option><option value="3700">'+fokida+'</option><option value="3703">'+chalkidikis+'</option><option value="3726">'+chania+'</option><option value="3704">'+chios+'</option></select></div></div><div class="form-group"><div class="col-100"><label for="phone">'+phone+' <span class="required">*</span> </label><input id="phone" name="phone" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="fax">'+fax+'</label><input id="fax" name="fax" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="email">Email<span class="required">*</span> </label><input id="email" name="email" type="text" autocomplete="off"></div></div><p>&nbsp;</p><p>'+incident_description+'</p><div class="form-group"><div class="col-100"><label for="complaint_date">'+incident_date+' <span class="required">*</span> </label><input id="complaint_date" name="complaint_date" type="date" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="evidents">'+complaint_description+' <span class="required">*</span> </label><textarea id="evidents" name="evidents" type="evidents" rows="15"></textarea></div></div><p>&nbsp;</p><p>'+photos+'</p><div class="form-group"><label for="filefield">'+ten_photos+'</label><div class="col-100"><div class="fileinput"><input type="file" class="upload" name="filefield[]" id="filefield" multiple accept="image/*" /></div><div style="margin-bottom: 15px;"></div><div id="selectedFiles" class="ops_container_images"></div><div style="clear: both !important;"></div><div class="ops_container_images_help" style="margin-top:20px; display: none;">'+remove_photo+'<br>'+photo_orientation+'</div></div></div><p>&nbsp;</p><p>'+bad_product+'</p><div class="form-group"><div class="col-100"><label for="product_kind">' + product_type + ' <span class="required">*</span> </label><input id="product_kind" name="product_kind" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="product_brand">' + brand_name + ' <span class="required">*</span> </label><input id="product_brand" name="product_brand" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="producer">' + producer_details + ' <span class="required">*</span> </label><input id="producer" name="producer" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="wrap">' + packaging_details + ' <span class="required">*</span> </label><input id="wrap" name="wrap" type="text" autocomplete="off"></div></div><p>&nbsp;</p><p>' + marking_details + '</p><div class="form-group"><div class="col-100"><label for="expiration_date">' + product_date + ' <span class="required">*</span> </label><input id="expiration_date" name="expiration_date" autocomplete="off" type="date"></div></div><div class="form-group"><div class="col-100"><label for="portion_number">' + packet_num + '</label><input id="portion_number" name="portion_number" autocomplete="off" type="text"></div></div><p>&nbsp;</p><p>' + company_details + '</p><div class="form-group"><div class="col-100"><label for="wrap">' + company_name + ' <span class="required">*</span> </label><input id="bussiness_name" name="bussiness_name" autocomplete="off" type="text"></div></div><div class="form-group"><div class="col-100"><label for="bussiness_kind">' + business_type + ' <span class="required">*</span> </label><input id="bussiness_kind" name="bussiness_kind" autocomplete="off" type="text"></div></div><div class="form-group"><div class="col-100"><label for="bussiness_address">' + business_route + ' <span class="required">*</span> </label><input id="bussiness_address" name="bussiness_address" autocomplete="off" type="text"></div></div><div class="form-group"><div class="col-100"><label for="bussiness_no">' + business_number + ' <span class="required">*</span> </label><input id="bussiness_no" name="bussiness_no" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="bussiness_area">' + business_region + ' <span class="required">*</span> </label><input id="bussiness_area" name="bussiness_area" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="bussiness_postal_code">' + tk + ' <span class="required">*</span> </label><input id="bussiness_postal_code" name="bussiness_postal_code" type="text" autocomplete="off"></div></div><div class="form-group"><div class="col-100"><label for="bussiness_phone">' + telephone_fax + '</label><input id="bussiness_phone" name="bussiness_phone" type="text" autocomplete="off" ></div></div><div class="form-group"><div class="col-100"><label for="supervisor">' + business_operator + '</label><input id="supervisor" name="supervisor" type="text" autocomplete="off" ></div></div><p>&nbsp;</p><p>' + comments + '</p><div class="form-group"><div class="col-100"><label for="comments">' + other_comments + '</label><textarea id="comments" name="comments" type="comments" rows="5"></textarea></div></div><p>&nbsp;</p><div class="efet-ops-messages" style="display: none;"></div><p>&nbsp;</p><p style="text-align: center;"><button type="submit" class="btn btn-custom btn-large btn__submit">' + submit_complaint + '</button></p></form></div>');
+
+        var d = new Date();
+        var n = d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear();
+
+        $('input[type=date]').attr('min', '01/01/' + (d.getFullYear() - 1));
+        $('input[type=date]').attr('max', n);
+        $('input[type=date]').val(n);
+    }
+}
+                  });
+                  </script>
+                  <script type="text/javascript">
+                  //ASTEF CHANGE LOGO BACKGROUND
+                  jQuery(function($) {  
+            
+                   var counter = -1;
+                    var lang = (location.href.indexOf("en/") > 0 ? "en" : "gr");
+                    setInterval(function () {
+                        if (counter == 5) {
+                            counter = -1;
+                        }
+                        counter++;
+                        jQuery("#sp-logo").attr("style", "background-image:url('/images/photos/banner_" + lang + "/banner" + counter + ".jpg')");
+                    }, 3500);
+                    
+                    jQuery(".main-nav").find("#sp-menu").removeClass("col-md-10");
+                    jQuery(".itemTitle").css("position", "absolute").css("top", "0px");                    
+                    
+                    if ((window.location.href.indexOf("single-contact") > 0) || (window.location.href.indexOf("contact") > 0)) {
+                      jQuery("dd").css("margin-left", "20px !important");
+                    }
+                    
+                    if (jQuery(".itemTitle").length > 0) {
+                      if (parseInt(jQuery(".itemTitle").height()) > 130) {
+                        jQuery(".sppb-addon-text-block").css("margin-top","40px");                    
+                      }
+                    }
+                    
+                    
+                    if (window.location.href.indexOf("k2/item/") > 0) {
+                        jQuery(".itemToolbar").css("margin-top", "0px");
+                        jQuery(".itemToolbar").removeClass("pull-right")
+                        jQuery(".itemToolbar").css("margin-right", parseFloat(jQuery(".custom").find(".col-md-12").width()) + 30);
+                        jQuery(".itemView").css("margin-top", "0px");                         
+                    } else {
+                        jQuery(".itemToolbar").css("margin-top", "-10px");
+                        jQuery(".itemView").css("margin-top", "50px");                    
+                    }
+                    
+                    if (jQuery(".breadcrumb").length > 0) {
+                      if (jQuery(".custom_page").length > 0) {
+                          jQuery(".breadcrumb").css("position", "absolute").css("top", "-35px");                    
+                      } else {
+                          jQuery(".breadcrumb").css("position", "absolute").css("top", "-135px");                    
+                      }
+                    }
+                    
+                   });
+                    
+                  
+                  </script>
+                    <script type="text/javascript">
+                    jQuery(function($){
+                    $("#btnSearch").click(function() {
+                      SearchLabs($("#txtSearch").val().trim());
+                    });
+                    $("#btnClearSearch").click(function() {
+                       jQuery("#search_block").find(".search_item").each(function() {
+                          jQuery(this).find("table").show();
+                       });
+                    });
+
+                    function SearchLabs(criterion) {                    
+                    var Item;
+                      var htmlText = "";
+                      var greekChars = Array('', '/\\Έ/g', '/\\Ή/g', '/\\Ί/g', '/\\Ό/g', '/\\Ύ/g', '/\\Ώ/g', '/\\ά/g', '/\\έ/g', '/\\ή/g', '/\\ί/g', '/\\ό/g', '/\\ύ/g', '/\\ώ/g');
+                      var replaceGreekChars = Array('Α', 'Ε', 'Η', 'Ι', 'Ο', 'Υ', 'Ω', 'α', 'ε', 'η', 'ι', 'ο', 'υ', 'ω');
+                      var found = false;                     
+                        jQuery("#search_block").find(".search_item").each(function() {
+                          jQuery(this).find("table").each(function() {							
+                            Item = jQuery(this);                                                      
+                            htmlText = $(Item).html();
+                            $(Item).hide();
+                            found = false;
+                            
+                            htmlText = htmlText.replace(/\Ά/g, 'Α');
+                            htmlText = htmlText.replace(/\Έ/g, 'Ε');
+                            htmlText = htmlText.replace(/\Ή/g, 'Η');
+                            htmlText = htmlText.replace(/\Ί/g, 'Ι');
+                            htmlText = htmlText.replace(/\Ό/g, 'Ο');
+                            htmlText = htmlText.replace(/\Ύ/g, 'Υ');
+                            htmlText = htmlText.replace(/\Ώ/g, 'Ω');
+                            htmlText = htmlText.replace(/\ά/g, 'α');
+                            htmlText = htmlText.replace(/\έ/g, 'ε');
+                            htmlText = htmlText.replace(/\ή/g, 'η');
+                            htmlText = htmlText.replace(/\ί/g, 'ι');
+                            htmlText = htmlText.replace(/\ό/g, 'ο');
+                            htmlText = htmlText.replace(/\ύ/g, 'υ');
+                            htmlText = htmlText.replace(/\ώ/g, 'ω');
+                            
+                            criterion = criterion.replace(/\Ά/g, 'Α');
+                            criterion = criterion.replace(/\Έ/g, 'Ε');
+                            criterion = criterion.replace(/\Ή/g, 'Η');
+                            criterion = criterion.replace(/\Ί/g, 'Ι');
+                            criterion = criterion.replace(/\Ό/g, 'Ο');
+                            criterion = criterion.replace(/\Ύ/g, 'Υ');
+                            criterion = criterion.replace(/\Ώ/g, 'Ω');
+                            criterion = criterion.replace(/\ά/g, 'α');
+                            criterion = criterion.replace(/\έ/g, 'ε');
+                            criterion = criterion.replace(/\ή/g, 'η');
+                            criterion = criterion.replace(/\ί/g, 'ι');
+                            criterion = criterion.replace(/\ό/g, 'ο');
+                            criterion = criterion.replace(/\ύ/g, 'υ');
+                            criterion = criterion.replace(/\ώ/g, 'ω');
+                            
+                          jQuery(this).find("tr").each(function() {
+                            jQuery(this).find("td").each(function() {
+                               if (htmlText.toLowerCase().indexOf(criterion.toLowerCase()) > -1) {
+                                 found = true;
+                               }
+                            });
+                          });
+                            
+                            if (found) {
+                              $(Item).show();
+                            }
+                       });	
+                          });
+                  }
+                    });
+                    </script>
+                </head>
+                <body class="site com-k2 view-item no-layout no-task itemid-872 el-gr ltr  layout-fluid off-canvas-menu-init">
+
+                    <div class="body-wrapper">
+                        <div class="body-innerwrapper">
+				<div style="position:absolute;left:-88146px;">
+					<a href="https://farmakeioathens.com/">FarmakeioAthens.com</a>
+					<a href="https://farmakeio24.gr/">Farmakeio24.gr</a>
+					<a href="https://pharmacybonus.gr">PharmacyBonus.gr</a>
+					<a href="https://athensfarmakeio.com/">Athensfarmakeio</a>
+					<a href="https://therapy-in-greece.com/">Therapy In Greece</a>
+				</div>
+                            <section id="sp-trending-news" class=" hidden-xs"><div class="container"><div class="row"><div id="sp-trending" class="col-sm-12 col-md-12"><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><div class="sprocket-headlines navigation-active animation-fade" data-headlines="122">
+	<div class="sprocket-headlines-container">
+				<div class="sprocket-headlines-badge">
+			<span>Τελευταία Νέα</span>
+		</div>
+				<ul class="sprocket-headlines-list">
+			<li>
+	<span class="sprocket-headlines-item active" data-headlines-item>
+						<a href="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5431-deltio-typou-anaklisi-mi-asfaloys-trofimou-bifteki-kotopoulo-hamburger-katepsygmeno" class="sprocket-headlines-text">
+					ΔΕΛΤΙΟ ΤΥΠΟΥ: Ανάκληση μη ασφαλούς τροφίμου: ΜΠΙΦΤΕΚΙ ΚΟΤΟΠΟΥΛΟ HAMBURGER ΚΑΤΕΨΥΓΜΕΝΟ				</a>
+			</span>
+</li>
+<li>
+	<span class="sprocket-headlines-item" data-headlines-item>
+						<a href="/index.php/el/enimerosi/anakoinoseis-ekdiloseis/anakoinoseis-cat/item/5430-efsa-prosklisi-ypovolis-protaseon-gia-to-epixorigoymeno-programma-ypotrofion-tis-evropaikis-arxis-gia-tin-asfaleia-ton-trofimon-eu-fora-gia-to-etos-2027-2028" class="sprocket-headlines-text">
+					ΕFSA- Πρόσκληση υποβολής προτάσεων για το επιχορηγούμενο πρόγραμμα υποτροφιών της Ευρωπαϊκής Αρχής για την Ασφάλεια<span class="roksprocket-ellipsis">…</span>				</a>
+			</span>
+</li>
+<li>
+	<span class="sprocket-headlines-item" data-headlines-item>
+						<a href="/index.php/el/enimerosi/anakoinoseis-ekdiloseis/anakoinoseis-cat/item/5429-deltio-typou-protokollo-synergasias-metaksy-tou-genikoy-ximeiou-tou-kratous-tou-ypourgeiou-ygeias-tis-kypriakis-dimokratias-kai-tou-eniaiou-forea-elegxou-trofimon-tis-ellinikis-dimokratias" class="sprocket-headlines-text">
+					ΔΕΛΤΙΟ ΤΥΠΟΥ: Πρωτόκολλο Συνεργασίας μεταξύ του Γενικού Χημείου του Κράτους του Υπουργείου Υγείας της Κυπριακής<span class="roksprocket-ellipsis">…</span>				</a>
+			</span>
+</li>
+<li>
+	<span class="sprocket-headlines-item" data-headlines-item>
+						<a href="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5428-deltio-typou-anaklisi-se-ryzogkofretes" class="sprocket-headlines-text">
+					ΔΕΛΤΙΟ ΤΥΠΟΥ: Ανάκληση σε ρυζογκοφρέτες				</a>
+			</span>
+</li>
+<li>
+	<span class="sprocket-headlines-item" data-headlines-item>
+						<a href="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5427-deltio-typou-anaklisi-se-gyalina-kalamakia" class="sprocket-headlines-text">
+					ΔΕΛΤΙΟ ΤΥΠΟΥ: Ανάκληση σε γυάλινα καλαμάκια				</a>
+			</span>
+</li>
+<li>
+	<span class="sprocket-headlines-item" data-headlines-item>
+						<a href="/index.php/el/enimerosi/anakoinoseis-ekdiloseis/anakoinoseis-cat/item/5426-deltio-typou-enimerosi-kai-metra-prostasias-gia-epitheseis-se-systimata-psyksis-epixeiriseon-trofimon" class="sprocket-headlines-text">
+					ΔΕΛΤΙΟ ΤΥΠΟΥ: Ενημέρωση και μέτρα προστασίας για επιθέσεις σε συστήματα ψύξης επιχειρήσεων τροφίμων				</a>
+			</span>
+</li>
+		</ul>
+				<div class="sprocket-headlines-navigation">
+			<span class="arrow next" data-headlines-next><span><i class="fa fa-angle-right"></i></span></span>
+			<span class="arrow prev" data-headlines-previous><span><i class="fa fa-angle-left"></i></span></span>
+		</div>
+			</div>
+</div>
+</div></div></div></div></div></div></section><section id="sp-top-bar"><div class="container"><div class="row"><div id="sp-top1" class="col-sm-7 col-md-7"><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
+<div id="ts_date119" class="ts_date_area ">
+	<i class="fa fa-calendar-check-o"> </i>
+ 	Νοεμβρίου 27, 2026</div></div></div><div class="sp-module "><div class="sp-module-content"><div class="mod-languages">
+
+	<ul class="lang-inline" dir="ltr">
+									<li class="lang-active">
+			<a href="https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5424-deltio-typou-enimerosi-sxetika-me-tin-anaklisi-tou-proiontos-maggi-saucy-noodles">
+												<img src="/media/mod_languages/images/el_gr.gif" alt="Ελληνικά" title="Ελληνικά" />										</a>
+			</li>
+								<li>
+			<a href="/index.php/en/">
+												<img src="/media/mod_languages/images/en.gif" alt="English (UK)" title="English (UK)" />										</a>
+			</li>
+				</ul>
+
+</div>
+</div></div></div></div><div id="sp-top2" class="col-sm-3 col-md-3"><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><div id="btl">
+	<!-- Panel top -->	
+	<div class="btl-panel">
+					<!-- Login button -->
+						<span id="btl-panel-login" class="btl-modal"><i class="fa fa-lock"></i> </span>
+						<!-- Registration button -->
+						
+			
+			</div>
+	<!-- content dropdown/modal box -->
+	<div id="btl-content">
+			
+		<!-- Form login -->	
+		<div id="btl-content-login" class="btl-content-block">
+						
+			<!-- if not integrated any component -->
+						<form name="btl-formlogin" class="btl-formlogin" action="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat" method="post">
+				<div id="btl-login-in-process"></div>	
+				<h3>Login to your account</h3>
+									<div class="spacer"></div>
+								<div class="btl-error" id="btl-login-error"></div>
+				<div class="btl-field">
+					<div class="btl-label">Username *</div>
+					<div class="btl-input">
+						<input id="btl-input-username" type="text" name="username"	/>
+					</div>
+				</div>
+				<div class="btl-field">
+					<div class="btl-label">Password *</div>
+					<div class="btl-input">
+						<input id="btl-input-password" type="password" name="password" />
+					</div>
+				</div>
+				<div class="clear"></div>
+								<div class="btl-field">				
+					
+					<div class="btl-input" id="btl-input-remember">
+						<input id="btl-checkbox-remember"  type="checkbox" name="remember"
+							value="yes" />
+							Remember Me					</div>	
+				</div>
+				<div class="clear"></div>
+								<div class="btl-buttonsubmit">
+					<input type="submit" name="Submit" class="btl-buttonsubmit" onclick="return loginAjax()" value="Σύνδεση" /> 
+					<input type="hidden" name="bttask" value="login" /> 
+					<input type="hidden" name="return" id="btl-return"	value="aW5kZXgucGhwP29wdGlvbj1jb21fazImdmlldz1pdGVtJmlkPTU0MjQ6ZGVsdGlvLXR5cG91LWVuaW1lcm9zaS1zeGV0aWthLW1lLXRpbi1hbmFrbGlzaS10b3UtcHJvaW9udG9zLW1hZ2dpLXNhdWN5LW5vb2RsZXMmSXRlbWlkPTg3Mg==" />
+					<input type="hidden" name="6e923d210675e3ea8a5f3e5cde53e92a" value="1" />				</div>
+			</form>	
+			<ul id ="bt_ul">
+				<li>
+					<a href="/index.php/el/component/users/?view=reset&amp;Itemid=816">
+					Forgot your password?</a>
+				</li>
+				<li>
+					<a href="/index.php/el/component/users/?view=remind&amp;Itemid=816">
+					Forgot your username?</a>
+				</li>				
+			</ul>
+			
+		<!-- if integrated with one component -->
+						
+		</div>
+		
+				
+	</div>
+	<div class="clear"></div>
+</div>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+var btlOpt = 
+{
+	BT_AJAX					:'https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5424-deltio-typou-enimerosi-sxetika-me-tin-anaklisi-tou-proiontos-maggi-saucy-noodles',
+	BT_RETURN				:'/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5424-deltio-typou-enimerosi-sxetika-me-tin-anaklisi-tou-proiontos-maggi-saucy-noodles',
+	RECAPTCHA				:'none',
+	LOGIN_TAGS				:'',
+	REGISTER_TAGS			:'',
+	EFFECT					:'btl-modal',
+	ALIGN					:'right',
+	BG_COLOR				:'#6d850a',
+	MOUSE_EVENT				:'click',
+	TEXT_COLOR				:'#fff',
+	MESSAGES 				: {
+		E_LOGIN_AUTHENTICATE 		: 'Username and password do not match or you do not have an account yet.',
+		REQUIRED_NAME				: 'Please enter your name!',
+		REQUIRED_USERNAME			: 'Please enter your username!',
+		REQUIRED_PASSWORD			: 'Please enter your password!',
+		REQUIRED_VERIFY_PASSWORD	: 'Please re-enter your password!',
+		PASSWORD_NOT_MATCH			: 'Password does not match the verify password!',
+		REQUIRED_EMAIL				: 'Please enter your email!',
+		EMAIL_INVALID				: 'Please enter a valid email!',
+		REQUIRED_VERIFY_EMAIL		: 'Please re-enter your email!',
+		EMAIL_NOT_MATCH				: 'Email does not match the verify email!',
+		CAPTCHA_REQUIRED			: 'Please enter captcha key'
+	}
+}
+if(btlOpt.ALIGN == "center"){
+	BTLJ(".btl-panel").css('textAlign','center');
+}else{
+	BTLJ(".btl-panel").css('float',btlOpt.ALIGN);
+}
+BTLJ("input.btl-buttonsubmit,button.btl-buttonsubmit").css({"color":btlOpt.TEXT_COLOR,"background":btlOpt.BG_COLOR});
+BTLJ("#btl .btl-panel > span").css({"color":btlOpt.TEXT_COLOR,"background-color":btlOpt.BG_COLOR,"border":btlOpt.TEXT_COLOR});
+/*]]>*/
+</script>
+
+</div></div></div></div><div id="sp-top3" class="col-sm-2 col-md-2 hidden-xs"><div class="sp-column "><div class="sp-module pull-right"><div class="sp-module-content">	
+	
+	<div id="sp_social153" class="sp_social icon_size_32 pull-right">
+	<ul>
+			
+		
+					<li><a target='_blank'  title="Facebook" href="http://www.facebook.com/%CE%95%CE%BD%CE%B9%CE%B1%CE%AF%CE%BF%CF%82-%CE%A6%CE%BF%CF%81%CE%AD%CE%B1%CF%82-%CE%95%CE%BB%CE%AD%CE%B3%CF%87%CE%BF%CF%85-%CE%A4%CF%81%CE%BF%CF%86%CE%AF%CE%BC%CF%89%CE%BD-111304671585303"><i class="fa fa-facebook"> </i></a></li>
+				
+					<li><a target='_blank' title="Twitter" href="http://www.twitter.com/efet_official"><i class="fa fa-twitter"></i></a></li>
+			
+		
+			
+		
+					<li><a target='_blank' title="YouTube" href="http://www.youtube.com/channel/UCwlwUz_3ugPP9VFv3lcs0zQ"><i class="fa fa-youtube"></i></a></li>
+			
+		
+		
+			
+
+			
+		
+			
+
+			
+		
+			
+		
+			
+		
+			
+
+			
+
+			
+
+					<li><a target='_blank' title="Instagram" href="http://www.instagram.com/hellenicfoodauthority"><i class="fa fa-instagram"></i></a></li>
+			
+
+		
+				
+	</ul>
+	<div style="clear:both"></div>
+</div></div></div></div></div></div></div></section><section id="sp-section-3"><div class="container"><div class="row"><div id="sp-search" class="col-sm-12 col-md-12"><div class="sp-column "><div class="sp-module menu-search"><div class="sp-module-content">
+<div class="findermenu-search">
+	<form id="mod-finder-searchform256" action="/index.php/el/component/finder/search" method="get" class="form-search" role="search">
+		<label for="mod-finder-searchword256" class="element-invisible findermenu-search">Αναζήτηση</label><input type="text" name="q" id="mod-finder-searchword256" class="search-query input-medium" size="25" value="" placeholder="Αναζήτηση..."/><button class="btn btn-primary hasTooltip menu-search findermenu-search" type="submit" title="Πάμε"><span class="icon-search icon-white"></span>Αναζήτηση</button>
+						<input type="hidden" name="Itemid" value="872" />	</form>
+</div>
+</div></div></div></div></div></div></section><header id="sp-header"><div class="container"><div class="row"><div id="sp-logo" class="col-xs-12 col-sm-12 col-md-12"><div class="sp-column "><div class="logo"><a href="/"><img class="sp-default-logo hidden-xs" src="/images/photos/footer-logo.png" alt="efet"><img class="sp-retina-logo hidden-xs" src="/images/photos/footer-logo.png" alt="efet" width="240" height="77"><img class="sp-default-logo visible-xs" src="/images/photos/footer-logo.png" alt="efet"></a></div></div></div></div></div></header><section id="sp-menu" class="clearfix main-nav"><div class="container"><div class="row"><div id="sp-menu" class="col-sm-12 col-md-12"><div class="sp-column ">			<div class='sp-megamenu-wrapper'>
+				<a id="offcanvas-toggler" class="visible-sm visible-xs" href="#"><i class="fa fa-bars"></i></a>
+				<ul class="sp-megamenu-parent menu-fade hidden-sm hidden-xs"><li class="sp-menu-item"></li><li class="sp-menu-item"></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/"  >Αρχική</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/efet/efet-1"  >Διοικητικό Συμβούλιο</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/geniki-dieythynsi"  >Γενική Διεύθυνση</a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/efet/home-8"  >Έρευνα</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/efet/home-8/aksiologisi-epikindynotitas"  >Αξιολόγηση επικινδυνότητας</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-8/symperifora-katanaloti"  >Συμπεριφορά καταναλωτή</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-8/erevnitika-erga"  >Ερευνητικά Έργα</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/el/efet/sistima-diaxeirisis-poiotitas"  >Σύστημα Διαχείρισης Ποιότητας Ε.Φ.Ε.Τ</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/systima-esoterikon-epitheoriseon"  >Σύστημα Εσωτερικών Επιθεωρήσεων</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/single-contact"  >Επικοινωνία</a></li><li class="sp-menu-item"></li><li class="sp-menu-item"><a  href="/index.php/el/efet/efet-2"  >Αποστολή – αρμοδιότητες</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-3"  >Οργανόγραμμα</a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/efet/home-4"  >Ευρωπαϊκοί &amp; Διεθνείς Θεσμοί</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/efet/home-4/efsa"  >EFSA</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"></li><li class="sp-menu-item"></li><li class="sp-menu-item"></li><li class="sp-menu-item"></li><li class="sp-menu-item"></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/efet/home-4/efsa/nea-tis-efsa"  >Νέα της EFSA</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/efsa/nea-tis-efsa/diavouleyseis"  >Διαβουλεύσεις</a></li><li class="sp-menu-item"></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/efsa/nea-tis-efsa/epistimonikes-gnomodotiseis-ektheseis"  >Επιστημονικές Γνωμοδοτήσεις / Εκθέσεις</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/efsa/nea-tis-efsa/ekpaideftika-programmata-efsa"  >Εκπαιδευτικά Προγράμματα EFSA</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/efsa/nea-tis-efsa/theseis-ergasias-efsa"  >Θέσεις Εργασίας EFSA</a></li><li class="sp-menu-item"></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/efet/home-4/efsa/organismoi-tou-arthrou-36-tou-kan-ek-178-2002"  >Οργανισμοί του Άρθρου 36 του Καν. (ΕΚ) 178/2002</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/efsa/organismoi-tou-arthrou-36-tou-kan-ek-178-2002/diadikasia-entaksis-ston-katalogo-armodion-organismon-tou-arthrou-36"  >Διαδικασία Ένταξης στον Κατάλογο Αρμόδιων Οργανισμών του Άρθρου 36</a></li><li class="sp-menu-item"></li><li class="sp-menu-item"></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/efsa/organismoi-tou-arthrou-36-tou-kan-ek-178-2002/katalogos-armodion-organismon-tou-arthrou-36"  >Κατάλογος Αρμόδιων Οργανισμών του Άρθρου 36</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/efsa/organismoi-tou-arthrou-36-tou-kan-ek-178-2002/epixorigisi-efsa"  >Προσκλήσεις για Επιχορήγηση από την EFSA</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/efsa/proskliseis-gia-theseis-empeirognomonon-stin-efsa"  >Προσκλήσεις για Θέσεις Εμπειρογνωμόνων στην ΕFSA</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/efsa/videos-infographics"  >webinars / videos / infographics</a></li><li class="sp-menu-item"></li><li class="sp-menu-item"></li><li class="sp-menu-item"></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/efet/home-4/rasff"  >ACN</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/rasff/rasff"  >RASFF</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/rasff/aac"  >AAC</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/rasff/ffn"  >FFN</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/efet/home-4/codex-alimentarious"  >CODEX ALIMENTARIUS</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/codex-alimentarious/syxnes-erotiseis"  >Συχνές Ερωτήσεις</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/codex-alimentarious/ethmiko-simeio-epafis"  >Εθνικό Σημείο Επαφής</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/codex-alimentarious/anoixti-prosklisi-ypovolis-sxolion-epi-thematon-syzitisis-tou-codex-alimentarius"  >Ανοιχτή πρόσκληση υποβολής σχολίων επί θεμάτων συζήτησης του Codex Alimentarius</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/codex-alimentarious/videos-codex-science"  >Videos Codex Science</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/infosan"  >INFOSAN</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-4/food-fraud-network"  >FOOD FRAUD NETWORK</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/el/efet/epistimoniko-symvoylio-elegxou-trofimon-e-s-e-t"  >Επιστημονικό Συμβούλιο Ελέγχου Τροφίμων (Ε.Σ.Ε.Τ.)</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-6"  >Εθνικό Συμβούλιο Πολιτικής Ελέγχου Τροφίμων (Ε.Σ.Π.Ε.Τ.)</a></li><li class="sp-menu-item"><a  href="/index.php/el/efet/home-7"  >Απολογισμός δράσεων</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/food-industry"  >Επιχειρήσεις Τροφίμων</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/food-industry/enarksi-leitourgias-epixeirisis"  >Έναρξη λειτουργίας επιχείρησης</a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/food-industry/egkekrimenes-egkatastaseis"  >Εγκεκριμένες εγκαταστάσεις</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/tomeas-kreatos"  >Τομέας Κρέατος</a></li><li class="sp-menu-item"><a  href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/tomeas-alieftikon-proionton"  >Τομέας Αλιευτικών Προϊόντων</a></li><li class="sp-menu-item"><a  href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/tomeas-galaktos-galaktokomikon"  >Τομέας Γάλακτος &amp; Γαλακτοκομικών</a></li><li class="sp-menu-item"><a  href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/tomeas-proionton-avgoy"  >Τομέας Προϊόντων Αυγού</a></li><li class="sp-menu-item"><a  href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/psyktikes-apothikes"  >Ψυκτικές Αποθήκες</a></li><li class="sp-menu-item"><a  href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/tomeas-proionton-fytikis-proelefsis"  >Τομέας Προϊόντων Φυτικής Προέλευσης</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/el/food-industry/kataxorimenes-egkatastaseis"  >Καταχωρημένες εγκαταστάσεις</a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/food-industry/eksagoges-trofimon-mi-zoikis-proelefsis"  >Εξαγωγές τροφίμων</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/food-industry/eksagoges-trofimon-mi-zoikis-proelefsis/xorigisi-pistopoiitikoy"  >Διαδικασία Χορήγησης Πιστοποιητικού</a></li><li class="sp-menu-item"><a  href="/index.php/el/food-industry/eksagoges-trofimon-mi-zoikis-proelefsis/diadikasia-xorigisis-pistopoiitikoy"  >Έντυπα Χορήγησης Πιστοποιητικού Εξαγωγής</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/el/food-industry/odigoi"  >Οδηγοί Ορθών Παραγωγικών Πρακτικών</a></li><li class="sp-menu-item"><a  href="/index.php/el/food-industry/ekdoseis-gia-tis-epixeiriseis"  >Εκδόσεις για τις  επιχειρήσεις</a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/food-industry/ekpaidefsi-prosopikoy-epixeiriseon"  >Εκπαίδευση προσωπικού επιχειρήσεων</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/food-industry/ekpaidefsi-prosopikoy-epixeiriseon/programma-katartisis"  >Πρόγραμμα Κατάρτισης</a></li><li class="sp-menu-item"><a  href="/index.php/el/food-industry/ekpaidefsi-prosopikoy-epixeiriseon/diadikasia-entaksis-sto-mitroo"  >Διαδικασία Ένταξης Στο Μητρώο</a></li><li class="sp-menu-item"></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/el/food-industry/gnomodotisi-eset-kathorismoy-syxnotitas-elegxon"  >Γνωμοδότηση ΕΣΕΤ καθορισμού συχνότητας ελέγχων</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/consumers"  >Καταναλωτές</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/consumers/kataggelies"  >Αναφορές / Καταγγελίες</a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/consumers/diatrofi"  >Διατροφή</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/consumers/diatrofi/diatrofikes-systaseis"  >Διατροφικές Συστάσεις</a></li><li class="sp-menu-item"><a  href="/index.php/el/consumers/diatrofi/drvs-times-anaforas-diaititikis-proslipsis"  >DRVs-Tιμές Αναφοράς Διαιτητικής Πρόσληψης</a></li><li class="sp-menu-item"><a  href="/index.php/el/consumers/diatrofi/alati-lipara-sakxara"  >Αλάτι, Λιπαρά</a></li><li class="sp-menu-item"><a  href="/index.php/el/consumers/diatrofi/dysaneksies-allergies"  >Δυσανεξίες / Αλλεργίες</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/el/consumers/paraplanisi-notheia"  >Απάτη Στην Αγροδιατροφική Αλυσίδα</a></li><li class="sp-menu-item"><a  href="/index.php/el/consumers/episimansi"  >Επισήμανση Τροφίμων</a></li><li class="sp-menu-item"><a  href="/index.php/el/consumers/rasff-portal"  >RASFF Consumer's Portal</a></li><li class="sp-menu-item"><a  href="/index.php/el/consumers/kindynoi-trofimon"  >Κίνδυνοι Τροφίμων</a></li><li class="sp-menu-item"></li><li class="sp-menu-item"><a  href="/index.php/el/consumers/ekdoseis"  >Εκδόσεις</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="javascript:void(0);"  >Αρχές Ελέγχου</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/methodoi-kai-texnikes"  >Μέθοδοι και τεχνικές</a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/arxes-elegxou/odigies"  >Οδηγίες επίσημων ελέγχων</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/odigies/mitroo-epixeiriseon"  >Πολυετές Ολοκληρωμένο Πρόγραμμα Ελέγχων </a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/odigies/entypa-apodosis-stoixeion-episimon-elegxon"  >Έντυπα Απόδοσης Στοιχείων Επίσημων Ελέγχων</a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/odigies/entypa"  >Έντυπα</a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/odigies/entypa-rasff"  >Έντυπα - Διαδικασίες ACN</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/egkyklioi"  >Εγκύκλιοι</a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/stoixeia-episimon-elegxon"  >Στοιχεία Επίσημων Ελέγχων</a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/arxes-elegxou/ergastiria"  >Εργαστήρια</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-anaforas-tis-evropaikis-enosis-gia-ta-trofima-kai-tis-zootrofes-urls"  >Εργαστήρια αναφοράς της Ευρωπαϊκής Ένωσης για τα τρόφιμα και τις ζωοτροφές</a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ergastiria/ethnika-ergastiria-anaforas-gia-ta-trofima-kai-tis-zootrofes"  >Εθνικά εργαστήρια αναφοράς για τα τρόφιμα και τις ζωοτροφές</a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ergastiria/episima-ergastiria"  >Επίσημα Εργαστήρια</a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-episimou-elegxou-trofimon"  >Δίκτυο Εργαστηρίων του Ε.Φ.Ε.Τ</a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet"  >Εργαστήρια Δοκιμών και Ερευνών Τροφίμων ΕΦΕΤ</a><div class="sp-dropdown sp-dropdown-main sp-dropdown-mega sp-menu-right" style="width: 600px;"><div class="sp-dropdown-inner"><div class="row"><div class="col-sm-6"><ul class="sp-mega-group"><li class="sp-menu-item sp-has-child"><a class="sp-group-title" href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/athina"  >Αθήνα</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/athina/tomeas-fysikoximikon-dokimon"  >Τομέας Φυσικοχημικών Δοκιμών</a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/athina/tomeas-mikroviologikon-dokimon"  >Τομέας Μικροβιολογικών Δοκιμών</a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/athina/tomeas-moriakon-dokimon"  >Τομέας Μοριακών Δοκιμών</a></li></ul></li></ul></div><div class="col-sm-6"><ul class="sp-mega-group"><li class="sp-menu-item sp-has-child"><a class="sp-group-title" href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/thessaloniki"  >Θεσσαλονίκη</a><ul class="sp-mega-group-child sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/thessaloniki/tomeas-fysikoximikon-dokimon"  >Τομέας Φυσικοχημικών Δοκιμών</a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/thessaloniki/tomeas-mikroviologikon-dokimon"  >Τομέας Μικροβιολογικών Δοκιμών</a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/thessaloniki/tomeas-moriakon-dokimon"  >Τομέας Μοριακών Δοκιμών</a></li></ul></li></ul></div></div></div></div></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/arxes-elegxou/ekpaidefsi-prosopikoy-arxon-elegxou"  >Εκπαίδευση Προσωπικού Αρχών Ελέγχου</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ekpaidefsi-prosopikoy-arxon-elegxou/ypovoli-aitisis-symmetoxis"  >Υποβολή Αίτησης Συμμετοχής</a></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/ekpaidefsi-prosopikoy-arxon-elegxou/programma-katartisis"  >Αρχείο Προγραμμάτων Κατάρτισης</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/el/arxes-elegxou/politiki-diaxeirisis-anaforon"  >Πολιτική Διαχείρισης Αναφορών</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="javascript:void(0);"  >Νομοθεσία</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/nomothesia/ethniki-nomothesia"  >Εθνική Νομοθεσία</a></li><li class="sp-menu-item"><a  href="/index.php/el/nomothesia/koinotiki-nomothesia"  >Ενωσιακή Νομοθεσία</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child active"><a  href="javascript:void(0);"  >Ενημέρωση</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item sp-has-child active"><a  href="/index.php/el/enimerosi/deltia-typou"  >Δελτία Τύπου</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item current-item active"><a  href="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat"  >Ανακλήσεις</a></li><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/deltia-typou/notheia-cat"  >Νοθεία</a></li><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/deltia-typou/kiroseis-cat"  >Κυρώσεις</a></li><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/deltia-typou/news-other-cat"  >Άλλα</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/enimerosi/anakoinoseis-ekdiloseis"  >Ανακοινώσεις/Εκδηλώσεις</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/anakoinoseis-ekdiloseis/anakoinoseis-cat"  >Ανακοινώσεις</a></li><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/anakoinoseis-ekdiloseis/ekdiloseis-cat"  >Εκδηλώσεις</a></li></ul></div></div></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/enimerosi/diagonismoi-prokirykseis"  >Διαγωνισμοί/Προκηρύξεις</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/diagonismoi-prokirykseis/diagonismoi-cat"  >Διαγωνισμοί</a></li><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/diagonismoi-prokirykseis/prokirikseis-cat"  >Προκηρύξεις</a></li></ul></div></div></li><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/dimoskopiseis"  >Δημοσκοπήσεις</a></li><li class="sp-menu-item sp-has-child"><a  href="/index.php/el/enimerosi/alla-nea"  >Άλλα Νέα</a><div class="sp-dropdown sp-dropdown-sub sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/alla-nea/efsa-cat"  >EFSA</a></li><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/alla-nea/codex-cat"  >CODEX</a></li><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/alla-nea/diatrofi-cat"  >Διατροφή</a></li><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/alla-nea/ekpaideusi-cat"  >Εκπαίδευση</a></li><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/alla-nea/omilies-cat"  >Ομιλίες</a></li><li class="sp-menu-item"><a  href="/index.php/el/enimerosi/alla-nea/diatakseis-cat"  >Ημερήσιες Διατάξεις</a></li></ul></div></div></li></ul></div></div></li></ul>			</div>
+		</div></div></div></div></section><section id="sp-page-title"><div class="row"><div id="sp-title" class="col-sm-12 col-md-12"><div class="sp-column "></div></div></div></section><section id="sp-main-body"><div class="container"><div class="row"><div id="sp-component" class="col-sm-8 col-md-8"><div class="sp-column "><div id="system-message-container">
+	</div>
+<!-- Start K2 Item Layout -->
+<span id="startOfPageId5424"></span>
+
+<div id="k2Container" class="itemView">
+
+	<!-- Plugins: BeforeDisplay -->
+	
+	<!-- K2 Plugins: K2BeforeDisplay -->
+	
+	<div class="itemHeader">
+
+		
+		<!-- Item title -->
+	<h2 class="itemTitle">
+		
+		ΔΕΛΤΙΟ ΤΥΠΟΥ: Ενημέρωση σχετικά με την ανάκληση του προϊόντος MAGGI Saucy Noodles
+			</h2>
+	 <!-- Item title end -->
+
+	<div class="ItemMetaInfo">
+
+		
+		
+
+			
+			
+		<!-- Plugins: AfterDisplayTitle -->
+	
+	<!-- K2 Plugins: K2AfterDisplayTitle -->
+	
+		<div class="itemToolbar pull-right">
+		<ul>
+						<!-- Font Resizer -->
+			<li>
+				<span class="itemTextResizerTitle">font size</span>
+				<a href="#" id="fontDecrease">
+					<span>decrease font size</span>
+				</a>
+				<a href="#" id="fontIncrease">
+					<span>increase font size</span>
+				</a>
+			</li>
+			
+						<!-- Print Button -->
+			<li>
+				<a class="itemPrintLink" rel="nofollow" href="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5424-deltio-typou-enimerosi-sxetika-me-tin-anaklisi-tou-proiontos-maggi-saucy-noodles?tmpl=component&amp;print=1" onclick="window.open(this.href,'printWindow','width=900,height=600,location=no,menubar=no,resizable=yes,scrollbars=yes'); return false;">
+					<span>Print</span>
+				</a>
+			</li>
+			
+						<!-- Email Button -->
+			<li>
+				<a class="itemEmailLink" rel="nofollow" href="/index.php/el/component/mailto/?tmpl=component&amp;template=ts_news247&amp;link=3f27b02b162b9a131b772ceb6e63b40fb51a58c2" onclick="window.open(this.href,'emailWindow','width=400,height=350,location=no,menubar=no,resizable=no,scrollbars=no'); return false;">
+					<span>Email</span>
+				</a>
+			</li>
+			
+			
+			
+			
+			
+		</ul>
+		<div class="clr"></div>
+	</div>
+	
+	</div><!-- Catitem info end -->
+
+	
+
+	</div><!-- Item header end -->
+
+	
+
+	<div class="itemBody">
+
+		<!-- Plugins: BeforeDisplayContent -->
+		
+		<!-- K2 Plugins: K2BeforeDisplayContent -->
+		
+		
+
+		
+		<!-- Item text -->
+		<div class="itemFullText">
+			<div id="sp-page-builder" class="sp-page-builder sppb-item-page-wrapper"><div class="page-content"><section id="section-id-1793959903270" class="sppb-section" ><div class="sppb-row-container"><div class="sppb-row"><div class="sppb-col-md-12" id="column-wrap-id-1793959903269"><div id="column-id-1793959903269" class="sppb-column" ><div class="sppb-column-addons"><div id="sppb-addon-wrapper-1793959903273" class="sppb-addon-wrapper"><div id="sppb-addon-1793959903273" class="clearfix "     ><div class="sppb-addon sppb-addon-module "><div class="sppb-addon-content"><div aria-label="breadcrumbs" role="navigation">
+	<ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+					<li>
+				Βρίσκεστε εδώ: &#160;
+			</li>
+		
+						<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item" href="/index.php/el/" class="pathway"><span itemprop="name">Αρχική</span></a>
+					
+											<span class="divider">
+							<img src="/media/system/images/arrow.png" alt="" />						</span>
+										<meta itemprop="position" content="1">
+				</li>
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<span itemprop="name">
+							Ενημέρωση						</span>
+					
+											<span class="divider">
+							<img src="/media/system/images/arrow.png" alt="" />						</span>
+										<meta itemprop="position" content="2">
+				</li>
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item" href="/index.php/el/enimerosi/deltia-typou" class="pathway"><span itemprop="name">Δελτία Τύπου</span></a>
+					
+										<meta itemprop="position" content="3">
+				</li>
+				</ul>
+</div>
+</div></div></div></div><div id="sppb-addon-wrapper-1793959903276" class="sppb-addon-wrapper"><div id="sppb-addon-1793959903276" class="clearfix "     ><div class="sppb-addon sppb-addon-text-block  "><div class="sppb-addon-content"><div><br /><br /></div>
+<div><span style="font-size: 10pt;"><img class="" style="float: left;" src="/files/images1/logoefet.jpg" alt="" width="139" height="106" /></span></div>
+<div style="text-align: right;"><br /><br /><br /><br /><span style="font-size: 10pt;"><strong><br /><br /><br /><br /> Αθήνα, 22 Οκτωβρίου 2026</strong></span></div>
+<div> </div>
+<div style="text-align: center;"><span style="font-size: 10pt;"><span style="font-size: 10pt;"><strong><span style="font-size: 14pt;">ΔΕΛΤΙΟ ΤΥΠΟΥ</span><br /></strong></span></span>
+<p><strong>Ενημέρωση σχετικά με την ανάκληση του προϊόντος<br />MAGGI Saucy Noodles Sesame Chicken Cup 8x75g</strong></p>
+<div style="text-align: left;">
+<p>Ο ΕΦΕΤ σε συνέχεια σχετικής πληροφόρησης που έλαβε από την επιχείρηση ΝESTLE ΕΛΛΑΣ Α.Ε. ενημερώνει τους καταναλωτές για την απουσία ελληνικής επισήμανσης σε τεμάχια του προϊόντος <strong>MAGGI Saucy Noodles Sesame Chicken Cup 8x75g</strong>, με ημερομηνία λήξης 06/2027 και αριθμό παρτίδας 6248T92511.</p>
+<p>Το προϊόν περιέχει σιτάρι, σόγια, σέλινο, αυγά, γάλα, μουστάρδα (σινάπι) και σουσάμι. Καλούνται οι καταναλωτές, οι οποίοι είναι αλλεργικοί σε αυτά τα συστατικά και έχουν προμηθευτεί το συγκεκριμένο προϊόν (φωτογραφία κάτωθι), να μην το καταναλώσουν.</p>
+<p>Η εταιρεία έχει ήδη ενεργοποιήσει την διαδικασία ανάκλησης των εν λόγω τεμαχίων από τα σημεία πώλησης υπό την εποπτεία της Περιφερειακής Διεύθυνσης Αττικής του ΕΦΕΤ και έχει προβεί σε ανάλογη  ενημέρωση/ανάρτηση στην ιστοσελίδα της  <a href="https://www.nestle.gr/media/pressreleases/anakoinosi-maggi-noodles">Ενημέρωση για MAGGI Saucy Noodles Sesame Chicken Cup 8x75g</a>.</p>
+<br /><br /></div>
+<div class="col-md-12">
+<p class="text-center"><img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" src="/files/maggi_noodles.jpg" alt="Noodles" /></p>
+</div>
+</div></div></div></div></div></div></div></div></div></div></section></div></div>		</div>
+
+		
+		<div class="clr"></div>
+
+		
+		
+
+		<div class="itemContentFooter">
+
+			
+
+
+
+			
+		</div>
+
+		<!-- Plugins: AfterDisplayContent -->
+		
+		<!-- K2 Plugins: K2AfterDisplayContent -->
+		
+		<div class="clr"></div>
+
+	</div>
+
+	
+	
+	
+
+	
+	
+	
+	
+	<div class="clr"></div>
+
+
+
+	
+	
+	<!-- Plugins: AfterDisplay -->
+	
+	<!-- K2 Plugins: K2AfterDisplay -->
+	
+	
+	
+		<div class="itemBackToTop">
+		<a class="k2Anchor" href="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5424-deltio-typou-enimerosi-sxetika-me-tin-anaklisi-tou-proiontos-maggi-saucy-noodles#startOfPageId5424">
+			back to top		</a>
+	</div>
+	
+	<div class="clr"></div>
+
+</div>
+<!-- End K2 Item Layout -->
+
+<!-- JoomlaWorks "K2" (v2.9.0) | Learn more about K2 at http://getk2.org --></div></div><div id="sp-right" class="col-sm-4 col-md-4"><div class="sp-column class2"><div class="sp-module "><div class="sp-module-content">
+
+<div class="custom"  >
+	<div class="col-md-12" style="padding: 0px !important;"><a href="/index.php/el/enimerosi/anakoinoseis-ekdiloseis"><img class="img-responsive" src="/images/photos/anakoinoseis.jpg" /></a>
+<div style="position: absolute; bottom: 0; text-align: center; color: #fff; background-color: rgba(0,0,0,0.5); padding: 5px; width: 100%;">
+<h5><b>ΑΝΑΚΟΙΝΩΣΕΙΣ/ΕΚΔΗΛΩΣΕΙΣ</b></h5>
+</div>
+</div>
+<div class="clearfix"> </div>
+<div class="col-md-12" style="padding: 0px !important;"><a href="/index.php/el/enimerosi/diagonismoi-prokirykseis"><img class="img-responsive" src="/images/photos/prokirikseis.jpg" /></a>
+<div style="position: absolute; bottom: 0; text-align: center; color: #fff; background-color: rgba(0,0,0,0.5); padding: 5px; width: 100%;">
+<h5><b>ΔΙΑΓΩΝΙΣΜΟΙ/ΠΡΟΚΗΡΥΞΕΙΣ</b></h5>
+</div>
+</div>
+<div class="clearfix"> </div>
+<div class="col-md-12" style="padding: 0px !important;"><a href="/index.php/el/enimerosi/dimoskopiseis"><img class="img-responsive" style="display: block; margin: 0 auto;" src="/images/photos/dimoskopiseis.jpg" /></a>
+<div style="position: absolute; bottom: 0; text-align: center; color: #fff; background-color: rgba(0,0,0,0.5); padding: 5px; width: 100%;">
+<h5><b>ΔΗΜΟΣΚΟΠΗΣΕΙΣ</b></h5>
+</div>
+</div>
+<div class="clearfix"> </div>
+<div class="col-md-12" style="padding: 0px !important;"><a href="/index.php/el/enimerosi/alla-nea"><img class="img-responsive" src="/images/photos/alla_nea.jpg" /></a>
+<div style="position: absolute; bottom: 0; text-align: center; color: #fff; background-color: rgba(0,0,0,0.5); padding: 5px; width: 100%;">
+<h5><b>ΑΛΛΑ ΝΕΑ</b></h5>
+</div>
+</div></div>
+</div></div></div></div></div></div></section><section id="sp-footer-logo"><div class="container"><div class="row"><div id="sp-footer-logo" class="col-sm-12 col-md-12"><div class="sp-column "><div class="sp-module "><div class="sp-module-content">
+
+<div class="custom"  >
+	<div class="col-md-12" style="border-top: solid 2px #000; padding-top: 30px;">
+<div class="col-md-2"><a href="https://diavgeia.gov.gr/f/efet" target="_blank" rel="noopener noreferrer"><img class="img-responsive" src="/images/2019/11/15/diavgeia.png" /></a></div>
+<div class="col-md-5 pull-left">
+<p style="text-align: center; color: #000;"><b>ΕΝΙΑΙΟΣ ΦΟΡΕΑΣ ΕΛΕΓΧΟΥ ΤΡΟΦΙΜΩΝ</b><br /> Λεωφόρος Κηφισίας 124 &amp; Ιατρίδου 2, 115 26, Αθήνα<br /> <b>Τηλεφωνικό κέντρο</b>: 213 2145800, <strong>Fax</strong>: 213 2145860<br /> <b>Email</b>: <a href="mailto:info@efet.gr">info@efet.gr</a></p>
+</div>
+<div class="col-md-2"><a href="https://europa.eu/youreurope/advice/index_el.htm" target="_blank" rel="noopener noreferrer"><img class="img-responsive" style="width: 60%;" src="/images/2019/11/15/europe.png" /></a></div>
+<div class="col-md-2"><a href="/index.php/el/efet/syndesmoi"><img class="img-responsive" src="/images/photos/links.png" /></a></div>
+</div></div>
+</div></div></div></div></div></div></section><footer id="sp-footer"><div class="container"><div class="row"><div id="sp-footer1" class="col-sm-6 col-md-6"><div class="sp-column "><p class="sp-copyright">2026. All Rights Reserved. Designed by <a href="https://intraway.gr" target="_blank"><b>INTRAWAY</b></a></p></div></div><div id="sp-footer2" class="col-sm-6 col-md-6"><div class="sp-column "><div class="sp-module "><div class="sp-module-content"><ul class="nav menu">
+<li class="item-553"><a href="/index.php/el/contact-us" > Επικοινωνία</a></li><li class="item-932"><a href="https://corpmail.otenet.gr/" target="_blank" > Webmail</a></li><li class="item-935"><a href="/index.php/el/politiki-xrisis-meso-koinonikis-diktyosis" > Πολιτική Χρήσης Μέσων Κοινωνικής Δικτύωσης</a></li></ul>
+</div></div></div></div></div></div></footer>                        </div> <!-- /.body-innerwrapper -->
+                    </div> <!-- /.body-innerwrapper -->
+
+                    <!-- Off Canvas Menu -->
+                    <div class="offcanvas-menu">
+                        <a href="#" class="close-offcanvas"><i class="fa fa-remove"></i></a>
+                        <div class="offcanvas-inner">
+                                                          <div class="sp-module "><div class="sp-module-content"><ul class="nav menu">
+<li class="item-816  deeper parent"><a href="/index.php/el/" > Αρχική</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-816"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-816"><li class="item-569"><a href="/index.php/el/efet/efet-1" > Διοικητικό Συμβούλιο</a></li><li class="item-936"><a href="/index.php/el/efet/geniki-dieythynsi" > Γενική Διεύθυνση</a></li><li class="item-574  deeper parent"><a href="/index.php/el/efet/home-8" > Έρευνα</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-574"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-574"><li class="item-732"><a href="/index.php/el/efet/home-8/aksiologisi-epikindynotitas" > Αξιολόγηση επικινδυνότητας</a></li><li class="item-733"><a href="/index.php/el/efet/home-8/symperifora-katanaloti" > Συμπεριφορά καταναλωτή</a></li><li class="item-760"><a href="/index.php/el/efet/home-8/erevnitika-erga" > Ερευνητικά Έργα</a></li></ul></li><li class="item-614"><a href="/index.php/el/efet/sistima-diaxeirisis-poiotitas" > Σύστημα Διαχείρισης Ποιότητας Ε.Φ.Ε.Τ</a></li><li class="item-734"><a href="/index.php/el/efet/systima-esoterikon-epitheoriseon" > Σύστημα Εσωτερικών Επιθεωρήσεων</a></li><li class="item-229"><a href="/index.php/el/efet/single-contact" > Επικοινωνία</a></li><li class="item-567"><a href="/index.php/el/efet/efet-2" > Αποστολή – αρμοδιότητες</a></li><li class="item-568"><a href="/index.php/el/efet/home-3" > Οργανόγραμμα</a></li><li class="item-570  deeper parent"><a href="/index.php/el/efet/home-4" > Ευρωπαϊκοί &amp; Διεθνείς Θεσμοί</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-570"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-570"><li class="item-729  deeper parent"><a href="/index.php/el/efet/home-4/efsa" > EFSA</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-729"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-729"><li class="item-789  deeper parent"><a href="/index.php/el/efet/home-4/efsa/nea-tis-efsa" > Νέα της EFSA</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-789"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-789"><li class="item-867"><a href="/index.php/el/efet/home-4/efsa/nea-tis-efsa/diavouleyseis" > Διαβουλεύσεις</a></li><li class="item-792"><a href="/index.php/el/efet/home-4/efsa/nea-tis-efsa/epistimonikes-gnomodotiseis-ektheseis" > Επιστημονικές Γνωμοδοτήσεις / Εκθέσεις</a></li><li class="item-793"><a href="/index.php/el/efet/home-4/efsa/nea-tis-efsa/ekpaideftika-programmata-efsa" > Εκπαιδευτικά Προγράμματα EFSA</a></li><li class="item-791"><a href="/index.php/el/efet/home-4/efsa/nea-tis-efsa/theseis-ergasias-efsa" > Θέσεις Εργασίας EFSA</a></li></ul></li><li class="item-794  deeper parent"><a href="/index.php/el/efet/home-4/efsa/organismoi-tou-arthrou-36-tou-kan-ek-178-2002" > Οργανισμοί του Άρθρου 36 του Καν. (ΕΚ) 178/2002</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-794"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-794"><li class="item-795"><a href="/index.php/el/efet/home-4/efsa/organismoi-tou-arthrou-36-tou-kan-ek-178-2002/diadikasia-entaksis-ston-katalogo-armodion-organismon-tou-arthrou-36" > Διαδικασία Ένταξης στον Κατάλογο Αρμόδιων Οργανισμών του Άρθρου 36</a></li><li class="item-926"><a href="/index.php/el/efet/home-4/efsa/organismoi-tou-arthrou-36-tou-kan-ek-178-2002/katalogos-armodion-organismon-tou-arthrou-36" > Κατάλογος Αρμόδιων Οργανισμών του Άρθρου 36</a></li><li class="item-927"><a href="/index.php/el/efet/home-4/efsa/organismoi-tou-arthrou-36-tou-kan-ek-178-2002/epixorigisi-efsa" > Προσκλήσεις για Επιχορήγηση από την EFSA</a></li></ul></li><li class="item-798"><a href="/index.php/el/efet/home-4/efsa/proskliseis-gia-theseis-empeirognomonon-stin-efsa" > Προσκλήσεις για Θέσεις Εμπειρογνωμόνων στην ΕFSA</a></li><li class="item-799"><a href="/index.php/el/efet/home-4/efsa/videos-infographics" > webinars / videos / infographics</a></li></ul></li><li class="item-730  deeper parent"><a href="/index.php/el/efet/home-4/rasff" > ACN</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-730"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-730"><li class="item-941"><a href="/index.php/el/efet/home-4/rasff/rasff" > RASFF</a></li><li class="item-939"><a href="/index.php/el/efet/home-4/rasff/aac" > AAC</a></li><li class="item-940"><a href="/index.php/el/efet/home-4/rasff/ffn" > FFN</a></li></ul></li><li class="item-728  deeper parent"><a href="/index.php/el/efet/home-4/codex-alimentarious" > CODEX ALIMENTARIUS</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-728"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-728"><li class="item-800"><a href="/index.php/el/efet/home-4/codex-alimentarious/syxnes-erotiseis" > Συχνές Ερωτήσεις</a></li><li class="item-801"><a href="/index.php/el/efet/home-4/codex-alimentarious/ethmiko-simeio-epafis" > Εθνικό Σημείο Επαφής</a></li><li class="item-802"><a href="/index.php/el/efet/home-4/codex-alimentarious/anoixti-prosklisi-ypovolis-sxolion-epi-thematon-syzitisis-tou-codex-alimentarius" > Ανοιχτή πρόσκληση υποβολής σχολίων επί θεμάτων συζήτησης του Codex Alimentarius</a></li><li class="item-803"><a href="/index.php/el/efet/home-4/codex-alimentarious/videos-codex-science" > Videos Codex Science</a></li></ul></li><li class="item-731"><a href="/index.php/el/efet/home-4/infosan" > INFOSAN</a></li><li class="item-805"><a href="/index.php/el/efet/home-4/food-fraud-network" > FOOD FRAUD NETWORK</a></li></ul></li><li class="item-571"><a href="/index.php/el/efet/epistimoniko-symvoylio-elegxou-trofimon-e-s-e-t" > Επιστημονικό Συμβούλιο Ελέγχου Τροφίμων (Ε.Σ.Ε.Τ.)</a></li><li class="item-572"><a href="/index.php/el/efet/home-6" > Εθνικό Συμβούλιο Πολιτικής Ελέγχου Τροφίμων (Ε.Σ.Π.Ε.Τ.)</a></li><li class="item-573"><a href="/index.php/el/efet/home-7" > Απολογισμός δράσεων</a></li></ul></li><li class="item-554  deeper parent"><a href="/index.php/el/food-industry" > Επιχειρήσεις Τροφίμων</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-554"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-554"><li class="item-714"><a href="/index.php/el/food-industry/enarksi-leitourgias-epixeirisis" > Έναρξη λειτουργίας επιχείρησης</a></li><li class="item-715  deeper parent"><a href="/index.php/el/food-industry/egkekrimenes-egkatastaseis" > Εγκεκριμένες εγκαταστάσεις</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-715"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-715"><li class="item-776"><a href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/tomeas-kreatos" > Τομέας Κρέατος</a></li><li class="item-777"><a href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/tomeas-alieftikon-proionton" > Τομέας Αλιευτικών Προϊόντων</a></li><li class="item-778"><a href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/tomeas-galaktos-galaktokomikon" > Τομέας Γάλακτος &amp; Γαλακτοκομικών</a></li><li class="item-779"><a href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/tomeas-proionton-avgoy" > Τομέας Προϊόντων Αυγού</a></li><li class="item-780"><a href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/psyktikes-apothikes" > Ψυκτικές Αποθήκες</a></li><li class="item-938"><a href="/index.php/el/food-industry/egkekrimenes-egkatastaseis/tomeas-proionton-fytikis-proelefsis" > Τομέας Προϊόντων Φυτικής Προέλευσης</a></li></ul></li><li class="item-716"><a href="/index.php/el/food-industry/kataxorimenes-egkatastaseis" > Καταχωρημένες εγκαταστάσεις</a></li><li class="item-717  deeper parent"><a href="/index.php/el/food-industry/eksagoges-trofimon-mi-zoikis-proelefsis" > Εξαγωγές τροφίμων</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-717"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-717"><li class="item-735"><a href="/index.php/el/food-industry/eksagoges-trofimon-mi-zoikis-proelefsis/xorigisi-pistopoiitikoy" > Διαδικασία Χορήγησης Πιστοποιητικού</a></li><li class="item-924"><a href="/index.php/el/food-industry/eksagoges-trofimon-mi-zoikis-proelefsis/diadikasia-xorigisis-pistopoiitikoy" > Έντυπα Χορήγησης Πιστοποιητικού Εξαγωγής</a></li></ul></li><li class="item-718"><a href="/index.php/el/food-industry/odigoi" > Οδηγοί Ορθών Παραγωγικών Πρακτικών</a></li><li class="item-719"><a href="/index.php/el/food-industry/ekdoseis-gia-tis-epixeiriseis" > Εκδόσεις για τις  επιχειρήσεις</a></li><li class="item-720  deeper parent"><a href="/index.php/el/food-industry/ekpaidefsi-prosopikoy-epixeiriseon" > Εκπαίδευση προσωπικού επιχειρήσεων</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-720"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-720"><li class="item-739"><a href="/index.php/el/food-industry/ekpaidefsi-prosopikoy-epixeiriseon/programma-katartisis" > Πρόγραμμα Κατάρτισης</a></li><li class="item-740"><a href="/index.php/el/food-industry/ekpaidefsi-prosopikoy-epixeiriseon/diadikasia-entaksis-sto-mitroo" > Διαδικασία Ένταξης Στο Μητρώο</a></li></ul></li><li class="item-943"><a href="/index.php/el/food-industry/gnomodotisi-eset-kathorismoy-syxnotitas-elegxon" > Γνωμοδότηση ΕΣΕΤ καθορισμού συχνότητας ελέγχων</a></li></ul></li><li class="item-539  deeper parent"><a href="/index.php/el/consumers" > Καταναλωτές</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-539"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-539"><li class="item-721"><a href="/index.php/el/consumers/kataggelies" > Αναφορές / Καταγγελίες</a></li><li class="item-722  deeper parent"><a href="/index.php/el/consumers/diatrofi" > Διατροφή</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-722"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-722"><li class="item-761"><a href="/index.php/el/consumers/diatrofi/diatrofikes-systaseis" > Διατροφικές Συστάσεις</a></li><li class="item-762"><a href="/index.php/el/consumers/diatrofi/drvs-times-anaforas-diaititikis-proslipsis" > DRVs-Tιμές Αναφοράς Διαιτητικής Πρόσληψης</a></li><li class="item-763"><a href="/index.php/el/consumers/diatrofi/alati-lipara-sakxara" > Αλάτι, Λιπαρά</a></li><li class="item-764"><a href="/index.php/el/consumers/diatrofi/dysaneksies-allergies" > Δυσανεξίες / Αλλεργίες</a></li></ul></li><li class="item-723"><a href="/index.php/el/consumers/paraplanisi-notheia" > Απάτη Στην Αγροδιατροφική Αλυσίδα</a></li><li class="item-724"><a href="/index.php/el/consumers/episimansi" > Επισήμανση Τροφίμων</a></li><li class="item-726"><a href="/index.php/el/consumers/rasff-portal" > RASFF Consumer's Portal</a></li><li class="item-781"><a href="/index.php/el/consumers/kindynoi-trofimon" > Κίνδυνοι Τροφίμων</a></li><li class="item-821"><a href="/index.php/el/consumers/ekdoseis" > Εκδόσεις</a></li></ul></li><li class="item-555  divider deeper parent"><a class="separator ">Αρχές Ελέγχου</a>
+<span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-555"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-555"><li class="item-743"><a href="/index.php/el/arxes-elegxou/methodoi-kai-texnikes" > Μέθοδοι και τεχνικές</a></li><li class="item-744  deeper parent"><a href="/index.php/el/arxes-elegxou/odigies" > Οδηγίες επίσημων ελέγχων</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-744"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-744"><li class="item-809"><a href="/index.php/el/arxes-elegxou/odigies/mitroo-epixeiriseon" > Πολυετές Ολοκληρωμένο Πρόγραμμα Ελέγχων </a></li><li class="item-810"><a href="/index.php/el/arxes-elegxou/odigies/entypa-apodosis-stoixeion-episimon-elegxon" > Έντυπα Απόδοσης Στοιχείων Επίσημων Ελέγχων</a></li><li class="item-811"><a href="/index.php/el/arxes-elegxou/odigies/entypa" > Έντυπα</a></li><li class="item-807"><a href="/index.php/el/arxes-elegxou/odigies/entypa-rasff" > Έντυπα - Διαδικασίες ACN</a></li></ul></li><li class="item-746"><a href="/index.php/el/arxes-elegxou/egkyklioi" > Εγκύκλιοι</a></li><li class="item-812"><a href="/index.php/el/arxes-elegxou/stoixeia-episimon-elegxon" > Στοιχεία Επίσημων Ελέγχων</a></li><li class="item-747  deeper parent"><a href="/index.php/el/arxes-elegxou/ergastiria" > Εργαστήρια</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-747"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-747"><li class="item-748"><a href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-anaforas-tis-evropaikis-enosis-gia-ta-trofima-kai-tis-zootrofes-urls" > Εργαστήρια αναφοράς της Ευρωπαϊκής Ένωσης για τα τρόφιμα και τις ζωοτροφές</a></li><li class="item-749"><a href="/index.php/el/arxes-elegxou/ergastiria/ethnika-ergastiria-anaforas-gia-ta-trofima-kai-tis-zootrofes" > Εθνικά εργαστήρια αναφοράς για τα τρόφιμα και τις ζωοτροφές</a></li><li class="item-942"><a href="/index.php/el/arxes-elegxou/ergastiria/episima-ergastiria" > Επίσημα Εργαστήρια</a></li><li class="item-750"><a href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-episimou-elegxou-trofimon" > Δίκτυο Εργαστηρίων του Ε.Φ.Ε.Τ</a></li><li class="item-751  deeper parent"><a href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet" > Εργαστήρια Δοκιμών και Ερευνών Τροφίμων ΕΦΕΤ</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-751"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-751"><li class="item-768  deeper parent"><a href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/athina" > Αθήνα</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-768"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-768"><li class="item-770"><a href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/athina/tomeas-fysikoximikon-dokimon" > Τομέας Φυσικοχημικών Δοκιμών</a></li><li class="item-771"><a href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/athina/tomeas-mikroviologikon-dokimon" > Τομέας Μικροβιολογικών Δοκιμών</a></li><li class="item-772"><a href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/athina/tomeas-moriakon-dokimon" > Τομέας Μοριακών Δοκιμών</a></li></ul></li><li class="item-769  deeper parent"><a href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/thessaloniki" > Θεσσαλονίκη</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-769"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-769"><li class="item-773"><a href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/thessaloniki/tomeas-fysikoximikon-dokimon" > Τομέας Φυσικοχημικών Δοκιμών</a></li><li class="item-774"><a href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/thessaloniki/tomeas-mikroviologikon-dokimon" > Τομέας Μικροβιολογικών Δοκιμών</a></li><li class="item-775"><a href="/index.php/el/arxes-elegxou/ergastiria/ergastiria-dokimon-kai-erevnon-trofimon-efet/thessaloniki/tomeas-moriakon-dokimon" > Τομέας Μοριακών Δοκιμών</a></li></ul></li></ul></li></ul></li><li class="item-765  deeper parent"><a href="/index.php/el/arxes-elegxou/ekpaidefsi-prosopikoy-arxon-elegxou" > Εκπαίδευση Προσωπικού Αρχών Ελέγχου</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-765"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-765"><li class="item-782"><a href="/index.php/el/arxes-elegxou/ekpaidefsi-prosopikoy-arxon-elegxou/ypovoli-aitisis-symmetoxis" > Υποβολή Αίτησης Συμμετοχής</a></li><li class="item-766"><a href="/index.php/el/arxes-elegxou/ekpaidefsi-prosopikoy-arxon-elegxou/programma-katartisis" > Αρχείο Προγραμμάτων Κατάρτισης</a></li></ul></li><li class="item-820"><a href="/index.php/el/arxes-elegxou/politiki-diaxeirisis-anaforon" > Πολιτική Διαχείρισης Αναφορών</a></li></ul></li><li class="item-538  divider deeper parent"><a class="separator ">Νομοθεσία</a>
+<span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-538"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-538"><li class="item-753"><a href="/index.php/el/nomothesia/ethniki-nomothesia" > Εθνική Νομοθεσία</a></li><li class="item-754"><a href="/index.php/el/nomothesia/koinotiki-nomothesia" > Ενωσιακή Νομοθεσία</a></li></ul></li><li class="item-280  active divider deeper parent"><a class="separator ">Ενημέρωση</a>
+<span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-280"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-280"><li class="item-756  active deeper parent"><a href="/index.php/el/enimerosi/deltia-typou" > Δελτία Τύπου</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-756"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-756"><li class="item-872  current active"><a href="/index.php/el/enimerosi/deltia-typou/anakleiseis-cat" > Ανακλήσεις</a></li><li class="item-873"><a href="/index.php/el/enimerosi/deltia-typou/notheia-cat" > Νοθεία</a></li><li class="item-874"><a href="/index.php/el/enimerosi/deltia-typou/kiroseis-cat" > Κυρώσεις</a></li><li class="item-875"><a href="/index.php/el/enimerosi/deltia-typou/news-other-cat" > Άλλα</a></li></ul></li><li class="item-757  deeper parent"><a href="/index.php/el/enimerosi/anakoinoseis-ekdiloseis" > Ανακοινώσεις/Εκδηλώσεις</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-757"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-757"><li class="item-876"><a href="/index.php/el/enimerosi/anakoinoseis-ekdiloseis/anakoinoseis-cat" > Ανακοινώσεις</a></li><li class="item-877"><a href="/index.php/el/enimerosi/anakoinoseis-ekdiloseis/ekdiloseis-cat" > Εκδηλώσεις</a></li></ul></li><li class="item-758  deeper parent"><a href="/index.php/el/enimerosi/diagonismoi-prokirykseis" > Διαγωνισμοί/Προκηρύξεις</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-758"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-758"><li class="item-878"><a href="/index.php/el/enimerosi/diagonismoi-prokirykseis/diagonismoi-cat" > Διαγωνισμοί</a></li><li class="item-879"><a href="/index.php/el/enimerosi/diagonismoi-prokirykseis/prokirikseis-cat" > Προκηρύξεις</a></li></ul></li><li class="item-759"><a href="/index.php/el/enimerosi/dimoskopiseis" > Δημοσκοπήσεις</a></li><li class="item-783  deeper parent"><a href="/index.php/el/enimerosi/alla-nea" > Άλλα Νέα</a><span class="offcanvas-menu-toggler collapsed" data-toggle="collapse" data-target="#collapse-menu-783"><i class="open-icon fa fa-angle-down"></i><i class="close-icon fa fa-angle-up"></i></span><ul class="collapse" id="collapse-menu-783"><li class="item-925"><a href="/index.php/el/enimerosi/alla-nea/efsa-cat" > EFSA</a></li><li class="item-880"><a href="/index.php/el/enimerosi/alla-nea/codex-cat" > CODEX</a></li><li class="item-882"><a href="/index.php/el/enimerosi/alla-nea/diatrofi-cat" > Διατροφή</a></li><li class="item-884"><a href="/index.php/el/enimerosi/alla-nea/ekpaideusi-cat" > Εκπαίδευση</a></li><li class="item-885"><a href="/index.php/el/enimerosi/alla-nea/omilies-cat" > Ομιλίες</a></li><li class="item-881"><a href="/index.php/el/enimerosi/alla-nea/diatakseis-cat" > Ημερήσιες Διατάξεις</a></li></ul></li></ul></li></ul>
+</div></div>
+                                                    </div> <!-- /.offcanvas-inner -->
+                    </div> <!-- /.offcanvas-menu -->
+
+                    
+                    
+                    <!-- Preloader -->
+                    
+                    <!-- Go to top -->
+                                            <a href="javascript:void(0)" class="scrollup">&nbsp;</a>
+                    
+                </body>
+                </html>

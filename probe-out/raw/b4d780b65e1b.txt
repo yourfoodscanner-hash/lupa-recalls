@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Finland RASFF notifications</title>
+    <link>https://webgate.ec.europa.eu/rasff-window/screen/list?consumer=5012</link>
+    <description />
+    <pubDate>Fri, 27 Nov 2026 08:34:01 GMT</pubDate>
+    <item>
+      <title>2026.10456 - Metal foreign bodies in chocolate cereal bars distributed to Finland and Iceland</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/889186</link>
+      <description>Notified by Denmark on 24/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10406 - 	Undeclared allergen mustard in soba noodles, from Australia via the Netherlands.</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/888857</link>
+      <description>Notified by Belgium on 23/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10360 - High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/888516</link>
+      <description>Notified by Netherlands on 20/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9854 - Pesticide residues (chlorpyrifos) in dried jasmine flowers (herbal tea) from China via Sweden.</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/884565</link>
+      <description>Notified by Finland on 05/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9837 - Sharp transparent foreign objects detected within dog food</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/884569</link>
+      <description>Notified by Netherlands on 05/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9716 - 3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/873185</link>
+      <description>Notified by Switzerland on 02/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9682 - High content of glycidyl esters in wasabi rice crackers, from the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/883779</link>
+      <description>Notified by Denmark on 30/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9592 - Unauthorised substance BPAF (bisphenol AF) in temperature-sensing spoons from China, via Belgium</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/882571</link>
+      <description>Notified by Germany on 28/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9525 - Glass fragments in protein pudding from Denmark</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/882379</link>
+      <description>Notified by Denmark on 26/10/2026</description>
+    </item>
+    <item>
+      <title>2026.8868 - Ochratoxin A in caramel flavoured ground coffee from Italy.</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/878091</link>
+      <description>Notified by Finland on 07/10/2026</description>
+    </item>
+    <item>
+      <title>2026.8754 - Salmonella detected in Pure Sesame Tahini from Egypt via Italy</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/876267</link>
+      <description>Notified by Malta on 02/10/2026</description>
+    </item>
+    <item>
+      <title>2026.5922 - Aluminum in green tea powder (matcha) from China, via the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/856394</link>
+      <description>Notified by Germany on 03/07/2026</description>
+    </item>
+    <item>
+      <title>2026.5553 - Presence of Listeria monocytogenes in Brie</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/853516</link>
+      <description>Notified by Ireland on 23/06/2026</description>
+    </item>
+  </channel>
+</rss>

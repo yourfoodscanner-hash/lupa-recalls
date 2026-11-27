@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Netherlands RASFF notifications</title>
+    <link>https://webgate.ec.europa.eu/rasff-window/screen/list?consumer=5026</link>
+    <description />
+    <pubDate>Fri, 27 Nov 2026 08:34:07 GMT</pubDate>
+    <item>
+      <title>2026.10492 - High content of hydrocyanic acid in golden flax seeds</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/889320</link>
+      <description>Notified by France on 25/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10484 - Undeclared allergen cashew on a chicken cheese snack, from the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/889386</link>
+      <description>Notified by Netherlands on 25/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10469 - Glycoalkaloids in potatoes from France</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/889185</link>
+      <description>Notified by Germany on 25/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10445 - Piece of glass found in the packaging, between the cheese and the packaging</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/889004</link>
+      <description>Notified by Netherlands on 24/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10406 - 	Undeclared allergen mustard in soba noodles, from Australia via the Netherlands.</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/888857</link>
+      <description>Notified by Belgium on 23/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10368 - Presence of peanut allergen in a vegan protein bar, from the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/888600</link>
+      <description>Notified by Netherlands on 23/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10360 - High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/888516</link>
+      <description>Notified by Netherlands on 20/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10359 - Proteine di mandorle (allergeni) non dichiarate in etichetta in biscotti senza glutine dall'Italia/Almond proteins (allergens) not declared on the label in gluten-free cookies from Italy</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/887984</link>
+      <description>Notified by Italy on 20/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10308 - Migracja formaldehydu w Kubkach z melaminy // Lack of material stability in melamine cups from China</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/885648</link>
+      <description>Notified by Poland on 19/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10274 - Listeria monocytogenes in ready-to-eat Mini Chicken Breast Fillet Pieces from Germany</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/887085</link>
+      <description>Notified by Switzerland on 18/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10141 - Anthraquinone in yerba mate tea from Syria, via the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/886687</link>
+      <description>Notified by Germany on 16/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10084 - Foreign object (plastic) in a protein bar from the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/886528</link>
+      <description>Notified by Germany on 12/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10028 - Undeclared allergen cashew on chicken wrap, from the Netheralnds</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/886282</link>
+      <description>Notified by Netherlands on 11/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9991 - Too high count of E.coli in mussels from The Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/885799</link>
+      <description>Notified by Netherlands on 10/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9973 - Salmonella in marshmallow from Belgium</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/885886</link>
+      <description>Notified by Belgium on 10/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9951 - For further investigations - Insects found in chocolate Santas</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/885211</link>
+      <description>Notified by Denmark on 09/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9872 - Exceedance of aflatoxin in pistachio kernels from USA via Italy</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/884597</link>
+      <description>Notified by Norway on 06/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9837 - Sharp transparent foreign objects detected within dog food</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/884569</link>
+      <description>Notified by Netherlands on 05/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9716 - 3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/873185</link>
+      <description>Notified by Switzerland on 02/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9715 - Higher THC content in capsules from the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/884178</link>
+      <description>Notified by France on 02/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9701 - Shiga toxin-producing Escherichia coli (STEC) in frozen goat meat from the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/883928</link>
+      <description>Notified by Germany on 30/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9687 - Allergen oats not highlighted and not in Dutch language on cookies, from Canada, via the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/883433</link>
+      <description>Notified by Netherlands on 30/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9323 - For further investigations - Beetles found in chickpeas</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/880978</link>
+      <description>Notified by Denmark on 30/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9682 - High content of glycidyl esters in wasabi rice crackers, from the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/883779</link>
+      <description>Notified by Denmark on 30/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9651 - MRL exceedance for prothioconazole in Savoy cabbage from Belgium</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/883299</link>
+      <description>Notified by Belgium on 29/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9645 - Listeria monocytogenes in minced meat preparations from Belgium</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/883478</link>
+      <description>Notified by Belgium on 29/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9623 - Possibile contaminazione fungina in integratore alimentare destinato a soggetti in età pediatrica////Possible fungal contamination in a food supplement for pediatric subjects</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/880636</link>
+      <description>Notified by Italy on 29/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9592 - Unauthorised substance BPAF (bisphenol AF) in temperature-sensing spoons from China, via Belgium</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/882571</link>
+      <description>Notified by Germany on 28/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9566 - Physical contamination in organic acai powder from Brazil</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/882688</link>
+      <description>Notified by Netherlands on 27/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9542 - Primary aromatic amines in a kitchen utensil set from China, via Germany</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/881836</link>
+      <description>Notified by Germany on 27/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9525 - Glass fragments in protein pudding from Denmark</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/882379</link>
+      <description>Notified by Denmark on 26/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9521 - Unauthorised substance chlorpyrifos and the unauthorised colouring azorubine (E122) in sumac from Lebanon</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/882251</link>
+      <description>Notified by Germany on 26/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9492 - Vegan pokebowl contains egg from the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/882145</link>
+      <description>Notified by Netherlands on 24/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9462 - Undeclared allergen sesam in stir-fry meat, from Belgium</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/881845</link>
+      <description>Notified by Netherlands on 23/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9369 - Presence of undeclared sulfites in raisins</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/881228</link>
+      <description>Notified by France on 21/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9031 - Pesticides residues in passion fruit from Ecuador</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/879006</link>
+      <description>Notified by Belgium on 12/10/2026</description>
+    </item>
+    <item>
+      <title>2026.8868 - Ochratoxin A in caramel flavoured ground coffee from Italy.</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/878091</link>
+      <description>Notified by Finland on 07/10/2026</description>
+    </item>
+    <item>
+      <title>2026.8677 - Detection of E. coli STEC in cheese</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/876681</link>
+      <description>Notified by France on 30/09/2026</description>
+    </item>
+    <item>
+      <title>2026.8004 - STEC in goat milk kefir from The Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/871959</link>
+      <description>Notified by Netherlands on 10/09/2026</description>
+    </item>
+    <item>
+      <title>2026.7398 - Bacillus cereus in Protein Pudding from Germany</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/867512</link>
+      <description>Notified by Germany on 20/08/2026</description>
+    </item>
+    <item>
+      <title>2026.6824 - MOAH in pomace olive oil from Italy</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/862376</link>
+      <description>Notified by Netherlands on 31/07/2026</description>
+    </item>
+    <item>
+      <title>2026.5922 - Aluminum in green tea powder (matcha) from China, via the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/856394</link>
+      <description>Notified by Germany on 03/07/2026</description>
+    </item>
+    <item>
+      <title>2026.5553 - Presence of Listeria monocytogenes in Brie</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/853516</link>
+      <description>Notified by Ireland on 23/06/2026</description>
+    </item>
+    <item>
+      <title>2026.4441 - High level of delta-9-THC in fruit gummies from Slovenia</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/845113</link>
+      <description>Notified by Austria on 20/05/2026</description>
+    </item>
+  </channel>
+</rss>

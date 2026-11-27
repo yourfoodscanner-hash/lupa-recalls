@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Romania RASFF notifications</title>
+    <link>https://webgate.ec.europa.eu/rasff-window/screen/list?consumer=5030</link>
+    <description />
+    <pubDate>Fri, 27 Nov 2026 08:34:09 GMT</pubDate>
+    <item>
+      <title>2026.10406 - 	Undeclared allergen mustard in soba noodles, from Australia via the Netherlands.</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/888857</link>
+      <description>Notified by Belgium on 23/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10360 - High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/888516</link>
+      <description>Notified by Netherlands on 20/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10303 - Presenza di Salmonella Spp. in Salsiccia/Presence of Salmonella Spp. in Sausage</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/888019</link>
+      <description>Notified by Italy on 19/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10256 -  4,4'-methylenedianiline migration into non-scratch nylon spatula</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/887359</link>
+      <description>Notified by France on 18/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10112 - Cannabidiol (CBD) in hrana complementara pentru animale origine Slovenia /////Cannabidiol (CBD) in complementary pet food, originating from Slovenia</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/886636</link>
+      <description>Notified by Romania on 13/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9912 - Insufficient sterilisation levels in tinned food produced in France</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/885004</link>
+      <description>Notified by France on 06/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9864 - Salmonella Cubana in organic pine nuts from Italy</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/885147</link>
+      <description>Notified by Germany on 06/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9837 - Sharp transparent foreign objects detected within dog food</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/884569</link>
+      <description>Notified by Netherlands on 05/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9808 - Salmonella Infantis in chilled corn fed chicken breast filets from Romania</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/884751</link>
+      <description>Notified by Czechia on 04/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9682 - High content of glycidyl esters in wasabi rice crackers, from the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/883779</link>
+      <description>Notified by Denmark on 30/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9592 - Unauthorised substance BPAF (bisphenol AF) in temperature-sensing spoons from China, via Belgium</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/882571</link>
+      <description>Notified by Germany on 28/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9542 - Primary aromatic amines in a kitchen utensil set from China, via Germany</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/881836</link>
+      <description>Notified by Germany on 27/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9224 - Pyrrolizidine alkaloids in threshed and dried organic savory from Germany</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/880400</link>
+      <description>Notified by Germany on 16/10/2026</description>
+    </item>
+    <item>
+      <title>2026.8868 - Ochratoxin A in caramel flavoured ground coffee from Italy.</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/878091</link>
+      <description>Notified by Finland on 07/10/2026</description>
+    </item>
+    <item>
+      <title>2026.8754 - Salmonella detected in Pure Sesame Tahini from Egypt via Italy</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/876267</link>
+      <description>Notified by Malta on 02/10/2026</description>
+    </item>
+    <item>
+      <title>2026.8677 - Detection of E. coli STEC in cheese</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/876681</link>
+      <description>Notified by France on 30/09/2026</description>
+    </item>
+    <item>
+      <title>2026.7398 - Bacillus cereus in Protein Pudding from Germany</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/867512</link>
+      <description>Notified by Germany on 20/08/2026</description>
+    </item>
+    <item>
+      <title>2026.5922 - Aluminum in green tea powder (matcha) from China, via the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/856394</link>
+      <description>Notified by Germany on 03/07/2026</description>
+    </item>
+    <item>
+      <title>2026.5553 - Presence of Listeria monocytogenes in Brie</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/853516</link>
+      <description>Notified by Ireland on 23/06/2026</description>
+    </item>
+  </channel>
+</rss>

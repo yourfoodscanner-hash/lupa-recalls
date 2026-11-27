@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Bulgaria RASFF notifications</title>
+    <link>https://webgate.ec.europa.eu/rasff-window/screen/list?consumer=5003</link>
+    <description />
+    <pubDate>Fri, 27 Nov 2026 08:33:59 GMT</pubDate>
+    <item>
+      <title>2026.10469 - Glycoalkaloids in potatoes from France</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/889185</link>
+      <description>Notified by Germany on 25/11/2026</description>
+    </item>
+    <item>
+      <title>2026.10141 - Anthraquinone in yerba mate tea from Syria, via the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/886687</link>
+      <description>Notified by Germany on 16/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9837 - Sharp transparent foreign objects detected within dog food</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/884569</link>
+      <description>Notified by Netherlands on 05/11/2026</description>
+    </item>
+    <item>
+      <title>2026.9682 - High content of glycidyl esters in wasabi rice crackers, from the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/883779</link>
+      <description>Notified by Denmark on 30/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9592 - Unauthorised substance BPAF (bisphenol AF) in temperature-sensing spoons from China, via Belgium</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/882571</link>
+      <description>Notified by Germany on 28/10/2026</description>
+    </item>
+    <item>
+      <title>2026.9542 - Primary aromatic amines in a kitchen utensil set from China, via Germany</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/881836</link>
+      <description>Notified by Germany on 27/10/2026</description>
+    </item>
+    <item>
+      <title>2026.8754 - Salmonella detected in Pure Sesame Tahini from Egypt via Italy</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/876267</link>
+      <description>Notified by Malta on 02/10/2026</description>
+    </item>
+    <item>
+      <title>2026.7398 - Bacillus cereus in Protein Pudding from Germany</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/867512</link>
+      <description>Notified by Germany on 20/08/2026</description>
+    </item>
+    <item>
+      <title>2026.5922 - Aluminum in green tea powder (matcha) from China, via the Netherlands</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/856394</link>
+      <description>Notified by Germany on 03/07/2026</description>
+    </item>
+    <item>
+      <title>2026.5553 - Presence of Listeria monocytogenes in Brie</title>
+      <link>https://webgate.ec.europa.eu/rasff-window/screen/notification/853516</link>
+      <description>Notified by Ireland on 23/06/2026</description>
+    </item>
+  </channel>
+</rss>

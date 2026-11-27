@@ -1,0 +1,56 @@
+{
+ "fvst": {
+  "since": "2026-09-28",
+  "seen": 526,
+  "notices": 14,
+  "bad": [],
+  "skipped": {
+   "stavka nije obavijest o povlačenju": 2,
+   "starije od prozora": 505,
+   "stranica nije u obliku obavijesti": 5
+  },
+  "withBarcode": 6,
+  "withLots": 1,
+  "ms": 4575
+ },
+ "pranyr": {
+  "since": "2026-10-13",
+  "seen": 100,
+  "notices": 53,
+  "bad": [],
+  "skipped": {
+   "pronađeno u ugostiteljstvu, ne u prodaji": 26,
+   "starije od prozora": 21
+  },
+  "withBarcode": 0,
+  "withLots": 29,
+  "ms": 8812
+ },
+ "efet": {
+  "since": "2026-08-29",
+  "seen": 20,
+  "notices": 6,
+  "bad": [],
+  "skipped": {
+   "nije hrana (posuđe i sl.)": 1,
+   "bez naziva": 1,
+   "starije od prozora": 1
+  },
+  "withBarcode": 0,
+  "withLots": 4,
+  "ms": 6373
+ },
+ "rasff": {
+  "since": "2026-09-28",
+  "seen": 355,
+  "notices": 247,
+  "bad": [],
+  "skipped": {
+   "starije od prozora": 61,
+   "nije hrana (hrana za životinje, materijali u dodiru s hranom …)": 47
+  },
+  "withBarcode": 0,
+  "withLots": 0,
+  "ms": 82739
+ }
+}
