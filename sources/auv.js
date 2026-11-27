@@ -84,7 +84,7 @@ function productOfTitle(title) {
   const about = /opinionin(?: publik)? p[eë]r\s+(.+)$/i.exec(t);
   const named = after ? after[1] : about ? about[1] : t;
   // "formulave për foshnje Aptamil Pronutra 1 …" → "Aptamil Pronutra 1 …"; "… të prodhuara në Japoni" → without where it was made
-  return named.replace(/^(?:(?:formul|q[uü]m[eë]sht|produkt)\S*\s+(?:ushqimor\S*\s+)?)?p[eë]r foshnje\s+/i, '')
+  return named.replace(/^(?:disa\s+)?(?:(?:formul|q[uü]m[eë]sht|produkt)\S*\s+(?:ushqimor\S*\s+)?)?p[eë]r foshnje\s+/i, '')
     .replace(/\s+t[eë] prodhuar\S*\s+n[eë]\s+.+$/i, '').trim();
 }
 
@@ -183,7 +183,8 @@ async function fetchNotices({ fetchImpl = fetch, url = API, since = '2000-01-01'
     if (item.day < since) { count('starije od prozora'); continue; }
     const k = known.get(idOf(PREFIX, String(item.id)));
     if (k) { notices.push(k); continue; }
-    const name = fold(`${item.title} ${item.document ? decodeURIComponent(item.document.split('/').pop()) : ''}`);
+    const file = item.document ? item.document.split('/').pop() : '';
+    const name = fold(`${item.title} ${(() => { try { return decodeURIComponent(file); } catch { return file; } })()}`);   // a stray "%" is no reason to stop
     if (NOT_A_RECALL.test(fold(item.title))) { count('nije povlačenje proizvoda'); continue; }
     if (item.text.length >= 200) toRead.push({ item, text: item.text });           // the text is in the page
     else if (item.document && WORTH_READING.test(name)) toRead.push({ item, document: item.document });
