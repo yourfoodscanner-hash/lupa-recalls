@@ -274,6 +274,19 @@ Opisan u `lib/contract.js`. Provjere u ovom repozitoriju su **iste** one koje ap
 Granice: najviše 800 obavijesti i 500 000 znakova (aplikacija prihvata do 1000 i 600 000).
 Kad ih ima više, izostavljaju se najstarije iz automatskih izvora; ručno unesene ostaju.
 
+**Isti proizvod u više zemalja — polje `group` (neobavezno).** Svaka zemlja zadržava svoju obavijest
+(svoju zemlju, link i tekst), a obavijesti koje su **sigurno** isti proizvod dobiju isto `group`, da
+ih aplikacija može prikazati kao jednu karticu sa spiskom zemalja i linkom za svaku:
+- ista RASFF notifikacija na listama više zemalja → `"rasff-2026-10406"`;
+- isti barkod proizvođača u dvije ili više obavijesti (iz bilo kojih izvora, i ručno unesenih) →
+  `"gtin-3850123456782"`.
+
+**Po nazivu se nikad ne spaja** — slični nazivi mogu biti drugi proizvod, druga serija ili drugi
+problem, a pogrešna veza je gora od nikakve. `group` se upisuje samo kad povezuje bar dvije
+obavijesti u fajlu; računa ga posao pri svakoj izgradnji (`withGroups` u `lib/build.js`), ručno se ne
+unosi. Aplikacija koja polje ne poznaje ga preskoči (kao i svako nepoznato polje), pa je to i dalje
+format `v1`.
+
 ## 7. Šta ovaj fajl nije
 
 Lista ne mora biti potpuna i ne zamjenjuje službene objave. Barkod označava proizvod, ne seriju:

@@ -83,6 +83,8 @@ function toNotice(view, country, day) {
       details: findings.length ? cut(findings.join('; '), 800) : undefined,
       action: measures.length ? cut(capital(measures.join(', ')), 500) : undefined,
       source: SOURCE, url: `${BASE}screen/notification/${nid}`,
+      // one notification on several countries' lists is one recall: the build keeps this only when it links notices
+      group: idOf('rasff-', reference),
     },
   };
 }

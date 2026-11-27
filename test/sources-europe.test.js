@@ -170,7 +170,7 @@ test('EU: per country, the notifications the portal lists for its market — eac
     name: 'Biscotti senza glutine confezionati/Packaged gluten-free cookies',
     reason: "Proteine di mandorle (allergeni) non dichiarate in etichetta in biscotti senza glutine dall'Italia/Almond proteins (allergens) not declared on the label in…",
     details: 'almond - undeclared - allergens - faulty labelling or claims', action: 'Recall from consumer, detained by operator',
-    source: 'RASFF – European Commission', url: 'https://webgate.ec.europa.eu/rasff-window/screen/notification/887984',
+    source: 'RASFF – European Commission', url: 'https://webgate.ec.europa.eu/rasff-window/screen/notification/887984', group: 'rasff-2026-10359',
   });
   // the same notification on two countries' lists: two notices, one request
   assert.ok(n['eu-rasff-it-2026-10406'] && n['eu-rasff-pt-2026-10406']);

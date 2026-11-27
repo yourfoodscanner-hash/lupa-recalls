@@ -648,6 +648,89 @@
    }
   },
   {
+   "what": "a group (the same product in several notices)",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ],
+    "group": "rasff-2026-10406"
+   },
+   "expect": {
+    "group": "rasff-2026-10406"
+   }
+  },
+  {
+   "what": "a group in another form is simply not shown",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ],
+    "group": "Rasff 2026/10406"
+   },
+   "expect": {
+    "group": null
+   }
+  },
+  {
+   "what": "a group that is not a text is simply not shown",
+   "ok": true,
+   "notice": {
+    "id": "hr-2026-11-24-kasica",
+    "country": "HR",
+    "published": "2026-11-24",
+    "category": "baby",
+    "hazard": "foreign",
+    "name": "Dječja kašica jabuka i kruška, 190 g",
+    "brand": "Primjer",
+    "reason": "komadići stakla",
+    "details": "U pojedinim teglicama mogući su komadići stakla.",
+    "lots": "L24318, L24319",
+    "bestBefore": "30. 6. 2027.",
+    "action": "Ne dajte proizvod djeci. Vratite ga u prodavnicu.",
+    "source": "Državni inspektorat Republike Hrvatske",
+    "url": "https://dirh.gov.hr/obavijesti/123",
+    "gtins": [
+     "3850123456782"
+    ],
+    "group": [
+     "rasff-2026-10406"
+    ]
+   },
+   "expect": {
+    "group": null
+   }
+  },
+  {
    "what": "a field the format does not know is ignored",
    "ok": true,
    "notice": {
