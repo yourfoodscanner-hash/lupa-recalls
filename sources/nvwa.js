@@ -4,12 +4,14 @@
  * companies' warnings about unsafe food (and about other products, which are left out) that the authority
  * publishes as news (/actueel/nieuws/2026/11/26/veiligheidswaarschuwing-…).
  *
- * Seen on the live data (27 Nov 2026): the site's full list of warnings is drawn in the browser from a
- * search service that cannot be read here, and its RSS feeds answer "feeds offline". What is on the
- * server's pages: the news sitemap (/news/sitemap.xml — every news item of the last two days, with its
- * day and title) and the three latest warnings on /actueel/veiligheidswaarschuwingen. The feed job runs
- * every day, so both together see every new warning; a warning read once is kept (`known`) for as long
- * as it is in the window.
+ * Seen on the live data (27 Nov 2026): the site's own list of warnings is drawn in the browser from the
+ * site's search (/api/search: the browser posts its search and a SHA-256 of it as "hash"); its RSS feeds
+ * answer "feeds offline". The job asks the search what the browser asks for "veiligheidswaarschuwing",
+ * newest first, 50 at a time, until the results are older than the window. Beside it, what the server
+ * shows on its pages: the news sitemap (/news/sitemap.xml — every news item of the last two days) and
+ * the three latest warnings on /actueel/veiligheidswaarschuwingen. When the search does not answer, the
+ * short lists still see every new warning (the job runs every day), and a warning read before is kept
+ * while it is in the window.
  *
  * The page of a warning: the title ("Veiligheidswaarschuwing diverse salades van Marqt Keuken"), an
  * opening paragraph ("Udea waarschuwt voor … Er bestaat een kans dat deze producten witte harde plastic
@@ -18,8 +20,9 @@
  * subscription it belongs to — "… over levensmiddelen en diervoeders" (food) or "… over
  * consumentenartikelen" (anything else, left out).
  */
+const crypto = require('crypto');
 const { decodeEntities, htmlToText, oneLine, idOf, cut, labeledGtins, labeledLots, labeledDates, alignedFold } = require('../lib/text');
-const { getText, mapLimit } = require('../lib/http');
+const { request, getText, mapLimit } = require('../lib/http');
 const { hazardOf } = require('../lib/classify');
 
 const NAME = 'nvwa';
@@ -29,7 +32,10 @@ const SOURCE = 'NVWA';
 const SITE = 'https://www.nvwa.nl';
 const SITEMAP = `${SITE}/news/sitemap.xml`;
 const LATEST = `${SITE}/actueel/veiligheidswaarschuwingen`;
-const MAX_PAGES = 30;
+const SEARCH = `${SITE}/api/search`;
+const PER_PAGE = 50;
+const MAX_SEARCH_PAGES = 4;
+const MAX_PAGES = 60;
 const WARNING = /\/actueel\/nieuws\/(\d{4})\/(\d{2})\/(\d{2})\/(veiligheidswaarschuwing-[a-z0-9-]+)/;
 
 function rowOf(path, title) {
@@ -60,6 +66,38 @@ function latestRows(html) {
   for (const m of page.matchAll(/href="(\/actueel\/nieuws\/\d{4}\/\d{2}\/\d{2}\/veiligheidswaarschuwing-[a-z0-9-]+)"/g)) {
     const row = rowOf(m[1]);
     if (row && !rows.some((r) => r.url === row.url)) rows.push(row);
+  }
+  return rows;
+}
+
+/** What the site's search page posts for a search, with its "hash" (the SHA-256 of exactly that text). */
+function searchRequest(page) {
+  const body = JSON.stringify({
+    requestState: { current: page, filters: [], resultsPerPage: PER_PAGE, searchTerm: 'veiligheidswaarschuwing', sortDirection: '', sortField: '', sortList: [] },
+    queryConfig: {
+      filters: [{ field: 'topic', values: ['Veiligheidswaarschuwingen'], type: 'all' }, { field: 'content_type', values: ['pro:newsDocument'], type: 'all' }],
+      result_fields: { url: { raw: {} }, page_title: { raw: {} }, meta_description: { raw: {}, snippet: { size: 140, fallback: true } }, sort_date: { raw: {} }, information_type: { raw: {} } },
+      disjunctiveFacets: ['information_type', 'activity_type'], facets: { information_type: { type: 'value', size: 100 } },
+      sortList: [{ field: 'sort_date', direction: 'desc' }],
+    },
+  });
+  return { url: `${SEARCH}?hash=${crypto.createHash('sha256').update(body).digest('hex')}`, body };
+}
+
+/** The warnings the search finds, newest first, until they are older than the window. Throws when the answer is not a search result. */
+async function searchRows(fetchImpl, { userAgent, since }) {
+  const rows = [];
+  for (let page = 1; page <= MAX_SEARCH_PAGES; page++) {
+    const { url, body } = searchRequest(page);
+    const response = await request(fetchImpl, url, { userAgent, method: 'POST', body, accept: 'application/json', headers: { 'Content-Type': 'application/json' } });
+    const data = JSON.parse(await response.text());
+    if (!data || !Array.isArray(data.results)) throw new Error('pretraga NVWA nema "results" (format se promijenio?)');
+    for (const r of data.results) {
+      const row = rowOf(String(r?.url?.raw ?? ''), r?.page_title?.raw);
+      if (row && !rows.some((x) => x.url === row.url)) rows.push(row);
+    }
+    const days = data.results.map((r) => String(r?.sort_date?.raw ?? '').slice(0, 10)).filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d));
+    if (data.results.length < PER_PAGE || days.length === 0 || days.some((d) => d < since)) break;
   }
   return rows;
 }
@@ -145,8 +183,16 @@ function toNotice(row, parts) {
 async function fetchNotices({ fetchImpl = fetch, since = '2000-01-01', userAgent, known = new Map() } = {}) {
   const skipped = {};
   const count = (why) => { skipped[why] = (skipped[why] ?? 0) + 1; };
+  let searched = [];
+  let searchFailed = false;
+  try {
+    searched = await searchRows(fetchImpl, { userAgent, since });
+  } catch (e) {
+    searchFailed = true;
+    count(`pretraga NVWA nije odgovorila (${String(e && e.message ? e.message : e).slice(0, 80)}) — samo kratke liste`);
+  }
   const rows = [];
-  for (const row of [...sitemapRows(await getText(fetchImpl, SITEMAP, { userAgent })), ...latestRows(await getText(fetchImpl, LATEST, { userAgent }))]) {
+  for (const row of [...searched, ...sitemapRows(await getText(fetchImpl, SITEMAP, { userAgent })), ...latestRows(await getText(fetchImpl, LATEST, { userAgent }))]) {
     if (!rows.some((r) => r.url === row.url)) rows.push(row);
   }
   const notices = [];
@@ -171,11 +217,13 @@ async function fetchNotices({ fetchImpl = fetch, since = '2000-01-01', userAgent
   });
   if (odd > 0 && read === 0) throw new Error(`nijedna pročitana stranica nije u obliku upozorenja (${odd}) — format se promijenio?`);
   for (let i = MAX_PAGES; i < toRead.length; i++) count('stranica ostavljena za sljedeće pokretanje');
-  // the lists show only the last days: what was read before stays while it is in the window
-  for (const k of known.values()) {
-    if (k.published >= since && !notices.some((n) => n.id === k.id)) notices.push(k);
+  // without the search, the lists show only the last days: what was read before stays while it is in the window
+  if (searchFailed) {
+    for (const k of known.values()) {
+      if (k.published >= since && !notices.some((n) => n.id === k.id)) notices.push(k);
+    }
   }
   return { notices, seen: rows.length, skipped };
 }
 
-module.exports = { name: NAME, prefix: PREFIX, country: COUNTRY, source: SOURCE, defaultUrl: SITEMAP, fetchNotices, sitemapRows, latestRows, pageParts, toNotice, idOfRow, MAX_PAGES };
+module.exports = { name: NAME, prefix: PREFIX, country: COUNTRY, source: SOURCE, defaultUrl: SITEMAP, fetchNotices, searchRequest, searchRows, sitemapRows, latestRows, pageParts, toNotice, idOfRow, MAX_PAGES };
