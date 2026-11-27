@@ -1,31 +1,55 @@
 [
  {
-  "name": "eu-rasff-rss-all",
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/consumer/rss/all/en/"
+  "name": "eu-rasff-markets",
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/organization/single/market/list/en/"
  },
  {
-  "name": "eu-rasff-org-chunk",
-  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-2WIGVTXQ.js",
+  "name": "eu-rasff-notif-chunk",
+  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-7UJMJRHB.js",
   "max": 8000000
  },
  {
-  "name": "eu-rasff-markets",
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/organization/single/market/"
+  "name": "eu-rasff-notif-view",
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/view/id/889479/"
  },
  {
-  "name": "se-newslist-js",
-  "url": "https://www.livsmedelsverket.se/dist/assets/NewsList-DvKF8-x-.js"
+  "name": "se-news-101",
+  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=20&filters=101"
  },
  {
-  "name": "se-news-cats",
-  "url": "https://www.livsmedelsverket.se/api/news/getnewscategories"
+  "name": "se-news-101b",
+  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=20&filters=101",
+  "headers": {
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36",
+   "Accept": "application/json",
+   "Accept-Language": "sv-SE,sv;q=0.9",
+   "Referer": "https://www.livsmedelsverket.se/om-oss/press/aterkallanden/"
+  }
  },
  {
-  "name": "se-news-1",
-  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=20&baseFilter=101"
+  "name": "se-news-45",
+  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=10&filters=45",
+  "headers": {
+   "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36",
+   "Accept": "application/json",
+   "Accept-Language": "sv-SE,sv;q=0.9",
+   "Referer": "https://www.livsmedelsverket.se/om-oss/press/aterkallanden/"
+  }
  },
  {
-  "name": "se-news-2",
-  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=20"
+  "name": "cz-search-table",
+  "url": "https://www.potravinynapranyri.cz/Search.aspx?scategory=3&ext=y&lang=cs&design=default&archive=actual&listtype=table"
+ },
+ {
+  "name": "cz-search-tiles",
+  "url": "https://www.potravinynapranyri.cz/Search.aspx?scategory=3&ext=y&lang=cs&design=default&archive=actual&listtype=tiles"
+ },
+ {
+  "name": "gr-feed-limit",
+  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat?format=feed&type=rss&limit=60"
+ },
+ {
+  "name": "gr-list-p2",
+  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat?start=10"
  }
 ]
