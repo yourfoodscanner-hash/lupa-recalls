@@ -1,5 +1,0 @@
-[
- { "name": "ires-event", "url": "https://www.accessdata.fda.gov/scripts/ires/index.cfm?Event=100258" },
- { "name": "ires-event-lc", "url": "https://www.accessdata.fda.gov/scripts/ires/index.cfm?event=100258" },
- { "name": "fda-enf-event", "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100258&limit=100" }
-]
