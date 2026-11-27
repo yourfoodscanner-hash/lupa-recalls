@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-27T08:07:07Z",
+ "generated": "2026-11-27T09:03:56Z",
  "recalls": [
   {
    "id": "de-lmw-261126-26-hh-kartoffeln",
@@ -64,6 +64,23 @@
    "action": "Empfehlung der Firma Weismainer Brauerei GmbH & Co. KG: Es kann nicht ausgeschlossen werden, dass Verbraucher aufgrund der fehlerhaften Kennzeichnung ungewollt alkoholhaltiges Bier zu sich nehmen. Kunden, die das entsprechende Produkt erworben haben, können dies an ihrer Einkaufsstelle zurückgeben. Der Kaufpreis wird auch ohne Vorlage des Kassenbons erstattet.",
    "source": "lebensmittelwarnung.de",
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261126_29_BY_Wei%C3%9Fbier/261126_29_BY_Wei%C3%9Fbier.html"
+  },
+  {
+   "id": "dk-fvst-2026-nov-tilbagekald-af-oksekebab",
+   "country": "DK",
+   "published": "2026-11-26",
+   "category": "food",
+   "hazard": "other",
+   "name": "Heat'n Eat Okse kebab",
+   "reason": "Der er ved analyse påvist hjernevæv fra kvæg i produktet",
+   "details": "Der er ved analyse påvist hjernevæv fra kvæg i produktet. Hjernevæv fra kvæg på over 12 måneder er specificeret risikomateriale, som potentielt kan indeholde sygdomsfremkaldende prioner, og må ikke bruges til fødevarer.",
+   "bestBefore": "7/4-2028, 12/4-2028",
+   "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-af-oksekebab",
+   "gtins": [
+    "5705518183096"
+   ]
   },
   {
    "id": "fr-rc-2026-11-0187",
@@ -134,7 +151,8 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24190/interne",
    "gtins": [
     "3505870000343"
-   ]
+   ],
+   "group": "gtin-3505870000343"
   },
   {
    "id": "fr-rc-2026-11-0197",
@@ -178,7 +196,8 @@
    "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/blossity-lightening-blond-spray-150ml-sprej-za-posvetlitev-las/",
    "gtins": [
     "8715342048819"
-   ]
+   ],
+   "group": "gtin-8715342048819"
   },
   {
    "id": "si-gov-suhe-fige-5",
@@ -198,6 +217,32 @@
    ]
   },
   {
+   "id": "cz-pranyr-202216",
+   "country": "CZ",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Fresh Lychee",
+   "reason": "V potravině byl překročen maximální limit reziduí pesticidů azoxystrobin třicetijednanásobně, clothianidin více než osminásobně, cyhalofop-butyl více než…",
+   "details": "V potravině byl překročen maximální limit reziduí pesticidů azoxystrobin třicetijednanásobně, clothianidin více než osminásobně, cyhalofop-butyl více než třicetičtyřnásobně, permethrin téměř sedminásobně, quinalphos více než sedminásobně a tricyclazole téměř čtyřnásobně.",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202216"
+  },
+  {
+   "id": "cz-pranyr-202396",
+   "country": "CZ",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "KUŘECÍ STEHNA ČERSTVÁ",
+   "reason": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu",
+   "details": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu.",
+   "lots": "0092511605",
+   "bestBefore": "19.09.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202396"
+  },
+  {
    "id": "de-lmw-261125-25-nw-saflorgewuerz",
    "country": "DE",
    "published": "2026-11-25",
@@ -213,6 +258,145 @@
    "gtins": [
     "0653998013240"
    ]
+  },
+  {
+   "id": "dk-fvst-2026-nov-tilbagekald-aebleskiver-og-smaakager",
+   "country": "DK",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Risiko for mykotoksiner i flere typer af æbleskiver, kiks og småkager",
+   "reason": "Der er risiko for mykotoksiner i produkterne, og en sundhedsmæssig risiko kan derfor ikke udelukkes",
+   "details": "Favorina æbleskiver 560g; bedst før: 06-10-2027 og 13-10-2027; Karen Volf Skibskiks; bedst før: 29-09-2027; Karen Volf æbleskiver 18 stk; bedst før: 15-09-2027; REMA 1000 æbleskiver 560g; bedst før: 29-09-2027; Karen Volf Digestive Classic 250g bedst før: 15-09-2026, 29-09-2026 og 06-10-2026; Karen Volf Fuldkorn 250g bedst før: 22-09-2026 og 06-10-2026; Karen Volf Havrekiks – 30% fedt, 260g; bedst før: 22-09-2026; Karen Volf Havrekiks med frugt, 260g; bedst før: 22-09-2026, 29-09-2026 og 27-10-2026; Karen Volf Havre Kanelkiks 260g bedst før: 22-09-2026 og 27-10-2026; Møn Dark Sky kiks; bedst før: 01-09-2026, 15-09-2026 og 03-11-2026; Møn Kernekiks; bedst før: 15-09-2026 og 03-11-2026; Møn Rugkiks med øl; bedst før: 15-09-2026, 27-10-2026 og 03-11-2026; Bakkegårdens Pebernødder 400g…",
+   "bestBefore": "06-10-2027, 13-10-2027, 29-09-2027, 15-09-2027, 15-09-2026, 29-09-2026, 06-10-2026, 22-09-2026, 27-10-2026…",
+   "action": "Har du produkterne, bør du kassere dem.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-aebleskiver-og-smaakager"
+  },
+  {
+   "id": "dk-fvst-2026-nov-tilbagekald-bagel-og-pizzadej",
+   "country": "DK",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Risiko for mykotoksiner i pizzadej og bagels",
+   "reason": "Der er risiko for mykotoksiner i produkterne, og en sundhedsmæssig risiko kan derfor ikke udelukkes",
+   "details": "Pizzadej 275 g (Miss bagel); stregkode: 5704262003025; bedst før: 09-10-2026; Solgt i: REMA 1000 butikker landet over; REMA Bagel Plain 100 g; stregkode: 5705830611185; bedst før: 23-09-2026, 06-10-2026, 07-10-2026 og 14-10-2026; Solgt i: REMA 1000 butikker landet over; REMA Bagel Chili Cheddar 100 g; stregkode: 5705830611192; bedst før: 19-09-2026, 25-09-2026, 26-09-2026 og 02-10-2026, 07-10-2026, 08-10-2026, 09-10-2026 og 16-10-2026; Solgt i: REMA 1000 butikker landet over; COOP Bagel Sesam 100 g; stregkode: 5700384575259; bedst før: 06-10-2026; Solgt i: Coop-butikker landet over; COOP Bagel Chili Ched 100 g; stregkode: 5700381423546; bedst før: 25-09-2026, 01-10-2026 og 15-10-2026; Solgt i: Coop-butikker landet over; Premieur Bagel 150g Plain Classic; stregkode: 5712871112359; bedst…",
+   "bestBefore": "09-10-2026, 23-09-2026, 06-10-2026, 07-10-2026, 14-10-2026, 19-09-2026, 25-09-2026, 26-09-2026, 02-10-2026…",
+   "action": "Produkterne er udløbet, men kan fortsat være opbevaret på frost hos forbrugere. Har du produkterne, bør du kassere dem.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-bagel-og-pizzadej",
+   "gtins": [
+    "5704262003025",
+    "5705830611185",
+    "5705830611192",
+    "5700384575259",
+    "5700381423546",
+    "5712871112359",
+    "5712871112335",
+    "5712875171161",
+    "5712875171185"
+   ]
+  },
+  {
+   "id": "eu-rasff-be-2026-10484",
+   "country": "BE",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Chicken snack wit cheese",
+   "reason": "Undeclared allergen cashew on a chicken cheese snack, from the Netherlands",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889386",
+   "group": "rasff-2026-10484"
+  },
+  {
+   "id": "eu-rasff-be-2026-10492",
+   "country": "BE",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Golden flax seeds",
+   "reason": "High content of hydrocyanic acid in golden flax seeds",
+   "details": "cyanide - too high content - biological contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889320",
+   "group": "rasff-2026-10492"
+  },
+  {
+   "id": "eu-rasff-bg-2026-10469",
+   "country": "BG",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Potatoes",
+   "reason": "Glycoalkaloids in potatoes from France",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185",
+   "group": "rasff-2026-10469"
+  },
+  {
+   "id": "eu-rasff-it-2026-10469",
+   "country": "IT",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Potatoes",
+   "reason": "Glycoalkaloids in potatoes from France",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185",
+   "group": "rasff-2026-10469"
+  },
+  {
+   "id": "eu-rasff-nl-2026-10469",
+   "country": "NL",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Potatoes",
+   "reason": "Glycoalkaloids in potatoes from France",
+   "action": "Destruction",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185",
+   "group": "rasff-2026-10469"
+  },
+  {
+   "id": "eu-rasff-nl-2026-10484",
+   "country": "NL",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Chicken snack wit cheese",
+   "reason": "Undeclared allergen cashew on a chicken cheese snack, from the Netherlands",
+   "action": "Informing recipient(s), public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889386",
+   "group": "rasff-2026-10484"
+  },
+  {
+   "id": "eu-rasff-nl-2026-10492",
+   "country": "NL",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Golden flax seeds",
+   "reason": "High content of hydrocyanic acid in golden flax seeds",
+   "details": "cyanide - too high content - biological contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889320",
+   "group": "rasff-2026-10492"
+  },
+  {
+   "id": "eu-rasff-sk-2026-10469",
+   "country": "SK",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Potatoes",
+   "reason": "Glycoalkaloids in potatoes from France",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889185",
+   "group": "rasff-2026-10469"
   },
   {
    "id": "fr-rc-2026-11-0158",
@@ -469,6 +653,33 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24179/interne"
   },
   {
+   "id": "gr-efet-5431",
+   "country": "GR",
+   "published": "2026-11-25",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "ΜΠΙΦΤΕΚΙ ΚΟΤΟΠΟΥΛΟ HAMBURGER ΚΑΤΕΨΥΓΜΕΝΟ",
+   "reason": "παρουσία του παθογόνου μικροοργανισμού Salmonella spp. στο ανωτέρω δείγμα",
+   "details": "Ο Ε.Φ.Ε.Τ. και ειδικότερα η Περιφερειακή Διεύθυνση Ηπείρου κατά τη διενέργεια ελέγχων στο πλαίσιο του Προγράμματος «Επίσημος Έλεγχος Μικροβιολογικών Κριτηρίων Ασφάλειας Τροφίμων» έτους 2026, προέβη σε δειγματοληψία κατεψυγμένου προϊόντος με τα στοιχεία: ΜΠΙΦΤΕΚΙ ΚΟΤΟΠΟΥΛΟ HAMBURGER (κατεψυγμένο), βάρους 850 γρ., με αριθμό παρτίδας Lot 18726, με ημερομηνία κατάψυξης 06/07/2026 και ημερομηνία ανάλωσης 06/07/2027, που παράγεται από την εταιρεία «ΜΕΑΤΚΑ Α.Ε.». Σε συνέχεια εργαστηριακών αναλύσεων στο Κτηνιατρικό Εργαστήριο Ιωαννίνων, διαπιστώθηκε η παρουσία του παθογόνου μικροοργανισμού Salmonella spp. στο ανωτέρω δείγμα. Ο Ε.Φ.Ε.Τ. απαίτησε την άμεση ανάκληση του συνόλου της συγκεκριμένης παρτίδας του εν λόγω προϊόντος και ήδη βρίσκονται σε εξέλιξη οι σχετικοί έλεγχοι.",
+   "lots": "18726",
+   "bestBefore": "06/07/2027",
+   "action": "Καλούνται οι καταναλωτές που έχουν προμηθευτεί το ανωτέρω προϊόν (η απεικόνιση του οποίου αποτυπώνεται κατωτέρω), να μην το καταναλώσουν.",
+   "source": "ΕΦΕΤ",
+   "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5431-deltio-typou-anaklisi-mi-asfaloys-trofimou-bifteki-kotopoulo-hamburger-katepsygmeno"
+  },
+  {
+   "id": "cz-pranyr-202411",
+   "country": "CZ",
+   "published": "2026-11-24",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "REAL MAD HONEY, BEST USE BEFORE 01/2029, UNPROCESSED NATURAL HONEY",
+   "reason": "Výrobek obsahoval grayanotoxin v podstatně vyšším množství, které již není možné považovat za bezpečné",
+   "details": "Výrobek obsahoval grayanotoxin v podstatně vyšším množství, které již není možné považovat za bezpečné. Potravina byla vyhodnocena jako zdraví škodlivá.",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202411"
+  },
+  {
    "id": "de-lmw-261124-24-sl-kartoffeln-les-rouges",
    "country": "DE",
    "published": "2026-11-24",
@@ -481,6 +692,32 @@
    "action": "Verbraucher, die das oben genannte Produkt erworben haben, werden daher dringend gebeten, es nicht zu verzehren und in die jeweilige Verkaufsstelle zurückzubringen. Presseinformation des Herstellers Parmentine (PDF, 292KB, Datei ist nicht barrierefrei)",
    "source": "lebensmittelwarnung.de",
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261124_24_SL_Kartoffeln_Les_Rouges/261124_24_SL_Kartoffeln_Les_Rouges.html"
+  },
+  {
+   "id": "eu-rasff-fi-2026-10456",
+   "country": "FI",
+   "published": "2026-11-24",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Chocolate cereal bars",
+   "reason": "Metal foreign bodies in chocolate cereal bars distributed to Finland and Iceland",
+   "details": "fragments metal - foreign bodies / physical danger",
+   "action": "Public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889186"
+  },
+  {
+   "id": "eu-rasff-nl-2026-10445",
+   "country": "NL",
+   "published": "2026-11-24",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Cheeses",
+   "reason": "Piece of glass found in the packaging, between the cheese and the packaging",
+   "details": "foreign body/ies - foreign bodies / physical danger",
+   "action": "Informing recipient(s)",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/889004"
   },
   {
    "id": "fr-rc-2026-11-0153",
@@ -573,6 +810,111 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24162/interne"
   },
   {
+   "id": "cz-pranyr-202336",
+   "country": "CZ",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Name EN: Sweet Basil; DE: Basilikum; CZ: Bazalka Pravá; VN: Húng Que; TH: โหระพา, FR: Basilic Thai",
+   "reason": "V potravině byl překročen maximální limit reziduí pesticidů suma carbendazim a benomyl téměř trojnásobně a thiametoxam více než pětinásobně",
+   "details": "V potravině byl překročen maximální limit reziduí pesticidů suma carbendazim a benomyl téměř trojnásobně a thiametoxam více než pětinásobně.",
+   "lots": "Lot: no SHP812A / VEG055",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202336"
+  },
+  {
+   "id": "cz-pranyr-202371",
+   "country": "CZ",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Brokolice",
+   "reason": "V potravině byl překročen maximální limit rezidua pesticidu flonicamid téměř dvacetijednanásobně",
+   "details": "V potravině byl překročen maximální limit rezidua pesticidu flonicamid téměř dvacetijednanásobně.",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202371"
+  },
+  {
+   "id": "cz-pranyr-202379",
+   "country": "CZ",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "other",
+   "name": "Trampské cigáro",
+   "reason": "Barva potraviny byla našedlá, povrch byl slizký a lepkavý, byl zjištěn silný kyselý zápach po rozkladu",
+   "details": "Barva potraviny byla našedlá, povrch byl slizký a lepkavý, byl zjištěn silný kyselý zápach po rozkladu. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení. Potravina měla prošlé datum použitelnosti.",
+   "bestBefore": "08.10.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202379"
+  },
+  {
+   "id": "cz-pranyr-202382",
+   "country": "CZ",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "K classic RISOTTO-REIS Arborio",
+   "reason": "Uvnitř výrobku byl zjištěn výskyt živých škůdců",
+   "details": "Uvnitř výrobku byl zjištěn výskyt živých škůdců. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "bestBefore": "11 27",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202382"
+  },
+  {
+   "id": "cz-pranyr-202400",
+   "country": "CZ",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "other",
+   "name": "REBEL ENERGY POUCHES CITRUS VITAMIN C",
+   "reason": "Výrobek obsahoval kofein v podstatně vyšším množství, které již není možné považovat za bezpečné",
+   "details": "Výrobek obsahoval kofein v podstatně vyšším množství, které již není možné považovat za bezpečné. Potravina byla vyhodnocena jako zdraví škodlivá.",
+   "lots": "B 5K32185",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202400"
+  },
+  {
+   "id": "cz-pranyr-202401",
+   "country": "CZ",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "other",
+   "name": "REBEL ENERGY POUCHES ENERGY DRINK VITAMIN C",
+   "reason": "Výrobek obsahoval kofein v podstatně vyšším množství, které již není možné považovat za bezpečné",
+   "details": "Výrobek obsahoval kofein v podstatně vyšším množství, které již není možné považovat za bezpečné. Potravina byla vyhodnocena jako zdraví škodlivá.",
+   "lots": "B 5K32535",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202401"
+  },
+  {
+   "id": "cz-pranyr-202404",
+   "country": "CZ",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "CHLAZENÝ KUŘECÍ STEHENNÍ PLÁTEK",
+   "reason": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu",
+   "details": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu.",
+   "lots": "L226212680",
+   "bestBefore": "09.08.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202404"
+  },
+  {
+   "id": "cz-pranyr-202405",
+   "country": "CZ",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "KUŘECÍ ZADNÍ ČTVRTKY",
+   "reason": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu",
+   "details": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu.",
+   "lots": "0092110015",
+   "bestBefore": "08.08.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202405"
+  },
+  {
    "id": "de-lmw-261120-21-ni-wildsalami",
    "country": "DE",
    "published": "2026-11-23",
@@ -585,6 +927,232 @@
    "action": "Da nicht ausgeschlossen werden kann, dass neben der bereits untersuchten Wildsalami auch weitere Wildsalami-Produkte dieser Charge betroffen sind, werden alle Wildsalami-Produkte, die seit dem 17.09.2026 gekauft wurden zurueckgerufen. Vom Verzehr dieser Produkte wird daher dringend abgeraten!",
    "source": "lebensmittelwarnung.de",
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261120_21_NI_Wildsalami/261120_21_NI_Wildsalami.html"
+  },
+  {
+   "id": "dk-fvst-2026-nov-tilbagekald-risiko-for-metal-i-mueslibarer",
+   "country": "DK",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Corny 0% Added Sugar Chocolate, multipakke",
+   "reason": "På grund af en teknisk fejl hos den udenlandske producent er der risiko for metalstykker i produktet",
+   "details": "På grund af en teknisk fejl hos den udenlandske producent er der risiko for metalstykker i produktet. Metalsplinter i produktet udgør en potentiel sundhedsrisiko, da der kan opstå skader i mund, svælg og i mave-tarm-kanalen.",
+   "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det. Hvis du har spørgsmål til symptomer, skal du kontakte egen læge eller vagtlægen.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-risiko-for-metal-i-mueslibarer"
+  },
+  {
+   "id": "eu-rasff-be-2026-10406",
+   "country": "BE",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "action": "Withdrawal from the market, public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-cy-2026-10406",
+   "country": "CY",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-es-2026-10406",
+   "country": "ES",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-fi-2026-10406",
+   "country": "FI",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-hu-2026-10406",
+   "country": "HU",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-ie-2026-10368",
+   "country": "IE",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Vegan protein bar",
+   "reason": "Presence of peanut allergen in a vegan protein bar, from the Netherlands",
+   "details": "peanut - presence - allergens",
+   "action": "Public warning - press release, recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888600",
+   "group": "rasff-2026-10368"
+  },
+  {
+   "id": "eu-rasff-ie-2026-10406",
+   "country": "IE",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-it-2026-10406",
+   "country": "IT",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-lu-2026-10406",
+   "country": "LU",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "action": "Withdrawal from the market, public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-mt-2026-10406",
+   "country": "MT",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-nl-2026-10368",
+   "country": "NL",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Vegan protein bar",
+   "reason": "Presence of peanut allergen in a vegan protein bar, from the Netherlands",
+   "details": "peanut - presence - allergens",
+   "action": "Informing recipient(s)",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888600",
+   "group": "rasff-2026-10368"
+  },
+  {
+   "id": "eu-rasff-nl-2026-10406",
+   "country": "NL",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "action": "Withdrawal from the market, informing recipient(s)",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-pt-2026-10406",
+   "country": "PT",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-ro-2026-10406",
+   "country": "RO",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-se-2026-10406",
+   "country": "SE",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
+  },
+  {
+   "id": "eu-rasff-sk-2026-10406",
+   "country": "SK",
+   "published": "2026-11-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Noodles",
+   "reason": "Undeclared allergen mustard in soba noodles, from Australia via the Netherlands",
+   "details": "mustard - traces - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888857",
+   "group": "rasff-2026-10406"
   },
   {
    "id": "fr-rc-2026-11-0144",
@@ -690,7 +1258,8 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24154/interne",
    "gtins": [
     "8715342048819"
-   ]
+   ],
+   "group": "gtin-8715342048819"
   },
   {
    "id": "at-ages-gurkerl-yutto-pinienkerne-50-g",
@@ -721,6 +1290,177 @@
    "gtins": [
     "3360190017842"
    ]
+  },
+  {
+   "id": "eu-rasff-fi-2026-10360",
+   "country": "FI",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Cassave flour",
+   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
+   "details": "cyanide - too high content - biological contaminants",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+   "group": "rasff-2026-10360"
+  },
+  {
+   "id": "eu-rasff-hu-2026-10359",
+   "country": "HU",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Biscotti senza glutine confezionati/Packaged gluten-free cookies",
+   "reason": "Proteine di mandorle (allergeni) non dichiarate in etichetta in biscotti senza glutine dall'Italia/Almond proteins (allergens) not declared on the label in…",
+   "details": "almond - undeclared - allergens - faulty labelling or claims",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887984",
+   "group": "rasff-2026-10359"
+  },
+  {
+   "id": "eu-rasff-hu-2026-10360",
+   "country": "HU",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Cassave flour",
+   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
+   "details": "cyanide - too high content - biological contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+   "group": "rasff-2026-10360"
+  },
+  {
+   "id": "eu-rasff-ie-2026-10360",
+   "country": "IE",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Cassave flour",
+   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
+   "details": "cyanide - too high content - biological contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+   "group": "rasff-2026-10360"
+  },
+  {
+   "id": "eu-rasff-it-2026-10329",
+   "country": "IT",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "other",
+   "name": "Portunus",
+   "reason": "CONTROLLO IDENTITA' sfavorevole/Unfavorable identity check of crabs (Portunus) from Tunisia",
+   "details": "checks - insufficient - lacking or improper documentation or controls",
+   "action": "Official detention",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888243"
+  },
+  {
+   "id": "eu-rasff-it-2026-10351",
+   "country": "IT",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Live mussels (Mytilus edulis)",
+   "reason": "Detection of E.coli in live mussels (Mytilus edulis)",
+   "details": "Escherichia coli - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888433"
+  },
+  {
+   "id": "eu-rasff-it-2026-10359",
+   "country": "IT",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Biscotti senza glutine confezionati/Packaged gluten-free cookies",
+   "reason": "Proteine di mandorle (allergeni) non dichiarate in etichetta in biscotti senza glutine dall'Italia/Almond proteins (allergens) not declared on the label in…",
+   "details": "almond - undeclared - allergens - faulty labelling or claims",
+   "action": "Recall from consumer, detained by operator",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887984",
+   "group": "rasff-2026-10359"
+  },
+  {
+   "id": "eu-rasff-nl-2026-10359",
+   "country": "NL",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Biscotti senza glutine confezionati/Packaged gluten-free cookies",
+   "reason": "Proteine di mandorle (allergeni) non dichiarate in etichetta in biscotti senza glutine dall'Italia/Almond proteins (allergens) not declared on the label in…",
+   "details": "almond - undeclared - allergens - faulty labelling or claims",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887984",
+   "group": "rasff-2026-10359"
+  },
+  {
+   "id": "eu-rasff-nl-2026-10360",
+   "country": "NL",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Cassave flour",
+   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
+   "details": "cyanide - too high content - biological contaminants",
+   "action": "Informing recipient(s)",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+   "group": "rasff-2026-10360"
+  },
+  {
+   "id": "eu-rasff-pl-2026-10326",
+   "country": "PL",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Peking duck breast and legs",
+   "reason": "Salmonella i duck breast and legs",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888228"
+  },
+  {
+   "id": "eu-rasff-pt-2026-10360",
+   "country": "PT",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Cassave flour",
+   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
+   "details": "cyanide - too high content - biological contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+   "group": "rasff-2026-10360"
+  },
+  {
+   "id": "eu-rasff-ro-2026-10360",
+   "country": "RO",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Cassave flour",
+   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
+   "details": "cyanide - too high content - biological contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+   "group": "rasff-2026-10360"
+  },
+  {
+   "id": "eu-rasff-se-2026-10360",
+   "country": "SE",
+   "published": "2026-11-20",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Cassave flour",
+   "reason": "High level of hydrogen cyanide in cassave flour from Togo, via The Netherlands",
+   "details": "cyanide - too high content - biological contaminants",
+   "action": "Informing authorities",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888516",
+   "group": "rasff-2026-10360"
   },
   {
    "id": "fr-rc-2026-11-0122",
@@ -810,7 +1550,8 @@
     "3760148070545",
     "3760148070569",
     "3760148070736"
-   ]
+   ],
+   "group": "gtin-3760148070026"
   },
   {
    "id": "fr-rc-2026-11-0129",
@@ -975,6 +1716,84 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261119_20_BY_Mettwurst/261119_20_BY_Mettwurst.html"
   },
   {
+   "id": "dk-fvst-2026-nov-tilbagekald-risiko-for-mykotoksiner-i-mel",
+   "country": "DK",
+   "published": "2026-11-19",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Risiko for mykotoksiner i mel",
+   "reason": "Der er risiko for mykotoksiner i produkterne, og en sundhedsmæssig risiko kan derfor ikke udelukkes",
+   "details": "Valsemøllen Dansk Hvedemel; Netto indhold: 2 kg; Stregkode: 5701075203659; Bedst før: 15.09.2026; Solgt i: Bilka, Føtex, Netto og Coop-butikker; First Price Hvedemel; Netto indhold: 2 kg; Stregkode: 7311041073445; Bedst før: 01.09.2026 / 15.09.2026; Solgt i: Dagrofa-butikker; First Price Hvedemel; Netto indhold: 2 kg; Stregkode: 7311041073445; Bedst før: 01.09.2026 / 15.09.2026; Solgt i: Dagrofa-butikker; Valsemøllen Manitoba; Netto indhold: 1,7 kg; Stregkode: 5701075203239; Bedst før: 29.09.2026; Solgt i: Nemlig.com , Fleggaard, Bilka, Føtex og Coop-butikker; Valsemøllen Tipo00; Netto indhold: 1,7 kg; Stregkode: 5701075203260; Bedst før: 29.09.2026; Solgt i: Nemlig.com, Bilka, Føtex, Coop-butikker og Rema1000; Falkemel; Netto indhold: 2 kg; Stregkode: 5701075006328; Bedst før…",
+   "bestBefore": "15.09.2026, 01.09.2026, 29.09.2026",
+   "action": "Har du produkterne, bør du kassere dem.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-risiko-for-mykotoksiner-i-mel",
+   "gtins": [
+    "5701075203659",
+    "7311041073445",
+    "5701075203239",
+    "5701075203260",
+    "5701075006328",
+    "5712870759432",
+    "5712876523587",
+    "5712871868133"
+   ]
+  },
+  {
+   "id": "dk-fvst-2026-nov-tilbagekald-risiko-for-salmonella-i-peking-and",
+   "country": "DK",
+   "published": "2026-11-19",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Risiko for Salmonella i andebryst og lår",
+   "reason": "Produktet kan nedfryses, og der er påvist Salmonella i produktet",
+   "details": "Fersk Pekingand lår 225-275 g; Fersk Pekingand brystfilet med skind 225-275 g; Bedst før: 11.11-2026",
+   "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det. Hvis du oplever symptomer i forbindelse med indtag af produktet, bør du kontakte din egen læge.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-risiko-for-salmonella-i-peking-and"
+  },
+  {
+   "id": "eu-rasff-it-2026-10303",
+   "country": "IT",
+   "published": "2026-11-19",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Salsiccia",
+   "reason": "Presenza di Salmonella Spp. in Salsiccia/Presence of Salmonella Spp. in Sausage",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "action": "Recall from consumer, informing authorities",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888019",
+   "group": "rasff-2026-10303"
+  },
+  {
+   "id": "eu-rasff-pl-2026-10303",
+   "country": "PL",
+   "published": "2026-11-19",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Salsiccia",
+   "reason": "Presenza di Salmonella Spp. in Salsiccia/Presence of Salmonella Spp. in Sausage",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888019",
+   "group": "rasff-2026-10303"
+  },
+  {
+   "id": "eu-rasff-ro-2026-10303",
+   "country": "RO",
+   "published": "2026-11-19",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Salsiccia",
+   "reason": "Presenza di Salmonella Spp. in Salsiccia/Presence of Salmonella Spp. in Sausage",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "action": "Destruction",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/888019",
+   "group": "rasff-2026-10303"
+  },
+  {
    "id": "fr-rc-2026-10-0244",
    "country": "FR",
    "published": "2026-11-19",
@@ -1122,6 +1941,34 @@
    ]
   },
   {
+   "id": "dk-fvst-2026-nov-tilbagekald-fund-af-biller-i-fine-aerter",
+   "country": "DK",
+   "published": "2026-11-18",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Fund af biller i Fine ærter",
+   "reason": "Der er risiko for coloradobiller i produktet",
+   "details": "REMA 1000 Fine ærter 600g; EAN-kode: 5705830610904; Bedst før: 02.09.2028 + 03.09.2028; Lot kode: L26 02.09.2026 + L26 03.09.2026; Oprindelsesland: Belgien; Pakket af ARDO N.V. Wezestraat 61, 8850 Ardooie, Belgien for REMA 1000.",
+   "bestBefore": "02.09.2028",
+   "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-fund-af-biller-i-fine-aerter",
+   "gtins": [
+    "5705830610904"
+   ]
+  },
+  {
+   "id": "eu-rasff-nl-2026-10274",
+   "country": "NL",
+   "published": "2026-11-18",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Ready-to-eat mini chicken breast fillet pieces",
+   "reason": "Listeria monocytogenes in ready-to-eat Mini Chicken Breast Fillet Pieces from Germany",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887085"
+  },
+  {
    "id": "fr-rc-2026-11-0108",
    "country": "FR",
    "published": "2026-11-18",
@@ -1156,6 +2003,31 @@
    ]
   },
   {
+   "id": "eu-rasff-be-2026-10227",
+   "country": "BE",
+   "published": "2026-11-17",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Fine peas",
+   "reason": "Presence of beetles in frozen peas from Belgium",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887420",
+   "group": "rasff-2026-10227"
+  },
+  {
+   "id": "eu-rasff-se-2026-10227",
+   "country": "SE",
+   "published": "2026-11-17",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Fine peas",
+   "reason": "Presence of beetles in frozen peas from Belgium",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887420",
+   "group": "rasff-2026-10227"
+  },
+  {
    "id": "fr-rc-2026-11-0112",
    "country": "FR",
    "published": "2026-11-17",
@@ -1173,6 +2045,21 @@
    ]
   },
   {
+   "id": "gr-efet-5428",
+   "country": "GR",
+   "published": "2026-11-17",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Rice Up Parmesan Rice Cakes",
+   "reason": "παρουσία σκουληκιών",
+   "details": "Ο Ε.Φ.Ε.Τ. και ειδικότερα η Περιφερειακή Διεύθυνση Αττικής του Ε.Φ.Ε.Τ., κατά τη διενέργεια επιθεώρησης στο πλαίσιο διερεύνησης αναφορών από καταναλωτές, προέβη σε έλεγχο του τροφίμου ρυζογκοφρέτα με γεύση παρμεζάνα των 60g, το οποίο εισάγεται από τη Βουλγαρία και διακινείται στην Ελλάδα από την επιχείρηση ‘Καμπάση ΕΠΕ’ που βρίσκεται στη Θεσσαλονίκη. Στο προϊόν εμπορικής ονομασίας ‘Rice Up Parmesan Rice Cakes’ με ημερομηνία ανάλωσης κατά προτίμηση πριν από 01.07.27 και παρτίδα L07 26 27 διαπιστώθηκε η παρουσία σκουληκιών. Η επιχείρηση έχει ήδη προβεί σε απόσυρση της σχετικής παρτίδας και βρίσκονται σε εξέλιξη οι σχετικοί έλεγχοι.",
+   "lots": "L07 26 27",
+   "bestBefore": "01.07.27",
+   "action": "Καλούνται οι καταναλωτές, που έχουν προμηθευτεί το προϊόν (φωτογραφίες κάτωθι) να μην το καταναλώσουν.",
+   "source": "ΕΦΕΤ",
+   "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5428-deltio-typou-anaklisi-se-ryzogkofretes"
+  },
+  {
    "id": "hr-hapih-32948",
    "country": "HR",
    "published": "2026-11-17",
@@ -1185,6 +2072,151 @@
    "bestBefore": "04.04.2028",
    "source": "Državni inspektorat RH (HAPIH)",
    "url": "https://www.hapih.hr/opoziv-proizvoda-j-d-gross-tamna-cokolada-70-125g/"
+  },
+  {
+   "id": "eu-rasff-be-2026-10141",
+   "country": "BE",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Yerba Mate Tea",
+   "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
+   "details": "anthraquinone - pesticide residues",
+   "action": "Withdrawal from the market",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+   "group": "rasff-2026-10141"
+  },
+  {
+   "id": "eu-rasff-be-2026-10164",
+   "country": "BE",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Chocolate cream",
+   "reason": "Undeclared allergen hazelnut in chocolate cream from Italy",
+   "details": "hazelnut - presence - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091",
+   "group": "rasff-2026-10164"
+  },
+  {
+   "id": "eu-rasff-bg-2026-10141",
+   "country": "BG",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Yerba Mate Tea",
+   "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
+   "details": "anthraquinone - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+   "group": "rasff-2026-10141"
+  },
+  {
+   "id": "eu-rasff-es-2026-10134",
+   "country": "ES",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Pre-made salad",
+   "reason": "Unlabeled or incorrectly labeled allergen (wheat) in tuna salad with couscous from Spain",
+   "details": "allergen information - incorrect - faulty labelling or claims",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886914"
+  },
+  {
+   "id": "eu-rasff-es-2026-10141",
+   "country": "ES",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Yerba Mate Tea",
+   "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
+   "details": "anthraquinone - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+   "group": "rasff-2026-10141"
+  },
+  {
+   "id": "eu-rasff-es-2026-10164",
+   "country": "ES",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Chocolate cream",
+   "reason": "Undeclared allergen hazelnut in chocolate cream from Italy",
+   "details": "hazelnut - presence - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091",
+   "group": "rasff-2026-10164"
+  },
+  {
+   "id": "eu-rasff-ie-2026-10141",
+   "country": "IE",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Yerba Mate Tea",
+   "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
+   "details": "anthraquinone - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+   "group": "rasff-2026-10141"
+  },
+  {
+   "id": "eu-rasff-it-2026-10164",
+   "country": "IT",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Chocolate cream",
+   "reason": "Undeclared allergen hazelnut in chocolate cream from Italy",
+   "details": "hazelnut - presence - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091",
+   "group": "rasff-2026-10164"
+  },
+  {
+   "id": "eu-rasff-lu-2026-10141",
+   "country": "LU",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Yerba Mate Tea",
+   "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
+   "details": "anthraquinone - pesticide residues",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+   "group": "rasff-2026-10141"
+  },
+  {
+   "id": "eu-rasff-nl-2026-10141",
+   "country": "NL",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Yerba Mate Tea",
+   "reason": "Anthraquinone in yerba mate tea from Syria, via the Netherlands",
+   "details": "anthraquinone - pesticide residues",
+   "action": "Withdrawal from the market",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886687",
+   "group": "rasff-2026-10141"
+  },
+  {
+   "id": "eu-rasff-pt-2026-10164",
+   "country": "PT",
+   "published": "2026-11-16",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Chocolate cream",
+   "reason": "Undeclared allergen hazelnut in chocolate cream from Italy",
+   "details": "hazelnut - presence - allergens",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/887091",
+   "group": "rasff-2026-10164"
   },
   {
    "id": "fr-rc-2026-09-0105",
@@ -1339,6 +2371,101 @@
    "action": "Das betroffene Produkt kann in allen Lidl-Filialen zurückgegeben werden. Der Kaufpreis wird selbstverständlich erstattet, auch ohne Vorlage des Kassenbons.",
    "source": "lebensmittelwarnung.de",
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261113_18_BW_Thunfisch_Salat/261113_18_BW_Thunfisch_Salat.html"
+  },
+  {
+   "id": "dk-fvst-2026-nov-tilbagekald-chlorpyrifos-i-peanut-butter",
+   "country": "DK",
+   "published": "2026-11-13",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Chlorpyrifos i Peanut Butter",
+   "brand": "Urtekram",
+   "reason": "Der kan være pesticidrester i vegetabilske fødevarer, men EU har fastsat grænseværdier for pesticider",
+   "details": "Økologisk Peanut butter crunchy; Brand: Urtekram; artikel nummer 1002876; EAN nr 5701058014432; Nettovægt 230 g; Bedst før 15-04-2027; Økologisk Peanut butter; Brand: Urtekram; artikel nummer 1002877; EAN nr 5701058014449; Nettovægt 230 g; Bedst før 14-04-2027",
+   "bestBefore": "15-04-2027, 14-04-2027",
+   "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-chlorpyrifos-i-peanut-butter",
+   "gtins": [
+    "5701058014432",
+    "5701058014449"
+   ]
+  },
+  {
+   "id": "dk-fvst-2026-nov-tilbagekald-salmonella-i-chicken-gyros",
+   "country": "DK",
+   "published": "2026-11-13",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Chicken gyros af mærket Eridanous",
+   "reason": "Ved rutinekontrol hos den danske virksomhed er der påvist Salmonella i produktet",
+   "details": "Ved rutinekontrol hos den danske virksomhed er der påvist Salmonella i produktet. Der er risiko for smitte med Salmonella. Symptomerne på infektion med Salmonella er diarré, mavesmerter, feber, hovedpine og eventuelt kvalme og opkast. Sygdommen kan vare fra få dage til flere uger. Læs mere om Salmonella i fødevarer her Læs mere om infektion med salmonella ved at trykke på linket her",
+   "bestBefore": "22.05.2027",
+   "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det. Hvis du oplever symptomer i forbindelse med indtag af produktet, bør du kontakte din egen læge.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-salmonella-i-chicken-gyros"
+  },
+  {
+   "id": "eu-rasff-ie-2026-10126",
+   "country": "IE",
+   "published": "2026-11-13",
+   "category": "food",
+   "hazard": "other",
+   "name": "Spice Mixes",
+   "reason": "No ingredients listed on spice mixes from Nigeria",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886885"
+  },
+  {
+   "id": "eu-rasff-it-2026-10116",
+   "country": "IT",
+   "published": "2026-11-13",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Pinienkerne /// pine nuts",
+   "reason": "Salmonella Agona in organic pine nuts from Italy",
+   "details": "Salmonella Agona - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886785"
+  },
+  {
+   "id": "eu-rasff-it-2026-10125",
+   "country": "IT",
+   "published": "2026-11-13",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Salmone scozzese affumicato//smoked Scottish salmon",
+   "reason": "Listeria monocytogenes in salmone scozzese affumicato//Listeria monocytogenes in smoked Scottish salmon",
+   "details": "Listeria monocytogenes - pathogenic micro-organisms",
+   "action": "Informing authorities, recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886879",
+   "group": "rasff-2026-10125"
+  },
+  {
+   "id": "eu-rasff-lt-2026-10125",
+   "country": "LT",
+   "published": "2026-11-13",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Salmone scozzese affumicato//smoked Scottish salmon",
+   "reason": "Listeria monocytogenes in salmone scozzese affumicato//Listeria monocytogenes in smoked Scottish salmon",
+   "details": "Listeria monocytogenes - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886879",
+   "group": "rasff-2026-10125"
+  },
+  {
+   "id": "eu-rasff-pl-2026-10117",
+   "country": "PL",
+   "published": "2026-11-13",
+   "category": "food",
+   "hazard": "other",
+   "name": "Pearl barley",
+   "reason": "Moth webbing in pearl barley",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886658"
   },
   {
    "id": "fr-rc-2026-11-0090",
@@ -1521,6 +2648,32 @@
    "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/finis-feinstes-bio-weizenkeime-150g"
   },
   {
+   "id": "cz-pranyr-202372",
+   "country": "CZ",
+   "published": "2026-11-12",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "DOBROTA ZÁVIN s tvarohovou náplní, 400g",
+   "reason": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní viditelných pouhým okem přes obal potraviny",
+   "details": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní viditelných pouhým okem přes obal potraviny. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "bestBefore": "02 10 2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202372"
+  },
+  {
+   "id": "cz-pranyr-202374",
+   "country": "CZ",
+   "published": "2026-11-12",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Šumavský eidam 45%",
+   "reason": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní zelené barvy viditelných pouhým okem přes obal potraviny",
+   "details": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní zelené barvy viditelných pouhým okem přes obal potraviny. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "bestBefore": "21.11.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202374"
+  },
+  {
    "id": "de-lmw-261112-15-hh-marshmallows",
    "country": "DE",
    "published": "2026-11-12",
@@ -1534,6 +2687,83 @@
    "action": "1. Nicht verzehren: Die betroffene Charge nicht essen. MHD und Charge stehen auf der Rückseite der Packung. 2. Vernichten: Das Produkt entsorgen. 3. Erstattung: Der Kaufpreis wird erstattet. Rückgabe und Erstattung erfolgen über den ahead Kundenservice.",
    "source": "lebensmittelwarnung.de",
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261112_15_HH_Marshmallows/261112_15_HH_Marshmallows.html"
+  },
+  {
+   "id": "dk-fvst-2026-nov-tilbagekald-spind-fra-moel-i-knaekkede-byggryn",
+   "country": "DK",
+   "published": "2026-11-12",
+   "category": "food",
+   "hazard": "other",
+   "name": "Kilic byggryn, knækkede 700g",
+   "reason": "Der er risiko for spind fra møl i produktet",
+   "details": "Der er risiko for spind fra møl i produktet. Spind fra møl gør produktet uegnet som fødevare.",
+   "bestBefore": "08.04.2027",
+   "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-spind-fra-moel-i-knaekkede-byggryn",
+   "gtins": [
+    "5706920116344"
+   ]
+  },
+  {
+   "id": "eu-rasff-be-2026-10085",
+   "country": "BE",
+   "published": "2026-11-12",
+   "category": "food",
+   "hazard": "other",
+   "name": "Fruit-flavored yogurts",
+   "reason": "Presence of spoilage microorganisms in fruit-flavored yogurts",
+   "action": "Withdrawal from the market",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886458",
+   "group": "rasff-2026-10085"
+  },
+  {
+   "id": "eu-rasff-es-2026-10085",
+   "country": "ES",
+   "published": "2026-11-12",
+   "category": "food",
+   "hazard": "other",
+   "name": "Fruit-flavored yogurts",
+   "reason": "Presence of spoilage microorganisms in fruit-flavored yogurts",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886458",
+   "group": "rasff-2026-10085"
+  },
+  {
+   "id": "eu-rasff-lu-2026-10085",
+   "country": "LU",
+   "published": "2026-11-12",
+   "category": "food",
+   "hazard": "other",
+   "name": "Fruit-flavored yogurts",
+   "reason": "Presence of spoilage microorganisms in fruit-flavored yogurts",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886458",
+   "group": "rasff-2026-10085"
+  },
+  {
+   "id": "eu-rasff-lu-2026-10090",
+   "country": "LU",
+   "published": "2026-11-12",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Yogurt",
+   "reason": "Foreign object in yogurt",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886617"
+  },
+  {
+   "id": "eu-rasff-nl-2026-10084",
+   "country": "NL",
+   "published": "2026-11-12",
+   "category": "supplement",
+   "hazard": "foreign",
+   "name": "Protein bar",
+   "reason": "Foreign object (plastic) in a protein bar from the Netherlands",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886528"
   },
   {
    "id": "fr-rc-2026-11-0071",
@@ -1764,6 +2994,45 @@
    "url": "https://www.hapih.hr/opoziv-proizvoda-okusi-zavicaja-dalmatinska-panceta-narezak-100g/"
   },
   {
+   "id": "cz-pranyr-202326",
+   "country": "CZ",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "SALÁT RUMCAJS",
+   "reason": "V potravině byla zjištěna přítomnost patogenní bakterie Listeria monocytogenes , která způsobuje onemocnění listeriózu",
+   "details": "V potravině byla zjištěna přítomnost patogenní bakterie Listeria monocytogenes , která způsobuje onemocnění listeriózu.",
+   "bestBefore": "6.9.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202326"
+  },
+  {
+   "id": "cz-pranyr-202328",
+   "country": "CZ",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Zelí hlávkové červené",
+   "reason": "V potravině byl překročen maximální limit rezidua pesticidu fluazifop-P dvacetipětinásobně",
+   "details": "V potravině byl překročen maximální limit rezidua pesticidu fluazifop-P dvacetipětinásobně.",
+   "lots": "interní číslo šarže: 8397123",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202328"
+  },
+  {
+   "id": "cz-pranyr-202357",
+   "country": "CZ",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Ehrmann HIGH PROTEIN Vanilla & Topping mit Protein",
+   "reason": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní bílé až nažloutlé barvy viditelné pouhým okem",
+   "details": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní bílé až nažloutlé barvy viditelné pouhým okem. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "lots": "datum jiné: 07.09.26",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202357"
+  },
+  {
    "id": "de-lmw-261111-11-bw-proteinriegel",
    "country": "DE",
    "published": "2026-11-11",
@@ -1777,6 +3046,45 @@
    "action": "Wir bitten Sie das Produkt mit den oben genannten Mindesthaltbarkeitsdatum nicht zu konsumieren und ungeöffnet oder bereits angebrochen in die dm-Märkte zurückzubringen. Der Kaufpreis wird Ihnen selbstverständlich erstattet.",
    "source": "lebensmittelwarnung.de",
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261111_11_BW_Proteinriegel/261111_11_BW_Proteinriegel.html"
+  },
+  {
+   "id": "eu-rasff-be-2026-10028",
+   "country": "BE",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Chicken wrap",
+   "reason": "Undeclared allergen cashew on chicken wrap, from the Netheralnds",
+   "action": "Public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886282",
+   "group": "rasff-2026-10028"
+  },
+  {
+   "id": "eu-rasff-hu-2026-10033",
+   "country": "HU",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Fresh duck meat",
+   "reason": "Salmonella Typhimurium in duck meat from Hungary",
+   "details": "Salmonella typhimurium - pathogenic micro-organisms",
+   "action": "Detained by operator",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886262"
+  },
+  {
+   "id": "eu-rasff-nl-2026-10028",
+   "country": "NL",
+   "published": "2026-11-11",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Chicken wrap",
+   "reason": "Undeclared allergen cashew on chicken wrap, from the Netheralnds",
+   "action": "Informing recipient(s), public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/886282",
+   "group": "rasff-2026-10028"
   },
   {
    "id": "fr-rc-2026-11-0077",
@@ -1839,6 +3147,33 @@
    "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/sveza-raca/"
   },
   {
+   "id": "cz-pranyr-202350",
+   "country": "CZ",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "other",
+   "name": "KUŘECÍ STEHNA SPODNÍ, zn. ALBERTOVO ČERSTVÉ",
+   "reason": "Maso mělo netypicky nažloutlý, oslizlý povrch a zapáchalo po kažení a rozkladu",
+   "details": "Maso mělo netypicky nažloutlý, oslizlý povrch a zapáchalo po kažení a rozkladu. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "lots": "L 162617000",
+   "bestBefore": "27.06.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202350"
+  },
+  {
+   "id": "cz-pranyr-202356",
+   "country": "CZ",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "VILACONIC Rýže ST25r",
+   "reason": "Uvnitř výrobku pod obalem byl zjištěn výskyt vývojových stádií škůdců a stopy po jejich činnosti",
+   "details": "Uvnitř výrobku pod obalem byl zjištěn výskyt vývojových stádií škůdců a stopy po jejich činnosti. Na obalu potraviny byly zjištěny otvory po činnosti škůdců a zámotky. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "bestBefore": "10/05/2028",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202356"
+  },
+  {
    "id": "de-lmw-261109-09-ni-corned-beef",
    "country": "DE",
    "published": "2026-11-10",
@@ -1852,6 +3187,256 @@
    "action": "Kundinnen und Kunden werden gebeten, betroffene Glaeser keinesfalls zu verzehren und in der jeweiligen Verkaufsstelle zurückzugeben. Der Kaufpreis wird bei Rueckgabe erstattet.",
    "source": "lebensmittelwarnung.de",
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261109_09_NI_Corned_Beef/261109_09_NI_Corned_Beef.html"
+  },
+  {
+   "id": "eu-rasff-be-2026-9973",
+   "country": "BE",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Marshmallow",
+   "reason": "Salmonella in marshmallow from Belgium",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "action": "Detained by operator",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+   "group": "rasff-2026-9973"
+  },
+  {
+   "id": "eu-rasff-be-2026-9985",
+   "country": "BE",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Chicken pops",
+   "reason": "Salmonella in chicken pops",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
+   "group": "rasff-2026-9985"
+  },
+  {
+   "id": "eu-rasff-be-2026-9991",
+   "country": "BE",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Mussels",
+   "reason": "Too high count of E.coli in mussels from The Netherlands",
+   "details": "Escherichia coli - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799",
+   "group": "rasff-2026-9991"
+  },
+  {
+   "id": "eu-rasff-be-2026-9993",
+   "country": "BE",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Sardinelle pâté",
+   "reason": "Swollen tins of sardines from Senegal + microbiological non conform results",
+   "details": "bulging packaging - faulty processing or storage conditions",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885966"
+  },
+  {
+   "id": "eu-rasff-ee-2026-9991",
+   "country": "EE",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Mussels",
+   "reason": "Too high count of E.coli in mussels from The Netherlands",
+   "details": "Escherichia coli - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799",
+   "group": "rasff-2026-9991"
+  },
+  {
+   "id": "eu-rasff-es-2026-9973",
+   "country": "ES",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Marshmallow",
+   "reason": "Salmonella in marshmallow from Belgium",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+   "group": "rasff-2026-9973"
+  },
+  {
+   "id": "eu-rasff-es-2026-9985",
+   "country": "ES",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Chicken pops",
+   "reason": "Salmonella in chicken pops",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
+   "group": "rasff-2026-9985"
+  },
+  {
+   "id": "eu-rasff-hu-2026-9973",
+   "country": "HU",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Marshmallow",
+   "reason": "Salmonella in marshmallow from Belgium",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+   "group": "rasff-2026-9973"
+  },
+  {
+   "id": "eu-rasff-it-2026-9973",
+   "country": "IT",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Marshmallow",
+   "reason": "Salmonella in marshmallow from Belgium",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+   "group": "rasff-2026-9973"
+  },
+  {
+   "id": "eu-rasff-it-2026-9985",
+   "country": "IT",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Chicken pops",
+   "reason": "Salmonella in chicken pops",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
+   "group": "rasff-2026-9985"
+  },
+  {
+   "id": "eu-rasff-lu-2026-9973",
+   "country": "LU",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Marshmallow",
+   "reason": "Salmonella in marshmallow from Belgium",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+   "group": "rasff-2026-9973"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9973",
+   "country": "NL",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Marshmallow",
+   "reason": "Salmonella in marshmallow from Belgium",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+   "group": "rasff-2026-9973"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9991",
+   "country": "NL",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Mussels",
+   "reason": "Too high count of E.coli in mussels from The Netherlands",
+   "details": "Escherichia coli - pathogenic micro-organisms",
+   "action": "Informing recipient(s)",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799",
+   "group": "rasff-2026-9991"
+  },
+  {
+   "id": "eu-rasff-pl-2026-9973",
+   "country": "PL",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Marshmallow",
+   "reason": "Salmonella in marshmallow from Belgium",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "action": "No action taken",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+   "group": "rasff-2026-9973"
+  },
+  {
+   "id": "eu-rasff-pl-2026-9985",
+   "country": "PL",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Chicken pops",
+   "reason": "Salmonella in chicken pops",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
+   "group": "rasff-2026-9985"
+  },
+  {
+   "id": "eu-rasff-pl-2026-9991",
+   "country": "PL",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Mussels",
+   "reason": "Too high count of E.coli in mussels from The Netherlands",
+   "details": "Escherichia coli - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885799",
+   "group": "rasff-2026-9991"
+  },
+  {
+   "id": "eu-rasff-pt-2026-9985",
+   "country": "PT",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Chicken pops",
+   "reason": "Salmonella in chicken pops",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885928",
+   "group": "rasff-2026-9985"
+  },
+  {
+   "id": "eu-rasff-se-2026-9973",
+   "country": "SE",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Marshmallow",
+   "reason": "Salmonella in marshmallow from Belgium",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "action": "No action taken",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+   "group": "rasff-2026-9973"
+  },
+  {
+   "id": "eu-rasff-sk-2026-9973",
+   "country": "SK",
+   "published": "2026-11-10",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Marshmallow",
+   "reason": "Salmonella in marshmallow from Belgium",
+   "details": "Salmonella - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885886",
+   "group": "rasff-2026-9973"
   },
   {
    "id": "fr-rc-2026-11-0056",
@@ -2016,7 +3601,48 @@
    "gtins": [
     "3505870000343",
     "3505870001722"
-   ]
+   ],
+   "group": "gtin-3505870000343"
+  },
+  {
+   "id": "cz-pranyr-202311",
+   "country": "CZ",
+   "published": "2026-11-09",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "MENU GOLD Rýže LOUPANÁ",
+   "reason": "Uvnitř výrobku byl zjištěn výskyt živých škůdců",
+   "details": "Uvnitř výrobku byl zjištěn výskyt živých škůdců. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "bestBefore": "28.04.2028",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202311"
+  },
+  {
+   "id": "cz-pranyr-202341",
+   "country": "CZ",
+   "published": "2026-11-09",
+   "category": "baby",
+   "hazard": "toxin",
+   "name": "Nature´s promise Rýžová kaše s jahodami a malinami",
+   "reason": "V potravině byl překročen maximální limit pro obsah kontaminující látky - aflatoxinu B1",
+   "details": "V potravině byl překročen maximální limit pro obsah kontaminující látky - aflatoxinu B1.",
+   "lots": "LOT 50426",
+   "bestBefore": "31.07.2027",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202341"
+  },
+  {
+   "id": "cz-pranyr-202348",
+   "country": "CZ",
+   "published": "2026-11-09",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "MASO UZENINY POLIČKA Hovězí carpaccio",
+   "reason": "V potravině byla zjištěna přítomnost Escherichia coli produkující shiga-toxin",
+   "details": "V potravině byla zjištěna přítomnost Escherichia coli produkující shiga-toxin. Přítomnost této bakterie v potravině určené k přímé konzumaci představuje vysoké riziko vzniku onemocnění u spotřebitele.",
+   "bestBefore": "10.08.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202348"
   },
   {
    "id": "de-lmw-261106-05-sh-rindfleischsalamiprodukte",
@@ -2047,6 +3673,108 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261109_10_BE_Wasabi_rice_crackers/261109_10_BE_Wasabi_rice_crackers.html"
   },
   {
+   "id": "eu-rasff-es-2026-9922",
+   "country": "ES",
+   "published": "2026-11-09",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Frozen Chicken Breast Trimmings",
+   "reason": "Excessive amounts of Bone Fragements in frozen chicken breast trimmings",
+   "details": "bone fragments - foreign bodies / physical danger",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885447",
+   "group": "rasff-2026-9922"
+  },
+  {
+   "id": "eu-rasff-hu-2026-9942",
+   "country": "HU",
+   "published": "2026-11-09",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Brown rice",
+   "reason": "Exceeded pesticide levels in Brown Rice",
+   "details": "tricyclazole - unauthorised substance - pesticide residues; propiconazole - unauthorised substance - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664",
+   "group": "rasff-2026-9942"
+  },
+  {
+   "id": "eu-rasff-it-2026-9942",
+   "country": "IT",
+   "published": "2026-11-09",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Brown rice",
+   "reason": "Exceeded pesticide levels in Brown Rice",
+   "details": "tricyclazole - unauthorised substance - pesticide residues; propiconazole - unauthorised substance - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664",
+   "group": "rasff-2026-9942"
+  },
+  {
+   "id": "eu-rasff-lu-2026-9952",
+   "country": "LU",
+   "published": "2026-11-09",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Scallops, rice, and mixed vegetables",
+   "reason": "Incorrectly labeled trays containing undeclared mollusks and wheat",
+   "action": "Public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885761"
+  },
+  {
+   "id": "eu-rasff-mt-2026-9922",
+   "country": "MT",
+   "published": "2026-11-09",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Frozen Chicken Breast Trimmings",
+   "reason": "Excessive amounts of Bone Fragements in frozen chicken breast trimmings",
+   "details": "bone fragments - foreign bodies / physical danger",
+   "action": "Public warning - press release, recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885447",
+   "group": "rasff-2026-9922"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9951",
+   "country": "NL",
+   "published": "2026-11-09",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Chocolate Santas",
+   "reason": "For further investigations - Insects found in chocolate Santas",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885211"
+  },
+  {
+   "id": "eu-rasff-pl-2026-9942",
+   "country": "PL",
+   "published": "2026-11-09",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Brown rice",
+   "reason": "Exceeded pesticide levels in Brown Rice",
+   "details": "tricyclazole - unauthorised substance - pesticide residues; propiconazole - unauthorised substance - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664",
+   "group": "rasff-2026-9942"
+  },
+  {
+   "id": "eu-rasff-sk-2026-9942",
+   "country": "SK",
+   "published": "2026-11-09",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Brown rice",
+   "reason": "Exceeded pesticide levels in Brown Rice",
+   "details": "tricyclazole - unauthorised substance - pesticide residues; propiconazole - unauthorised substance - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885664",
+   "group": "rasff-2026-9942"
+  },
+  {
    "id": "fr-rc-2026-11-0026",
    "country": "FR",
    "published": "2026-11-09",
@@ -2075,7 +3803,8 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24041/interne",
    "gtins": [
     "4104420230538"
-   ]
+   ],
+   "group": "gtin-4104420230538"
   },
   {
    "id": "fr-rc-2026-11-0058",
@@ -2126,7 +3855,8 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24047/interne",
    "gtins": [
     "3760201600023"
-   ]
+   ],
+   "group": "gtin-3760201600023"
   },
   {
    "id": "de-lmw-261106-04-bw-pinienkerne",
@@ -2173,6 +3903,226 @@
    "action": "Im Rahmen einer Untersuchung wurde eine Überschreitung des Höchstgehalts des Mykotoxins Ochratoxin A festgestellt, das bei regelmäßigem Verzehr gesundheitsschädlich sein kann. Aus vorsorgenden Verbraucherschutzgründen raten wir daher vom Verzehr des Produktes ab.",
    "source": "lebensmittelwarnung.de",
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261106_08_HH_Soft_Aprikosen/261106_08_HH_Soft_Aprikosen.html"
+  },
+  {
+   "id": "dk-fvst-2026-nov-tilbagekald-af-ispinde",
+   "country": "DK",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Gelatelli Protein Ice White Chocolate Strawberry",
+   "reason": "Der er gennem en analyse foretaget hos Lidl's leverandør, påvist ikke-deklareret æg i produktet (>70 mg/kg)",
+   "details": "Der er gennem en analyse foretaget hos Lidl's leverandør, påvist ikke-deklareret æg i produktet (>70 mg/kg). Da produktet indeholder den allergene ingrediens æg, uden at dette fremgår af mærkningen, er der risiko for at forbrugere med allergi eller overfølsomhed over for æg kan risikere en allergisk reaktion ved indtagelse af produktet. Læs mere om oplysning om allergener i fødevarer her: Læs mere om allergener Læs mere om allergi over for æg her: Læs mere om allergener i æg",
+   "action": "Har du allergi over for æg, frarådes du at spise produktet. Du bør derfor enten levere det tilbage til butikken, hvor det er købt, eller kassere det. Hvis du oplever symptomer i forbindelse med indtag af produktet, bør du kontakte din egen læge.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-af-ispinde"
+  },
+  {
+   "id": "eu-rasff-cy-2026-9872",
+   "country": "CY",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Pistachio kernels",
+   "reason": "Exceedance of aflatoxin in pistachio kernels from USA via Italy",
+   "details": "Aflatoxin B1 - mycotoxins",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+   "group": "rasff-2026-9872"
+  },
+  {
+   "id": "eu-rasff-es-2026-9864",
+   "country": "ES",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Bio-Pinienkerne - organic pine nuts",
+   "reason": "Salmonella Cubana in organic pine nuts from Italy",
+   "details": "Salmonella cubana - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
+   "group": "rasff-2026-9864"
+  },
+  {
+   "id": "eu-rasff-hu-2026-9864",
+   "country": "HU",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Bio-Pinienkerne - organic pine nuts",
+   "reason": "Salmonella Cubana in organic pine nuts from Italy",
+   "details": "Salmonella cubana - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
+   "group": "rasff-2026-9864"
+  },
+  {
+   "id": "eu-rasff-ie-2026-9872",
+   "country": "IE",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Pistachio kernels",
+   "reason": "Exceedance of aflatoxin in pistachio kernels from USA via Italy",
+   "details": "Aflatoxin B1 - mycotoxins",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+   "group": "rasff-2026-9872"
+  },
+  {
+   "id": "eu-rasff-ie-2026-9897",
+   "country": "IE",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Kuli Kuli and Suya Spice",
+   "reason": "Undeclared peanuts and elevated aflatoxins B1 and total aflatoxins in Kuli Kuli and Suya Spice",
+   "details": "Aflatoxin B1 - mycotoxins; Aflatoxin B1 - mycotoxins; aflatoxin total - mycotoxins; aflatoxin total - mycotoxins",
+   "action": "Recall from consumer, public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885018"
+  },
+  {
+   "id": "eu-rasff-ie-2026-9912",
+   "country": "IE",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "other",
+   "name": "Various meat products including poultry products and non poultry products",
+   "reason": "Insufficient sterilisation levels in tinned food produced in France",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885004",
+   "group": "rasff-2026-9912"
+  },
+  {
+   "id": "eu-rasff-ie-2026-9913",
+   "country": "IE",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Southern Fried Chicken Sliders",
+   "reason": "Undeclared egg and milk in mispacked Southern Fried Chicken Sliders",
+   "action": "Recall from consumer, public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885371"
+  },
+  {
+   "id": "eu-rasff-it-2026-9864",
+   "country": "IT",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Bio-Pinienkerne - organic pine nuts",
+   "reason": "Salmonella Cubana in organic pine nuts from Italy",
+   "details": "Salmonella cubana - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
+   "group": "rasff-2026-9864"
+  },
+  {
+   "id": "eu-rasff-it-2026-9872",
+   "country": "IT",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Pistachio kernels",
+   "reason": "Exceedance of aflatoxin in pistachio kernels from USA via Italy",
+   "details": "Aflatoxin B1 - mycotoxins",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+   "group": "rasff-2026-9872"
+  },
+  {
+   "id": "eu-rasff-it-2026-9912",
+   "country": "IT",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "other",
+   "name": "Various meat products including poultry products and non poultry products",
+   "reason": "Insufficient sterilisation levels in tinned food produced in France",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885004",
+   "group": "rasff-2026-9912"
+  },
+  {
+   "id": "eu-rasff-lu-2026-9864",
+   "country": "LU",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Bio-Pinienkerne - organic pine nuts",
+   "reason": "Salmonella Cubana in organic pine nuts from Italy",
+   "details": "Salmonella cubana - pathogenic micro-organisms",
+   "action": "Withdrawal from the market",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
+   "group": "rasff-2026-9864"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9872",
+   "country": "NL",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Pistachio kernels",
+   "reason": "Exceedance of aflatoxin in pistachio kernels from USA via Italy",
+   "details": "Aflatoxin B1 - mycotoxins",
+   "action": "Informing recipient(s), withdrawal from the market",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+   "group": "rasff-2026-9872"
+  },
+  {
+   "id": "eu-rasff-pt-2026-9872",
+   "country": "PT",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Pistachio kernels",
+   "reason": "Exceedance of aflatoxin in pistachio kernels from USA via Italy",
+   "details": "Aflatoxin B1 - mycotoxins",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+   "group": "rasff-2026-9872"
+  },
+  {
+   "id": "eu-rasff-ro-2026-9864",
+   "country": "RO",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Bio-Pinienkerne - organic pine nuts",
+   "reason": "Salmonella Cubana in organic pine nuts from Italy",
+   "details": "Salmonella cubana - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885147",
+   "group": "rasff-2026-9864"
+  },
+  {
+   "id": "eu-rasff-ro-2026-9912",
+   "country": "RO",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "other",
+   "name": "Various meat products including poultry products and non poultry products",
+   "reason": "Insufficient sterilisation levels in tinned food produced in France",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/885004",
+   "group": "rasff-2026-9912"
+  },
+  {
+   "id": "eu-rasff-se-2026-9872",
+   "country": "SE",
+   "published": "2026-11-06",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Pistachio kernels",
+   "reason": "Exceedance of aflatoxin in pistachio kernels from USA via Italy",
+   "details": "Aflatoxin B1 - mycotoxins",
+   "action": "Withdrawal from recipient(s)",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884597",
+   "group": "rasff-2026-9872"
   },
   {
    "id": "fr-rc-2026-11-0038",
@@ -2268,7 +4218,8 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24032/interne",
    "gtins": [
     "4104420230538"
-   ]
+   ],
+   "group": "gtin-4104420230538"
   },
   {
    "id": "fr-rc-2026-11-0046",
@@ -2332,7 +4283,8 @@
    "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/mesanica-semen-za-solato/",
    "gtins": [
     "4104420230538"
-   ]
+   ],
+   "group": "gtin-4104420230538"
   },
   {
    "id": "si-gov-pinjole-2",
@@ -2455,6 +4407,34 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261105_03_HE_Pinien_Salatkerne/261105_03_HE_Pinien_Salatkerne.html"
   },
   {
+   "id": "eu-rasff-fi-2026-9854",
+   "country": "FI",
+   "published": "2026-11-05",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Dried Jasmine flowers (herbal tea)",
+   "reason": "Pesticide residues (chlorpyrifos) in dried jasmine flowers (herbal tea) from China via Sweden",
+   "details": "cypermethrin - pesticide residues; chlorfenapyr - pesticide residues; dinotefuran - unauthorised substance - pesticide residues; chlorpyrifos - unauthorised substance - pesticide residues; bifenthrin - pesticide residues; paclobutrazol - pesticide residues; triazophos - pesticide residues; thiamethoxam - pesticide residues; pyridaben - pesticide residues; acetamiprid - pesticide residues; lufenuron - pesticide residues; clothianidin - pesticide residues; imidacloprid - pesticide residues; lambda-cyhalothrin - pesticide residues; emamectin - pesticide residues; chlorantraniliprole - pesticide residues",
+   "action": "Destruction, recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884565",
+   "group": "rasff-2026-9854"
+  },
+  {
+   "id": "eu-rasff-se-2026-9854",
+   "country": "SE",
+   "published": "2026-11-05",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Dried Jasmine flowers (herbal tea)",
+   "reason": "Pesticide residues (chlorpyrifos) in dried jasmine flowers (herbal tea) from China via Sweden",
+   "details": "cypermethrin - pesticide residues; chlorfenapyr - pesticide residues; dinotefuran - unauthorised substance - pesticide residues; chlorpyrifos - unauthorised substance - pesticide residues; bifenthrin - pesticide residues; paclobutrazol - pesticide residues; triazophos - pesticide residues; thiamethoxam - pesticide residues; pyridaben - pesticide residues; acetamiprid - pesticide residues; lufenuron - pesticide residues; clothianidin - pesticide residues; imidacloprid - pesticide residues; lambda-cyhalothrin - pesticide residues; emamectin - pesticide residues; chlorantraniliprole - pesticide residues",
+   "action": "Withdrawal from recipient(s)",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884565",
+   "group": "rasff-2026-9854"
+  },
+  {
    "id": "fr-rc-2026-11-0032",
    "country": "FR",
    "published": "2026-11-05",
@@ -2482,7 +4462,8 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24016/interne",
    "gtins": [
     "3760201600023"
-   ]
+   ],
+   "group": "gtin-3760201600023"
   },
   {
    "id": "fr-rc-2026-11-0037",
@@ -2498,7 +4479,8 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24019/interne",
    "gtins": [
     "3467980036813"
-   ]
+   ],
+   "group": "gtin-3467980036813"
   },
   {
    "id": "fr-rc-2026-11-0039",
@@ -2585,6 +4567,56 @@
    "bestBefore": "03.06.2027",
    "source": "AGES",
    "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/dennree-pinienkerne-60-g"
+  },
+  {
+   "id": "eu-rasff-cy-2026-9796",
+   "country": "CY",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Saucy Noodles Sesame",
+   "reason": "Absence of allergen labelling in the greek language in saucy noodles",
+   "details": "allergen information - insufficient - faulty labelling or claims",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883576",
+   "group": "rasff-2026-9796"
+  },
+  {
+   "id": "eu-rasff-lt-2026-9796",
+   "country": "LT",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Saucy Noodles Sesame",
+   "reason": "Absence of allergen labelling in the greek language in saucy noodles",
+   "details": "allergen information - insufficient - faulty labelling or claims",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883576",
+   "group": "rasff-2026-9796"
+  },
+  {
+   "id": "eu-rasff-ro-2026-9808",
+   "country": "RO",
+   "published": "2026-11-04",
+   "category": "baby",
+   "hazard": "microbe",
+   "name": "Chicken breast",
+   "reason": "Salmonella Infantis in chilled corn fed chicken breast filets from Romania",
+   "details": "Salmonella infantis - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884751"
+  },
+  {
+   "id": "eu-rasff-se-2026-9818",
+   "country": "SE",
+   "published": "2026-11-04",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Blue Poppy Seeds",
+   "reason": "Opiums alkaloids in blue poppy seeds fromTürkiye",
+   "details": "opium alkaloids - too high content - composition",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884535"
   },
   {
    "id": "fr-rc-2026-11-0002",
@@ -2676,7 +4708,8 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24005/interne",
    "gtins": [
     "3467980036813"
-   ]
+   ],
+   "group": "gtin-3467980036813"
   },
   {
    "id": "fr-rc-2026-11-0028",
@@ -2717,6 +4750,48 @@
    "action": "Ne plus consommer. Rapporter le produit au point de vente.",
    "source": "RappelConso",
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24015/interne"
+  },
+  {
+   "id": "cz-pranyr-202287",
+   "country": "CZ",
+   "published": "2026-11-03",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "KUŘECÍ ZADNÍ ČTVRTKY",
+   "reason": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu",
+   "details": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu.",
+   "lots": "0092111186",
+   "bestBefore": "09.08.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202287"
+  },
+  {
+   "id": "cz-pranyr-202299",
+   "country": "CZ",
+   "published": "2026-11-03",
+   "category": "baby",
+   "hazard": "toxin",
+   "name": "Allnature BIO Dětský čaj Průdušky se slézem. BIO Dětský čaj PRŮDUŠKOVÝ.",
+   "reason": "V potravině byl překročen legislativní limit pro obsah kontaminujících látek - pyrolizidinových alkaloidů",
+   "details": "V potravině byl překročen legislativní limit pro obsah kontaminujících látek - pyrolizidinových alkaloidů.",
+   "lots": "VPC002377A",
+   "bestBefore": "10.2027",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202299"
+  },
+  {
+   "id": "cz-pranyr-202300",
+   "country": "CZ",
+   "published": "2026-11-03",
+   "category": "baby",
+   "hazard": "toxin",
+   "name": "Allnature BIO Dětský čaj Průdušky se slézem. BIO Dětský čaj PRŮDUŠKOVÝ.",
+   "reason": "V potravině byl překročen legislativní limit pro obsah kontaminujících látek - pyrolizidinových alkaloidů",
+   "details": "V potravině byl překročen legislativní limit pro obsah kontaminujících látek - pyrolizidinových alkaloidů.",
+   "lots": "VPC003060C",
+   "bestBefore": "03.2028",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202300"
   },
   {
    "id": "fr-rc-2026-10-0246",
@@ -2783,7 +4858,8 @@
     "3760148070026",
     "3760148070439",
     "3760148070736"
-   ]
+   ],
+   "group": "gtin-3760148070026"
   },
   {
    "id": "fr-rc-2026-11-0020",
@@ -2803,6 +4879,59 @@
    ]
   },
   {
+   "id": "cz-pranyr-202266",
+   "country": "CZ",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "EN: PIPER LALOT; DU: PIPER LOLOT",
+   "reason": "V potravině byl překročen maximální limit reziduí pesticidů chlorfluazuron téměř sedminásobně, clothianidin pětinásobně, dinotefuran více než šestinásobně…",
+   "details": "V potravině byl překročen maximální limit reziduí pesticidů chlorfluazuron téměř sedminásobně, clothianidin pětinásobně, dinotefuran více než šestinásobně, flubendiamid více než pětinásobně, fosthiazate více než trojnásobně, hexaconazole sedminásobně, imidacloprid více než dvojnásobně, paclobutrazol více než šestinásobně, thiametoxam devítinásobně a fenobucarb téměř čtyřnásobně.",
+   "lots": "LOT: 069",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202266"
+  },
+  {
+   "id": "cz-pranyr-202296",
+   "country": "CZ",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Drobenkový koláč",
+   "reason": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní šedobílé a černé barvy viditelných pouhým okem",
+   "details": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní šedobílé a černé barvy viditelných pouhým okem. Potravina byla seschlá, okoralá a nepůsobila čerstvě. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "bestBefore": "neznámo",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202296"
+  },
+  {
+   "id": "cz-pranyr-202312",
+   "country": "CZ",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Secalo a.s. křupky Sýrovo - paprikové",
+   "reason": "Uvnitř výrobku byl zjištěn výskyt škůdců a stopy po jejich činnosti",
+   "details": "Uvnitř výrobku byl zjištěn výskyt škůdců a stopy po jejich činnosti. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení. Potravina měla prošlé datum minimální trvanlivosti. Výskyt škůdců byl zjištěn i na provozovně.",
+   "bestBefore": "06.09.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202312"
+  },
+  {
+   "id": "cz-pranyr-202313",
+   "country": "CZ",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Vitana LOUPANÁ RÝŽE 8x VARNÝ SÁČEK",
+   "reason": "Uvnitř výrobku byl zjištěn výskyt škůdců a stopy po jejich činnosti",
+   "details": "Uvnitř výrobku byl zjištěn výskyt škůdců a stopy po jejich činnosti. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení. Výskyt škůdců byl zjištěn i na provozovně.",
+   "lots": "L2500322",
+   "bestBefore": "22.03.2027",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202313"
+  },
+  {
    "id": "de-lmw-261029-28-by-mini-brie",
    "country": "DE",
    "published": "2026-11-02",
@@ -2817,6 +4946,140 @@
    "action": "Empfehlung der Firma Heiderbeck GmbH: Kund:innen können das Produkt im jeweiligen Markt zurückgeben und der Kaufpreis wird selbstverständlich erstattet.",
    "source": "lebensmittelwarnung.de",
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261029_28_BY_Mini_Brie/261029_28_BY_Mini_Brie.html"
+  },
+  {
+   "id": "dk-fvst-2026-nov-tilbagekald-kikaerter",
+   "country": "DK",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "ØKO Änglamark Kikærte",
+   "reason": "Der er risiko for insekter/biller i produktet",
+   "details": "Der er risiko for insekter/biller i produktet. Insekter/biller gør produktet uegnet som fødevare.",
+   "bestBefore": "10.04.2027",
+   "action": "Har du produktet, bør du enten levere det tilbage til butikken, hvor det er købt, eller kassere det.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-kikaerter",
+   "gtins": [
+    "7340191175181"
+   ]
+  },
+  {
+   "id": "eu-rasff-be-2026-9716",
+   "country": "BE",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Cookies",
+   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
+   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+   "group": "rasff-2026-9716"
+  },
+  {
+   "id": "eu-rasff-cy-2026-9716",
+   "country": "CY",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Cookies",
+   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
+   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+   "group": "rasff-2026-9716"
+  },
+  {
+   "id": "eu-rasff-fi-2026-9716",
+   "country": "FI",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Cookies",
+   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
+   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+   "group": "rasff-2026-9716"
+  },
+  {
+   "id": "eu-rasff-hu-2026-9716",
+   "country": "HU",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Cookies",
+   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
+   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+   "group": "rasff-2026-9716"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9715",
+   "country": "NL",
+   "published": "2026-11-02",
+   "category": "supplement",
+   "hazard": "other",
+   "name": "Capsules oil",
+   "reason": "Higher THC content in capsules from the Netherlands",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/884178"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9716",
+   "country": "NL",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Cookies",
+   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
+   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+   "group": "rasff-2026-9716"
+  },
+  {
+   "id": "eu-rasff-pl-2026-9716",
+   "country": "PL",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Cookies",
+   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
+   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+   "group": "rasff-2026-9716"
+  },
+  {
+   "id": "eu-rasff-se-2026-9716",
+   "country": "SE",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Cookies",
+   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
+   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
+   "action": "Informing authorities",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+   "group": "rasff-2026-9716"
+  },
+  {
+   "id": "eu-rasff-sk-2026-9716",
+   "country": "SK",
+   "published": "2026-11-02",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Cookies",
+   "reason": "3-Monochloro-1,2-propanediol (3-MCPD) and glycidyl fatty acid esters in cookies",
+   "details": "glycidyl esters - industrial contaminants; 3-monochlor-1,2-propanediol (3-MCPD) - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/873185",
+   "group": "rasff-2026-9716"
   },
   {
    "id": "fr-rc-2026-10-0273",
@@ -2877,6 +5140,498 @@
    "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente.",
    "source": "RappelConso",
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23983/interne"
+  },
+  {
+   "id": "cz-pranyr-202280",
+   "country": "CZ",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "ŽELEZNÁ BOHYNĚ OOLONG",
+   "reason": "V potravině byl překročen maximální limit rezidua pesticidu acetamiprid dvacetiosminásobně",
+   "details": "V potravině byl překročen maximální limit rezidua pesticidu acetamiprid dvacetiosminásobně.",
+   "bestBefore": "01.04.27",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202280"
+  },
+  {
+   "id": "cz-pranyr-202306",
+   "country": "CZ",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Šumavský eidam 45%",
+   "reason": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní nazelenalé barvy viditelných pouhým okem přes obal potraviny",
+   "details": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní nazelenalé barvy viditelných pouhým okem přes obal potraviny. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "bestBefore": "07.11.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202306"
+  },
+  {
+   "id": "dk-fvst-2026-okt-tilbagekald-for-hoejt-indhold-af-cadmium-i-hakket-chili",
+   "country": "DK",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Coop Hakket Chili (frossen)",
+   "reason": "Der er fundet et for højt indhold af cadmium i produktet",
+   "details": "Der er fundet et for højt indhold af cadmium i produktet. En sundhedsmæssig risiko kan derfor ikke udelukkes. Det afgørende er, at forbrugerne ikke har et højt indtag af cadmium igennem længere tid. Det er nemlig ikke det enkelte måltid, der er afgørende, men derimod indtag over længere tid. Forbrugerne vil derfor ikke opleve akutte symptomer. Cadmium ophobes i nyrerne og kan give nyreskader. Læs mere om tungmetaller i fødevarer: https://foedevarestyrelsen.dk/kost-og-foedevarer/foedevaresikkerhed/kemiske-stoffer-og-toksiner/miljoeforureninger-i-foedevarer/metaller-i-foedevarer Hvad skal du gøre som forbruger Har du produktet bør du kassere det eller levere det tilbage til butikken, hvor det er købt.",
+   "bestBefore": "31.05.2027, 30.09.2026",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/okt/tilbagekald-for-hoejt-indhold-af-cadmium-i-hakket-chili",
+   "gtins": [
+    "7340191134195"
+   ]
+  },
+  {
+   "id": "dk-fvst-2026-okt-tilbagekald-glasfragmenter-i-protein-budding",
+   "country": "DK",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "other",
+   "name": "Glasfragmenter i Protein budding",
+   "reason": "På grund af en fejl på tappeanlæg er der risiko for små fragmenter af glas i produktet",
+   "details": "Arla Protein Pudding Chokolade 6 x 200 g Varenummer: 608332 Bedst før-datoer: 11.01.2027; 18.01.2027; 20.01.2027; 06.02.2027; Arla Protein Pudding Karamel 6 x 200 g Varenummer: 608339 Bedst før-datoer: 23.01.2027; 02.02.2027",
+   "action": "Fødevarestyrelsen råder forbrugerne til at levere produktet tilbage til butikken, hvor det er købt eller at kassere det. Hvis du har spørgsmål til symptomer, skal du kontakte egen læge eller vagtlægen.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/okt/tilbagekald-glasfragmenter-i-protein-budding"
+  },
+  {
+   "id": "dk-fvst-2026-okt-tilbagekald-ikke-deklareret-aspartam-i-energidrik",
+   "country": "DK",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "label",
+   "name": "Faxe Kondi Booster Energi 50 cl dåse",
+   "reason": "Produktet indeholder aspartam som følge af en fejl under produktionen",
+   "details": "Produktet indeholder aspartam som følge af en fejl under produktionen. Aspartam er lovligt at anvende i fødevarer, når det fremgår af ingredienslisten og mærkningen på produktet. Da aspartam ikke er deklareret på det berørte produkt, tilbagekaldes produktet af særligt hensyn til personer med Føllings sygdom, for hvem indtagelse af aspartam kan udgøre en sundhedsrisiko.",
+   "action": "Er du overfølsom over for sødestoffet aspartam, frarådes du at indtage produktet. . Du kan levere det tilbage til butikken, hvor det er købt, eller kassere det. Hvis du oplever symptomer i forbindelse med indtag af produktet, bør du kontakte din egen læge.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/okt/tilbagekald-ikke-deklareret-aspartam-i-energidrik"
+  },
+  {
+   "id": "dk-fvst-2026-okt-tilbagekald-risiko-for-skadedyrskontaminering-af-broedprodukter",
+   "country": "DK",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Samtlige produkter fra Frejas Fællesbageri produceret inden for de seneste 3 måneder",
+   "reason": "Der er manglende skadedyrssikring af produktions- og lagerlokaler og konstateret mange gnaverekskrementer i lokalerne",
+   "details": "Der er manglende skadedyrssikring af produktions- og lagerlokaler og konstateret mange gnaverekskrementer i lokalerne. Skadedyrskontamineringen betyder, at produkterne vurderes at være farlige. Virksomheden er ikke registreret hos Fødevarestyrelsen og som følge af virksomhedens manglende sporbarhed kan der ikke redegøres for oprindelsen for virksomhedens råvarer.",
+   "action": "Fødevarestyrelsen råder forbrugerne til at levere produkterne tilbage til butikken, hvor det er købt, eller at kassere det.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/okt/tilbagekald-risiko-for-skadedyrskontaminering-af-broedprodukter"
+  },
+  {
+   "id": "dk-fvst-2026-okt-udeklareret-aeg-i-ispinde",
+   "country": "DK",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Kramers Wonderful White & Sweet Strawberry",
+   "reason": "Der er gennem en analyse foretaget hos FB Foods leverandør, påvist ikke-deklareret æg i produktet (>70 mg/kg)",
+   "details": "Der er gennem en analyse foretaget hos FB Foods leverandør, påvist ikke-deklareret æg i produktet (>70 mg/kg). Da produktet indeholder den allergene ingrediens æg, uden at dette fremgår af mærkningen, er der risiko for at forbrugere med allergi eller overfølsomhed over for æg kan risikere en allergisk reaktion ved indtagelse af produktet.",
+   "lots": "20280422/20280422",
+   "action": "Har du allergi eller overfølsomhed over for æg bør du ikke spise produkterne. Produkterne bør kasseres eller returneres til virksomheden. Hvis du oplever symptomer i forbindelse med indtag af produktet, bør du kontakte din egen læge.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/okt/udeklareret-aeg-i-ispinde"
+  },
+  {
+   "id": "eu-rasff-be-2026-9657",
+   "country": "BE",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Fine bulgur wheat salad",
+   "reason": "Listeria detected Fine bulgur wheat salad",
+   "details": "Listeria monocytogenes - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883521",
+   "group": "rasff-2026-9657"
+  },
+  {
+   "id": "eu-rasff-be-2026-9682",
+   "country": "BE",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "action": "Public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-be-2026-9687",
+   "country": "BE",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Cookies",
+   "reason": "Allergen oats not highlighted and not in Dutch language on cookies, from Canada, via the Netherlands",
+   "action": "Withdrawal from the market",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883433",
+   "group": "rasff-2026-9687"
+  },
+  {
+   "id": "eu-rasff-be-2026-9690",
+   "country": "BE",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "other",
+   "name": "Sugar free soda",
+   "reason": "Sugar free soda bottles labeled as soda (with sugar) from Belgium",
+   "action": "Withdrawal from the market, public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883593",
+   "group": "rasff-2026-9690"
+  },
+  {
+   "id": "eu-rasff-be-2026-9695",
+   "country": "BE",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "other",
+   "name": "Frozen leaf spinach",
+   "reason": "Bones and feathers found in frozen leaf spinach – Customer complaint",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883887"
+  },
+  {
+   "id": "eu-rasff-be-2026-9701",
+   "country": "BE",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Goat meat",
+   "reason": "Shiga toxin-producing Escherichia coli (STEC) in frozen goat meat from the Netherlands",
+   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
+   "action": "Recall from consumer, informing recipient(s)",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+   "group": "rasff-2026-9701"
+  },
+  {
+   "id": "eu-rasff-bg-2026-9682",
+   "country": "BG",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-es-2026-9682",
+   "country": "ES",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-fi-2026-9682",
+   "country": "FI",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-hu-2026-9682",
+   "country": "HU",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-ie-2026-9701",
+   "country": "IE",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Goat meat",
+   "reason": "Shiga toxin-producing Escherichia coli (STEC) in frozen goat meat from the Netherlands",
+   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+   "group": "rasff-2026-9701"
+  },
+  {
+   "id": "eu-rasff-it-2026-9682",
+   "country": "IT",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-lt-2026-9682",
+   "country": "LT",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-lu-2026-9657",
+   "country": "LU",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Fine bulgur wheat salad",
+   "reason": "Listeria detected Fine bulgur wheat salad",
+   "details": "Listeria monocytogenes - pathogenic micro-organisms",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883521",
+   "group": "rasff-2026-9657"
+  },
+  {
+   "id": "eu-rasff-lu-2026-9682",
+   "country": "LU",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-lu-2026-9690",
+   "country": "LU",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "other",
+   "name": "Sugar free soda",
+   "reason": "Sugar free soda bottles labeled as soda (with sugar) from Belgium",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883593",
+   "group": "rasff-2026-9690"
+  },
+  {
+   "id": "eu-rasff-lu-2026-9701",
+   "country": "LU",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Goat meat",
+   "reason": "Shiga toxin-producing Escherichia coli (STEC) in frozen goat meat from the Netherlands",
+   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
+   "action": "Withdrawal from the market",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+   "group": "rasff-2026-9701"
+  },
+  {
+   "id": "eu-rasff-mt-2026-9682",
+   "country": "MT",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "action": "Informing recipient(s), public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9323",
+   "country": "NL",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Chickpeas",
+   "reason": "For further investigations - Beetles found in chickpeas",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880978",
+   "group": "rasff-2026-9323"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9682",
+   "country": "NL",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "action": "Informing recipient(s)",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9687",
+   "country": "NL",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Cookies",
+   "reason": "Allergen oats not highlighted and not in Dutch language on cookies, from Canada, via the Netherlands",
+   "action": "Informing recipient(s), public warning - press release",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883433",
+   "group": "rasff-2026-9687"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9701",
+   "country": "NL",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Goat meat",
+   "reason": "Shiga toxin-producing Escherichia coli (STEC) in frozen goat meat from the Netherlands",
+   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
+   "action": "Informing consignor, withdrawal from the market",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+   "group": "rasff-2026-9701"
+  },
+  {
+   "id": "eu-rasff-pl-2026-9323",
+   "country": "PL",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Chickpeas",
+   "reason": "For further investigations - Beetles found in chickpeas",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880978",
+   "group": "rasff-2026-9323"
+  },
+  {
+   "id": "eu-rasff-pl-2026-9682",
+   "country": "PL",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-pl-2026-9701",
+   "country": "PL",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Goat meat",
+   "reason": "Shiga toxin-producing Escherichia coli (STEC) in frozen goat meat from the Netherlands",
+   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+   "group": "rasff-2026-9701"
+  },
+  {
+   "id": "eu-rasff-pt-2026-9682",
+   "country": "PT",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-ro-2026-9682",
+   "country": "RO",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-se-2026-9682",
+   "country": "SE",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "action": "Withdrawal from the market",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
+  },
+  {
+   "id": "eu-rasff-se-2026-9701",
+   "country": "SE",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Goat meat",
+   "reason": "Shiga toxin-producing Escherichia coli (STEC) in frozen goat meat from the Netherlands",
+   "details": "Escherichia coli shigatoxin-producing - pathogenic micro-organisms",
+   "action": "Informing authorities",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883928",
+   "group": "rasff-2026-9701"
+  },
+  {
+   "id": "eu-rasff-sk-2026-9682",
+   "country": "SK",
+   "published": "2026-10-30",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Wasabi rice crackers",
+   "reason": "High content of glycidyl esters in wasabi rice crackers, from the Netherlands",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883779",
+   "group": "rasff-2026-9682"
   },
   {
    "id": "fr-rc-2026-09-0193",
@@ -3151,6 +5906,136 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261028_27_HE_Rice_Cracker/261028_27_HE_Rice_Cracker.html"
   },
   {
+   "id": "eu-rasff-be-2026-9645",
+   "country": "BE",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Minced meat preparations",
+   "reason": "Listeria monocytogenes in minced meat preparations from Belgium",
+   "details": "Listeria monocytogenes - pathogenic micro-organisms",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883478",
+   "group": "rasff-2026-9645"
+  },
+  {
+   "id": "eu-rasff-be-2026-9651",
+   "country": "BE",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Savoy cabbages (Brassica oleracea var. sabauda)",
+   "reason": "MRL exceedance for prothioconazole in Savoy cabbage from Belgium",
+   "details": "prothioconazole - pesticide residues",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
+   "group": "rasff-2026-9651"
+  },
+  {
+   "id": "eu-rasff-ie-2026-9646",
+   "country": "IE",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Rice Cracker",
+   "reason": "Glycidol in rice crackers from Japan",
+   "details": "glycidyl esters - industrial contaminants",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/882876"
+  },
+  {
+   "id": "eu-rasff-it-2026-9623",
+   "country": "IT",
+   "published": "2026-10-29",
+   "category": "supplement",
+   "hazard": "other",
+   "name": "PediaVit Complesso B Sciroppo, flacone da 100 ml///PediaVit B Complex Syrup, 100 ml bottle",
+   "reason": "Possibile contaminazione fungina in integratore alimentare destinato a soggetti in età pediatrica////Possible fungal contamination in a food supplement for…",
+   "action": "Withdrawal from the market, recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880636",
+   "group": "rasff-2026-9623"
+  },
+  {
+   "id": "eu-rasff-it-2026-9642",
+   "country": "IT",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Tafeltrauben // table grapes",
+   "reason": "Exceedance of the maximum residue level for acetamiprid in table grapes from Italy",
+   "details": "acetamiprid - pesticide residues; spiroxamine - pesticide residues; pyriofenone - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883236"
+  },
+  {
+   "id": "eu-rasff-lu-2026-9651",
+   "country": "LU",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Savoy cabbages (Brassica oleracea var. sabauda)",
+   "reason": "MRL exceedance for prothioconazole in Savoy cabbage from Belgium",
+   "details": "prothioconazole - pesticide residues",
+   "action": "Recall from consumer",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
+   "group": "rasff-2026-9651"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9623",
+   "country": "NL",
+   "published": "2026-10-29",
+   "category": "supplement",
+   "hazard": "other",
+   "name": "PediaVit Complesso B Sciroppo, flacone da 100 ml///PediaVit B Complex Syrup, 100 ml bottle",
+   "reason": "Possibile contaminazione fungina in integratore alimentare destinato a soggetti in età pediatrica////Possible fungal contamination in a food supplement for…",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/880636",
+   "group": "rasff-2026-9623"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9645",
+   "country": "NL",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Minced meat preparations",
+   "reason": "Listeria monocytogenes in minced meat preparations from Belgium",
+   "details": "Listeria monocytogenes - pathogenic micro-organisms",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883478",
+   "group": "rasff-2026-9645"
+  },
+  {
+   "id": "eu-rasff-nl-2026-9651",
+   "country": "NL",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Savoy cabbages (Brassica oleracea var. sabauda)",
+   "reason": "MRL exceedance for prothioconazole in Savoy cabbage from Belgium",
+   "details": "prothioconazole - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
+   "group": "rasff-2026-9651"
+  },
+  {
+   "id": "eu-rasff-pt-2026-9651",
+   "country": "PT",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Savoy cabbages (Brassica oleracea var. sabauda)",
+   "reason": "MRL exceedance for prothioconazole in Savoy cabbage from Belgium",
+   "details": "prothioconazole - pesticide residues",
+   "source": "RASFF – European Commission",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/notification/883299",
+   "group": "rasff-2026-9651"
+  },
+  {
    "id": "fr-rc-2026-10-0254",
    "country": "FR",
    "published": "2026-10-29",
@@ -3286,6 +6171,20 @@
    "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Détruire le produit.",
    "source": "RappelConso",
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23959/interne"
+  },
+  {
+   "id": "gr-efet-5425",
+   "country": "GR",
+   "published": "2026-10-29",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Arla PROTEIN",
+   "reason": "πιθανή παρουσία ξένων σωμάτων (θραυσμάτων γυαλιού)",
+   "details": "Ενημέρωση Ανάκλησης Επιδορπίων με βάση το γάλα: \"ARLA PROTEIN PUDDING” Ο Ε.Φ.Ε.Τ. και συγκεκριμένα η Περιφερειακή Διεύθυνση Αττικής ενημερώθηκε μέσω του Συστήματος Έγκαιρης Προειδοποίησης για τα Τρόφιμα και τις Ζωοτροφές (RASFF), για τη διακίνηση στην ελληνική αγορά επιδορπίων με βάση το γάλα, προέλευσης Δανίας, στα οποία διαπιστώθηκε η πιθανή παρουσία ξένων σωμάτων (θραυσμάτων γυαλιού), μετά από παράπονο καταναλωτή. Η παρασκευάστρια επιχείρηση έχει προβεί σε ανάκληση όλων των εμπλεκόμενων προϊόντων. Συγκεκριμένα πρόκειται για επιδόρπια με βάση το γάλα, προέλευσης Δανίας, με εμπορική ονομασία “Arla PROTEIN”, σε πλαστικό περιέκτη των 200g, σε τρείς γεύσεις: Σοκολάτα «Arla PROTEIN Chocolate Flavour Pudding» με ημερομηνίες παραγωγής 11/06/2026, 11/07/2026 και 12/07/2026 και ημερομηνίες…",
+   "bestBefore": "26/04/2027, 23/04/2027",
+   "action": "Καλούνται οι καταναλωτές, που έχουν ήδη προμηθευτεί τα εν λόγω προϊόντα (φωτογραφίες ενδεικτικά κάτωθι), να μην τα καταναλώσουν.",
+   "source": "ΕΦΕΤ",
+   "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5425-deltio-typou-anaklisi-epidorpion-me-vasi-to-gala-arla-protein-pudding"
   },
   {
    "id": "hr-hapih-32689",
@@ -3544,6 +6443,19 @@
    "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/toast-7/"
   },
   {
+   "id": "cz-pranyr-202295",
+   "country": "CZ",
+   "published": "2026-10-26",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "ALBERTOVO KVALITNÍ HOVĚZÍ TATRSKÝ BIFTEK JEMNĚ MLETÝ",
+   "reason": "V potravině byla zjištěna přítomnost patogenní bakterie Listeria monocytogenes , která způsobuje onemocnění listeriózu",
+   "details": "V potravině byla zjištěna přítomnost patogenní bakterie Listeria monocytogenes , která způsobuje onemocnění listeriózu.",
+   "bestBefore": "18.08.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202295"
+  },
+  {
    "id": "de-lmw-261015-16-sh-esn-designer-protein-bar",
    "country": "DE",
    "published": "2026-10-26",
@@ -3575,6 +6487,20 @@
    "gtins": [
     "4012346154602"
    ]
+  },
+  {
+   "id": "dk-fvst-2026-okt-listeria-i-roeget-oerred",
+   "country": "DK",
+   "published": "2026-10-26",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Nautica røget ørred i varianterne Classic og Black Pepper",
+   "reason": "Bakterien Listeria monocytogenes er påvist i produktet",
+   "details": "Bakterien Listeria monocytogenes er påvist i produktet. Infektion med Listeriabakterier kan give influenzalignende symptomer, feber og hovedpine og i sjældne tilfælde mave-tarmproblemer. Læs mere om Listeria i fødevarer her Listeria monocytogenes i fødevarer - Fødevarestyrelsen Læs mere om infektion med Listeria (listeriose)her Listeriainfektion",
+   "bestBefore": "15.10.2026, 16.10.2026",
+   "action": "Fødevarestyrelsen råder forbrugerne til at levere produktet tilbage til butikken, hvor det er købt eller at kassere det. Hvis du oplever symptomer i forbindelse med indtag af produktet, bør du kontakte din egen læge.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/okt/listeria-i-roeget-oerred"
   },
   {
    "id": "fr-rc-2026-10-0140",
@@ -3726,6 +6652,61 @@
    "url": "https://www.ages.at/mensch/produktwarnungen-produktrueckrufe/produkt/lidl-nautica-regenbogen-forellenfilets-natur-125g-und-nautica-regenbogen-forellenfilets-pfeffer-125g"
   },
   {
+   "id": "cz-pranyr-201954",
+   "country": "CZ",
+   "published": "2026-10-23",
+   "category": "food",
+   "hazard": "other",
+   "name": "Ennjoi Grape Fruit Shaped Jelly 228g",
+   "reason": "Ve výrobku bylo zjištěno použití barviva amaranth (E 123), které není pro tento typ výrobků povoleno",
+   "details": "Ve výrobku bylo zjištěno použití barviva amaranth (E 123), které není pro tento typ výrobků povoleno. Výrobek obsahoval syntetická barviva brilantní modř FCF (E133), allura červeň AC (E129), která nebyla uvedena ve složení na etiketě v českém jazyce.",
+   "lots": "11/02/2027",
+   "bestBefore": "11/02/2027",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=201954"
+  },
+  {
+   "id": "cz-pranyr-202228",
+   "country": "CZ",
+   "published": "2026-10-23",
+   "category": "food",
+   "hazard": "other",
+   "name": "Čerstvé KUŘECÍ STEHNA",
+   "reason": "U potraviny byla zjištěna netypická, nepříjemná, cizí vůně po zkaženém mase",
+   "details": "U potraviny byla zjištěna netypická, nepříjemná, cizí vůně po zkaženém mase. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "lots": "L:172625200",
+   "bestBefore": "18.09.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202228"
+  },
+  {
+   "id": "cz-pranyr-202229",
+   "country": "CZ",
+   "published": "2026-10-23",
+   "category": "food",
+   "hazard": "other",
+   "name": "KUKUŘIČNÉ KUŘE HORNÍ STEHNA - ŠPALÍČKY",
+   "reason": "U potraviny byla zjištěna netypická, nepříjemná, cizí vůně po zkaženém mase",
+   "details": "U potraviny byla zjištěna netypická, nepříjemná, cizí vůně po zkaženém mase. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "lots": "0082511608",
+   "bestBefore": "19.09.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202229"
+  },
+  {
+   "id": "cz-pranyr-202269",
+   "country": "CZ",
+   "published": "2026-10-23",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "KOREAN TRADITIONAL COOKIE á 56 g",
+   "reason": "Na etiketě v českém jazyce nebyla uvedena informace, že výrobek obsahuje arašídy, přestože výrobek arašídy ve značném množství obsahoval",
+   "details": "Na etiketě v českém jazyce nebyla uvedena informace, že výrobek obsahuje arašídy, přestože výrobek arašídy ve značném množství obsahoval. Na povrchu potraviny byla zjištěna sezamová semínka, vůně a chuť byly mírně po seznamu. Na etiketě v českém jazyce nebyla uvedena informace, že výrobek obsahuje sezam, přestože výrobek sezam obsahoval.",
+   "bestBefore": "2026.06.03",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202269"
+  },
+  {
    "id": "de-lmw-261023-23-nw-kaffee-gemahlen",
    "country": "DE",
    "published": "2026-10-23",
@@ -3741,7 +6722,8 @@
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261023_23_NW_Kaffee_gemahlen/261023_23_NW_Kaffee_gemahlen_Meldung.html",
    "gtins": [
     "8006363076203"
-   ]
+   ],
+   "group": "gtin-8006363076203"
   },
   {
    "id": "fr-rc-2026-10-0135",
@@ -3759,7 +6741,8 @@
    "gtins": [
     "3350033877665",
     "3350033877672"
-   ]
+   ],
+   "group": "gtin-3350033877665"
   },
   {
    "id": "fr-rc-2026-10-0208",
@@ -4254,6 +7237,36 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23913/interne"
   },
   {
+   "id": "gr-efet-5423",
+   "country": "GR",
+   "published": "2026-10-22",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Μπιφτέκι κοτόπουλο κατεψυγμένο",
+   "reason": "παρουσία του παθογόνου μικροοργανισμού Salmonella spp. στο ανωτέρω δείγμα",
+   "details": "Ο Ε.Φ.Ε.Τ. και ειδικότερα η Περιφερειακή Διεύθυνση Κεντρικής Μακεδονίας, κατά τη διενέργεια ελέγχων στο πλαίσιο του Προγράμματος «Επίσημος Έλεγχος Μικροβιολογικών Κριτηρίων Ασφάλειας Τροφίμων» έτους 2026, προέβη σε δειγματοληψία κατεψυγμένου προϊόντος με τα στοιχεία: ΜΠΙΦΤΕΚΙ ΚΟΤΟΠΟΥΛΟ HAMBURGER (κατεψυγμένο), βάρους 850 γρ., με αριθμό παρτίδας Lot 15626, με ημερομηνία κατάψυξης 05/06/2026 και ημερομηνία ανάλωσης 05/06/2027, που παράγεται από την εταιρεία «ΜΕΑΤΚΑ Α.Ε.». Σε συνέχεια εργαστηριακών αναλύσεων στο εργαστήριο Δοκιμών & Ερευνών Τροφίμων Θεσσαλονίκης του ΕΦΕΤ, διαπιστώθηκε η παρουσία του παθογόνου μικροοργανισμού Salmonella spp. στο ανωτέρω δείγμα. Ο Ε.Φ.Ε.Τ. απαίτησε την άμεση ανάκληση του συνόλου της συγκεκριμένης παρτίδας του εν λόγω προϊόντος και ήδη βρίσκονται σε εξέλιξη οι…",
+   "lots": "15626",
+   "bestBefore": "05/06/2027",
+   "action": "Καλούνται οι καταναλωτές που έχουν προμηθευτεί το ανωτέρω προϊόν (η απεικόνιση του οποίου αποτυπώνεται κατωτέρω), να μην το καταναλώσουν.",
+   "source": "ΕΦΕΤ",
+   "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5423-deltio-typou-anaklisi-mi-asfaloys-proiontos-bifteki-kotopoulo-katepsygmeno"
+  },
+  {
+   "id": "gr-efet-5424",
+   "country": "GR",
+   "published": "2026-10-22",
+   "category": "food",
+   "hazard": "label",
+   "name": "MAGGI Saucy Noodles",
+   "reason": "απουσία ελληνικής επισήμανσης σε τεμάχια του προϊόντος MAGGI Saucy Noodles Sesame Chicken Cup 8x75g",
+   "details": "Ενημέρωση σχετικά με την ανάκληση του προϊόντος MAGGI Saucy Noodles Sesame Chicken Cup 8x75g Ο ΕΦΕΤ σε συνέχεια σχετικής πληροφόρησης που έλαβε από την επιχείρηση ΝESTLE ΕΛΛΑΣ Α.Ε. ενημερώνει τους καταναλωτές για την απουσία ελληνικής επισήμανσης σε τεμάχια του προϊόντος MAGGI Saucy Noodles Sesame Chicken Cup 8x75g , με ημερομηνία λήξης 06/2027 και αριθμό παρτίδας 6248T92511. Η εταιρεία έχει ήδη ενεργοποιήσει την διαδικασία ανάκλησης των εν λόγω τεμαχίων από τα σημεία πώλησης υπό την εποπτεία της Περιφερειακής Διεύθυνσης Αττικής του ΕΦΕΤ και έχει προβεί σε ανάλογη ενημέρωση/ανάρτηση στην ιστοσελίδα της Ενημέρωση για MAGGI Saucy Noodles Sesame Chicken Cup 8x75g .",
+   "lots": "6248T92511",
+   "bestBefore": "06/2027",
+   "action": "Το προϊόν περιέχει σιτάρι, σόγια, σέλινο, αυγά, γάλα, μουστάρδα (σινάπι) και σουσάμι. Καλούνται οι καταναλωτές, οι οποίοι είναι αλλεργικοί σε αυτά τα συστατικά και έχουν προμηθευτεί το συγκεκριμένο προϊόν (φωτογραφία κάτωθι), να μην το καταναλώσουν.",
+   "source": "ΕΦΕΤ",
+   "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5424-deltio-typou-enimerosi-sxetika-me-tin-anaklisi-tou-proiontos-maggi-saucy-noodles"
+  },
+  {
    "id": "si-gov-dodaj-zapis-v-seznamu-261022130109",
    "country": "SI",
    "published": "2026-10-22",
@@ -4375,6 +7388,110 @@
    ]
   },
   {
+   "id": "cz-pranyr-202178",
+   "country": "CZ",
+   "published": "2026-10-20",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Směs krájené salátové zeleniny",
+   "reason": "V potravině byla zjištěna přítomnost patogenní bakterie Listeria monocytogenes , která způsobuje onemocnění listeriózu",
+   "details": "V potravině byla zjištěna přítomnost patogenní bakterie Listeria monocytogenes , která způsobuje onemocnění listeriózu.",
+   "lots": "L3407",
+   "bestBefore": "30.08.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202178"
+  },
+  {
+   "id": "cz-pranyr-202223",
+   "country": "CZ",
+   "published": "2026-10-20",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Čerstvé KUŘECÍ MLETÉ MASO STEHENNÍ",
+   "reason": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu",
+   "details": "V potravině byla zjištěna přítomnost patogenní bakterie Salmonella Infantis , která může způsobit onemocnění - salmonelózu.",
+   "lots": "L: 6233",
+   "bestBefore": "29.08.26",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202223"
+  },
+  {
+   "id": "cz-pranyr-202270",
+   "country": "CZ",
+   "published": "2026-10-20",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "MILSY BÁNOVECKÉ SYROVÉ NITE NEUDENÉ",
+   "reason": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní bílé, modro-šedé a hnědo-oranžové barvy viditelné pouhým okem přes obal potraviny",
+   "details": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní bílé, modro-šedé a hnědo-oranžové barvy viditelné pouhým okem přes obal potraviny. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení. Potravina měla prošlé datum použitelnosti.",
+   "lots": "šarža č.: L 26 123-22",
+   "bestBefore": "07.06.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202270"
+  },
+  {
+   "id": "cz-pranyr-202271",
+   "country": "CZ",
+   "published": "2026-10-20",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Jádra vlašských ořechů (nebalené)",
+   "reason": "Na povrchu potraviny byl zjištěn výskyt vývojových stádií škůdců a stopy po jejich činnosti (pavučinky)",
+   "details": "Na povrchu potraviny byl zjištěn výskyt vývojových stádií škůdců a stopy po jejich činnosti (pavučinky). Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení. Výskyt škůdců byl zjištěn i na provozně.",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202271"
+  },
+  {
+   "id": "cz-pranyr-202272",
+   "country": "CZ",
+   "published": "2026-10-20",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Jádra vlašských ořechů (balené)",
+   "reason": "Uvnitř výrobku pod obalem byl zjištěn výskyt vývojových stádií škůdců a stopy po jejich činnosti (pavučinky)",
+   "details": "Uvnitř výrobku pod obalem byl zjištěn výskyt vývojových stádií škůdců a stopy po jejich činnosti (pavučinky). Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení. Výskyt škůdců byl zjištěn i na provozně.",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202272"
+  },
+  {
+   "id": "cz-pranyr-202273",
+   "country": "CZ",
+   "published": "2026-10-20",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Skořápkové vlašské ořechy (nebalené)",
+   "reason": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní viditelných pouhým okem",
+   "details": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní viditelných pouhým okem. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202273"
+  },
+  {
+   "id": "cz-pranyr-202274",
+   "country": "CZ",
+   "published": "2026-10-20",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Babiččina volba MOUKA HRUBÁ PŠENIČNÁ",
+   "reason": "Uvnitř výrobku byl zjištěn výskyt škůdců a stopy po jejich činnosti (pavučinky)",
+   "details": "Uvnitř výrobku byl zjištěn výskyt škůdců a stopy po jejich činnosti (pavučinky). Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení. Potravina měla prošlé datum minimální trvanlivosti. Výskyt škůdců byl zjištěn i na provozovně.",
+   "bestBefore": "05.12.2025",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202274"
+  },
+  {
+   "id": "cz-pranyr-202275",
+   "country": "CZ",
+   "published": "2026-10-20",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Babiččina volba MOUKA HRUBÁ PŠENIČNÁ",
+   "reason": "Uvnitř výrobku byl zjištěn výskyt škůdců a stopy po jejich činnosti (pavučinky)",
+   "details": "Uvnitř výrobku byl zjištěn výskyt škůdců a stopy po jejich činnosti (pavučinky). Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení. Potravina měla prošlé datum minimální trvanlivosti. Výskyt škůdců byl zjištěn i na provozovně.",
+   "bestBefore": "28.04.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202275"
+  },
+  {
    "id": "de-lmw-261019-19-nw-frischkaeseringe",
    "country": "DE",
    "published": "2026-10-20",
@@ -4490,7 +7607,8 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23876/interne",
    "gtins": [
     "3505870000343"
-   ]
+   ],
+   "group": "gtin-3505870000343"
   },
   {
    "id": "si-gov-mleta-kava",
@@ -4506,6 +7624,114 @@
    "action": "Potrošnikom svetujemo, da živilo ne zaužijejo, temveč ga zavržejo.",
    "source": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
    "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/mleta-kava/"
+  },
+  {
+   "id": "cz-pranyr-201981",
+   "country": "CZ",
+   "published": "2026-10-19",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Pohoda PEPŘ ČERNÝ MLETÝ",
+   "reason": "V potravině byl překročen maximální limit reziduí pesticidu chlorpyrifos čtyřnásobně",
+   "details": "V potravině byl překročen maximální limit reziduí pesticidu chlorpyrifos čtyřnásobně.",
+   "lots": "031926",
+   "bestBefore": "19.03.2028",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=201981"
+  },
+  {
+   "id": "cz-pranyr-202111",
+   "country": "CZ",
+   "published": "2026-10-19",
+   "category": "supplement",
+   "hazard": "other",
+   "name": "Capatrex",
+   "reason": "Ve výrobku byla zjištěna přítomnost látky sildenafil",
+   "details": "Ve výrobku byla zjištěna přítomnost látky sildenafil. Sildenafil je látka, jejíž použití není příslušnou legislativou v potravinářství povoleno a využívá se zejména v léčivech na podporu mužské erekce. Výdej léčiva je vázán pouze na lékařský předpis. Nevědomé požití této látky může způsobit závažné zdravotní komplikace kardiakům a lidem s vysokým krevním tlakem.",
+   "bestBefore": "EXP 01/2028",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202111"
+  },
+  {
+   "id": "cz-pranyr-202144",
+   "country": "CZ",
+   "published": "2026-10-19",
+   "category": "food",
+   "hazard": "other",
+   "name": "HEMP EXTRACT STICK SATIVA - MIXED BERRY, 5 KS",
+   "reason": "V potravině byla prokázána přítomnost psychotropní látky delta 9-THCB",
+   "details": "V potravině byla prokázána přítomnost psychotropní látky delta 9-THCB. Použití omamných nebo psychotropních látek v potravinách je zakázáno.",
+   "bestBefore": "neuvedeno",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202144"
+  },
+  {
+   "id": "cz-pranyr-202168",
+   "country": "CZ",
+   "published": "2026-10-19",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Longan; Dimocarpus longan; Longan-Frucht; Nhan Long",
+   "reason": "V potravině byl překročen maximální limit reziduí pesticidů azoxystrobin čtyřicetitřínásobně, dimethomorph třicetišestinásobně, hexaconazole více než…",
+   "details": "V potravině byl překročen maximální limit reziduí pesticidů azoxystrobin čtyřicetitřínásobně, dimethomorph třicetišestinásobně, hexaconazole více než sedminásobně, profenofos šestinásobně, tebuconazole více než trojnásobně a tricyclazole třicetiosminásobně.",
+   "lots": "Lot Nr: NC-100826",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202168"
+  },
+  {
+   "id": "cz-pranyr-202169",
+   "country": "CZ",
+   "published": "2026-10-19",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Betal Leaf; Betelblad / Feuille de bétel; Piper sarmentosum; ใบชะพลู",
+   "reason": "V potravině byl překročen maximální limit reziduí pesticidů chlorfenapyr dvacetijednanásobně, clothianidin více než dvanáctinásobně, fipronil…",
+   "details": "V potravině byl překročen maximální limit reziduí pesticidů chlorfenapyr dvacetijednanásobně, clothianidin více než dvanáctinásobně, fipronil šedesátičtyřnásobně, hexaconazole třicetidvounásobně, oxadixyl více než čtyřnásobně, pirimiphos-methyl více než dvounásobně, profenofos více než desetinásobně, thiametoxam desetinásobně a fenobucarb čtyřicetičtyřnásobně.",
+   "lots": "Lot NO. 2-086-480",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202169"
+  },
+  {
+   "id": "cz-pranyr-202185",
+   "country": "CZ",
+   "published": "2026-10-19",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Kmotrova vysočina",
+   "reason": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní bílé barvy viditelné pouhým okem přes obal potraviny",
+   "details": "Na povrchu potraviny byl zjištěn výskyt kolonií plísní bílé barvy viditelné pouhým okem přes obal potraviny. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "lots": "L 0308262",
+   "bestBefore": "20.09.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202185"
+  },
+  {
+   "id": "cz-pranyr-202208",
+   "country": "CZ",
+   "published": "2026-10-19",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "TÁN CUONG TRÁ NÁM SAO GREEN TEA zelený čaj",
+   "reason": "V potravině byl překročen maximální limit reziduí pesticidů acetamiprid čtyřnásobně, dinotefuran více než osminásobně, imidacloprid téměř čtyřnásobně, lambda…",
+   "details": "V potravině byl překročen maximální limit reziduí pesticidů acetamiprid čtyřnásobně, dinotefuran více než osminásobně, imidacloprid téměř čtyřnásobně, lambda cyhalothrin téměř trojnásobně a tolfenpyrad sedmdesátičtyřnásobně.",
+   "lots": "04/04/2027",
+   "bestBefore": "04/04/2027",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202208"
+  },
+  {
+   "id": "cz-pranyr-202230",
+   "country": "CZ",
+   "published": "2026-10-19",
+   "category": "food",
+   "hazard": "other",
+   "name": "KUŘECÍ PRSNÍ ŘÍZEK, BEZ KŮŽE A KOSTI, TRÍDA JAKSOTI A, ČERSTVÉ, CHLAZENÉ",
+   "reason": "U potraviny byla zjištěna netypická, nepříjemná, cizí vůně po zkaženém mase",
+   "details": "U potraviny byla zjištěna netypická, nepříjemná, cizí vůně po zkaženém mase. Potravina se nepovažuje za bezpečnou, pokud jeví známky kažení.",
+   "lots": "2624600902",
+   "bestBefore": "17.09.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202230"
   },
   {
    "id": "fr-rc-2026-10-0148",
@@ -4526,7 +7752,7 @@
    "country": "FR",
    "published": "2026-10-19",
    "category": "food",
-   "hazard": "toxin",
+   "hazard": "microbe",
    "name": "Tomme de vache fermière au lait cru",
    "brand": "Maison Marie Severac",
    "reason": "Mise en évidence de la présence d’escherichia coli producteurs de shigatoxines (e. coli stec) dans le produit.",
@@ -5062,7 +8288,7 @@
    "country": "FR",
    "published": "2026-10-16",
    "category": "food",
-   "hazard": "toxin",
+   "hazard": "microbe",
    "name": "Fromages de chèvres lactiques au lait cru",
    "brand": "Vente au Détail/sans Étiquette",
    "reason": "Produit contaminé par echiachicoli",
@@ -5173,7 +8399,8 @@
    "gtins": [
     "3350033877665",
     "3350033877672"
-   ]
+   ],
+   "group": "gtin-3350033877665"
   },
   {
    "id": "hr-hapih-32473",
@@ -5190,7 +8417,8 @@
    "url": "https://www.hapih.hr/opoziv-proizvoda-chia-sjemenke-200-g/",
    "gtins": [
     "3859892617509"
-   ]
+   ],
+   "group": "gtin-3859892617509"
   },
   {
    "id": "si-gov-jetrna-pasteta",
@@ -5227,6 +8455,32 @@
     "3838900829622",
     "3838900936306"
    ]
+  },
+  {
+   "id": "cz-pranyr-202189",
+   "country": "CZ",
+   "published": "2026-10-15",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Mák",
+   "reason": "V potravině byl překročen maximální limit rezidua pesticidu difenoconazol více než čtyřnásobně",
+   "details": "V potravině byl překročen maximální limit rezidua pesticidu difenoconazol více než čtyřnásobně.",
+   "lots": "22.07.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202189"
+  },
+  {
+   "id": "cz-pranyr-202190",
+   "country": "CZ",
+   "published": "2026-10-15",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Mák",
+   "reason": "V potravině byl překročen maximální limit rezidua pesticidu difenoconazol více než čtyřnásobně",
+   "details": "V potravině byl překročen maximální limit rezidua pesticidu difenoconazol více než čtyřnásobně.",
+   "lots": "28.07.2026",
+   "source": "Státní zemědělská a potravinářská inspekce",
+   "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202190"
   },
   {
    "id": "de-lmw-261015-15-th-rindergulasch-im-glas",
@@ -5335,7 +8589,21 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23797/interne",
    "gtins": [
     "8006363076203"
-   ]
+   ],
+   "group": "gtin-8006363076203"
+  },
+  {
+   "id": "gr-efet-5419",
+   "country": "GR",
+   "published": "2026-10-15",
+   "category": "food",
+   "hazard": "other",
+   "name": "ΠΟΣΙΜΟ ΤΖΕΛ ΚΡΗΤΙΚΗΣ ΑΛΟΗΣ ΒΙΟΛΟΓΙΚΗΣ ΚΑΛΛΙΕΡΓΕΙΑΣ",
+   "reason": "άθροισμα της αλοΐνης Α και αλοΐνης Β ανέρχεται στα 3,2 mg/kg",
+   "details": "Ο Ε.Φ.Ε.Τ. και ειδικότερα η Περιφερειακή Διεύθυνση Αττικής του Ε.Φ.Ε.Τ., κατά τη διενέργεια ελέγχων στο πλαίσιο του Προγράμματος «Επίσημος έλεγχος για τον προσδιορισμό παραγώγων υδροξυανθρακενίων σε τρόφιμα που περιέχουν εκχύλισμα του φυτού αλόης του έτους 2026», προέβη σε δειγματοληψία προϊόντος με τα στοιχεία: «ΠΟΣΙΜΟ ΤΖΕΛ ΚΡΗΤΙΚΗΣ ΑΛΟΗΣ ΒΙΟΛΟΓΙΚΗΣ ΚΑΛΛΙΕΡΓΕΙΑΣ», όγκου 750 ml, ημερομηνία ελάχιστης διατηρησιμότητας 15/09/2027, το οποίο παράγεται από την επιχείρηση «EVIO IKE», Στρ. Μακρυγίαννη 44, Αγ. Δημήτριος – Αθήνα, Τ.Κ. 173 42. Από τον εργαστηριακό έλεγχο διαπιστώθηκε το άθροισμα της αλοΐνης Α και αλοΐνης Β ανέρχεται στα 3,2 mg/kg. Kατόπιν αυτού, το προϊόν χαρακτηρίστηκε ΜΗ ΑΣΦΑΛΕΣ ΚΑΙ ΕΠΙΒΛΑΒΕΣ ΓΙΑ ΤΗΝ ΥΓΕΙΑ , καθώς δεν συμμορφώνεται με τις απαιτήσεις του Κανονισμού (ΕΕ) 2021/468…",
+   "action": "Καλούνται οι καταναλωτές που έχουν προμηθευτεί το παραπάνω προϊόν (ενδεικτικές φωτογραφίες του προϊόντος παρατίθενται κατωτέρω), να μην το καταναλώσουν.",
+   "source": "ΕΦΕΤ",
+   "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5419-deltio-typou-anaklisi-proiontos-posimo-tzel-kritikis-alois-viologikis-kalliergeias"
   },
   {
    "id": "hr-hapih-32451",
@@ -5380,7 +8648,8 @@
    "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/chia-semena/",
    "gtins": [
     "3859892617509"
-   ]
+   ],
+   "group": "gtin-3859892617509"
   },
   {
    "id": "si-gov-prehransko-dopolnilo-6",
@@ -5639,6 +8908,19 @@
    "action": "Ne plus consommer. Ne plus utiliser le produit.",
    "source": "RappelConso",
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23772/interne"
+  },
+  {
+   "id": "dk-fvst-2026-okt-fremmedlegeme-i-tuber-med-makrelkraes",
+   "country": "DK",
+   "published": "2026-10-12",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Amanda Makrelkræs tube 80 gram",
+   "reason": "Der er risiko for forekomst af metalstykker i produktet",
+   "details": "Der er risiko for forekomst af metalstykker i produktet. Metalstykkerne menes at stamme fra produktionen af emballagen.",
+   "action": "Fødevarestyrelsen råder forbrugerne til at levere produktet tilbage til butikken, hvor det er købt eller at kassere det. Hvis du har spørgsmål til symptomer, skal du kontakte egen læge eller vagtlægen.",
+   "source": "Fødevarestyrelsen",
+   "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/okt/fremmedlegeme-i-tuber-med-makrelkraes"
   },
   {
    "id": "hr-hapih-32360",
