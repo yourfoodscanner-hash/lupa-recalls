@@ -1,22 +1,5 @@
 [
- {
-  "name": "nl-term-p1",
-  "url": "https://www.nvwa.nl/api/search?hash=2443f457f50c71ad382eaf0e1e48f696c1cf91a841cadfe7fd4a6a486ce3320f",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json",
-   "Accept": "application/json"
-  },
-  "body": "{\"requestState\":{\"current\":1,\"filters\":[],\"resultsPerPage\":50,\"searchTerm\":\"veiligheidswaarschuwing\",\"sortDirection\":\"\",\"sortField\":\"\",\"sortList\":[]},\"queryConfig\":{\"filters\":[{\"field\":\"topic\",\"values\":[\"Veiligheidswaarschuwingen\"],\"type\":\"all\"},{\"field\":\"content_type\",\"values\":[\"pro:newsDocument\"],\"type\":\"all\"}],\"result_fields\":{\"url\":{\"raw\":{}},\"page_title\":{\"raw\":{}},\"meta_description\":{\"raw\":{},\"snippet\":{\"size\":140,\"fallback\":true}},\"sort_date\":{\"raw\":{}},\"information_type\":{\"raw\":{}}},\"disjunctiveFacets\":[\"information_type\",\"activity_type\"],\"facets\":{\"information_type\":{\"type\":\"value\",\"size\":100}},\"sortList\":[{\"field\":\"sort_date\",\"direction\":\"desc\"}]}}"
- },
- {
-  "name": "nl-term-p2",
-  "url": "https://www.nvwa.nl/api/search?hash=e1c123961011f35417057fd8c46688336545cbdb78ef03de33765290ef8291ab",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json",
-   "Accept": "application/json"
-  },
-  "body": "{\"requestState\":{\"current\":2,\"filters\":[],\"resultsPerPage\":50,\"searchTerm\":\"veiligheidswaarschuwing\",\"sortDirection\":\"\",\"sortField\":\"\",\"sortList\":[]},\"queryConfig\":{\"filters\":[{\"field\":\"topic\",\"values\":[\"Veiligheidswaarschuwingen\"],\"type\":\"all\"},{\"field\":\"content_type\",\"values\":[\"pro:newsDocument\"],\"type\":\"all\"}],\"result_fields\":{\"url\":{\"raw\":{}},\"page_title\":{\"raw\":{}},\"meta_description\":{\"raw\":{},\"snippet\":{\"size\":140,\"fallback\":true}},\"sort_date\":{\"raw\":{}},\"information_type\":{\"raw\":{}}},\"disjunctiveFacets\":[\"information_type\",\"activity_type\"],\"facets\":{\"information_type\":{\"type\":\"value\",\"size\":100}},\"sortList\":[{\"field\":\"sort_date\",\"direction\":\"desc\"}]}}"
- }
+ { "name": "ires-event", "url": "https://www.accessdata.fda.gov/scripts/ires/index.cfm?Event=100258" },
+ { "name": "ires-event-lc", "url": "https://www.accessdata.fda.gov/scripts/ires/index.cfm?event=100258" },
+ { "name": "fda-enf-event", "url": "https://api.fda.gov/food/enforcement.json?search=event_id:100258&limit=100" }
 ]
