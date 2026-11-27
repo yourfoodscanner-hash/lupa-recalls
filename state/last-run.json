@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-27T14:51:24Z",
- "total": 618,
+ "generated": "2026-11-27T16:18:08Z",
+ "total": 622,
  "curated": 0,
  "byCountry": {
+  "BE": 20,
   "CZ": 54,
-  "DE": 44,
+  "DE": 45,
   "DK": 21,
-  "FR": 169,
-  "BE": 19,
+  "FR": 171,
   "HU": 11,
   "IE": 15,
   "NL": 22,
@@ -35,10 +35,10 @@
   "rappelconso": {
    "enabled": true,
    "ok": true,
-   "seen": 19339,
-   "published": 169,
+   "seen": 19342,
+   "published": 171,
    "dropped": {
-    "kategorija koju LUPA ne prikazuje": 4932,
+    "kategorija koju LUPA ne prikazuje": 4933,
     "starije od prozora": 14238
    },
    "carried": 0,
@@ -47,8 +47,8 @@
   "lebensmittelwarnung": {
    "enabled": true,
    "ok": true,
-   "seen": 241,
-   "published": 44,
+   "seen": 242,
+   "published": 45,
    "dropped": {
     "starije od prozora": 197
    },
@@ -149,9 +149,9 @@
    "enabled": true,
    "ok": true,
    "seen": 30,
-   "published": 19,
+   "published": 20,
    "dropped": {
-    "starije od prozora": 9,
+    "starije od prozora": 8,
     "nije hrana (hrana za životinje, posuđe)": 2
    },
    "carried": 0,

@@ -1,7 +1,21 @@
 {
  "version": 1,
- "generated": "2026-11-27T14:51:24Z",
+ "generated": "2026-11-27T16:18:08Z",
  "recalls": [
+  {
+   "id": "be-favv-terugroeping-van-biofresh-belgium-7",
+   "country": "BE",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "foreign",
+   "name": "Verschillende salades",
+   "brand": "Marqt",
+   "reason": "Mogelijke aanwezigheid van stukjes plastic",
+   "details": "Naam van de producten: salade Buddha bowl (500g), salade powerfull pumpkin (270g) & Side salade turmeric tango (245g); Merk: Marqt; Salade Buddha bowl: 56203 - 28/11//2026 & 29/11/2026; Salade powerfull pumpkin: 56206 - 27/11/2026, 28/11/2026 & 29/11/2026; Side salade turmeric tango: 56207 - 27/11/2026, 28/11/2026 & 29/11/2026; Periode van verkoop: vanaf 23/11/2026 tot en met 25/11/2026; Aard van de verpakking: plastic verpakking",
+   "action": "Biofresh Belgium vraagt haar klanten om dit product niet te consumeren en het terug te brengen naar het verkooppunt waar het wordt terugbetaald.",
+   "source": "FAVV",
+   "url": "https://favv-afsca.be/nl/producten/terugroeping-van-biofresh-belgium-7"
+  },
   {
    "id": "cz-pranyr-202381",
    "country": "CZ",
@@ -62,6 +76,21 @@
    "gtins": [
     "837328000029"
    ]
+  },
+  {
+   "id": "de-lmw-261127-34-by-entenbrust-gaensebrust",
+   "country": "DE",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Geräucherte Entenbrust und Gänsebrust 80 Gramm",
+   "reason": "Krankheitserreger",
+   "details": "Es kann nicht ausgeschlossen werden, dass in den oben genannten Artikeln Salmonellen und Listerien auftreten können.",
+   "lots": "Produktionscharge: Entenbrust: 40248 Gänsebrust: 40897 Die Angaben zu der Charge finden Sie auf dem Etikett im Eindrucksfeld für das Mindesthaltbarkeitsdatum.",
+   "bestBefore": "Mindesthaltbarkeitsdatum: Entenbrust: 11.12.26, 12.12.26 Gänsebrust: 10.12.26",
+   "action": "Empfehlung der Firma Berschneider GmbH: Wir bitten Sie die Produkte mit oben genannten Mindesthaltbarkeitsdaten nicht zu konsumieren und ungeöffnet oder bereits angebrochen in die Märkte zurückzubringen. Der Kaufpreis wird Ihnen selbstverständlich erstattet.",
+   "source": "lebensmittelwarnung.de",
+   "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261127_34_BY_Entenbrust_Gaensebrust/261127_34_BY_Entenbrust_Gaensebrust.html"
   },
   {
    "id": "de-lmw-26117-30-nw-blondierspray",
@@ -151,6 +180,38 @@
    "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le point de vente.",
    "source": "RappelConso",
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24203/interne"
+  },
+  {
+   "id": "fr-rc-2026-11-0210",
+   "country": "FR",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "toxin",
+   "name": "Dosettes de café",
+   "brand": "Bellarom",
+   "reason": "Une analyse a mis en évidence la présence d'ochratoxine a supérieure au seuil règlementaire.",
+   "details": "Autres contaminants chimiques",
+   "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur. Détruire le produit.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24205/interne",
+   "gtins": [
+    "4056489736738",
+    "4056489736745"
+   ]
+  },
+  {
+   "id": "fr-rc-2026-11-0214",
+   "country": "FR",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Merguez véritable",
+   "brand": "Intermarché Pierre de Bresse",
+   "reason": "Salmonella",
+   "details": "Salmonella spp (agent responsable de la salmonellose)",
+   "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le point de vente. Contacter le service consommateur. Détruire le produit.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24209/interne"
   },
   {
    "id": "be-favv-terugroeping-van-coprospect-srl",
