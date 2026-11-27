@@ -1,23 +1,10 @@
 [
- {
-  "name": "nl-robots",
-  "url": "https://www.nvwa.nl/robots.txt"
- },
- {
-  "name": "nl-sitemap",
-  "url": "https://www.nvwa.nl/sitemap.xml",
-  "max": 30000000
- },
- {
-  "name": "nl-detail-nonfood",
-  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/26/veiligheidswaarschuwing-zenwave-elektrische-kruiken"
- },
- {
-  "name": "nl-detail-cosmetic",
-  "url": "https://www.nvwa.nl/actueel/nieuws/2026/11/25/veiligheidswaarschuwing-blondeerspray-150-ml-van-blossity"
- },
- {
-  "name": "nl-warnings",
-  "url": "https://www.nvwa.nl/actueel/veiligheidswaarschuwingen"
- }
+ { "name": "nl-news-sitemap", "url": "https://www.nvwa.nl/news/sitemap.xml", "max": 30000000 },
+ { "name": "nl-overzicht", "url": "https://www.nvwa.nl/actueel/veiligheidswaarschuwingen/overzicht" },
+ { "name": "nl-resourceapi", "url": "https://www.nvwa.nl/site/resourceapi/actueel/veiligheidswaarschuwingen/overzicht" },
+ { "name": "ie-allergy-alerts", "url": "https://www.fsai.ie/news-and-alerts/allergy-alerts" },
+ { "name": "ie-news-alerts-allergens", "url": "https://www.fsai.ie/news-alerts/allergens" },
+ { "name": "ie-all-alerts", "url": "https://www.fsai.ie/news-alert/all-alerts" },
+ { "name": "ie-food-p2", "url": "https://www.fsai.ie/news-and-alerts/food-alerts?page=2" },
+ { "name": "be-list-p1", "url": "https://favv-afsca.be/nl/producten?f%5B0%5D=products_issue_type%3A13" }
 ]
