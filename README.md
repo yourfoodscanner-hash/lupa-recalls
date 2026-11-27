@@ -141,10 +141,22 @@ git push
 | Ruokavirasto „Takaisinvedot” (`ruokavirasto`) | Finska | lista + stranica svakog novog opoziva | 60 dana | 8 (27. 11.) |
 | NVWA „Veiligheidswaarschuwingen” (`nvwa`) | Holandija | pretraga sajta („veiligheidswaarschuwing”, najnovije prvo) + news sitemap i 3 najnovija upozorenja + stranica svakog novog | 45 dana | 22 (27. 11.) |
 | U.S. FDA Enforcement Report (`fda`) — samo v2 | SAD | openFDA API (`api.fda.gov/food/enforcement.json`), hrana i dodaci prehrani | 45 dana | 62 (27. 11.) |
+| FSA food alerts (`fsa`) — samo v2 | Ujedinjeno Kraljevstvo | FSA API (`data.food.gov.uk/food-alerts`, `_view=full`): allergy alerts, recall notices, alerts for action | 45 dana | 20 (27. 11.) |
+| RecallSwiss (`recallswiss`) — samo v2 | Švicarska | servis registra RecallSwiss, sektor „Lebensmittel”, objave BLV-a | 60 dana | 35 (27. 11.) |
+| Mattilsynet „Tilbakekallinger” (`mattilsynet`) — samo v2 | Norveška | lista teme „Mat og drikke” + stranica svakog novog opoziva | 60 dana | 13 (27. 11.) |
 | EU RASFF Consumers' Portal (`rasff`) | 13 zemalja EU (vidi niže) | lista po zemlji (RSS) + javni JSON svake notifikacije | 30 dana | 87 (27. 11.) |
 
 Prozor od 180 dana za Sloveniju, Hrvatsku i BiH je isti kao za ručno unesene obavijesti: ti izvori
 objavljuju malo, pa bi kraći prozor ostavio zemlju praznom.
+
+**Ujedinjeno Kraljevstvo, Švicarska, Norveška (samo v2).** UK: FSA-in otvoreni API daje svako
+upozorenje cijelo, pa su naziv, serija, rok, barkod i savjet kupcima iz svojih polja (barkod samo kad
+je ispravan GTIN koji nije interni broj prodavnice, npr. M&S-ovi osmocifreni brojevi se ne uzimaju);
+„All batches” nije serija. Švicarska: RecallSwiss je savezni registar; čitaju se objave BLV-a u
+sektoru hrane. BLV često objavi i svoje javno upozorenje i opoziv firme za iste proizvode — upozorenje
+se izostavlja kad postoji opoziv tačno istog proizvoda (naziv iz registra) u razmaku od 3 dana; tekst
+je njemački. Norveška: tema „Mat og drikke”; opozivi s liste „Matkontaktmaterialer” (posuđe) se
+izostavljaju; polja proizvoda („Produktnavn”, „Best før”, „GTIN”, „Lot-nummer”) su označena.
 
 **SAD (FDA).** Zvanični sedmični „Enforcement Report” FDA za hranu i dodatke prehrani, preko openFDA:
 zapis po proizvodu, a obavijest po opozivu (`event_id` — jedan opoziv od 50 proizvoda je jedna

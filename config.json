@@ -67,6 +67,18 @@
       "enabled": true,
       "windowDays": 45
     },
+    "fsa": {
+      "enabled": true,
+      "windowDays": 45
+    },
+    "recallswiss": {
+      "enabled": true,
+      "windowDays": 60
+    },
+    "mattilsynet": {
+      "enabled": true,
+      "windowDays": 60
+    },
     "rasff": {
       "enabled": true,
       "windowDays": 30,
