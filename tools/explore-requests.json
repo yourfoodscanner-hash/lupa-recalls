@@ -1,118 +1,31 @@
 [
  {
-  "name": "eu-rasff-consumers-chunk",
-  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-GJQMOZWY.js",
+  "name": "eu-rasff-rss-all",
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/consumer/rss/all/en/"
+ },
+ {
+  "name": "eu-rasff-org-chunk",
+  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-2WIGVTXQ.js",
   "max": 8000000
  },
  {
-  "name": "eu-rasff-list-chunk",
-  "url": "https://webgate.ec.europa.eu/rasff-window/chunk-KEA4RNID.js",
-  "max": 8000000
+  "name": "eu-rasff-markets",
+  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/organization/single/market/"
  },
  {
-  "name": "eu-rasff-config",
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/configuration/"
+  "name": "se-newslist-js",
+  "url": "https://www.livsmedelsverket.se/dist/assets/NewsList-DvKF8-x-.js"
  },
  {
-  "name": "eu-rasff-consumer-post",
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/consumer/search/",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json",
-   "Accept": "application/json"
-  },
-  "body": {
-   "parameters": {
-    "pageNumber": 1,
-    "itemsPerPage": 25
-   }
-  }
+  "name": "se-news-cats",
+  "url": "https://www.livsmedelsverket.se/api/news/getnewscategories"
  },
  {
-  "name": "eu-rasff-consumer-post2",
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/consumer/search",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json",
-   "Accept": "application/json"
-  },
-  "body": {
-   "parameters": {
-    "pageNumber": 1,
-    "itemsPerPage": 25
-   }
-  }
+  "name": "se-news-1",
+  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=20&baseFilter=101"
  },
  {
-  "name": "eu-rasff-consolidated-post",
-  "url": "https://webgate.ec.europa.eu/rasff-window/backend/public/notification/search/consolidated/",
-  "method": "POST",
-  "headers": {
-   "Content-Type": "application/json",
-   "Accept": "application/json"
-  },
-  "body": {
-   "parameters": {
-    "pageNumber": 1,
-    "itemsPerPage": 25
-   }
-  }
- },
- {
-  "name": "dk-detail-1",
-  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-af-oksekebab"
- },
- {
-  "name": "dk-detail-2",
-  "url": "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter/2026/nov/tilbagekald-aebleskiver-og-smaakager"
- },
- {
-  "name": "se-rss",
-  "url": "https://www.livsmedelsverket.se/rss/rss-aterkallanden/"
- },
- {
-  "name": "cz-detail-1",
-  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202417"
- },
- {
-  "name": "cz-detail-2",
-  "url": "https://www.potravinynapranyri.cz/Detail.aspx?id=202401"
- },
- {
-  "name": "gr-detail-1",
-  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5431-deltio-typou-anaklisi-mi-asfaloys-trofimou-bifteki-kotopoulo-hamburger-katepsygmeno"
- },
- {
-  "name": "gr-detail-2",
-  "url": "https://www.efet.gr/index.php/el/enimerosi/deltia-typou/anakleiseis-cat/item/5428-deltio-typou-anaklisi-se-ryzogkofretes"
- },
- {
-  "name": "no-rss-page",
-  "url": "https://www.mattilsynet.no/om-mattilsynet/api/rss",
-  "scan": true
- },
- {
-  "name": "is-detail",
-  "url": "https://www.mast.is/is/um-mast/frettir/frettir/adskotahlutur-i-orkustykki"
- },
- {
-  "name": "be-detail",
-  "url": "https://favv-afsca.be/nl/producten/terugroeping-van-albert-heijn-21"
- },
- {
-  "name": "fi-detail",
-  "url": "https://www.ruokavirasto.fi/elintarvikkeet/ohjeita-kuluttajille/takaisinvedot-2023-/kahden-maapahkinavoituotteen-takaisinveto/"
- },
- {
-  "name": "ie-detail",
-  "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-a-batch-of-card-factory-candy-canes"
- },
- {
-  "name": "md-detail",
-  "url": "https://www.ansa.gov.md/media/rechemare-retragere/atentie-rechemare-de-produs-alimentar.html-4"
- },
- {
-  "name": "mk-detail",
-  "url": "https://fva.gov.mk/mk/260109-otpovikuvane-nebezbedni-proizvodi-nan-lactose-free-nlnwb333-12kh400gr-ro-i-nan-confort-1-lr-denwhspb290-6kh800gr-es"
+  "name": "se-news-2",
+  "url": "https://www.livsmedelsverket.se/api/news/getnewsletters?page=1&pageSize=20"
  }
 ]
