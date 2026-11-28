@@ -1,8 +1,25 @@
 {
  "version": 2,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "country": "SI",
  "recalls": [
+  {
+   "id": "si-gov-hubaku",
+   "country": "SI",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Bio ajdove testenine Soba",
+   "reason": "nedeklarirana prisotnost alergena gorčice",
+   "bestBefore": "1. 6. 2028",
+   "action": "Potrošniki, ki so občutljivi na gorčico, naj živila ne zaužijejo, temveč ga zavržejo ali vrnejo na mesto nakupa. Za vse ostale potrošnike je živilo varno.",
+   "source": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
+   "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/hubaku/",
+   "gtins": [
+    "837328000029"
+   ],
+   "group": "gtin-837328000029"
+  },
   {
    "id": "si-gov-blossity-lightening-blond-spray-150ml-sprej-za-posvetlitev-las",
    "country": "SI",

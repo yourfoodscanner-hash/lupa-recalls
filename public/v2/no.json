@@ -1,8 +1,21 @@
 {
  "version": 2,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "country": "NO",
  "recalls": [
+  {
+   "id": "no-mattilsynet-tilbakekalling-av-monster-energy-utvides-normal-tilbakeka-07ylh6e",
+   "country": "NO",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "other",
+   "name": "Monster Energy (500 ml boks) - 6 varianter, MONSTER ENERGY ULTRA WHITE ZERO SUGAR, MONSTER JUICED MANGO LOCO, MONSTER ENERGY ULTRA STRAWBERRY ZERO SUGAR…",
+   "reason": "Boksene inneholder stoffet L-karnitin-L-tartrat, et stoff som ikke er tillatt i energidrikker i Norge",
+   "details": "Normal Norge AS. Normal AS kaller tilbake seks varianter av Monster Energy (500 ml) fra alle sine butikker i Norge. Årsaken er at boksene inneholder stoffet L-karnitin-L-tartrat, et stoff som ikke er tillatt i energidrikker i Norge.",
+   "action": "Disse boksene fra Normal skal ikke drikkes",
+   "source": "Mattilsynet",
+   "url": "https://www.mattilsynet.no/tilbakekallinger/tilbakekalling-av-monster-energy-utvides-normal-tilbakekaller-seks-varianter"
+  },
   {
    "id": "no-mattilsynet-11-varianter-av-monster-energy-i-500-ml-bokser-tilbakekal-1yzjo66",
    "country": "NO",
@@ -189,20 +202,6 @@
    "gtins": [
     "7032069211144"
    ]
-  },
-  {
-   "id": "no-mattilsynet-orkla-foods-norge-tilbakekaller-grandiosa-original-og-gra-019j470",
-   "country": "NO",
-   "published": "2026-09-28",
-   "category": "food",
-   "hazard": "foreign",
-   "name": "Grandiosa Original 575 g og Grandiosa Original Porsjon 375 g",
-   "reason": "Hardplast.",
-   "details": "Orkla Foods Norge. Orkla Foods Norge tilbakekaller et begrenset parti Grandiosa Original 575 g og Grandiosa Original Porsjon 375 g med best før-datoer fra og med 03.04.2027 til og med 20.04.2027 på grunn av mulig forekomst av hardplast i produktet.",
-   "bestBefore": "03.04.2027, 20.04.2027",
-   "action": "Forbrukere som har disse produktene merket med best før-dato i den oppgitte perioden, bes om å ta bilde av best før-datoen på emballasjen og kontakte Orkla Foods Norge sin forbrukerservice (orklafoods.no) dersom de ønsker refusjon, eller kaste produktet.",
-   "source": "Mattilsynet",
-   "url": "https://www.mattilsynet.no/tilbakekallinger/orkla-foods-norge-tilbakekaller-grandiosa-original-og-grandiosa-original-porsjon-etter-funn-av-hardplast"
   }
  ]
 }

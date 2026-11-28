@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "country": "DE",
  "recalls": [
   {
@@ -667,21 +667,6 @@
    "action": "Aus Gründen des vorbeugenden Verbraucherschutzes wird vom Verzehr des betroffenen Produkts abgeraten. Verbraucherinnen und Verbraucher, die die oben genannten Produkte gekauft haben, werden gebeten, dieses nicht zu verzehren und bis zum 15.10.2026 in die jeweilige Verkaufsstelle zurückzubringen oder an Wurzener zurückzusenden. Der Verkaufspreis wird auch ohne Kassenbon erstattet.",
    "source": "lebensmittelwarnung.de",
    "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261009_12_SN_Wurzener_Weisse_Bohnen/261009_12_SN_Wurzener_Weisse_Bohnen.html"
-  },
-  {
-   "id": "de-lmw-261013-13-nw-herbal-paste",
-   "country": "DE",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Pro Naturious, Mixed Herbal Blend Paste, 240 Gramm",
-   "reason": "Gesundheitsschädliche Substanz",
-   "details": "Das Produkt enthält das nicht deklarierte, verschreibungspflichtige Arzneimittel Sildenafil.",
-   "lots": "20251511",
-   "bestBefore": "Mindesthaltbarkeitsdatum: 15.11.2028",
-   "action": "Falls Sie im Besitz des oben genannten Produkts sind, verzehren Sie dieses bitte nicht. Pressemitteilung / Information der Öffentlichkeit des Ministeriums für Landwirtschaft und Verbraucherschutz (MLV) des Landes Nordrhein-Westfalen (PDF, 246KB, Datei ist nicht barrierefrei)",
-   "source": "lebensmittelwarnung.de",
-   "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261013_13_NW_Herbal_Paste/261013_13_NW_Herbal_Paste_Meldung.html"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "country": "GB",
  "recalls": [
   {
@@ -259,35 +259,6 @@
    "action": "If you have bought the above product, do not eat it. Instead, return it to where you bought it from for a full refund.",
    "source": "Food Standards Agency (FSA)",
    "url": "https://alerts.food.gov.uk/news-alerts/alert/fsa-aa-45-2026-update-1"
-  },
-  {
-   "id": "gb-fsa-aa-45-2026",
-   "country": "GB",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "allergen",
-   "name": "Skinny Crunch Light Peanut Butter Bars",
-   "reason": "Undeclared peanuts",
-   "details": "Halo Foods Limited. Skinny Crunch Light Peanut Butter Bars 5 x 20 g. Peanuts. This product contains Peanuts making it a possible health risk for anyone with an allergy to Peanuts. The affected products have been supplied to selected Sainsburys stores in England and selected ASDA stores in England and Scotland",
-   "lots": "6238 (08:30 – 10:30)",
-   "bestBefore": "August 2027",
-   "action": "If you have bought the above product, do not eat it. Instead, return it to where you bought it from for a full refund.",
-   "source": "Food Standards Agency (FSA)",
-   "url": "https://alerts.food.gov.uk/news-alerts/alert/fsa-aa-45-2026"
-  },
-  {
-   "id": "gb-fsa-prin-49-2026",
-   "country": "GB",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "other",
-   "name": "Waitrose Tuna Pate",
-   "reason": "Incorrect use-by date",
-   "details": "Waitrose. Waitrose Tuna Pate 115g. The product is labelled with an incorrect use-by date of 17 December 2026, which makes it unsafe to eat after the correct use-by date of 17 October 2026",
-   "bestBefore": "17 December 2026",
-   "action": "If you have bought the above product, please do not consume it. Instead, return it to your local Waitrose store for a full refund. For further information, please contact Waitrose Customer Care 0800 188 884.",
-   "source": "Food Standards Agency (FSA)",
-   "url": "https://alerts.food.gov.uk/news-alerts/alert/fsa-prin-49-2026"
   }
  ]
 }

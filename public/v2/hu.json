@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "country": "HU",
  "recalls": [
   {
@@ -143,20 +143,6 @@
    "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező termékeket ne fogyasszák el!",
    "source": "Nébih",
    "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2655721620"
-  },
-  {
-   "id": "hu-nebih-2646449927",
-   "country": "HU",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "other",
-   "name": "Aszalt sárgabarack termékek",
-   "brand": "NaturFood és SPAR",
-   "reason": "Határérték feletti kén-dioxid-tartalom",
-   "details": "A kén-dioxid szárított gyümölcsökben engedélyezett adalékanyag, azonban az arra érzékeny embereknél allergiás (esetenként súlyos) reakciót okozhat. A probléma jellegéről bővebben itt olvashat.",
-   "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező terméket ne fogyasszák el!",
-   "source": "Nébih",
-   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2646449927"
   }
  ]
 }

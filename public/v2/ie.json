@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "country": "IE",
  "recalls": [
   {
@@ -211,20 +211,6 @@
    "action": "Consumers are advised not to eat the implicated batches.",
    "source": "FSAI",
    "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-centra-inspired-by-supervalu-smoked-salm"
-  },
-  {
-   "id": "ie-fsai-recall-of-specific-batches-of-ready-brek-original",
-   "country": "IE",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "foreign",
-   "name": "Ready brek Original, Tesco Super Smooth Porridge",
-   "reason": "Possible presence of flour beetles",
-   "details": "The presence of flour beetles would render the products unfit for human consumption.",
-   "bestBefore": "08/07/2027, 09/07/2027, 29/07/2027, 04/08/2027, 19/08/2027, 20/08/2027, 15/09/2027, 16/09/2027, 01/07/2027…",
-   "action": "Consumers are advised not to eat the implicated batches.",
-   "source": "FSAI",
-   "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-specific-batches-of-ready-brek-original"
   }
  ]
 }

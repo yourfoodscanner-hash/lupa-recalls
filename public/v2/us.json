@@ -1,8 +1,43 @@
 {
  "version": 2,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "country": "US",
  "recalls": [
+  {
+   "id": "us-fda-advanced-nutritional-supplements-llc-issues-nationwide-recall-pre-15qx4sx",
+   "country": "US",
+   "published": "2026-11-28",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Advanced Nutritional Supplements LLC PRE-FORMANCE BLACK Extreme Preworkout",
+   "reason": "Undeclared DMAA (1,4-dimethylamylamine)",
+   "details": "Advanced Nutritional Supplements LLC. Advanced Nutritional Supplements LLC of Harrisburg, PA is recalling all lots and flavors of United Nutra PRE-FORMANCE BLACK, a powdered pre-workout dietary supplement, to the consumer level. Laboratory testing conducted by the U.S. Food and Drug Administration (FDA) identified the presence of undeclared DMAA (1,4-dimethylamylamine).",
+   "lots": "48B891, 29007H, 55R40",
+   "action": "Consumers who purchased or received PRE-FORMANCE BLACK should immediately discontinue use, set aside any remaining containers, and contact Advanced Nutritional Supplements LLC for return instructions.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/advanced-nutritional-supplements-llc-issues-nationwide-recall-pre-formance-black-due-undeclared-dmaa",
+   "gtins": [
+    "845215988602",
+    "845215988701",
+    "725272730843"
+   ]
+  },
+  {
+   "id": "us-fda-abdallah-candies-issues-voluntary-recall-plain-chocolate-fudge-du-1nt6v50",
+   "country": "US",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Abdallah Candies Plain Chocolate Fudge",
+   "reason": "Undeclared walnut allergen",
+   "details": "Abdallah Candies. Abdallah Candies is voluntarily recalling a specific lot of Chocolate Fudge due to undeclared Walnut allergen. People who have an allergy or severe sensitivity to walnuts run the risk of serious or life-threatening allergic reaction if they consume this product.",
+   "action": "Consumers who have purchased the affected product are urged not to consume it.",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/abdallah-candies-issues-voluntary-recall-plain-chocolate-fudge-due-undeclared-allergen",
+   "gtins": [
+    "766684006355"
+   ]
+  },
   {
    "id": "us-fda-prime-food-processing-llc-issues-safety-warning-regarding-two-une-0c8xsj9",
    "country": "US",
@@ -851,6 +886,23 @@
    "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99442&limit=100",
    "gtins": [
     "850043378020"
+   ]
+  },
+  {
+   "id": "us-fda-99686",
+   "country": "US",
+   "published": "2026-10-14",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Donutful Chocolate Dipped Vanilla Cake Donuts - 7.05oz/10ct.Case Configuration 5 count carton, 6 cartons per case",
+   "reason": "Undeclared Milk.",
+   "details": "The Better Bakehouse Snack Company (Las Vegas, NV). FDA Class I. Product was distributed nationwide.",
+   "lots": "26078",
+   "bestBefore": "09/15/2026",
+   "source": "U.S. Food and Drug Administration (FDA)",
+   "url": "https://api.fda.gov/food/enforcement.json?search=event_id:99686&limit=100",
+   "gtins": [
+    "850041392103"
    ]
   },
   {

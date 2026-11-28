@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "country": "FR",
  "recalls": [
   {
@@ -4294,80 +4294,6 @@
    "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur.",
    "source": "RappelConso",
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23788/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0093",
-   "country": "FR",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Paupiette chorizo",
-   "reason": "Non conformite microbiologique",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23764/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0094",
-   "country": "FR",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "toxin",
-   "name": "Filet de maquereau",
-   "brand": "Produit Vendu en Frais Emballé",
-   "reason": "Presence histamine >200mg",
-   "details": "Autres contaminants biologiques. Toxines endogènes : histamine",
-   "action": "Ne plus consommer. Rapporter le produit au point de vente.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23765/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0096",
-   "country": "FR",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Creme crue",
-   "brand": "La Ferme du Bignon",
-   "reason": "Détection de listéria",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer. Ne plus utiliser le produit. Détruire le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23767/interne"
-  },
-  {
-   "id": "fr-rc-2026-10-0097",
-   "country": "FR",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Salade nordique",
-   "brand": "Emb 94073 le",
-   "reason": "Présence de listéria monocytogénès",
-   "details": "Listeria monocytogenes (agent responsable de la listériose)",
-   "action": "Ne plus consommer.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23768/interne",
-   "gtins": [
-    "3665287019083",
-    "3665287019090",
-    "366528701912"
-   ]
-  },
-  {
-   "id": "fr-rc-2026-10-0101",
-   "country": "FR",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Chrysanthemum bud",
-   "brand": "Nature's Best Harvest",
-   "reason": "Présence de pesticides",
-   "details": "Dépassement des limites autorisées de pesticides",
-   "action": "Ne plus consommer. Ne plus utiliser le produit.",
-   "source": "RappelConso",
-   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23772/interne"
   }
  ]
 }

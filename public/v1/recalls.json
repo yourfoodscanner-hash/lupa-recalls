@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "recalls": [
   {
    "id": "be-favv-terugroeping-van-biofresh-belgium-7",
@@ -310,6 +310,23 @@
    "gtins": [
     "5449000131836"
    ]
+  },
+  {
+   "id": "si-gov-hubaku",
+   "country": "SI",
+   "published": "2026-11-27",
+   "category": "food",
+   "hazard": "allergen",
+   "name": "Bio ajdove testenine Soba",
+   "reason": "nedeklarirana prisotnost alergena gorčice",
+   "bestBefore": "1. 6. 2028",
+   "action": "Potrošniki, ki so občutljivi na gorčico, naj živila ne zaužijejo, temveč ga zavržejo ali vrnejo na mesto nakupa. Za vse ostale potrošnike je živilo varno.",
+   "source": "Uprava za varno hrano, veterinarstvo in varstvo rastlin",
+   "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/hubaku/",
+   "gtins": [
+    "837328000029"
+   ],
+   "group": "gtin-837328000029"
   },
   {
    "id": "be-favv-terugroeping-van-coprospect-srl",
@@ -8733,6 +8750,98 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/23760/interne"
   },
   {
+   "id": "fr-rc-2026-10-0112",
+   "country": "FR",
+   "published": "2026-10-16",
+   "category": "baby",
+   "hazard": "other",
+   "name": "Auchan baby bio croissance 6x1l",
+   "brand": "Auchan",
+   "reason": "Suite à une odeur et/ou d'un goût inhabituel rappelant le poisson",
+   "details": "Modifications organoleptiques",
+   "action": "Ne plus consommer. Rapporter le produit au point de vente. Contacter le service consommateur.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23808/interne",
+   "gtins": [
+    "3596710527519",
+    "3596710527526"
+   ],
+   "group": "gtin-3596710527519"
+  },
+  {
+   "id": "fr-rc-2026-10-0114",
+   "country": "FR",
+   "published": "2026-10-16",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Crevette entière cuite réfrigérée 20/30 sauvage penaeus indicus péchée en océan indien ouest fao51",
+   "reason": "Présence de listeria monocytogenes",
+   "details": "Listeria monocytogenes (agent responsable de la listériose)",
+   "action": "Ne plus consommer. Détruire le produit.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23785/interne",
+   "gtins": [
+    "33760082430796"
+   ]
+  },
+  {
+   "id": "fr-rc-2026-10-0115",
+   "country": "FR",
+   "published": "2026-10-16",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Crevette entière cuite réfrigérée 30/40 sauvage penaeus monocéros péchées en océan indien ouest (fao51)",
+   "reason": "Présence de listeria monocytogenes",
+   "details": "Listeria monocytogenes (agent responsable de la listériose)",
+   "action": "Ne plus consommer. Détruire le produit.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23786/interne",
+   "gtins": [
+    "3760082437190"
+   ]
+  },
+  {
+   "id": "fr-rc-2026-10-0119",
+   "country": "FR",
+   "published": "2026-10-16",
+   "category": "food",
+   "hazard": "microbe",
+   "name": "Poulet tex mex",
+   "reason": "E.leclerc cholet ribou procède à un rappel des produits suivants suite à la mise en évidence de la présence de salmonelle.",
+   "details": "Salmonella spp (agent responsable de la salmonellose)",
+   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Détruire le produit.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23790/interne"
+  },
+  {
+   "id": "fr-rc-2026-10-0127",
+   "country": "FR",
+   "published": "2026-10-16",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Og kush indoor delta9 thc 0.11%",
+   "brand": "Cbd'eau",
+   "reason": "Taux delta9 thc supérieur au taux recommandé de l'anses",
+   "details": "Présence de substance interdite",
+   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Contacter le service consommateur.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23798/interne"
+  },
+  {
+   "id": "fr-rc-2026-10-0128",
+   "country": "FR",
+   "published": "2026-10-16",
+   "category": "food",
+   "hazard": "chemical",
+   "name": "Tangerine dream indoor delta9 thc 0.14%",
+   "brand": "Cbd'eau",
+   "reason": "Taux delta 9 supérieur au taux recommandé par l'anses",
+   "details": "Présence de substance interdite",
+   "action": "Ne plus consommer. Ne plus utiliser le produit. Rapporter le produit au point de vente. Contacter le point de vente. Contacter le service consommateur.",
+   "source": "RappelConso",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/23799/interne"
+  },
+  {
    "id": "hr-hapih-32473",
    "country": "HR",
    "published": "2026-10-16",
@@ -8913,7 +9022,8 @@
    "gtins": [
     "3596710527519",
     "3596710527526"
-   ]
+   ],
+   "group": "gtin-3596710527519"
   },
   {
    "id": "si-gov-chia-semena",
@@ -9001,100 +9111,6 @@
    "action": "Potrošnikom, ki so prehransko dopolnilo že kupili, svetujemo, da ga ne zaužijejo.",
    "source": "Zdravstveni inšpektorat",
    "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/prehransko-dopolnilo-dr-hard/"
-  },
-  {
-   "id": "de-lmw-261013-13-nw-herbal-paste",
-   "country": "DE",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "chemical",
-   "name": "Pro Naturious, Mixed Herbal Blend Paste, 240 Gramm",
-   "reason": "Gesundheitsschädliche Substanz",
-   "details": "Das Produkt enthält das nicht deklarierte, verschreibungspflichtige Arzneimittel Sildenafil.",
-   "lots": "20251511",
-   "bestBefore": "Mindesthaltbarkeitsdatum: 15.11.2028",
-   "action": "Falls Sie im Besitz des oben genannten Produkts sind, verzehren Sie dieses bitte nicht. Pressemitteilung / Information der Öffentlichkeit des Ministeriums für Landwirtschaft und Verbraucherschutz (MLV) des Landes Nordrhein-Westfalen (PDF, 246KB, Datei ist nicht barrierefrei)",
-   "source": "lebensmittelwarnung.de",
-   "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/10_Oktober/261013_13_NW_Herbal_Paste/261013_13_NW_Herbal_Paste_Meldung.html"
-  },
-  {
-   "id": "hu-nebih-2646449927",
-   "country": "HU",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "other",
-   "name": "Aszalt sárgabarack termékek",
-   "brand": "NaturFood és SPAR",
-   "reason": "Határérték feletti kén-dioxid-tartalom",
-   "details": "A kén-dioxid szárított gyümölcsökben engedélyezett adalékanyag, azonban az arra érzékeny embereknél allergiás (esetenként súlyos) reakciót okozhat. A probléma jellegéről bővebben itt olvashat.",
-   "action": "A Nébih kéri a vásárlókat, hogy az alábbi azonosító adatokkal megegyező terméket ne fogyasszák el!",
-   "source": "Nébih",
-   "url": "https://portal.nebih.gov.hu/l/termekvisszahivas/2646449927"
-  },
-  {
-   "id": "ie-fsai-recall-of-specific-batches-of-ready-brek-original",
-   "country": "IE",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "foreign",
-   "name": "Ready brek Original, Tesco Super Smooth Porridge",
-   "reason": "Possible presence of flour beetles",
-   "details": "The presence of flour beetles would render the products unfit for human consumption.",
-   "bestBefore": "08/07/2027, 09/07/2027, 29/07/2027, 04/08/2027, 19/08/2027, 20/08/2027, 15/09/2027, 16/09/2027, 01/07/2027…",
-   "action": "Consumers are advised not to eat the implicated batches.",
-   "source": "FSAI",
-   "url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-specific-batches-of-ready-brek-original"
-  },
-  {
-   "id": "lu-alva-2026-10-rappel-coriandre-moulue-de-la-marque-cook",
-   "country": "LU",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Coriandre moulue Bio",
-   "brand": "COOK",
-   "reason": "Présence possible de Salmonella",
-   "details": "Période de vente : 08/09/2026-13/10/2026. Distribution dans des points de vente au Luxembourg.",
-   "bestBefore": "31/08/2028",
-   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
-   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/rappel-coriandre-moulue-de-la-marque-cook.html",
-   "gtins": [
-    "03417960022619"
-   ]
-  },
-  {
-   "id": "nl-nvwa-cook-kerrie-mild",
-   "country": "NL",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Cook Kerrie mild",
-   "reason": "Het product bevat mogelijk salmonella",
-   "details": "Product: Cook Kerrie mild, Streepjescode: 3417960022657, Artikelnummer Odin: 10743, Ten minste houdbaar tot (THT): 08-2028",
-   "bestBefore": "08-2028",
-   "action": "Gebruik de kerrie niet.",
-   "source": "NVWA",
-   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/13/veiligheidswaarschuwing-cook-kerrie-mild",
-   "gtins": [
-    "3417960022657"
-   ]
-  },
-  {
-   "id": "nl-nvwa-cook-korianderzaad-gemalen",
-   "country": "NL",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Cook korianderzaad Gemalen",
-   "reason": "Het product bevat mogelijk salmonella",
-   "details": "Product: Cook korianderzaad Gemalen, Streepjescode: 3417960022619, Artikelnummer: 5005719, Artikelnummer Odin: 10749, Ten minste houdbaar tot (THT): 08-2028",
-   "bestBefore": "08-2028",
-   "action": "Gebruik het korianderzaad niet.",
-   "source": "NVWA",
-   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/13/veiligheidswaarschuwing-cook-korianderzaad-gemalen",
-   "gtins": [
-    "3417960022619"
-   ]
   },
   {
    "id": "pl-gis-mozliwa-obecnosc-fragmentow-szkla-w-jednej-partii-wody-butelkowanej",

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "country": "NL",
  "recalls": [
   {
@@ -331,40 +331,6 @@
    "action": "Eet het product niet als u allergisch bent voor selderij.",
    "source": "NVWA",
    "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/16/veiligheidswaarschuwing-peterselie-krul-40g-van-aldi-allergenen"
-  },
-  {
-   "id": "nl-nvwa-cook-kerrie-mild",
-   "country": "NL",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Cook Kerrie mild",
-   "reason": "Het product bevat mogelijk salmonella",
-   "details": "Product: Cook Kerrie mild, Streepjescode: 3417960022657, Artikelnummer Odin: 10743, Ten minste houdbaar tot (THT): 08-2028",
-   "bestBefore": "08-2028",
-   "action": "Gebruik de kerrie niet.",
-   "source": "NVWA",
-   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/13/veiligheidswaarschuwing-cook-kerrie-mild",
-   "gtins": [
-    "3417960022657"
-   ]
-  },
-  {
-   "id": "nl-nvwa-cook-korianderzaad-gemalen",
-   "country": "NL",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Cook korianderzaad Gemalen",
-   "reason": "Het product bevat mogelijk salmonella",
-   "details": "Product: Cook korianderzaad Gemalen, Streepjescode: 3417960022619, Artikelnummer: 5005719, Artikelnummer Odin: 10749, Ten minste houdbaar tot (THT): 08-2028",
-   "bestBefore": "08-2028",
-   "action": "Gebruik het korianderzaad niet.",
-   "source": "NVWA",
-   "url": "https://www.nvwa.nl/actueel/nieuws/2026/10/13/veiligheidswaarschuwing-cook-korianderzaad-gemalen",
-   "gtins": [
-    "3417960022619"
-   ]
   }
  ]
 }

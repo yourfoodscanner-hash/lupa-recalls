@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "country": "LU",
  "recalls": [
   {
@@ -400,23 +400,6 @@
     "3596710527526"
    ],
    "group": "gtin-3596710527519"
-  },
-  {
-   "id": "lu-alva-2026-10-rappel-coriandre-moulue-de-la-marque-cook",
-   "country": "LU",
-   "published": "2026-10-13",
-   "category": "food",
-   "hazard": "microbe",
-   "name": "Coriandre moulue Bio",
-   "brand": "COOK",
-   "reason": "Présence possible de Salmonella",
-   "details": "Période de vente : 08/09/2026-13/10/2026. Distribution dans des points de vente au Luxembourg.",
-   "bestBefore": "31/08/2028",
-   "source": "Administration luxembourgeoise vétérinaire et alimentaire (ALVA)",
-   "url": "https://securite-alimentaire.public.lu/fr/actualites/alertes/2026/10/rappel-coriandre-moulue-de-la-marque-cook.html",
-   "gtins": [
-    "03417960022619"
-   ]
   }
  ]
 }

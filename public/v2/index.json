@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-11-27T18:37:47Z",
+ "generated": "2026-11-28T11:38:22Z",
  "countries": [
   {
    "country": "AT",
@@ -54,8 +54,8 @@
   {
    "country": "DE",
    "file": "de.json",
-   "recalls": 45,
-   "chars": 44250,
+   "recalls": 44,
+   "chars": 43301,
    "newest": "2026-11-27"
   },
   {
@@ -89,15 +89,15 @@
   {
    "country": "FR",
    "file": "fr.json",
-   "recalls": 282,
-   "chars": 160335,
+   "recalls": 277,
+   "chars": 157865,
    "newest": "2026-11-27"
   },
   {
    "country": "GB",
    "file": "gb.json",
-   "recalls": 20,
-   "chars": 20808,
+   "recalls": 18,
+   "chars": 19146,
    "newest": "2026-11-26"
   },
   {
@@ -117,15 +117,15 @@
   {
    "country": "HU",
    "file": "hu.json",
-   "recalls": 11,
-   "chars": 6228,
+   "recalls": 10,
+   "chars": 5544,
    "newest": "2026-11-26"
   },
   {
    "country": "IE",
    "file": "ie.json",
-   "recalls": 16,
-   "chars": 13711,
+   "recalls": 15,
+   "chars": 12987,
    "newest": "2026-11-27"
   },
   {
@@ -152,8 +152,8 @@
   {
    "country": "LU",
    "file": "lu.json",
-   "recalls": 26,
-   "chars": 20612,
+   "recalls": 25,
+   "chars": 19940,
    "newest": "2026-11-27"
   },
   {
@@ -173,16 +173,16 @@
   {
    "country": "NL",
    "file": "nl.json",
-   "recalls": 22,
-   "chars": 16610,
+   "recalls": 20,
+   "chars": 15346,
    "newest": "2026-11-26"
   },
   {
    "country": "NO",
    "file": "no.json",
    "recalls": 13,
-   "chars": 12218,
-   "newest": "2026-11-26"
+   "chars": 12101,
+   "newest": "2026-11-27"
   },
   {
    "country": "PL",
@@ -215,9 +215,9 @@
   {
    "country": "SI",
    "file": "si.json",
-   "recalls": 103,
-   "chars": 76891,
-   "newest": "2026-11-26"
+   "recalls": 104,
+   "chars": 77608,
+   "newest": "2026-11-27"
   },
   {
    "country": "SK",
@@ -229,9 +229,9 @@
   {
    "country": "US",
    "file": "us.json",
-   "recalls": 60,
-   "chars": 54562,
-   "newest": "2026-11-23"
+   "recalls": 63,
+   "chars": 57460,
+   "newest": "2026-11-28"
   },
   {
    "country": "XK",
